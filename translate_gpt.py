@@ -65,28 +65,16 @@ class Subtitle:
             timestamps_batches.append(timestamps)
         return processed_batches, timestamps_batches
         
-    def segments_to_srt( segs):
-        text = []
-        for i, s in tqdm(enumerate(segs)):
-            text.append(str(i + 1))
 
-            time_start = s['start']
-            hours, minutes, seconds = int(time_start / 3600), (time_start / 60) % 60, (time_start) % 60
-            timestamp_start = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
-            timestamp_start = timestamp_start.replace('.', ',')
-            time_end = s['end']
-            hours, minutes, seconds = int(time_end / 3600), (time_end / 60) % 60, (time_end) % 60
-            timestamp_end = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
-            timestamp_end = timestamp_end.replace('.', ',')
-            text.append(timestamp_start + " --> " + timestamp_end)
+    
+    def add_dual_subtitles(self, input_file, translated_transcript):
+    
+            print("Combining subtitles...")
+            print(self.content)
+            segs_tr = copy.deepcopy(self.content)
+            #print(segs_tr)
+            #print(translated_transcript)
 
-            formatted_text = s['text'].strip().replace('\n', ' ')
-            text.append(formatted_text + "\n")
-
-        return "\n".join(text)
-
-    def combine_translated(segs, text_translated):
-            "Combine the translated text into the 'text' field of segments."
             comb = []
             for s, tr in zip(segs, text_translated):
                 seg_copy = copy.deepcopy(s)
@@ -94,18 +82,25 @@ class Subtitle:
                 seg_copy['text'] = tr
                 comb.append(seg_copy)
                 comb.append(s)
-    
-            return comb
-    
-    def add_dual_subtitles(self, input_file, translated_transcript):
-    
-            print("Combining subtitles...")
-            print(self.content)
-            segs_tr = copy.deepcopy(self.content)
-            print(segs_tr)
-            print(translated_transcript)
-            segs_tr = self.combine_translated(segs_tr, translated_transcript)
-            sub_tr = self.segments_to_srt(segs_tr)
+            segs_tr = comb
+            text = []
+            for i, s in tqdm(enumerate(segs_tr)):
+                text.append(str(i + 1))
+
+                time_start = s['start']
+                hours, minutes, seconds = int(time_start / 3600), (time_start / 60) % 60, (time_start) % 60
+                timestamp_start = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
+                timestamp_start = timestamp_start.replace('.', ',')
+                time_end = s['end']
+                hours, minutes, seconds = int(time_end / 3600), (time_end / 60) % 60, (time_end) % 60
+                timestamp_end = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
+                timestamp_end = timestamp_end.replace('.', ',')
+                text.append(timestamp_start + " --> " + timestamp_end)
+
+                formatted_text = s['text'].strip().replace('\n', ' ')
+                text.append(formatted_text + "\n")
+                
+            sub_tr = "\n".join(text)
             sub_translated = os.path.join(os.path.dirname(input_file), f'{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt_dual_sub.srt')
             with open(sub_translated, 'w') as f:
                 f.write(sub_tr)
