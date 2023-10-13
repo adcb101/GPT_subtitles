@@ -104,8 +104,8 @@ class Subtitle:
             segs_tr = copy.deepcopy(self.content)
             print(segs_tr)
             print(translated_transcript)
-            segs_tr = combine_translated(segs_tr, translated_transcript)
-            sub_tr = segments_to_srt(segs_tr)
+            segs_tr = self.combine_translated(segs_tr, translated_transcript)
+            sub_tr = self.segments_to_srt(segs_tr)
             sub_translated = os.path.join(os.path.dirname(input_file), f'{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt_dual_sub.srt')
             with open(sub_translated, 'w') as f:
                 f.write(sub_tr)
