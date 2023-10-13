@@ -7,6 +7,7 @@ import argparse
 import time
 from dotenv import load_dotenv
 import logging
+import copy
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -593,6 +594,52 @@ Guidelines:
         
         
         return translated
+def segments_to_srt( segs):
+        text = []
+        for i, s in tqdm(enumerate(segs)):
+            text.append(str(i + 1))
+
+            time_start = s['start']
+            hours, minutes, seconds = int(time_start / 3600), (time_start / 60) % 60, (time_start) % 60
+            timestamp_start = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
+            timestamp_start = timestamp_start.replace('.', ',')
+            time_end = s['end']
+            hours, minutes, seconds = int(time_end / 3600), (time_end / 60) % 60, (time_end) % 60
+            timestamp_end = "%02d:%02d:%06.3f" % (hours, minutes, seconds)
+            timestamp_end = timestamp_end.replace('.', ',')
+            text.append(timestamp_start + " --> " + timestamp_end)
+
+            formatted_text = s['text'].strip().replace('\n', ' ')
+            text.append(formatted_text + "\n")
+
+        return "\n".join(text)
+
+def combine_translated(segs, text_translated):
+        "Combine the translated text into the 'text' field of segments."
+        comb = []
+        for s, tr in zip(segs, text_translated):
+            seg_copy = copy.deepcopy(s)
+            # c = f"{tr.strip()}\\N{s['text'].strip()}\n"
+            seg_copy['text'] = tr
+            comb.append(seg_copy)
+            comb.append(s)
+
+        return comb
+
+def add_dual_subtitles(input_file, eng_transcript, translated_transcript):
+
+        print("Combining subtitles...")
+        segs_tr = copy.deepcopy(eng_transcript['segments'])
+        # print(segs_tr)
+        # print(translated_transcript)
+        segs_tr = combine_translated(segs_tr, translated_transcript)
+        sub_tr = segments_to_srt(segs_tr)
+        sub_translated = os.path.join(os.path.dirname(input_file), f'{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt_dual_sub.srt')
+        with open(sub_translated, 'w') as f:
+            f.write(sub_tr)
+
+        print(f'combine translated subtitle is saved at {sub_translated}')
+
 
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
@@ -605,9 +652,9 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
     subtitle_batches, timestamps_batches = subtitle.get_processed_batches_and_timestamps(batch_size)
     translated_subtitles = translator.batch_translate(subtitle_batches, timestamps_batches)
 
-    output_file = os.path.join(os.path.dirname(input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt.srt")
-    subtitle.save_subtitles(output_file, translated_subtitles)
-    
+    #output_file = os.path.join(os.path.dirname(input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt.srt")
+    #subtitle.save_subtitles(output_file, translated_subtitles)
+    add_dual_subtitles(input_file,subtitle,translated_subtitles)
     return translated_subtitles
 
     
