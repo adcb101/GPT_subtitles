@@ -101,7 +101,7 @@ class Subtitle:
     
             print("Combining subtitles...")
             print(self.content)
-            segs_tr = copy.deepcopy(self.content['segments'])
+            segs_tr = copy.deepcopy(self.content)
             print(segs_tr)
             print(translated_transcript)
             segs_tr = combine_translated(segs_tr, translated_transcript)
@@ -656,7 +656,7 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
 
     output_file = os.path.join(os.path.dirname(input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt.srt")
     #
-    #subtitle.save_subtitles(output_file, translated_subtitles)
+    subtitle.save_subtitles(output_file, translated_subtitles)
     #print(translated_transcript)
     subtitle.add_dual_subtitles(input_file,translated_subtitles)
     return translated_subtitles
