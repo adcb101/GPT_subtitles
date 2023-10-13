@@ -76,7 +76,7 @@ class Subtitle:
             #print(translated_transcript)
 
             comb = []
-            for s, tr in zip(segs_tr, text_translated):
+            for s, tr in zip(segs_tr, translated_transcript):
                 seg_copy = copy.deepcopy(s)
                 # c = f"{tr.strip()}\\N{s['text'].strip()}\n"
                 seg_copy['text'] = tr
