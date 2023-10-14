@@ -79,10 +79,11 @@ class Subtitle:
             for s, tr in zip(segs_tr, translated_transcript):
                 seg_copy = copy.deepcopy(s)
                 # c = f"{tr.strip()}\\N{s['text'].strip()}\n"
-                seg_copy['text'] = tr
-                comb.append(seg_copy)
+                #seg_copy['text'] = tr
+                comb.append(tr)
                 comb.append(s)
             segs_tr = comb
+            print(segs_tr)
             text = []
             for i, s in tqdm(enumerate(segs_tr)):
                 text.append(str(i + 1))
