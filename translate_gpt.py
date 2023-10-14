@@ -654,8 +654,8 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
     #
     subtitle.save_subtitles(output_file, translated_subtitles)
     #print(translated_transcript)
-    subtitle.add_dual_subtitles(input_file,translated_subtitles)
-    return translated_subtitles
+    #subtitle.add_dual_subtitles(input_file,translated_subtitles)
+    #return translated_subtitles
 
     
 def main():
