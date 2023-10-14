@@ -254,7 +254,8 @@ class SubtitleProcessor:
         if self.translation_method == 'gpt':
             from translate_gpt import translate_with_gpt
             # Translate the transcript to another language using gpt-3.5 or gpt-4 Translate
-             translate_with_gpt(input_file=srt_file, target_language=self.target_language, source_language=self.video_language)
+            translate_with_gpt(input_file=srt_file, target_language=self.target_language,source_language=self.video_language,model='gpt-3.5-turbo-16k',video_info='请准确翻译期权术语', no_translation_mapping=False, load_from_tmp=False )
+             
              # Add dual subtitles to the video
              #self.add_dual_subtitles(transcript, translated_transcript)
 
