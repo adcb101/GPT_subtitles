@@ -357,7 +357,7 @@ Guidelines:
             messages.append({"role": "assistant", "content": ujson.dumps(example["output"], ensure_ascii=False, indent=2)})
         
         messages.append({"role": "user", "content": ujson.dumps(user_input, ensure_ascii=False, indent=2)})
-        
+        print(messages)
         self.logger.info("========Messages========\n")
         self.logger.info(messages)
         self.logger.info("========End of Messages========\n")
