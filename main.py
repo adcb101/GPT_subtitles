@@ -282,7 +282,7 @@ if __name__ == "__main__":
     parser.add_argument('--target_language', help='The target language for translation.', default='zh')
     parser.add_argument("--model", help="""Choose one of the Whisper model""", default='small', type=str, choices=['tiny', 'base', 'small', 'medium', 'large'])
     parser.add_argument('--translation_method', help='The method to use for translation. Options: "m2m100" or "google" or "whisper" or "gpt"', default='m2m100', choices=['m2m100', 'google', 'whisper', 'gpt', 'no_translate'])
-    parser.add_argument('-i', '--file_name', help='The path to the input subtitle file.', type=str, required=True)
+    parser.add_argument('--file_name', help='The path to the input subtitle file.', type=str, required=True)
    
     args = parser.parse_args()
 
@@ -301,5 +301,5 @@ if __name__ == "__main__":
         video_filename = args.local_video
 
     # Create SubtitleProcessor instance and process the video
-    subtitle_processor = SubtitleProcessor(video_path=video_filename,file_name=args.file_name, target_language=args.target_language, model=args.model, translation_method=args.translation_method)
+    subtitle_processor = SubtitleProcessor(video_path=video_filename, target_language=args.target_language, model=args.model, translation_method=args.translation_method,file_name=args.file_name)
     subtitle_processor.process()
