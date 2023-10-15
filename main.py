@@ -136,7 +136,7 @@ class SubtitleProcessor:
 
         return "\n".join(text)
 
-    def transcribe_audio(self):
+def transcribe_audio(self,input_file):
         if self.model == 'large':
             self.model = 'large-v2'
             
@@ -174,13 +174,13 @@ class SubtitleProcessor:
         
         # print(merged_sentence_segments)
         srt_sub = self.segments_to_srt(merged_sentence_segments)
-        srt_file = os.path.join(os.path.dirname(self.video_path), f'{Path(self.video_path).stem}.srt')
+        srt_file = os.path.join(os.path.dirname(self.video_path), f'{input_file}.srt')
         with open(srt_file, 'w') as f:
             f.write(srt_sub)
 
         # Original whisper segmentation
         srt_sub = self.segments_to_srt(sentence_list)
-        original_srt_file = os.path.join(os.path.dirname(self.video_path), f'{Path(self.video_path).stem}_original.srt')
+        original_srt_file = os.path.join(os.path.dirname(self.video_path), f'{input_file}_original.srt')
         with open(original_srt_file, 'w') as f:
             f.write(srt_sub)
             
@@ -189,6 +189,7 @@ class SubtitleProcessor:
         result = {'segments' : merged_sentence_segments, 'language': info.language}
         
         return result, srt_file
+    
     
     def save_translated_srt(self, segs, translated_text):
         """Save the translated text to a separate SRT file."""
@@ -247,7 +248,7 @@ class SubtitleProcessor:
         
     def process(self):
         # Transcribe the video
-        transcript, srt_file = self.transcribe_audio()
+        transcript, srt_file = self.transcribe_audio(self.input_file)
         if self.translation_method == 'no_translate':
             return
         
@@ -281,7 +282,8 @@ if __name__ == "__main__":
     parser.add_argument('--target_language', help='The target language for translation.', default='zh')
     parser.add_argument("--model", help="""Choose one of the Whisper model""", default='small', type=str, choices=['tiny', 'base', 'small', 'medium', 'large'])
     parser.add_argument('--translation_method', help='The method to use for translation. Options: "m2m100" or "google" or "whisper" or "gpt"', default='m2m100', choices=['m2m100', 'google', 'whisper', 'gpt', 'no_translate'])
-
+    parser.add_argument('-i', '--input_file', help='The path to the input subtitle file.', type=str, required=True)
+   
     args = parser.parse_args()
 
     if args.youtube_url and args.local_video:
@@ -299,5 +301,5 @@ if __name__ == "__main__":
         video_filename = args.local_video
 
     # Create SubtitleProcessor instance and process the video
-    subtitle_processor = SubtitleProcessor(video_path=video_filename, target_language=args.target_language, model=args.model, translation_method=args.translation_method)
+    subtitle_processor = SubtitleProcessor(video_path=video_filename,input_file=args.input_file, target_language=args.target_language, model=args.model, translation_method=args.translation_method)
     subtitle_processor.process()
