@@ -141,7 +141,7 @@ class SubtitleProcessor:
         if self.model == 'large':
             self.model = 'large-v2'
             
-        model = WhisperModel(self.model, device="cuda", compute_type="float16")
+        model = WhisperModel(self.model, device="cuda", compute_type="float32")
         # or run on GPU with INT8
         # model = WhisperModel(model_size, device="cuda", compute_type="int8_float16")
         # or run on CPU with INT8
