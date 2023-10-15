@@ -357,7 +357,7 @@ Guidelines:
             messages.append({"role": "assistant", "content": ujson.dumps(example["output"], ensure_ascii=False, indent=2)})
         
         messages.append({"role": "user", "content": ujson.dumps(user_input, ensure_ascii=False, indent=2)})
-        print(messages)
+        
         self.logger.info("========Messages========\n")
         self.logger.info(messages)
         self.logger.info("========End of Messages========\n")
@@ -465,6 +465,7 @@ Guidelines:
                 return translated_subtitles, total_used_dollars 
 
         self.logger.error("Max retries reached. Unable to get valid JSON response.")
+        print(translated_subtitles)
         return translated_subtitles, total_used_dollars
 
     def process_user_input(self, subtitles, prev_subtitle, next_subtitle, prev_translated_subtitle, warning_message):
