@@ -136,7 +136,7 @@ class SubtitleProcessor:
 
         return "\n".join(text)
 
-def transcribe_audio(self,file_name):
+    def transcribe_audio(self,file_name):
         if self.model == 'large':
             self.model = 'large-v2'
             
