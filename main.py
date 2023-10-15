@@ -108,7 +108,7 @@ class SubtitleProcessor:
         self.model = model
         self.translation_method = translation_method
         self.video_language = 'en'
-        sele.file_name = file_name
+        self.file_name = file_name
         self.segment_merger = SegmentMerger()
 
         if translation_method == 'google':
