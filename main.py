@@ -102,12 +102,13 @@ class SegmentMerger:
  
  
 class SubtitleProcessor:
-    def __init__(self, video_path, target_language, model, translation_method):
+    def __init__(self, video_path, target_language, model, translation_method,file_name):
         self.video_path = video_path
         self.target_language = target_language
         self.model = model
         self.translation_method = translation_method
         self.video_language = 'en'
+        sele.file_name='2.'
         self.segment_merger = SegmentMerger()
 
         if translation_method == 'google':
@@ -282,7 +283,7 @@ if __name__ == "__main__":
     parser.add_argument('--target_language', help='The target language for translation.', default='zh')
     parser.add_argument("--model", help="""Choose one of the Whisper model""", default='small', type=str, choices=['tiny', 'base', 'small', 'medium', 'large'])
     parser.add_argument('--translation_method', help='The method to use for translation. Options: "m2m100" or "google" or "whisper" or "gpt"', default='m2m100', choices=['m2m100', 'google', 'whisper', 'gpt', 'no_translate'])
-    parser.add_argument('--file_name', help='The path to the input subtitle file.', type=str, required=True)
+    parser.add_argument('--file_name', help='The path to the input subtitle file.', type=str)
    
     args = parser.parse_args()
 
