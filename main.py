@@ -141,7 +141,7 @@ class SubtitleProcessor:
         if self.model == 'large':
             self.model = 'large-v2'
             
-        model = WhisperModel(self.model, device="cuda", compute_type="float32")
+        model = WhisperModel(self.model, device="cuda", compute_type="float16")
         # or run on GPU with INT8
         # model = WhisperModel(model_size, device="cuda", compute_type="int8_float16")
         # or run on CPU with INT8
@@ -232,7 +232,7 @@ class SubtitleProcessor:
 
     def translate_with_whisper(self, language):
             
-        model = WhisperModel('large-v2', device="cuda", compute_type="float32")
+        model = WhisperModel('large-v2', device="cuda", compute_type="float16")
         
         print("Transcribing audio...")
         segments, info = model.transcribe(self.video_path, word_timestamps=True, language=language)
