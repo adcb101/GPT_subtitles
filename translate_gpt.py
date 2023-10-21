@@ -643,29 +643,10 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/content/2/1.5 - Understanding the Greeks.srt',
-               '/content/2/1.6 - What is Delta.srt',
-               '/content/2/1.7 - What is Gamma.srt',
-               '/content/2/1.8 - What is Theta.srt',
-               '/content/2/1.9 - What is Vega.srt',
-               '/content/2/2.1 - Verticals.srt',
-               '/content/2/2.2 - Broken Iron Condors.srt',
-               '/content/2/2.3 - Backspreads.srt',
-               '/content/2/2.4 - Butterflys.srt',
-               '/content/2/2.5 - PA Flys.srt',
-               '/content/2/2.6 - PA Flys In Depth Lesson.srt',
-               '/content/2/2.7 - Risk Reversals.srt',
-               '/content/2/3.1 - How to Trade the Level of Implied Volatility Through Vega Exposure VegaGang.srt',
-               '/content/2/3.10 - How to Manage Your Trades.srt',
-               '/content/2/3.11 - How to Cut a Big Loss and How to Know When to do it.srt',
-               '/content/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
-               '/content/2/3.3 - How We Managed Our TSLA Position + Delta Hedging.srt',
-               '/content/2/3.4 - Trading Backspreads for Income.srt',
-               '/content/2/3.5 - Ratio Spreads Backspreads - How to Trade them and a Great Strategy Using Them.srt',
-               '/content/2/3.6 - Short Put Spread Strategy Part 1.srt',
-               '/content/2/3.7 - Short Put Spread Strategy Part 2.srt',
-               '/content/2/3.8 - Covered Call Strategy - How to Trade Them.srt',
-               '/content/2/3.9 - 3X Leveraged ETN Trading.srt'
+               '/content/3.5 - Ratio Spreads Backspreads - How to Trade them and a Great Strategy Using Them.srt',
+               '/content/3.7 - Short Put Spread Strategy Part 2.srt',
+               '/content/3.8 - Covered Call Strategy - How to Trade Them.srt',
+               '/content/3.9 - 3X Leveraged ETN Trading.srt'
     ]
 
     for item in str_list:
