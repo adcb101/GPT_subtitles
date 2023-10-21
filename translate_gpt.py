@@ -643,18 +643,6 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/content/2/1.1 - Euan Sinclair Trade Breakdown.srt',
-               '/content/2/1.10 - Delta Hedging.srt',
-               '/content/2/1.11 - Trade Decision Tree Example.srt',
-               '/content/2/1.12 - Understanding Skew Pt.1.srt',
-               '/content/2/1.13 - Understanding Skew Pt.2.srt',
-               '/content/2/1.14 - Understanding Skew Pt.3.srt',
-               '/content/2/1.15 - Understanding Skew Pt.4.srt',
-               '/content/2/1.16 - Autocorrelation in Options Trading.srt',
-               '/content/2/1.17 - Different Types of Trades.srt',
-               '/content/2/1.18 - Choosing Days to Expiration Explained Using Our Trade on ARKK.srt',
-               '/content/2/1.2 - The Black Scholes Model.srt',
-               '/content/2/1.3 - Vol Characteristics and Mean Reversion.srt',
                '/content/2/1.4 - Implied Volatility In Depth Discussion.srt',
                '/content/2/1.5 - Understanding the Greeks.srt',
                '/content/2/1.6 - What is Delta.srt',
