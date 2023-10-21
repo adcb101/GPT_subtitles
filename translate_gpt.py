@@ -643,9 +643,42 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-        '/content/4.7 - Gamma Scalping (The Best  way to learn about Volatility  Small Account Strategy).srt',
-        '/content/4.8 - Bankroll Management_ How  Much to Bet on Each Trade.srt',
-        '/content/4.9 - How to Analyze Earnings  Trades Using the Updated PA Terminal.srt'
+                '/content/1.1 - Euan Sinclair Trade Breakdown.srt',
+               '/content/1.10 - Delta Hedging.srt',
+               '/content/1.11 - Trade Decision Tree Example.srt',
+               '/content/1.12 - Understanding Skew Pt.1.srt',
+               '/content/1.13 - Understanding Skew Pt.2.srt',
+               '/content/1.14 - Understanding Skew Pt.3.srt',
+               '/content/1.15 - Understanding Skew Pt.4.srt',
+               '/content/1.16 - Autocorrelation in Options Trading.srt',
+               '/content/1.17 - Different Types of Trades.srt',
+               '/content/1.18 - Choosing Days to Expiration Explained Using Our Trade on ARKK.srt',
+               '/content/1.2 - The Black Scholes Model.srt',
+               '/content/1.3 - Vol Characteristics and Mean Reversion.srt',
+               '/content/1.4 - Implied Volatility In Depth Discussion.srt',
+               '/content/1.5 - Understanding the Greeks.srt',
+               '/content/1.6 - What is Delta.srt',
+               '/content/1.7 - What is Gamma.srt',
+               '/content/1.8 What is Theta.srt',
+               '/content/1.9 - What is Vega.srt',
+               '/content/2.1 - Verticals.srt',
+               '/content/2.2 - Broken Iron Condors.srt',
+               '/content/2.3 - Backspreads.srt',
+               '/content/2.4 - Butterflys.srt',
+               '/content/2.5 - PA Flys.srt',
+               '/content/2.6 - PA Flys In Depth Lesson.srt',
+               '/content/2.7 - Risk Reversals.srt',
+               '/content/3.1 - How to Trade the Level of Implied Volatility Through Vega Exposure VegaGang.srt',
+               '/content/3.10 - How to Manage Your Trades.srt',
+               '/content/3.11 - How to Cut a Big Loss and How to Know When to do it.srt',
+               '/content/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
+               '/content/3.3 - How We Managed Our TSLA Position + Delta Hedging.srt',
+               '/content/3.4 - Trading Backspreads for Income.srt',
+               '/content/3.5 - Ratio Spreads Backspreads - How to Trade them and a Great Strategy Using Them.srt',
+               '/content/3.6 - Short Put Spread Strategy Part 1.srt',
+               '/content/3.7 - Short Put Spread Strategy Part 2.srt',
+               '/content/3.8 - Covered Call Strategy - How to Trade Them.srt',
+               '/content/3.9 - 3X Leveraged ETN Trading.srt'
     ]
 
     for item in str_list:
