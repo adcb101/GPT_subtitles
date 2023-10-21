@@ -643,7 +643,6 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-        '/content/2.10 - Stats 201 - Normal Distribution & Probability of Returns.srt',
         '/content/2.11 - Introduction to Volatility.srt',
         '/content/2.12 - 3 Circles of Volatility.srt',
         '/content/2.13 - Implied VS Realized Volatility.srt',
