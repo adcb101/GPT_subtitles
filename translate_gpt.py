@@ -642,22 +642,57 @@ Guidelines:
 
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
-    file_name = os.path.splitext(os.path.basename(input_file))[0]
+    str_list = [
+        '/content/2.10 - Stats 201 - Normal Distribution & Probability of Returns.srt',
+        '/content/2.11 - Introduction to Volatility.srt',
+        '/content/2.12 - 3 Circles of Volatility.srt',
+        '/content/2.13 - Implied VS Realized Volatility.srt',
+        '/content/2.14 - Volatility Characteristics.srt',
+        '/content/2.4 - What is a Call_.srt',
+        '/content/2.5 - What is Put.srt',
+        '/content/2.6 - What are Days to Expiration (DTE).srt',
+        '/content/2.7 - What is the Underlying.srt',
+        '/content/2.8 -Exercise and Assignment in the Options Market.srt',
+        '/content/2.9 - Statistics 101 - Mean, Median, Mode.srt',
+        '/content/3.1 - Taking a View on Volatility.srt'
+        '/content/3.2 - Straddles - Long  Volatility.srt'
+        '/content/3.3 - Iron  Condors Short Volatility.srt'
+        '/content/3.4 - Choosing the Iron  Condor Wings.srt'
+        '/content/3.5 - Volatility DTEs (Days  to Expiration).srt'
+        '/content/3.6 - How to Trade Iron  Condors (In Depth).srt'
+        '/content/4.1 - Intro to Research.srt'
+        '/content/4.2 - Who is on the Other Side  of our Trade.srt'
+        '/content/4.3 - How to Use Stocktwits to  Find an Edge.srt'
+        '/content/4.4 - The Right Way to Use  Trader.s Psychology.srt'
+        '/content/4.5 - Introduction to Trading  Strategies.srt'
+        '/content/4.6 - The Best Trading  Strategy (3 Steps to Finding and Placing Excellent Trades)_original.srt'
+        '/content/4.7 - Gamma Scalping (The Best  way to learn about Volatility  Small Account Strategy).srt'
+        '/content/4.8 - Bankroll Management_ How  Much to Bet on Each Trade.srt'
+        '/content/4.9 - How to Analyze Earnings  Trades Using the Updated PA Terminal.srt'
+    ]
+
+    for item in str_list:
+        file_name = os.path.splitext(os.path.basename(item))[0]
     
-    subtitle = Subtitle(input_file)
-    translator = Translator(model=model, batch_size=batch_size, target_language=target_language, source_language=source_language, 
-        titles=file_name, video_info=video_info, input_path=input_file, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
+        subtitle = Subtitle(item)
+        translator = Translator(model=model, batch_size=batch_size, target_language=target_language, source_language=source_language,
+                                titles=file_name, video_info=video_info, input_path=item, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
+    
+        subtitle_batches, timestamps_batches = subtitle.get_processed_batches_and_timestamps(
+            batch_size)
+        translated_subtitles = translator.batch_translate(
+            subtitle_batches, timestamps_batches)
+    
+        output_file = os.path.join(os.path.dirname(
+            item), f"{os.path.splitext(os.path.basename(item))[0]}_{target_language}_gpt.srt")
+        #
+        subtitle.save_subtitles(output_file, translated_subtitles)
+        
+        print(item+'已完成')
 
-    subtitle_batches, timestamps_batches = subtitle.get_processed_batches_and_timestamps(batch_size)
-    translated_subtitles = translator.batch_translate(subtitle_batches, timestamps_batches)
-
-    output_file = os.path.join(os.path.dirname(input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt.srt")
-    #
-    subtitle.save_subtitles(output_file, translated_subtitles)
-    #print(translated_transcript)
-    #subtitle.add_dual_subtitles(input_file,translated_subtitles)
-    #return translated_subtitles
-
+        # print(translated_transcript)
+        # subtitle.add_dual_subtitles(input_file,translated_subtitles)
+        # return translated_subtitles
     
 def main():
     parser = argparse.ArgumentParser(description='Translate subtitles using GPT')
