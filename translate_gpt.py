@@ -643,18 +643,6 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-        '/content/3.1 - Taking a  View on Volatility.srt',
-        '/content/3.2 - Straddles - Long  Volatility.srt',
-        '/content/3.3 - Iron  Condors Short Volatility.srt',
-        '/content/3.4 - Choosing the Iron  Condor Wings.srt',
-        '/content/3.5 - Volatility DTEs (Days  to Expiration).srt',
-        '/content/3.6 - How to Trade Iron  Condors (In Depth).srt',
-        '/content/4.1 - Intro to Research.srt',
-        '/content/4.2 - Who is on the Other Side  of our Trade.srt',
-        '/content/4.3 - How to Use Stocktwits to  Find an Edge.srt',
-        '/content/4.4 - The Right Way to Use  Trader.s Psychology.srt',
-        '/content/4.5 - Introduction to Trading  Strategies.srt',
-        '/content/4.6 - The Best Trading  Strategy (3 Steps to Finding and Placing Excellent Trades)_original.srt',
         '/content/4.7 - Gamma Scalping (The Best  way to learn about Volatility  Small Account Strategy).srt',
         '/content/4.8 - Bankroll Management_ How  Much to Bet on Each Trade.srt',
         '/content/4.9 - How to Analyze Earnings  Trades Using the Updated PA Terminal.srt'
