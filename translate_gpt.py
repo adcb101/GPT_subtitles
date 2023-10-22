@@ -643,10 +643,8 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/content/3.5 - Ratio Spreads Backspreads - How to Trade them and a Great Strategy Using Them.srt',
-               '/content/3.7 - Short Put Spread Strategy Part 2.srt',
-               '/content/3.8 - Covered Call Strategy - How to Trade Them.srt',
-               '/content/3.9 - 3X Leveraged ETN Trading.srt'
+               '/content/3.6 - Short Put Spread Strategy Part 1.srt',
+               '/content/1.4 - Implied Volatility In Depth Discussion.srt'
     ]
 
     for item in str_list:
