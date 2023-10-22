@@ -643,7 +643,7 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/kaggle/input/3subtit/1.10 - Borrow Rate, Short Shares, Synthetic Short Shares.srt',
+               '/kaggle/input/3subtit/1.10 - Borrow Rate Short Shares Synthetic Short Shares.srt',
                '/kaggle/input/3subtit/1.11 - Micro Structure and Market Making.srt',
                '/kaggle/input/3subtit/1.12 - What are Banana Flows (Vanna flow in-depth discussion).srt',
                '/kaggle/input/3subtit/1.13 - Reviewing Our Trade on LIT Calculating the Volatility of an ETF.srt',
