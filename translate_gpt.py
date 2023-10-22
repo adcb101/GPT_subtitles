@@ -643,8 +643,33 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/content/3.6 - Short Put Spread Strategy Part 1.srt',
-               '/content/1.4 - Implied Volatility In Depth Discussion.srt'
+               '/content/3/1.1 - Euan Sinclair Interview - PA EXCLUSIVE.srt',
+               '/content/3/1.10 - Borrow Rate, Short Shares, Synthetic Short Shares.srt',
+               '/content/3/1.11 - Micro Structure and Market Making.srt',
+               '/content/3/1.12 - What are Banana Flows (Vanna flow in-depth discussion).srt',
+               '/content/3/1.13 - Reviewing Our Trade on LIT Calculating the Volatility of an ETF.srt',
+               '/content/3/1.14 - Relative Value.srt',
+               '/content/3/1.2 - Volatility as Synthetic Time.srt',
+               '/content/3/1.3 - Understanding Forward Volatility.srt',
+               '/content/3/1.4 - Term Structure and Forward Volatility.srt',
+               '/content/3/1.5 - Volatility Through Time Forward Volatility Calendar Spreads.srt',
+               '/content/3/1.6 - What is Variance Risk Premium in depth.srt',
+               '/content/3/1.7 - How to determine the Vol line you are selling (Illiquid Products).srt',
+               '/content/3/1.8 - Stock Price and Implied Volatility Correlations.srt',
+               '/content/3/1.9 - Introduction to Synthetics.srt',
+               '/content/3/2.1 - 2 Ways to Value an Option (Absolute and Relative).srt',
+               '/content/3/2.10 - Relative Value Trading Pt 1.srt',
+               '/content/3/2.11 - Relative Value Trading Pt 2.srt',
+               '/content/3/2.12 - Managing Relative Value Positions.srt',
+               '/content/3/2.13 - Building a Technical Strategy.srt',
+               '/content/3/2.2 - Finding and Placing Excellent Trades (Start to Finish).srt',
+               '/content/3/2.3 - How to Trade in a Lower Volatility Environment.srt',
+               '/content/3/2.4 - How Calendar Spreads Work and Understanding Volatility Through Time.srt',
+               '/content/3/2.5 - How to Trade Forward Volatility.srt',
+               '/content/3/2.6 - Interview with a Profitable Earnings Trader.srt',
+               '/content/3/2.7 - Constructing a Portfolio and Improving Your Sharpe Ratio.srt',
+               '/content/3/2.8 - Earnings Pre-Releases - Unique Trading Opportunities.srt',
+               '/content/3/2.9 - Earnings Pre Releases and How to Trade Them.srt'
     ]
 
     for item in str_list:
