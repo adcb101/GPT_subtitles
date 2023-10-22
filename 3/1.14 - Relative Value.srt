@@ -1,0 +1,503 @@
+1
+00:00:00,000 --> 00:00:03,520
+Hey guys, and welcome back to another silver video in today's lesson.
+
+2
+00:00:03,600 --> 00:00:07,640
+We're going to be talking about my personal favorite topic Which is relative value
+
+3
+00:00:07,640 --> 00:00:08,400
+now,
+
+4
+00:00:08,440 --> 00:00:14,400
+this is how I want you guys to think about this topic Imagine you own a $5,000 TV.
+
+5
+00:00:14,480 --> 00:00:20,420
+You look on Kijiji and it's being priced for $5,000 You then also go to another
+
+6
+00:00:20,420 --> 00:00:20,860
+website.
+
+7
+00:00:20,980 --> 00:00:27,400
+Let's call it Amazon and you see a very similar TV being priced for $3,000.
+
+8
+00:00:27,920 --> 00:00:28,880
+Well, what would you do?
+
+9
+00:00:28,910 --> 00:00:37,480
+You would sell your $5,000 TV and buy that $3,000 TV and this is how we're gonna
+
+10
+00:00:37,480 --> 00:00:44,730
+be thinking about relative value trading or imagine we're looking at Pepsi Pep and
+
+11
+00:00:44,730 --> 00:00:46,710
+this is how the stock moves.
+
+12
+00:00:50,870 --> 00:00:54,410
+Well, if I asked you, what do you think Coca-Cola would look like?
+
+13
+00:00:55,660 --> 00:01:08,570
+I bet you would say something like this Because Pepsi and Coca-Cola have the same
+
+14
+00:01:08,570 --> 00:01:13,810
+industry same market cap same underlying fundamentals They're very similar companies.
+
+15
+00:01:13,930 --> 00:01:19,590
+So you would expect them to move very similar with each other now imagine a scenario
+
+16
+00:01:19,590 --> 00:01:31,230
+where we wake up one morning and Coca-Cola trades like this but Pepsi Gets smoked
+
+17
+00:01:31,230 --> 00:01:32,570
+and is trading down here.
+
+18
+00:01:33,250 --> 00:01:41,070
+Well all of a sudden we have a relative value situation we can sell Coca-Cola and
+
+19
+00:01:41,290 --> 00:01:48,610
+Buy Pepsi and and hope for this spread to collapse in the future what we would be
+
+20
+00:01:48,610 --> 00:01:56,500
+betting on is for maybe Pepsi to come up here and Coca-Cola to move down here in
+
+21
+00:01:56,500 --> 00:02:03,260
+which case we would make money on our long from buying Pepsi and we would Also make
+
+22
+00:02:03,260 --> 00:02:07,400
+money from our short on selling Coca-Cola now,
+
+23
+00:02:07,460 --> 00:02:08,900
+it doesn't have to be exactly like this.
+
+24
+00:02:09,020 --> 00:02:13,340
+We could also see something Like this Coca-Cola shoots up,
+
+25
+00:02:13,510 --> 00:02:22,390
+but Pepsi Increases even more so even though we lose on our short position We make
+
+26
+00:02:22,390 --> 00:02:30,430
+more money on our long position on Pepsi and this is relative value Given one asset
+
+27
+00:02:30,430 --> 00:02:33,490
+What should this asset be priced at?
+
+28
+00:02:33,790 --> 00:02:37,910
+So this is what a lot of my trades are actually made of where we're trying to look
+
+29
+00:02:37,910 --> 00:02:44,290
+for relationships between Certain underlines this is something that is used in the
+
+30
+00:02:44,290 --> 00:02:46,710
+professional space all the time In fact,
+
+31
+00:02:46,750 --> 00:02:51,750
+almost all the big option traders use something similar to relative value.
+
+32
+00:02:52,010 --> 00:02:59,100
+They are Buying one asset and hedging with another asset a lot of professional traders
+
+33
+00:02:59,100 --> 00:03:04,020
+don't like to have Delta to the market meaning they don't like to lose money when
+
+34
+00:03:04,020 --> 00:03:07,600
+the market goes down and make money when the market goes up They want to be neutral
+
+35
+00:03:07,600 --> 00:03:12,760
+So these relative value trades can help with that We don't care what happens to
+
+36
+00:03:12,760 --> 00:03:17,600
+the S&P 500 the next day the S&P 500 you go up here down here sideways Wherever
+
+37
+00:03:17,600 --> 00:03:20,280
+as long as this spread closes,
+
+38
+00:03:20,460 --> 00:03:25,920
+we're gonna make money So these spread trades are not one-offs They actually happen
+
+39
+00:03:25,920 --> 00:03:32,170
+all the time if we were to let's say zoom in on this part right over here We might
+
+40
+00:03:32,170 --> 00:03:38,140
+see the spread So, let's say this is coca-cola and this is Pepsi,
+
+41
+00:03:38,900 --> 00:03:51,220
+right we actually might see this Where we are trading this spread when we get these
+
+42
+00:03:51,220 --> 00:03:56,340
+gaps in the market we can start buying the one that's moving away and selling the
+
+43
+00:03:56,340 --> 00:04:03,470
+one that's Remaining high and waiting for this spread To come back together now,
+
+44
+00:04:03,490 --> 00:04:08,390
+we can also do this in the volatility market Which is where we are trading right
+
+45
+00:04:08,390 --> 00:04:12,950
+now and we actually find much more inefficiencies and why is that? Well,
+
+46
+00:04:12,990 --> 00:04:15,190
+anyone compares trade coca-cola and Pepsi.
+
+47
+00:04:15,470 --> 00:04:18,950
+It's very liquid All the big fund managers are doing long short equity,
+
+48
+00:04:18,970 --> 00:04:25,290
+but not everyone is doing long short relative value in the volatility space So,
+
+49
+00:04:25,390 --> 00:04:30,830
+let's see what that looks like We would imagine that Pepsi and coca-cola have the
+
+50
+00:04:30,830 --> 00:04:35,590
+same amount of volatility And if Pepsi is moving 5% a day coca-cola is probably
+
+51
+00:04:35,590 --> 00:04:40,970
+moving very similar to 5% a day So we would expect that the volatility would be
+
+52
+00:04:40,970 --> 00:04:47,370
+the same for both the implied volatility for coca-cola so say IV for coke IV KO
+
+53
+00:04:47,370 --> 00:05:02,500
+is equal to 20% and Imagine we saw Pepsi implied volatility Was 60% Well,
+
+54
+00:05:04,340 --> 00:05:09,720
+there's got to be a mispricing here Pepsi should be moving very similar to coca
+
+55
+00:05:09,720 --> 00:05:11,820
+-cola. Why on earth are they?
+
+56
+00:05:12,420 --> 00:05:18,480
+expecting a 20% move or 20% volatility and Pepsi is expecting 60% volatility.
+
+57
+00:05:18,960 --> 00:05:24,260
+It doesn't make sense that the same underlying factors So what we could do here
+
+58
+00:05:24,260 --> 00:05:32,110
+is a pairs volatility trade We could buy volatility on KO on coca-cola Right,
+
+59
+00:05:32,350 --> 00:05:39,740
+and we would do this by buying a straddle and we would sell volatility on Pepsi
+
+60
+00:05:39,740 --> 00:05:44,820
+And we would do that by selling a straddle and the way we would think about it is
+
+61
+00:05:44,820 --> 00:05:50,320
+if anything were to happen in the market Coca-cola would pay out a lot more than
+
+62
+00:05:50,320 --> 00:05:56,020
+what we lose on Pepsi And this is what we call volatility arbitrage or stat arm
+
+63
+00:05:56,020 --> 00:06:02,360
+in the volatility space It's a very reliable way to make money one downside of this
+
+64
+00:06:02,360 --> 00:06:09,940
+is that To sell a straddle naked It's gonna cost quite a bit of margin So that is
+
+65
+00:06:09,940 --> 00:06:14,560
+why a lot of the bigger players love this trade because they get access to better
+
+66
+00:06:14,560 --> 00:06:15,320
+margin, right?
+
+67
+00:06:15,360 --> 00:06:19,000
+They get access to portfolio margin and you know retail trader might not be able
+
+68
+00:06:19,000 --> 00:06:23,740
+to get access to that So that's one reason why this kind of strategy is huge in
+
+69
+00:06:23,740 --> 00:06:27,500
+the professional space So the way you can make money and a lot of time the way I
+
+70
+00:06:27,500 --> 00:06:34,460
+look at trading is I like to use one What I mean is if Pepsi is trading at 60 and
+
+71
+00:06:34,460 --> 00:06:42,990
+coke is trading at 20 maybe fair value around here is 40% that is the fair value
+
+72
+00:06:42,990 --> 00:06:48,630
+for these underlyings right,
+
+73
+00:06:48,750 --> 00:06:54,230
+we would imagine that the implied volatility of Pepsi at 60% is still pretty efficient
+
+74
+00:06:54,230 --> 00:06:59,710
+and We would also say that while the coca-cola trade is also probably pretty efficient.
+
+75
+00:06:59,830 --> 00:07:05,020
+These are both pretty liquid names So what we would do is we would buy the leg let's
+
+76
+00:07:05,020 --> 00:07:12,750
+say in this case coca-cola and Just trade one of the legs so we would remove the
+
+77
+00:07:12,750 --> 00:07:21,710
+short straddle and Just buy the long straddle and hope that the volatility is somewhere
+
+78
+00:07:21,710 --> 00:07:25,720
+in between these So this is what I like to do a lot of the times Another way we
+
+79
+00:07:25,720 --> 00:07:31,280
+can do this is imagine we have two equities SPY and some illiquid ETF Maybe like
+
+80
+00:07:31,280 --> 00:07:38,680
+a small cap ETF and we see that the implied volatilities are 20% and 60% Well right
+
+81
+00:07:38,680 --> 00:07:45,540
+away we would assume that this Option chain is gonna be a lot more liquid.
+
+82
+00:07:45,640 --> 00:07:50,120
+It's gonna be a lot more efficient SPY is a lot more efficient.
+
+83
+00:07:50,260 --> 00:07:51,980
+There's more eyes looking at it. There's more liquidity.
+
+84
+00:07:52,400 --> 00:07:56,580
+There's more hedge fund managers There's more smart people trying to trade SPY and
+
+85
+00:07:56,580 --> 00:08:02,260
+if SPY is assuming 20% implied volatility and this small cap ETF is assuming 60
+
+86
+00:08:02,260 --> 00:08:06,280
+% implied volatility And it's very similar to SPY Well,
+
+87
+00:08:06,340 --> 00:08:09,640
+what we can do then is we can say well, let's sell an iron condor here,
+
+88
+00:08:09,720 --> 00:08:17,700
+let's sell volatility on this and Hope that This number is correct that the SPY
+
+89
+00:08:17,700 --> 00:08:24,000
+is the efficient market and that this is the inefficient market and so we can trade
+
+90
+00:08:24,000 --> 00:08:30,100
+one leg here and we would just for example sell an iron condor and realize this
+
+91
+00:08:30,100 --> 00:08:34,240
+20% volatility for This small cap ETF.
+
+92
+00:08:35,370 --> 00:08:41,560
+So this is a lot of what I do I trade one leg usually and I look for inefficiencies
+
+93
+00:08:41,560 --> 00:08:45,500
+like this in the market So now that we're all excited about relative value Let me
+
+94
+00:08:45,500 --> 00:08:48,800
+give you an example of a trade that I did and posted with a group and actually some
+
+95
+00:08:48,800 --> 00:08:53,800
+group members took last Week that was extremely profitable now that we're all excited
+
+96
+00:08:53,800 --> 00:08:58,220
+about relative value trades Let's actually look at an example that I took last week
+
+97
+00:08:58,220 --> 00:09:04,640
+with the group that made amazing profits I think we made 25% on this trade in just
+
+98
+00:09:04,640 --> 00:09:10,440
+two days Now a lot of you guys might be like 25% in two days whoop-dee-doo But that's
+
+99
+00:09:10,440 --> 00:09:13,640
+25% that we made off of inefficiency in the market.
+
+100
+00:09:13,820 --> 00:09:18,400
+That's real money This it wasn't a lottery ticket that we decided to you know to
+
+101
+00:09:18,400 --> 00:09:21,860
+go to church afterwards and start praying This was something that we saw in the
+
+102
+00:09:21,860 --> 00:09:26,060
+market We took advantage of and we had a high probability of actually winning and
+
+103
+00:09:26,060 --> 00:09:34,490
+making money So let's dig down and see what exactly we took so IWM was trading at
+
+104
+00:09:34,490 --> 00:09:42,340
+60% Implied volatility the options market thought that IWM was going to move about
+
+105
+00:09:42,340 --> 00:09:49,080
+4% on average per day I also looked at SPY Which is a very similar ETF.
+
+106
+00:09:49,660 --> 00:10:02,940
+It is the biggest 500 companies and the implied volatility was 29% Meaning only
+
+107
+00:10:02,940 --> 00:10:07,440
+about a 1.8% move on a daily basis now,
+
+108
+00:10:07,980 --> 00:10:12,800
+this is a huge discrepancy Now think about it guys.
+
+109
+00:10:12,940 --> 00:10:16,680
+These ETFs are very similar. They move the same.
+
+110
+00:10:16,780 --> 00:10:21,200
+You can look at it historically They move the same or very close to each other.
+
+111
+00:10:21,500 --> 00:10:29,040
+This doesn't make sense So what I decided to do was sell an iron condor on IWM.
+
+112
+00:10:29,440 --> 00:10:44,880
+I sold the 127 141 141 151 iron condor for a total of $7 what
+
+113
+00:10:44,880 --> 00:10:54,320
+I was betting on was this number 60% being way too large and the S&P 500 is the
+
+114
+00:10:54,320 --> 00:11:00,420
+most liquid ETF in the world I was assuming that this number was a lot more efficient
+
+115
+00:11:00,420 --> 00:11:06,600
+than this number So my alpha leg or the leg that would make me money would be this
+
+116
+00:11:06,600 --> 00:11:12,170
+one So I decided to sell 127 141 151. Oh,
+
+117
+00:11:12,190 --> 00:11:25,250
+it's not sorry 155 My apologies iron condor for $7 now the next day IWM went from
+
+118
+00:11:25,250 --> 00:11:36,480
+141 to 143 a $2 move right away This started dropping because the move was not as
+
+119
+00:11:36,480 --> 00:11:41,820
+large as the market was expecting So we took a little bit of profits on day one
+
+120
+00:11:42,420 --> 00:11:51,640
+on day two the stock dropped back down to 141 and which we were able to exit this
+
+121
+00:11:51,640 --> 00:11:59,700
+position at $5 So we sold it for seven and we bought it back for five within two
+
+122
+00:11:59,700 --> 00:12:10,740
+days Meaning we captured a profit of two dollars So it turned out that this market
+
+123
+00:12:10,740 --> 00:12:18,060
+the S&P 500 was more efficient than IWM and that this number 60% implied volatility
+
+124
+00:12:18,060 --> 00:12:24,750
+was way too high It should have been at something like let's say 45% and by doing
+
+125
+00:12:24,750 --> 00:12:29,410
+so we did a fantastic job of making Some money.
+
+126
+00:12:29,670 --> 00:12:34,270
+So I hope this real-world example is getting you guys thinking about how you can

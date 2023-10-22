@@ -1,0 +1,2907 @@
+1
+00:00:00,000 --> 00:00:04,060
+I'm going to shape my beard, hopefully, uh, you got to go to offman, man.
+
+2
+00:00:04,120 --> 00:00:08,020
+Next, if this, if this, uh, come on, if work pays off, then I'll, uh, okay.
+
+3
+00:00:10,140 --> 00:00:13,880
+So, um, guys, so in this video, we're going to be talking about, uh,
+
+4
+00:00:13,880 --> 00:00:15,880
+managing relative value positions. I know, you know,
+
+5
+00:00:15,880 --> 00:00:18,420
+I've told you guys a lot of my book is relative value that is though,
+
+6
+00:00:18,460 --> 00:00:20,520
+because I'm a little bit bigger size. Um,
+
+7
+00:00:21,180 --> 00:00:22,960
+and we're going to talk a little bit about that today as well,
+
+8
+00:00:22,960 --> 00:00:25,360
+but a lot of you guys have been asking me like Jordan, you know,
+
+9
+00:00:25,360 --> 00:00:27,990
+how do I manage these positions? Like, you know,
+
+10
+00:00:27,990 --> 00:00:29,990
+so today we're going to be talking about that.
+
+11
+00:00:30,050 --> 00:00:34,420
+How do you actually manage these relative value positions? And, uh,
+
+12
+00:00:34,440 --> 00:00:38,340
+first and foremost, guys, these positions get extremely messy, right?
+
+13
+00:00:38,340 --> 00:00:41,860
+The really complicated trades. Um, I don't know if you guys saw my tweet, but,
+
+14
+00:00:42,080 --> 00:00:46,920
+uh, relative value understanding relative value is a little tricky, right?
+
+15
+00:00:46,920 --> 00:00:48,100
+It's a little bit of a hard concept,
+
+16
+00:00:48,100 --> 00:00:51,540
+but the real difficulty in managing relative value positions and trading relative
+
+17
+00:00:51,540 --> 00:00:54,700
+value is actually managing the book. Okay. That's,
+
+18
+00:00:54,780 --> 00:00:59,260
+that's actually the hardest part, um, in relative value trading and you know,
+
+19
+00:00:59,300 --> 00:01:01,640
+a lot of the times, if your account's smaller,
+
+20
+00:01:01,800 --> 00:01:05,250
+you really just want to trade one side of the market. Um,
+
+21
+00:01:05,350 --> 00:01:09,360
+and do I explain what you mean by that? So imagine guys,
+
+22
+00:01:09,480 --> 00:01:13,780
+we are looking at two ETFs. Okay. So we're trading one ETF versus another ETF.
+
+23
+00:01:14,320 --> 00:01:16,240
+And, um, you know,
+
+24
+00:01:16,280 --> 00:01:21,200
+we're selling vol on let's say S and P and we're buying vol on NASDAQ. Well,
+
+25
+00:01:21,490 --> 00:01:26,330
+a lot of the times it's going to take a shit ton of margin to sell the straddle.
+
+26
+00:01:26,350 --> 00:01:28,750
+Right. And then when you do, when you buy the wings, let's say,
+
+27
+00:01:28,790 --> 00:01:31,570
+let's say you want to do an iron condor to make it more efficient versus long straddle.
+
+28
+00:01:31,950 --> 00:01:34,530
+You're kind of giving away a lot of edge there by buying the wings, right?
+
+29
+00:01:34,550 --> 00:01:38,870
+Like your hedge is already the NASDAQ strategy and you're overhead,
+
+30
+00:01:38,990 --> 00:01:43,200
+you're overhead, you're adding too much. And so, um,
+
+31
+00:01:43,200 --> 00:01:46,820
+we usually do straddle for straddle, strangle for strangle, um, you know,
+
+32
+00:01:46,820 --> 00:01:48,040
+or an out performance option,
+
+33
+00:01:48,080 --> 00:01:51,180
+which is just basically buying a call for this stock and then selling a call for
+
+34
+00:01:51,180 --> 00:01:56,930
+this stock or selling an index for that stock. Um, and so, um,
+
+35
+00:01:57,650 --> 00:02:01,190
+a lot of the time guys, you just want to be on one side of that trade.
+
+36
+00:02:01,330 --> 00:02:04,610
+So what I mean by one side, we have two legs. Okay.
+
+37
+00:02:04,610 --> 00:02:07,790
+When a relative value share, we have two legs, but you can actually say, okay,
+
+38
+00:02:07,790 --> 00:02:13,380
+well, and this is called an error correcting leg. Okay. So which is,
+
+39
+00:02:13,500 --> 00:02:16,920
+which is going to correct, right? There's an error, right? There's an error.
+
+40
+00:02:16,980 --> 00:02:21,440
+So stocks, stocks go like this. Okay. And now they're like this. Well,
+
+41
+00:02:21,840 --> 00:02:22,800
+there's an error, right?
+
+42
+00:02:22,840 --> 00:02:26,020
+And then for those of you that took any level one stats or level two stats,
+
+43
+00:02:26,120 --> 00:02:30,000
+right? It's a, it's a residue, right? So we've got an error here.
+
+44
+00:02:30,100 --> 00:02:35,220
+And so instead of trading on both sides, we might say, okay, well,
+
+45
+00:02:35,320 --> 00:02:39,400
+this is going to be the error correcting leg, meaning this is going to snap up,
+
+46
+00:02:39,830 --> 00:02:42,570
+right? It's not this going to snap down or they're going to go like this,
+
+47
+00:02:42,670 --> 00:02:46,390
+but this is going to error correct to this. And so that is most,
+
+48
+00:02:46,510 --> 00:02:49,330
+that is the way, um, a lot of you guys should be doing it, uh,
+
+49
+00:02:49,330 --> 00:02:52,640
+especially with smaller account size. Um,
+
+50
+00:02:52,680 --> 00:02:55,220
+and just by taking the error correcting leg, um,
+
+51
+00:02:55,540 --> 00:02:59,400
+it's usually a lot more beneficial. So for this live,
+
+52
+00:02:59,460 --> 00:03:03,840
+let's talk about straight up relative value, not, uh, not one leg.
+
+53
+00:03:04,100 --> 00:03:08,460
+And what we should do is we'll start with, um, putting on the position.
+
+54
+00:03:08,620 --> 00:03:12,360
+So position at inception and then position management moving forward.
+
+55
+00:03:12,380 --> 00:03:13,520
+Cause that's when it starts to get messy,
+
+56
+00:03:13,520 --> 00:03:16,820
+but I think it's also important to cover actually putting on the position.
+
+57
+00:03:17,020 --> 00:03:19,930
+Yeah. Okay. So let's jump into it.
+
+58
+00:03:19,990 --> 00:03:23,600
+So share my screen and we're going to pull up, uh, we actually,
+
+59
+00:03:23,800 --> 00:03:26,200
+for this whole live guys, we were going to do a, uh,
+
+60
+00:03:28,670 --> 00:03:32,790
+uh, what do you call it? A whiteboard. Uh, it's like a fake example,
+
+61
+00:03:33,110 --> 00:03:39,320
+a hypothetical hypothetical example. Okay. So let's say we're looking at SPY.
+
+62
+00:03:40,040 --> 00:03:43,480
+Okay. And if anyone's saying like, let me see the chat.
+
+63
+00:03:48,540 --> 00:03:51,160
+Oh, wait, sorry. Can you tell us, sorry guys,
+
+64
+00:03:51,260 --> 00:03:53,340
+can you tell us how to determine which leg we should error? Correct.
+
+65
+00:03:53,420 --> 00:03:57,300
+Let's do it at the end. Yep. So we're going to get there. Okay.
+
+66
+00:03:57,320 --> 00:04:00,180
+Let's keep going. Okay. So we have, we have two legs here. Okay.
+
+67
+00:04:00,480 --> 00:04:02,620
+We'll one leg is SPY.
+
+68
+00:04:06,160 --> 00:04:11,100
+Okay. Ah, so it is my computer that that's, that's tough. What do you mean? No,
+
+69
+00:04:11,180 --> 00:04:13,800
+I just, okay. And what's the other one? And that's accused.
+
+70
+00:04:17,610 --> 00:04:22,700
+So here we got a SPY and the cues. And so we're saying, okay,
+
+71
+00:04:22,700 --> 00:04:29,030
+well this relationship is out of whack. Okay. The implied vols are,
+
+72
+00:04:29,190 --> 00:04:31,350
+have gone bananas. Okay.
+
+73
+00:04:31,630 --> 00:04:36,090
+And we think eventually that the implied vols are going to come together so we can
+
+74
+00:04:36,090 --> 00:04:39,190
+come here and put on a relative value trade. And let's say, for example,
+
+75
+00:04:40,460 --> 00:04:43,900
+SMP is trading at 30%. Okay.
+
+76
+00:04:46,380 --> 00:04:53,220
+And NASDAQ is trading at let's, let's also say 30%. Okay.
+
+77
+00:04:53,900 --> 00:04:55,900
+These are the eyeballs implied volatility.
+
+78
+00:04:57,030 --> 00:05:00,730
+But when we actually look at the NASDAQ and the SMP,
+
+79
+00:05:00,910 --> 00:05:10,680
+we see that NASDAQ has a beta of 1.5 to the SMP 500. What that means is, okay.
+
+80
+00:05:11,280 --> 00:05:20,550
+Is that if let's say this is negative 5%. Okay. And this is 5%. Okay.
+
+81
+00:05:20,590 --> 00:05:27,440
+And here we have SPY and these are the returns. Okay. And over here,
+
+82
+00:05:27,460 --> 00:05:32,020
+we have the NASDAQ and shouldn't call it the cues. Okay.
+
+83
+00:05:32,780 --> 00:05:36,120
+And we have negative 7.5 up here, down here.
+
+84
+00:05:39,110 --> 00:05:40,990
+Okay. And we have plus 7.5.
+
+85
+00:05:45,310 --> 00:05:50,030
+Well, what this beta is telling us is that if SMP is up 5%, well,
+
+86
+00:05:50,090 --> 00:05:56,100
+then the NASDAQ should be up 7.5%. And if the SMP is down 5%, well,
+
+87
+00:05:56,160 --> 00:05:58,840
+the NASDAQ should be down negative 7.5%. Okay.
+
+88
+00:05:59,100 --> 00:06:03,380
+And all the other returns lie along this line somewhere. Okay.
+
+89
+00:06:03,380 --> 00:06:04,960
+Somewhere around here. Now,
+
+90
+00:06:05,000 --> 00:06:07,420
+obviously we're not going to see a perfect line like this.
+
+91
+00:06:07,780 --> 00:06:10,820
+We're never going to see a perfect line like this. Unless it's,
+
+92
+00:06:10,860 --> 00:06:15,360
+unless it's the same stock, unless it's SPY versus SPY or SPY versus IVV.
+
+93
+00:06:17,840 --> 00:06:22,800
+There should be some type of beta and the returns will fall along this line somewhere.
+
+94
+00:06:23,640 --> 00:06:23,780
+Okay.
+
+95
+00:06:24,140 --> 00:06:29,460
+And depending on how strong the relationship between the two pairs will depend on
+
+96
+00:06:29,460 --> 00:06:36,160
+how tight it is around this, this, this line. Okay. So we have a beta of 1.5.
+
+97
+00:06:36,180 --> 00:06:37,120
+So far so good, everyone.
+
+98
+00:06:40,060 --> 00:06:44,000
+So we have a beta of 1.5. So what that means is given SMP vol,
+
+99
+00:06:45,010 --> 00:06:53,170
+NASDAQ should be trading at 45. Okay. How did we get that? Well, we took SMP.
+
+100
+00:06:53,670 --> 00:06:57,390
+So imagine this, what the market's saying here is the market's implied.
+
+101
+00:06:57,550 --> 00:06:59,750
+So with a relative value, I'm going to step one step back here, guys,
+
+102
+00:06:59,870 --> 00:07:05,030
+with a relative value, guys, trade, guys, we're saying one is fair value.
+
+103
+00:07:05,350 --> 00:07:10,730
+And then what is this asset relative to this being fair value? Okay.
+
+104
+00:07:10,730 --> 00:07:14,620
+That's all we're doing. So we could say it two ways.
+
+105
+00:07:15,380 --> 00:07:17,200
+SMP 500 is trading at 30 eyeball,
+
+106
+00:07:17,560 --> 00:07:26,640
+meaning NASDAQ eyeball should be trading at 45%. That's 30 times 1.5. Okay.
+
+107
+00:07:26,740 --> 00:07:30,540
+And why is it like that? Well, because if SMP is up 5%,
+
+108
+00:07:30,540 --> 00:07:35,990
+NASDAQ is up 1.5% on average, right? That's the beta. So SMP 30,
+
+109
+00:07:36,130 --> 00:07:39,930
+we should see NASDAQ 45, but we're seeing NASDAQ at 30.
+
+110
+00:07:40,290 --> 00:07:44,990
+So another way we could say this is given NASDAQ is 30. Well,
+
+111
+00:07:45,210 --> 00:07:52,400
+SMP should be trading at 22.5, right? Because 30 divided by one point. Yeah,
+
+112
+00:07:52,540 --> 00:07:58,880
+close enough. Oh, wait, wait a minute. 2020. Yeah, yeah. It's 20. Yeah.
+
+113
+00:08:01,860 --> 00:08:07,130
+Should be trading at 20, but it's trading at 30. Okay. So together, relatively,
+
+114
+00:08:07,490 --> 00:08:12,650
+if NASDAQ is fair, SMP is underpriced. If SMP is underpriced, if SMP is fair,
+
+115
+00:08:13,610 --> 00:08:16,130
+sorry, guys, sorry, sorry. If NASDAQ is fair,
+
+116
+00:08:16,570 --> 00:08:19,710
+SMP is overpriced because it's trading at 30 eyeball,
+
+117
+00:08:20,310 --> 00:08:28,030
+but it should be trading at 20 given NASDAQ. On the flip side, given SMP at 30,
+
+118
+00:08:28,270 --> 00:08:31,030
+NASDAQ should be trading at 45, but it's trading at 30.
+
+119
+00:08:31,170 --> 00:08:34,590
+If we determine that SMP is what's actually fair value.
+
+120
+00:08:35,600 --> 00:08:41,500
+Like if SMP is more correctly priced. Right. So if we think SMP is fair,
+
+121
+00:08:41,740 --> 00:08:48,170
+NASDAQ is cheap. If we NASDAQ is fair, SMP is expensive. Okay. So we say, okay,
+
+122
+00:08:48,190 --> 00:08:49,930
+well, there's a trade to be made here.
+
+123
+00:08:51,180 --> 00:08:55,920
+So what I'm going to do is I'm going to sell ball on SMP. Okay.
+
+124
+00:08:57,080 --> 00:09:02,560
+And we're going to go ahead and buy ball on the NAS. Right.
+
+125
+00:09:05,360 --> 00:09:07,460
+Let me think here. Cause remember, right.
+
+126
+00:09:07,460 --> 00:09:08,960
+If we come back to this graph for one second,
+
+127
+00:09:09,480 --> 00:09:11,600
+what we're actually seeing right now, right.
+
+128
+00:09:11,600 --> 00:09:15,520
+If green is what we're actually seeing, we're actually seeing this.
+
+129
+00:09:18,250 --> 00:09:21,170
+We should be seeing the red, but we're seeing the green.
+
+130
+00:09:21,990 --> 00:09:23,570
+Or at least that's implied, right?
+
+131
+00:09:23,910 --> 00:09:26,950
+The green line is what's implied right now versus the red line.
+
+132
+00:09:27,330 --> 00:09:33,860
+But what the market should be implying is this, these should be down there.
+
+133
+00:09:34,060 --> 00:09:39,920
+Given the fact that the beta to the SMP is 1.5 for the cues.
+
+134
+00:09:40,900 --> 00:09:45,160
+So it's almost like you're trading the implied beta versus the realized beta.
+
+135
+00:09:45,780 --> 00:09:46,040
+Okay.
+
+136
+00:09:48,510 --> 00:09:55,760
+So here we have, so here we have the two, the two, the two ETFs. Now,
+
+137
+00:09:55,940 --> 00:10:00,860
+in this case, we need to structure this. Okay. We need to structure this.
+
+138
+00:10:02,200 --> 00:10:05,540
+The best way to structure this. Okay. It's theta neutral.
+
+139
+00:10:05,820 --> 00:10:10,480
+Now there is times where we don't do that. And as time where's the other,
+
+140
+00:10:10,580 --> 00:10:13,450
+how the night goes, if we have enough time, we're going to,
+
+141
+00:10:13,550 --> 00:10:14,250
+we're going to get into it.
+
+142
+00:10:14,700 --> 00:10:18,260
+But why do we make an assumption to go theta neutral off the bat? Right.
+
+143
+00:10:18,340 --> 00:10:22,760
+And the reason why we do that is because it's stock versus stock or ETF versus ETF,
+
+144
+00:10:22,840 --> 00:10:25,800
+right? It's the same, same type of asset. So when you say theta neutral,
+
+145
+00:10:25,880 --> 00:10:30,140
+what do you mean by that? So there's data exposure, obviously, but like, why?
+
+146
+00:10:30,220 --> 00:10:32,200
+And like, what are the actual implications of that? Yes.
+
+147
+00:10:32,340 --> 00:10:35,800
+So this is a little bit hard to understand. Okay.
+
+148
+00:10:35,800 --> 00:10:36,760
+It's a little bit tough to understand,
+
+149
+00:10:36,820 --> 00:10:40,100
+but you're actually monetizing your gamma. Okay.
+
+150
+00:10:40,100 --> 00:10:43,080
+I know it's a little tough to think about, and we're going to,
+
+151
+00:10:43,120 --> 00:10:46,960
+we're going to break that down right now. Actually. Good, good call there.
+
+152
+00:10:48,980 --> 00:10:52,340
+So before we even jump into this, guys think about it like this. Okay.
+
+153
+00:10:53,240 --> 00:10:59,350
+There is two there's theta neutral and there's Vega neutral. Okay.
+
+154
+00:10:59,450 --> 00:11:02,690
+Theta neutral and Vega neutral. Now I'm actually going to, you know,
+
+155
+00:11:02,690 --> 00:11:04,150
+these are really like, you know, big term,
+
+156
+00:11:04,230 --> 00:11:05,970
+but we're actually going to simplify it. Okay.
+
+157
+00:11:06,390 --> 00:11:10,120
+Theta neutral means premium neutral. Okay.
+
+158
+00:11:10,400 --> 00:11:17,420
+Premium neutral Vega neutral means notional neutral. Okay.
+
+159
+00:11:17,560 --> 00:11:19,240
+So what does this mean? We're just going to, you know,
+
+160
+00:11:19,240 --> 00:11:20,240
+really start at the core,
+
+161
+00:11:20,300 --> 00:11:25,330
+start at the fundamental premium neutral means if I'm selling,
+
+162
+00:11:25,570 --> 00:11:29,130
+it means the extrinsic value is the same across. Okay.
+
+163
+00:11:29,170 --> 00:11:33,850
+Basically I'm going to sell $10,000 of extrinsic value here and buy $10,000 of extrinsic
+
+164
+00:11:33,850 --> 00:11:36,700
+value here. And if nothing happens,
+
+165
+00:11:36,840 --> 00:11:40,870
+I'm going to lose 10,000 and I'm going to gain 10,000. Right.
+
+166
+00:11:41,270 --> 00:11:45,950
+So I'm going to be flat so far. So good. Premium neutral, theta neutral, right?
+
+167
+00:11:46,270 --> 00:11:49,750
+Remember theta is their sensitivity is the decay to time.
+
+168
+00:11:50,410 --> 00:11:53,720
+So if these are both decaying at the same time, well,
+
+169
+00:11:53,740 --> 00:11:55,540
+they must have had the same to start with.
+
+170
+00:11:55,820 --> 00:12:00,330
+They must have the same extrinsic value to start with. Right.
+
+171
+00:12:01,010 --> 00:12:01,850
+Does that make sense?
+
+172
+00:12:05,700 --> 00:12:07,840
+I'm just trying to think if there's anything I can add there to clarify it.
+
+173
+00:12:08,340 --> 00:12:11,020
+Chris. Oh my gosh, Jekka. Chris never said that. Okay.
+
+174
+00:12:11,500 --> 00:12:14,340
+Chris still wouldn't understand. I'm pretty sure you took it from Chris. No,
+
+175
+00:12:14,460 --> 00:12:15,620
+I took it from one of my mentors.
+
+176
+00:12:19,460 --> 00:12:21,280
+Chris. We're on the same page here. Yeah.
+
+177
+00:12:24,630 --> 00:12:27,470
+So yeah, like I'm just trying to think about.
+
+178
+00:12:27,550 --> 00:12:31,430
+So what you're basically saying is when you have two of the same, like,
+
+179
+00:12:31,450 --> 00:12:34,770
+let's say on your sell side, you sell $10,000 of premium.
+
+180
+00:12:35,010 --> 00:12:37,050
+If you want it to be theta neutral off inception,
+
+181
+00:12:37,230 --> 00:12:41,690
+you would buy $10,000 worth of premium on the other asset. Yes. Extrinsic.
+
+182
+00:12:42,030 --> 00:12:48,790
+Extrinsic. Not intrinsic. Extrinsic. Okay. So the same extrinsic premium. Yes.
+
+183
+00:12:49,190 --> 00:12:49,430
+Okay.
+
+184
+00:12:49,710 --> 00:12:52,490
+And then what you're saying is the reason that's theta neutral is let's say the
+
+185
+00:12:52,490 --> 00:12:54,730
+eyeballs don't change or anything and they,
+
+186
+00:12:54,810 --> 00:12:58,690
+but they move relative to each other. Now you'll break even correct.
+
+187
+00:12:58,870 --> 00:13:02,090
+If the only thing that changes is time, if you've, if,
+
+188
+00:13:02,190 --> 00:13:05,870
+if the premiums don't change, right. Right. One will decay to zero.
+
+189
+00:13:05,950 --> 00:13:09,390
+The other will stay at 10 K. Yeah. And you'll break even. Yes.
+
+190
+00:13:10,340 --> 00:13:16,240
+Hence data neutral. Correct. Got it. Now you can get a little tricky guys.
+
+191
+00:13:16,300 --> 00:13:20,440
+I hope you guys don't mind if we get a little into this. Yeah. Yeah. Okay.
+
+192
+00:13:20,440 --> 00:13:24,920
+So I know, I know Steve B's going to love this one. He's probably,
+
+193
+00:13:25,000 --> 00:13:29,400
+he's looking at his lips right now. He's got the bottle of Vaseline out. So,
+
+194
+00:13:29,640 --> 00:13:36,860
+okay. So I want to ask you guys a question. Okay. So we've got two stocks.
+
+195
+00:13:39,100 --> 00:13:46,820
+Okay. So we've got SMP at 30 eyeball. Okay. And we got SMP too. Okay.
+
+196
+00:13:46,820 --> 00:13:50,600
+Which is the same thing as SMP. Okay. It's S it's a, it's a,
+
+197
+00:13:50,600 --> 00:13:52,360
+it's a made up ETF. Okay.
+
+198
+00:13:52,360 --> 00:14:02,300
+It's a made up ETF but it's the exact same thing as SMP and it's trading at 25%
+
+199
+00:14:02,300 --> 00:14:05,440
+volatility. Okay. We're gonna have to start off really basic guys.
+
+200
+00:14:05,540 --> 00:14:08,460
+So you get the, you get the assumption. Yeah. They would have a beta of one.
+
+201
+00:14:08,660 --> 00:14:09,780
+They have a beta of one,
+
+202
+00:14:09,860 --> 00:14:17,370
+but what do you guys think the theta let's say the theta is for this $10 a day.
+
+203
+00:14:19,860 --> 00:14:23,320
+Okay. Well, what's the theta for this option?
+
+204
+00:14:25,100 --> 00:14:29,880
+What would be the theta for this one? Okay. So we've got SMP trading at 30%.
+
+205
+00:14:29,880 --> 00:14:36,460
+We got SMP to trading at 25%. Okay. What would the theta for this be?
+
+206
+00:14:38,600 --> 00:14:40,360
+Okay. Well, while they come in from grabbing a glass of water,
+
+207
+00:14:40,420 --> 00:14:42,140
+my mouth is fucking dry. Okay.
+
+208
+00:14:49,160 --> 00:14:50,900
+Okay. Jacko, you want to expand on that?
+
+209
+00:15:01,840 --> 00:15:05,660
+Say less than the 30, like less than SPY one. Yeah. It'd be less.
+
+210
+00:15:05,780 --> 00:15:07,540
+Steve gave a number to be honest with you.
+
+211
+00:15:07,560 --> 00:15:10,880
+I don't know if that's the exact number. Maybe it is 8.5. It'd be close.
+
+212
+00:15:10,880 --> 00:15:13,740
+So it's going to be less than 10. The, you know,
+
+213
+00:15:13,800 --> 00:15:16,820
+it's going to be less than 10 and maybe it's 8.5. We'll call it 8.5. Okay.
+
+214
+00:15:20,420 --> 00:15:22,400
+So now I want you guys to think of this in terms of like,
+
+215
+00:15:22,440 --> 00:15:26,840
+imagine this thing existed. Okay. Which, which it doesn't. Unfortunately,
+
+216
+00:15:28,060 --> 00:15:31,360
+this would be a great trade, right? It doesn't unfortunately exist like this.
+
+217
+00:15:31,520 --> 00:15:34,900
+If you ever see this, something's wrong. Okay. Something inherently is wrong.
+
+218
+00:15:34,940 --> 00:15:40,020
+You're missing a point. And I've seen this, I've seen this across many tickers,
+
+219
+00:15:40,100 --> 00:15:42,820
+ETFs, where it looks like it's an ARB or very close to an ARB.
+
+220
+00:15:43,280 --> 00:15:45,900
+But when you factor in a whole bunch of other things that, you know,
+
+221
+00:15:45,960 --> 00:15:49,730
+a lot of people miss out, it's not, okay. It's really not.
+
+222
+00:15:49,770 --> 00:15:53,590
+And those can really be devastating. And it's happened to me before, right?
+
+223
+00:15:53,670 --> 00:15:59,800
+It's, it's happened to me. So this is going to have, so let's, let's rewind.
+
+224
+00:16:00,340 --> 00:16:04,330
+We've got S&P trading at 30%. Okay. IVOL,
+
+225
+00:16:04,530 --> 00:16:08,790
+it's going to have $10 in theta a day. S&P2 trading at 25% IVOL,
+
+226
+00:16:08,850 --> 00:16:11,410
+it's going to have $8.50 a day. Okay.
+
+227
+00:16:11,570 --> 00:16:15,390
+Now both of these ETFs should have a beta of one, right?
+
+228
+00:16:15,530 --> 00:16:17,950
+The beta of these two ETFs is one.
+
+229
+00:16:20,450 --> 00:16:20,550
+Okay.
+
+230
+00:16:26,040 --> 00:16:31,180
+What are you doing, dude? Okay. Sorry, guys. Okay. Beta equals one. Dude.
+
+231
+00:16:33,240 --> 00:16:36,040
+Now, what does that mean? Now,
+
+232
+00:16:36,160 --> 00:16:38,700
+now this is what we're talking about monetizing our gamma. Okay.
+
+233
+00:16:39,020 --> 00:16:45,960
+So what it means is to get theta neutral, we have to buy more of this.
+
+234
+00:16:48,020 --> 00:16:50,480
+Okay. We have to buy more of this to get theta neutral. Now,
+
+235
+00:16:50,600 --> 00:16:53,840
+before we jump into theta neutral, and slow me down guys,
+
+236
+00:16:53,960 --> 00:16:57,580
+if I'm going too fast, and this is recorded,
+
+237
+00:16:57,660 --> 00:17:02,220
+so you guys can go over it afterwards. Let's talk about vega neutral. Okay.
+
+238
+00:17:03,640 --> 00:17:07,360
+So we now know what X trend, now we now understand theta neutral, right?
+
+239
+00:17:08,060 --> 00:17:12,470
+We understand theta neutral now, but let's talk about vega neutral.
+
+240
+00:17:14,540 --> 00:17:19,300
+Okay. Man, you know, we got to get, we have to get the writing pads.
+
+241
+00:17:19,700 --> 00:17:23,340
+Like this is fucking brutal. I know. Honestly, man.
+
+242
+00:17:23,680 --> 00:17:25,100
+I swear we were good at this last week, man.
+
+243
+00:17:25,100 --> 00:17:26,760
+If I knew where you were going with it, I would just,
+
+244
+00:17:26,860 --> 00:17:30,080
+I could do it quick and I could use like the text and stuff. Okay.
+
+245
+00:17:30,140 --> 00:17:32,820
+So vega neutral. Vega neutral is notional neutral.
+
+246
+00:17:33,280 --> 00:17:36,420
+So here we have S&P trading at 100. Okay.
+
+247
+00:17:36,420 --> 00:17:39,120
+And we have S&P 2 trading at 100 because they're the same,
+
+248
+00:17:39,300 --> 00:17:45,150
+they're the same thing. So vega neutral would be notional neutral.
+
+249
+00:17:45,490 --> 00:17:46,530
+And notional neutral,
+
+250
+00:17:47,170 --> 00:17:51,570
+meaning that the dollar amount is the same in terms of what the underlying is,
+
+251
+00:17:52,470 --> 00:17:58,210
+right? So, so we would sell in a vega neutral manner,
+
+252
+00:17:58,330 --> 00:18:02,120
+we would sell one of these and buy one of those.
+
+253
+00:18:02,770 --> 00:18:07,730
+And that would be vega neutral. Okay. Because it's same notional, same vega.
+
+254
+00:18:08,730 --> 00:18:14,200
+Okay. We're good. Okay. So if we have the same vega,
+
+255
+00:18:14,440 --> 00:18:20,860
+then what we're really exposed to here is the changes in implied vol. Okay.
+
+256
+00:18:20,860 --> 00:18:24,530
+The changes of implied vol, but with theta neutral,
+
+257
+00:18:24,610 --> 00:18:27,210
+we're actually going to monetize our gamma. So here let's,
+
+258
+00:18:27,390 --> 00:18:31,060
+let's take a look here, guys. Okay. I know, I know Steve,
+
+259
+00:18:31,080 --> 00:18:33,620
+you're gonna have a lot of questions about this. Are we going to go over them?
+
+260
+00:18:34,400 --> 00:18:40,920
+Okay. So, so far we're good. Vega neutral, theta neutral. We're all good.
+
+261
+00:18:41,690 --> 00:18:45,660
+Let me know if we're not good. There's obviously going to be some questions,
+
+262
+00:18:45,860 --> 00:18:51,100
+but like just as a general concept. So here you guys are going to see this,
+
+263
+00:18:51,180 --> 00:18:57,150
+right? Well, take a look at this. We gotta go back even a further step. Okay.
+
+264
+00:18:57,230 --> 00:19:04,200
+So this is such a complex topic. Okay. Let's just keep it simple.
+
+265
+00:19:04,220 --> 00:19:06,720
+Let's only look at theta neutral. Yeah. No,
+
+266
+00:19:06,760 --> 00:19:10,080
+but like it's trying to explain everything. So like with the theta neutral,
+
+267
+00:19:10,240 --> 00:19:12,940
+okay. Let me know if I'm getting too ahead here, guys. Yeah.
+
+268
+00:19:13,400 --> 00:19:16,900
+There's something called the rent ratio. Okay. The rent ratio.
+
+269
+00:19:17,040 --> 00:19:17,880
+And that is your theta.
+
+270
+00:19:22,660 --> 00:19:27,740
+Okay. That's your theta over your gamma. Okay.
+
+271
+00:19:27,740 --> 00:19:31,340
+And that's called the rent ratio. Now in this case,
+
+272
+00:19:31,420 --> 00:19:33,320
+let's explain what the rent ratio is quick. Yeah.
+
+273
+00:19:33,320 --> 00:19:36,520
+It's basically remember one man's data is another man's gamma, right?
+
+274
+00:19:36,560 --> 00:19:41,520
+You get paid data because you're giving someone exposure to large moves or you are
+
+275
+00:19:41,520 --> 00:19:43,640
+paying gamma or you're,
+
+276
+00:19:43,660 --> 00:19:46,400
+you are paying theta in order to get that exposure to large moves.
+
+277
+00:19:46,600 --> 00:19:48,000
+Let's say you're the one paying it.
+
+278
+00:19:48,080 --> 00:19:53,000
+You can think of it as you're paying rent for access to this, right?
+
+279
+00:19:53,000 --> 00:19:54,900
+Your theta is your rent for it. Well,
+
+280
+00:19:54,940 --> 00:19:57,520
+how much rent are you paying relative to the exposure you're getting?
+
+281
+00:19:58,000 --> 00:20:06,960
+That's your rent ratio, right? So in this case, okay, this right here, this,
+
+282
+00:20:07,100 --> 00:20:11,320
+this one right here, guys, the 30% eyeball is going to have a higher theta.
+
+283
+00:20:12,210 --> 00:20:16,690
+Okay. But the gamma is actually going to be the same. Okay.
+
+284
+00:20:16,710 --> 00:20:23,030
+Between this and this, the gamma is going to be the same. So this, this,
+
+285
+00:20:23,190 --> 00:20:23,810
+this asset.
+
+286
+00:20:24,050 --> 00:20:28,330
+So the reason why the gamma will be the same is even though they're implying different,
+
+287
+00:20:28,410 --> 00:20:32,870
+they're the same asset. If one moves 5%, the other moves 5%,
+
+288
+00:20:32,870 --> 00:20:35,710
+the actual moves for them is equal.
+
+289
+00:20:37,280 --> 00:20:40,420
+The only reason the thetas are going to be different is because they have different
+
+290
+00:20:40,420 --> 00:20:43,750
+implied volatilities right now, right?
+
+291
+00:20:43,750 --> 00:20:48,110
+Which means the market is implying that it's going to give you access to more,
+
+292
+00:20:48,610 --> 00:20:51,930
+but it's really the same, right? It's going to have more extrinsic value.
+
+293
+00:20:52,130 --> 00:20:54,470
+So it's got to lose more by the end of the expiration,
+
+294
+00:20:54,470 --> 00:21:02,180
+but the stocks are going to move the same. So here we have, let's say, um, our,
+
+295
+00:21:02,220 --> 00:21:07,490
+our, our theta gamma ratio for, for asset one for stuff, for SPY-1. Okay.
+
+296
+00:21:08,180 --> 00:21:10,980
+It's going to be, let's say 1.5. Fuck the numbers. Okay.
+
+297
+00:21:10,980 --> 00:21:14,020
+It's going to be higher than this one. Okay.
+
+298
+00:21:14,140 --> 00:21:17,490
+It's going to be higher than this one. So when we go theta neutral,
+
+299
+00:21:18,290 --> 00:21:20,310
+all of a sudden we are,
+
+300
+00:21:20,490 --> 00:21:26,290
+so here is asset one and here's theta gamma ratio for asset two. Okay.
+
+301
+00:21:27,030 --> 00:21:28,270
+These are going to be the same,
+
+302
+00:21:28,990 --> 00:21:34,050
+but the gamma is going to be much higher on asset two.
+
+303
+00:21:34,890 --> 00:21:38,490
+So now you are theta neutral, but you're exposed to long gamma, right?
+
+304
+00:21:38,490 --> 00:21:42,650
+You're monetizing that long gamma. That's what's really making the money here,
+
+305
+00:21:43,070 --> 00:21:48,670
+right? The money is being made when stock one goes from, let's say,
+
+306
+00:21:49,310 --> 00:21:53,950
+SPY-1 goes from 10, moves up 10% and this moves up 10%. You just,
+
+307
+00:21:54,030 --> 00:21:59,010
+you were long gamma on this, more gamma on this than you were this. Okay.
+
+308
+00:21:59,450 --> 00:22:00,390
+So we're going to, we're going to,
+
+309
+00:22:00,490 --> 00:22:04,540
+we're going to circle back down and we're going to start doing, going back to,
+
+310
+00:22:04,660 --> 00:22:09,200
+maybe we should actually stick with SPY-2 because it's simple. Yeah.
+
+311
+00:22:09,380 --> 00:22:12,840
+I think it's good. But Ned's just asking, so if the vols were both 30%,
+
+312
+00:22:12,840 --> 00:22:18,080
+they'd have a rent ratio of one. No, they would just have the same rent ratio,
+
+313
+00:22:20,120 --> 00:22:22,780
+right? The ratio of the ratio would be one.
+
+314
+00:22:26,170 --> 00:22:29,090
+So, okay. I'm going to, I'm going to delete this for now guys,
+
+315
+00:22:29,090 --> 00:22:31,150
+because we don't, we don't really need this. We need to,
+
+316
+00:22:31,150 --> 00:22:34,990
+we need to work with simple numbers for us to really get a sense of this because
+
+317
+00:22:35,920 --> 00:22:38,980
+doing it against the NASDAQ makes it a lot more complex.
+
+318
+00:22:41,480 --> 00:22:46,270
+Okay. So now what do we do? Well, we go into the market. Okay.
+
+319
+00:22:46,290 --> 00:22:51,540
+And we sell 10 straddles or strangles. Okay. We're going to say,
+
+320
+00:22:51,600 --> 00:22:56,630
+we're going to call it straddles for now. Okay. We sell 10 straddles.
+
+321
+00:22:57,030 --> 00:22:59,590
+Do you want to, do you want to type in this man? Yeah.
+
+322
+00:23:00,930 --> 00:23:03,650
+As long as it's something straightforward, I can follow what you're doing.
+
+323
+00:23:03,790 --> 00:23:08,520
+10 straddles. So what are we doing? We're going to sell 10 straddles. On what?
+
+324
+00:23:08,880 --> 00:23:12,570
+SPY2. SPY1. Okay. So we sell 10 straddles SPY1.
+
+325
+00:23:13,400 --> 00:23:18,400
+And now let's say we collect $10,000 in premium.
+
+326
+00:23:25,090 --> 00:23:27,090
+Okay. Well, now we're going to take that 10 grand.
+
+327
+00:23:27,490 --> 00:23:29,410
+We're going to go buy straddles on SPY2.
+
+328
+00:23:34,190 --> 00:23:37,110
+Here's the beauty though. The straddles on SPY1,
+
+329
+00:23:37,250 --> 00:23:40,990
+because they're trading at a higher implied vol, are trading at, let's say $10.
+
+330
+00:23:45,230 --> 00:23:46,930
+SPY1 straddles are trading for $10.
+
+331
+00:23:53,100 --> 00:23:58,560
+SPY2 straddles, because it's a cheaper implied vol, is only trading for $7.50.
+
+332
+00:24:01,120 --> 00:24:13,480
+So we now own 100 short straddles on SPY1. We own,
+
+333
+00:24:13,620 --> 00:24:20,910
+let's say 150 long straddles on SPY2.
+
+334
+00:24:23,370 --> 00:24:27,630
+The thetas are the same. Okay. Are you guys with me so far?
+
+335
+00:24:27,750 --> 00:24:34,180
+The thetas are the same. So every time the stock moves, we make money.
+
+336
+00:24:35,860 --> 00:24:38,480
+And that's why it's called monetizing power gamma.
+
+337
+00:24:42,460 --> 00:24:46,580
+Questions? Thoughts? I was hoping this was going to be a short live.
+
+338
+00:24:46,640 --> 00:24:49,540
+It's going to turn to a three hour live. It's going to be a nine o'clock.
+
+339
+00:24:54,840 --> 00:25:02,320
+Right. Net. So obviously if the spread collapses, right, let's say tomorrow,
+
+340
+00:25:02,620 --> 00:25:10,320
+the S&P, the vols collapse. And now the thetas are the same. Right.
+
+341
+00:25:10,380 --> 00:25:12,660
+And so we wouldn't want to stay in the position, we'd exit the position,
+
+342
+00:25:12,740 --> 00:25:14,920
+our money has been made. Okay.
+
+343
+00:25:18,560 --> 00:25:23,120
+You know, so either this vol can increase, or this vol can decrease.
+
+344
+00:25:23,500 --> 00:25:26,440
+But once the vols collapse, there's no more edge, we're out of the position.
+
+345
+00:25:30,070 --> 00:25:32,890
+And then Ned saying, do we scalp theta to hold the position?
+
+346
+00:25:33,090 --> 00:25:35,470
+So we never really scalp the theta, it's we scalp the gamma.
+
+347
+00:25:35,730 --> 00:25:40,270
+And so that's another thing, right? scalping gammas, delta hedging, okay,
+
+348
+00:25:40,330 --> 00:25:45,830
+is actually a tool that's used to reduce your directional exposure. Okay?
+
+349
+00:25:46,290 --> 00:25:50,390
+If you think, for example, Ned, that the stock is just going to chop, chop,
+
+350
+00:25:50,470 --> 00:25:53,120
+chop, chop, chop like this. Well,
+
+351
+00:25:53,140 --> 00:25:55,060
+then you want to be scalping as much as possible.
+
+352
+00:25:56,180 --> 00:25:59,780
+But if you think it's going to trend, well, you don't want to scalp at all,
+
+353
+00:25:59,820 --> 00:26:04,140
+you want to let that thing ride out. Okay, also scalping is also expensive.
+
+354
+00:26:06,960 --> 00:26:09,340
+Okay, cool, we can maybe do that towards the end.
+
+355
+00:26:09,460 --> 00:26:11,480
+If you add the element of them being different assets,
+
+356
+00:26:11,520 --> 00:26:12,720
+it just makes it more complicated.
+
+357
+00:26:13,200 --> 00:26:18,640
+Because what we're trying to do by saying spy one and spy two is it is that they
+
+358
+00:26:18,640 --> 00:26:20,920
+move the same, right?
+
+359
+00:26:20,920 --> 00:26:23,520
+It's not like they have different underlying assets as a part of the ETFs.
+
+360
+00:26:23,560 --> 00:26:27,120
+They're the same ETFs. They're just implying different things in the market.
+
+361
+00:26:27,830 --> 00:26:30,110
+Can we take advantage of it? And how would we go about doing it?
+
+362
+00:26:34,810 --> 00:26:39,310
+Was that a question? Yeah, I just answered. Okay. Steve had a good point.
+
+363
+00:26:40,980 --> 00:26:42,060
+Why don't we do these Vega neutral?
+
+364
+00:26:44,140 --> 00:26:52,000
+And see, to be honest, I think you're coming from a different perspective.
+
+365
+00:26:52,920 --> 00:26:55,940
+Okay, and I won't share on the live, but if you want to send me a message,
+
+366
+00:26:55,960 --> 00:26:56,840
+we can talk about it.
+
+367
+00:26:58,730 --> 00:27:01,950
+But there's a reason why you wouldn't do Vega neutral here.
+
+368
+00:27:03,520 --> 00:27:06,660
+And there is a reason why we would do Vega neutral here as well. Okay,
+
+369
+00:27:06,800 --> 00:27:08,040
+let's say for example,
+
+370
+00:27:08,240 --> 00:27:13,080
+you think that the implied vols of asset of spy one are going to increase,
+
+371
+00:27:14,000 --> 00:27:17,640
+or sorry, spy two is going to decrease. Okay,
+
+372
+00:27:18,200 --> 00:27:22,680
+so we have right now we're like this, sorry, we're like this, spy one, spy two.
+
+373
+00:27:23,620 --> 00:27:31,490
+And if we do Vega neutral, okay, and this increases, well,
+
+374
+00:27:31,910 --> 00:27:35,070
+we would have been better off if we did data neutral and this increased,
+
+375
+00:27:35,410 --> 00:27:41,440
+because we have more of these. But if we think this is the expensive leg, okay,
+
+376
+00:27:41,460 --> 00:27:46,780
+let's say we think this is the expensive leg. Then when this decreases, right,
+
+377
+00:27:46,880 --> 00:27:49,820
+we're going to make more money if we have more size here.
+
+378
+00:27:50,950 --> 00:27:56,440
+So that's one reason why we would do Vega neutral. And this is like, oh, man,
+
+379
+00:27:56,560 --> 00:27:59,860
+yeah, we're gonna get too deep. Yeah, yeah, we gotta slow down. Yeah. Steve,
+
+380
+00:27:59,920 --> 00:28:01,100
+send me a message. Yeah, we'll get back.
+
+381
+00:28:01,100 --> 00:28:03,580
+I think I know where you're coming from as well. And what you're trying to do.
+
+382
+00:28:03,660 --> 00:28:05,760
+So just send me a message and we can chat about. Okay,
+
+383
+00:28:05,800 --> 00:28:09,960
+so just because we got a little off track. Let's recap what we've done so far.
+
+384
+00:28:09,980 --> 00:28:13,420
+And then let's continue on this example. We have two assets,
+
+385
+00:28:13,800 --> 00:28:16,480
+spy one and spy two, call them whatever you want. The whole point is,
+
+386
+00:28:16,720 --> 00:28:20,680
+they are the same thing. Okay, they move exactly the same.
+
+387
+00:28:21,160 --> 00:28:24,070
+They're the same company, let's say, for a co-op,
+
+388
+00:28:24,110 --> 00:28:28,520
+we'll say it's Tesla one and Tesla two, okay. Or we can bug them and be like,
+
+389
+00:28:28,620 --> 00:28:30,880
+it's Tesla and NIO.
+
+390
+00:28:34,320 --> 00:28:36,640
+The only thing that's different about them is when we look at the market,
+
+391
+00:28:36,660 --> 00:28:40,940
+we see that asset spy one has an implied volatility of 30,
+
+392
+00:28:41,060 --> 00:28:45,140
+when spy two has an implied volatility of 25. But they're the same thing,
+
+393
+00:28:45,140 --> 00:28:46,680
+they should have the same implied vols.
+
+394
+00:28:46,960 --> 00:28:50,280
+So how can we structure a trade here to take advantage of it? Well,
+
+395
+00:28:50,620 --> 00:28:53,430
+we start off by saying,
+
+396
+00:28:54,130 --> 00:28:57,610
+do you want to explain that this part just because I'm not sure how you went from
+
+397
+00:28:57,610 --> 00:29:00,950
+here to here for the rent ratio? Oh, yeah. Okay. So we're,
+
+398
+00:29:01,050 --> 00:29:01,790
+what we're saying is,
+
+399
+00:29:02,580 --> 00:29:07,080
+the rent ratio in this asset is going to be more expensive than this asset.
+
+400
+00:29:07,200 --> 00:29:09,620
+So we're basically flattening them. Okay.
+
+401
+00:29:10,220 --> 00:29:12,900
+And that's your theta over your gamma, right?
+
+402
+00:29:12,920 --> 00:29:15,280
+So how much rent are you paying for exposure to gamma,
+
+403
+00:29:15,400 --> 00:29:18,400
+because you should be paying the same, right?
+
+404
+00:29:18,440 --> 00:29:20,940
+They're going to have the same likelihood of big moves,
+
+405
+00:29:20,960 --> 00:29:25,130
+and the big moves will be the same for them. So why are you raising this?
+
+406
+00:29:25,190 --> 00:29:27,070
+I was gonna move this up and then we can keep it going. Yeah,
+
+407
+00:29:27,090 --> 00:29:31,080
+just just while I'm explaining. So what we're gonna say is,
+
+408
+00:29:31,140 --> 00:29:37,200
+is there a way we can make the rent ratios equal for them. And then we have,
+
+409
+00:29:38,180 --> 00:29:44,460
+you can hopefully collect, basically what we're doing here is we're monetizing,
+
+410
+00:29:44,580 --> 00:29:48,880
+monetizing the long gamma, right? Because we have more of it now. It's like,
+
+411
+00:29:48,880 --> 00:29:51,860
+we just sold two properties, the exact same properties,
+
+412
+00:29:52,220 --> 00:29:54,260
+one we're collecting higher rent on than the other one,
+
+413
+00:29:54,280 --> 00:29:59,300
+we're collecting higher rent on the other. So this one was going for 10 bucks,
+
+414
+00:29:59,340 --> 00:30:03,620
+this one was going for 850, we said, so what we could do is we sell 10,
+
+415
+00:30:03,760 --> 00:30:06,820
+that 10 straddles on spy one, and we collect 10k for it,
+
+416
+00:30:06,960 --> 00:30:08,760
+then we take the 10k that we collected,
+
+417
+00:30:08,980 --> 00:30:13,500
+and we buy $10,000 worth of straddles on spy two.
+
+418
+00:30:13,760 --> 00:30:16,820
+So the reason we're theta neutral here is the premium,
+
+419
+00:30:18,430 --> 00:30:22,450
+we're equal amounts of premium in both short 10,000 here,
+
+420
+00:30:22,650 --> 00:30:26,960
+long 10,000 in premium here of extrinsic. Does that make sense?
+
+421
+00:30:29,460 --> 00:30:34,430
+Right? So now, we are short straddles on spy one,
+
+422
+00:30:35,330 --> 00:30:41,170
+and we are long more straddles on spy two, but they have the same theta,
+
+423
+00:30:41,410 --> 00:30:43,250
+meaning they decay at the same rate.
+
+424
+00:30:46,820 --> 00:30:49,940
+Right? So let's make sure that we're clear on why they decay at the same rate.
+
+425
+00:30:50,470 --> 00:30:53,510
+It's because one decays quicker than the other, right?
+
+426
+00:30:53,590 --> 00:30:59,220
+Spy one decays quicker than spy two. But we have more of spy two,
+
+427
+00:30:59,520 --> 00:31:05,180
+so that the actual dollar decay per day is the same for both of them relative to
+
+428
+00:31:05,180 --> 00:31:08,280
+the premium that we either bought or sold.
+
+429
+00:31:12,420 --> 00:31:15,620
+Okay, let's keep moving here because we should stay on track with this. Okay,
+
+430
+00:31:15,680 --> 00:31:18,700
+so Bala, we're gonna get back to that afterwards. Okay,
+
+431
+00:31:18,840 --> 00:31:22,240
+so we're gonna clear this up. Yeah. So we're gonna get rid of the top part.
+
+432
+00:31:22,340 --> 00:31:25,140
+Yeah. So now we have our position on. Okay, we got our position now,
+
+433
+00:31:25,200 --> 00:31:29,280
+everything's good. And now things start to move. Do you want me to keep typing?
+
+434
+00:31:29,860 --> 00:31:34,680
+Yeah. So now things start to move. Okay. Now, because we're long more gamma,
+
+435
+00:31:35,020 --> 00:31:36,920
+right? Think about this, guys. We're long more gamma,
+
+436
+00:31:37,040 --> 00:31:40,220
+we have more straddles in asset two on the same ETI.
+
+437
+00:31:43,320 --> 00:31:47,780
+When we start moving in one direction, we're gonna pick up more deltas.
+
+438
+00:31:48,200 --> 00:31:54,260
+So at inception, we're delta flat. Yeah. And delta neutral as well.
+
+439
+00:31:58,740 --> 00:32:04,400
+Now, in time step one, tomorrow, the stock moves 5%. Okay,
+
+440
+00:32:04,440 --> 00:32:08,400
+so now we're gonna be long delta, right? We have more straddles.
+
+441
+00:32:08,540 --> 00:32:11,520
+So we're gonna pick up long delta. And this is where things get messy, right?
+
+442
+00:32:11,520 --> 00:32:13,420
+This is where managing the book, it's extremely messy.
+
+443
+00:32:13,760 --> 00:32:20,020
+Because not only now are we long more delta, we're potentially long more theta.
+
+444
+00:32:25,130 --> 00:32:30,920
+Okay. So, you know, when I first started out, I say, okay, well,
+
+445
+00:32:30,940 --> 00:32:33,120
+let me just rebalance. Let me just close it out, rebalance.
+
+446
+00:32:33,220 --> 00:32:36,340
+And that's actually so pricey. It's super, super pricey,
+
+447
+00:32:36,360 --> 00:32:38,480
+especially when you start trading size, and you can go a little more liquid,
+
+448
+00:32:38,800 --> 00:32:40,000
+things get super pricey.
+
+449
+00:32:41,340 --> 00:32:45,860
+So what you need to do is you need to buy an option that offset or sell an option
+
+450
+00:32:45,860 --> 00:32:50,630
+that offsets this. And this can get very, very tricky. Okay,
+
+451
+00:32:50,630 --> 00:32:51,790
+because think about it like this.
+
+452
+00:32:53,920 --> 00:32:58,720
+You are long, let's say the 100 strike call, or straddle,
+
+453
+00:32:58,920 --> 00:33:01,400
+and you're short the 100 strike straddle on SPY2.
+
+454
+00:33:04,140 --> 00:33:11,070
+Okay, so we're short and long the 100 at inception, the stock's at 110. Okay,
+
+455
+00:33:11,090 --> 00:33:14,610
+if we buy a 100 strike call, let's say to offset our delta and our theta,
+
+456
+00:33:16,040 --> 00:33:19,900
+we might not be able to manage the position, we might not have enough theta,
+
+457
+00:33:19,980 --> 00:33:21,460
+let's say on that in the money call.
+
+458
+00:33:22,830 --> 00:33:26,110
+So we let's say now have to go buy a 110 call.
+
+459
+00:33:27,450 --> 00:33:29,990
+So now we have two straddles and a 110 call.
+
+460
+00:33:32,350 --> 00:33:37,430
+And then it moves again. Right? And now we go have to go buy something else.
+
+461
+00:33:38,230 --> 00:33:42,820
+And so we end up having this book, where we have all bits and pieces,
+
+462
+00:33:42,940 --> 00:33:47,670
+all chunks going on here to create this relative value position.
+
+463
+00:33:49,560 --> 00:33:55,430
+It doesn't actually end there. Because this is the only time guys,
+
+464
+00:33:55,490 --> 00:34:00,660
+this is the only time I will ever say third order Greeks matter. Okay,
+
+465
+00:34:01,340 --> 00:34:06,380
+this is the only time because you're let's say the 110 call that you just bought
+
+466
+00:34:06,410 --> 00:34:11,290
+is decaying at a different theta than your 100 strike straddle.
+
+467
+00:34:12,340 --> 00:34:15,060
+And your delta is now decaying at a different rate.
+
+468
+00:34:17,270 --> 00:34:21,430
+So managing these positions can get extremely, extremely complex.
+
+469
+00:34:21,750 --> 00:34:26,550
+And to be honest, we don't have the time to do this in a 20 minute session,
+
+470
+00:34:26,550 --> 00:34:27,710
+or 20 minutes from now,
+
+471
+00:34:27,750 --> 00:34:31,070
+we could do like down the road an entire weekend on relative value,
+
+472
+00:34:31,090 --> 00:34:35,430
+we could do a whole weekend, we could do that. Or when you guys at 100 members,
+
+473
+00:34:36,030 --> 00:34:41,190
+we'll do it, we'll do a weekend. Yeah. Long, in depth, relative value session.
+
+474
+00:34:41,230 --> 00:34:42,650
+Yeah, we're even when we get the new terminal,
+
+475
+00:34:42,810 --> 00:34:45,750
+and the guy started showing ideas, we can and we put on a position,
+
+476
+00:34:46,400 --> 00:34:49,360
+we can manage it with the group. That'd be kind of cool. That'd be a good one.
+
+477
+00:34:50,660 --> 00:34:53,720
+So as you guys can see, like, it gets very complex.
+
+478
+00:34:53,880 --> 00:34:58,670
+And I'm just trying to think how we should go about talking about this.
+
+479
+00:34:58,690 --> 00:35:00,910
+We do like a theoretical example.
+
+480
+00:35:03,010 --> 00:35:07,070
+It's tricky. I think I can do this quick. Quick. Okay.
+
+481
+00:35:07,510 --> 00:35:17,350
+So we're long 10 100 straddles. Okay. And we're short or sorry, we're long 15.
+
+482
+00:35:20,360 --> 00:35:25,670
+We're long 15 100 strike straddles. If the guys fall asleep,
+
+483
+00:35:25,670 --> 00:35:27,890
+like during these like rants, we go on sometimes.
+
+484
+00:35:29,120 --> 00:35:33,320
+Let me know if you guys are sleeping. We sure don't think they can sleep.
+
+485
+00:35:34,280 --> 00:35:41,690
+No one responds in there. Okay. We short 10 100 strike straddles. Okay.
+
+486
+00:35:42,050 --> 00:35:48,650
+And spot is trading at 100. This is our initial position. Now,
+
+487
+00:35:49,950 --> 00:35:55,930
+tomorrow spot moves to 105. We're going more, we'll go 110. Okay. Well,
+
+488
+00:35:55,930 --> 00:35:58,030
+we just made a shit ton. Right?
+
+489
+00:35:58,070 --> 00:36:02,050
+We just made a shit ton because our long 15 straddles are making way more than our
+
+490
+00:36:02,050 --> 00:36:08,250
+short 10 straddles. Okay. Now, the thing is, though, the spread is still there.
+
+491
+00:36:09,340 --> 00:36:12,520
+Okay, we can't be moving these positions like crazy. The spread is still there.
+
+492
+00:36:13,500 --> 00:36:20,170
+So what we do is we look at our new position. Maybe we are long 200 deltas.
+
+493
+00:36:22,400 --> 00:36:29,630
+And we are now short. Well, yeah, we'll say we're now short 50 deltas. Sorry,
+
+494
+00:36:29,750 --> 00:36:30,670
+50 thetas. Sorry, sorry.
+
+495
+00:36:38,980 --> 00:36:42,620
+So what do we do? Well, in this position,
+
+496
+00:36:42,780 --> 00:36:51,080
+we have to go out and basically sell 200 deltas. And whoops.
+
+497
+00:37:01,640 --> 00:37:05,120
+In short, and get long 50 thetas.
+
+498
+00:37:05,500 --> 00:37:09,040
+So what we might do is we might sell a call option.
+
+499
+00:37:09,380 --> 00:37:13,100
+So why do we need to do this? So okay, right. So yeah,
+
+500
+00:37:13,500 --> 00:37:17,380
+we put the position on where exactly the exposures we want. Stock moves,
+
+501
+00:37:17,460 --> 00:37:19,940
+we make money in some places a little somewhere else. Well,
+
+502
+00:37:19,940 --> 00:37:21,760
+we now have these other exposures. Yeah,
+
+503
+00:37:21,760 --> 00:37:26,540
+we want to keep the position on because it was a it was a big move in the stock
+
+504
+00:37:26,540 --> 00:37:28,760
+that generated our income, but there's still a spread,
+
+505
+00:37:28,820 --> 00:37:30,580
+we still actually have the same view.
+
+506
+00:37:30,760 --> 00:37:33,920
+So we need to go out and we need to return to our original view.
+
+507
+00:37:33,980 --> 00:37:35,920
+But why can't we take this? Yeah,
+
+508
+00:37:36,160 --> 00:37:39,200
+why can't we have the 200 delta exposure and the 50 thetas? Well,
+
+509
+00:37:39,220 --> 00:37:41,880
+it's just like any other trade, right? And like any other trade,
+
+510
+00:37:42,120 --> 00:37:47,740
+where do you want this 200 deltas and long, long or short?
+
+511
+00:37:48,520 --> 00:37:53,620
+Along these 500 thetas? Do we want that? Right? And if the answer is no,
+
+512
+00:37:53,660 --> 00:37:55,200
+we don't want that. Well, we have to offset it, right?
+
+513
+00:37:55,240 --> 00:37:58,220
+Because if the stock goes back down tomorrow, but we just lost our gains,
+
+514
+00:37:58,260 --> 00:37:59,900
+and we weren't able to monetize in our gamma.
+
+515
+00:38:00,780 --> 00:38:03,920
+So what we will do is we'll go and buy, let's say a put option,
+
+516
+00:38:03,920 --> 00:38:07,740
+which offsets our short data, our long theta,
+
+517
+00:38:08,060 --> 00:38:10,200
+and also gives us our short delta.
+
+518
+00:38:10,740 --> 00:38:17,110
+But this put option is not going to be the 100 put anymore. Okay,
+
+519
+00:38:17,150 --> 00:38:22,280
+it's going to be maybe something like the 110 put, right?
+
+520
+00:38:22,360 --> 00:38:24,980
+And the reason that is, is because if you go way out of the money, guys,
+
+521
+00:38:25,260 --> 00:38:27,540
+your delta is low, but your theta is still high, right?
+
+522
+00:38:27,540 --> 00:38:32,420
+The delta theta ratio starts to increase as you go out of the money, right?
+
+523
+00:38:33,750 --> 00:38:37,510
+So we have to find the right strike,
+
+524
+00:38:37,590 --> 00:38:40,950
+it's going to be able to offset and offset this the cheapest way possible.
+
+525
+00:38:42,600 --> 00:38:45,660
+Okay, and that is what that's what you that's what you end up doing.
+
+526
+00:38:45,700 --> 00:38:50,580
+And let's say you have this position on for 30 days, right? And you're hedging,
+
+527
+00:38:50,740 --> 00:38:54,100
+let's say every two days, every three days, well, this can get costly,
+
+528
+00:38:54,200 --> 00:38:55,900
+this can get you end up with a book,
+
+529
+00:38:56,040 --> 00:39:01,260
+that's a whole bunch of different strikes all over the place. Right?
+
+530
+00:39:01,760 --> 00:39:05,140
+And this is a simple example. This is an unrealistic example,
+
+531
+00:39:05,780 --> 00:39:07,580
+where we have two things that are the same,
+
+532
+00:39:08,020 --> 00:39:10,500
+trading at the vastly different vols,
+
+533
+00:39:10,580 --> 00:39:15,260
+and no other reason to justify those vastly different vols. In reality,
+
+534
+00:39:15,700 --> 00:39:19,040
+we're doing S&P versus NASDAQ. Well,
+
+535
+00:39:19,200 --> 00:39:24,140
+now we have to consider our beta in our deltas, right,
+
+536
+00:39:24,220 --> 00:39:31,040
+and our beta in our thetas. So if let's say we pick up long 100 thetas in S&P,
+
+537
+00:39:31,600 --> 00:39:38,510
+well, we have to make sure that we only have 66 deltas in the cubes. Otherwise,
+
+538
+00:39:38,770 --> 00:39:39,270
+we're leaning.
+
+539
+00:39:42,550 --> 00:39:46,270
+Okay, so that's why I don't recommend anybody in this group to do this,
+
+540
+00:39:46,710 --> 00:39:50,230
+at least at first. You think for a taste of relative value,
+
+541
+00:39:50,250 --> 00:39:53,780
+they could maybe do in the delta one space? Ah, it's so different.
+
+542
+00:39:53,980 --> 00:39:57,860
+It's so yeah, yeah, yeah. So different with the with the other Greeks. I mean,
+
+543
+00:39:57,880 --> 00:40:01,620
+you guys can do like, like if here's trading for Yeah, to see what it's like,
+
+544
+00:40:02,020 --> 00:40:05,420
+right? That's what I'm kind of talking. Oh, yeah. But managing the position,
+
+545
+00:40:05,720 --> 00:40:09,480
+it's gonna get tricky, I guess, way trickier in in the option space.
+
+546
+00:40:11,400 --> 00:40:14,380
+Like simple things, they could they could do an out performance thing. Like,
+
+547
+00:40:14,460 --> 00:40:17,560
+you know, Tico was joking around, I think, but he's like,
+
+548
+00:40:17,740 --> 00:40:23,740
+my dreams finally come true. I can be long Tesla short S&P. Right? Right.
+
+549
+00:40:24,260 --> 00:40:28,420
+And then things guys, you can do one side, you can just do one side,
+
+550
+00:40:28,520 --> 00:40:33,280
+you don't have to do both sides. Right? This is it's not first off,
+
+551
+00:40:33,300 --> 00:40:34,260
+it's not margin efficient.
+
+552
+00:40:35,240 --> 00:40:38,940
+It's the first thing it's not it's more when you have more size, and you do,
+
+553
+00:40:39,140 --> 00:40:40,280
+let's say, increase your sharp ratio,
+
+554
+00:40:40,580 --> 00:40:42,820
+that you should not be doing that in your in your scenarios.
+
+555
+00:40:44,040 --> 00:40:48,630
+You want to trade the one leg. Okay, now,
+
+556
+00:40:49,890 --> 00:40:53,630
+they'll drive up there'll be another reason for, you know,
+
+557
+00:40:53,850 --> 00:40:59,070
+finding out which market is the most likely to be efficient. Okay,
+
+558
+00:40:59,090 --> 00:41:03,060
+is it is it the S&P? Or is it the NASDAQ? Right?
+
+559
+00:41:03,080 --> 00:41:06,740
+If you're trading to the liquidity, one, one liquid ETF, and one liquid ETF?
+
+560
+00:41:07,400 --> 00:41:10,180
+Well, all this is pretty easy, right? Yeah. Okay.
+
+561
+00:41:12,710 --> 00:41:14,690
+Right. So maybe we can give them the example of when we were trading,
+
+562
+00:41:14,730 --> 00:41:17,570
+what was it? IWM and Q's?
+
+563
+00:41:21,060 --> 00:41:25,900
+Is that IWM? IWM and Q's? For what?
+
+564
+00:41:26,360 --> 00:41:29,400
+When we were at we had a relative value trade on? I think this was during?
+
+565
+00:41:30,180 --> 00:41:33,860
+Yeah, we did. We did it multiple times. Yeah, we did multiple times.
+
+566
+00:41:33,920 --> 00:41:37,520
+You guys don't want to go check out our 100k challenge we did multiple times.
+
+567
+00:41:38,400 --> 00:41:42,360
+And we paid out huge is one of the reasons why we stayed afloat during that during
+
+568
+00:41:42,360 --> 00:41:42,700
+that week.
+
+569
+00:41:44,850 --> 00:41:46,930
+So a couple things, we're going to answer a couple questions now.
+
+570
+00:41:46,990 --> 00:41:49,970
+I hope that didn't discourage any of you. This is just like,
+
+571
+00:41:50,090 --> 00:41:52,170
+so this is high five. Maybe what we'll do is, you know,
+
+572
+00:41:52,190 --> 00:41:54,590
+there's only a couple questions. So we'll see five minutes at the end for it.
+
+573
+00:41:54,610 --> 00:41:55,970
+We'll go straight right to nine this time.
+
+574
+00:41:56,330 --> 00:41:58,010
+Maybe let's talk for a second about like,
+
+575
+00:41:58,090 --> 00:41:59,750
+just where these guys can start with it. Right?
+
+576
+00:42:00,010 --> 00:42:01,970
+There's a lot of interest in the group about it. Yeah,
+
+577
+00:42:02,170 --> 00:42:07,100
+that this is actually a gold topic. This is not a silver topic. But you know,
+
+578
+00:42:07,160 --> 00:42:10,220
+we wanted to chat about it. So you know, there's, there's, you know,
+
+579
+00:42:10,260 --> 00:42:13,740
+even before like, all of last week's lives were about relative value.
+
+580
+00:42:14,770 --> 00:42:18,590
+So let's talk about trading one leg and managing that and what you should look for
+
+581
+00:42:18,590 --> 00:42:19,430
+in that. Yeah.
+
+582
+00:42:21,610 --> 00:42:25,530
+So at the end of the day, guys, if we're doing it, one leg, we're just saying,
+
+583
+00:42:25,630 --> 00:42:29,720
+okay, implied vol should be here, given, given this information,
+
+584
+00:42:30,280 --> 00:42:34,630
+given that S&P is usually the liquid leg,
+
+585
+00:42:34,910 --> 00:42:39,170
+and it's usually the it's usually the most margin efficient leg.
+
+586
+00:42:42,740 --> 00:42:48,000
+And that is the that is the estimated forecast, right? At the end of the day,
+
+587
+00:42:48,020 --> 00:42:51,760
+guys, we want to we're trying to we're trying to say this is cheap.
+
+588
+00:42:53,100 --> 00:42:56,690
+Because our forecast is different. Right? Our forecast is different.
+
+589
+00:42:56,770 --> 00:43:01,670
+So if we have something that's super liquid and super smart and super sophisticated
+
+590
+00:43:01,670 --> 00:43:05,110
+saying, this is what eyeball should be.
+
+591
+00:43:05,330 --> 00:43:09,300
+And we have another something else saying no, it shouldn't. Right? Well,
+
+592
+00:43:09,460 --> 00:43:12,900
+obviously, and we can say, Okay, well, this might be the less efficient way.
+
+593
+00:43:13,900 --> 00:43:15,860
+So maybe we'll say is to start off,
+
+594
+00:43:21,550 --> 00:43:27,910
+maybe we'll say is this find? Yeah, so charger as well.
+
+595
+00:43:30,080 --> 00:43:31,460
+Oh, yeah. Oh, yeah, we're almost out.
+
+596
+00:43:31,840 --> 00:43:38,020
+So we'll say this find pairs of ETFs where one is liquid is extremely liquid.
+
+597
+00:43:41,690 --> 00:43:44,730
+And the other is not right. So one pair that we looked at,
+
+598
+00:43:44,750 --> 00:43:51,090
+I think it was I WM versus qqq. Right? SPY versus, you know,
+
+599
+00:43:51,210 --> 00:43:54,790
+put in another one here. Right? So go find pairs,
+
+600
+00:43:54,790 --> 00:43:57,530
+where you have like a super efficient asset,
+
+601
+00:43:57,890 --> 00:44:01,590
+and something a little less efficient. And then look at how they move together,
+
+602
+00:44:01,710 --> 00:44:04,650
+right? Look at what they're implying. Go look at what they're made up of,
+
+603
+00:44:04,810 --> 00:44:07,690
+right? So they might be carrying, you know, 80% of the same assets,
+
+604
+00:44:07,990 --> 00:44:11,010
+meaning they should move very, very similarly. So Jordan,
+
+605
+00:44:11,030 --> 00:44:15,630
+I'm just recommending here, the guys go, and they find pairs of ETFs,
+
+606
+00:44:15,730 --> 00:44:18,470
+that where one is extremely liquid, and the other sort of follows it,
+
+607
+00:44:18,590 --> 00:44:20,630
+but it's less liquid. Yeah. And actually, guys,
+
+608
+00:44:20,670 --> 00:44:22,850
+that's actually where a lot of the edges made is like,
+
+609
+00:44:23,550 --> 00:44:31,640
+understanding the makeup of these ETFs. So you got one ETF,
+
+610
+00:44:31,800 --> 00:44:34,380
+where it should be made up of, you know, recently,
+
+611
+00:44:34,540 --> 00:44:36,780
+this ETF recently got very similar,
+
+612
+00:44:37,320 --> 00:44:41,120
+picked up a lot of very similar equities to this, right? And now,
+
+613
+00:44:41,280 --> 00:44:43,830
+but the balls haven't changed yet. Right?
+
+614
+00:44:44,010 --> 00:44:49,350
+It's those things is where you really find it's not going to be like S&P IVV.
+
+615
+00:44:50,140 --> 00:44:52,760
+Right? You're not going to see that it's too obvious, right?
+
+616
+00:44:52,800 --> 00:44:54,980
+It'll be too small to be worth it. Right?
+
+617
+00:44:56,990 --> 00:45:01,430
+Again, they want to find things that are not obvious, really not obvious.
+
+618
+00:45:02,130 --> 00:45:07,040
+Right? And those are the positions you want to find yourself in. Okay?
+
+619
+00:45:08,260 --> 00:45:11,480
+It's too obvious, it's not going to be there, unfortunately.
+
+620
+00:45:14,730 --> 00:45:18,130
+Okay, so what we'll do now, so that's where you can start, go find these pairs,
+
+621
+00:45:18,250 --> 00:45:22,950
+go take a look at them. And bring them to the group,
+
+622
+00:45:23,150 --> 00:45:25,210
+we'll start chatting about them. I think that's the best place to start,
+
+623
+00:45:25,230 --> 00:45:27,130
+go do some research, bring it to the group,
+
+624
+00:45:27,230 --> 00:45:29,510
+ask questions about what you're seeing. And we'll go from there.
+
+625
+00:45:29,890 --> 00:45:31,750
+So we have a couple questions that we'll go through.
+
+626
+00:45:32,130 --> 00:45:34,630
+And then we're going to wrap it up. Because, once again,
+
+627
+00:45:35,130 --> 00:45:37,150
+as all these lives end, I'm getting hungry.
+
+628
+00:45:39,600 --> 00:45:41,340
+So let's see, where was Bala's question?
+
+629
+00:45:44,950 --> 00:45:48,190
+Oh, wait, Bala left. So Oh, he's out. Oh, no, there he is.
+
+630
+00:45:48,210 --> 00:45:51,230
+I was looking for Bala not Siddharth. So at the top of the list. Okay,
+
+631
+00:45:51,230 --> 00:45:51,690
+let me see.
+
+632
+00:45:57,460 --> 00:45:59,040
+I'm not seeing it. Bala, do you mind retyping?
+
+633
+00:45:59,200 --> 00:46:03,200
+Is it possible for the IV spread to reduce but still not make money on the trade?
+
+634
+00:46:03,280 --> 00:46:06,740
+Where can we go wrong? No. So okay, yeah.
+
+635
+00:46:06,840 --> 00:46:11,020
+So you could go wrong where let's say, well, if the implied vol reduces, right,
+
+636
+00:46:11,020 --> 00:46:14,180
+if it goes back to normal, then you would make money, right?
+
+637
+00:46:14,540 --> 00:46:15,320
+Nothing would happen there.
+
+638
+00:46:15,440 --> 00:46:20,660
+But there would be the case where the stock just like,
+
+639
+00:46:21,540 --> 00:46:25,360
+where one stock moves like crazy, and the other stock doesn't. Like remember,
+
+640
+00:46:25,460 --> 00:46:28,140
+in our example, they're the exact same, but in real life, they're not.
+
+641
+00:46:29,980 --> 00:46:30,940
+And I've seen some.
+
+642
+00:46:36,120 --> 00:46:36,980
+One second.
+
+643
+00:46:44,410 --> 00:46:46,270
+Yeah, I've seen some times where it's like,
+
+644
+00:46:46,890 --> 00:46:48,610
+you think these ETFs are correlated,
+
+645
+00:46:48,830 --> 00:46:56,440
+and then and then they end up not being or, for example, a current so okay,
+
+646
+00:46:56,480 --> 00:47:01,060
+so here's a good one, too, is like a currency, right? So you might have like,
+
+647
+00:47:01,120 --> 00:47:04,720
+let's say two similar things trading on different exchanges.
+
+648
+00:47:05,900 --> 00:47:10,090
+And then you would have the currency vol, right? People will be like, Oh,
+
+649
+00:47:10,230 --> 00:47:13,430
+you know, this is this doctrine for this. And this is the same thing,
+
+650
+00:47:13,490 --> 00:47:17,390
+just different exchange. You know, I could sell vol here and buy vol here.
+
+651
+00:47:17,930 --> 00:47:21,290
+But what they're forgetting is the currency, the currency vol that's embedded,
+
+652
+00:47:21,610 --> 00:47:23,510
+right? Or the correlation to the currency that's embedded.
+
+653
+00:47:24,270 --> 00:47:27,430
+So these are the types of things that you know,
+
+654
+00:47:27,430 --> 00:47:29,510
+you really got to make sure what you're doing,
+
+655
+00:47:29,590 --> 00:47:31,950
+you really got to understand the product, right?
+
+656
+00:47:32,470 --> 00:47:35,610
+And they're not going to be like, right out there.
+
+657
+00:47:35,890 --> 00:47:37,930
+They're not going to you're not gonna be like, Oh, this is the you know,
+
+658
+00:47:38,010 --> 00:47:41,250
+this is right there. It's actually not going to be the case. Okay,
+
+659
+00:47:41,350 --> 00:47:45,970
+you they're going to be really subtle things that you pick up on and you guys are
+
+660
+00:47:45,970 --> 00:47:48,210
+gonna get better with this that you can they can grab.
+
+661
+00:47:52,080 --> 00:48:00,270
+Did that answer it? Did I answer it? Yeah, I think so. All right, here,
+
+662
+00:48:00,350 --> 00:48:02,750
+let's go through one more question. So Jack has question right down there.
+
+663
+00:48:03,190 --> 00:48:04,570
+There's a couple on the way here.
+
+664
+00:48:14,910 --> 00:48:17,630
+Okay. And if we miss your question, guys, rewrite it, and I will,
+
+665
+00:48:17,670 --> 00:48:21,650
+we'll get back to it. So, so they're saying,
+
+666
+00:48:21,750 --> 00:48:25,710
+let's say two illiquid ETFs bank ETF and nifty index.
+
+667
+00:48:29,360 --> 00:48:34,480
+Ideal to stick with nifty to be at fair value, most likely, right, most likely,
+
+668
+00:48:34,580 --> 00:48:36,700
+but then at the same time, because it's the big index,
+
+669
+00:48:36,820 --> 00:48:39,810
+that might be a little bit overpriced. Right?
+
+670
+00:48:40,030 --> 00:48:42,150
+So you really got to you really got to look into these things.
+
+671
+00:48:44,380 --> 00:48:49,020
+Okay, that's it, which I said, would we be managing this the same way?
+
+672
+00:48:49,220 --> 00:48:51,020
+If with another underlying,
+
+673
+00:48:51,320 --> 00:48:56,120
+like if we do a relative value trade with between a 30 DTE option and a 90 DTD option?
+
+674
+00:48:57,560 --> 00:49:00,940
+Like a calendar? Yeah, on the same stock. Okay, so we did a calendar spread,
+
+675
+00:49:01,000 --> 00:49:06,100
+what we managed the same. It really depends. So in our work example,
+
+676
+00:49:06,400 --> 00:49:09,740
+I don't know if you fell asleep already, but we actually did that data neutral,
+
+677
+00:49:10,440 --> 00:49:14,060
+right? We actually went flat gamma. But you can do them vega neutral as well,
+
+678
+00:49:14,340 --> 00:49:16,100
+which would be a regular calendar spread.
+
+679
+00:49:19,750 --> 00:49:21,130
+Marcos, how do you close out positions,
+
+680
+00:49:21,230 --> 00:49:24,270
+you close out when the implied vol spread collapses,
+
+681
+00:49:24,710 --> 00:49:26,310
+or you can find a better opportunity somewhere else.
+
+682
+00:49:29,070 --> 00:49:33,630
+This is a gold topic. No wonder he wore a gold shirt. Exactly. Come on, guys.
+
+683
+00:49:37,750 --> 00:49:40,270
+Not saying is the beta consistent throughout the trade?
+
+684
+00:49:41,940 --> 00:49:46,060
+The answer is not always right.
+
+685
+00:49:46,100 --> 00:49:49,860
+You could have these ETFs moving like crazy or the stocks moving like crazy together.
+
+686
+00:49:49,940 --> 00:49:53,210
+Let's say beta of two, and then eventually they just stop.
+
+687
+00:49:54,880 --> 00:49:57,840
+And then last question,
+
+688
+00:49:57,960 --> 00:50:02,200
+have you ever done a trade where SPY was mispriced compared to another ETF,
+
+689
+00:50:02,620 --> 00:50:04,660
+where SPY was actually the weak leg? Yeah,
+
+690
+00:50:04,720 --> 00:50:06,660
+the SPY is usually a little bit overpriced, right?
+
+691
+00:50:06,720 --> 00:50:08,380
+SPY is actually usually a little bit overpriced.
+
+692
+00:50:08,680 --> 00:50:12,830
+So usually I don't want to do that data neutral,
+
+693
+00:50:12,930 --> 00:50:14,850
+I'm usually leaning a little more vega neutral.
+
+694
+00:50:15,590 --> 00:50:18,630
+Just because I know that that S&P leg is usually the overpriced leg.
+
+695
+00:50:23,670 --> 00:50:24,370
+Marcos is asking,
+
+696
+00:50:24,490 --> 00:50:26,970
+could the correlation change over like a really short period of time?
+
+697
+00:50:29,560 --> 00:50:34,580
+100%. 100%, right? You just don't want to find yourself in those situations.
+
+698
+00:50:34,600 --> 00:50:38,360
+You want to be pretty confident that this relationship is going to last.
+
+699
+00:50:38,440 --> 00:50:39,860
+And it should be there for a fundamental reason.
+
+700
+00:50:40,440 --> 00:50:43,480
+You guys should never take a trade just because it's been correlated, right?
+
+701
+00:50:43,900 --> 00:50:46,400
+It's got to be a fundamental reason why these are correlated.
+
+702
+00:50:53,880 --> 00:50:55,680
+Steve's saying, imagine the USO trade. Steve,
+
+703
+00:50:55,820 --> 00:50:57,900
+want to elaborate a little bit there? They should never last?
+
+704
+00:51:00,340 --> 00:51:03,940
+Yeah, exactly, right? The relationship only lasts if they're half Asian,
+
+705
+00:51:04,020 --> 00:51:04,720
+exactly.
+
+706
+00:51:09,970 --> 00:51:13,890
+Yeah, exactly, right? So I'm 100% sure, I didn't go back to it,
+
+707
+00:51:13,890 --> 00:51:18,390
+but I'm sure you could. XLE versus USO, or even guys. So here's a good one too,
+
+708
+00:51:18,490 --> 00:51:18,630
+right?
+
+709
+00:51:18,790 --> 00:51:21,570
+Here's a really subtle one that maybe not a lot of people would have picked up on.
+
+710
+00:51:22,740 --> 00:51:26,960
+And actually would have been like almost an arbitrage. You get an ETF,
+
+711
+00:51:27,580 --> 00:51:34,520
+let's say, going from 3x to 2x, you already have a 2x leveraged ETF, right?
+
+712
+00:51:34,700 --> 00:51:38,340
+And as soon as this, let's say oil 3x, oil 2x.
+
+713
+00:51:39,080 --> 00:51:44,420
+Did they announce this is going from 3x to 2x? And these aren't matching,
+
+714
+00:51:46,460 --> 00:51:49,360
+right? And these are subtle differences that need to be adjusted quickly,
+
+715
+00:51:49,840 --> 00:51:52,960
+right? And sometimes you might get an hour, two hours,
+
+716
+00:51:53,000 --> 00:51:55,320
+a day before they fully collapse.
+
+717
+00:51:56,460 --> 00:51:58,360
+And we talked about something like that before, actually. Yeah, yeah, yeah,
+
+718
+00:51:58,360 --> 00:51:58,520
+yeah.
+
+719
+00:52:00,950 --> 00:52:03,950
+All right. That is going to do it for tonight's live.
+
+720
+00:52:04,310 --> 00:52:07,150
+Good seeing everyone here. Siddharth,
+
+721
+00:52:07,250 --> 00:52:09,450
+it was a pleasure having you on the live with us today, man.
+
+722
+00:52:09,990 --> 00:52:12,050
+So for those of you that don't know, Siddharth lives in India.
+
+723
+00:52:12,370 --> 00:52:16,970
+He's an absolute rock star in the academy. He's basically taking PA principles,
+
+724
+00:52:17,550 --> 00:52:18,790
+doing a bunch of coding on his own,
+
+725
+00:52:18,870 --> 00:52:21,510
+building models for the Indian market and absolutely crushing it.
+
+726
+00:52:21,650 --> 00:52:28,030
+So it's always good when he comes out of the dark, the Indian wizard.
+
+727
+00:52:29,920 --> 00:52:33,420
+Happy Diwali, my friend. Okay. Take it easy, everyone. See you guys.

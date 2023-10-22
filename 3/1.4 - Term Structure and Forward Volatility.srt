@@ -1,0 +1,2527 @@
+1
+00:00:00,430 --> 00:00:05,270
+All right, guys. So in this video, we're kind of going to go and talk about...
+
+2
+00:00:05,270 --> 00:00:07,490
+It's going to be a build on from last night's live.
+
+3
+00:00:07,730 --> 00:00:14,520
+We're going to be talking about the term structure a little bit and how volatility
+
+4
+00:00:14,520 --> 00:00:17,900
+is actually... and build forward volatility, right? You know,
+
+5
+00:00:17,960 --> 00:00:21,720
+a lot of us are starting to sell these, let's say, 90 DTE strangles,
+
+6
+00:00:21,840 --> 00:00:26,810
+180 DTE strangles. And I was talking to a portfolio manager last night,
+
+7
+00:00:27,230 --> 00:00:30,390
+and he really gave me an idea here.
+
+8
+00:00:30,390 --> 00:00:37,330
+So I think we should chat about those just because a lot of us are selling these
+
+9
+00:00:37,330 --> 00:00:42,470
+Vega positions, okay? Right. And remember, the point of these lives...
+
+10
+00:00:43,230 --> 00:00:44,550
+It may change a little bit down the road,
+
+11
+00:00:44,590 --> 00:00:48,450
+but the point of these lives is to really immerse yourselves in the world of option
+
+12
+00:00:48,450 --> 00:00:52,210
+trading and volatility. And that will mean taking on challenging concepts,
+
+13
+00:00:52,430 --> 00:00:55,330
+sort of understanding what's out there, right? Always remember this.
+
+14
+00:00:56,580 --> 00:00:57,180
+Things that you're...
+
+15
+00:00:57,180 --> 00:01:00,700
+It's better to be exposed to these things than not because there's somebody out
+
+16
+00:01:00,700 --> 00:01:01,440
+there trading them.
+
+17
+00:01:01,770 --> 00:01:04,490
+There's somebody out there looking at this and making better decisions off of it.
+
+18
+00:01:04,850 --> 00:01:06,430
+The more information we can gather,
+
+19
+00:01:06,630 --> 00:01:10,670
+the more we can immerse ourselves in this world,
+
+20
+00:01:10,730 --> 00:01:13,630
+the better we come out the other side. So as we go through this,
+
+21
+00:01:13,670 --> 00:01:17,690
+if some of the concepts are a little tricky, two things I'll say, number one,
+
+22
+00:01:18,050 --> 00:01:20,510
+make sure to ask questions, right? If you have a question,
+
+23
+00:01:20,570 --> 00:01:23,450
+there's a really good chance that someone else does. And even if it's,
+
+24
+00:01:23,490 --> 00:01:26,070
+you know, an entry-level question,
+
+25
+00:01:26,130 --> 00:01:28,450
+that's okay because maybe it leads to a better question from you,
+
+26
+00:01:28,450 --> 00:01:32,330
+a more advanced question down the road, right? We have to start somewhere,
+
+27
+00:01:32,450 --> 00:01:34,710
+all of us. And the second thing I'll say is,
+
+28
+00:01:36,480 --> 00:01:38,520
+don't worry about getting it all this second.
+
+29
+00:01:39,340 --> 00:01:41,860
+You keep coming to these sessions, you keep watching the recordings.
+
+30
+00:01:42,300 --> 00:01:43,240
+And over time,
+
+31
+00:01:43,240 --> 00:01:46,580
+you become the person who just is familiar with these things and you start to see
+
+32
+00:01:46,580 --> 00:01:48,940
+them, you start to be able to trade them, you know,
+
+33
+00:01:49,240 --> 00:01:52,200
+and that's really when things will start to click. Yep,
+
+34
+00:01:52,440 --> 00:01:55,960
+and I think it's very relevant right now, the situation just because...
+
+35
+00:01:57,500 --> 00:02:00,160
+So one thing we're gonna be talking about is we're gonna be talking about some of
+
+36
+00:02:00,160 --> 00:02:05,840
+the term structures that we're in right now. So for example, LIT, ARK, right?
+
+37
+00:02:05,920 --> 00:02:11,440
+Versus let's say another term structure, like it's component Tesla, okay?
+
+38
+00:02:11,460 --> 00:02:17,370
+Or S&P during good times and during bad times. And really talk about, you know,
+
+39
+00:02:17,570 --> 00:02:24,290
+how volatility should move, you know, as for the longer dated stuff, okay?
+
+40
+00:02:24,330 --> 00:02:28,850
+And what the term structure can really tell us. All right,
+
+41
+00:02:29,190 --> 00:02:32,350
+so there's no questions about that. We're gonna jump right into it. You know,
+
+42
+00:02:32,430 --> 00:02:35,890
+Sean and I started like to use a, kind of enjoying the whiteboard. You know,
+
+43
+00:02:35,910 --> 00:02:39,770
+we did pay for the paint job here. So might as well make some use out of it.
+
+44
+00:02:40,170 --> 00:02:45,470
+Cool, okay. So imagine we're trading something.
+
+45
+00:02:46,210 --> 00:02:54,010
+Imagine the S&P 500 is in a pandemic, okay? It's in a pandemic.
+
+46
+00:02:54,710 --> 00:02:59,050
+And we're looking at the term structure, okay? So here's our graph, right?
+
+47
+00:02:59,110 --> 00:03:04,290
+This can be found in the PA terminal, okay? And over here, we have IV,
+
+48
+00:03:04,790 --> 00:03:10,270
+implied volatility. And down here, we have days to expiration, okay?
+
+49
+00:03:11,110 --> 00:03:17,350
+And where this is, let's say, zero DTE. And this is one year, okay?
+
+50
+00:03:17,370 --> 00:03:21,010
+So these are the one year options. And these are the zero DTE options.
+
+51
+00:03:21,150 --> 00:03:26,900
+And what we might see during a pandemic is something that looks, well,
+
+52
+00:03:26,920 --> 00:03:29,660
+what do you guys think, right? If we're in a pandemic, right?
+
+53
+00:03:29,820 --> 00:03:30,920
+We're seeing a lot of volatility.
+
+54
+00:03:31,300 --> 00:03:35,120
+What might this term structure look like and why, okay?
+
+55
+00:03:35,320 --> 00:03:38,720
+So really start to think about that. What might the term structure look like?
+
+56
+00:03:38,840 --> 00:03:45,860
+And why might it look like that, okay? Not much backwardation. Perfect, Steve.
+
+57
+00:03:46,140 --> 00:03:48,700
+Okay, so what Steve says is backwardation,
+
+58
+00:03:48,880 --> 00:03:53,900
+meaning that the near dated options are gonna be really high in terms of implied
+
+59
+00:03:53,900 --> 00:03:54,160
+vol.
+
+60
+00:03:54,760 --> 00:03:59,140
+And the longer dated options are not gonna be as high in terms of implied vol,
+
+61
+00:03:59,300 --> 00:04:07,280
+okay? It might look something like this, okay? Now, why might this be the case?
+
+62
+00:04:07,820 --> 00:04:12,260
+Why wouldn't the term structure, so let's say this is the 10 days, right?
+
+63
+00:04:12,320 --> 00:04:21,480
+This is the one year. And this is the, let's say, 20, 30, okay? 60, 90,
+
+64
+00:04:21,940 --> 00:04:27,320
+et cetera, okay? Why might the term structure not look like this, let's say,
+
+65
+00:04:31,610 --> 00:04:34,740
+okay? And when I say term structure,
+
+66
+00:04:35,620 --> 00:04:41,320
+what I'm talking about is the implied volatilities at different expirations,
+
+67
+00:04:41,440 --> 00:04:46,240
+right? So for example, right now we have the January expiration, the February,
+
+68
+00:04:46,760 --> 00:04:50,660
+the March, the April, the May, the June, okay?
+
+69
+00:04:52,560 --> 00:04:55,700
+Why might it look like this during a pandemic,
+
+70
+00:04:55,820 --> 00:05:01,200
+during a crisis and not like this, where it's flat, where the IV is the same?
+
+71
+00:05:01,560 --> 00:05:09,330
+Let's say IV here is 60%. Okay? And IV down here is, let's say, 40%.
+
+72
+00:05:12,570 --> 00:05:15,630
+Why might it look like that? And what is it really telling us?
+
+73
+00:05:19,260 --> 00:05:21,940
+Kyle, I don't want to ever hear that word again in this chat, okay?
+
+74
+00:05:27,500 --> 00:05:33,420
+Okay, people are worried about it right now. Okay, interesting. What else?
+
+75
+00:05:33,440 --> 00:05:36,720
+What do you guys think, right? You know, someone says, hey,
+
+76
+00:05:36,780 --> 00:05:42,850
+implied volatility is 45, right? Well, implied volatility of 45, well,
+
+77
+00:05:42,870 --> 00:05:45,510
+does that really tell us a lot, right? What expiration are they talking about,
+
+78
+00:05:45,850 --> 00:05:48,050
+right? Do we usually see it like this? Do we usually see it like that?
+
+79
+00:05:48,090 --> 00:05:48,770
+What's going on here?
+
+80
+00:05:52,480 --> 00:05:59,560
+Marketing desperate times, so there's higher uncertainty. Okay, yeah.
+
+81
+00:05:59,680 --> 00:06:05,240
+What else, guys? What else? Okay, okay, it's diluted, yeah.
+
+82
+00:06:05,500 --> 00:06:11,890
+So one reason for this, right, is volatility is mean reverting, okay?
+
+83
+00:06:12,710 --> 00:06:18,590
+Imagine we're seeing this in implied volatility, okay? Let's say, for example,
+
+84
+00:06:18,850 --> 00:06:20,910
+or let's say we're looking at realized volatility.
+
+85
+00:06:21,170 --> 00:06:29,000
+And realized volatility is looking like this, okay? Now, up here, okay,
+
+86
+00:06:29,120 --> 00:06:31,960
+we'd say, well, this is at one of the highs here, right?
+
+87
+00:06:31,960 --> 00:06:33,420
+And we know volatility is being reverting.
+
+88
+00:06:33,500 --> 00:06:38,020
+It probably can't stay at 60 for very long. In the long run, right,
+
+89
+00:06:38,040 --> 00:06:43,260
+it's going to for sure come back down, right? So we could sell, let's say,
+
+90
+00:06:43,280 --> 00:06:49,500
+a longer dated option, right, at, let's say, 60 vol, and make a lot of money.
+
+91
+00:06:50,100 --> 00:06:55,400
+But the real issue is that markets know that as time goes forward, right,
+
+92
+00:06:56,340 --> 00:07:00,720
+sure volatility clusters in the short term,
+
+93
+00:07:01,000 --> 00:07:03,300
+but then eventually it's going to come back down and mean revert, right?
+
+94
+00:07:05,720 --> 00:07:11,980
+So the market knows this, okay? The market knows this,
+
+95
+00:07:12,480 --> 00:07:15,940
+that there has to be some, there is some mean reverting function, right?
+
+96
+00:07:16,020 --> 00:07:22,720
+So as we go through time, volatility should come back down to normal.
+
+97
+00:07:23,040 --> 00:07:27,720
+We can see this clearly by just looking at the recent crisis in 2020,
+
+98
+00:07:28,100 --> 00:07:32,600
+and also 2008, 2001, all these crises, right? We get huge vol,
+
+99
+00:07:32,840 --> 00:07:35,320
+and then eventually in the long run, it comes back down, right?
+
+100
+00:07:35,320 --> 00:07:38,040
+It's pretty easy. Just like when vol is at nine,
+
+101
+00:07:38,580 --> 00:07:41,820
+it's pretty obvious that in the future, at some point,
+
+102
+00:07:42,360 --> 00:07:49,550
+it's going to be above nine, right? So that is a main driving factor, okay?
+
+103
+00:07:49,550 --> 00:07:53,350
+That volatility, as we go through time, eventually is going to come back down,
+
+104
+00:07:53,450 --> 00:07:57,670
+okay? So that is why we don't see this,
+
+105
+00:07:58,440 --> 00:08:02,480
+but we're going to come back to this because we are seeing this in certain areas,
+
+106
+00:08:02,880 --> 00:08:05,550
+and I want to get everyone's opinion on it, okay?
+
+107
+00:08:06,030 --> 00:08:14,030
+So just a quick note about this mean reverting characteristic of volatility.
+
+108
+00:08:14,270 --> 00:08:17,370
+This does not apply to stock price, right?
+
+109
+00:08:17,450 --> 00:08:21,930
+So I spoke to a couple of members recently who had shared that, you know,
+
+110
+00:08:21,950 --> 00:08:25,650
+I'd asked them like, if today was a 5% up move,
+
+111
+00:08:26,360 --> 00:08:29,720
+what move are we likely to see tomorrow? And the response was, you know,
+
+112
+00:08:29,740 --> 00:08:34,960
+a 5% down move because mean reversion. And I said, you're half right.
+
+113
+00:08:35,600 --> 00:08:41,080
+It's likely to be a 5% move, but we have no idea if it'll be up or down, right?
+
+114
+00:08:41,100 --> 00:08:43,340
+From just the vol characteristic of mean reversion.
+
+115
+00:08:43,420 --> 00:08:51,190
+The mean reversion is not the direction, it's the magnitude of the move, right?
+
+116
+00:08:51,230 --> 00:08:53,490
+So just to be really clear on that, these are vol characteristics,
+
+117
+00:08:54,230 --> 00:08:56,690
+not directional characteristics of the asset.
+
+118
+00:08:58,330 --> 00:08:59,730
+And so we're going to come back to this.
+
+119
+00:08:59,810 --> 00:09:02,310
+We're going to come back to this because it's going to be very interesting when
+
+120
+00:09:02,310 --> 00:09:03,330
+we start breaking this down a little bit.
+
+121
+00:09:04,710 --> 00:09:08,370
+We are now going to look at it when volatility is low, okay?
+
+122
+00:09:08,850 --> 00:09:12,940
+So this is when volatility is high. This is when volatility is up here, okay?
+
+123
+00:09:15,480 --> 00:09:19,520
+And you know what, just to show you guys, why don't we look at a stock?
+
+124
+00:09:19,860 --> 00:09:20,580
+Why don't we look at,
+
+125
+00:09:24,150 --> 00:09:25,930
+can we get the PA terminal up here?
+
+126
+00:09:26,650 --> 00:09:29,870
+Why don't we look at the actual term structure during the pandemic?
+
+127
+00:09:41,510 --> 00:09:41,910
+Okay,
+
+128
+00:09:54,560 --> 00:09:57,220
+so we go to volatility analyzer and we look at our term structure.
+
+129
+00:09:57,540 --> 00:10:03,740
+We'll go to S&P 500 and we'll go back to, what was it?
+
+130
+00:10:04,100 --> 00:10:07,180
+We'll go back to March of 2020, okay? March 20,
+
+131
+00:10:09,590 --> 00:10:14,340
+okay? So here is the S&P 500 term structure, right?
+
+132
+00:10:14,400 --> 00:10:20,060
+You can see that it's inverted, okay? It's called backwardation, right?
+
+133
+00:10:20,140 --> 00:10:21,140
+It's very high,
+
+134
+00:10:21,400 --> 00:10:25,800
+very close to expiration and it's much lower as we go out through time, right?
+
+135
+00:10:25,840 --> 00:10:32,720
+It goes from 80 all the way down to 33 for the one-year options, okay?
+
+136
+00:10:32,840 --> 00:10:35,880
+Do you guys see that? Let me just make sure. Let me check the chat.
+
+137
+00:10:44,220 --> 00:10:47,620
+So Eric's saying, so if the vol is at the bottom,
+
+138
+00:10:47,740 --> 00:10:54,460
+the market is for sure going to overprice vol due to no way to accurately predict
+
+139
+00:10:54,460 --> 00:10:59,060
+it. So vol is at the bottom. So low vol, I guess. Okay,
+
+140
+00:10:59,060 --> 00:11:00,840
+so we're gonna get to that in a second, okay?
+
+141
+00:11:02,140 --> 00:11:04,310
+We're gonna get to that in one second. Okay,
+
+142
+00:11:04,330 --> 00:11:08,930
+so we saw how the volatility was during that period, right?
+
+143
+00:11:09,050 --> 00:11:13,940
+It looked like this, okay? Because volatility mean reverts, okay?
+
+144
+00:11:17,400 --> 00:11:21,810
+So let us...
+
+145
+00:11:25,460 --> 00:11:31,680
+Okay, let's say now, okay? We're looking at the volatility here.
+
+146
+00:11:31,740 --> 00:11:38,600
+It looks something like this. And right now, VIX is at eight and a half,
+
+147
+00:11:38,720 --> 00:11:41,960
+the lowest ever. The lowest ever, eight and a half, okay?
+
+148
+00:11:44,670 --> 00:11:49,170
+Mark's asking just what asset were we referring to earlier? Oh, S&P, S&P 500.
+
+149
+00:11:49,850 --> 00:11:56,870
+S&P 500. SPY, to be specific. So let's say VIX is at 8.5. We're right here,
+
+150
+00:11:57,930 --> 00:11:58,170
+okay?
+
+151
+00:12:00,750 --> 00:12:06,050
+So the near-dated option, right? Is gonna be very close to the realized vol,
+
+152
+00:12:06,310 --> 00:12:10,790
+right? The implied and realized are gonna be very close to each other, okay?
+
+153
+00:12:11,450 --> 00:12:14,690
+So that's gonna be, let's say, somewhere right here, the near-dated option,
+
+154
+00:12:14,950 --> 00:12:18,490
+okay? What is the far-dated option gonna look like? Who knows?
+
+155
+00:12:18,590 --> 00:12:20,730
+Who knows what the farther-dated option is gonna look like?
+
+156
+00:12:20,810 --> 00:12:22,350
+What is the implied volatility gonna be?
+
+157
+00:12:24,860 --> 00:12:28,950
+High. How high? How high are we thinking? How high are we thinking, Eric?
+
+158
+00:12:29,010 --> 00:12:35,270
+Let's say the bottom here is 8.5, okay? And the max here is 80.
+
+159
+00:12:36,000 --> 00:12:41,660
+And the recent mean is, let's say, 15. Okay, that's the mean, let's say.
+
+160
+00:12:42,060 --> 00:12:45,760
+The recent mean is 15. How high do you think the one-year is gonna be, Eric?
+
+161
+00:12:47,410 --> 00:12:48,330
+Near 50.
+
+162
+00:12:51,220 --> 00:12:54,320
+Stephen's saying 13. Eric, how come you're saying 50?
+
+163
+00:12:57,400 --> 00:13:03,540
+Mark's saying it depends on the macro environment. 100%. So let's say, okay,
+
+164
+00:13:03,560 --> 00:13:09,680
+let's give a little more context here. It's 2017, okay? It's 2017.
+
+165
+00:13:10,120 --> 00:13:11,960
+There's no elections coming up in the near term.
+
+166
+00:13:12,080 --> 00:13:17,560
+Everything seems to be pretty good, okay? And we've been realizing, let's say,
+
+167
+00:13:17,760 --> 00:13:22,850
+7 vol, okay? And right now, VIX is at 8.5.
+
+168
+00:13:23,840 --> 00:13:27,960
+What do we think it's gonna be one year from now? Stephen's saying 13.
+
+169
+00:13:28,080 --> 00:13:32,200
+Ari is saying 20. I like it. I like it, okay? It's gonna be somewhere like,
+
+170
+00:13:33,060 --> 00:13:35,740
+you know, volatility mean reverts, right?
+
+171
+00:13:35,800 --> 00:13:37,720
+So if we look at volatility in the long run,
+
+172
+00:13:38,060 --> 00:13:41,240
+it should be somewhere near the mean. So it's, you know, as Mark said,
+
+173
+00:13:41,360 --> 00:13:43,500
+it all depends on the global environment. But for now,
+
+174
+00:13:43,580 --> 00:13:46,520
+we're just gonna use the mean, okay? So it's gonna look like this,
+
+175
+00:13:46,560 --> 00:13:50,190
+something like 15, okay? So it's gonna look like this,
+
+176
+00:13:52,810 --> 00:13:55,810
+okay? And then this implied volatility is gonna be here.
+
+177
+00:13:56,170 --> 00:13:57,510
+This implied volatility is gonna be here.
+
+178
+00:13:57,770 --> 00:14:02,770
+And that implied volatility is gonna be there. And this is called contango.
+
+179
+00:14:03,370 --> 00:14:07,830
+Okay, and so what is this story telling us? Well,
+
+180
+00:14:07,930 --> 00:14:13,000
+it's telling us that the market thinks in the future, right,
+
+181
+00:14:13,440 --> 00:14:17,580
+volatility is gonna go up, okay? In the future, volatility is gonna go up.
+
+182
+00:14:17,760 --> 00:14:20,680
+Because if we look at it, we're down here, right?
+
+183
+00:14:20,700 --> 00:14:27,520
+And if we know volatility is mean reverting, it should eventually rise, right?
+
+184
+00:14:27,920 --> 00:14:32,370
+Now, that's not always the case, right? A lot of the times,
+
+185
+00:14:32,750 --> 00:14:37,060
+volatility clusters for a long period of time, right?
+
+186
+00:14:37,220 --> 00:14:40,220
+It clusters for a very long period of time. So we might have, for example,
+
+187
+00:14:40,380 --> 00:14:49,940
+2017, where there's a full year where vol stays at 7.
+
+188
+00:14:52,320 --> 00:14:55,860
+And these that you could sell, for example, at 15,
+
+189
+00:14:56,920 --> 00:15:05,990
+eventually roll down to 7 vol, okay? So that's called contango.
+
+190
+00:15:06,190 --> 00:15:08,750
+The other one we showed was backwardation.
+
+191
+00:15:12,200 --> 00:15:14,040
+Okay, so now that we know this,
+
+192
+00:15:14,260 --> 00:15:16,640
+we're gonna dive a little bit deeper and to see,
+
+193
+00:15:17,740 --> 00:15:20,060
+we're gonna talk a little bit some trick questions, okay?
+
+194
+00:15:20,140 --> 00:15:22,620
+Some trick questions to really get you guys thinking,
+
+195
+00:15:23,220 --> 00:15:26,660
+really get the brain flowing. So is everyone okay with this?
+
+196
+00:15:29,810 --> 00:15:35,230
+Chart is not to scale. Is everyone okay? Because you have 60 on. Oh, Eric. Oh,
+
+197
+00:15:35,310 --> 00:15:40,030
+yeah, sorry, Eric. Yeah, let's imagine it's 15, okay? It looks like that.
+
+198
+00:15:43,030 --> 00:15:44,550
+Anyone have any questions about this?
+
+199
+00:15:47,350 --> 00:15:49,190
+And here, let me just show you what it looks like, okay?
+
+200
+00:15:53,500 --> 00:15:56,320
+So why don't we go to today? I think vols are low today.
+
+201
+00:15:58,360 --> 00:16:01,240
+Only got two years pumped in here. So actually, let's go back to,
+
+202
+00:16:05,750 --> 00:16:09,630
+let's go back here. Okay, so you see that, guys?
+
+203
+00:16:10,710 --> 00:16:16,390
+See the shape of that term structure there, okay? This is the S&P 500 on 2019,
+
+204
+00:16:16,690 --> 00:16:21,270
+November, okay? In the future, you know, the market thinks vol is gonna rise,
+
+205
+00:16:22,650 --> 00:16:23,030
+all right?
+
+206
+00:16:23,030 --> 00:16:27,470
+So these options out here are gonna be sold or bought at a higher implied volatility,
+
+207
+00:16:28,010 --> 00:16:32,510
+okay? Now, that's not necessarily bad, right? Because, you know,
+
+208
+00:16:32,590 --> 00:16:36,760
+volatility does mean revert. But it's something we have to be aware of, okay?
+
+209
+00:16:36,780 --> 00:16:38,980
+And every single day, right? Think about like this, guys.
+
+210
+00:16:39,480 --> 00:16:42,240
+Imagine if nothing changed, right? Imagine this.
+
+211
+00:16:44,120 --> 00:16:51,140
+It's not gonna happen this time. Okay, imagine this. Imagine nothing happened,
+
+212
+00:16:51,640 --> 00:16:56,800
+okay? Well, this, imagine we sold, imagine we bought this, okay?
+
+213
+00:16:57,100 --> 00:17:02,250
+Or let's say we bought this one right here, three months out. Well,
+
+214
+00:17:02,330 --> 00:17:09,070
+nothing happens in one month, right? This is not gonna go here, okay?
+
+215
+00:17:09,150 --> 00:17:10,850
+It's actually gonna roll down here.
+
+216
+00:17:13,350 --> 00:17:16,690
+It's probably a bad idea overlapping colors, eh? No? Why?
+
+217
+00:17:17,110 --> 00:17:19,870
+I feel like it changes the color on this one. I think it's fine. Okay,
+
+218
+00:17:20,630 --> 00:17:21,810
+this is gonna roll down here.
+
+219
+00:17:21,810 --> 00:17:27,760
+So we're actually gonna lose money from the roll down, okay?
+
+220
+00:17:27,860 --> 00:17:32,140
+And there's actually a strategy out there where people sell the front months during
+
+221
+00:17:32,140 --> 00:17:36,060
+contango, okay? Because then every day it rolls down.
+
+222
+00:17:36,720 --> 00:17:42,090
+And they buy when it's in backwardation because every time it rolls up, okay?
+
+223
+00:17:42,490 --> 00:17:44,610
+So that's a strategy that some people use.
+
+224
+00:17:46,870 --> 00:17:50,810
+Yeah, so that is, that's that. Now, let's get, so everyone's okay with this?
+
+225
+00:17:54,310 --> 00:17:56,530
+Can someone give me a yeah? We're okay with this?
+
+226
+00:18:04,080 --> 00:18:07,900
+Yeah, yeah, really good point, Mark. So people, Mark's saying, you know,
+
+227
+00:18:07,940 --> 00:18:09,900
+selling this, right?
+
+228
+00:18:10,000 --> 00:18:13,600
+Just going up and blatantly selling this can be quite dangerous, right?
+
+229
+00:18:13,620 --> 00:18:19,280
+So what people usually do is they do a calendar spread where they'll sell this and
+
+230
+00:18:19,280 --> 00:18:23,670
+buy, let's say, something back here, okay? So that if there was an explosion,
+
+231
+00:18:24,210 --> 00:18:26,130
+right? First off, it's not margin efficient. And secondly,
+
+232
+00:18:26,270 --> 00:18:28,470
+if there was an explosion, well, even though,
+
+233
+00:18:28,590 --> 00:18:32,610
+remember we talked one of our lives how the term structure moves,
+
+234
+00:18:33,020 --> 00:18:37,780
+even if there's a blowout, right? We're going to be hedged with the back month,
+
+235
+00:18:38,640 --> 00:18:44,920
+okay? So that's what Mark is talking about there. Great, great,
+
+236
+00:18:47,970 --> 00:18:54,920
+okay. So now let's talk about what this term structure implies.
+
+237
+00:18:54,960 --> 00:18:55,940
+So we're going to go back to,
+
+238
+00:18:56,320 --> 00:19:01,540
+we're going to go back and visit in backwardation just because some of the stocks
+
+239
+00:19:01,540 --> 00:19:04,680
+we're trading right now might or might not have backwardation,
+
+240
+00:19:04,780 --> 00:19:08,500
+but I think it's something we should really talk about here, okay?
+
+241
+00:19:11,190 --> 00:19:15,950
+So here is a company or a stock that's in backwardation, okay?
+
+242
+00:19:19,160 --> 00:19:27,570
+Let's say, guys, this 30-day option, okay, is, let's say, 60 IVOL, okay?
+
+243
+00:19:29,420 --> 00:19:34,760
+And this option, which is, let's say, 60 days out, so this is a 30-day, okay?
+
+244
+00:19:34,800 --> 00:19:43,530
+This is a 60-day, is 40 IVOL, okay? It's 40 IVOL. So far, so good.
+
+245
+00:19:43,570 --> 00:19:46,870
+Everyone understands this. We have two options here. One that's 30 days out,
+
+246
+00:19:47,190 --> 00:19:51,860
+one that's 60 days out, okay? So what is this option?
+
+247
+00:19:52,120 --> 00:19:57,680
+What is the volatility that this option is going to see over the next 30 days?
+
+248
+00:19:57,840 --> 00:19:59,760
+It's implying it's going to see over the next 30 days,
+
+249
+00:20:04,330 --> 00:20:05,030
+okay?
+
+250
+00:20:05,070 --> 00:20:10,010
+What is the volatility that this option thinks it's going to see over the next 30
+
+251
+00:20:10,010 --> 00:20:10,350
+days?
+
+252
+00:20:14,810 --> 00:20:16,190
+Excellent, excellent, Steve.
+
+253
+00:20:18,580 --> 00:20:24,910
+No, 60. This one is going to see 60 IV, okay? This option right here,
+
+254
+00:20:25,450 --> 00:20:29,090
+expiring in 30 days, is going to see 60 IV.
+
+255
+00:20:29,250 --> 00:20:33,580
+That's what it's thinking it's going to see, okay? Now,
+
+256
+00:20:33,580 --> 00:20:37,740
+what is going to happen to this option though? Okay, so we're trading,
+
+257
+00:20:37,860 --> 00:20:41,160
+let's say, the longer-dated stock, okay? We're trading the 60 DTE option here,
+
+258
+00:20:41,260 --> 00:20:45,700
+okay? We're selling the 60 DTE. We're selling the 90 DTE, okay?
+
+259
+00:20:47,430 --> 00:20:51,110
+What is this telling us here, right? This is very important, very crucial,
+
+260
+00:20:51,430 --> 00:21:02,410
+okay? Because originally, right, we might think that, okay, in 30 days, right,
+
+261
+00:21:03,880 --> 00:21:07,420
+this might still be, if nothing changes, okay?
+
+262
+00:21:07,620 --> 00:21:12,590
+I'm going to go by this super slow. In 30 days, and this is a misconception,
+
+263
+00:21:12,990 --> 00:21:18,230
+just to make it clear. In 30 days, if nothing happens,
+
+264
+00:21:19,330 --> 00:21:25,550
+this is still going to be 40 IV. Okay? In 30 days, if nothing happens,
+
+265
+00:21:25,630 --> 00:21:28,110
+it's going to be still 40 IV. What's the issue with this?
+
+266
+00:21:28,590 --> 00:21:29,810
+What is the issue with that thinking?
+
+267
+00:21:39,000 --> 00:21:45,020
+Thank you, Steven. Steven is saying, that's incorrect. This will fall, okay?
+
+268
+00:21:45,890 --> 00:21:49,810
+And what did, how can we really see this? How can we paint the picture here?
+
+269
+00:21:50,090 --> 00:21:53,770
+Okay, so let's go back to our graph that we did yesterday.
+
+270
+00:21:59,580 --> 00:22:03,120
+Let's go back to the graph we did yesterday. And at the end, guys, you know,
+
+271
+00:22:03,180 --> 00:22:06,400
+stay till the end of this because it's going to all tie back into a couple positions
+
+272
+00:22:06,400 --> 00:22:10,960
+that we have right now. And how, you know, it's acting very strange.
+
+273
+00:22:13,410 --> 00:22:17,980
+Okay, let's go back to our thing here. Here, so here is today.
+
+274
+00:22:18,540 --> 00:22:22,720
+Here is 60 days from now. And here is 30 days.
+
+275
+00:22:24,590 --> 00:22:33,100
+We know that the IV from today to 30 days is going to be 60. Okay,
+
+276
+00:22:33,100 --> 00:22:34,040
+we're going to call it 60.
+
+277
+00:22:36,640 --> 00:22:36,960
+Okay?
+
+278
+00:22:40,770 --> 00:22:49,980
+And we know that from 60 to today is going to be 40, right?
+
+279
+00:22:50,100 --> 00:22:56,160
+This option here is going to see 40 IV. So we're going to say 40 here.
+
+280
+00:22:59,680 --> 00:23:04,480
+Okay, it's going to be 40. But here's the thing, or sorry guys,
+
+281
+00:23:05,440 --> 00:23:08,590
+the whole life of this option is going to be 40, okay?
+
+282
+00:23:08,790 --> 00:23:10,430
+The whole thing is going to be 40.
+
+283
+00:23:10,430 --> 00:23:17,650
+From 60 or from today to 60 days is going to be 40 implied volatility. Now,
+
+284
+00:23:18,390 --> 00:23:25,520
+here's the thing. We are seeing 60 vol here. We're seeing 60 vol here.
+
+285
+00:23:25,940 --> 00:23:30,300
+So once this is gone, remember volatility is the average, right?
+
+286
+00:23:30,340 --> 00:23:38,520
+It's going to be the average. So once the 60 vol is gone, this should drop,
+
+287
+00:23:39,600 --> 00:23:44,880
+okay? Once this option is going to realize 60 implied volatility,
+
+288
+00:23:45,440 --> 00:23:49,340
+and then it might realize 20 implied volatility,
+
+289
+00:23:51,530 --> 00:24:03,860
+giving an average of 40, okay? And this number here, this 20 number here,
+
+290
+00:24:04,260 --> 00:24:05,560
+is going to be called something.
+
+291
+00:24:06,240 --> 00:24:09,300
+It's going to be called the forward volatility, okay?
+
+292
+00:24:09,400 --> 00:24:10,600
+And that's the volatility.
+
+293
+00:24:11,380 --> 00:24:13,540
+So we have this as the life of this option right here.
+
+294
+00:24:13,540 --> 00:24:15,920
+We have this as the life of the option here.
+
+295
+00:24:16,790 --> 00:24:21,220
+But what about the life of the option between here, right?
+
+296
+00:24:21,380 --> 00:24:24,360
+Between 30 and 60 days? Well,
+
+297
+00:24:24,420 --> 00:24:27,440
+that's called the forward volatility between the 30 and the 60.
+
+298
+00:24:28,680 --> 00:24:34,760
+So what we should see once this 30 days are over is that this option that's trading
+
+299
+00:24:34,760 --> 00:24:38,420
+at 40 vol is actually going to drop to 20 vol,
+
+300
+00:24:40,650 --> 00:24:45,220
+okay? And so on and so forth of these. Does that make sense? If not,
+
+301
+00:24:45,420 --> 00:24:46,080
+we're going to go back.
+
+302
+00:24:46,080 --> 00:24:50,580
+We're going to make sure that everyone understands this concept because we're going
+
+303
+00:24:50,580 --> 00:24:55,280
+to show you afterwards something that is very funky in the market right now,
+
+304
+00:25:04,320 --> 00:25:08,020
+okay? So everyone gets it. Are you sure? Is everyone sure?
+
+305
+00:25:09,080 --> 00:25:11,920
+Please don't feel free to speak up and ask, right?
+
+306
+00:25:11,920 --> 00:25:16,040
+There's nothing wrong with asking, right? These are very difficult concepts,
+
+307
+00:25:16,540 --> 00:25:16,700
+right?
+
+308
+00:25:16,800 --> 00:25:20,760
+I'm sure you can't turn to your friend or your family and talk about these concepts,
+
+309
+00:25:20,840 --> 00:25:23,380
+right? They're very difficult concepts. So if you have any questions,
+
+310
+00:25:23,600 --> 00:25:27,370
+please ask. Okay, I'll run through one more time.
+
+311
+00:25:32,490 --> 00:25:33,770
+Okay, I'll run through one more time.
+
+312
+00:25:37,140 --> 00:25:37,460
+Okay.
+
+313
+00:25:42,020 --> 00:25:43,900
+Okay, you know what? I'm going to draw. I got a good way to draw.
+
+314
+00:25:46,560 --> 00:25:47,440
+I got a good way to draw.
+
+315
+00:25:52,970 --> 00:26:04,150
+You have two options, okay? Option one is going to see 30 days or option one.
+
+316
+00:26:07,020 --> 00:26:10,480
+Let's start over. Let's make this nice and clear. Option one and option two,
+
+317
+00:26:11,000 --> 00:26:11,620
+okay?
+
+318
+00:26:14,520 --> 00:26:26,030
+Option one is going to see 30 days. Option two is going to see 60 days. Now,
+
+319
+00:26:26,330 --> 00:26:31,620
+we know option one is 60 implied volatility.
+
+320
+00:26:32,920 --> 00:26:37,240
+And we know option two is 40 implied volatility.
+
+321
+00:26:39,360 --> 00:26:46,010
+We also know that option two is going to see what option one sees.
+
+322
+00:26:46,570 --> 00:26:48,650
+They're both going to see 30 days.
+
+323
+00:26:50,590 --> 00:26:57,810
+So option two is going to see 60 IV for these 30 days, okay?
+
+324
+00:26:57,860 --> 00:27:03,730
+So this is going to be 60 IV for this option as well, okay? Now,
+
+325
+00:27:03,770 --> 00:27:08,150
+what's going to happen the next 30 days after this expires,
+
+326
+00:27:10,230 --> 00:27:17,510
+right? And this number right here is what we call the forward volatility, okay?
+
+327
+00:27:17,510 --> 00:27:20,350
+Between these two options.
+
+328
+00:27:22,540 --> 00:27:25,370
+And because volatility... So there's actually a formula for it.
+
+329
+00:27:26,140 --> 00:27:28,100
+And maybe it's good that we calculate it right now.
+
+330
+00:27:28,740 --> 00:27:34,280
+So forward vol is going to be equal to square root. Doing some code.
+
+331
+00:27:35,080 --> 00:27:38,770
+Doing code mode. Square root, okay?
+
+332
+00:27:39,650 --> 00:27:53,760
+Volatility one squared times days to expiration of number one plus volatility squared
+
+333
+00:27:53,760 --> 00:28:07,840
+of number two times DTE number two, okay? Divided by, okay,
+
+334
+00:28:09,050 --> 00:28:13,450
+DTE one minus DTE two.
+
+335
+00:28:16,290 --> 00:28:21,550
+Okay, so this is the actual formula for calculating the forward volatility,
+
+336
+00:28:22,640 --> 00:28:24,740
+okay? If we plug in these numbers here,
+
+337
+00:28:24,760 --> 00:28:29,100
+we're going to be able to get this number, okay? But for simplicity,
+
+338
+00:28:30,030 --> 00:28:34,330
+it's going to be very close to the average of these, okay? So this right here,
+
+339
+00:28:34,430 --> 00:28:45,560
+Jared, is going to be 20 IV. So this option here is 40, right?
+
+340
+00:28:45,680 --> 00:28:50,760
+This option that's going to see 60 days is going to be compiled of two areas.
+
+341
+00:28:51,300 --> 00:28:57,820
+One area, 60 IV, the first 30 days. And then the next 30 days of 20 IV.
+
+342
+00:28:59,310 --> 00:29:00,050
+Does that make sense?
+
+343
+00:29:09,880 --> 00:29:16,730
+Okay, great. Great. Okay. Excellent, guys. Excellent. We're getting there.
+
+344
+00:29:16,790 --> 00:29:20,550
+We're getting there. We're getting there, okay? Stay till the end.
+
+345
+00:29:20,610 --> 00:29:24,110
+We're going to have... We're going to show some of these crazy, crazy markets.
+
+346
+00:29:24,390 --> 00:29:27,510
+What retailers are... What retail traders are doing to the market, okay?
+
+347
+00:29:28,430 --> 00:29:29,770
+Stay to the end. It's going to be very important.
+
+348
+00:29:29,770 --> 00:29:33,360
+You guys can use your analysis right away starting tomorrow. Because I know,
+
+349
+00:29:33,760 --> 00:29:37,500
+Tico, you're about to ask that question. How can I make money? Okay.
+
+350
+00:29:39,160 --> 00:29:43,700
+How are we doing for time here? 830. Okay. IV.
+
+351
+00:29:46,000 --> 00:29:46,320
+And...
+
+352
+00:29:49,870 --> 00:29:55,410
+Okay, yeah. So let's drop it. Let's draw it again. Super quick. This is 60,
+
+353
+00:29:55,530 --> 00:30:01,440
+right? This is 40. And this is like, let's say, 20, okay? Once,
+
+354
+00:30:01,580 --> 00:30:06,430
+when we're looking at this, what we can say here is that once this...
+
+355
+00:30:06,430 --> 00:30:10,150
+There's something here. Something... There's something happening right here,
+
+356
+00:30:10,590 --> 00:30:16,570
+okay? Something big. Now, once this is over, this should drop, right?
+
+357
+00:30:16,930 --> 00:30:22,470
+This should drop once this is over. And so we can actually assume, okay?
+
+358
+00:30:23,670 --> 00:30:26,750
+We can assume when we see something like that, this,
+
+359
+00:30:27,210 --> 00:30:31,570
+that if volatility does drop, right? If realized volatility does drop. If,
+
+360
+00:30:31,870 --> 00:30:37,210
+you know, if nothing really happens over the next 30 days, that these,
+
+361
+00:30:37,490 --> 00:30:38,530
+if we sell these,
+
+362
+00:30:38,910 --> 00:30:42,870
+we're going to make a ton of money because the vol is going to drop down 20 points.
+
+363
+00:30:44,500 --> 00:30:50,320
+It's going to drop down 20 points. So we can assume, right? That, okay,
+
+364
+00:30:50,560 --> 00:30:54,420
+as soon as whatever the market's thinking is going to end, right?
+
+365
+00:30:54,460 --> 00:30:56,800
+As soon as volatility drops or if nothing really happens,
+
+366
+00:30:57,080 --> 00:30:59,540
+we're going to make a ton of money. We're gonna make a ton of money on vega,
+
+367
+00:31:00,300 --> 00:31:02,920
+right? Now, obviously, if the market blows out, we're short vol here.
+
+368
+00:31:03,340 --> 00:31:05,900
+It might not work like that, right? We might end up losing money.
+
+369
+00:31:06,940 --> 00:31:10,780
+But we know that once volatility is gone or slows down,
+
+370
+00:31:10,980 --> 00:31:15,510
+that this is going to lose a ton of money, right? After these 30 days expire,
+
+371
+00:31:15,730 --> 00:31:17,730
+this is going to go from 40 to 20,
+
+372
+00:31:19,910 --> 00:31:21,130
+okay? Now,
+
+373
+00:31:21,450 --> 00:31:26,170
+let's take a look at something very interesting in real life happening right now.
+
+374
+00:31:26,810 --> 00:31:29,530
+And I'm going to show you guys on the term. Yeah, yeah, yeah, yeah.
+
+375
+00:31:30,070 --> 00:31:31,610
+I'm going to show you guys on the terminal here,
+
+376
+00:31:33,640 --> 00:31:36,320
+okay? Let me show you something very interesting right now.
+
+377
+00:31:36,520 --> 00:31:39,040
+Are you sharing screen? Yeah, I'm going to, and here we go.
+
+378
+00:31:47,880 --> 00:31:49,870
+Bless you. Okay.
+
+379
+00:31:54,590 --> 00:31:55,690
+Let's check this out, guys.
+
+380
+00:32:04,660 --> 00:32:07,480
+So look where we are, okay? We are at the top of the range.
+
+381
+00:32:07,520 --> 00:32:11,620
+So here's the current, right? Let's get rid of some of this stuff here.
+
+382
+00:32:14,140 --> 00:32:14,840
+Let's get rid of the max.
+
+383
+00:32:15,100 --> 00:32:18,400
+So we are at the top of the range in implied volatility.
+
+384
+00:32:18,500 --> 00:32:19,880
+You can see that right here, right?
+
+385
+00:32:22,520 --> 00:32:29,300
+But look at this. The term structure is flat. The term structure is flat.
+
+386
+00:32:29,380 --> 00:32:33,580
+And if we had 120 DTE, it's actually flat across the whole surface. Actually,
+
+387
+00:32:33,620 --> 00:32:38,700
+we can see it right here. Let's go to term structure, okay? Let's type in lit.
+
+388
+00:32:40,060 --> 00:32:44,840
+We're seeing this on arc, okay? Okay, this is the 252,
+
+389
+00:32:44,940 --> 00:32:47,280
+which we don't have the data for it. But you can see here,
+
+390
+00:32:47,400 --> 00:32:50,980
+all the way up to the 120 DTE, the term structure is flat.
+
+391
+00:32:51,060 --> 00:32:57,400
+We get a 1% kick down going out in time, out 120 days, right? Let's do an arc.
+
+392
+00:32:58,740 --> 00:33:03,410
+So what is happening here? Oh, arcs, oh, well, it's a little bumpy, right?
+
+393
+00:33:05,300 --> 00:33:11,520
+But even then, look, we're going from 55 to 54, 120 days out, right?
+
+394
+00:33:11,560 --> 00:33:15,830
+So this is pretty damn flat, right? And we can see that here.
+
+395
+00:33:15,870 --> 00:33:21,280
+If we go to volatility insights, we type in arc, okay?
+
+396
+00:33:25,340 --> 00:33:27,340
+We type in arc and we're pretty flat, right?
+
+397
+00:33:27,360 --> 00:33:29,900
+You can see that when we're at the max, at the peak,
+
+398
+00:33:30,420 --> 00:33:34,040
+we get into some backwardation, right?
+
+399
+00:33:34,320 --> 00:33:37,240
+Does anyone have a stock that has earnings coming up soon that we can look at right
+
+400
+00:33:37,240 --> 00:33:41,420
+now? Just to show you guys. Stock that has earnings coming up.
+
+401
+00:33:42,510 --> 00:33:44,830
+Does anyone have a big, it has to have a big implied move,
+
+402
+00:33:44,870 --> 00:33:46,690
+big implied move priced in. Who's got it?
+
+403
+00:33:51,210 --> 00:33:54,480
+Hachi on live? Netflix. Thanks, Mark.
+
+404
+00:34:01,270 --> 00:34:03,250
+Okay, so do you see that, guys? Do you see it?
+
+405
+00:34:03,250 --> 00:34:09,090
+So let me just remove third quantile here and max. Okay, so you can see this,
+
+406
+00:34:09,150 --> 00:34:12,470
+right? The market's saying, okay, there's some volatility here, right?
+
+407
+00:34:12,530 --> 00:34:15,270
+The event. But once this event is gone, right?
+
+408
+00:34:15,330 --> 00:34:18,550
+Then we should go back to normal, right? This is going to certainly drop,
+
+409
+00:34:18,910 --> 00:34:23,770
+right? And we see that, right? The reason why this is 53 is because it has,
+
+410
+00:34:24,130 --> 00:34:28,290
+it's going to see 62 and then it's going to see something maybe like 40, right?
+
+411
+00:34:28,310 --> 00:34:34,090
+So that's going to drop after the event. Now, but look, let's go back to lit.
+
+412
+00:34:34,880 --> 00:34:36,040
+Okay, let's go back to lit.
+
+413
+00:34:40,750 --> 00:34:43,890
+Here we are seeing flat. It's completely flat.
+
+414
+00:34:43,890 --> 00:34:49,220
+So what is the market telling us here? The market is telling us that vol,
+
+415
+00:34:50,020 --> 00:34:54,680
+that this is going to be relatively the new mean, right? Now, not perfectly.
+
+416
+00:34:54,740 --> 00:34:58,380
+There's other things going on that are in this. But, you know,
+
+417
+00:34:58,500 --> 00:34:59,560
+in a general sense,
+
+418
+00:34:59,760 --> 00:35:05,920
+the market is telling us that this is going to be the new mean. Vols at 57.
+
+419
+00:35:06,760 --> 00:35:09,820
+Okay, vols at 57. That's going to be the new mean. This is happening for arc.
+
+420
+00:35:09,880 --> 00:35:14,260
+This is happening for lit. Okay, instead of seeing something like this, right?
+
+421
+00:35:14,260 --> 00:35:16,680
+Remember, right now we are seeing insane volatility.
+
+422
+00:35:16,800 --> 00:35:19,780
+Look at volatility getting pumped up here. Okay,
+
+423
+00:35:19,780 --> 00:35:24,140
+look at vol getting pumped up here. Actually, let's go back. Let's go to arc,
+
+424
+00:35:24,220 --> 00:35:26,640
+actually. I'm actually curious. So this will do this real time.
+
+425
+00:35:28,190 --> 00:35:30,070
+Let's take a look here. We're going to do this in real time.
+
+426
+00:35:31,510 --> 00:35:37,420
+Let's see what arc was when we started getting this big vol here,
+
+427
+00:35:37,660 --> 00:35:39,500
+right around September 15. Let's take a look.
+
+428
+00:35:46,440 --> 00:35:46,640
+Arc.
+
+429
+00:36:03,050 --> 00:36:03,930
+Oh, whoops.
+
+430
+00:36:06,060 --> 00:36:11,880
+Let's go back to September 15. Okay, let's see what it looked like there. Oh,
+
+431
+00:36:11,920 --> 00:36:14,180
+sorry, guys. I'm on skew analysis with trim structure here.
+
+432
+00:36:20,720 --> 00:36:21,980
+Oh, it's kind of flat too, eh?
+
+433
+00:36:27,710 --> 00:36:31,590
+Well, you know what it is? It's the zero mark. That's messing it up.
+
+434
+00:36:31,950 --> 00:36:35,270
+But you can see we don't even have that much. You know,
+
+435
+00:36:35,330 --> 00:36:36,730
+we don't have too much backwardation there,
+
+436
+00:36:36,810 --> 00:36:43,050
+but it does drop off to 47 at the end, right? So let's go back to our tab here.
+
+437
+00:36:43,650 --> 00:36:49,210
+So right now we're flat, right? We're almost completely flat here.
+
+438
+00:36:50,510 --> 00:36:54,810
+So the market's telling us that this volatility that we're seeing is going to be
+
+439
+00:36:54,810 --> 00:36:59,440
+here to stay. Now, what do we think about that, right? Realize vol,
+
+440
+00:36:59,660 --> 00:37:02,060
+if we look at the graph on the top right here,
+
+441
+00:37:03,200 --> 00:37:04,980
+we're starting to approach the highs, right?
+
+442
+00:37:04,980 --> 00:37:07,400
+We see volatility is mean reverting. If I had a longer graph,
+
+443
+00:37:07,440 --> 00:37:08,720
+we could see that it's mean reverting.
+
+444
+00:37:09,220 --> 00:37:10,240
+But we're seeing that it's mean reverting.
+
+445
+00:37:10,360 --> 00:37:15,920
+And right now we're reaching the highs, not even. And vol is looking like this.
+
+446
+00:37:19,580 --> 00:37:21,160
+So what the market's saying is,
+
+447
+00:37:24,390 --> 00:37:30,380
+there's no mean reverting feature on this, right? This is the mean.
+
+448
+00:37:31,040 --> 00:37:32,880
+If the market thought it was going to be mean reverting,
+
+449
+00:37:33,040 --> 00:37:36,180
+we'd see it come down like this. But we're seeing it flat.
+
+450
+00:37:36,460 --> 00:37:40,080
+So the market's telling us, this is probably the long-term mean right here,
+
+451
+00:37:41,560 --> 00:37:45,240
+right? The vol we're seeing right now is going to be the long-term mean.
+
+452
+00:37:46,060 --> 00:37:49,080
+And so the way that I think about it is, I think this is way too bid.
+
+453
+00:37:49,620 --> 00:37:55,640
+I think these are way too bid out here, right? In my opinion, 5%, 5% days,
+
+454
+00:37:56,950 --> 00:38:00,210
+that is the long-term mean. I can't see it.
+
+455
+00:38:00,890 --> 00:38:03,910
+I can't see how this should be priced to the same vol of this, right?
+
+456
+00:38:04,190 --> 00:38:07,330
+If anything, we can maybe do a calendar spread where we take advantage.
+
+457
+00:38:08,810 --> 00:38:11,990
+We take advantage of the realized vol that's happening right now, right?
+
+458
+00:38:11,990 --> 00:38:17,650
+That's clustering. And we sell some of this stuff, right? We do a, you know,
+
+459
+00:38:17,670 --> 00:38:19,990
+it's not the greatest in terms of margin, right?
+
+460
+00:38:20,390 --> 00:38:21,650
+Especially for a T-REC account.
+
+461
+00:38:23,330 --> 00:38:25,170
+But what we can do here is take advantage of that.
+
+462
+00:38:25,710 --> 00:38:31,180
+By offsetting it by some quite expensive theta back here, okay?
+
+463
+00:38:31,840 --> 00:38:39,810
+Like we sell these and buy this. Now, we decided just to sell these, okay?
+
+464
+00:38:40,490 --> 00:38:45,410
+And that is because we think this is not the long-term mean. And instead,
+
+465
+00:38:45,570 --> 00:38:49,570
+this should be way down here at 40, maybe 35.
+
+466
+00:38:51,620 --> 00:38:55,980
+Okay, now we were right, we were wrong, sorry, on lit. But even now,
+
+467
+00:38:56,160 --> 00:38:58,040
+we're getting back into it and starting to sell some.
+
+468
+00:39:00,180 --> 00:39:02,960
+So what do you guys think about that? Let's see.
+
+469
+00:39:10,140 --> 00:39:11,540
+So Mark, I mean, Eric,
+
+470
+00:39:11,600 --> 00:39:14,400
+I wouldn't say that they don't know what to do with them.
+
+471
+00:39:15,060 --> 00:39:18,440
+They're just pricing it at that, right? Like Stephen said, had an idea.
+
+472
+00:39:18,600 --> 00:39:21,700
+The market's saying this is the new vol regime. And, you know,
+
+473
+00:39:22,000 --> 00:39:24,400
+this is going to be the mean going forward, right?
+
+474
+00:39:26,180 --> 00:39:29,960
+ARK moving 5% a day is going to be the new normal.
+
+475
+00:39:32,320 --> 00:39:35,960
+So let's see what else. We've got a couple of statements here. Yep,
+
+476
+00:39:36,140 --> 00:39:38,200
+so Stephen's saying the market's entering a new vol regime.
+
+477
+00:39:38,300 --> 00:39:38,900
+That's what they're thinking.
+
+478
+00:39:41,400 --> 00:39:43,860
+I wonder what it was like in the tech bubble. They don't have,
+
+479
+00:39:45,900 --> 00:39:47,820
+ARK I don't think was around during the tech bubble.
+
+480
+00:39:48,160 --> 00:39:51,040
+I think it started in 2015. I was looking at some of the data for 2018.
+
+481
+00:39:57,060 --> 00:39:59,420
+Parth's saying, when did the market solidify this?
+
+482
+00:40:01,710 --> 00:40:05,440
+This was my thesis for VIX long. Okay,
+
+483
+00:40:05,460 --> 00:40:07,600
+so I'm not too sure what you mean by solidify this.
+
+484
+00:40:07,880 --> 00:40:10,500
+This is just what the market's expecting right now, right? Tomorrow,
+
+485
+00:40:10,620 --> 00:40:11,480
+for example, well,
+
+486
+00:40:11,520 --> 00:40:16,900
+at least what we think is going to happen is eventually the market is going to realize,
+
+487
+00:40:17,020 --> 00:40:21,300
+as soon as realize vol starts to be like, let's say 2% a day, 1.5% a day.
+
+488
+00:40:22,040 --> 00:40:25,900
+As soon as that happens again, the market's going to realize, wait a minute,
+
+489
+00:40:26,540 --> 00:40:31,100
+this isn't the mean. The mean is down here, right?
+
+490
+00:40:31,140 --> 00:40:36,470
+And so this is going to drop, right? That's what we're estimating, right?
+
+491
+00:40:36,610 --> 00:40:38,490
+As soon as, so you saw today, for example,
+
+492
+00:40:38,850 --> 00:40:44,380
+vol was 1.5% or the move was 1.5% today. And if that continues to happen,
+
+493
+00:40:44,440 --> 00:40:46,160
+or it's 2%, if that continues to happen,
+
+494
+00:40:46,860 --> 00:40:48,720
+we're going to see this drop down substantially.
+
+495
+00:40:50,840 --> 00:40:53,080
+So I don't know what you mean specifically by,
+
+496
+00:40:53,580 --> 00:40:55,200
+is that the market solidify this?
+
+497
+00:40:58,800 --> 00:41:01,860
+And Mark's saying, another way to look at it is even if you're wrong,
+
+498
+00:41:02,240 --> 00:41:07,780
+the risk should be low as it would be hard to have sustained average vol much higher
+
+499
+00:41:07,780 --> 00:41:09,560
+than this, right?
+
+500
+00:41:09,940 --> 00:41:16,200
+Like imagine sustained volatility of an ETF with stocks like Roku, Salesforce,
+
+501
+00:41:16,760 --> 00:41:26,060
+Tesla, CRSP as the top holders, right? Imagine a sustained vol, let's say 60%,
+
+502
+00:41:26,060 --> 00:41:29,640
+right? And that's also including the correlation,
+
+503
+00:41:29,940 --> 00:41:35,360
+like this ETF had zero correlation, was carrying zero realized correlation,
+
+504
+00:41:36,080 --> 00:41:41,380
+right? So imagine something that's sustained at 60 or 65, right?
+
+505
+00:41:41,440 --> 00:41:43,880
+It'd be extraordinary. And so that's what Mark's saying.
+
+506
+00:41:43,980 --> 00:41:45,920
+So it could be a good risk reward trade here.
+
+507
+00:41:50,080 --> 00:41:53,660
+I think you have Stockholm syndrome. Could you explain to me? I've never,
+
+508
+00:41:53,820 --> 00:41:55,560
+I've never, do you know what Stockholm syndrome is?
+
+509
+00:41:55,740 --> 00:41:59,650
+You fall in love with the person who like kidnapped you. Yeah.
+
+510
+00:42:00,110 --> 00:42:00,950
+So they say like,
+
+511
+00:42:01,430 --> 00:42:05,590
+the stock burned you so bad that you now like are obsessed with it. Oh, well,
+
+512
+00:42:05,670 --> 00:42:08,770
+Mark did us really well. Lit did us pretty well. We cut lit.
+
+513
+00:42:08,910 --> 00:42:11,610
+So it wasn't as bad as it could have been. It could have been disastrous.
+
+514
+00:42:14,970 --> 00:42:15,610
+So blessing saying,
+
+515
+00:42:15,790 --> 00:42:19,870
+would you not normally sell front month on a calendar spread? Okay.
+
+516
+00:42:20,030 --> 00:42:25,980
+So I wouldn't sell it in this situation, right?
+
+517
+00:42:26,020 --> 00:42:29,740
+The reason why I wouldn't sell it in this situation is that realized vol is actually
+
+518
+00:42:29,740 --> 00:42:33,960
+quite high, right? Realized vol is actually really, really high.
+
+519
+00:42:34,040 --> 00:42:38,940
+So this actually might be justified, right? This actually might be justified,
+
+520
+00:42:39,240 --> 00:42:41,920
+but we think that the term structure should look like this,
+
+521
+00:42:41,920 --> 00:42:45,980
+where sure there's a lot of vol now, but in the future,
+
+522
+00:42:46,240 --> 00:42:52,210
+we should get back to normal, right? So I don't want to be selling really here.
+
+523
+00:42:52,290 --> 00:42:55,290
+I want to be selling over here in a calendar spread. Sure,
+
+524
+00:42:55,630 --> 00:43:00,330
+you could do it like this, but usually you don't want to be,
+
+525
+00:43:00,350 --> 00:43:03,330
+you don't want to be by a calendar spread when it's in, when it's in contango,
+
+526
+00:43:03,470 --> 00:43:04,730
+when it's in backwardation like this,
+
+527
+00:43:04,850 --> 00:43:07,790
+you want to be doing it when it's in contango. Okay.
+
+528
+00:43:07,810 --> 00:43:11,390
+Where the front month is dropping, right? The front month is dropping quick,
+
+529
+00:43:11,390 --> 00:43:15,250
+right? It's, the realized vol is a lot lower than implied.
+
+530
+00:43:15,850 --> 00:43:18,830
+And so selling that front month is going to do well. In the back month,
+
+531
+00:43:18,850 --> 00:43:21,850
+it's going to stay a bit. Okay. So this is, so Aria is saying,
+
+532
+00:43:22,090 --> 00:43:25,990
+but if retail are the ones moving this market here and they just keep buying,
+
+533
+00:43:26,670 --> 00:43:33,050
+won't it stay a bit? Yeah. And Aria, it's been happening for quite a while,
+
+534
+00:43:33,110 --> 00:43:35,470
+man. I actually couldn't believe when I saw lit go to,
+
+535
+00:43:36,350 --> 00:43:42,290
+when I saw lit go to 60 vol in the back, it blew my mind. But that is true,
+
+536
+00:43:42,370 --> 00:43:47,480
+right? And eventually though, eventually like retail can't,
+
+537
+00:43:47,520 --> 00:43:50,600
+like it's not infinite money, right? Eventually they can,
+
+538
+00:43:50,740 --> 00:43:52,160
+so the market can remain rational,
+
+539
+00:43:52,520 --> 00:43:54,860
+irrational longer than you can remain solvent, right?
+
+540
+00:43:55,740 --> 00:44:00,680
+And so surely can keep buying, but eventually the buying has to stop, right?
+
+541
+00:44:00,680 --> 00:44:04,900
+So we need to position ourselves where one, we hope it, you know,
+
+542
+00:44:05,080 --> 00:44:10,270
+we hope it doesn't last, let's say six months, right? So, but two,
+
+543
+00:44:10,430 --> 00:44:13,830
+we need to be able to withstand some heat, right?
+
+544
+00:44:13,830 --> 00:44:16,310
+We need to be able to withstand, let's say vol picking up another five,
+
+545
+00:44:16,410 --> 00:44:18,030
+10 points. Okay.
+
+546
+00:44:18,790 --> 00:44:22,570
+So how long would you hold a position like this for like on average,
+
+547
+00:44:22,630 --> 00:44:26,450
+do you think? Obviously it's until the vol drops or when you're wrong is when?
+
+548
+00:44:26,990 --> 00:44:31,510
+When I'm wrong is when let's say realized vol continues to shoot up like unbelievable
+
+549
+00:44:31,510 --> 00:44:33,990
+amounts, right? Because then if we see,
+
+550
+00:44:34,070 --> 00:44:37,170
+let's say realized volatility moving 10% a day again, right?
+
+551
+00:44:37,550 --> 00:44:41,850
+Then we can be in serious trouble here, right? Because the reason I ask is,
+
+552
+00:44:42,070 --> 00:44:43,530
+and I was kind of thinking about this too, right? If you,
+
+553
+00:44:43,530 --> 00:44:47,730
+if you think you could be holding this for three weeks, how, Ko was asking,
+
+554
+00:44:47,790 --> 00:44:52,380
+how would you, you know, hedge, what do you wanna call it?
+
+555
+00:44:52,440 --> 00:44:56,400
+You said things are moving. How would you protect from like a price increase,
+
+556
+00:44:56,460 --> 00:45:00,320
+right? So like, you know, if equities on average trend upwards, right?
+
+557
+00:45:00,460 --> 00:45:02,640
+This is a ETF, it should on average move upwards.
+
+558
+00:45:02,880 --> 00:45:08,090
+Would you maybe structure your strangle a little biased long Delta or would you
+
+559
+00:45:08,090 --> 00:45:11,890
+just hedge your Deltas? Yeah, so Ko, it really depends on your view, right?
+
+560
+00:45:12,030 --> 00:45:16,670
+If you want long Delta, then I'm not into the strangle, right? If you want,
+
+561
+00:45:16,990 --> 00:45:21,270
+so the strangle can give you short vol, short Vega and long Delta.
+
+562
+00:45:21,960 --> 00:45:25,500
+You just shift the body or the middle up. Yeah,
+
+563
+00:45:25,860 --> 00:45:28,100
+so it really depends on your view. And in my case, for example,
+
+564
+00:45:28,100 --> 00:45:29,020
+I'm probably gonna be hedging.
+
+565
+00:45:29,160 --> 00:45:31,880
+I'm almost certainly gonna be hedging if we get too much in the move.
+
+566
+00:45:34,800 --> 00:45:38,560
+And Mark said something really good here. So I just want you, blessing,
+
+567
+00:45:38,740 --> 00:45:42,480
+great seeing you. Oh, sorry, that was Bron. Bron, great seeing you, man.
+
+568
+00:45:42,560 --> 00:45:43,160
+Have a great dinner.
+
+569
+00:45:46,910 --> 00:45:49,470
+Oh, a blessing saying it's when you feel sorry for someone who's kidnapped you.
+
+570
+00:45:49,950 --> 00:45:52,930
+Yeah, or like you fall in love with them or something. Aria,
+
+571
+00:45:53,050 --> 00:45:54,890
+if you can maybe elaborate a little more on that.
+
+572
+00:45:58,480 --> 00:46:00,280
+Okay, so Ko, that's a really good point.
+
+573
+00:46:01,400 --> 00:46:07,280
+Ko is saying ARK can go up another 50% in six months. So 50% in six months,
+
+574
+00:46:07,660 --> 00:46:11,700
+if you break it down, that's quite a bit of vol. But if you're just going like,
+
+575
+00:46:11,780 --> 00:46:14,720
+let's say one, like half a percent a day every day, well,
+
+576
+00:46:14,780 --> 00:46:15,760
+that's gonna be easy to hedge.
+
+577
+00:46:16,240 --> 00:46:20,460
+And then we should earn money as well because the vol wasn't that high.
+
+578
+00:46:20,680 --> 00:46:24,140
+And vol should drop, right? If it's only realizing half a percent a day.
+
+579
+00:46:25,320 --> 00:46:26,780
+So Mark had a really good point here, guys.
+
+580
+00:46:27,060 --> 00:46:29,440
+The thing we should talk about for a second. You know,
+
+581
+00:46:29,440 --> 00:46:31,460
+this is in response to someone's question, right? Somebody said,
+
+582
+00:46:31,560 --> 00:46:35,360
+if retail are driving the market, retail keep buying. If they keep buying,
+
+583
+00:46:35,800 --> 00:46:39,980
+shouldn't this just stay or get higher? Then Mark responded and said,
+
+584
+00:46:40,700 --> 00:46:45,620
+sustained buying doesn't increase vol if it's not a sharp jump in prices.
+
+585
+00:46:46,460 --> 00:46:51,500
+Vol will eventually decline in the midst of sustained moderate appreciation.
+
+586
+00:46:52,100 --> 00:46:54,760
+So here, this is a really good point. This is a really, really...
+
+587
+00:46:54,760 --> 00:47:00,520
+And I actually just learned this during the crash of 2020.
+
+588
+00:47:00,920 --> 00:47:03,120
+So this is a really good point here. So check this out, guys.
+
+589
+00:47:05,390 --> 00:47:11,250
+During the crash, okay? We all know that when stocks go down,
+
+590
+00:47:11,910 --> 00:47:15,050
+fixed usually goes up most of the time. And if stocks go down a lot,
+
+591
+00:47:15,530 --> 00:47:21,280
+VIX goes up. But guess what happened at the very end of the financial crisis,
+
+592
+00:47:21,480 --> 00:47:23,600
+okay? Of the COVID crisis.
+
+593
+00:47:26,340 --> 00:47:31,610
+VIX, so S&P was going down, okay? Down, down, down.
+
+594
+00:47:31,910 --> 00:47:38,210
+And VIX was going up every single day. At one point, okay?
+
+595
+00:47:38,250 --> 00:47:44,120
+I think this is on March 20th, this happened. VIX, right before March 20th,
+
+596
+00:47:44,280 --> 00:47:54,810
+VIX was at 80, let's say, okay? And S&P was at 200, okay? The next day,
+
+597
+00:47:57,280 --> 00:48:04,160
+the S&P went down 4%. Huge move down. But guess what happened to VIX?
+
+598
+00:48:05,200 --> 00:48:11,620
+It also came down, okay? And that's because,
+
+599
+00:48:12,470 --> 00:48:14,770
+and I'm sure there was a ton of buying here, right?
+
+600
+00:48:14,810 --> 00:48:16,090
+I'm sure there was a ton of buying here,
+
+601
+00:48:16,770 --> 00:48:22,950
+of puts as the stock continued to move down. If the realized volatility, okay?
+
+602
+00:48:22,950 --> 00:48:31,510
+Remember, VIX at 80, right? Is implying like a 6% move a day, right? Or sorry,
+
+603
+00:48:31,590 --> 00:48:32,510
+a 5% move a day,
+
+604
+00:48:38,490 --> 00:48:38,990
+okay?
+
+605
+00:48:41,370 --> 00:48:47,520
+So even though we realized only 4%, right? And stocks went down,
+
+606
+00:48:48,500 --> 00:48:51,080
+VIX dropped as well because it couldn't sustain that.
+
+607
+00:48:51,160 --> 00:48:55,010
+It could not sustain that level. Even though there was a ton of buying here,
+
+608
+00:48:55,450 --> 00:48:56,010
+right?
+
+609
+00:48:56,290 --> 00:49:02,680
+We need an enormous amount of money coming into the market to be able to push this
+
+610
+00:49:02,680 --> 00:49:03,900
+up higher, right?
+
+611
+00:49:03,920 --> 00:49:12,740
+It's a lot easier to move VIX from 10 to 12 than it is 80 to 82.
+
+612
+00:49:14,410 --> 00:49:16,520
+It's a lot harder, right?
+
+613
+00:49:16,600 --> 00:49:24,060
+And I think I just learned that during this crash of 2020, right?
+
+614
+00:49:24,060 --> 00:49:25,020
+So we always learn something new,
+
+615
+00:49:25,080 --> 00:49:27,580
+but I think that was a really fantastic point that Mark mentioned.
+
+616
+00:49:30,640 --> 00:49:36,650
+Oh, no. Okay, here. Oh, not again, guys. Yeah, not again.
+
+617
+00:49:36,870 --> 00:49:37,930
+Just explain it quick. Okay, yeah, super quick.
+
+618
+00:49:39,640 --> 00:49:43,020
+The VIX came down even though the S&P went down.
+
+619
+00:49:43,300 --> 00:49:48,060
+And that was because the VIX was implying an extraordinary move, right?
+
+620
+00:49:48,200 --> 00:49:51,830
+At 80 and the market didn't move enough, right?
+
+621
+00:49:51,850 --> 00:49:56,650
+It's a lot easier to go from VIX from 10 to 12 than it is from VIX from 80 to 82,
+
+622
+00:49:57,350 --> 00:50:01,610
+okay? Or percentage moves. So what's that? 80, 96.
+
+623
+00:50:08,070 --> 00:50:11,750
+It's actually a linear product. VIX is actually a linear product.
+
+624
+00:50:13,050 --> 00:50:16,470
+Just because the volatility, the vol of vol increases to the upside,
+
+625
+00:50:16,570 --> 00:50:20,900
+it looks like it's exponential, but it's actually a linear product, right?
+
+626
+00:50:20,900 --> 00:50:22,200
+There's actually no convexity there,
+
+627
+00:50:28,210 --> 00:50:32,850
+okay? So it was a big topic, big live today, guys. All the way till nine, wow.
+
+628
+00:50:33,150 --> 00:50:37,180
+Wow, these lives are getting intense, man. Yeah, the whiteboard.
+
+629
+00:50:37,320 --> 00:50:39,600
+It's the whiteboard. These are lectures, guys.
+
+630
+00:50:42,940 --> 00:50:48,980
+Oh, yeah, Mark? Hey, Renato. Hey, thanks, Mark. Mark, I think you actually...
+
+631
+00:50:49,720 --> 00:50:51,320
+Mark, were you here for the Bitcoin one?
+
+632
+00:50:51,400 --> 00:50:53,220
+I think that was a fun one too to chat about.

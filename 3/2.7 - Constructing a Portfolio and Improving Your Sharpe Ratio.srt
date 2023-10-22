@@ -1,0 +1,2431 @@
+1
+00:00:07,460 --> 00:00:11,160
+Yes. We'll see. Okay, guys. So in this, in this lab,
+
+2
+00:00:11,160 --> 00:00:13,680
+we're going to be talking about constructing a portfolio.
+
+3
+00:00:14,180 --> 00:00:20,100
+And basically how we can improve ratio, meaning how we can improve our return,
+
+4
+00:00:20,320 --> 00:00:24,140
+our risk-adjusted returns. I know, right? Yeah.
+
+5
+00:00:26,800 --> 00:00:30,120
+You guys, you have to deal with that thing. I'm not talking about Jordan.
+
+6
+00:00:30,200 --> 00:00:34,280
+I'm talking about this line. Sorry about that. It's coming back.
+
+7
+00:00:34,280 --> 00:00:38,000
+Coming from the light up there. How we can improve our risk-adjusted returns,
+
+8
+00:00:38,120 --> 00:00:42,700
+which is our sharp ratio in a portfolio, right? So example,
+
+9
+00:00:42,880 --> 00:00:43,740
+let's say you want to,
+
+10
+00:00:43,880 --> 00:00:46,840
+let's say you want to build your long-term portfolio or you want to build a portfolio
+
+11
+00:00:46,840 --> 00:00:48,800
+that wants to outperform the market. Well,
+
+12
+00:00:49,240 --> 00:00:53,960
+you maybe can do better by not just buying equity, let's say S&P,
+
+13
+00:00:54,600 --> 00:01:01,520
+but maybe by buying S&P and bonds and leveraging that. Okay? Because usually,
+
+14
+00:01:01,620 --> 00:01:05,020
+you know, when S&P goes down, you know, bonds are usually going down as well,
+
+15
+00:01:05,060 --> 00:01:06,880
+right? So that's kind of offsetting your loss.
+
+16
+00:01:07,180 --> 00:01:10,040
+So therefore you can get leverage. And we're gonna talk all about that today.
+
+17
+00:01:10,080 --> 00:01:12,280
+We're gonna show examples. We're actually gonna build out a portfolio,
+
+18
+00:01:12,800 --> 00:01:16,500
+optimize it. You guys are gonna be able to see the weights through time.
+
+19
+00:01:16,720 --> 00:01:20,100
+It's gonna be very, very cool. I already have the back test already built in.
+
+20
+00:01:20,660 --> 00:01:22,900
+And thanks to Pulumi, he was helping me with this.
+
+21
+00:01:23,500 --> 00:01:29,790
+And the assets are chosen by Steven. So we're gonna go through this one by one.
+
+22
+00:01:30,990 --> 00:01:35,530
+But first, we're basically gonna start off very simple. Okay? So,
+
+23
+00:01:35,530 --> 00:01:38,610
+first thing we need to know. Is- Yeah, I'll figure it out. Okay.
+
+24
+00:01:40,290 --> 00:01:41,910
+So the first thing we have to understand, guys,
+
+25
+00:01:42,130 --> 00:01:44,610
+and so this is gonna be a longer line. This is gonna be probably a full hour.
+
+26
+00:01:47,000 --> 00:01:48,640
+But it's gonna be very informative. And you guys are,
+
+27
+00:01:48,700 --> 00:01:50,680
+I think you guys are gonna get a lot of value out of this one. So,
+
+28
+00:01:51,160 --> 00:01:53,860
+first thing we need to think about is our Sharpe ratio. Okay?
+
+29
+00:01:56,530 --> 00:01:58,590
+Sharpe, and I'm sure we've all heard this before. Oh,
+
+30
+00:01:58,590 --> 00:02:02,110
+I guess it's kind of hard. I think it's better on their end. Yeah. Okay,
+
+31
+00:02:02,210 --> 00:02:04,990
+that's good. Okay, so we got first thing about our Sharpe ratio.
+
+32
+00:02:06,130 --> 00:02:14,190
+And what our Sharpe ratio basically is, is our return. Okay? Yeah.
+
+33
+00:02:14,450 --> 00:02:17,750
+Maybe you have to- It's fine, it's fine. Yeah. Let me know, guys,
+
+34
+00:02:17,810 --> 00:02:22,890
+is it good or not good? No, no, lens is perfectly clean. All right, it's good.
+
+35
+00:02:23,030 --> 00:02:23,830
+I think it's good. Okay,
+
+36
+00:02:24,110 --> 00:02:29,800
+so the Sharpe ratio is equal to our return over our risk. Okay?
+
+37
+00:02:30,040 --> 00:02:33,720
+Our return over our risk. So, let's say, for example,
+
+38
+00:02:35,160 --> 00:02:40,680
+like usually in the market, so the S&P, for example, has a Sharpe ratio of 0.5.
+
+39
+00:02:41,540 --> 00:02:46,120
+Okay? This is the long-term Sharpe ratio of the S&P 500. Okay?
+
+40
+00:02:46,360 --> 00:02:51,400
+So what this means is, for every dollar of risk, for every dollar of return,
+
+41
+00:02:52,080 --> 00:02:57,100
+okay? You are, or for every dollar of risk, you are getting 50 cents. Okay? So,
+
+42
+00:02:57,500 --> 00:03:03,320
+for example, your, and risk here, is calculated as our standard deviation,
+
+43
+00:03:03,500 --> 00:03:09,420
+our volatility. Okay? So, a quick example. Our volatility might be 30%,
+
+44
+00:03:10,800 --> 00:03:18,460
+and our return is 15%. Okay? So that would be a Sharpe of 0.5. Okay?
+
+45
+00:03:18,640 --> 00:03:19,300
+Let me just get an eraser.
+
+46
+00:03:24,500 --> 00:03:30,980
+So, let's do exactly what the S&P usually is, right? The S&P, on average,
+
+47
+00:03:31,480 --> 00:03:33,340
+returns 9% a year.
+
+48
+00:03:35,470 --> 00:03:42,040
+Okay? 9% a year. And the volatility, on average, over the last, let's say,
+
+49
+00:03:42,720 --> 00:03:50,840
+10 years, is about 18%. Okay? So, our return is 9%, our risk is 18%,
+
+50
+00:03:50,840 --> 00:03:57,040
+our volatility. And so, therefore, we have a Sharpe ratio of 0.5. Okay?
+
+51
+00:03:58,100 --> 00:04:02,220
+Now let's look at a different example. Okay, let's look at ACB during the boom.
+
+52
+00:04:02,700 --> 00:04:09,750
+Okay? So ACB, let's say the return was, let's call it 100%. Okay?
+
+53
+00:04:10,310 --> 00:04:15,180
+But our volatility, we're gonna use a theoretical example, and, you know,
+
+54
+00:04:15,200 --> 00:04:20,720
+this is probably not too far off, is 300%. Okay? So here's ACB Sharpe.
+
+55
+00:04:22,960 --> 00:04:26,640
+Okay? We make 100%, but for every,
+
+56
+00:04:27,420 --> 00:04:33,500
+but we are basically getting a Sharpe of 0.3. Okay? 0.33.
+
+57
+00:04:36,400 --> 00:04:40,360
+So what does this mean? Well, what this means is,
+
+58
+00:04:40,880 --> 00:04:46,740
+we can get more leverage here, we can buy more S&P. Okay?
+
+59
+00:04:47,040 --> 00:04:54,210
+Let's say we go 10 S&P, we go S&P times 10, or let's say times 20. Okay?
+
+60
+00:04:54,890 --> 00:05:02,600
+So we get the same risk profile, but now our returns are much higher. Okay?
+
+61
+00:05:03,160 --> 00:05:10,680
+So we can think of the Sharpe ratio is normalizing our returns by our risk.
+
+62
+00:05:11,100 --> 00:05:16,510
+So now we're all in the same playing field. Right? So if you say, for example,
+
+63
+00:05:16,530 --> 00:05:21,590
+you might look at a fund, and the fund is, returns 25%. And you say, well,
+
+64
+00:05:21,610 --> 00:05:26,210
+that's pretty good. But when you look at his risk, he's doing, let's say 50%.
+
+65
+00:05:27,070 --> 00:05:30,690
+Right? So his Sharpe is only 0.5. But there's another fund out there,
+
+66
+00:05:30,750 --> 00:05:37,160
+who's returning, let's say 15%, but his risk is only 0.5. Right?
+
+67
+00:05:37,220 --> 00:05:40,460
+So now he has a Sharpe of three. So a Sharpe,
+
+68
+00:05:42,840 --> 00:05:50,020
+greater than one, is considered very good. Okay? And the high frequency guys,
+
+69
+00:05:50,220 --> 00:05:52,080
+I've seen Sharpe up to 10.
+
+70
+00:05:54,940 --> 00:05:57,540
+Okay? I've seen a Sharpe up to 10.
+
+71
+00:06:00,800 --> 00:06:05,070
+Any questions so far about this? It looks good.
+
+72
+00:06:07,250 --> 00:06:10,810
+We'll answer questions at the end. Okay. Okay. So,
+
+73
+00:06:12,200 --> 00:06:16,620
+how can we improve our Sharpe ratio? So let's go about talking about that.
+
+74
+00:06:16,860 --> 00:06:19,580
+Let me start with, why do we really care about Sharpe? Okay.
+
+75
+00:06:19,660 --> 00:06:22,820
+So the reason we care about Sharpe, and it's not the best,
+
+76
+00:06:22,960 --> 00:06:25,240
+it's not the best metric, because for example,
+
+77
+00:06:26,830 --> 00:06:30,250
+do we really care about upside volatility? Do we really,
+
+78
+00:06:30,290 --> 00:06:31,910
+if our portfolio is going like this,
+
+79
+00:06:34,140 --> 00:06:40,050
+do we really care about this? Right? So Sharpe ratio actually considers,
+
+80
+00:06:40,610 --> 00:06:44,570
+the up volatility as well. So there's other metrics called,
+
+81
+00:06:44,650 --> 00:06:48,140
+let's say the Kalmar ratio. Okay. The Kalmar ratio,
+
+82
+00:06:51,190 --> 00:06:57,940
+which basically looks at, our return, over our, max drawdown.
+
+83
+00:07:00,920 --> 00:07:02,840
+Okay. Our return over our max drawdown.
+
+84
+00:07:02,920 --> 00:07:05,480
+And this is usually a better metric to use, but you know,
+
+85
+00:07:05,500 --> 00:07:08,440
+the standard in the industry, is usually the Sharpe ratio.
+
+86
+00:07:08,560 --> 00:07:11,850
+So we're going to be talking about that for now. All right.
+
+87
+00:07:11,850 --> 00:07:15,630
+And it's the most easy to understand. Return over volatility.
+
+88
+00:07:20,780 --> 00:07:26,800
+So super quick, but is the return only like 5%? Oh, I think, okay, sorry guys.
+
+89
+00:07:26,800 --> 00:07:28,860
+If you guys are having your own conversation right now, we're going to,
+
+90
+00:07:29,260 --> 00:07:32,060
+I'm going to get back to all those, those questions later. Yeah.
+
+91
+00:07:32,060 --> 00:07:36,900
+We'll save the Q and A for the end. Okay. So how can we, how can we,
+
+92
+00:07:37,450 --> 00:07:39,600
+how can we do better? Right? So imagine we have,
+
+93
+00:07:40,260 --> 00:07:47,940
+how can we improve our Sharpe ratio? Well, imagine we have stock one. Okay.
+
+94
+00:07:48,460 --> 00:07:52,060
+Imagine we have the S&P. Okay. SPY.
+
+95
+00:07:54,420 --> 00:08:04,170
+And SPY gives us a Sharpe of 0.5. Okay. S&P gives us a Sharpe of 0.5. Now,
+
+96
+00:08:05,540 --> 00:08:08,260
+this is good. This is not bad. Right? This is what usually most investors get.
+
+97
+00:08:08,360 --> 00:08:12,250
+And then after transaction costs, this usually drops down quite a bit.
+
+98
+00:08:14,970 --> 00:08:16,830
+So even though this is, this is okay. Right.
+
+99
+00:08:16,830 --> 00:08:20,850
+And we always try to improve on this, of course. And that's the alpha, right?
+
+100
+00:08:21,130 --> 00:08:24,010
+Outperforming this on a risk adjusted basis, it's your alpha there.
+
+101
+00:08:25,840 --> 00:08:31,800
+So what we can do is, we can actually add an asset. Okay. Let's say TLT.
+
+102
+00:08:34,000 --> 00:08:40,540
+Okay. That let's say also has a Sharpe of, let's say 0.5. Okay.
+
+103
+00:08:41,680 --> 00:08:43,440
+But these are not correlated.
+
+104
+00:08:47,370 --> 00:08:48,830
+Okay. We'll say correlation is zero.
+
+105
+00:08:57,440 --> 00:09:00,980
+Okay. So we have, SPI, TLT, each having a Sharpe of 0.5,
+
+106
+00:09:01,380 --> 00:09:06,760
+but correlation is equal to zero. And so what this means is,
+
+107
+00:09:07,100 --> 00:09:11,510
+our portfolio is going to look something like this. Okay.
+
+108
+00:09:11,530 --> 00:09:17,810
+So let's say this is SPI. Going to use, and here we have TLT.
+
+109
+00:09:25,370 --> 00:09:28,870
+Okay. So when S&P is going through a drawdown,
+
+110
+00:09:30,580 --> 00:09:39,280
+our return on TLT is usually going up. Okay. And so our portfolio return,
+
+111
+00:09:41,800 --> 00:09:43,660
+now looks something like this.
+
+112
+00:09:48,740 --> 00:09:55,310
+Okay. So we have reduced our volatility, but our return stays the same.
+
+113
+00:09:56,350 --> 00:10:00,250
+So return, stays the same. Okay. So it's constant.
+
+114
+00:10:02,480 --> 00:10:04,880
+Okay. We'll say, we'll say our trade was return. It stays the same,
+
+115
+00:10:05,560 --> 00:10:08,060
+but our volatility, oops,
+
+116
+00:10:10,470 --> 00:10:15,350
+declines. Okay. So return stays the same,
+
+117
+00:10:15,660 --> 00:10:18,150
+but our volatility of the portfolio drops.
+
+118
+00:10:18,670 --> 00:10:23,750
+So meaning our Sharpe ratio increases.
+
+119
+00:10:26,470 --> 00:10:30,290
+And so what does this mean? What this means is we can add leverage.
+
+120
+00:10:31,420 --> 00:10:35,790
+We can add leverage here to this portfolio now. Right?
+
+121
+00:10:36,410 --> 00:10:40,150
+To get the same amount of risk as the S&P. Our new portfolio,
+
+122
+00:10:40,790 --> 00:10:43,850
+we can add more leverage, meaning higher return.
+
+123
+00:10:44,510 --> 00:10:49,070
+So now we're on the same playing field for the volatility of the portfolio,
+
+124
+00:10:49,070 --> 00:10:53,710
+because when you add leverage, you get more volatility. Right. When we add,
+
+125
+00:10:53,910 --> 00:10:54,090
+right.
+
+126
+00:10:54,210 --> 00:10:57,770
+So you could add enough leverage to bring it up to the same volatility as the S
+
+127
+00:10:57,770 --> 00:10:59,610
+&P. Exactly. Right.
+
+128
+00:10:59,650 --> 00:11:03,530
+So now you have S&P level volatility with a greater return because you diversified
+
+129
+00:11:03,530 --> 00:11:07,860
+with uncorrelated assets. Exactly. So now we have a higher Sharpe ratio,
+
+130
+00:11:08,120 --> 00:11:11,060
+meaning we get more leverage, meaning we get a higher risk adjusted return.
+
+131
+00:11:13,910 --> 00:11:17,940
+Okay. Same risk, higher return. Yeah. Same risk, higher return.
+
+132
+00:11:19,300 --> 00:11:23,360
+So how can we go about doing this now? How can we really graph this out?
+
+133
+00:11:23,460 --> 00:11:26,980
+And this is what we're going to call the efficient frontier.
+
+134
+00:11:36,520 --> 00:11:36,560
+Okay.
+
+135
+00:11:41,220 --> 00:11:43,120
+So here we're going to have our return.
+
+136
+00:11:45,560 --> 00:11:48,340
+Okay. And here we're going to have our risk.
+
+137
+00:11:49,890 --> 00:11:52,850
+Now let me ask you guys a question. Where do you guys want to be on this graph?
+
+138
+00:11:54,980 --> 00:11:57,100
+Where do you guys want to be on this graph here?
+
+139
+00:11:59,580 --> 00:12:02,220
+Exactly. Top left net. We want to be right up here.
+
+140
+00:12:02,220 --> 00:12:09,220
+We want zero risk and a very high return. Now, unfortunately,
+
+141
+00:12:09,480 --> 00:12:15,980
+this is not usually the case, but what we call here is the efficient frontier.
+
+142
+00:12:17,200 --> 00:12:19,620
+Okay. Looks something like this.
+
+143
+00:12:26,950 --> 00:12:29,670
+So let me ask you guys a question. Give me some stuff that is risky.
+
+144
+00:12:29,890 --> 00:12:31,990
+Give me some risky stuff here. Give me some anything.
+
+145
+00:12:32,710 --> 00:12:36,610
+And we're going to plot this on the graph here. So I'll start this out.
+
+146
+00:12:38,110 --> 00:12:45,380
+S&P 500. Actually, maybe I'll start out like lottery tickets. Lottery tickets.
+
+147
+00:12:47,450 --> 00:12:50,170
+This is going to be, I guess this would be...
+
+148
+00:12:53,950 --> 00:12:57,790
+It'd probably be down here, wouldn't it? Like low minimal risk. Yeah,
+
+149
+00:12:57,890 --> 00:13:02,500
+but the return is negative though. So maybe it'd be down here, right? Yeah,
+
+150
+00:13:02,520 --> 00:13:04,360
+it'd be off the graph. It'd be off the graph.
+
+151
+00:13:04,880 --> 00:13:09,200
+So like something like lottery ticket would be down here.
+
+152
+00:13:10,880 --> 00:13:17,320
+Where would the ERP be? Yeah, it'd be down here. A VRP? ERP.
+
+153
+00:13:17,800 --> 00:13:18,760
+Equity risk premium? Yeah.
+
+154
+00:13:19,020 --> 00:13:21,440
+Equity risk premium would be somewhere like right around here.
+
+155
+00:13:21,940 --> 00:13:25,020
+And then where would the VRP be? All right, around, let's say,
+
+156
+00:13:25,140 --> 00:13:26,980
+we'll just do arbitrary number. Right,
+
+157
+00:13:27,060 --> 00:13:30,000
+and then VRP would be a little bit higher here.
+
+158
+00:13:30,200 --> 00:13:32,220
+So we're trying to draw that line actually right now.
+
+159
+00:13:37,250 --> 00:13:41,690
+So we have the ERP here. Let me just label it. Okay, so ERP.
+
+160
+00:13:43,720 --> 00:13:47,760
+And we have maybe the VRP, a little bit more risk, a little bit higher return.
+
+161
+00:13:49,260 --> 00:13:54,740
+It's right here. Good. We'll call it VRP. We have gambling down here.
+
+162
+00:13:56,860 --> 00:13:59,700
+Okay, what else? What else do you guys have? What else would be out here?
+
+163
+00:13:59,800 --> 00:14:04,100
+Let's grab some more stuff here. Crypto, crypto. High risk,
+
+164
+00:14:04,280 --> 00:14:06,800
+high return potentially, right? Right up here.
+
+165
+00:14:12,840 --> 00:14:13,560
+What else we got?
+
+166
+00:14:18,310 --> 00:14:24,040
+Tesla. Tesla. Whoa, okay. Risk, really high return up here.
+
+167
+00:14:24,680 --> 00:14:26,660
+But really high risk. This is like all the way over here.
+
+168
+00:14:26,660 --> 00:14:28,800
+I can't go off the screen, so we'll go up here.
+
+169
+00:14:29,020 --> 00:14:35,100
+What about selling far out money puts? Would that just be the VRP or no? Yeah,
+
+170
+00:14:35,160 --> 00:14:36,700
+yeah, that'd be- Close enough, right? Yeah, well,
+
+171
+00:14:39,660 --> 00:14:42,600
+yeah. Selling far out money puts. It would probably be like here. Yeah.
+
+172
+00:14:42,640 --> 00:14:45,740
+Because it'd be in line with the VRP, but with huge blow up risk. Well,
+
+173
+00:14:45,820 --> 00:14:47,800
+it depends if it's leverage, right? If it's no leverage,
+
+174
+00:14:48,140 --> 00:14:52,740
+it'd be like somewhere here. So this would be the cash secured puts. Yeah.
+
+175
+00:14:57,540 --> 00:14:58,740
+What else guys? We'll do one more.
+
+176
+00:15:04,620 --> 00:15:09,840
+ACB. Oh, okay. High risk, no return. Yeah, yeah. That's down here guys, yeah.
+
+177
+00:15:11,410 --> 00:15:19,780
+That's down there. Okay. So now we have all these different items graphed,
+
+178
+00:15:19,780 --> 00:15:25,090
+okay? Now we can actually create a portfolio where,
+
+179
+00:15:25,530 --> 00:15:28,440
+so let me see if I can explain this properly.
+
+180
+00:15:28,540 --> 00:15:30,120
+So we have all these different types of equity,
+
+181
+00:15:30,440 --> 00:15:34,500
+all these different types of trading strategies, methodologies, assets,
+
+182
+00:15:34,780 --> 00:15:37,020
+whatever it is, right? All up here. Maybe we should put one more on there,
+
+183
+00:15:37,200 --> 00:15:41,060
+like gold or something. Okay. So gold is usually lower risk. And like,
+
+184
+00:15:41,140 --> 00:15:42,360
+I would say it's under a ERP.
+
+185
+00:15:46,660 --> 00:15:53,310
+Okay. So now here is all our different, now we can have a thing with this guys.
+
+186
+00:15:53,410 --> 00:15:57,890
+We can have so many different combinations of portfolios. Right?
+
+187
+00:15:57,930 --> 00:16:05,920
+We could have one combination, let's say 99% ACB and then 0.1% of the rest.
+
+188
+00:16:06,180 --> 00:16:10,940
+And that would be right over here, right? So this is 99% ACB.
+
+189
+00:16:13,800 --> 00:16:17,720
+Okay. Then we can have another one. Oh wait, cash. Cash is a good one.
+
+190
+00:16:17,800 --> 00:16:23,220
+Cash is no return, no risk. Right? We can have one that say is 100% cash,
+
+191
+00:16:23,680 --> 00:16:32,320
+right? And, or let's say 50% cash and whoops. So this is cash. Sorry guys.
+
+192
+00:16:34,580 --> 00:16:38,760
+Okay. We can have one that's 50% cash and 50% SPY.
+
+193
+00:16:39,220 --> 00:16:42,580
+And we would lie right around here. So we would call this,
+
+194
+00:16:42,720 --> 00:16:45,800
+let's say portfolio two. Okay. So here's another portfolio.
+
+195
+00:16:47,220 --> 00:16:54,070
+Now the thing is guys, there is an optimal portfolio. And when we say optimal,
+
+196
+00:16:54,250 --> 00:16:59,970
+we mean we can create a portfolio with all of these and give us the best risk adjusted
+
+197
+00:16:59,970 --> 00:17:06,830
+return. Okay. And it's not just one portfolio, actually.
+
+198
+00:17:07,130 --> 00:17:11,310
+We can actually make multiple portfolios. And all those portfolios,
+
+199
+00:17:11,310 --> 00:17:14,950
+those optimized portfolios are going to fall along this line.
+
+200
+00:17:20,420 --> 00:17:20,560
+Okay.
+
+201
+00:17:23,030 --> 00:17:24,350
+So for example,
+
+202
+00:17:24,650 --> 00:17:26,730
+we're going to do a couple of examples here so you guys can understand.
+
+203
+00:17:31,030 --> 00:17:39,940
+One optimal portfolio might be VRP, 33% VRP, 33% equity risk premium,
+
+204
+00:17:40,140 --> 00:17:48,960
+33% gold and 10% Tesla. Okay. And that's going to lie right around here.
+
+205
+00:17:51,060 --> 00:17:59,750
+Okay. And by combining these, because they are not correlated perfectly,
+
+206
+00:18:00,130 --> 00:18:04,870
+we can increase our sharp ratio. Okay. So basically this line right here, guys,
+
+207
+00:18:06,800 --> 00:18:10,010
+has the same sharp across the board. Okay.
+
+208
+00:18:10,010 --> 00:18:14,700
+The same sharp ratio is across this line. Okay.
+
+209
+00:18:14,720 --> 00:18:17,980
+But it's just how much risk do you want? How much return do you want?
+
+210
+00:18:18,550 --> 00:18:22,540
+But you're indifferent if you're here versus here.
+
+211
+00:18:23,730 --> 00:18:32,600
+You're taking on the same unit of risk for the dollar return as this one. Okay.
+
+212
+00:18:33,060 --> 00:18:36,140
+So far, so good. I don't know if you guys have any questions. It's all good.
+
+213
+00:18:36,740 --> 00:18:40,450
+I'm going to end the chat. Right. So this is the, let's say this,
+
+214
+00:18:40,750 --> 00:18:45,410
+so we have all these assets here and this line is our best sharp ratio.
+
+215
+00:18:45,530 --> 00:18:47,530
+Let's say, I don't know, let's say given these assets,
+
+216
+00:18:47,530 --> 00:18:52,830
+we can create a portfolio that has a sharp ratio of one. Okay.
+
+217
+00:18:52,870 --> 00:18:54,110
+Given all these assets right now,
+
+218
+00:18:54,350 --> 00:18:57,210
+we have a sharp ratio that has a portfolio of one. Okay.
+
+219
+00:18:57,230 --> 00:18:58,210
+Now let me ask you guys this question.
+
+220
+00:18:58,290 --> 00:19:00,830
+What's going to be the weighting of gambling in any of these portfolios?
+
+221
+00:19:01,410 --> 00:19:05,290
+Probably very, very, very small, right? Most likely zero,
+
+222
+00:19:05,610 --> 00:19:10,650
+but it could have a very small weighting if it's negatively correlated to some of
+
+223
+00:19:10,650 --> 00:19:15,280
+these names. Okay. So we can make thousands of portfolios.
+
+224
+00:19:15,560 --> 00:19:16,800
+Some of them are going to lie here,
+
+225
+00:19:16,800 --> 00:19:22,100
+but the best ones are going to lie along this line. Okay.
+
+226
+00:19:22,340 --> 00:19:25,040
+And these are the portfolios we want to be in. Okay.
+
+227
+00:19:25,300 --> 00:19:27,900
+Now this doesn't have to be portfolios though. Right.
+
+228
+00:19:28,020 --> 00:19:31,300
+Or this doesn't have to be assets. These could be strategies. Right.
+
+229
+00:19:31,320 --> 00:19:35,460
+And this is how we think about in terms of portfolio management is, well,
+
+230
+00:19:35,720 --> 00:19:38,440
+I'm a portfolio manager. Let's say I got a few traders under my belt.
+
+231
+00:19:38,720 --> 00:19:41,180
+Let's say I got Neil running earnings calendars.
+
+232
+00:19:41,220 --> 00:19:46,180
+I got Hutch running earnings vol. I got Steve B running some long vol.
+
+233
+00:19:46,760 --> 00:19:49,760
+We got R.E.A. running long vol. We got R.E.A. running long vol.
+
+234
+00:19:49,860 --> 00:19:55,940
+And so I allocate money to these traders and I'm allocating the money so that my
+
+235
+00:19:55,940 --> 00:19:59,240
+Sharpe ratio is going to be the highest in the total global book.
+
+236
+00:20:01,360 --> 00:20:03,350
+Okay. So far so good.
+
+237
+00:20:06,190 --> 00:20:13,190
+Okay. So now that we understand this, let's actually do an example. Okay.
+
+238
+00:20:13,190 --> 00:20:18,770
+Let's actually do an example that Pulumi and I worked on and Steve B gave us the
+
+239
+00:20:18,770 --> 00:20:21,630
+assets for. You guys, I hope this really makes sense to you guys.
+
+240
+00:20:21,730 --> 00:20:25,310
+Once you see this in real time in action, building a portfolio.
+
+241
+00:20:29,420 --> 00:20:32,020
+Let me share my screen and we're going to jump into it.
+
+242
+00:20:49,150 --> 00:20:49,370
+Okay.
+
+243
+00:20:53,280 --> 00:20:54,800
+So here's what we're going to do here, guys.
+
+244
+00:20:55,930 --> 00:20:59,220
+The first thing we're going to do is,
+
+245
+00:21:01,740 --> 00:21:05,460
+so what we did here is we basically made a portfolio. Okay.
+
+246
+00:21:05,460 --> 00:21:06,400
+We gathered some assets.
+
+247
+00:21:06,420 --> 00:21:11,910
+It's like we built some assets here and we gathered XLP, XLU,
+
+248
+00:21:14,050 --> 00:21:26,270
+GLD, SLV, USD CAD and USD Aussie. Okay. So we have five assets or sorry,
+
+249
+00:21:26,390 --> 00:21:29,390
+six assets. And we want to basically say, okay, well,
+
+250
+00:21:29,730 --> 00:21:33,290
+what is the best portfolio to make here? Given these assets we have,
+
+251
+00:21:33,450 --> 00:21:38,810
+what is the best portfolio to make? And how has the return been? If we've,
+
+252
+00:21:38,930 --> 00:21:44,770
+let's say consistently changed our view as the world moved forward. Okay.
+
+253
+00:21:44,830 --> 00:21:46,990
+And I know it's going to be a little bit of a tricky concept,
+
+254
+00:21:47,150 --> 00:21:49,710
+but we're going to dive into that. You guys are going to see the returns.
+
+255
+00:21:49,850 --> 00:21:51,290
+It's very, very interesting to see.
+
+256
+00:22:03,610 --> 00:22:07,570
+Okay. So here we go, guys. So first thing we do is we got the tickers.
+
+257
+00:22:09,830 --> 00:22:11,530
+Now we're going to build out the portfolio.
+
+258
+00:22:22,980 --> 00:22:24,040
+Okay. So here we go.
+
+259
+00:22:29,570 --> 00:22:31,930
+So what we're doing here, guys, first thing we're doing, we're going to,
+
+260
+00:22:31,950 --> 00:22:34,110
+we'll go through this step-by-step so you guys can see what's going on.
+
+261
+00:22:34,510 --> 00:22:37,490
+So first we're saying, we're going to do a long only portfolio first.
+
+262
+00:22:38,640 --> 00:22:41,380
+We're going to say the maximum of our portfolio,
+
+263
+00:22:41,860 --> 00:22:48,580
+we have to basically be 95% to 105% invested. So if we have a portfolio,
+
+264
+00:22:49,480 --> 00:22:51,260
+I'm going to need a marker. Yeah.
+
+265
+00:22:53,320 --> 00:22:54,080
+And an eraser. Yeah.
+
+266
+00:22:56,360 --> 00:23:01,200
+So if we had, if our portfolio is, let's say a hundred, a hundred that,
+
+267
+00:23:01,260 --> 00:23:06,330
+or let's say it's $10,000, or let's say we have 10K. Well,
+
+268
+00:23:06,370 --> 00:23:08,910
+at every given moment, we want to be,
+
+269
+00:23:10,290 --> 00:23:13,970
+we want to have 95% of our portfolio to a hundred percent,
+
+270
+00:23:14,090 --> 00:23:22,070
+105% of our portfolio invested. So that's 9.5K to 10.5K. Okay.
+
+271
+00:23:22,070 --> 00:23:23,050
+That's the first constraint.
+
+272
+00:23:25,810 --> 00:23:26,670
+So far so good.
+
+273
+00:23:30,500 --> 00:23:37,880
+Then our second constraint here is going to be that every single asset that we have
+
+274
+00:23:37,880 --> 00:23:42,410
+there has to have at least a minimum,
+
+275
+00:23:42,530 --> 00:23:48,710
+minimum weighting of 2% and a maximum weighting of 60%. So no portfolio,
+
+276
+00:23:48,870 --> 00:23:53,250
+so no asset in our portfolio can have less than 2% weighting.
+
+277
+00:23:53,830 --> 00:23:56,590
+So if we have 10K, we can't have a portfolio,
+
+278
+00:23:56,610 --> 00:24:00,700
+we can't have any asset that is less than 200. Okay.
+
+279
+00:24:00,760 --> 00:24:03,100
+We have to be invested by more than 200 bucks in each asset.
+
+280
+00:24:03,820 --> 00:24:07,960
+And we can't have an asset that is more than 60% of our portfolio.
+
+281
+00:24:08,940 --> 00:24:14,030
+So as a portfolio manager, I can't allocate 70% to Neil Gang. Okay.
+
+282
+00:24:14,030 --> 00:24:17,370
+It's too much. So 60% is the max I can allocate to Neil Gang.
+
+283
+00:24:17,750 --> 00:24:22,010
+And how'd you pick two in 60? Oh, just arbitrary number. Yeah. In real life,
+
+284
+00:24:22,070 --> 00:24:23,770
+we do some more, more complex. Yeah.
+
+285
+00:24:23,770 --> 00:24:25,730
+There'd be a way to actually optimize that. Yeah.
+
+286
+00:24:28,650 --> 00:24:32,290
+Okay. So here we go. So we got that now. So let's run those.
+
+287
+00:24:36,630 --> 00:24:44,620
+Okay. And now what we're going to optimize for is our Sharpe ratio. Our mean,
+
+288
+00:24:45,080 --> 00:24:47,220
+right? Our risk, our return over our risk.
+
+289
+00:24:49,340 --> 00:24:51,380
+Okay. And now this is a really cool part guys.
+
+290
+00:24:51,540 --> 00:24:55,660
+What this is going to do is it's going to create thousands of portfolios,
+
+291
+00:24:55,840 --> 00:25:01,240
+right? 1% ACB, 99% cash, 98% cash, 2% ACB.
+
+292
+00:25:01,580 --> 00:25:04,540
+It's going to create thousands of these portfolios and we're going to try to find
+
+293
+00:25:04,540 --> 00:25:05,320
+the best one.
+
+294
+00:25:07,910 --> 00:25:09,330
+Okay. So we're just going to take a second here, guys.
+
+295
+00:25:27,420 --> 00:25:31,610
+Bloomy, it was running a lot faster, man. What's going on here? Here we go.
+
+296
+00:25:32,090 --> 00:25:36,270
+So let's extract the weights. Okay. So you can see right now in our portfolio,
+
+297
+00:25:36,450 --> 00:25:44,320
+the optimal weight would be 17% invested in XLP, 2% in XLU, 14% in GLD,
+
+298
+00:25:44,900 --> 00:25:53,510
+2% in silver, 4% in USD CAD and 55% in USD Aussie dollar. Okay.
+
+299
+00:25:54,310 --> 00:25:56,590
+So you can see that right here, right? This is equal weight.
+
+300
+00:25:56,730 --> 00:25:57,890
+The yellow line is equal weight.
+
+301
+00:25:58,130 --> 00:26:03,080
+And you can see we're way overweight on USD Aussie dollar. Or USD CAD.
+
+302
+00:26:03,500 --> 00:26:08,430
+I know this is on USD CAD. So short CAD USD.
+
+303
+00:26:12,720 --> 00:26:16,810
+Okay. So now what we're going to do here, guys,
+
+304
+00:26:16,970 --> 00:26:18,930
+is we're going to do something really cool. Okay.
+
+305
+00:26:19,130 --> 00:26:20,030
+We'll do something really cool.
+
+306
+00:26:22,710 --> 00:26:22,910
+Yeah.
+
+307
+00:26:26,150 --> 00:26:31,500
+So what we're going to do is we're going to go back to 2007.
+
+308
+00:26:34,220 --> 00:26:41,600
+Okay. And what we're going to do is in 2008, okay.
+
+309
+00:26:42,540 --> 00:26:50,010
+We are going to look back on all the data from 2007 to 2008. Okay.
+
+310
+00:26:50,370 --> 00:26:53,490
+And we are going to say, what is the best portfolio?
+
+311
+00:26:54,690 --> 00:26:59,730
+Given these historical returns, what is the best portfolio? Okay.
+
+312
+00:27:00,090 --> 00:27:08,980
+And then from 2008 to 2009, we are going to hold that portfolio. Okay. So 2007,
+
+313
+00:27:09,120 --> 00:27:12,540
+2008, we're going to create the portfolio. In 2008 to 2009,
+
+314
+00:27:12,540 --> 00:27:17,150
+we're going to hold the portfolio. Okay. In 2009,
+
+315
+00:27:17,550 --> 00:27:20,390
+we're going to look back and say, okay, well, what was the data?
+
+316
+00:27:20,510 --> 00:27:22,710
+What was the best data here? Okay.
+
+317
+00:27:22,930 --> 00:27:25,730
+And we're going to make the new portfolio and then we're going to hold that again.
+
+318
+00:27:26,630 --> 00:27:29,430
+Okay. We're going to keep doing that all the way until today.
+
+319
+00:27:32,520 --> 00:27:35,380
+And actually guys, sorry, sorry, my apologies. We're actually doing,
+
+320
+00:27:35,540 --> 00:27:36,880
+we're actually rebalancing quarterly.
+
+321
+00:27:39,820 --> 00:27:44,370
+So right over here. Yeah, thanks man. Thanks dude.
+
+322
+00:27:44,590 --> 00:27:48,690
+Use the thick part of the line. Okay. So right over here, okay.
+
+323
+00:27:48,750 --> 00:27:51,830
+We're going to look back and say, what is the best portfolio?
+
+324
+00:27:52,940 --> 00:27:57,040
+We're going to look back 252 days, 252 business days.
+
+325
+00:27:57,440 --> 00:28:01,520
+And then we're going to move in time one quarter. And then the next quarter,
+
+326
+00:28:01,680 --> 00:28:07,460
+we're going to look back 252 days and we're going to rebuild the new portfolio and
+
+327
+00:28:07,460 --> 00:28:10,200
+hold that for another quarter. Okay. So we're going to rebalance quarterly.
+
+328
+00:28:14,400 --> 00:28:17,280
+So here we go. Okay.
+
+329
+00:28:17,360 --> 00:28:21,600
+So that's the training period and the rolling window and then the rebalance on the
+
+330
+00:28:21,600 --> 00:28:25,220
+quarters. So there's no look ahead bias.
+
+331
+00:28:31,370 --> 00:28:33,070
+And I think you guys are really going to like this next graph.
+
+332
+00:28:35,620 --> 00:28:36,860
+Let's give it a second to load.
+
+333
+00:28:47,840 --> 00:28:48,280
+All right.
+
+334
+00:28:52,490 --> 00:28:55,870
+Okay. Blue, what are you saying blue? What's going on? There's nothing wrong.
+
+335
+00:28:59,910 --> 00:29:02,780
+Oh, oh, thanks dude. Okay.
+
+336
+00:29:02,800 --> 00:29:06,100
+So right now we're going to chart the weights through time.
+
+337
+00:29:06,200 --> 00:29:09,380
+So you guys are really going to like this one. Okay.
+
+338
+00:29:09,850 --> 00:29:13,700
+It's going to be a new graph for a lot of you, but it's a very nice one.
+
+339
+00:29:16,100 --> 00:29:20,990
+Okay. Kind of cool. Kind of cool, right? So what's going on here? Well,
+
+340
+00:29:21,250 --> 00:29:26,270
+the purple area, right? So on the left axis, guys, we have our weights. Okay.
+
+341
+00:29:26,290 --> 00:29:29,450
+So for example, you can see in the beginning of the time, right?
+
+342
+00:29:30,570 --> 00:29:32,070
+Let me blow this up a little bit.
+
+343
+00:29:34,920 --> 00:29:38,100
+So you can see here in the beginning, we weren't usually,
+
+344
+00:29:38,280 --> 00:29:42,360
+we didn't have a lot of USDCAT exposure, right? But you can see as time grew,
+
+345
+00:29:42,900 --> 00:29:47,120
+we started adding more and more USDCAT, right? Imagine guys,
+
+346
+00:29:47,440 --> 00:29:51,740
+this is one period, okay? Each bar is one period of our portfolio.
+
+347
+00:29:53,080 --> 00:29:56,620
+Each section represents how much of our portfolio is in,
+
+348
+00:29:57,180 --> 00:30:01,520
+how much of that asset is in our portfolio. So you can see in this period,
+
+349
+00:30:01,660 --> 00:30:06,710
+the first period, right? We had a lot of XLP. And then in about four quarters,
+
+350
+00:30:06,890 --> 00:30:12,070
+we started to take out XLP and we started shifting into more USDCAT, right?
+
+351
+00:30:12,830 --> 00:30:19,100
+And this is how it changed over time. So very cool graph, right? Very,
+
+352
+00:30:19,180 --> 00:30:19,940
+very cool graph.
+
+353
+00:30:23,280 --> 00:30:24,780
+So let us keep going here.
+
+354
+00:30:27,060 --> 00:30:31,240
+Okay. So now what we're gonna do is we are going to graph this, right?
+
+355
+00:30:31,660 --> 00:30:35,060
+So what we're gonna do is we're gonna create the equal weight portfolio.
+
+356
+00:30:35,340 --> 00:30:39,580
+So if we didn't optimize. So what was this portfolio if we didn't optimize?
+
+357
+00:30:39,700 --> 00:30:42,260
+And then we're gonna say, well, what was our portfolio after optimization?
+
+358
+00:30:45,990 --> 00:30:50,170
+Okay, so pretty cool. Pretty cool. The black line is our strategy,
+
+359
+00:30:50,390 --> 00:30:52,730
+it's our new portfolio, okay?
+
+360
+00:30:52,910 --> 00:30:58,680
+And the red line is if we equal weighted each asset, okay? So you can see,
+
+361
+00:30:59,000 --> 00:31:02,480
+let me just plot the table annualized. You can see,
+
+362
+00:31:03,790 --> 00:31:10,710
+so we can get our Sharpe ratio. Okay, you can see we doubled our Sharpe ratio,
+
+363
+00:31:11,090 --> 00:31:13,870
+right? Right here, annualized Sharpe ratio. You guys can see that.
+
+364
+00:31:14,980 --> 00:31:18,140
+We almost doubled our Sharpe ratio, right?
+
+365
+00:31:18,570 --> 00:31:21,120
+Our adjusted return was about the same,
+
+366
+00:31:21,740 --> 00:31:26,320
+but our risk went down substantially from our optimizations.
+
+367
+00:31:28,990 --> 00:31:34,850
+Okay, so this now is, we're running a Sharpe of 4.2, and this is not bad,
+
+368
+00:31:35,310 --> 00:31:36,590
+right? This is not bad. Now,
+
+369
+00:31:40,260 --> 00:31:41,880
+what we could do, for example,
+
+370
+00:31:42,060 --> 00:31:45,280
+is if we wanted the same risk as the equal weight portfolio,
+
+371
+00:31:45,780 --> 00:31:51,120
+but we could increase this, we could, let's say, go two times our portfolio,
+
+372
+00:31:51,780 --> 00:31:56,900
+right? And we would increase our annualized return, right? So let's say 5%,
+
+373
+00:31:56,900 --> 00:32:03,480
+5.2%, and we would have our annualized entry deviation of 5%, or sorry, of 12%,
+
+374
+00:32:04,340 --> 00:32:10,120
+okay? So far, so good. So we're gonna introduce shorting.
+
+375
+00:32:11,140 --> 00:32:12,320
+Let me know what you guys are thinking.
+
+376
+00:32:17,760 --> 00:32:18,940
+Lumi, so far, so good.
+
+377
+00:32:22,200 --> 00:32:23,340
+For those of you that don't know,
+
+378
+00:32:23,340 --> 00:32:27,440
+Lumi is the York Trading Club portfolio manager,
+
+379
+00:32:27,860 --> 00:32:31,700
+and he does this a lot of the time. So we had a nice call earlier today,
+
+380
+00:32:32,780 --> 00:32:34,500
+and he shared with me some code.
+
+381
+00:32:38,350 --> 00:32:38,790
+Okay,
+
+382
+00:32:41,060 --> 00:32:44,200
+so let us go back here now. And what we're gonna do is,
+
+383
+00:32:44,420 --> 00:32:50,360
+we're gonna introduce shorting, right? And that's one way, guys. So, oh, shit.
+
+384
+00:32:50,480 --> 00:32:52,780
+Remember when we had all the portfolios here? Let me go. Ah, it's okay.
+
+385
+00:32:53,240 --> 00:32:56,780
+Remember when we had all the different assets here? Well,
+
+386
+00:32:56,820 --> 00:33:05,390
+we could actually move our efficient frontier like this by introducing shorting.
+
+387
+00:33:07,200 --> 00:33:08,660
+Okay, so that's what we're gonna do.
+
+388
+00:33:14,420 --> 00:33:17,420
+So Dan's saying, does doubling your risk equal doubling your return?
+
+389
+00:33:21,860 --> 00:33:26,500
+That's a very good point, Dan, and the answer is no. That's a very good point.
+
+390
+00:33:27,140 --> 00:33:32,880
+But it's almost a yes. Okay, it's almost a yes, but the answer is no.
+
+391
+00:33:36,530 --> 00:33:39,770
+Okay, so we're going to introduce shorting.
+
+392
+00:33:46,070 --> 00:33:47,190
+So now with our portfolio,
+
+393
+00:33:47,310 --> 00:33:50,410
+we're gonna say the minimum we can have now is negative 0.6.
+
+394
+00:33:55,370 --> 00:33:56,810
+Pulumi, what did I have here again now?
+
+395
+00:34:00,140 --> 00:34:04,100
+I think we just didn't have anything. Okay, let's do this now.
+
+396
+00:34:06,100 --> 00:34:07,240
+So here we go.
+
+397
+00:34:18,420 --> 00:34:19,600
+Okay, so,
+
+398
+00:34:34,220 --> 00:34:36,020
+hmm, sorry, guys, one second.
+
+399
+00:34:40,430 --> 00:34:42,950
+Oh, man, I should have saved the code. Yo, Pulumi,
+
+400
+00:34:43,030 --> 00:34:44,390
+what did I do differently here now? Oh,
+
+401
+00:34:54,540 --> 00:34:59,110
+there it is, guys. You see that? No one saw a little dot, right?
+
+402
+00:34:59,810 --> 00:35:02,710
+I was telling Sean the other day, I was doing some code. I spent three hours,
+
+403
+00:35:02,750 --> 00:35:05,130
+I was looking, I was like, why the hell is this not working?
+
+404
+00:35:06,010 --> 00:35:11,070
+Turns out I forgot a D. I forgot a D in some word. Today.
+
+405
+00:35:11,550 --> 00:35:14,720
+In 8,000 lines of code. Fuck that.
+
+406
+00:35:17,480 --> 00:35:19,240
+So let's do that again, guys.
+
+407
+00:35:34,250 --> 00:35:35,370
+Let's give that a second to load.
+
+408
+00:35:45,530 --> 00:35:46,650
+Yeah, one little dot.
+
+409
+00:35:48,680 --> 00:35:53,320
+Imagine guys trying to find that in like thousands of lines of code. Like,
+
+410
+00:35:54,380 --> 00:35:58,480
+I'm surprised coders don't have the shortest lifespan. I think they do.
+
+411
+00:35:58,700 --> 00:36:04,080
+I think they do. It's just, it's a relatively new thing, so, you know. Exactly.
+
+412
+00:36:04,820 --> 00:36:09,720
+Just haven't seen it yet. That's a good point. Okay, guys,
+
+413
+00:36:09,760 --> 00:36:13,240
+so look at our new holdings right now, right? We got 56% XLP,
+
+414
+00:36:13,360 --> 00:36:16,800
+and we actually introduced a little bit of leverage, right? 56% XLP,
+
+415
+00:36:17,380 --> 00:36:26,570
+negative 14% XLU. 12% GLD, basically no SLV. USD CAD, short,
+
+416
+00:36:27,130 --> 00:36:31,320
+and long USD Aussie. Now, if we take a look at this super quick, guys,
+
+417
+00:36:31,920 --> 00:36:32,920
+what's happening here, right?
+
+418
+00:36:32,980 --> 00:36:34,860
+The market's basically saying that there's some alpha,
+
+419
+00:36:35,120 --> 00:36:41,920
+or the optimizer is basically saying there's some alpha holding XLP over XLU,
+
+420
+00:36:42,480 --> 00:36:47,840
+right? And once we own gold, well, there's no real point in owning any silver,
+
+421
+00:36:49,430 --> 00:36:51,690
+okay? So that is what this portfolio is telling us.
+
+422
+00:36:53,220 --> 00:36:55,360
+And we can chart the weights, and you guys can see that, right?
+
+423
+00:36:56,690 --> 00:36:58,730
+So let us run this portfolio.
+
+424
+00:37:03,810 --> 00:37:03,910
+Okay.
+
+425
+00:37:09,300 --> 00:37:11,970
+Oh, man. I did something wrong here.
+
+426
+00:37:22,590 --> 00:37:28,260
+Okay, guys, well, basically, oh, man, we did this earlier, too. It was so good.
+
+427
+00:37:29,820 --> 00:37:32,160
+Oh, man. That's a shame.
+
+428
+00:37:34,280 --> 00:37:36,040
+So every time you wanna do something in real time,
+
+429
+00:37:38,180 --> 00:37:39,540
+terminal's a perfect example, guys.
+
+430
+00:37:43,940 --> 00:37:45,060
+Palman, you around?
+
+431
+00:37:48,290 --> 00:37:49,930
+No time for bathroom breaks, dude.
+
+432
+00:37:52,270 --> 00:37:55,350
+So everything looks fine. Yeah, everything does look good. Oh, man,
+
+433
+00:37:55,370 --> 00:37:56,010
+that's such a shame.
+
+434
+00:37:59,370 --> 00:38:04,310
+Okay. Guys, I have to figure that one out. But basically, when we did this,
+
+435
+00:38:04,450 --> 00:38:11,030
+we basically increased our sharp to 0.52, and our return was 0.03.
+
+436
+00:38:11,210 --> 00:38:20,090
+So we were able to increase our total portfolio by improving on our,
+
+437
+00:38:21,590 --> 00:38:25,370
+by adding in shorting to our portfolio, right?
+
+438
+00:38:25,450 --> 00:38:29,390
+And what that also allowed us to do was increase leverage, right?
+
+439
+00:38:29,490 --> 00:38:33,990
+If we're- Try running one more time. Okay. If we're long XLP and short XLU,
+
+440
+00:38:34,170 --> 00:38:36,210
+well, we can kind of increase our leverage.
+
+441
+00:38:50,660 --> 00:38:52,620
+Was it the add constraint, Blumi? I can't remember.
+
+442
+00:38:52,700 --> 00:38:55,960
+Did I have to remove the weight sum constraint?
+
+443
+00:39:07,730 --> 00:39:08,710
+It's saying remove it.
+
+444
+00:39:11,470 --> 00:39:16,100
+Sorry, guys. Give me one second here. We did figure it out earlier today.
+
+445
+00:39:17,220 --> 00:39:19,040
+Here's the code for it. I got the code right here, Blumi.
+
+446
+00:39:19,080 --> 00:39:19,760
+Let's see what we did.
+
+447
+00:39:23,020 --> 00:39:26,020
+No, we had it in there, bud. Nope, no, we didn't.
+
+448
+00:39:29,340 --> 00:39:30,340
+You took out the weight sum.
+
+449
+00:39:32,880 --> 00:39:34,920
+I have a hashtag there.
+
+450
+00:39:39,790 --> 00:39:41,230
+Okay, let's just give it one more shot, guys.
+
+451
+00:39:47,200 --> 00:39:47,520
+Yeah.
+
+452
+00:39:50,260 --> 00:39:51,080
+Yeah, it's a shame.
+
+453
+00:39:53,570 --> 00:39:54,210
+Sorry, dudes.
+
+454
+00:39:59,160 --> 00:40:04,810
+Oh, this is... I mean, this worked. I don't know. I don't think this is...
+
+455
+00:40:05,420 --> 00:40:07,000
+Yeah, I don't think this is ideal.
+
+456
+00:40:07,780 --> 00:40:11,300
+I think there's a little bug that we did on the shorting one. But anyways,
+
+457
+00:40:11,540 --> 00:40:15,320
+let's take a look at this, guys. When we introduce shorting here, right?
+
+458
+00:40:15,800 --> 00:40:16,940
+You can see that.
+
+459
+00:40:17,080 --> 00:40:19,500
+So the black line is our strategy and the red is the equal weight.
+
+460
+00:40:20,100 --> 00:40:23,240
+So you can see that our drawdowns go down significantly, right?
+
+461
+00:40:23,280 --> 00:40:25,020
+Our P&L looks fantastic here.
+
+462
+00:40:26,200 --> 00:40:30,960
+And this is usually what happens when you induce shorting into a portfolio,
+
+463
+00:40:31,120 --> 00:40:37,080
+right? If you think that stock X is gonna outperform stock Y, well,
+
+464
+00:40:37,180 --> 00:40:42,600
+you can get a lot of stock Y and short some stock X and have a really smooth portfolio.
+
+465
+00:40:44,320 --> 00:40:48,040
+So you can see here, right? Our Sharpe ratio increased quite a bit to 0.57.
+
+466
+00:40:48,580 --> 00:40:50,720
+Okay, this is similar to what we got, to what we got for me.
+
+467
+00:40:51,820 --> 00:40:55,780
+So we increased our Sharpe ratio now two and a half times, guys. Right,
+
+468
+00:40:55,840 --> 00:40:59,340
+we went almost two and a half times our previous Sharpe ratio.
+
+469
+00:41:06,770 --> 00:41:09,610
+Dan, I just wanted to go back to one of Dan's point. Dan,
+
+470
+00:41:09,690 --> 00:41:13,710
+the reason why we don't see the efficient frontier go like this and we see it kind
+
+471
+00:41:13,710 --> 00:41:20,710
+of curve off like that, Dan, is because as we increase the risk, like you said,
+
+472
+00:41:20,830 --> 00:41:25,470
+right? It doesn't necessarily, it starts to taper off, right?
+
+473
+00:41:25,510 --> 00:41:27,650
+Because of that leverage factor that you were talking about.
+
+474
+00:41:34,430 --> 00:41:37,270
+Okay, so we'll stop there, guys.
+
+475
+00:41:37,650 --> 00:41:41,070
+That's just an example of how you can optimize a portfolio. I'm not saying,
+
+476
+00:41:41,210 --> 00:41:43,870
+you know, optimize an R, but the whole point here is,
+
+477
+00:41:43,930 --> 00:41:50,490
+is once we can add diversified strategies, diversified assets into a portfolio,
+
+478
+00:41:50,770 --> 00:41:56,610
+well, all of a sudden we can run something now that is, you know,
+
+479
+00:41:56,750 --> 00:42:00,450
+gonna outperform the market, right? On a risk-adjusted basis,
+
+480
+00:42:00,890 --> 00:42:04,550
+which we can get leverage to and increase our total return.
+
+481
+00:42:05,500 --> 00:42:07,300
+That was actually one of Renato's questions was,
+
+482
+00:42:07,300 --> 00:42:11,320
+can we do this with diversified strategies? 100%, right?
+
+483
+00:42:11,360 --> 00:42:16,020
+That's a portfolio manager. A portfolio manager is running multiple strategies.
+
+484
+00:42:16,460 --> 00:42:18,820
+Or if I'm a huge portfolio manager, let's say Goldman,
+
+485
+00:42:19,040 --> 00:42:21,600
+I'm like head of the derivatives desk, right? Well,
+
+486
+00:42:21,620 --> 00:42:26,220
+I got traders under me who are all running their strategies and I'm allocating to
+
+487
+00:42:26,220 --> 00:42:26,360
+them.
+
+488
+00:42:26,480 --> 00:42:30,840
+I'm allocating money to each trader and all their trades are in the global book.
+
+489
+00:42:32,150 --> 00:42:35,790
+And I think that's the best way to do it, right? Super, you know,
+
+490
+00:42:35,790 --> 00:42:41,670
+super simple example is shortfall, right? You got shortfall here and we got,
+
+491
+00:42:41,810 --> 00:42:46,730
+let's say long fall here, right? Well, these are negatively correlated.
+
+492
+00:42:47,980 --> 00:42:51,900
+So if these are both good strategies and they're negatively correlated, well,
+
+493
+00:42:51,940 --> 00:42:53,620
+now our P&L is gonna look a lot smoother.
+
+494
+00:43:00,080 --> 00:43:03,780
+Yeah, if you had a good long fall and a good shortfall strategy, you run both,
+
+495
+00:43:04,140 --> 00:43:07,460
+you weight them appropriately, your P&L doesn't chop around.
+
+496
+00:43:11,920 --> 00:43:15,520
+Jack is saying, so is that the same concept with the leverage strat? No.
+
+497
+00:43:18,080 --> 00:43:23,120
+So a little bit, Jacko, right? You have two portfolios, right?
+
+498
+00:43:23,180 --> 00:43:31,280
+You have ETN one and you have ETN two and both have some negative auto-correlation.
+
+499
+00:43:31,700 --> 00:43:36,950
+And because they're leveraged, they tend to go like this, right?
+
+500
+00:43:38,910 --> 00:43:44,150
+So if you short both of these and these are negative one correlated, well,
+
+501
+00:43:44,250 --> 00:43:51,550
+now your stream is gonna look very smooth on the way down. But as we know,
+
+502
+00:43:54,710 --> 00:44:00,970
+there is some very fat tails for the strategy that don't come around very often.
+
+503
+00:44:01,110 --> 00:44:03,910
+They come around actually very seldomly, but they are there.
+
+504
+00:44:07,800 --> 00:44:12,140
+And Dan says, doesn't Dalio leverage up his all weather fund? I'm sure he does,
+
+505
+00:44:12,540 --> 00:44:17,140
+right? Usually you'll see guys go up to two times leverage, right?
+
+506
+00:44:17,220 --> 00:44:20,220
+So you're running, let's say 10K, Dan, let's say,
+
+507
+00:44:20,420 --> 00:44:26,100
+or let's say they're running $1 billion, okay, at the all weather strategy.
+
+508
+00:44:27,040 --> 00:44:32,900
+Well, their assets under management right now are gonna be 2 billion. Okay,
+
+509
+00:44:32,900 --> 00:44:36,920
+they're gonna control $2 billion worth of assets with a $1 billion portfolio.
+
+510
+00:44:38,530 --> 00:44:40,270
+And they're gonna have multiple, under here,
+
+511
+00:44:40,330 --> 00:44:46,050
+they're gonna have multiple strats or multiple assets and strategies, right?
+
+512
+00:44:46,070 --> 00:44:47,890
+That's gonna increase their Sharpe ratio,
+
+513
+00:44:49,010 --> 00:44:54,210
+which is gonna allow them to leverage, right? You can't leverage ACB,
+
+514
+00:44:56,390 --> 00:45:01,900
+right? You can't leverage this, but you can leverage SPY, right?
+
+515
+00:45:01,960 --> 00:45:06,840
+Because it has a lower return, a lower risk parameter,
+
+516
+00:45:06,920 --> 00:45:08,680
+and you can obviously leverage that.
+
+517
+00:45:15,540 --> 00:45:18,540
+So Dan saying, why does leverage decrease return in ETN strat,
+
+518
+00:45:18,700 --> 00:45:25,000
+but increase return here? Okay, so Dan, it's a really good point. So with the,
+
+519
+00:45:25,140 --> 00:45:32,640
+these ETNs, so these ETNs, Dan, are, they don't have positive expectancy,
+
+520
+00:45:33,420 --> 00:45:39,870
+right? And the reason is this, these things are negatively auto-correlated,
+
+521
+00:45:40,820 --> 00:45:45,120
+and they have negative expectancy, right? So it's, it's,
+
+522
+00:45:47,130 --> 00:45:51,040
+being long has negative expectancy. Right, being long has negative expectancy,
+
+523
+00:45:51,560 --> 00:45:56,110
+but it's not, and like, again, as you can see on this graph here,
+
+524
+00:45:56,210 --> 00:45:59,350
+when we draw the, I think that's actually a really good question, Dan.
+
+525
+00:46:00,520 --> 00:46:02,020
+It's a really, really good question.
+
+526
+00:46:08,310 --> 00:46:11,970
+So remember when we drew that graph, Dan, right?
+
+527
+00:46:13,450 --> 00:46:17,170
+And we said the efficient frontier looks like this,
+
+528
+00:46:19,880 --> 00:46:21,800
+right? It doesn't scale,
+
+529
+00:46:29,020 --> 00:46:33,840
+okay? And that's because of that leverage factor, right? As we,
+
+530
+00:46:34,220 --> 00:46:40,540
+that 10% down is not the same as the 10% up, right? Now,
+
+531
+00:46:40,900 --> 00:46:45,700
+if the ETNs had positive expectancy, right?
+
+532
+00:46:45,760 --> 00:46:48,980
+If the ETNs had a positive expectancy, then it would be,
+
+533
+00:46:49,100 --> 00:46:50,620
+it would make sense to buy them both.
+
+534
+00:46:53,220 --> 00:46:55,720
+Does that make sense, Dan? Right,
+
+535
+00:46:55,760 --> 00:46:57,680
+but because they're both going down like this,
+
+536
+00:47:04,350 --> 00:47:10,120
+we can make money by holding them, right? And it's, it's, you know, like,
+
+537
+00:47:10,480 --> 00:47:16,400
+the way to think about it is, you wouldn't buy 3x ETN1 for the long-term.
+
+538
+00:47:17,020 --> 00:47:18,640
+Right. You wouldn't buy and hold it for the long-term.
+
+539
+00:47:19,180 --> 00:47:24,820
+You wouldn't buy and hold ETN2 for the long-term, right?
+
+540
+00:47:27,540 --> 00:47:30,060
+Actually, okay. Actually, I got a really good way to explain this, Dan.
+
+541
+00:47:31,690 --> 00:47:36,970
+I got a good way to explain this, Dan. You got, you got NASDAQ, okay?
+
+542
+00:47:36,970 --> 00:47:37,850
+You got NASDAQ,
+
+543
+00:47:40,870 --> 00:47:49,340
+that, and you have the leveraged ETF, TQQ, okay? Well, TQQ, right?
+
+544
+00:47:49,480 --> 00:47:53,840
+The ETN actually does really well. It does very, very, very well.
+
+545
+00:47:54,340 --> 00:48:00,700
+And that's because QQQ has a positive expectancy, right?
+
+546
+00:48:00,720 --> 00:48:04,920
+So this is going to do very well. But what about SQQQ,
+
+547
+00:48:07,170 --> 00:48:12,660
+right? Well, this has negative expectancy, okay?
+
+548
+00:48:13,740 --> 00:48:15,760
+And because of the insane leverage,
+
+549
+00:48:21,300 --> 00:48:24,040
+right? And the choppiness, right? The auto-correl,
+
+550
+00:48:24,080 --> 00:48:25,380
+the negative auto-correlation,
+
+551
+00:48:28,230 --> 00:48:32,250
+this strategy should make money. And the actual thing is, Dan, we see NASDAQ,
+
+552
+00:48:32,310 --> 00:48:36,910
+for example, actually trend. We see NASDAQ trend most of the time.
+
+553
+00:48:37,680 --> 00:48:42,360
+So for that reason, this pair right here is not a good pair, usually.
+
+554
+00:48:43,140 --> 00:48:47,610
+This is usually not a good pair to trade. But if we have a pair like,
+
+555
+00:48:47,670 --> 00:48:50,350
+let's say, DGAS and UGAS,
+
+556
+00:48:55,880 --> 00:49:00,900
+where the vol is all over the place, and UNG doesn't move anywhere,
+
+557
+00:49:01,140 --> 00:49:07,640
+it just goes like this, well, now this is gonna play out, okay?
+
+558
+00:49:07,800 --> 00:49:10,900
+But even on a sharp ratio of three, Dan, right? Think about it like this.
+
+559
+00:49:10,940 --> 00:49:14,580
+On a sharp ratio of three, you still can't put your full account on here,
+
+560
+00:49:16,330 --> 00:49:20,760
+because there is a point where you will drop down to almost zero, right?
+
+561
+00:49:20,880 --> 00:49:24,200
+And then what? Then you're never coming back up, no matter how much.
+
+562
+00:49:25,360 --> 00:49:28,700
+So that's why. It's the insane leverage here. Even on a good strategy, Dan,
+
+563
+00:49:29,280 --> 00:49:31,480
+if you had the amount of leverage that these ETNs have,
+
+564
+00:49:31,660 --> 00:49:33,240
+you wouldn't be able to make money.
+
+565
+00:49:42,140 --> 00:49:43,680
+Are we at 155? Okay, so,
+
+566
+00:49:45,900 --> 00:49:51,840
+oh man, these chats are getting so busy now, man. It's good. Yeah, it's good,
+
+567
+00:49:51,880 --> 00:49:52,260
+it's really good.
+
+568
+00:49:55,200 --> 00:50:00,000
+Okay, guys, if you have any questions right now, post them in right now.
+
+569
+00:50:00,060 --> 00:50:04,410
+I'm just gonna be watching the chat. Any questions? So Ko is asking,
+
+570
+00:50:04,570 --> 00:50:08,730
+can we just be short SQQQ and long TQQQ?
+
+571
+00:50:11,170 --> 00:50:19,780
+No, you can't be short SQQ and long TQQQ, right? If, like, TQQ,
+
+572
+00:50:22,110 --> 00:50:25,910
+you make money when it goes up, right? And SQQQ,
+
+573
+00:50:27,600 --> 00:50:37,580
+you lose money when the NASDAQ goes up, right? So,
+
+574
+00:50:37,580 --> 00:50:45,080
+can we just be short?
+
+575
+00:50:53,600 --> 00:50:55,660
+Koa, okay, I don't know why I can't see this right now,
+
+576
+00:50:55,700 --> 00:50:59,300
+but you cannot be long one and short the other. You gotta be short both.
+
+577
+00:51:00,200 --> 00:51:01,300
+Are you exposed to the same thing?
+
+578
+00:51:07,180 --> 00:51:10,140
+Oh, yeah, okay, Tico, sorry, man. I don't know why I couldn't see that there.
+
+579
+00:51:10,420 --> 00:51:14,350
+What happens if NASDAQ goes down? What if NASDAQ goes down, right?
+
+580
+00:51:14,750 --> 00:51:16,010
+You lose on both sides. Oh, you're gonna lose on this,
+
+581
+00:51:16,110 --> 00:51:16,810
+and you're gonna lose on that.
+
+582
+00:51:25,440 --> 00:51:28,720
+So Jack is saying, how do we optimize portfolio with multiple strats? So,
+
+583
+00:51:28,940 --> 00:51:31,060
+obviously, the answer is you have to run it through a computer.
+
+584
+00:51:31,580 --> 00:51:33,420
+You have to pull the data, see what you get, and do it.
+
+585
+00:51:33,540 --> 00:51:35,940
+But there's other ways around that, right? You can also think about, well,
+
+586
+00:51:35,960 --> 00:51:39,500
+what is your strategy, right? That's why we usually break it down to two.
+
+587
+00:51:39,980 --> 00:51:42,820
+Is it a long vol strategy, or is it a short vol strategy?
+
+588
+00:51:43,920 --> 00:51:48,120
+If it's a long vol strategy, right? And you can look at your P&L, right?
+
+589
+00:51:48,160 --> 00:51:51,420
+You can say, okay, well, my expected return from this long vol strategy is,
+
+590
+00:51:51,520 --> 00:51:53,100
+let's say, 10%, right?
+
+591
+00:51:53,760 --> 00:51:56,740
+And it's negatively correlated with my short vol strategy that's making,
+
+592
+00:51:56,740 --> 00:51:58,660
+let's say, 50%. Well,
+
+593
+00:51:58,700 --> 00:52:01,300
+maybe there's a weight I can do here where I'm probably gonna be long,
+
+594
+00:52:01,840 --> 00:52:03,200
+you know, most of the short vol strat,
+
+595
+00:52:03,600 --> 00:52:07,300
+and then I'm gonna have some of that hedge to back it up, right, example.
+
+596
+00:52:07,780 --> 00:52:09,100
+Buying equity, buying,
+
+597
+00:52:09,220 --> 00:52:11,940
+and then buying deep out-of-the-money puts with a very small percentage of your
+
+598
+00:52:11,940 --> 00:52:13,560
+account just to give you that kicker.
+
+599
+00:52:20,900 --> 00:52:23,140
+So Hugh just saying, what is expectancy?
+
+600
+00:52:23,620 --> 00:52:27,620
+Expectancy is basically what you expect to make, right? What do you expect?
+
+601
+00:52:27,700 --> 00:52:30,600
+What's your expected value in the trade, right?
+
+602
+00:52:30,620 --> 00:52:32,020
+It's like when you go to a blackjack table,
+
+603
+00:52:32,020 --> 00:52:36,800
+your expectancy is negative two cents per bet. Every time I bet on average,
+
+604
+00:52:36,840 --> 00:52:41,570
+every time I bet a dollar, on average, I'm gonna lose two cents, okay?
+
+605
+00:52:41,710 --> 00:52:43,150
+That's what expectancy is.
+
+606
+00:52:54,150 --> 00:52:58,690
+If both go down, Jed says we drink. Yeah. That's it,
+
+607
+00:52:58,810 --> 00:53:02,370
+and we got a little mattress for you here, Tico, as well. Exactly.
+
+608
+00:53:06,090 --> 00:53:08,170
+So with that said, guys, it's nine o'clock.

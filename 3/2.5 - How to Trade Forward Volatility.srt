@@ -1,0 +1,1811 @@
+1
+00:00:02,160 --> 00:00:05,640
+All right. Okay, guys. So in this lab,
+
+2
+00:00:05,660 --> 00:00:09,460
+we're going to be talking a little bit about forward vols, where to use it,
+
+3
+00:00:09,680 --> 00:00:13,760
+and basically what structures we need to use to take advantage of it.
+
+4
+00:00:14,020 --> 00:00:18,780
+So we've done quite a few lives on what forward volatility is,
+
+5
+00:00:19,340 --> 00:00:21,700
+and you can check out the archive for that.
+
+6
+00:00:21,860 --> 00:00:26,260
+But just we'll give a quick summary of what forward volatility is.
+
+7
+00:00:27,060 --> 00:00:31,200
+And to do that, I'm going to share my screen. Let me make you host.
+
+8
+00:00:34,260 --> 00:00:36,320
+Okay. Go for it. All right.
+
+9
+00:00:42,700 --> 00:00:46,800
+All right. So what we're going to look at here, guys, is two volatilities.
+
+10
+00:00:46,900 --> 00:00:50,420
+Okay. We're going to look at, actually, we're going to go to block.
+
+11
+00:00:54,600 --> 00:00:56,540
+Okay. So we're going to look at this screen right here,
+
+12
+00:00:56,840 --> 00:01:00,420
+where all the implied volatilities are. Okay.
+
+13
+00:01:01,360 --> 00:01:04,240
+And what I graphed here is two volatilities.
+
+14
+00:01:04,600 --> 00:01:06,960
+One is the implied volatility of the 30-day,
+
+15
+00:01:07,100 --> 00:01:10,280
+and the other is the implied volatility of the 90-day.
+
+16
+00:01:11,010 --> 00:01:12,310
+So if we go to thinkorswim,
+
+17
+00:01:17,860 --> 00:01:23,290
+we have the implied volatility of, let's say, the 30-day, right?
+
+18
+00:01:23,530 --> 00:01:26,990
+And we have the implied volatility, in this case, of the 156,
+
+19
+00:01:27,050 --> 00:01:28,430
+156 days to expiration.
+
+20
+00:01:30,840 --> 00:01:33,080
+Now these are just the regular implied volatilities.
+
+21
+00:01:34,840 --> 00:01:41,520
+But what the forward volatility is, is the volatility between two expirations.
+
+22
+00:01:44,040 --> 00:01:47,280
+Jordan, maybe you should share your whiteboard here and draw it out. Yeah.
+
+23
+00:01:47,280 --> 00:01:49,820
+And also, guys, I want to keep this one a little bit exciting.
+
+24
+00:01:49,980 --> 00:01:53,240
+I feel like sometimes when we talk too much,
+
+25
+00:01:53,340 --> 00:01:57,060
+when I use the word volatility too much, people start to fall asleep.
+
+26
+00:01:57,460 --> 00:02:00,680
+So I want to keep it exciting. Okay. So you guys,
+
+27
+00:02:01,020 --> 00:02:05,560
+let's try to keep it pumped up here. So share your whiteboard.
+
+28
+00:02:05,740 --> 00:02:08,320
+And the reason that I actually, maybe not anyone else does,
+
+29
+00:02:08,340 --> 00:02:12,400
+but I think this is really exciting because you think you have it all figured out,
+
+30
+00:02:12,400 --> 00:02:14,340
+and then this whole new element comes into play. And you're like,
+
+31
+00:02:14,380 --> 00:02:19,330
+wait a minute. I'd never even thought of this before. You know what I mean,
+
+32
+00:02:19,370 --> 00:02:24,570
+Jordan? Yeah. And to keep it more motivating, this is rarely modeled.
+
+33
+00:02:24,910 --> 00:02:27,470
+So meaning there's going to be lots of alpha here, right?
+
+34
+00:02:27,470 --> 00:02:31,610
+I was telling a story the other day about how I picked up these calendars for five
+
+35
+00:02:31,610 --> 00:02:37,470
+cents, and they're worth a dollar within a couple of weeks, right?
+
+36
+00:02:37,590 --> 00:02:42,770
+So these things are, they're available, and it's because it's rarely modeled.
+
+37
+00:02:42,770 --> 00:02:49,500
+And in fact, Margin, one of the guys in our group, put on a trade today, WSM,
+
+38
+00:02:49,820 --> 00:02:54,560
+forward vol trade, and the number of returns he's made on that,
+
+39
+00:02:55,020 --> 00:03:00,420
+he's closing it out tomorrow, but it's gigantic. Okay. It's gigantic.
+
+40
+00:03:00,640 --> 00:03:03,020
+And I'm a little upset he's not on the live today,
+
+41
+00:03:03,100 --> 00:03:06,000
+but you guys can reach out to him, ask him about it. Hopefully he'll post it.
+
+42
+00:03:08,410 --> 00:03:13,000
+Yeah. It's a forward vol play, and it's going to earn quite a bit. Okay.
+
+43
+00:03:13,000 --> 00:03:15,940
+All right. Jordan, quickly here, let's talk about what,
+
+44
+00:03:16,100 --> 00:03:18,460
+like draw it out so that everyone understands what forward vol is,
+
+45
+00:03:18,480 --> 00:03:20,160
+and then let's hop right into how we trade it.
+
+46
+00:03:20,220 --> 00:03:23,400
+Because we have a few lines where we break down exactly how it works,
+
+47
+00:03:23,460 --> 00:03:26,400
+and we talk about time, we talk about forward vol,
+
+48
+00:03:26,680 --> 00:03:30,440
+we talked a little bit about calendars, but let's turn it into strategy. Yeah.
+
+49
+00:03:30,780 --> 00:03:35,540
+Love it. Love it. Love it. All right. So here we go. Here's zero days.
+
+50
+00:03:35,700 --> 00:03:38,180
+Here's the 30 day option. Here's the 90 day option.
+
+51
+00:03:39,100 --> 00:03:44,020
+This option right here might have, let's say a volatility of 50%. Okay.
+
+52
+00:03:44,400 --> 00:03:47,700
+And this option right here is going to have, let's say a volatility of 40%.
+
+53
+00:03:47,700 --> 00:03:51,500
+I don't know. Okay. Two arbitrary numbers.
+
+54
+00:03:53,910 --> 00:03:55,690
+Maybe draw out the like lines for them.
+
+55
+00:03:55,730 --> 00:04:00,960
+So like show like to the 50 and then to the 40 and then do the thing. Yeah.
+
+56
+00:04:01,420 --> 00:04:03,140
+So this option is going to see,
+
+57
+00:04:03,440 --> 00:04:06,720
+this 30 day option is going to see like the volatility like this. Okay.
+
+58
+00:04:10,110 --> 00:04:13,780
+This option right here is going to see 40 vol, not 50.
+
+59
+00:04:13,880 --> 00:04:20,380
+So it might see something a little bit smaller over on this side, but together,
+
+60
+00:04:20,740 --> 00:04:26,820
+okay, 50. And let's say this is 30, 30 vol together.
+
+61
+00:04:26,820 --> 00:04:33,840
+It's going to be 40 volatility. And this 30 right here is the forward vol.
+
+62
+00:04:36,290 --> 00:04:39,450
+Okay. It's the volatility between the expirations.
+
+63
+00:04:39,830 --> 00:04:43,070
+And you can't just see that looking at your brokerage or anything like that.
+
+64
+00:04:43,070 --> 00:04:46,130
+It's sort of behind the scenes, right?
+
+65
+00:04:46,450 --> 00:04:48,690
+You have to infer it from what you're seeing.
+
+66
+00:04:50,480 --> 00:04:53,920
+And of course we need to use a little bit of math for that,
+
+67
+00:04:54,000 --> 00:04:54,920
+but don't worry guys,
+
+68
+00:04:54,920 --> 00:04:57,780
+we have a little special tool that you guys can take advantage of.
+
+69
+00:04:58,080 --> 00:05:02,300
+This little thing called the terminal. The terminal. Oh, you spoiled it, man.
+
+70
+00:05:02,320 --> 00:05:07,610
+Why? Why did you spoil that? It was the closing remarks. Okay.
+
+71
+00:05:09,530 --> 00:05:14,230
+So what we're going to do now is we're going to go look at the terminal. Okay.
+
+72
+00:05:14,230 --> 00:05:16,370
+And we're going to talk about how we make money, all that stuff, guys,
+
+73
+00:05:16,410 --> 00:05:18,410
+but we really need to understand what this volatility is.
+
+74
+00:05:24,430 --> 00:05:27,950
+Okay. So we go to the terminal. Okay. So let's take a look here.
+
+75
+00:05:28,620 --> 00:05:33,560
+We see implied volatility 90 in red and in green, we see implied volatility 30.
+
+76
+00:05:33,840 --> 00:05:38,780
+Now when I look at implied volatility 90 here, I say, wow, that's pricey. Wow.
+
+77
+00:05:38,800 --> 00:05:43,460
+That's pricey. But it's not like it's at its highs.
+
+78
+00:05:43,520 --> 00:05:45,100
+It's not like unbelievably pricey,
+
+79
+00:05:45,160 --> 00:05:50,100
+but look what happens when I look at the forward vol 90 30, right? This is,
+
+80
+00:05:50,160 --> 00:05:52,780
+this is us finding our edges, right?
+
+81
+00:05:52,800 --> 00:05:57,100
+We're looking at the world through a different lens than everyone else.
+
+82
+00:05:57,360 --> 00:06:05,430
+Look at this. Here's the forward vol 30 90. You can see it's at extreme highs,
+
+83
+00:06:05,710 --> 00:06:09,650
+but it's never even been close to this high before. Right.
+
+84
+00:06:09,930 --> 00:06:13,390
+So these are the kind of, you know,
+
+85
+00:06:13,570 --> 00:06:18,350
+hidden trades that we can kind of find out there in the wild.
+
+86
+00:06:18,350 --> 00:06:20,310
+And we're going to do a whole bunch of examples here.
+
+87
+00:06:20,310 --> 00:06:24,010
+What does it mean that the forward volatility is high?
+
+88
+00:06:24,880 --> 00:06:30,970
+So what it means is that if we're looking here at the forward 30 90, okay.
+
+89
+00:06:31,150 --> 00:06:34,730
+What this tells us is, so this is saying 93 vol.
+
+90
+00:06:35,480 --> 00:06:41,320
+So what that's telling us is once 30 days goes, right? Once we,
+
+91
+00:06:41,480 --> 00:06:47,560
+once the 30 day options expire, what will those 90 day options be? Okay.
+
+92
+00:06:47,600 --> 00:06:52,020
+Once the 30 day options expires, what will those 90 day options implied vol be?
+
+93
+00:06:52,020 --> 00:06:57,380
+And this is saying that it's going to be 93. Now we might say, well,
+
+94
+00:06:57,500 --> 00:07:00,860
+I don't think that's the case. Once these 30 day options expire,
+
+95
+00:07:01,280 --> 00:07:06,410
+it's these options are actually going to be worth 75. And if that's the case,
+
+96
+00:07:06,710 --> 00:07:07,070
+well,
+
+97
+00:07:07,170 --> 00:07:11,610
+this is super expensive and you could sell this forward vol by selling a calendar
+
+98
+00:07:11,610 --> 00:07:15,500
+spread. So before we get there, Jordan, maybe like a way to think about it is,
+
+99
+00:07:15,520 --> 00:07:18,600
+um, imagine we're looking at, uh,
+
+100
+00:07:19,240 --> 00:07:27,310
+the forward vol between the 10 day and 20 day option. Okay. And we see that,
+
+101
+00:07:27,310 --> 00:07:32,200
+uh, you know, the, the forward vol between them is really high,
+
+102
+00:07:32,230 --> 00:07:34,850
+but we look at the T the difference between the two.
+
+103
+00:07:34,910 --> 00:07:38,430
+We look at everything happening around the stock and we see that there's nothing,
+
+104
+00:07:38,450 --> 00:07:42,290
+there's no real, like, there's no difference between these two. Like, uh,
+
+105
+00:07:42,290 --> 00:07:43,930
+there's no event in the back.
+
+106
+00:07:43,990 --> 00:07:46,430
+There's no event a week and a half or two weeks from now,
+
+107
+00:07:46,610 --> 00:07:49,550
+what is driving all this really high vol, right?
+
+108
+00:07:50,360 --> 00:07:51,640
+Unless we come to the conclusion that it's,
+
+109
+00:07:51,660 --> 00:07:54,040
+it's like people bidding up the two week, right?
+
+110
+00:07:54,040 --> 00:07:58,590
+It's all the volume on the monthly or whatever we come up with. And well,
+
+111
+00:07:58,650 --> 00:07:59,230
+now we can,
+
+112
+00:07:59,330 --> 00:08:03,810
+we can actually see what's being priced into that back month more than that front
+
+113
+00:08:03,810 --> 00:08:08,460
+month or front week. And we can actually make a trade out of it. Right?
+
+114
+00:08:08,480 --> 00:08:11,180
+So when it's high like that, what criteria,
+
+115
+00:08:11,180 --> 00:08:12,500
+before we jump into the trade Jordan,
+
+116
+00:08:12,940 --> 00:08:18,480
+if let's build a strategy out of trading high forward volatility, what, what,
+
+117
+00:08:18,480 --> 00:08:22,160
+what, what helps us convert it from it being just high to being expensive?
+
+118
+00:08:23,540 --> 00:08:28,960
+Yeah. Yeah. That's really a question. Um, and here would be the answer.
+
+119
+00:08:29,040 --> 00:08:32,380
+So imagine we're looking at this Volco. Okay.
+
+120
+00:08:32,380 --> 00:08:34,160
+And we're going to go over a couple of examples, guys,
+
+121
+00:08:34,160 --> 00:08:37,000
+where you guys are really going to paint the pitch really and paint the picture.
+
+122
+00:08:39,260 --> 00:08:44,400
+The forward vol here. Okay. Imagine forward vol was 150.
+
+123
+00:08:46,550 --> 00:08:49,920
+Well, you clearly want to be a seller of that, right?
+
+124
+00:08:49,920 --> 00:08:53,160
+So what you you're basically saying, right. In 30 days,
+
+125
+00:08:53,200 --> 00:08:56,880
+what is this vol going to be? And we can look at, let's say the Volco and say,
+
+126
+00:08:56,940 --> 00:09:02,380
+okay, well, if in 30 days, the 90 day options are going to be one 50. Well,
+
+127
+00:09:02,400 --> 00:09:06,350
+that's never going to be that. That was never seen before. Right.
+
+128
+00:09:06,430 --> 00:09:09,430
+I've never seen something that high before, or the market's never seen.
+
+129
+00:09:09,530 --> 00:09:11,800
+That's probably too expensive. Right.
+
+130
+00:09:11,920 --> 00:09:15,460
+An example with one that I was looking at was that, um,
+
+131
+00:09:15,720 --> 00:09:20,000
+the vol was actually 12. The forward vol was 12,
+
+132
+00:09:20,120 --> 00:09:28,990
+but implied vol has never seen below 35. Okay. So let's on the flip side. Okay.
+
+133
+00:09:29,030 --> 00:09:37,480
+On the flip side, what if forward vol was 25? Well, that's extremely low,
+
+134
+00:09:37,640 --> 00:09:40,860
+right? Considering where, where realized vol is right now.
+
+135
+00:09:41,800 --> 00:09:43,020
+So you're still thinking, well,
+
+136
+00:09:43,400 --> 00:09:47,580
+what would make this forward vol cheap versus expensive, right?
+
+137
+00:09:47,620 --> 00:09:48,620
+Just like implied volatility.
+
+138
+00:09:48,680 --> 00:09:51,080
+What would make this implied vol cheap versus expensive?
+
+139
+00:09:51,680 --> 00:09:58,030
+You're just trading a different volatility. Okay. Does that,
+
+140
+00:09:59,380 --> 00:10:05,830
+did that make sense? Let's do an example. Let's do an example here, guys.
+
+141
+00:10:06,430 --> 00:10:07,950
+We can also do more examples.
+
+142
+00:10:07,950 --> 00:10:12,120
+I can start doing them on some of the morning lives as well. Okay. Okay.
+
+143
+00:10:12,140 --> 00:10:15,640
+I like that. Um, let's do, okay. You know what? Well, let's look at,
+
+144
+00:10:15,720 --> 00:10:20,750
+take a look at the trade, um, that margin did today. Okay.
+
+145
+00:10:21,390 --> 00:10:25,740
+So we'll take a look at the trade margin did today. So, um, oh,
+
+146
+00:10:26,140 --> 00:10:29,600
+they are so bad after hours here. Let's do something like, uh,
+
+147
+00:10:29,600 --> 00:10:31,160
+who's got a stock. Who's got a stock.
+
+148
+00:10:31,220 --> 00:10:35,060
+They want us to take a look at their forward vols. Who's got it.
+
+149
+00:10:38,290 --> 00:10:42,780
+It's first come first serve ride. Oh, this better be liquid.
+
+150
+00:10:43,720 --> 00:10:46,590
+I'm going to lose it. Okay. Perfect.
+
+151
+00:10:48,740 --> 00:10:49,440
+Okay. Perfect.
+
+152
+00:10:51,680 --> 00:10:55,740
+So here we go. Oh, is this thing moving after hours?
+
+153
+00:10:57,890 --> 00:11:02,010
+Oh, it did. Okay. Can we get a stock that, uh, you know what here,
+
+154
+00:11:02,010 --> 00:11:04,150
+I'll do the analyze, think back feature that way.
+
+155
+00:11:04,210 --> 00:11:07,740
+Everything is going to work out. Good. I mean, you can't analyze the trade.
+
+156
+00:11:07,740 --> 00:11:14,640
+If you do that. All right. Just do Neo Rob. Sorry. Okay. Neo, Neo. Yeah,
+
+157
+00:11:14,780 --> 00:11:15,420
+I guess.
+
+158
+00:11:21,140 --> 00:11:23,660
+Um, okay. You know what, Rob? Hold on. Okay. Actually, Sean,
+
+159
+00:11:23,700 --> 00:11:25,300
+we're actually gonna, we're actually gonna do right here.
+
+160
+00:11:25,320 --> 00:11:29,500
+We're going to do right here. I think it's a good one to do, but, um,
+
+161
+00:11:30,040 --> 00:11:31,780
+and then we'll, we'll do Neo afterwards. We'll get,
+
+162
+00:11:31,780 --> 00:11:34,660
+we'll get two examples in here. So, uh, ride.
+
+163
+00:11:37,690 --> 00:11:49,470
+Let's take a look here. Rob implied vols, uh, was 185%. Okay. For March 19th,
+
+164
+00:11:49,470 --> 00:11:55,140
+they had earnings. So, you know, 185% vol there. Now let's look at,
+
+165
+00:11:55,260 --> 00:12:01,450
+let's say the April. Okay. April is 141. Okay. And that's,
+
+166
+00:12:01,530 --> 00:12:10,390
+and that is 31 days out. Okay. So let's do that. 1.85 for the first month.
+
+167
+00:12:11,020 --> 00:12:14,760
+Okay. Volatility. And what did we say the other one was?
+
+168
+00:12:17,300 --> 00:12:17,900
+140.
+
+169
+00:12:20,910 --> 00:12:26,950
+Okay. 140. 140, three and 31. Okay. Let's take a look.
+
+170
+00:12:27,010 --> 00:12:32,720
+Let's see what the output is. The output is 134 volatility.
+
+171
+00:12:33,220 --> 00:12:37,960
+So what that's telling us is once that expiration is gone. Okay.
+
+172
+00:12:39,890 --> 00:12:43,240
+Once this is gone. Once March 19th is gone.
+
+173
+00:12:43,480 --> 00:12:46,640
+This volatility here is going to be 134%.
+
+174
+00:12:46,640 --> 00:12:49,460
+So after the earnings is gone in three days,
+
+175
+00:12:50,130 --> 00:12:56,030
+what is this April 16 volatility going to be? And the market saying it's 134%.
+
+176
+00:12:57,070 --> 00:13:00,050
+Now let's go over here. To the terminal. Let's type in ride.
+
+177
+00:13:05,540 --> 00:13:08,440
+134%. Rob, what were like, what do you think about that?
+
+178
+00:13:08,720 --> 00:13:12,640
+What do you think about the 30 day options right here? Okay.
+
+179
+00:13:13,280 --> 00:13:17,360
+Going to 134 after the earnings event, is that cheaper expensive too?
+
+180
+00:13:17,480 --> 00:13:19,040
+Maybe it's nothing. What do you think about it?
+
+181
+00:13:28,670 --> 00:13:32,940
+What do you guys think? Cheaper expensive. 134.
+
+182
+00:13:36,990 --> 00:13:41,870
+Co-hosting cheap. Co-hosting cheap. Cool. That's all the way up here.
+
+183
+00:13:42,330 --> 00:13:44,930
+I looked for a little bit on the pricey side.
+
+184
+00:13:49,670 --> 00:13:56,030
+Jared. Yeah. What's yours? Pricey. Yeah. It's a little bit pricey, right? Well,
+
+185
+00:13:56,030 --> 00:13:59,590
+it's not like, uh, actually it does look a little pricey. Right.
+
+186
+00:14:00,010 --> 00:14:01,970
+And so we might think that that's expensive.
+
+187
+00:14:02,450 --> 00:14:06,610
+And we'd want to be a seller forward ball, but take a look at this guys. Okay.
+
+188
+00:14:08,090 --> 00:14:16,740
+Imagine that that April contract had an implied volatility of 100 instead of 1.4.
+
+189
+00:14:17,300 --> 00:14:24,760
+It had a volatility of 100. Well, now the forward vol would be 86.
+
+190
+00:14:26,850 --> 00:14:29,670
+Okay. The forward vol would be 86. Now, when we look at this,
+
+191
+00:14:30,950 --> 00:14:32,510
+is 86 cheaper expensive?
+
+192
+00:14:35,130 --> 00:14:41,000
+What do you guys think is 86 cheaper expensive? Cheap. It's super cheap.
+
+193
+00:14:41,160 --> 00:14:44,860
+It's super. It's in fact, it's never been below 95 before.
+
+194
+00:14:46,340 --> 00:14:52,040
+So we could lock that in. Right. We could lock in that 86 of all, uh,
+
+195
+00:14:52,040 --> 00:15:00,160
+by trading a calendar spread. Okay. We could do that by let's say selling this.
+
+196
+00:15:00,760 --> 00:15:07,460
+Okay. Selling the March and buying the April. And that's going to lock into 86.
+
+197
+00:15:07,640 --> 00:15:10,340
+And what we're actually going to find is tomorrow.
+
+198
+00:15:11,660 --> 00:15:14,790
+So the market's not going to price that 86 of all. Okay.
+
+199
+00:15:14,790 --> 00:15:16,450
+The market's not going to, well,
+
+200
+00:15:16,450 --> 00:15:19,170
+you're not going to wake up and see the back at 86. Instead.
+
+201
+00:15:19,350 --> 00:15:23,250
+What are you going to see happen? What do you guys think?
+
+202
+00:15:23,710 --> 00:15:30,200
+So today we're going to say month one. Is one 81.85. Month two is equal to one.
+
+203
+00:15:32,740 --> 00:15:38,820
+Is month. Tomorrow is month two going to equal to. 86 to 0.86.
+
+204
+00:15:40,130 --> 00:15:41,170
+What do you guys think?
+
+205
+00:15:46,170 --> 00:15:50,030
+Jared's saying no. No. How come Jared? Well, what's your opinion?
+
+206
+00:15:50,170 --> 00:15:51,770
+How come you don't think it's going to go to 86?
+
+207
+00:15:54,170 --> 00:15:58,560
+Blessing saying not yet. Okay. Blessing saying not yet.
+
+208
+00:16:01,090 --> 00:16:04,110
+So we got a little bit of a little bit of batting in the heads here.
+
+209
+00:16:12,730 --> 00:16:15,170
+What are you guys thinking? What's going through that head?
+
+210
+00:16:15,450 --> 00:16:19,890
+Words that each day and then fall off after the front month expires.
+
+211
+00:16:20,230 --> 00:16:23,990
+I feel like, I feel like red posted that one. Was that from red? No,
+
+212
+00:16:24,030 --> 00:16:27,670
+that was from Jared. Okay. Okay. Say it again.
+
+213
+00:16:28,840 --> 00:16:34,300
+It will move towards that each day and then fall off after the front month expires.
+
+214
+00:16:36,410 --> 00:16:37,930
+Okay. So.
+
+215
+00:16:39,240 --> 00:16:42,260
+What's what's actually going to happen here is after the earnings event,
+
+216
+00:16:42,380 --> 00:16:44,400
+this is going to drop off. Right.
+
+217
+00:16:44,460 --> 00:16:48,570
+So M one is going to drop off to maybe let's say a hundred ball. Right.
+
+218
+00:16:49,230 --> 00:16:50,110
+Earnings events gone.
+
+219
+00:16:50,350 --> 00:16:54,010
+But what we're actually going to see in month two is it's not going to change.
+
+220
+00:16:55,370 --> 00:17:01,050
+It's going to stay at 100. Because. Remember if month two went to 86.
+
+221
+00:17:03,200 --> 00:17:04,300
+Everybody would buy it.
+
+222
+00:17:05,180 --> 00:17:08,140
+It's been the it's it's 10 points lower than it's ever been.
+
+223
+00:17:08,170 --> 00:17:13,420
+So month two is never going to see 86. And that's the forward ball.
+
+224
+00:17:13,660 --> 00:17:17,770
+It's because this is so high. Right. The front is so high.
+
+225
+00:17:18,010 --> 00:17:19,150
+Relative to the back.
+
+226
+00:17:19,840 --> 00:17:24,460
+That it's making this illusion that the market thinks that after the event,
+
+227
+00:17:24,500 --> 00:17:29,540
+it's going to be 86. But it's not right. Imagine for example,
+
+228
+00:17:29,680 --> 00:17:34,830
+we'll do one more example here. Imagine this. Was two 20.
+
+229
+00:17:36,010 --> 00:17:42,070
+Or let's go even higher. Three 20. Would we ever see volatility of 10%?
+
+230
+00:17:44,990 --> 00:17:49,080
+Right. Would we ever see a volatility after that expires of 10%? Never.
+
+231
+00:17:50,500 --> 00:17:54,200
+We would never see it. And that is. It's just a forward ball.
+
+232
+00:17:54,400 --> 00:17:57,260
+It's the market saying, Hey, I think that given the,
+
+233
+00:17:57,400 --> 00:18:00,320
+given these two expirations. Board ball is going to be 86.
+
+234
+00:18:00,900 --> 00:18:05,620
+But we can look at that and say, there's no way. Right. And by,
+
+235
+00:18:05,940 --> 00:18:10,420
+by buying the back and selling the front. We can capture that spread. Right.
+
+236
+00:18:12,510 --> 00:18:15,710
+So we'll do Neo where we can actually analyze the trade.
+
+237
+00:18:16,090 --> 00:18:18,870
+And I think this is going to. Solidify it for everybody.
+
+238
+00:18:23,520 --> 00:18:24,800
+So let's take a look at Neo.
+
+239
+00:18:27,610 --> 00:18:33,490
+And we're going to do instead of. Instead of March 19. We're going to do.
+
+240
+00:18:33,970 --> 00:18:40,120
+April. And may. Yeah, we're going to do it. Let me see if it's.
+
+241
+00:18:42,790 --> 00:18:44,810
+Okay. You know what? We're sorry, buddy.
+
+242
+00:18:44,930 --> 00:18:47,830
+We're not going to do Neo because the vols aren't different enough.
+
+243
+00:18:47,830 --> 00:18:57,880
+If the vols are the same, right. If you have, let's say. 0.85. And 0.85. Right.
+
+244
+00:18:58,260 --> 00:19:00,300
+Well, the forward ball is going to be 0.85.
+
+245
+00:19:01,580 --> 00:19:06,200
+So we can tell you that's a little bit different. What's that buddy. Game stop.
+
+246
+00:19:06,480 --> 00:19:08,440
+That's a good one. Game stop.
+
+247
+00:19:12,520 --> 00:19:13,800
+Okay. That's perfect.
+
+248
+00:19:20,410 --> 00:19:22,470
+So let's take a look here. Let's do.
+
+249
+00:19:34,820 --> 00:19:35,940
+Okay. Let's do this.
+
+250
+00:19:45,190 --> 00:19:50,300
+Okay. We're going to do the forward vols between. April and July. Okay.
+
+251
+00:19:50,300 --> 00:19:54,610
+So three, three, seven. Let's do this.
+
+252
+00:19:57,780 --> 00:19:59,080
+Three. We'll say four.
+
+253
+00:20:02,840 --> 00:20:03,400
+And.
+
+254
+00:20:06,960 --> 00:20:09,700
+Two four. So three. Four two. Four.
+
+255
+00:20:15,840 --> 00:20:20,530
+And that's three days. And I believe. Sorry, 31 days. And.
+
+256
+00:20:30,380 --> 00:20:38,320
+Okay. So the forward volatility. Is 195%. So after in 30 days, guys. Okay.
+
+257
+00:20:38,400 --> 00:20:43,170
+In 30 days. What's the market is saying is. The volatility for July.
+
+258
+00:20:43,170 --> 00:20:48,140
+Is going to be 190%. Okay. In 30 days.
+
+259
+00:20:48,480 --> 00:20:53,800
+The volatility for this July contract is going to be a hundred. And. 90%.
+
+260
+00:20:53,800 --> 00:20:58,320
+If it's larger than 190%. And you're long. These you're going to make money.
+
+261
+00:20:58,820 --> 00:21:02,400
+And if it's less. And you're in your short fees, you're going to make money.
+
+262
+00:21:03,560 --> 00:21:08,370
+So let, let us take a look at this trade. So first off,
+
+263
+00:21:08,410 --> 00:21:10,350
+what do you guys think about that? 190 Vol.
+
+264
+00:21:17,980 --> 00:21:19,480
+190 Vol. Any opinions?
+
+265
+00:21:24,550 --> 00:21:32,540
+Steve says it seems fair. Steven, man. We have to live a little man. Come on.
+
+266
+00:21:32,600 --> 00:21:36,640
+Let's live a little. Is it under overpriced? What do you think?
+
+267
+00:21:40,820 --> 00:21:45,680
+Under or overpriced. Let's take a look. Jimmy. Okay.
+
+268
+00:21:46,240 --> 00:21:50,480
+This is a 200 line is right around here. Just above the third quantile.
+
+269
+00:21:53,610 --> 00:21:57,370
+Okay. Let's see what realize vol is. Realize vol is about.
+
+270
+00:21:57,710 --> 00:21:59,970
+About three 80 right now. Okay.
+
+271
+00:22:05,450 --> 00:22:08,330
+What do you guys think? 190 Vol cheaper, expensive.
+
+272
+00:22:12,330 --> 00:22:16,520
+Here is the historical 90 day implied volatility. Okay.
+
+273
+00:22:16,520 --> 00:22:18,100
+So one 90 is right around here.
+
+274
+00:22:23,470 --> 00:22:27,480
+Jared saying cheap. Okay. Perfect. I was hoping you'd say that Jared.
+
+275
+00:22:29,540 --> 00:22:35,140
+So. What do we think? Okay. So what Jared,
+
+276
+00:22:35,220 --> 00:22:38,600
+so what do you think fair value might be for this? In 30 days,
+
+277
+00:22:38,640 --> 00:22:39,960
+what do you think the fair value would be?
+
+278
+00:22:57,430 --> 00:23:00,380
+What's Jason. He said, go back to think or swim.
+
+279
+00:23:02,380 --> 00:23:03,200
+To think or swim. Yeah.
+
+280
+00:23:09,180 --> 00:23:11,960
+Pretend this was three 37 and this is two 40. Yeah.
+
+281
+00:23:12,120 --> 00:23:14,860
+He wants to go to the chain. He's looking at it.
+
+282
+00:23:22,910 --> 00:23:26,050
+He wants you to open April. April's open there, Jared, the monthlies.
+
+283
+00:23:28,200 --> 00:23:29,800
+Or maybe open the ninth for him.
+
+284
+00:23:35,460 --> 00:23:37,980
+What do you think Jay? One 90.
+
+285
+00:23:47,940 --> 00:23:56,630
+He said. Two 90. Hell yeah, man. All right. All right. So.
+
+286
+00:23:57,200 --> 00:24:02,100
+Jared saying in 30 days. Or basically. After this expires.
+
+287
+00:24:02,420 --> 00:24:04,800
+This option right here is going to go from two 15.
+
+288
+00:24:04,800 --> 00:24:10,180
+To two 90 or feel slowly creep up to that two 90 mark. And so.
+
+289
+00:24:12,850 --> 00:24:16,910
+To get that forward ball. Okay. It's a relative value play.
+
+290
+00:24:16,970 --> 00:24:20,770
+So one of two things can happen here. One. Okay.
+
+291
+00:24:22,770 --> 00:24:24,150
+This needs to go up.
+
+292
+00:24:27,620 --> 00:24:34,300
+Okay. So either it goes from. 2.4. Okay. To three. Then we get our two 90.
+
+293
+00:24:34,700 --> 00:24:37,080
+So the back needs to go up to 300 today.
+
+294
+00:24:39,150 --> 00:24:44,010
+Or this. This. Needs to drop.
+
+295
+00:24:46,190 --> 00:24:50,860
+Okay. From three 40 to let's say two 70 or two 20. Or 200, sorry.
+
+296
+00:24:52,690 --> 00:24:53,690
+Or even one 90.
+
+297
+00:25:00,550 --> 00:25:04,810
+Okay. So one of two things needs to happen. Either the front needs to drop.
+
+298
+00:25:05,030 --> 00:25:10,150
+In order to get, you know, what Jared is, is really. You know,
+
+299
+00:25:10,690 --> 00:25:14,680
+Thinking of or the back needs to get pushed up. Okay.
+
+300
+00:25:14,680 --> 00:25:18,980
+So one of those two things. Needs to happen. In order for,
+
+301
+00:25:18,980 --> 00:25:23,720
+for Jared to think that forward ball. Is going to be at two 90. Okay.
+
+302
+00:25:24,420 --> 00:25:26,800
+So let's head over to the terminal now or the.
+
+303
+00:25:27,530 --> 00:25:32,310
+The chain and let's put on this calendar spread. Now.
+
+304
+00:25:35,740 --> 00:25:38,760
+If in fact. Right. So two things we know can happen here.
+
+305
+00:25:38,800 --> 00:25:44,300
+Either the front needed to drop like 80%. Okay. A little bit wild, but.
+
+306
+00:25:44,820 --> 00:25:47,340
+We're living a little. Okay. In this case.
+
+307
+00:25:47,920 --> 00:25:52,430
+That is what that would give us a forward ball of two 90. Or.
+
+308
+00:25:53,280 --> 00:25:59,090
+So we would make a ton of money there. Or the back needs to explode. Okay.
+
+309
+00:25:59,190 --> 00:26:05,330
+I think we said 60%. Okay. So one of two of those things. Needs to happen.
+
+310
+00:26:06,620 --> 00:26:10,800
+And that is as long as one of those things happen. We're going to make money.
+
+311
+00:26:10,840 --> 00:26:16,470
+Right. It's we're creating that forward volatility. On the flip side. Okay.
+
+312
+00:26:17,220 --> 00:26:21,880
+If we're wrong. If in fact. Forward ball is one 10. Okay. Well,
+
+313
+00:26:22,160 --> 00:26:24,140
+this is going to have to maybe drop by 60 points.
+
+314
+00:26:26,630 --> 00:26:32,320
+Right. Or maybe the front increases drastically. Right. So let's say.
+
+315
+00:26:32,760 --> 00:26:34,120
+Let's say another 60 points.
+
+316
+00:26:36,500 --> 00:26:41,140
+So by training this calendar spread, we can take advantage of mispriced.
+
+317
+00:26:41,500 --> 00:26:42,560
+Forward volatility.
+
+318
+00:26:45,140 --> 00:26:45,580
+Okay.
+
+319
+00:26:50,020 --> 00:26:52,300
+Neil, what do you think? I did a good job explaining this.
+
+320
+00:26:52,480 --> 00:26:53,440
+Are you still with us?
+
+321
+00:26:55,940 --> 00:26:58,940
+I think we might've lost him at one point there. We did.
+
+322
+00:26:58,940 --> 00:27:02,320
+He's out to go get a bagel cinnamon raisin or a subway. I'm just thinking like,
+
+323
+00:27:02,380 --> 00:27:07,950
+cause he said, I think the right answer is choice. C. Is that what he said?
+
+324
+00:27:08,660 --> 00:27:11,460
+Yeah. Oh my gosh. You must be.
+
+325
+00:27:11,780 --> 00:27:14,980
+You must have a cinnamon raisin bagel in one hand in the subway.
+
+326
+00:27:15,100 --> 00:27:16,360
+And the other hand right now.
+
+327
+00:27:21,270 --> 00:27:23,050
+Yeah. I'll post it up for you, Chris. No problem.
+
+328
+00:27:27,830 --> 00:27:33,300
+Okay. So Jordan, do you want to maybe do a recap? Yeah. So.
+
+329
+00:27:34,800 --> 00:27:38,560
+I was using some code there, but in reality, you know, Sean,
+
+330
+00:27:38,600 --> 00:27:43,130
+I never want to leave you guys hanging. So instead what we're going to do.
+
+331
+00:27:44,090 --> 00:27:49,620
+Is we are going to. Oh, we have embedded it in the terminal for you guys.
+
+332
+00:27:51,330 --> 00:27:53,330
+So you head over to event IV calculator.
+
+333
+00:27:54,110 --> 00:27:57,670
+And here is your forward volatility calculator. Right here it is.
+
+334
+00:27:57,910 --> 00:28:06,740
+So let's say eyeball. First expiration is. What was it there? Three 40.
+
+335
+00:28:07,630 --> 00:28:17,430
+And eyeball second was. Two 40. I think it was. We'll just go with that.
+
+336
+00:28:17,570 --> 00:28:22,600
+And this was expiring in April. I have to fix these date things.
+
+337
+00:28:25,550 --> 00:28:28,290
+Okay. April. And this one was expiring in.
+
+338
+00:28:30,350 --> 00:28:36,630
+July. I think we said. Oh, it was August. Or was it? No, it was.
+
+339
+00:28:36,910 --> 00:28:37,590
+I think it was July.
+
+340
+00:28:44,940 --> 00:28:45,400
+Okay. Okay.
+
+341
+00:28:47,030 --> 00:28:50,210
+So we run the forward volatility and then we have our volatility of.
+
+342
+00:28:52,460 --> 00:28:57,890
+Of 200%. Okay. So now we can make that decision of. Is that cheap or expensive?
+
+343
+00:28:57,890 --> 00:29:02,410
+And. You know, sometimes you can find some unreal deal guys. Like sometimes,
+
+344
+00:29:02,510 --> 00:29:05,990
+for example, there's just so much. Pressure coming into the front month.
+
+345
+00:29:06,070 --> 00:29:09,210
+So it's buying pressure coming into the front month. That this becomes,
+
+346
+00:29:09,330 --> 00:29:14,660
+let's say. I don't know. Three 90. Right. Right. Well,
+
+347
+00:29:14,820 --> 00:29:18,460
+now we have a volatility. Affordable of one 72. And we can say, okay, well,
+
+348
+00:29:18,480 --> 00:29:21,640
+that's dirt cheap. Right. We want to pick that up.
+
+349
+00:29:22,400 --> 00:29:24,700
+Let's make it clear for everyone. Buying the front.
+
+350
+00:29:24,900 --> 00:29:27,640
+If that was the case where it was three 90 to 40.
+
+351
+00:29:28,720 --> 00:29:31,820
+Would you be buying the front selling the back or would you be doing the opposite?
+
+352
+00:29:32,930 --> 00:29:35,610
+If it was three 94. You'd want to be selling the front,
+
+353
+00:29:35,710 --> 00:29:39,510
+assuming you think that. The forward ball is cheap.
+
+354
+00:29:40,020 --> 00:29:43,140
+So you think forward ball is cheap. You're buying the back, selling the front.
+
+355
+00:29:43,140 --> 00:29:45,520
+If you think forward ball is expensive, you're selling the back,
+
+356
+00:29:45,620 --> 00:29:46,140
+buying the front.
+
+357
+00:29:49,810 --> 00:29:58,540
+Okay. Can we. And for forward vault. 30 90. Right. So that's not in this one,
+
+358
+00:29:58,580 --> 00:30:03,750
+but it's in the new one. That's being released extremely soon. And you can,
+
+359
+00:30:03,850 --> 00:30:08,630
+you can of course. Graph it as well here. If you guys want. Yeah.
+
+360
+00:30:08,670 --> 00:30:11,550
+Jared was saying we need to write this into the scanner. Yeah.
+
+361
+00:30:11,670 --> 00:30:15,190
+Sometimes there's some super like. Insane deals guys.
+
+362
+00:30:15,190 --> 00:30:18,570
+I've seen some insane deals during my time. Where it's like,
+
+363
+00:30:21,080 --> 00:30:24,520
+The implied ball is just actually happens around earnings events too.
+
+364
+00:30:24,720 --> 00:30:26,960
+Sometimes where the implied ball is just in the back.
+
+365
+00:30:27,120 --> 00:30:30,500
+When you look at the forward volatility. It's just so, so low.
+
+366
+00:30:31,160 --> 00:30:33,060
+And so when you get the adjustment tomorrow,
+
+367
+00:30:33,520 --> 00:30:37,800
+What we actually find is that the front moves down too much.
+
+368
+00:30:38,120 --> 00:30:41,160
+And the back stays up. So let's take a quick look at Tesla.
+
+369
+00:30:41,320 --> 00:30:44,720
+Cause I think there was a time to buy very cheap, cheap forward ball.
+
+370
+00:30:47,520 --> 00:30:51,000
+Or sorry, sell, sell expensive ball. So, so this is what the,
+
+371
+00:30:51,120 --> 00:30:54,480
+this is what everyone else sees. Everyone else sees the IV 90.
+
+372
+00:30:54,800 --> 00:30:58,760
+They see the IV 30. Okay. But they don't see the forward balls.
+
+373
+00:30:59,950 --> 00:31:01,590
+And this is where things can get interesting.
+
+374
+00:31:04,340 --> 00:31:06,840
+So actually it doesn't look like it was too out of line.
+
+375
+00:31:09,960 --> 00:31:13,860
+But they're actually okay. So down here, for example. Right. So down here.
+
+376
+00:31:14,690 --> 00:31:18,310
+Jan 15, 2020. So, you know, before everything started happening.
+
+377
+00:31:19,960 --> 00:31:25,640
+Forward vols got extremely low. Look at that. Basically the 90 day options.
+
+378
+00:31:26,260 --> 00:31:30,780
+The market was saying in 30 days, the 90 day options are going to be a 40 ball.
+
+379
+00:31:32,280 --> 00:31:38,360
+Can you imagine that sub 40? Okay. I know that. I know. Yeah. Go ahead.
+
+380
+00:31:38,740 --> 00:31:42,980
+The forward vault to the Vulcan for a reference of higher low. Yeah.
+
+381
+00:31:43,100 --> 00:31:47,660
+A hundred percent. Right. Or 100%. You know,
+
+382
+00:31:47,680 --> 00:31:51,460
+and obviously we're all using two years data here, but.
+
+383
+00:31:53,500 --> 00:31:56,820
+So we can't go back in time to see forever, but there are times guys,
+
+384
+00:31:56,920 --> 00:32:00,280
+especially in these like not super, super liquid names.
+
+385
+00:32:01,420 --> 00:32:04,660
+Where a whole bunch of vol, a whole bunch of pressure is going to come in.
+
+386
+00:32:04,760 --> 00:32:06,160
+Let's say some type of expiration.
+
+387
+00:32:06,640 --> 00:32:10,090
+Maybe it's the front and it's just going to drive up the price,
+
+388
+00:32:10,230 --> 00:32:12,790
+but the back is not going to change as much.
+
+389
+00:32:12,970 --> 00:32:16,390
+And so you can structure these calendar trades to, you know,
+
+390
+00:32:16,770 --> 00:32:20,790
+to get some real nice returns. Busting out a good question here.
+
+391
+00:32:20,790 --> 00:32:24,230
+She was asking if we could put this as one of the strategy filters.
+
+392
+00:32:24,690 --> 00:32:28,360
+Like we call it calendars. Yeah,
+
+393
+00:32:28,360 --> 00:32:31,380
+I guess we could run something like forward vault percentile.
+
+394
+00:32:34,800 --> 00:32:36,820
+Yeah, I guess, I guess we could do that blessing.
+
+395
+00:32:38,900 --> 00:32:39,680
+Just for you.
+
+396
+00:32:42,000 --> 00:32:42,460
+Yeah.
+
+397
+00:32:42,520 --> 00:32:46,400
+But I'm actually working on a project right now that is looking at the one-year
+
+398
+00:32:46,400 --> 00:32:52,840
+two-year forward balls. And that's you know, that's, I think there's so much,
+
+399
+00:32:52,900 --> 00:32:53,780
+I was talking about it.
+
+400
+00:32:53,780 --> 00:32:56,980
+I think there's so much money to be made in the longer dated forward balls.
+
+401
+00:33:04,200 --> 00:33:06,420
+Any other questions there? Any, any quick ones?
+
+402
+00:33:06,460 --> 00:33:08,400
+You guys want me to look at the forward balls and then we'll call,
+
+403
+00:33:08,460 --> 00:33:09,280
+we'll wrap it up.
+
+404
+00:33:15,530 --> 00:33:15,730
+Right.
+
+405
+00:33:25,980 --> 00:33:29,720
+Okay. So forward vols are dropping. They're at one 80, one 83 for the 30,
+
+406
+00:33:30,080 --> 00:33:34,220
+the 90. Okay. Let's take a look. Let's take a super quick look here.
+
+407
+00:33:36,730 --> 00:33:39,770
+Okay. Right. Which ones were you wanting? Which,
+
+408
+00:33:39,770 --> 00:33:43,500
+which four balls you want to trade? Okay. So you can see here. Okay. Wow. Good.
+
+409
+00:33:43,720 --> 00:33:47,670
+This is getting really pricey. Right. So check this out.
+
+410
+00:33:47,690 --> 00:33:49,970
+You're going to like this one. Who asked it? All right. Right.
+
+411
+00:33:52,940 --> 00:33:57,730
+Jared. Jared. Okay. Jared. You're gonna like this one. Okay.
+
+412
+00:33:57,870 --> 00:34:01,110
+So this is where four balls probably going to be super expensive.
+
+413
+00:34:01,370 --> 00:34:10,040
+So you can see here, Jared. That. This option for the April. Is one 65 ball.
+
+414
+00:34:11,110 --> 00:34:19,600
+And for the June. Is one 71. Okay. So before I actually go and price it.
+
+415
+00:34:19,600 --> 00:34:24,020
+I have a question for you guys. Is forward vol going to be higher.
+
+416
+00:34:24,280 --> 00:34:30,630
+Or lower than one 71. Let me just, let me just close everything else here.
+
+417
+00:34:32,770 --> 00:34:36,130
+Is forward vol going to be higher or lower than 71. One 71.
+
+418
+00:34:39,250 --> 00:34:44,830
+Guys are saying higher. Guys are saying higher. That's it. PA gang, gang, gang.
+
+419
+00:34:45,290 --> 00:34:52,310
+And why is that? Because this option. Is going to see 165 all. For 30 days.
+
+420
+00:34:52,310 --> 00:34:57,800
+But then it's probably going to see one 80 ball. For the next 60, one 85.
+
+421
+00:34:58,000 --> 00:35:01,940
+And the next 60. Which is driving up. That June volatility.
+
+422
+00:35:02,260 --> 00:35:03,920
+So let's go and price it out in the terminal.
+
+423
+00:35:06,950 --> 00:35:15,320
+Option calculator. First expo is what do we say? One 65. And second was one 80.
+
+424
+00:35:16,740 --> 00:35:25,250
+Or one 75. Yeah, it was a little lower. One 75. Four 16. And. It was.
+
+425
+00:35:25,250 --> 00:35:27,570
+It was June. No, July.
+
+426
+00:35:29,640 --> 00:35:30,300
+It was June.
+
+427
+00:35:38,980 --> 00:35:44,520
+All right. So there you go. Right. The forward volatility is going to be 180%.
+
+428
+00:35:45,560 --> 00:35:49,140
+For this option. And if we look at, if we look at the chain here.
+
+429
+00:35:49,890 --> 00:35:50,750
+Let's take a look.
+
+430
+00:35:53,840 --> 00:35:57,940
+If we look at the vol insights. Or even look at realizable.
+
+431
+00:35:58,120 --> 00:36:02,180
+Like one 80 is super bid. Right. One 80 is all the way up.
+
+432
+00:36:02,280 --> 00:36:05,140
+It's literally the highest for the 90 days. Right.
+
+433
+00:36:05,140 --> 00:36:06,640
+We're going to be at the third quantile. Sorry.
+
+434
+00:36:07,100 --> 00:36:12,400
+We're going to be the third quantile for the 90 days. When that expires. And.
+
+435
+00:36:12,720 --> 00:36:17,140
+You know, given that realizable. Well, realize ball has been moving Jared.
+
+436
+00:36:17,500 --> 00:36:20,580
+Right. It's been moving quite a bit. But let's say for example.
+
+437
+00:36:22,370 --> 00:36:25,370
+This was at like, you know, we're not going to find inefficiencies everywhere.
+
+438
+00:36:25,490 --> 00:36:29,290
+It's going to be. The one-offs. Not the one-offs, but you got to look for them.
+
+439
+00:36:30,630 --> 00:36:36,430
+If let's say realize volger. Never got above one 70. Never got above one 70.
+
+440
+00:36:36,590 --> 00:36:40,590
+While selling eyeball. I saw a forward vol at one 80.
+
+441
+00:36:41,250 --> 00:36:45,310
+That's like extremely pricey. Right. And we could,
+
+442
+00:36:45,470 --> 00:36:49,530
+we could kind of find that because. There was contango in the term structure.
+
+443
+00:36:50,670 --> 00:36:53,850
+Even though. Falls were so high. Right.
+
+444
+00:36:53,870 --> 00:36:56,390
+And that's where forward vol is really going to look pricey.
+
+445
+00:36:59,330 --> 00:37:02,420
+So there you go. That's a. That's forward vol.
+
+446
+00:37:02,680 --> 00:37:05,320
+That's how you take advantage of it. You just trade the calendar spreads.
+
+447
+00:37:07,400 --> 00:37:10,280
+After this, we'll chat about how we can throw it into the strategy thing.
+
+448
+00:37:10,280 --> 00:37:14,960
+I think it'd be good to have something for calendars. Yeah. Good return on.
+
+449
+00:37:16,250 --> 00:37:19,770
+Great return on capital. Great return on debits. They're great.
+
+450
+00:37:23,020 --> 00:37:26,720
+Very cool. And maybe we'll do a part two of this.
+
+451
+00:37:26,820 --> 00:37:30,060
+I have a few questions that I'm going to build out that I think just from what you've
+
+452
+00:37:30,060 --> 00:37:34,080
+done here that I think we can do a part two. That next week.
+
+453
+00:37:36,210 --> 00:37:40,120
+Cool. Okay. I'm going to stop the recording.

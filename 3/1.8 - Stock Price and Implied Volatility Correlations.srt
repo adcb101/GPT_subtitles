@@ -1,0 +1,2027 @@
+1
+00:00:01,140 --> 00:00:03,880
+Hey guys, so in this live,
+
+2
+00:00:03,980 --> 00:00:07,180
+we're going to be chatting about spot and eyeball correlation.
+
+3
+00:00:07,820 --> 00:00:12,380
+And what we mean by that is, if let's say we're looking at the S&P 500,
+
+4
+00:00:12,780 --> 00:00:17,860
+if the stock goes up 1%, what happens to eyeball? The stock goes down 1%,
+
+5
+00:00:17,860 --> 00:00:19,100
+what happens to eyeball?
+
+6
+00:00:24,980 --> 00:00:28,320
+So that's what we're going to be chatting about today.
+
+7
+00:00:28,420 --> 00:00:33,240
+So if implied ball goes up, then what's going to happen to spot?
+
+8
+00:00:33,240 --> 00:00:38,620
+And when we say spot, we mean the underlying. So when we say underlying,
+
+9
+00:00:38,800 --> 00:00:41,660
+we mean, let's say, for example, the spot price,
+
+10
+00:00:41,740 --> 00:00:44,980
+meaning the current price of let's say the S&P 500.
+
+11
+00:00:45,900 --> 00:00:48,280
+So we call it the spot eyeball correlation,
+
+12
+00:00:48,800 --> 00:00:50,320
+and I'm just going to show it to you on the terminal.
+
+13
+00:00:55,970 --> 00:00:59,310
+So let's look at the ticker SPY,
+
+14
+00:01:03,360 --> 00:01:07,180
+and we're going to go to volatility. And we can see right here,
+
+15
+00:01:07,500 --> 00:01:10,160
+this is the picture we're looking at. Everyone see this?
+
+16
+00:01:10,160 --> 00:01:17,640
+And so what this tells us is, if the S&P goes up 2%,
+
+17
+00:01:17,640 --> 00:01:25,540
+the implied volatility usually comes down. When the S&P goes down 2%,
+
+18
+00:01:25,540 --> 00:01:30,880
+we'll say implied volatility usually goes up about 15.6%.
+
+19
+00:01:32,360 --> 00:01:35,740
+So that is what spot eyeball correlation is.
+
+20
+00:01:36,480 --> 00:01:40,320
+Now the reason we need to talk about this is because it helps us structure our trades.
+
+21
+00:01:41,570 --> 00:01:47,150
+Okay. So we can use GME as an example. I think it's perfect. But does anyone,
+
+22
+00:01:47,390 --> 00:01:51,670
+before we continue, is everyone from understanding of spot eyeball correlation?
+
+23
+00:01:51,770 --> 00:01:55,170
+Because if we can't understand this, this is the fundamental building block.
+
+24
+00:01:59,850 --> 00:02:00,710
+We're getting there, Koaw.
+
+25
+00:02:03,100 --> 00:02:06,940
+Okay. Koaw is saying, please repeat. On the X axis,
+
+26
+00:02:07,020 --> 00:02:10,700
+we have change in share price, right? So this is no change in share price.
+
+27
+00:02:11,300 --> 00:02:16,100
+This is plus 2% change in share price on this side, right? Plus 2 here,
+
+28
+00:02:17,350 --> 00:02:22,580
+minus 2 here. And then on this side, we have change in IV.
+
+29
+00:02:22,880 --> 00:02:30,730
+So this down here would be like minus 20%, right? Up here would be plus 30%,
+
+30
+00:02:30,730 --> 00:02:34,470
+right? And what we're saying is, well, okay, let's say we have, you know,
+
+31
+00:02:34,750 --> 00:02:43,160
+a 2% day in the S&P. We should see volatility come down about 10%, right?
+
+32
+00:02:43,160 --> 00:02:49,200
+Not 10 points, 10%. So if implied vol is trading at 20,
+
+33
+00:02:49,360 --> 00:02:52,260
+it should come down to 18. And for different assets,
+
+34
+00:02:52,260 --> 00:02:55,260
+this correlation could look different. Yeah. Actually,
+
+35
+00:02:55,280 --> 00:02:57,480
+it's not always the same. That's actually a really good idea.
+
+36
+00:02:57,540 --> 00:03:05,740
+Let's take a look at Tesla just because we got Tico on the line here. And Tico,
+
+37
+00:03:05,840 --> 00:03:07,540
+I was just chatting to a pharmacist today.
+
+38
+00:03:08,060 --> 00:03:11,710
+I'd love to have a little call with you this week sometime. Okay.
+
+39
+00:03:11,870 --> 00:03:18,130
+So look at Tesla, right? When Tesla goes up, implied volatility goes up.
+
+40
+00:03:18,130 --> 00:03:22,550
+When Tesla goes down, implied volatility comes down. Okay.
+
+41
+00:03:22,550 --> 00:03:26,810
+And we're seeing this with a lot of names. Okay. We're seeing this with LIT,
+
+42
+00:03:27,710 --> 00:03:32,210
+right? Let's take a look at LIT. Okay. So look what's happening here, guys.
+
+43
+00:03:32,670 --> 00:03:35,860
+I'm just going to do the implied volatility. Look at this.
+
+44
+00:03:36,100 --> 00:03:41,380
+As we see the stock rally, okay, we're also seeing implied volatility rally.
+
+45
+00:03:41,560 --> 00:03:43,660
+And when we see the stock coming down,
+
+46
+00:03:43,860 --> 00:03:46,280
+we also see implied volatility coming down.
+
+47
+00:03:46,540 --> 00:03:51,170
+Let's do a six month so you guys can really see it. Okay. Do you guys see that?
+
+48
+00:03:51,250 --> 00:03:53,710
+You see that correlation there? It's like identical. Right.
+
+49
+00:03:54,030 --> 00:03:57,730
+But what we see here is it's a lot.
+
+50
+00:03:57,830 --> 00:03:59,930
+So it's definitely a lot flatter than the S&P,
+
+51
+00:04:00,470 --> 00:04:05,910
+but it's still negatively correlated. But right now, currently,
+
+52
+00:04:05,930 --> 00:04:09,510
+we're seeing some correlation. Okay. Now, usually for an ETF,
+
+53
+00:04:09,850 --> 00:04:13,670
+we should see negative correlation. Stock goes down, implied vol goes up.
+
+54
+00:04:14,150 --> 00:04:15,930
+Right. If the ETF goes down, implied vol goes up.
+
+55
+00:04:15,930 --> 00:04:20,790
+But currently in the last three months, right, not even last two months,
+
+56
+00:04:20,810 --> 00:04:27,530
+we've seen if implied volatility goes up, the stock is usually up as well.
+
+57
+00:04:27,810 --> 00:04:31,650
+So does everyone understand implied vol versus spot correlation?
+
+58
+00:04:34,230 --> 00:04:40,520
+So is it an inverse correlation? So is it inverse to let's say the S&P? Yes.
+
+59
+00:04:41,160 --> 00:04:44,560
+Right. Not right now, not in the past. So usually, blessing.
+
+60
+00:04:44,680 --> 00:04:48,710
+So this is looking over two years of data. Okay.
+
+61
+00:04:48,710 --> 00:04:51,310
+If we look at two years of data, we see a negative correlation,
+
+62
+00:04:51,410 --> 00:04:56,430
+meaning that usually for lit, if it goes up, vols drop, if it goes down,
+
+63
+00:04:57,010 --> 00:05:02,420
+vols increase. Right. We see that. We saw that over here. Right.
+
+64
+00:05:02,480 --> 00:05:08,380
+During the crisis. Right. Vols went up and the stock went down.
+
+65
+00:05:08,660 --> 00:05:13,230
+But right now it's acting a little different. Okay. Now for Tesla,
+
+66
+00:05:15,210 --> 00:05:23,990
+we see a stronger relationship that when S&P, when Tesla goes up,
+
+67
+00:05:24,070 --> 00:05:28,040
+implied vol goes up. Okay. Which we're seeing a stronger relationship there.
+
+68
+00:05:29,610 --> 00:05:32,570
+Okay. But for the S&P, it's completely the opposite.
+
+69
+00:05:36,610 --> 00:05:42,700
+Okay. Completely the opposite. Does everyone understand that? Yes. Arnold.
+
+70
+00:05:42,860 --> 00:05:48,370
+So each dot represents a day. Okay. So on this day right here,
+
+71
+00:05:48,850 --> 00:05:57,830
+S&P was flat or it was down 0.89% and vols were up 26%. Okay. Now, obviously,
+
+72
+00:05:58,150 --> 00:06:01,630
+maybe not obviously, let me ask you this question. Okay.
+
+73
+00:06:02,730 --> 00:06:05,310
+What do you think during this time period, right?
+
+74
+00:06:05,330 --> 00:06:07,790
+If I were to tell you what day this was, okay,
+
+75
+00:06:08,130 --> 00:06:12,090
+what do you think the VIX was trading at? So we're looking at the S&P here.
+
+76
+00:06:12,090 --> 00:06:18,850
+What do you think the VIX was trading at? So that when the S&P went down 0.89%,
+
+77
+00:06:19,970 --> 00:06:26,060
+VIX went up 26%. What do you think it was trading at? Let's see who's got this.
+
+78
+00:06:31,050 --> 00:06:34,510
+Come on, Steven. When I say, let's see who's got this, I'm explicitly saying,
+
+79
+00:06:34,950 --> 00:06:35,910
+please don't answer Steven.
+
+80
+00:06:40,680 --> 00:06:44,880
+Nice. Okay. So Steven's got it, right? So Kou is saying mid vol.
+
+81
+00:06:45,040 --> 00:06:47,120
+So it's actually going to be really low vol, right?
+
+82
+00:06:47,120 --> 00:06:51,540
+If the S&P is down half a percent and the VIX is spiking 26%,
+
+83
+00:06:51,540 --> 00:06:56,720
+we're in an extremely low vol environment. Maybe VIX is 10, maybe VIX is nine.
+
+84
+00:06:59,460 --> 00:06:59,560
+Okay.
+
+85
+00:07:01,790 --> 00:07:04,890
+No, it's definitely not blessing. Another question for you. Okay.
+
+86
+00:07:07,340 --> 00:07:12,500
+Biotech, biotech company, meme stock, biotech or a meme stock.
+
+87
+00:07:12,620 --> 00:07:14,480
+What do you think the relationship would be?
+
+88
+00:07:22,760 --> 00:07:28,580
+Kind of funky. It is. It is. Positive. Awesome. Blessing. Awesome. Awesome.
+
+89
+00:07:28,860 --> 00:07:32,460
+Awesome. As exactly that stands in. Perfect. When the stock rallies,
+
+90
+00:07:32,660 --> 00:07:35,480
+we see an increase in vol. So let's see, let's see if that's the case.
+
+91
+00:07:38,070 --> 00:07:42,710
+Let's see. Thanks, Hannah. Thanks for, thanks for bringing that one in. Okay.
+
+92
+00:07:42,730 --> 00:07:47,660
+Let's see here. So I'll take a look at GME. Okay. And we've seen this with GME,
+
+93
+00:07:47,840 --> 00:07:51,180
+right? When the, when the, when the, when the stock,
+
+94
+00:07:51,280 --> 00:07:54,200
+when the spot price goes up, implied vol goes up. Now, not that much,
+
+95
+00:07:54,280 --> 00:07:58,480
+but we are seeing that. Okay. So how can this,
+
+96
+00:08:01,190 --> 00:08:04,130
+why and where should we use this? Okay. Well,
+
+97
+00:08:04,490 --> 00:08:06,150
+let's think about it before we even,
+
+98
+00:08:06,510 --> 00:08:08,310
+I really want you guys to think about this stuff. Okay.
+
+99
+00:08:13,890 --> 00:08:20,070
+Let's say we see a positive correlation between implied vol and spot price.
+
+100
+00:08:21,490 --> 00:08:27,660
+Okay. And we are bearish on vols. We're bearish on vols.
+
+101
+00:08:28,430 --> 00:08:33,110
+How might we structure a straddle? Where would we place it?
+
+102
+00:08:33,110 --> 00:08:39,720
+Let's say the stock's trading at 50. Okay. We're bearish on vols. Okay.
+
+103
+00:08:40,160 --> 00:08:48,070
+But we also have this like implicit risk of direction, right?
+
+104
+00:08:48,490 --> 00:08:54,100
+It's like when you buy the S&P 500, you're actually short volatility, right?
+
+105
+00:08:54,120 --> 00:08:57,680
+That's why they say buying S&P or buying equity is a short vol trade.
+
+106
+00:09:01,210 --> 00:09:05,730
+So Jared's saying 40. So stock's trading at 50 and we're bearish on vols,
+
+107
+00:09:05,790 --> 00:09:09,130
+it has a positive correlation with spot price. Jared's saying 40.
+
+108
+00:09:09,670 --> 00:09:12,410
+Does anyone agree or disagree with Jared? What do you guys think?
+
+109
+00:09:22,330 --> 00:09:23,070
+What do you guys think?
+
+110
+00:09:38,900 --> 00:09:44,460
+So stock's trading at 50. Okay. And we want to sell a straddle. Okay.
+
+111
+00:09:44,520 --> 00:09:48,550
+So here's our P&L graph. Okay.
+
+112
+00:09:51,140 --> 00:09:54,610
+Here's 50. This is where the stock's trading at. Okay.
+
+113
+00:09:54,710 --> 00:09:58,730
+And let's say this is 30 and this is 20 and this is 70.
+
+114
+00:09:59,930 --> 00:10:03,840
+Where do we want to place our straddle and why?
+
+115
+00:10:06,640 --> 00:10:11,120
+So Blessing's saying, would you do a put spread then? Not necessarily.
+
+116
+00:10:11,440 --> 00:10:14,820
+Not necessarily. We want to get short a lot of vol,
+
+117
+00:10:15,000 --> 00:10:16,780
+so we wouldn't really want to do a put spread here.
+
+118
+00:10:17,970 --> 00:10:22,240
+I think it's going to be two directional. Stanton's saying an at the money.
+
+119
+00:10:23,410 --> 00:10:23,510
+Okay.
+
+120
+00:10:25,670 --> 00:10:29,880
+So Jared's saying straddle over here. Okay.
+
+121
+00:10:30,800 --> 00:10:32,300
+Stanton's saying straddle over here.
+
+122
+00:10:36,380 --> 00:10:40,980
+Okay. Steve, thanks for not saying your opinion. I really appreciate it.
+
+123
+00:10:40,980 --> 00:10:43,860
+I know you're sweating. Ronnie's saying place it above the strike.
+
+124
+00:10:44,060 --> 00:10:45,780
+Ronnie's saying place it above the strike. Okay.
+
+125
+00:10:45,860 --> 00:10:48,580
+So no one at PA can agree with anyone.
+
+126
+00:10:52,820 --> 00:10:59,140
+Okay. Since Koa, okay. So since Koa and Ronnie said above the strike,
+
+127
+00:10:59,140 --> 00:11:04,100
+we're going to go with that one as PA's decision.
+
+128
+00:11:05,180 --> 00:11:09,060
+And that would be the correct answer. Okay. That would be the correct answer.
+
+129
+00:11:09,140 --> 00:11:13,920
+Now, why would that be the correct answer? Okay. Well, we are bearish on vols,
+
+130
+00:11:14,020 --> 00:11:20,290
+right? We think vols are going to go down. Now, if volatility goes down, right,
+
+131
+00:11:20,450 --> 00:11:23,770
+what is likely going to happen to the spot price? Well,
+
+132
+00:11:23,770 --> 00:11:26,630
+it's likely going to go down as well, right? We said that they're correlated.
+
+133
+00:11:26,790 --> 00:11:30,070
+Let's say we're looking at GME, right? If GME starts to fall,
+
+134
+00:11:30,910 --> 00:11:34,270
+implied vol is going to get crushed. If GME continues to rise,
+
+135
+00:11:34,890 --> 00:11:37,170
+implied vol is going to continue to get larger and larger.
+
+136
+00:11:40,140 --> 00:11:46,160
+So we want to be positioned above spot price, okay?
+
+137
+00:11:46,760 --> 00:11:51,960
+And slightly leaning long deltas, okay? Because think about it like this.
+
+138
+00:11:52,180 --> 00:11:56,000
+If the stock goes down, we are going to earn on vega, right?
+
+139
+00:11:56,060 --> 00:12:00,380
+We're going to earn on short volatility. If the stock goes up, well,
+
+140
+00:12:00,500 --> 00:12:03,290
+if we are positioned below the strike, well,
+
+141
+00:12:03,290 --> 00:12:07,370
+we're going to lose on delta and we're going to lose on vega, right?
+
+142
+00:12:07,370 --> 00:12:14,180
+So being positioned above spot price is where we want to be. Now, also,
+
+143
+00:12:14,360 --> 00:12:18,300
+the other thing is stocks that are usually correlated with spot price,
+
+144
+00:12:18,700 --> 00:12:21,280
+or sorry, implied vols are usually correlated with spot price,
+
+145
+00:12:21,480 --> 00:12:25,840
+tend to have extreme high volatility, okay?
+
+146
+00:12:25,960 --> 00:12:30,780
+So we're going to use GME as our example here. Okay,
+
+147
+00:12:30,780 --> 00:12:35,520
+we're going to go into thinkorswim and we're going to take a look.
+
+148
+00:12:37,580 --> 00:12:41,360
+So just so you guys can see with lit, let's get rid of that.
+
+149
+00:12:41,360 --> 00:12:43,640
+I don't know how that got on the screen. I don't know, man.
+
+150
+00:12:44,040 --> 00:12:44,920
+So you guys can see with lit,
+
+151
+00:12:45,980 --> 00:12:49,140
+as the stock rallies and it gets more and more and more, boom, boom, right?
+
+152
+00:12:49,240 --> 00:12:52,720
+Implied vol is increasing with it. And now as the stock has been coming down,
+
+153
+00:12:52,820 --> 00:12:58,180
+so has the implied vols, okay? So let's take a look at GME.
+
+154
+00:13:11,180 --> 00:13:13,500
+I heard it's up after hours. Let me just quickly take a look here.
+
+155
+00:13:17,320 --> 00:13:18,900
+I like that big red candle.
+
+156
+00:13:21,420 --> 00:13:25,860
+Okay, so let's take a look here. GME trading at 43, okay?
+
+157
+00:13:25,900 --> 00:13:28,840
+Trading at 43 right now. This is where, this is the at the money strike.
+
+158
+00:13:29,750 --> 00:13:33,790
+The first thing we're going to realize is that the Delta 50 is actually way above
+
+159
+00:13:33,790 --> 00:13:39,950
+spot price. Okay. Now let's go and do and sell this straddle right here. Okay.
+
+160
+00:13:39,950 --> 00:13:42,670
+So we're selling a straddle way above spot price.
+
+161
+00:13:44,890 --> 00:13:46,640
+Let's take a look. Okay.
+
+162
+00:13:50,360 --> 00:13:52,580
+So before the close, it's up after hours.
+
+163
+00:13:52,640 --> 00:13:56,280
+So thinkorswim is going to be a little bit off, but before the close,
+
+164
+00:13:56,380 --> 00:13:58,180
+it was trading right around here. Okay.
+
+165
+00:14:01,470 --> 00:14:03,810
+Now let's see what's going to happen here. We're going to stress our position.
+
+166
+00:14:03,950 --> 00:14:07,630
+So if the stock were to go up, so we're going to, we're going to move this,
+
+167
+00:14:07,790 --> 00:14:10,830
+let's say up 10%. Okay.
+
+168
+00:14:10,830 --> 00:14:15,550
+And we're also going to have another scenario where the stock is down 10%.
+
+169
+00:14:18,830 --> 00:14:26,130
+Sorry guys. It's because after hours data, thinkorswim is down like 20%. Yeah.
+
+170
+00:14:26,190 --> 00:14:30,090
+Because like thinkorswim is using this right now. So no,
+
+171
+00:14:30,150 --> 00:14:35,190
+even that should be over here. I don't know. It's all messed up. Okay.
+
+172
+00:14:35,210 --> 00:14:36,830
+Whatever. We're going to use this as spot price.
+
+173
+00:14:37,290 --> 00:14:39,770
+So we're using the close data as spot price right now.
+
+174
+00:14:39,850 --> 00:14:45,910
+Thinkorswim has the close at $46, even though that's after hours data. Okay.
+
+175
+00:14:46,820 --> 00:14:53,720
+So let's, let's say we drop vols. So actually, sorry. Okay. So scenario one,
+
+176
+00:14:53,980 --> 00:15:00,790
+okay. The stock moves up to $49. If it does move up to $49, right,
+
+177
+00:15:00,870 --> 00:15:07,630
+we are going to see implied vols, let's say rally another 10%. Okay.
+
+178
+00:15:07,630 --> 00:15:13,290
+And so we are going to be losing money on vega and on delta, right?
+
+179
+00:15:13,330 --> 00:15:16,770
+But thankfully we get, let's say we get a little theta, right?
+
+180
+00:15:17,680 --> 00:15:18,700
+We're going to be okay.
+
+181
+00:15:20,830 --> 00:15:28,900
+Now on the flip side, if spot drops, we are going to earn on vega.
+
+182
+00:15:30,370 --> 00:15:32,830
+And so it's okay to be positioned slightly.
+
+183
+00:15:35,800 --> 00:15:39,640
+It's okay to be positioned slightly long delta because even if it does drop,
+
+184
+00:15:40,210 --> 00:15:41,830
+right, we're still going to earn.
+
+185
+00:15:43,860 --> 00:15:48,380
+All right. And just to show you guys another example here, let us do this.
+
+186
+00:15:48,640 --> 00:15:50,060
+Where do the strike is,
+
+187
+00:15:52,780 --> 00:15:57,840
+let's say 46, or we have a lot of short delta. Okay.
+
+188
+00:16:11,520 --> 00:16:20,290
+It's all messed up. There we go. There you go. If the stock were to rally,
+
+189
+00:16:20,570 --> 00:16:22,250
+right, 10%,
+
+190
+00:16:22,250 --> 00:16:27,610
+we'd be losing quite a bit on delta and our drop in vega or our increase in vega
+
+191
+00:16:27,610 --> 00:16:32,790
+would really damage us.
+
+192
+00:16:34,040 --> 00:16:40,040
+So that's why we want to have positioned above spot with slightly bullish view.
+
+193
+00:16:40,120 --> 00:16:43,060
+We're taking like twice the loss that we would be, right. Or more,
+
+194
+00:16:43,280 --> 00:16:46,720
+three times almost, it was like a thousand last time, right?
+
+195
+00:16:47,990 --> 00:16:51,370
+So we need to remember that when we do take on these trades,
+
+196
+00:16:51,490 --> 00:16:56,390
+we sometimes have an implicit directional view. We might say, well,
+
+197
+00:16:56,430 --> 00:16:57,550
+we're bearish on vols,
+
+198
+00:16:57,710 --> 00:17:01,410
+but we might only be bearish on by being bearish on vols.
+
+199
+00:17:01,550 --> 00:17:05,170
+We are implicitly saying, we think the stock is going to go down. Right.
+
+200
+00:17:06,990 --> 00:17:09,030
+If we're looking at, that's the key right there to really know, right.
+
+201
+00:17:09,110 --> 00:17:14,400
+That Ivy spot correlation tells you more about your view when you,
+
+202
+00:17:14,700 --> 00:17:16,440
+when you put on your trade, right.
+
+203
+00:17:16,460 --> 00:17:18,940
+If there's an extremely strong correlation where, you know,
+
+204
+00:17:18,940 --> 00:17:22,860
+implied volatility goes up when this stock goes down or, you know,
+
+205
+00:17:22,860 --> 00:17:24,560
+implied volatility go for this example,
+
+206
+00:17:24,660 --> 00:17:29,520
+implied volatility goes up when the stock goes up. Well, when you're short vol,
+
+207
+00:17:30,570 --> 00:17:30,970
+you know,
+
+208
+00:17:30,990 --> 00:17:33,890
+you clearly don't want the stock to go up because what happens when the stock goes
+
+209
+00:17:33,890 --> 00:17:37,100
+up, vols go up, right.
+
+210
+00:17:37,120 --> 00:17:41,420
+So it shows you about your relationship with Delta when you're taking that view
+
+211
+00:17:41,420 --> 00:17:43,560
+on implied volatility.
+
+212
+00:17:45,650 --> 00:17:51,290
+Hmm. So in this case, if GME were to trade down to let's say $30 a share,
+
+213
+00:17:52,310 --> 00:17:58,760
+implied vol would be likely, let's say back to 140, right. Or lower. Yeah,
+
+214
+00:17:58,820 --> 00:18:04,950
+it could go even lower. So we always need to keep that in mind when we're,
+
+215
+00:18:05,030 --> 00:18:06,450
+when we're trading volatility, right.
+
+216
+00:18:06,450 --> 00:18:11,070
+We sometimes have an implicit directional view, right? If we are long equity,
+
+217
+00:18:12,070 --> 00:18:15,330
+right, imagine you were long in the S&P 500. You were also saying,
+
+218
+00:18:15,480 --> 00:18:19,360
+I don't think there's going to be a lot of volatility, right?
+
+219
+00:18:19,360 --> 00:18:24,470
+Because if there is a lot of volatility, the S&P usually goes down. Okay.
+
+220
+00:18:28,390 --> 00:18:31,510
+And so to answer Ko's question that he always asks,
+
+221
+00:18:31,670 --> 00:18:34,220
+how can we make money from this? Well,
+
+222
+00:18:34,740 --> 00:18:37,100
+it's not necessarily how do you make money from this?
+
+223
+00:18:37,160 --> 00:18:41,080
+It's how do you understand the trade you have on, right? At the end of the day,
+
+224
+00:18:41,380 --> 00:18:44,640
+sometimes we're going to have really bad ideas.
+
+225
+00:18:44,720 --> 00:18:45,920
+Sometimes we're going to have really good ideas,
+
+226
+00:18:45,980 --> 00:18:47,480
+but if we can't manage these positions,
+
+227
+00:18:47,480 --> 00:18:50,520
+if we don't understand the risk we have on or what we expect,
+
+228
+00:18:50,700 --> 00:18:53,260
+we think is going to happen and we can't make money.
+
+229
+00:18:54,520 --> 00:18:58,120
+If what we were able to do here was put on a trade that better expresses our view,
+
+230
+00:18:59,020 --> 00:19:03,400
+right? We knew that, you know, we could take off, you know,
+
+231
+00:19:03,560 --> 00:19:07,240
+we would be in a better spot structuring it this way because of that correlation,
+
+232
+00:19:07,380 --> 00:19:09,800
+it added another piece to the puzzle of our analysis.
+
+233
+00:19:12,740 --> 00:19:20,570
+If you're bearish on lit, right? If you think lit is going to trade down to 60,
+
+234
+00:19:21,550 --> 00:19:25,130
+right? You know, you sure you could take a short Delta bet,
+
+235
+00:19:25,350 --> 00:19:28,320
+but you could also sell vol, right?
+
+236
+00:19:28,400 --> 00:19:30,720
+And those are going to express a very similar view.
+
+237
+00:19:34,500 --> 00:19:35,220
+So blessing saying, you know,
+
+238
+00:19:35,260 --> 00:19:39,700
+is this what Wechsler from Maple Leaf Capital means when he says most option traders
+
+239
+00:19:39,700 --> 00:19:44,000
+are vol traders by default? So every option trader is a vol trader.
+
+240
+00:19:44,000 --> 00:19:46,960
+They are taking a direction on vol, right?
+
+241
+00:19:47,020 --> 00:19:49,160
+Think about it like this with a stock, you can say,
+
+242
+00:19:49,280 --> 00:19:53,220
+I'm going to buy Coca-Cola and hold until I'm profitable, right?
+
+243
+00:19:53,220 --> 00:19:55,880
+I'm going to buy Coke and I'm going to be a Warren Buffett and hold until I'm profitable.
+
+244
+00:19:56,680 --> 00:19:59,080
+But with an option trader, you are saying,
+
+245
+00:19:59,280 --> 00:20:03,040
+I'm going to buy this and something's got to happen by this date.
+
+246
+00:20:03,600 --> 00:20:08,530
+And so you are explicitly trading volatility, right?
+
+247
+00:20:08,530 --> 00:20:11,230
+You are adding that volatility component. Yeah. You have this,
+
+248
+00:20:11,550 --> 00:20:15,710
+how much component, right? Volatility is the size of these moves,
+
+249
+00:20:15,750 --> 00:20:20,140
+the how much is the volatility part, right? And then a lot of traders,
+
+250
+00:20:20,260 --> 00:20:22,180
+they don't know that they're trading volatility.
+
+251
+00:20:22,500 --> 00:20:26,800
+But what Michael Wechsler is saying is that you are a volatility trader,
+
+252
+00:20:26,940 --> 00:20:27,940
+even if you don't know it.
+
+253
+00:20:30,650 --> 00:20:34,210
+Exactly. Right. It's like, you know,
+
+254
+00:20:34,330 --> 00:20:37,430
+it's like some people know they're playing the game and people don't know they're
+
+255
+00:20:37,430 --> 00:20:39,150
+playing the game, but everybody's playing the game.
+
+256
+00:20:41,450 --> 00:20:42,510
+So Stan saying,
+
+257
+00:20:43,250 --> 00:20:46,670
+what if the IV and spot correlation changes after we put on the trade,
+
+258
+00:20:46,750 --> 00:20:50,950
+you know, so it goes from being correlated to uncorrelated. In that instance,
+
+259
+00:20:50,950 --> 00:20:53,730
+do we quit the trade because our premise is no longer valid?
+
+260
+00:20:56,670 --> 00:20:59,930
+So it's not your primary premise, right? It's not like the, you know,
+
+261
+00:20:59,970 --> 00:21:02,650
+that's not your main, your main trade is not the correlation there.
+
+262
+00:21:04,040 --> 00:21:06,720
+Do you have any trades that you do where that is the core? That is the premise?
+
+263
+00:21:06,920 --> 00:21:10,640
+Well, not, not necessarily. Like I always have a view on vol itself,
+
+264
+00:21:10,640 --> 00:21:15,200
+but we can say, for example, if I think let is going to trade down, right.
+
+265
+00:21:16,480 --> 00:21:19,440
+And it's going to trade, let's say, trade down slowly. I can just short vol.
+
+266
+00:21:20,160 --> 00:21:21,920
+Right. Of course I can short Delta, but maybe,
+
+267
+00:21:22,500 --> 00:21:26,160
+maybe I'm taking on too much risk, right? Yeah. I'm doing that. So in this,
+
+268
+00:21:26,220 --> 00:21:27,040
+we're basically saying like,
+
+269
+00:21:27,340 --> 00:21:31,240
+we're minimizing the impact of us being wrong on that by taking advantage of this
+
+270
+00:21:31,240 --> 00:21:34,960
+correlation. Right. But, but then if the correlations, let's say like,
+
+271
+00:21:34,960 --> 00:21:42,240
+you know, tomorrow lit goes down 2% and vols go up a point. Yeah.
+
+272
+00:21:42,320 --> 00:21:45,440
+We're not going to be freaking out. No, we wouldn't be freaking out.
+
+273
+00:21:45,460 --> 00:21:48,220
+Because that's not really like our, that is not our trade.
+
+274
+00:21:48,700 --> 00:21:52,620
+It's just a piece of the puzzle that we took into consideration when structuring
+
+275
+00:21:52,620 --> 00:21:58,400
+it. But the strategy or the idea doesn't fall apart in that situation.
+
+276
+00:21:58,400 --> 00:22:03,220
+But if let's say traded down 5% tomorrow and vols picked up,
+
+277
+00:22:03,310 --> 00:22:05,370
+now we're probably in a tricky spot here.
+
+278
+00:22:05,390 --> 00:22:10,210
+We'd probably exit the position because on a rally vols might increase and on a
+
+279
+00:22:10,210 --> 00:22:12,330
+future down move vols might increase.
+
+280
+00:22:12,450 --> 00:22:15,490
+We might actually flip this position and maybe, you know,
+
+281
+00:22:15,530 --> 00:22:18,980
+pick up some long vol. Hey Swati, good to see you.
+
+282
+00:22:19,460 --> 00:22:20,940
+Swati has a question here for us.
+
+283
+00:22:21,780 --> 00:22:24,700
+Isn't IV and spot correlation related to gamma?
+
+284
+00:22:25,160 --> 00:22:27,120
+Like negative gamma is buying dips,
+
+285
+00:22:27,280 --> 00:22:29,740
+selling reps and positive gamma is the opposite.
+
+286
+00:22:30,230 --> 00:22:36,700
+So IV and spot will be correlated, you know, on the basis of gamma. Okay.
+
+287
+00:22:36,920 --> 00:22:40,530
+So Swati, so a negative gamma,
+
+288
+00:22:40,650 --> 00:22:48,230
+so short gamma is you're actually selling the dips and you are buying the reps,
+
+289
+00:22:48,370 --> 00:22:50,110
+right? Because if you think about it,
+
+290
+00:22:50,190 --> 00:22:53,090
+so let me just put it up here to show you.
+
+291
+00:22:53,090 --> 00:23:02,110
+So let's say we put on a position here where we are short gamma.
+
+292
+00:23:06,310 --> 00:23:07,490
+Okay. So here we're short gamma.
+
+293
+00:23:07,650 --> 00:23:11,270
+We can see that right here through our risk profile,
+
+294
+00:23:11,350 --> 00:23:18,000
+we're short negative 28 gamma. Now when the stock rallies, okay,
+
+295
+00:23:18,120 --> 00:23:22,680
+when the stock rallies, we need to buy shares, right?
+
+296
+00:23:22,700 --> 00:23:28,160
+In order to hedge our position, right? Otherwise we're just going to keep,
+
+297
+00:23:28,240 --> 00:23:30,900
+we're just going to keep losing money, keep losing money. So we need to buy,
+
+298
+00:23:30,980 --> 00:23:36,080
+we need to buy shares. And if it, if it drops, right, if the stock drops, well,
+
+299
+00:23:36,180 --> 00:23:38,020
+we need to start selling shares.
+
+300
+00:23:38,320 --> 00:23:42,740
+Otherwise we're just going to keep losing money, right? If we buy these dips,
+
+301
+00:23:43,000 --> 00:23:45,520
+then we're getting extra Delta and we don't want that.
+
+302
+00:23:46,690 --> 00:23:53,560
+So when we were short gamma, we are selling the dips and buying the,
+
+303
+00:23:53,560 --> 00:23:58,540
+buying the reps and a long gamma is vice versa is, is, is on the flip side,
+
+304
+00:23:58,660 --> 00:24:09,300
+right? And we can see that right in the stock rallies,
+
+305
+00:24:09,420 --> 00:24:16,630
+we want to get short and when the stock pushes, we want to when the stock dips,
+
+306
+00:24:16,770 --> 00:24:18,110
+we want to, we want to get long.
+
+307
+00:24:21,380 --> 00:24:23,160
+So and then the second,
+
+308
+00:24:23,300 --> 00:24:31,330
+the follow-up part was to that was so Ivy and spot will be correlated conditioned
+
+309
+00:24:31,330 --> 00:24:32,430
+on gamma.
+
+310
+00:24:37,780 --> 00:24:44,760
+So Ivy and spot will be correlated, conditioned on gamma. You know what Swati?
+
+311
+00:24:44,960 --> 00:24:48,760
+I honestly, I'm not too sure what you are saying here,
+
+312
+00:24:51,700 --> 00:24:55,400
+to be honest, I'm not 100% sure about the question.
+
+313
+00:25:00,220 --> 00:25:02,420
+Yeah. I, I'm not 100% sure what you're saying here.
+
+314
+00:25:02,420 --> 00:25:04,420
+Maybe if you want to maybe ask it in a different way or,
+
+315
+00:25:04,440 --> 00:25:06,620
+or maybe clarify it a little bit, then I'd love to,
+
+316
+00:25:06,660 --> 00:25:11,260
+I'd love to ask for the lesson. Do we have anything else you want to add here?
+
+317
+00:25:12,460 --> 00:25:14,080
+Not really. Just be aware of it, right?
+
+318
+00:25:14,120 --> 00:25:19,800
+Be aware of the the implied correlation and spot correlation, right?
+
+319
+00:25:19,800 --> 00:25:26,840
+Be aware that if you're buying stock, you are basically short the VIX, right?
+
+320
+00:25:26,940 --> 00:25:30,160
+So just always be aware of that during the position and what you think will happen
+
+321
+00:25:30,160 --> 00:25:30,620
+to the stock.
+
+322
+00:25:30,700 --> 00:25:34,760
+If you're super bullish on the stock and it's correlated with vols, you know,
+
+323
+00:25:34,800 --> 00:25:38,180
+maybe it's not a good, maybe it doesn't really make sense to short volatility.
+
+324
+00:25:39,870 --> 00:25:42,960
+Okay. So just be aware of that. It's very cool.
+
+325
+00:25:45,180 --> 00:25:49,130
+So do we have any more questions for now? If not,
+
+326
+00:25:49,210 --> 00:25:50,930
+that will be the conclusion of the live.
+
+327
+00:25:53,080 --> 00:26:00,010
+So Swati says, I was trying to say, uh, it's maybe positive E,
+
+328
+00:26:00,860 --> 00:26:05,680
+positive EV gamma will be IV and spot correlated or no, uh,
+
+329
+00:26:05,680 --> 00:26:08,480
+it's maybe it'll be, uh,
+
+330
+00:26:13,220 --> 00:26:17,340
+uh, Swati, are you big on Twitter? I feel like I saw someone post,
+
+331
+00:26:17,420 --> 00:26:21,340
+so is this plus Vega gamma? I saw someone post VE one time as,
+
+332
+00:26:21,340 --> 00:26:27,900
+as Vega on Twitter. Okay. So I was trying to say, uh, is my, uh,
+
+333
+00:26:27,900 --> 00:26:34,590
+I was trying to say, it may be plus Vega, positive Vega,
+
+334
+00:26:34,710 --> 00:26:39,430
+positive gamma will be IV and spot correlated. Maybe I'm getting it wrong.
+
+335
+00:26:41,910 --> 00:26:43,990
+You know what Swati? Let's, um, send me,
+
+336
+00:26:44,170 --> 00:26:46,050
+send me a message after this or chat in the group. Yeah.
+
+337
+00:26:46,070 --> 00:26:47,690
+Let's talk about it in the trainers chat. Yeah.
+
+338
+00:26:47,690 --> 00:26:50,650
+I'm a little confused on the question you're asking here. Uh,
+
+339
+00:26:52,840 --> 00:26:58,020
+so sensing is implied volatility of an individual stock correlated to the VXX somehow
+
+340
+00:26:58,580 --> 00:27:02,580
+every stock, uh, has different IV in respect to their sector, right?
+
+341
+00:27:04,040 --> 00:27:06,580
+So every stock is going to have a different implied volatility,
+
+342
+00:27:06,620 --> 00:27:09,120
+not based on their sector, but based on a lot of things, right?
+
+343
+00:27:09,120 --> 00:27:11,700
+Their fundament, uh, their, their fundamental value, right? If a stock,
+
+344
+00:27:11,800 --> 00:27:14,040
+it only has cash on their balance on their, on their book,
+
+345
+00:27:14,060 --> 00:27:16,780
+it doesn't make sense for it to have a lot of volatility, right?
+
+346
+00:27:16,880 --> 00:27:18,440
+If you are a startup growth company,
+
+347
+00:27:18,440 --> 00:27:20,400
+it will make sense for you to have a lot of, a lot of volatility.
+
+348
+00:27:20,400 --> 00:27:25,100
+Then there's other things like, uh, if, if this, if stock X,
+
+349
+00:27:25,140 --> 00:27:29,220
+let's say Facebook is super correlated to, uh, the NASDAQ, well,
+
+350
+00:27:29,340 --> 00:27:31,420
+if it gets out of line with the NASDAQ,
+
+351
+00:27:31,480 --> 00:27:35,260
+arbitrage are going to come in and try to collapse that spread.
+
+352
+00:27:35,780 --> 00:27:39,500
+So there's a lot of factors that are going to play into, uh, the,
+
+353
+00:27:39,860 --> 00:27:44,630
+what is the fair value of this implied volatility, uh, of this asset. Um,
+
+354
+00:27:44,830 --> 00:27:49,030
+and I feel like we've done, we've made like hundreds of hundreds of videos, uh,
+
+355
+00:27:49,410 --> 00:27:51,970
+about that stuff, maybe like one, one piece at a time.
+
+356
+00:27:52,070 --> 00:27:56,710
+So if you just keep chugging away there, you'll definitely, uh,
+
+357
+00:27:56,710 --> 00:27:57,970
+you'll definitely pick up on all that. Stan,
+
+358
+00:27:57,990 --> 00:28:03,180
+as you work your way through that archive of 200 hours of content, it'll, uh,
+
+359
+00:28:03,180 --> 00:28:04,740
+it'll be there for you. And then, but Stan,
+
+360
+00:28:04,800 --> 00:28:09,140
+make sure you go through the bronze first, it's important. And then, so one,
+
+361
+00:28:09,200 --> 00:28:10,080
+one last thing, uh,
+
+362
+00:28:10,080 --> 00:28:14,220
+Stan saying is implied volatility of individual stock correlated to the VIX somehow.
+
+363
+00:28:16,270 --> 00:28:19,530
+So usually they're going to be negatively correlated and that's for the VIX is,
+
+364
+00:28:19,630 --> 00:28:23,150
+is the vol on the S&P. Okay. VIX is the vol on the S&P 500.
+
+365
+00:28:23,530 --> 00:28:28,300
+And usually stocks are correlated with the S&P 500, right?
+
+366
+00:28:29,060 --> 00:28:31,920
+Facebook is definitely correlated with the S&P 500. So,
+
+367
+00:28:32,180 --> 00:28:38,660
+and S&P 500 is negatively correlated with the VIX. So if S&P drops, uh,
+
+368
+00:28:39,000 --> 00:28:43,560
+vols go up. So usually you're going to see if the stock goes down,
+
+369
+00:28:43,660 --> 00:28:45,940
+the vols increase, look at Twitter, look at Baba.
+
+370
+00:28:46,850 --> 00:28:48,670
+Sometimes you're going to have these mean stocks,
+
+371
+00:28:48,750 --> 00:28:54,380
+these other stocks that when the stock rallies, implied vol picks up.
+
+372
+00:28:54,780 --> 00:28:56,980
+Even with those, like you, you wouldn't be, uh,
+
+373
+00:28:57,770 --> 00:28:59,610
+so I think an important thing to talk about is, you know,
+
+374
+00:28:59,610 --> 00:29:02,470
+let's say we're looking at Tesla, right? In a market crash,
+
+375
+00:29:02,590 --> 00:29:06,380
+Tesla vols would probably still go up, right? For these massive moves, right?
+
+376
+00:29:06,380 --> 00:29:09,360
+Let's say the stock drops 30%. Yes. Vols are still going to go up.
+
+377
+00:29:09,380 --> 00:29:13,860
+So you wouldn't, you wouldn't be using Tesla as a hedge, right? Right.
+
+378
+00:29:13,860 --> 00:29:14,880
+So super important thing, I guess,
+
+379
+00:29:14,960 --> 00:29:18,380
+last thing we should talk about on that is we are talking about the more or less
+
+380
+00:29:18,380 --> 00:29:22,140
+the non-event volatility of it, right? The regular volatility of it.
+
+381
+00:29:22,280 --> 00:29:26,980
+But if you have a huge catalyst that drops the market, you know, or, uh,
+
+382
+00:29:26,980 --> 00:29:31,600
+you know, a huge earnings blunder that caused the stock to drop 20%,
+
+383
+00:29:31,600 --> 00:29:33,280
+you should still, you know, it's,
+
+384
+00:29:33,280 --> 00:29:37,640
+it's highly likely you will see vols go through the roof still, right?
+
+385
+00:29:37,680 --> 00:29:44,290
+Super important point, right? You would not be, um, you know, would it be, uh,
+
+386
+00:29:44,950 --> 00:29:45,170
+you know,
+
+387
+00:29:45,170 --> 00:29:50,860
+buying vol on a Tesla or selling vol on Tesla as a hedge for a market crash?
+
+388
+00:29:51,100 --> 00:29:55,440
+Yeah. You would never do that. Yeah. Um, and you know,
+
+389
+00:29:55,520 --> 00:29:59,480
+Sean just gave me a good idea here to draw it out here. Uh, there's, it's,
+
+390
+00:29:59,480 --> 00:30:02,520
+it's, it's, it's path dependency. Okay. So you have this, let's say meme stock.
+
+391
+00:30:02,540 --> 00:30:03,740
+Okay. It's trading like this.
+
+392
+00:30:06,560 --> 00:30:10,040
+Now, wherever the implied, wherever the realized vol is going to increase,
+
+393
+00:30:10,340 --> 00:30:13,500
+okay, is where we're going to see, uh, the spot correlation, right?
+
+394
+00:30:13,520 --> 00:30:17,960
+So let's say this is the S and P 500. If the S and P 500 moves down,
+
+395
+00:30:18,080 --> 00:30:22,820
+we should see it move down with more volatility, right? Stocks go up like a,
+
+396
+00:30:22,820 --> 00:30:26,990
+uh, escalator down like an elevator. Now if we,
+
+397
+00:30:27,070 --> 00:30:32,250
+if this was Tesla and let's say this is Tesla at 800, okay.
+
+398
+00:30:32,250 --> 00:30:39,880
+If Tesla were to trade at 900 in let's say a month, where would volatility be?
+
+399
+00:30:40,630 --> 00:30:47,410
+If Tesla were to trade at 700 in a month, where would volatility be?
+
+400
+00:30:47,910 --> 00:30:53,390
+And what we should see, right, especially with these, these, uh, meme, these,
+
+401
+00:30:53,470 --> 00:30:59,890
+uh, you know, uh, wild stocks like, uh, GME is that if it were to trade to 900,
+
+402
+00:31:00,310 --> 00:31:02,350
+it would go there with pace.
+
+403
+00:31:02,890 --> 00:31:07,310
+The volatility along this path would be extremely high. Okay.
+
+404
+00:31:07,310 --> 00:31:10,630
+So options are path dependent and maybe we'll do a live on that down the road.
+
+405
+00:31:10,910 --> 00:31:14,270
+We did a lot. We talked about that in our, uh, one about,
+
+406
+00:31:14,630 --> 00:31:18,450
+we didn't talk about it like thoroughly, but in the one about, uh,
+
+407
+00:31:20,330 --> 00:31:24,170
+the event ball messing with the price of the option. Oh yeah. No,
+
+408
+00:31:24,190 --> 00:31:27,030
+we were like a whole bunch of slow ball days, one high ball day,
+
+409
+00:31:27,050 --> 00:31:31,650
+the option sees all of it. We, we, we drew out the decision tree. Right, right.
+
+410
+00:31:32,500 --> 00:31:37,910
+We started. Yeah. Yeah. I think we can go a little deeper. For sure. Um,
+
+411
+00:31:37,910 --> 00:31:40,590
+so if it goes to 900, the vol is going to be extremely high,
+
+412
+00:31:40,750 --> 00:31:44,630
+but if it goes to 700, maybe the vol is very low to 700,
+
+413
+00:31:44,630 --> 00:31:51,550
+but if it trades to 600, okay, vols get high.
+
+414
+00:31:52,530 --> 00:31:55,210
+So you need to think about that path dependency, right?
+
+415
+00:31:55,230 --> 00:31:58,030
+And that's basically what the implied vol spot correlation is.
+
+416
+00:31:58,110 --> 00:32:00,770
+The market saying, cause the market is what's implied, right?
+
+417
+00:32:00,770 --> 00:32:04,800
+It's the market's view. If the stock goes up, implied vols and go up,
+
+418
+00:32:05,070 --> 00:32:09,310
+the stock goes down a little bit. The implied vol will drop,
+
+419
+00:32:09,410 --> 00:32:11,550
+but if the stock goes down quite a bit,
+
+420
+00:32:11,910 --> 00:32:13,430
+implied vols are going to increase again.
+
+421
+00:32:13,470 --> 00:32:15,190
+And that's what Sean was saying about the Tesla.
+
+422
+00:32:16,740 --> 00:32:19,040
+And we just hadn't mentioned that. So super important. Yeah.
+
+423
+00:32:25,380 --> 00:32:27,880
+Yeah. Mark, exactly. Right. So Mark saying, uh, you know, you would want to,
+
+424
+00:32:28,060 --> 00:32:30,980
+you know, during a, to hedge a market crash, you'd want to be long VIX,
+
+425
+00:32:31,260 --> 00:32:34,860
+not long equities, unless it was an inverse ETF or something similar. Yeah,
+
+426
+00:32:34,860 --> 00:32:39,420
+exactly. Mark. The, the, the main thing that I, are you using this? Yep. Yeah.
+
+427
+00:32:39,540 --> 00:32:41,520
+No, no, no. Right. Yeah. Mark. The, uh,
+
+428
+00:32:41,520 --> 00:32:45,480
+the main thing I was just pointing out there was just because you see Tesla has,
+
+429
+00:32:45,700 --> 00:32:50,560
+uh, you know, when, when Tesla goes up, implied vols go up, you know,
+
+430
+00:32:50,560 --> 00:32:55,600
+you wouldn't be, uh, you know, selling vol on Tesla as a hedge for the market.
+
+431
+00:32:55,740 --> 00:32:57,660
+Even though, you know, when Tesla goes down,
+
+432
+00:32:57,680 --> 00:33:02,550
+we see vol come down because that's not taking into account,
+
+433
+00:33:02,630 --> 00:33:07,210
+like a massive move down or a massive move down would still drive the vol up on
+
+434
+00:33:07,210 --> 00:33:09,950
+Tesla, even though it has that positive correlation.
+
+435
+00:33:12,450 --> 00:33:14,990
+And so blessing saying, so the more uncertainty there is,
+
+436
+00:33:15,030 --> 00:33:16,810
+the higher the chance of non-correlation.
+
+437
+00:33:16,990 --> 00:33:21,430
+It's not really about the uncertainty blessing. It's just basically about, um,
+
+438
+00:33:21,470 --> 00:33:23,410
+where the stock is going to see the volatility.
+
+439
+00:33:23,410 --> 00:33:25,290
+Is it going to see the volatility to the upside?
+
+440
+00:33:25,410 --> 00:33:27,370
+Is it going to see the volatility to the downside?
+
+441
+00:33:27,870 --> 00:33:31,620
+Whereas where's the volatility coming from? Right. So for example,
+
+442
+00:33:31,620 --> 00:33:34,900
+if we look at Tesla, we see 6% moves up,
+
+443
+00:33:35,600 --> 00:33:42,620
+3% moves down on the S and P we see 1% moves up, 4% moves down. Right.
+
+444
+00:33:42,660 --> 00:33:45,400
+So where, where is the volatility likely to be?
+
+445
+00:33:45,420 --> 00:33:47,440
+And that's going to cause that implied, uh,
+
+446
+00:33:47,440 --> 00:33:50,940
+realized correlation or implied spot correlation. Yeah. Mark,
+
+447
+00:33:50,960 --> 00:33:56,380
+I was basically just saying that, you know, an, uh, an equity like, um,
+
+448
+00:33:56,760 --> 00:34:01,840
+Tesla has a positive correlation between implied volatility and a price.
+
+449
+00:34:02,020 --> 00:34:06,360
+So when the price goes up, we see the implied vol go up for Tesla.
+
+450
+00:34:06,540 --> 00:34:08,960
+When the price comes down, we see the implied vol come down.
+
+451
+00:34:09,420 --> 00:34:13,460
+Now for the whole live, we talked about that, uh, just as, as a statement.
+
+452
+00:34:13,660 --> 00:34:15,420
+And I was just clarifying that with this,
+
+453
+00:34:15,580 --> 00:34:21,100
+this is not saying that you could be using Tesla vol as a hedge against a market
+
+454
+00:34:21,100 --> 00:34:23,560
+crash because if test,
+
+455
+00:34:27,420 --> 00:34:31,140
+okay, sorry. Yeah. Just to clear that, that if the market goes down,
+
+456
+00:34:31,220 --> 00:34:34,260
+they're all going down together. Okay. And the vols will go up for all of them.
+
+457
+00:34:34,570 --> 00:34:38,890
+Okay. Yeah. Sorry. It wasn't clear there. Yeah. One last thing there. Yeah.
+
+458
+00:34:38,890 --> 00:34:39,730
+So Swati's asking,
+
+459
+00:34:39,850 --> 00:34:43,750
+is it always better to buy deep in the money leaps instead of equity because it's
+
+460
+00:34:43,750 --> 00:34:48,450
+protected? So the answer is, is, um, there's never any, there's never a better,
+
+461
+00:34:48,710 --> 00:34:51,290
+right? That's the, that's the one thing. There's never a better, um,
+
+462
+00:34:51,470 --> 00:34:56,020
+every tool uses is used for a certain situation. Buying an in the money leap,
+
+463
+00:34:56,610 --> 00:35:00,170
+you're still going to pay some type of extrinsic value, right?
+
+464
+00:35:00,170 --> 00:35:02,650
+Some type of premium. And so for that reason,
+
+465
+00:35:02,770 --> 00:35:04,710
+if implied volatilities are too expensive,
+
+466
+00:35:04,710 --> 00:35:07,390
+you're going to be paying too much for that, even though it's a little bit,
+
+467
+00:35:07,610 --> 00:35:12,190
+right? That being said, if let's say the stock were to come down like crazy,
+
+468
+00:35:12,570 --> 00:35:15,310
+sure. The implied volatility will pick up, right.
+
+469
+00:35:15,330 --> 00:35:19,990
+And offset some of your losses, but your Delta is one for those options, right?
+
+470
+00:35:19,990 --> 00:35:23,070
+Assuming it's really, really far in the end of money, let's say it's like 0.9,
+
+471
+00:35:23,710 --> 00:35:28,230
+right? So you're going to have such a big loss on Delta. You're offset from,
+
+472
+00:35:28,270 --> 00:35:31,910
+um, you know, you're offset from a little bit of a Vega hedge.
+
+473
+00:35:32,130 --> 00:35:36,480
+It's not really going to, um, it's not really going to cut it. So there's debt.
+
+474
+00:35:36,620 --> 00:35:37,960
+I wouldn't say it's definitely better. Also,
+
+475
+00:35:37,980 --> 00:35:42,240
+there's bigger transaction costs out there, right? Um, I would say if you,
+
+476
+00:35:42,420 --> 00:35:47,070
+if you want to be long to start or long Delta, nothing wrong with buying stock.
+
+477
+00:35:51,060 --> 00:35:57,610
+All right. Okay. So here we go. So that's it. Awesome. Great questions.
+
+478
+00:35:57,610 --> 00:36:00,610
+I really appreciated the really good questions tonight, everyone, um,
+
+479
+00:36:00,990 --> 00:36:04,330
+makes the lives a lot more fun. And, uh, I think for everyone watching,
+
+480
+00:36:04,450 --> 00:36:08,270
+there's so much more value when we have these, uh, questions come in.
+
+481
+00:36:08,390 --> 00:36:15,320
+So let's keep it up. Thanks guys. And, uh, tomorrow poker night, Mark, Mark,
+
+482
+00:36:15,340 --> 00:36:17,840
+you better be there, man. No excuses, buddy. Eric. You too.
+
+483
+00:36:20,100 --> 00:36:24,940
+What's Mark saying? Stan. You got to be there too, man. Oh, Hannah.
+
+484
+00:36:25,200 --> 00:36:27,600
+Don't forget to be there. Okay. We know you're going to be there.
+
+485
+00:36:28,060 --> 00:36:33,120
+What do you mean? Stan, you've got, you literally have 23 hours to learn. Okay.
+
+486
+00:36:34,000 --> 00:36:37,880
+Guys, go figure it out. Mark. No response. Yeah. I know. Right. Mark.
+
+487
+00:36:37,980 --> 00:36:40,320
+What's going on? If you go into the archive,
+
+488
+00:36:40,440 --> 00:36:44,680
+there's actually a few videos on poker strategy there. He's still Mark.
+
+489
+00:36:45,180 --> 00:36:49,680
+We need to see you out there tomorrow, buddy. Come on, Mark. There he is.
+
+490
+00:36:53,870 --> 00:36:56,310
+How old is Mark? If we, Sean and I are going to make a post,
+
+491
+00:36:56,370 --> 00:36:59,950
+if we get more than 15 likes on it, you got to come out. You have to come.
+
+492
+00:37:01,190 --> 00:37:02,790
+How about that? Even if it's for an hour.
+
+493
+00:37:06,760 --> 00:37:09,740
+Yeah. So if you want to learn a little bit about poker,
+
+494
+00:37:10,020 --> 00:37:11,200
+go online and learn the basics.
+
+495
+00:37:11,320 --> 00:37:13,400
+And then you can learn a little bit about poker strategy.
+
+496
+00:37:13,520 --> 00:37:19,120
+If you go into the live archive, we have two or three videos on poker strategy.
+
+497
+00:37:19,540 --> 00:37:21,300
+Yeah. We're going to be playing on PokerStars.
+
+498
+00:37:21,340 --> 00:37:27,400
+We have a homeroom that we play in and then Sean and I give out $25 to the winners.
+
+499
+00:37:27,780 --> 00:37:30,800
+Except we never lose. Except, yeah, Mark, we don't lose.
+
+500
+00:37:31,960 --> 00:37:36,980
+Hutch is probably fuming right now. Or Hannah, sorry, not Hutch.
+
+501
+00:37:37,340 --> 00:37:38,940
+Hutch is not here today.
+
+502
+00:37:41,570 --> 00:37:47,400
+So yeah, we definitely, we need some competition out there. Okay, everyone.
+
+503
+00:37:47,980 --> 00:37:51,780
+We will see you tomorrow for poker night and to chat during the day.
+
+504
+00:37:52,820 --> 00:37:54,680
+We're going to be doing a whole bunch of market analysis tomorrow,
+
+505
+00:37:54,700 --> 00:37:57,180
+so we'll see you in the chat. Yep. See you guys. Andres,
+
+506
+00:37:57,260 --> 00:37:59,460
+I see you sneaking in late, man. Hey, buddy.
+
+507
+00:38:01,550 --> 00:38:03,730
+All right. See ya. Bye.

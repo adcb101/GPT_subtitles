@@ -1,0 +1,3155 @@
+1
+00:00:00,500 --> 00:00:06,240
+All right, where we are recording. Thank you, Eric So,
+
+2
+00:00:06,300 --> 00:00:10,140
+yeah that I've known about these for quite a long time I've never made much use
+
+3
+00:00:10,140 --> 00:00:15,610
+out of them That that also says guys Just because I don't make use of them doesn't
+
+4
+00:00:15,610 --> 00:00:16,870
+mean they're not useful, right?
+
+5
+00:00:16,890 --> 00:00:20,690
+There's things that I use that other people might think is useless For example implied
+
+6
+00:00:20,690 --> 00:00:23,810
+volatility right a lot of people think implied volatility is useless yet.
+
+7
+00:00:23,890 --> 00:00:29,500
+It's the way that I make my living so But I think I do have a pretty good grasp
+
+8
+00:00:29,500 --> 00:00:34,580
+on on how they on how they operate what they are And so I really want to break that
+
+9
+00:00:34,580 --> 00:00:40,930
+down for you guys All right, so we're going to jump right into it.
+
+10
+00:00:57,200 --> 00:01:07,960
+So I'm gonna share my screen and here we go So this is this interview not this interview.
+
+11
+00:01:08,060 --> 00:01:12,460
+This live is gonna be done in our however No coding knowledge is needed.
+
+12
+00:01:12,520 --> 00:01:16,370
+And if you want me to explain something, please slow me right down Okay,
+
+13
+00:01:16,630 --> 00:01:17,710
+please slow me right down guys.
+
+14
+00:01:25,410 --> 00:01:25,810
+Well,
+
+15
+00:01:25,810 --> 00:01:41,580
+I seem to get the chat going here Okay,
+
+16
+00:01:41,700 --> 00:01:46,520
+so I do have the chat live Please stop me along the way by the end of this guys
+
+17
+00:01:46,520 --> 00:01:51,500
+I want all of you to be well aware of what Vanna is what charm is and I honestly
+
+18
+00:01:51,500 --> 00:01:54,940
+think you guys are gonna be way ahead of the crowd in terms of this new buzzword
+
+19
+00:01:56,460 --> 00:01:59,360
+Okay, I'm monitoring the chat. So please ask any questions along the way.
+
+20
+00:01:59,460 --> 00:02:00,520
+Can everyone see my screen?
+
+21
+00:02:00,600 --> 00:02:09,540
+Okay Let me know if you guys can see my screen Awesome blessing.
+
+22
+00:02:09,660 --> 00:02:10,080
+How's everything?
+
+23
+00:02:24,430 --> 00:02:26,270
+Very cool. Very cool. Okay.
+
+24
+00:02:26,270 --> 00:02:29,530
+So as this as this thing is loading right here I just want to give a quick primer.
+
+25
+00:02:29,690 --> 00:02:32,050
+So right now we're seeing a big buzzword out there.
+
+26
+00:02:32,190 --> 00:02:39,800
+It's called Vanna Vanna and charm And what we're seeing on Twitter is a lot of people
+
+27
+00:02:39,800 --> 00:02:44,140
+talking about Vanna a lot of people talking about charm Seeing how you know,
+
+28
+00:02:44,420 --> 00:02:49,800
+they can apparently make money You know basically seeing the Vanna flows and when
+
+29
+00:02:49,800 --> 00:02:54,500
+they say Vanna flows what their meaning is Money coming into the market that is
+
+30
+00:02:54,500 --> 00:02:59,580
+creating. Let's say Certain buying and selling pressure. Okay,
+
+31
+00:02:59,620 --> 00:03:01,660
+or maybe I take that back. Actually,
+
+32
+00:03:01,680 --> 00:03:06,660
+it's not money coming into the market It's how the options are reacting That's causing
+
+33
+00:03:06,660 --> 00:03:13,300
+buying and selling pressure and that is a huge buzzword right now Everyone's talking
+
+34
+00:03:13,300 --> 00:03:18,560
+about it and Personally,
+
+35
+00:03:18,780 --> 00:03:22,740
+okay personally as you guys are gonna find out I don't think it is as important
+
+36
+00:03:22,740 --> 00:03:31,410
+as As these traders are claiming but you know a lot of the time guys,
+
+37
+00:03:31,590 --> 00:03:38,260
+oh actually and I want to say something else as well a Lot of people who are coming
+
+38
+00:03:38,260 --> 00:03:42,000
+on to Twitter and and and following these guys and you know talking these guys up
+
+39
+00:03:43,310 --> 00:03:47,410
+They actually don't understand what they're talking about right and and this is
+
+40
+00:03:47,410 --> 00:03:49,590
+actually coming from people messaging us saying hey,
+
+41
+00:03:49,590 --> 00:03:52,770
+listen I follow these guys. These guys are very cool.
+
+42
+00:03:53,630 --> 00:03:55,710
+I don't understand what they're talking about, right?
+
+43
+00:03:55,730 --> 00:04:03,510
+And I'm sure you guys can resonate with that as well Gemco song Chris video,
+
+44
+00:04:04,230 --> 00:04:04,350
+right?
+
+45
+00:04:04,430 --> 00:04:09,810
+These guys are talking about Vanna flows charm flows It's hard to keep up but because
+
+46
+00:04:09,810 --> 00:04:10,810
+of these fancy words,
+
+47
+00:04:10,850 --> 00:04:14,330
+we kind of get sucked in Maybe they know something more than us and we're just not
+
+48
+00:04:14,330 --> 00:04:17,550
+at their level yet And so for this live we want to really break that down.
+
+49
+00:04:21,370 --> 00:04:26,770
+All right, so First thing is Vanna Okay,
+
+50
+00:04:26,970 --> 00:04:30,850
+Vanna is and I'm gonna break this all down and if you guys don't understand this
+
+51
+00:04:31,310 --> 00:04:35,150
+We are going to break it down we're gonna go to the base layer We're gonna basically
+
+52
+00:04:35,150 --> 00:04:38,970
+take in this life You know this like foreign thing that no one can understand and
+
+53
+00:04:38,970 --> 00:04:40,670
+we're gonna bring it down to reality Okay,
+
+54
+00:04:40,690 --> 00:04:48,110
+so every single person on this life can understand including you Neil so Vanna is
+
+55
+00:04:48,110 --> 00:04:53,910
+the partial derivative of Delta with respect to volatility now I don't I don't you
+
+56
+00:04:53,910 --> 00:04:54,010
+know,
+
+57
+00:04:54,030 --> 00:04:56,750
+I don't need you guys to understand this This is how someone might explain it to
+
+58
+00:04:56,750 --> 00:05:03,100
+you Vanna is the partial derivative of Delta with respect to vol. Okay,
+
+59
+00:05:03,120 --> 00:05:07,210
+so Someone might say someone sees the formula like this. Okay,
+
+60
+00:05:07,350 --> 00:05:10,370
+so when someone might see the formula Okay, we're go line by line.
+
+61
+00:05:10,490 --> 00:05:19,310
+They might see Delta divided by vol divided by Vega or Sorry divided by vol IV and
+
+62
+00:05:19,600 --> 00:05:21,160
+they might see this fancy word there.
+
+63
+00:05:21,630 --> 00:05:24,630
+They might see this fancy letter So if I go on Google,
+
+64
+00:05:24,710 --> 00:05:29,850
+for example This might be a little bit of a longer guys a longer live probably an
+
+65
+00:05:29,850 --> 00:05:32,610
+hour Just because I really want you guys to understand this.
+
+66
+00:05:41,210 --> 00:05:42,490
+Let's see if they have it.
+
+67
+00:05:46,170 --> 00:06:00,910
+Okay, they don't have it here. Let's see Okay, here it is. Okay,
+
+68
+00:06:01,090 --> 00:06:09,130
+so This is gamma. Here it is. Perfect. So we might see it like this.
+
+69
+00:06:09,150 --> 00:06:13,550
+Okay The change in Delta,
+
+70
+00:06:13,970 --> 00:06:18,730
+so sorry you guys might see like this Delta divided by Vega Okay,
+
+71
+00:06:18,810 --> 00:06:24,390
+this is how some of us might see it Delta Divided by Vega or divided by implied
+
+72
+00:06:24,390 --> 00:06:28,290
+volatility But this is actually not what it is. Okay,
+
+73
+00:06:28,390 --> 00:06:39,010
+it is the partial derivative meaning the change in Delta with respect to the change
+
+74
+00:06:39,010 --> 00:06:41,660
+in implied volatility okay,
+
+75
+00:06:41,880 --> 00:06:50,810
+so what that means is if Volatility changes How does our Delta change? Okay,
+
+76
+00:06:50,890 --> 00:06:55,330
+if volatility changes, how does my Delta change? Okay,
+
+77
+00:06:55,350 --> 00:07:02,950
+it's not Delta divided by implied volatility or divide by Vega It's if the denominator
+
+78
+00:07:02,950 --> 00:07:08,370
+okay in this case implied volatility were to change How is my Delta going to change?
+
+79
+00:07:09,770 --> 00:07:10,170
+Okay,
+
+80
+00:07:10,270 --> 00:07:15,950
+does everyone understand that and Do please don't be afraid to say no Okay,
+
+81
+00:07:16,050 --> 00:07:19,810
+because we are gonna go step-by-step if I can't get everyone on this live to understanding
+
+82
+00:07:19,810 --> 00:07:23,470
+what Vanna flows are what charm flows are We're not gonna get it.
+
+83
+00:07:23,890 --> 00:07:31,830
+Thank you blessing So blessing and everyone else who also probably has the same
+
+84
+00:07:31,830 --> 00:07:39,510
+question because I know it's not just blessing Delta is the change in the option
+
+85
+00:07:39,510 --> 00:07:44,020
+price Okay with the change in the stock price.
+
+86
+00:07:45,010 --> 00:07:53,610
+So if the stock goes up a dollar Well, how much is my option gonna go up? Well,
+
+87
+00:07:53,630 --> 00:07:55,890
+if it's not the money Let's say has a Delta of 50.
+
+88
+00:07:56,050 --> 00:08:07,880
+It's gonna go up 50 cents a call option now what this is saying is if Volatility
+
+89
+00:08:07,880 --> 00:08:14,680
+was to change. Okay, if volatility was to change How would my Delta change?
+
+90
+00:08:15,970 --> 00:08:18,090
+Okay, if my let's say I have a Delta.
+
+91
+00:08:18,290 --> 00:08:25,190
+Let's say I buy out of the money call option it's trading at 30 deltas and implied
+
+92
+00:08:25,190 --> 00:08:31,550
+volatility changed Well, what would my Delta be if implied volatility changed?
+
+93
+00:08:34,750 --> 00:08:39,860
+So that is what Vanna is and we're actually gonna go in detail We're actually gonna
+
+94
+00:08:39,860 --> 00:08:42,340
+do examples of it to see and graph it out.
+
+95
+00:08:42,400 --> 00:08:44,760
+It's gonna be a very cool live guys I promise you. Okay,
+
+96
+00:08:44,920 --> 00:08:48,080
+we're all gonna be smarter after this. I hope I really hope so.
+
+97
+00:08:54,310 --> 00:09:00,670
+So that is what Vanna is Now we have charm. Okay, and Actually Steve,
+
+98
+00:09:00,710 --> 00:09:02,990
+I hope you're really paying attention here because I'm gonna be asking you some
+
+99
+00:09:02,990 --> 00:09:04,170
+tough questions Okay,
+
+100
+00:09:04,630 --> 00:09:12,500
+so I hope you're paying very good attention So charm is the partial derivative of
+
+101
+00:09:13,240 --> 00:09:15,870
+Delta with respect to time. Okay.
+
+102
+00:09:15,870 --> 00:09:21,050
+So what that means is the change in time So if we move forward in time because we
+
+103
+00:09:21,050 --> 00:09:24,570
+can't move back in time Unfortunately, if we move forward in time,
+
+104
+00:09:24,630 --> 00:09:26,530
+how is my Delta gonna change?
+
+105
+00:09:31,620 --> 00:09:35,120
+Call you're saying there's three definitions of Vanna. Oh, no,
+
+106
+00:09:35,180 --> 00:09:36,620
+I for that for those formulas.
+
+107
+00:09:36,700 --> 00:09:38,820
+They were just deriving it They were just deriving it.
+
+108
+00:09:38,900 --> 00:09:44,300
+It wasn't saying what what they exactly were So charm is the partial derivative
+
+109
+00:09:44,300 --> 00:09:48,260
+of Delta with respect to time so if time moves forward,
+
+110
+00:09:48,380 --> 00:09:50,340
+how does my Delta change? Okay,
+
+111
+00:09:50,380 --> 00:09:52,720
+and Delta is our sensitivity to the stock price.
+
+112
+00:09:54,770 --> 00:09:58,850
+A lot of guys are claiming to make money on this personally Personally,
+
+113
+00:09:58,990 --> 00:10:03,000
+I believe this is a fundraising Technique. Okay.
+
+114
+00:10:03,040 --> 00:10:07,130
+This is a fundraising technique If people don't understand me,
+
+115
+00:10:07,130 --> 00:10:08,950
+but they didn't think I'm making money.
+
+116
+00:10:09,130 --> 00:10:14,200
+They're likely to give me money Right if everyone thinks I'm making money and like
+
+117
+00:10:14,200 --> 00:10:18,650
+your friend tells you that hey Jordan's making money and I talk like I'm making
+
+118
+00:10:18,650 --> 00:10:18,910
+Money,
+
+119
+00:10:18,990 --> 00:10:22,490
+it's it's likely you're gonna give me money even though you don't understand me
+
+120
+00:10:22,490 --> 00:10:26,730
+I honestly think this is what this is what the gurus are doing But we're you guys
+
+121
+00:10:26,730 --> 00:10:28,190
+are gonna come to your own conclusions about this.
+
+122
+00:10:28,270 --> 00:10:33,400
+I don't want to I Don't want to influence you Okay.
+
+123
+00:10:33,740 --> 00:10:36,880
+Now these are the two that are popular Vanna and charm. Okay.
+
+124
+00:10:36,880 --> 00:10:40,060
+These are second-order derivatives Right.
+
+125
+00:10:40,120 --> 00:10:45,330
+It's the change it so Delta is the derivative The change in Delta is the second
+
+126
+00:10:45,330 --> 00:10:51,330
+derivative just like gamma right gamma is the change in Delta With respect so who's
+
+127
+00:10:51,330 --> 00:10:55,470
+got this one? What is what is gamma if we were gonna put it in these terms?
+
+128
+00:10:55,730 --> 00:11:00,590
+Okay in these You know in these in these terms right here. What is gamma?
+
+129
+00:11:10,740 --> 00:11:16,180
+Neil saying change in Delta with respect to Vega No, no, that's not what it is.
+
+130
+00:11:16,320 --> 00:11:23,730
+You know the percent change of Delta. No. Thank you.
+
+131
+00:11:23,850 --> 00:11:28,930
+Thanks chigs It's the change in Delta with respect to price Right,
+
+132
+00:11:28,990 --> 00:11:32,030
+so we have for example in this case Right,
+
+133
+00:11:32,030 --> 00:11:35,470
+we have Delta with respect to implied volatility now I just want to make it clear
+
+134
+00:11:35,470 --> 00:11:38,190
+guys for this live this live is not an alpha live.
+
+135
+00:11:38,530 --> 00:11:42,650
+Okay this live I'm not teaching you guys how to make alpha in this live We're explaining
+
+136
+00:11:42,650 --> 00:11:47,630
+what the hype stuff is all about but in explaining it I honestly think a lot of
+
+137
+00:11:47,630 --> 00:11:51,690
+you are gonna start to by the time we get to the end of this guys I think a lot
+
+138
+00:11:51,690 --> 00:11:56,310
+of you are going to actually I think there's gonna be some like You know some some
+
+139
+00:11:56,310 --> 00:11:59,340
+moments here So yeah,
+
+140
+00:11:59,400 --> 00:12:03,860
+so Delta is the change in price with respect to the change I'm sorry the change
+
+141
+00:12:03,860 --> 00:12:05,460
+in Delta with respect to the change in price.
+
+142
+00:12:05,560 --> 00:12:07,700
+That's what gamma is So gamma is a second-order derivative,
+
+143
+00:12:08,360 --> 00:12:11,200
+but it's an important one. Okay.
+
+144
+00:12:11,500 --> 00:12:15,020
+Now there's other derivatives There's other second and third order of this for example
+
+145
+00:12:15,020 --> 00:12:16,280
+Voma. Okay,
+
+146
+00:12:16,360 --> 00:12:19,760
+Voma is the network I'm not gonna talk about these but just so you got the night
+
+147
+00:12:19,760 --> 00:12:23,560
+guys know that they're out There is the change of Vega the change implied volatility.
+
+148
+00:12:23,640 --> 00:12:26,120
+Okay, then we have speed Okay,
+
+149
+00:12:26,200 --> 00:12:32,920
+which is the change in gamma for the change in Delta Okay So a way out of the money
+
+150
+00:12:32,920 --> 00:12:40,490
+option has very little gamma and very little Delta at inception And but it has a
+
+151
+00:12:40,490 --> 00:12:45,990
+ton of speed Right as the stock drops the gamma is gonna increase increasing the
+
+152
+00:12:45,990 --> 00:12:51,840
+Delta right and that's why you get those huge ramp ups Okay, you have color.
+
+153
+00:12:51,980 --> 00:12:52,520
+Okay,
+
+154
+00:12:52,520 --> 00:12:56,480
+and that's gonna be the changing gamma with respect to the change in time Okay,
+
+155
+00:12:56,640 --> 00:13:01,350
+then there's Zoma elasticity, you know, there's so many of these okay,
+
+156
+00:13:01,350 --> 00:13:05,800
+there's so many of these I've never used them personally.
+
+157
+00:13:09,160 --> 00:13:11,980
+All right. So let's have this guys. Let's have start having some fun. Okay,
+
+158
+00:13:12,380 --> 00:13:18,480
+I spent some time on this Let's get some let's have some fun going Okay,
+
+159
+00:13:18,500 --> 00:13:22,870
+let's make sure I didn't miss anything Neal saying can you give an example of Voma?
+
+160
+00:13:24,370 --> 00:13:24,690
+sure,
+
+161
+00:13:24,770 --> 00:13:32,340
+Neil An out-of-the-money option has very little Vega But as implied volatility increases
+
+162
+00:13:32,340 --> 00:13:36,760
+the Vega increases So this is what we talked about with those strangles versus the
+
+163
+00:13:36,760 --> 00:13:39,530
+straddles Remember when I told you to take a look at that, right?
+
+164
+00:13:39,550 --> 00:13:46,350
+You priced it out as the implied volatility increases the Vega increases So now
+
+165
+00:13:46,350 --> 00:13:51,340
+for every point of implied increasing you're increasing exponentially Okay,
+
+166
+00:13:51,920 --> 00:13:55,740
+so it's the increase it change involved in Vega for the change in volatility,
+
+167
+00:13:57,280 --> 00:13:59,560
+you know I'm actually I'm actually thinking about this or library.
+
+168
+00:13:59,680 --> 00:14:04,430
+I can't believe we're actually having this conversation like These people online
+
+169
+00:14:04,430 --> 00:14:07,950
+I've gotten in my opinion way too far. They've gone way too far. Okay,
+
+170
+00:14:08,440 --> 00:14:14,610
+so Greeks So what we're gonna do here is we're gonna look at an option with one
+
+171
+00:14:14,610 --> 00:14:18,290
+month to expiration Okay, the stock is trading at a hundred.
+
+172
+00:14:18,750 --> 00:14:20,590
+The strike is a hundred and ten.
+
+173
+00:14:20,690 --> 00:14:26,150
+The volatility is 30 Okay interest rate zero dividend zero and one month to expiration
+
+174
+00:14:26,920 --> 00:14:31,960
+Okay Does everyone understand that an option that's trading at the stock trading
+
+175
+00:14:31,960 --> 00:14:32,340
+at a hundred?
+
+176
+00:14:32,340 --> 00:14:39,810
+We're buying a 110 call with a 30% implied vol and 20 days to expiration Okay,
+
+177
+00:14:39,810 --> 00:14:54,810
+20 business days one month one month So here you
+
+178
+00:14:54,810 --> 00:14:57,360
+guys can see it right down here, right? You know what?
+
+179
+00:14:57,380 --> 00:15:07,170
+I'm actually gonna change my view here so we can all be on the same page Do you
+
+180
+00:15:07,170 --> 00:15:09,730
+guys see view pains pain layout? Here we go.
+
+181
+00:15:27,330 --> 00:15:27,910
+All right.
+
+182
+00:15:28,050 --> 00:15:32,690
+So here we go guys So let's look at a that that call option here Well that call
+
+183
+00:15:32,690 --> 00:15:38,050
+option is trading for 57 cents and the Delta is 13.88. What does that mean?
+
+184
+00:15:38,550 --> 00:15:41,790
+Okay, we're gonna focus on the on this Delta number right now. Okay.
+
+185
+00:15:41,810 --> 00:15:42,430
+What does this mean?
+
+186
+00:15:42,510 --> 00:15:46,410
+The Delta is 13.88 and guys if you stay to the end of this We're actually gonna
+
+187
+00:15:46,410 --> 00:15:49,970
+be going over a market maker example how he manages his book So I really hope you
+
+188
+00:15:49,970 --> 00:15:52,250
+guys find this live insightful. I'm gonna try to keep it exciting.
+
+189
+00:15:52,690 --> 00:15:56,290
+Just just comment Jordan You're not keeping exciting and we're gonna we'll we'll
+
+190
+00:15:56,290 --> 00:15:57,030
+try to you know,
+
+191
+00:15:58,110 --> 00:16:02,960
+which we'll try to figure it out Can someone explain to me what does this mean Delta
+
+192
+00:16:02,960 --> 00:16:13,920
+point thirteen eight eight Red I'm not gonna be talking about how you can infer
+
+193
+00:16:13,920 --> 00:16:18,280
+Vanna and charm in the PA terminal personally because I don't think it's useful
+
+194
+00:16:18,280 --> 00:16:21,540
+but we're gonna get we are gonna get to the end of that red and you can Come up
+
+195
+00:16:21,540 --> 00:16:25,380
+with your own decision and let me know me like Jordan I think it is useful and I
+
+196
+00:16:25,380 --> 00:16:27,940
+want I want this in the terminal and I will definitely work on it.
+
+197
+00:16:28,100 --> 00:16:37,070
+Okay Guys I can definitely add this stuff into the terminal. Okay,
+
+198
+00:16:37,110 --> 00:16:43,060
+I'm so you guys really want this in the terminal Let's let's let's finish this live
+
+199
+00:16:43,060 --> 00:16:44,460
+and then we're gonna then we'll talk. Okay.
+
+200
+00:16:47,870 --> 00:16:54,620
+All right Delta point thirteen eight eight. What is this inferring?
+
+201
+00:16:57,250 --> 00:17:00,110
+What is this inferring Delta of point thirteen eighty-eight?
+
+202
+00:17:01,920 --> 00:17:05,680
+I gotta make sure we're all in the same track here. Oh Man,
+
+203
+00:17:05,780 --> 00:17:06,520
+you guys fell asleep.
+
+204
+00:17:10,900 --> 00:17:15,730
+Oh I guess I'm falling asleep. So I thought you guys were pointing to red.
+
+205
+00:17:16,170 --> 00:17:16,570
+Okay,
+
+206
+00:17:16,690 --> 00:17:23,510
+perfect for every dollar the stock moves The option it will increase by third We'll
+
+207
+00:17:23,510 --> 00:17:24,790
+have a variance of 13 cents, right?
+
+208
+00:17:24,830 --> 00:17:28,630
+If the stock goes up a dollar this is gonna make 13 cents the stock goes down dollars
+
+209
+00:17:28,630 --> 00:17:33,480
+gonna lose 13 cents Now we're talking charm here. Okay,
+
+210
+00:17:33,500 --> 00:17:38,500
+we're talking charm So what we're gonna do now is we're gonna take that same option
+
+211
+00:17:38,500 --> 00:17:47,150
+same spot price spot price means the stock price But instead of 20 days We're gonna
+
+212
+00:17:47,150 --> 00:17:49,750
+do 19 days. So 19 business days.
+
+213
+00:17:49,850 --> 00:17:57,380
+So we are going to move one ahead one step We're gonna move ahead one step Steve
+
+214
+00:17:57,380 --> 00:17:59,880
+you still with me Steve? How's it? How's the live going Steve so far?
+
+215
+00:18:03,490 --> 00:18:12,200
+So we're gonna move ahead one step in time Okay. Now, what do we notice here?
+
+216
+00:18:13,010 --> 00:18:18,030
+What do we notice here? Well the option decreased But our Delta decreased.
+
+217
+00:18:18,800 --> 00:18:23,000
+Okay, our Delta decreased by point six Okay,
+
+218
+00:18:23,020 --> 00:18:29,180
+it went from thirteen point eight eight to thirteen point two two. Okay,
+
+219
+00:18:29,220 --> 00:18:32,840
+so our Delta Decreased Okay,
+
+220
+00:18:33,300 --> 00:18:38,900
+as we move forward in time our Delta decreases Okay to show you guys this I'm gonna
+
+221
+00:18:38,900 --> 00:18:45,710
+actually move forward five days Let's take a look. Now. Our Delta is now ten.
+
+222
+00:18:46,850 --> 00:18:47,430
+Okay,
+
+223
+00:18:47,430 --> 00:18:54,350
+so for every dollar increase in the stock We are only gonna make ten cents as time
+
+224
+00:18:54,350 --> 00:19:03,240
+is going by our Delta is Decreasing Okay, as we're moving forward in time,
+
+225
+00:19:03,260 --> 00:19:08,760
+our Delta is decreasing that is for charm for an out-of-the-money call option in
+
+226
+00:19:09,240 --> 00:19:10,420
+Chopper charm. Okay.
+
+227
+00:19:10,460 --> 00:19:17,340
+It's the rate of change of Delta with respect to time How is my Delta changing as
+
+228
+00:19:17,340 --> 00:19:18,180
+time moves forward?
+
+229
+00:19:21,070 --> 00:19:23,490
+Okay, and so for an out-of-the-money option,
+
+230
+00:19:23,610 --> 00:19:25,150
+let me ask you guys this quick trick question.
+
+231
+00:19:25,250 --> 00:19:26,830
+What about for an in-the-money option?
+
+232
+00:19:27,350 --> 00:19:33,520
+Stephen in the money option as time moves forward. What happens to Delta?
+
+233
+00:19:37,930 --> 00:19:42,330
+Thank you, Stephen It increases right it gonna approach one in the money.
+
+234
+00:19:42,350 --> 00:19:44,620
+It's gonna approach one. All right,
+
+235
+00:19:44,620 --> 00:19:47,200
+so that is charm Does everyone understand charm?
+
+236
+00:19:47,320 --> 00:19:51,780
+We're actually gonna graph all this out in a second. But so far do we get it?
+
+237
+00:19:52,380 --> 00:19:56,880
+Thank blessing good job with the with the with the increase Bless blessing saying
+
+238
+00:19:56,880 --> 00:19:57,960
+yeah, if blessing saying yeah,
+
+239
+00:19:57,980 --> 00:20:06,070
+we're good to go because everyone else Is for some reason afraid to ask He's afraid
+
+240
+00:20:06,070 --> 00:20:08,950
+to ask questions along the way now.
+
+241
+00:20:08,950 --> 00:20:15,740
+We're gonna go into Vama of Vama Vanna But I call it banana. All right,
+
+242
+00:20:16,090 --> 00:20:23,790
+so we're gonna do the same thing option $100 strike 110 volatility 30 days expiration
+
+243
+00:20:23,790 --> 00:20:32,340
+21 month. Okay, same option. Okay, and what do we see? 13.88 exact same option.
+
+244
+00:20:32,460 --> 00:20:33,140
+Let me erase this.
+
+245
+00:20:33,380 --> 00:20:43,330
+Oops Let me erase this so we're back we're back to we're back to the same page How
+
+246
+00:20:43,330 --> 00:20:44,950
+are you guys finding this live so far? Are we okay?
+
+247
+00:20:45,050 --> 00:20:48,690
+We are we is everyone doing? All right We're having a good everyone smiling.
+
+248
+00:20:48,790 --> 00:20:53,140
+Everyone's everyone's intrigued Perfect Trent as long as perfect dude blessing.
+
+249
+00:20:53,280 --> 00:20:58,720
+Is it good so far blessing? Let me know Okay, so Steve this was the question.
+
+250
+00:20:58,780 --> 00:21:04,850
+I wanted to ask you Marcos good stuff, buddy Steve this was the question.
+
+251
+00:21:04,910 --> 00:21:05,790
+I wanted to ask you. Okay,
+
+252
+00:21:06,290 --> 00:21:14,200
+this is putting Steve's big brain to the test If we drop vol so in this case now,
+
+253
+00:21:14,260 --> 00:21:19,800
+we're taking the same option right Delta 13.88 and remember Del Vanna is the change
+
+254
+00:21:19,800 --> 00:21:28,520
+in Delta with respect to the change in implied volatility We're gonna drop volatility
+
+255
+00:21:28,520 --> 00:21:30,520
+by one point, okay,
+
+256
+00:21:30,540 --> 00:21:34,560
+we're gonna drop volatility by one point out of the money call option What's gonna
+
+257
+00:21:34,560 --> 00:21:36,260
+happen to Delta Steve and why?
+
+258
+00:21:37,130 --> 00:21:42,840
+What is gonna happen to Delta and why and anyone can answer really? You know,
+
+259
+00:21:42,980 --> 00:21:46,700
+I I purposely when I wrote this one down, what do you think will happen here?
+
+260
+00:21:46,760 --> 00:21:58,630
+It was I was trying to I wanted to give Steve a little test Trent saying decrease
+
+261
+00:22:00,640 --> 00:22:05,240
+Okay Okay,
+
+262
+00:22:05,240 --> 00:22:15,280
+we're gonna drop implied volatility By one point what's gonna happen Steve?
+
+263
+00:22:15,300 --> 00:22:16,500
+Do you disagree or agree with Trent?
+
+264
+00:22:17,260 --> 00:22:19,440
+And I know you're using an option calculator right now.
+
+265
+00:22:20,510 --> 00:22:33,710
+I'm very upset about that Wow Steve man.
+
+266
+00:22:33,790 --> 00:22:37,900
+I will happen Okay,
+
+267
+00:22:38,320 --> 00:22:41,820
+yeah what's gonna happen to Delta blessing what's gonna happen to Delta when we
+
+268
+00:22:41,820 --> 00:22:47,860
+drop vols Okay, so by now Steven is definitely using an option calculator.
+
+269
+00:22:48,220 --> 00:22:52,620
+So chigs Trent you guys are 100% correct okay,
+
+270
+00:22:52,700 --> 00:22:59,460
+and There's actually Oh Neil see. Oh, wow. Steve's gone.
+
+271
+00:22:59,540 --> 00:23:03,500
+I guess he had I Guess it's a little boring for him. That's okay.
+
+272
+00:23:03,640 --> 00:23:04,200
+That's okay guys.
+
+273
+00:23:04,220 --> 00:23:09,670
+We're gonna keep it going here It's gonna decrease and it's not just gonna decrease
+
+274
+00:23:09,670 --> 00:23:13,490
+because the the chance of the big move decreases which it does, right?
+
+275
+00:23:13,490 --> 00:23:20,490
+but the reason I want I was hoping you guys someone would say is volatility is Is
+
+276
+00:23:20,490 --> 00:23:26,750
+synthetic time, right? So dropping volatility is like decreasing time Right,
+
+277
+00:23:27,190 --> 00:23:31,470
+and so you're 100% correct if we drop volatility, right?
+
+278
+00:23:31,470 --> 00:23:35,660
+You can see in that here now Delta goes from point one three eight eight to point
+
+279
+00:23:35,660 --> 00:23:37,820
+one three zero okay,
+
+280
+00:23:37,880 --> 00:23:45,080
+and if we drop vault by five points our Delta goes from point one three eight eight
+
+281
+00:23:45,080 --> 00:23:51,760
+to Nine deltas thirteen deltas to nine deltas.
+
+282
+00:23:53,720 --> 00:23:57,000
+So now we're now this is where it's really gonna get fun and really gonna get interesting
+
+283
+00:23:57,920 --> 00:24:02,400
+So what I'm gonna do is I'm going to create a sequence of stock prices okay,
+
+284
+00:24:02,420 --> 00:24:05,720
+stocks gonna trade at a hundred and we're gonna create a sequence from sixty to
+
+285
+00:24:05,720 --> 00:24:13,990
+hundred and forty dollars and We are going to basically figure out what the Delta
+
+286
+00:24:13,990 --> 00:24:22,290
+is For each of these call options and we're gonna plot them and here is what our
+
+287
+00:24:22,290 --> 00:24:41,560
+Delta looks like You guys are not unfamiliar with this Okay Hundred
+
+288
+00:24:48,840 --> 00:24:49,780
+Okay, sorry guys,
+
+289
+00:24:49,940 --> 00:24:53,200
+okay my apologies if it's trading it if the stocks I thought this was strike price
+
+290
+00:24:53,200 --> 00:24:57,400
+It's spot price the stock trading at a hundred forty The Delta is gonna be one right
+
+291
+00:24:57,400 --> 00:25:01,220
+because we're buying a hundred dollar call option Right if the stock string at a
+
+292
+00:25:01,220 --> 00:25:04,940
+hundred you can see right here. We have a hundred as the strike price Right,
+
+293
+00:25:05,300 --> 00:25:08,960
+so imagine if the stock was trading at sixty dollars the Delta would be zero,
+
+294
+00:25:09,020 --> 00:25:12,680
+right you guys Stock trading at sixty Delta.
+
+295
+00:25:13,120 --> 00:25:14,700
+I mean the strike price is a hundred.
+
+296
+00:25:15,080 --> 00:25:19,260
+So the stocks I move $40 volatility of 30 Right.
+
+297
+00:25:19,340 --> 00:25:22,940
+The Delta is gonna be zero Now if the stock's trading at a hundred forty for a call
+
+298
+00:25:22,940 --> 00:25:25,180
+option, the Delta is gonna be one Right,
+
+299
+00:25:25,200 --> 00:25:32,040
+it's gonna be so far in the money that it's gonna be basically trading at one Red
+
+300
+00:25:32,040 --> 00:25:34,120
+saying can you just elaborate volatility synthetic time?
+
+301
+00:25:34,740 --> 00:25:37,220
+We did a live on it red, but you know,
+
+302
+00:25:37,400 --> 00:25:41,020
+we talk about it If you increase volatility,
+
+303
+00:25:41,080 --> 00:25:46,400
+it would be the same thing as if you increase time if you decrease volatility It's
+
+304
+00:25:46,400 --> 00:25:48,820
+the same thing as if you decreased the time.
+
+305
+00:25:49,470 --> 00:25:58,800
+Okay I think about this red you have a 30-day option and you increase volatility
+
+306
+00:25:59,480 --> 00:26:02,620
+Right you jack up volatility Well,
+
+307
+00:26:02,620 --> 00:26:05,880
+imagine nothing else to imagine it that actually didn't happen, right?
+
+308
+00:26:05,920 --> 00:26:10,160
+It would be the same thing as let's say if you if you bought or sold a 60-day straddle
+
+309
+00:26:10,320 --> 00:26:12,480
+All right. So as you increased volatility,
+
+310
+00:26:12,500 --> 00:26:17,800
+it's similar to increasing time and you can see that by doing we did a whole live
+
+311
+00:26:17,800 --> 00:26:18,060
+on it.
+
+312
+00:26:18,220 --> 00:26:24,120
+It was basically where we did a Tree diagram and we explained like how when you
+
+313
+00:26:24,120 --> 00:26:29,480
+increase time Right your your width gets bigger of the tree when you increase volatility
+
+314
+00:26:29,480 --> 00:26:41,060
+your width gets bigger of the tree I'll Sean if you can send you over that one It's
+
+315
+00:26:41,060 --> 00:26:48,960
+a Vega is not like theta Okay, but implied volatility is like time Okay.
+
+316
+00:26:48,960 --> 00:26:52,040
+So here we go guys. Here's our Delta everyone understand this Delta curve.
+
+317
+00:26:53,640 --> 00:26:54,980
+Does that blessing? What do you think?
+
+318
+00:26:55,220 --> 00:27:00,380
+I'm blessing I'm holding you Accountable for the whole group because you are the
+
+319
+00:27:00,380 --> 00:27:05,640
+only brave one to to let me know What's up,
+
+320
+00:27:07,990 --> 00:27:11,380
+we're okay perfect So this is the Delta curve.
+
+321
+00:27:11,480 --> 00:27:13,300
+This is a Delta of an option Okay,
+
+322
+00:27:13,360 --> 00:27:18,400
+an option at 100 is going to have 50 Delta and at the money options gonna have 50
+
+323
+00:27:18,400 --> 00:27:25,000
+Delta Right at the money option 50 Delta in the money option 100 Delta out of the
+
+324
+00:27:25,000 --> 00:27:34,240
+money option 0 Delta now What we're gonna do is we're actually gonna graph Tomorrow.
+
+325
+00:27:34,840 --> 00:27:38,820
+Okay, we're looking at charm Okay, what does the Delta look like?
+
+326
+00:27:40,200 --> 00:27:41,880
+Tomorrow and this is what it looks like.
+
+327
+00:27:44,540 --> 00:27:48,920
+This is what it looks like. Take a look guys. Here's the difference ready Okay.
+
+328
+00:27:49,100 --> 00:27:51,080
+Now Sean's computers a little slow.
+
+329
+00:27:51,140 --> 00:28:00,640
+So it gets a little black so what I'm going to do is What I'm gonna do is I'm gonna
+
+330
+00:28:00,640 --> 00:28:02,580
+plot both of them side by side.
+
+331
+00:28:06,780 --> 00:28:18,770
+I'm gonna plot both of them side by side And here they are Oops, oops. Oops.
+
+332
+00:28:19,090 --> 00:28:22,050
+Oops. Oh, sorry. Sorry guys. We're looking at Vanna. My apologies.
+
+333
+00:28:22,250 --> 00:28:25,520
+We're looking at Vanna guys. My apologies. My apologies Okay,
+
+334
+00:28:25,540 --> 00:28:29,320
+we're gonna actually do Instead of 25 vol we're gonna do 29 vol.
+
+335
+00:28:30,380 --> 00:28:34,720
+So let's run that again So we're looking at the change of Delta with respect to
+
+336
+00:28:34,720 --> 00:28:40,110
+the change of volatility So I did one vol point change.
+
+337
+00:28:40,190 --> 00:28:44,570
+So if implied volatility went from 30 to 29 Okay,
+
+338
+00:28:44,630 --> 00:28:49,750
+this is how the this is the difference between the Delta. So red okay,
+
+339
+00:28:49,830 --> 00:28:54,850
+red is tomorrow's implied volatility and Blue is oh,
+
+340
+00:28:54,870 --> 00:29:04,460
+sorry blue is tomorrow's implied Blue is 29 vol red is 30 vol Blue is 29 vol Red
+
+341
+00:29:04,460 --> 00:29:08,800
+is 30 vol. Okay, and just so you guys can see it clearer.
+
+342
+00:29:08,920 --> 00:29:24,820
+I'm going to drop the vols to 20 Here we go blue is
+
+343
+00:29:24,820 --> 00:29:28,020
+20 vol red is 30 vol.
+
+344
+00:29:33,320 --> 00:29:34,620
+Okay, do we understand that right?
+
+345
+00:29:34,760 --> 00:29:43,490
+Let's take a look here guys a 110 call okay 110 call if Volatility is very low if
+
+346
+00:29:43,490 --> 00:29:48,900
+volatility is zero Right, then we're gonna have a Delta of one Right,
+
+347
+00:29:48,920 --> 00:29:53,060
+we're in the money with no vol it and zero vol basically means who's got it.
+
+348
+00:29:53,160 --> 00:29:57,190
+What's another synonym to zero vol? We just talked about it.
+
+349
+00:29:57,420 --> 00:29:59,300
+What's a synonym to zero vol?
+
+350
+00:30:04,690 --> 00:30:08,340
+No Thank you. Chigs. Thank you.
+
+351
+00:30:08,400 --> 00:30:12,500
+Thank you for paying attention chase zero vol would be equal to zero time Okay,
+
+352
+00:30:12,760 --> 00:30:18,380
+zero vol equals zero time So 110, okay,
+
+353
+00:30:18,680 --> 00:30:22,740
+so you can see here right if vol is less Right.
+
+354
+00:30:22,860 --> 00:30:25,980
+That's the 20 is is is a I don't know why I called it tomorrow.
+
+355
+00:30:26,100 --> 00:30:30,500
+My apologies guys This is 20 vol and this is 30 vol right if the vol is less then
+
+356
+00:30:30,500 --> 00:30:36,920
+we're gonna be you know a lot closer to one Delta So you can see how here's two
+
+357
+00:30:36,920 --> 00:30:43,690
+graphs guys with two different vol implied volatilities one day Okay is the blue
+
+358
+00:30:43,690 --> 00:30:52,650
+the next is what implied vols drop this is the Vanna this is the Vanna and To make
+
+359
+00:30:52,650 --> 00:30:54,670
+it clear to make it clear to everyone.
+
+360
+00:30:54,810 --> 00:30:59,050
+We are going to graph The Vanna and how do we graph the Vanna? Well,
+
+361
+00:30:59,050 --> 00:31:07,620
+we're gonna simply take the difference between the two. So this is Vanna Okay,
+
+362
+00:31:07,740 --> 00:31:19,100
+this is Vanna and we're going to talk about what this is as volatility increases
+
+363
+00:31:20,180 --> 00:31:23,860
+Delta Decreases. Okay.
+
+364
+00:31:24,020 --> 00:31:36,850
+It's going to decrease when we are Sorry guys when the Delta when the Vanna Decreases.
+
+365
+00:31:37,720 --> 00:31:41,300
+Okay when the Vanna decreases if the option is out of the money,
+
+366
+00:31:41,360 --> 00:31:46,790
+the Delta is gonna decrease The option is out of the money and volatility decreases.
+
+367
+00:31:47,090 --> 00:31:51,570
+The option is going to Decrease Delta. We just talked about it,
+
+368
+00:31:51,860 --> 00:31:57,050
+right and let me know if we if we need if we need some help here Margin,
+
+369
+00:31:57,170 --> 00:32:06,620
+welcome. Welcome to the chat. Mr. Banana one okay, if The volatility decreases,
+
+370
+00:32:06,780 --> 00:32:07,580
+right?
+
+371
+00:32:07,660 --> 00:32:11,440
+Well are out of the money option is gonna lose Delta but are in the money option
+
+372
+00:32:11,440 --> 00:32:16,550
+is going to increase Delta Here's spot price right?
+
+373
+00:32:16,590 --> 00:32:19,650
+Here's the $100 spot price Margin,
+
+374
+00:32:19,690 --> 00:32:23,670
+I highly recommend You know later tonight whenever you get time away from the girlfriend
+
+375
+00:32:23,670 --> 00:32:28,010
+you You take a look at the live from the beginning just because you know It's gonna
+
+376
+00:32:28,010 --> 00:32:33,310
+be hard to catch you up right right from here The out of the money option is gonna
+
+377
+00:32:33,310 --> 00:32:38,960
+decrease in Delta the in the money option is gonna increase in Delta So blessing
+
+378
+00:32:38,960 --> 00:32:45,030
+seeing we got a little bit lost So blessing let's go back here. Okay,
+
+379
+00:32:45,050 --> 00:32:45,670
+let's go back here.
+
+380
+00:32:45,690 --> 00:32:55,280
+Let's go back to Vanna here is a call option Delta 1388 Okay,
+
+381
+00:32:55,710 --> 00:33:02,620
+Delta 1388 for this call option we are going to Well, I was charm. Sorry,
+
+382
+00:33:10,380 --> 00:33:13,460
+we are going to decrease volatility blessing.
+
+383
+00:33:13,660 --> 00:33:25,310
+So let's decrease volatility here The out of the money call option lost Delta Okay
+
+384
+00:33:25,310 --> 00:33:31,400
+lost Delta now if it was in the money and I think you actually mentioned it because
+
+385
+00:33:31,400 --> 00:33:37,780
+volatility is decreasing It's going the Delta is gonna increase All right,
+
+386
+00:33:37,840 --> 00:33:41,100
+let me ask you this question blessing you got a hundred dollar call option,
+
+387
+00:33:41,620 --> 00:33:47,190
+okay, and the stocks trading at 110 stocks trading at 110.
+
+388
+00:33:47,290 --> 00:33:51,620
+You got a hundred dollar call option at Expiration. What is the Delta?
+
+389
+00:33:54,080 --> 00:33:56,960
+What is the Delta of that call option at expiration?
+
+390
+00:33:58,050 --> 00:34:02,670
+110 stock Hundred dollar call option at expiration perfect one.
+
+391
+00:34:02,990 --> 00:34:06,430
+What about a year from now? What's that call option a year from now?
+
+392
+00:34:06,430 --> 00:34:12,210
+Don't give me the exact number What do you think a year in time if that call option
+
+393
+00:34:12,210 --> 00:34:13,730
+was a year in time? What do you think?
+
+394
+00:34:19,870 --> 00:34:22,840
+So it wouldn't be a year and it wouldn't be one Right,
+
+395
+00:34:22,900 --> 00:34:24,080
+it would be something like maybe yeah,
+
+396
+00:34:24,100 --> 00:34:30,820
+like maybe probably probably actually less maybe 0.6 0.7 Right because it still
+
+397
+00:34:30,820 --> 00:34:34,580
+has time to be out of the money Okay,
+
+398
+00:34:34,580 --> 00:34:38,870
+so it's not gonna be trading out one but as time goes forward or as volatility drops
+
+399
+00:34:38,870 --> 00:34:42,990
+right volatility equals synthetic time as Volatility drops we're gonna start to
+
+400
+00:34:42,990 --> 00:34:48,460
+see this thing go in the money and that's gonna become a Delta of one So when we
+
+401
+00:34:48,460 --> 00:34:50,150
+look at Vanna Okay,
+
+402
+00:34:50,790 --> 00:34:53,830
+and I know guys it like it's a little bit a little bit technical right now We're
+
+403
+00:34:53,830 --> 00:34:56,870
+gonna actually into a practical experience at the very end as a market maker we're
+
+404
+00:34:56,870 --> 00:35:01,230
+gonna act as a market maker at the end of this at the end of this live and in the
+
+405
+00:35:01,230 --> 00:35:07,350
+money option as Time goes forward is gonna come closer and closer to one Now to
+
+406
+00:35:07,350 --> 00:35:09,850
+the money option as time goes forward or volatility drops.
+
+407
+00:35:09,970 --> 00:35:17,370
+It's gonna go closer and closer to zero Now we're gonna do the same thing for charm
+
+408
+00:35:18,200 --> 00:35:22,610
+Okay, we're gonna do the exact same thing. We have a 20 to 20 day option Okay,
+
+409
+00:35:22,650 --> 00:35:26,810
+we're gonna 19 day option 20 day 19 day and we're gonna take the difference in Delta
+
+410
+00:35:26,810 --> 00:35:29,110
+And I have a trick question for you guys.
+
+411
+00:35:32,290 --> 00:35:36,870
+I have a very trick question for you guys What is charm gonna look like?
+
+412
+00:35:37,090 --> 00:35:46,050
+So here's what Vega Vanna looks like What is charm gonna look like I think I think
+
+413
+00:35:46,050 --> 00:35:50,780
+I have to put this one on chigs chigs But seem to be getting the answer right chase.
+
+414
+00:35:50,880 --> 00:36:00,520
+What is charm gonna look like? Here's Vanna Perfect red the same. Oh,
+
+415
+00:36:00,540 --> 00:36:02,300
+you guys are awesome. Why are they the same?
+
+416
+00:36:02,800 --> 00:36:04,540
+Why do I can they why are they the same?
+
+417
+00:36:07,300 --> 00:36:08,260
+Why are they the same?
+
+418
+00:36:14,910 --> 00:36:23,040
+Perfect chigs Vol is synthetic time Perfect. So let's graph it So, sorry,
+
+419
+00:36:23,160 --> 00:36:27,600
+so first here is the Delta with change in one day time Okay,
+
+420
+00:36:27,620 --> 00:36:32,740
+here's the Delta with one day chop time tomorrow versus today Okay,
+
+421
+00:36:32,740 --> 00:36:45,960
+and if you guys want to see five days Change Okay looks very similar to when we
+
+422
+00:36:45,960 --> 00:36:51,280
+change volatility and when we graph it voila Exactly the same.
+
+423
+00:36:53,270 --> 00:36:56,170
+So any questions about that because now we're gonna go into a real-world example
+
+424
+00:36:56,170 --> 00:37:01,090
+of where you know These guys are coming from these Vanna guys these Vanna flows
+
+425
+00:37:01,090 --> 00:37:08,530
+these charm flows Coasting I'm having trouble with the two curves.
+
+426
+00:37:08,910 --> 00:37:13,830
+Yep These these ones call or or these ones.
+
+427
+00:37:15,090 --> 00:37:23,330
+So let's call this one and let's call this to Co he said the second then the first
+
+428
+00:37:24,260 --> 00:37:30,510
+Confusing me one or two one. Okay,
+
+429
+00:37:35,000 --> 00:37:42,350
+Coa Let's take a look at a out of the money call option out of the money call option
+
+430
+00:37:43,220 --> 00:37:49,050
+It has 30 days to expiration Okay Give me a Delta number.
+
+431
+00:37:49,450 --> 00:37:55,830
+Give me any Delta number out of the money call option 30 days to expiration What
+
+432
+00:37:56,370 --> 00:38:04,240
+Delta could have? 80 80 Okay, 20. Okay,
+
+433
+00:38:04,320 --> 00:38:12,440
+perfect at expiration Coa What Delta could it have out of the money call option
+
+434
+00:38:12,440 --> 00:38:17,860
+expiration out of the money call option?
+
+435
+00:38:21,450 --> 00:38:24,430
+So the option goes from 20 deltas to zero.
+
+436
+00:38:24,570 --> 00:38:27,970
+So what can we say about about the call option in respect to time?
+
+437
+00:38:31,850 --> 00:38:36,560
+It decreases every day it decreases Everything else else held equal.
+
+438
+00:38:37,180 --> 00:38:39,800
+What about in the money call? So that's this showing here, right?
+
+439
+00:38:39,800 --> 00:38:41,220
+So this is the zero line,
+
+440
+00:38:41,420 --> 00:38:48,130
+right and this is saying that As time goes forward in this case one step one time
+
+441
+00:38:48,130 --> 00:38:53,790
+step. Okay, this call option Lost about three cents. Okay,
+
+442
+00:38:53,810 --> 00:38:59,610
+the y-axis is the change in the Delta So this call option lost about point zero
+
+443
+00:38:59,610 --> 00:39:09,470
+three Delta for one at the bottom here for one time step forward Okay,
+
+444
+00:39:09,630 --> 00:39:12,950
+and then the in the money option is gonna be the opposite right one time step forward
+
+445
+00:39:12,950 --> 00:39:19,140
+it's gonna increase in Delta So I'm seeing that you said here got it this part.
+
+446
+00:39:19,670 --> 00:39:32,440
+So I'm assuming we're good Okay Okay, continue explaining. Okay,
+
+447
+00:39:32,520 --> 00:39:37,460
+so then in the money in the money option one day forward Right.
+
+448
+00:39:37,500 --> 00:39:42,590
+This option is going to increase its Delta by five point zero four Right because
+
+449
+00:39:42,590 --> 00:39:48,760
+and let's say in the money option today Cohen 30 days out is 80 But expiration it's
+
+450
+00:39:48,760 --> 00:39:57,880
+100 so we can say that as Delta as time goes forward or volatility drops Delta increases
+
+451
+00:39:57,880 --> 00:39:58,940
+in the money.
+
+452
+00:39:59,080 --> 00:40:07,920
+So in the money Delta increases out of the money Delta decreases Yeah spots trading
+
+453
+00:40:07,920 --> 00:40:08,380
+at a hundred.
+
+454
+00:40:11,480 --> 00:40:16,500
+All right So now we're gonna have a really fun example and this is where the practicality
+
+455
+00:40:16,500 --> 00:40:17,020
+comes in, right?
+
+456
+00:40:17,080 --> 00:40:22,220
+So so in the way I think about it guys is this is how a lot of people show you this
+
+457
+00:40:22,220 --> 00:40:28,880
+stuff These Vanna these charms But no one has anyone ever has anyone told you the
+
+458
+00:40:28,880 --> 00:40:30,020
+practicalities of Vanna?
+
+459
+00:40:30,280 --> 00:40:35,480
+Has anyone ever told you what happens to market makers when time changes?
+
+460
+00:40:35,760 --> 00:40:38,060
+What happens to market makers when vol changes?
+
+461
+00:40:38,240 --> 00:40:39,460
+Has anyone ever talked about it?
+
+462
+00:40:41,350 --> 00:40:45,830
+I haven't seen it I haven't seen it on Twitter and and I'm gonna show you guys why
+
+463
+00:40:45,830 --> 00:40:46,990
+that is. Okay,
+
+464
+00:40:47,050 --> 00:40:53,520
+I'm gonna show you guys What what the reason for that is let's say we've got a market
+
+465
+00:40:53,520 --> 00:40:57,620
+maker. We're gonna late. We're gonna label him Eminem Okay,
+
+466
+00:40:57,760 --> 00:41:05,700
+and he is going to sell a 110 call option stocks trading at a hundred stock is trading
+
+467
+00:41:05,700 --> 00:41:11,040
+at 100 So you are gonna go buy a GME call option stock trading at 100 and you're
+
+468
+00:41:11,040 --> 00:41:18,080
+gonna buy the 110 GME call option Well, and this is 30 vol. Okay.
+
+469
+00:41:18,920 --> 00:41:28,040
+Well our Delta Okay for the market maker is gonna be 13 deltas, but he's short.
+
+470
+00:41:28,400 --> 00:41:34,620
+He's short this call option. So he's short 13 deltas Okay,
+
+471
+00:41:34,940 --> 00:41:38,360
+he's short 13 deltas, but this market maker doesn't sell one.
+
+472
+00:41:38,580 --> 00:41:40,060
+Okay this market maker instead.
+
+473
+00:41:40,380 --> 00:41:46,240
+He sells 10,000 of these He sells 10,000 of these option contracts So we're gonna
+
+474
+00:41:46,240 --> 00:41:49,940
+have a market maker gonna multiply it by a hundred right because Delta is you know
+
+475
+00:41:49,940 --> 00:41:56,800
+times 100 and then we're gonna Multiply it by 10,000 because he sold 10,000 of these
+
+476
+00:41:56,800 --> 00:42:05,910
+contracts So let's look at this market makers book.
+
+477
+00:42:09,320 --> 00:42:10,520
+Let's take a look at this market makers book.
+
+478
+00:42:10,960 --> 00:42:16,300
+He's short a hundred and thirty-eight thousand shares He's short one hundred thirty
+
+479
+00:42:16,300 --> 00:42:19,740
+-eight thousand eight hundred fifty seven shares of this of this of this stock.
+
+480
+00:42:19,880 --> 00:42:20,940
+So what's he gonna do?
+
+481
+00:42:21,940 --> 00:42:24,800
+Now he's actually not gonna do this but for Twitter purposes.
+
+482
+00:42:25,060 --> 00:42:26,860
+What what is this market maker gonna do?
+
+483
+00:42:28,920 --> 00:42:33,900
+Sure, but I can send it over to you. No problem for Twitter purposes.
+
+484
+00:42:34,120 --> 00:42:36,720
+What is this market maker going to do?
+
+485
+00:42:39,840 --> 00:42:41,860
+Hedge perfect. How's he gonna hedge? What's he gonna do?
+
+486
+00:42:42,220 --> 00:42:46,210
+He just shorted a whole bunch of these shares to some punter 10,000 of these some
+
+487
+00:42:46,210 --> 00:42:49,310
+big retail whale came in and bought 10,000 of these he's gonna buy how many shares
+
+488
+00:42:49,310 --> 00:42:49,890
+is he gonna buy?
+
+489
+00:43:02,150 --> 00:43:03,730
+Oh shit. We're gonna go past nine here guys.
+
+490
+00:43:03,910 --> 00:43:05,490
+He's gonna buy a hundred eight thirty-eight thousand shares.
+
+491
+00:43:05,610 --> 00:43:09,640
+Perfect He's gonna buy a hundred and thirty-eight thousand shares and that's gonna
+
+492
+00:43:09,640 --> 00:43:25,400
+make him flat Delta now tomorrow in in three hours Okay in three hours Vol
+
+493
+00:43:25,400 --> 00:43:37,260
+changes in three hours vol changes and it goes from 30 vol to 28 vol Okay,
+
+494
+00:43:37,260 --> 00:43:42,860
+it goes from 30 vol to 28 vol and I'm pretty sure the way that Jim croissant The
+
+495
+00:43:43,220 --> 00:43:47,600
+way he does it is he does it through how the stock moves with spot price,
+
+496
+00:43:47,680 --> 00:43:47,940
+right? You know,
+
+497
+00:43:48,000 --> 00:43:53,510
+you have different volatilities for different different strikes And so let's say
+
+498
+00:43:53,510 --> 00:44:02,720
+vol drops 28 to 28 it drops to Vegas For goes from 30 to 28 three hours later Okay,
+
+499
+00:44:02,760 --> 00:44:05,760
+you're gonna get her support resistance zone levels on Twitter.
+
+500
+00:44:08,260 --> 00:44:23,040
+So now this market maker is only short 121,000 234 Delta he was short a hundred
+
+501
+00:44:23,040 --> 00:44:25,280
+thirty-eight thousand He bought a hundred thirty-eight thousand shares,
+
+502
+00:44:25,440 --> 00:44:29,060
+but now he's only short 121,000. But guess what? What's the issue here?
+
+503
+00:44:29,880 --> 00:44:38,040
+What is our issue here? Perfect perfect Eric now, he's long Delta. In fact,
+
+504
+00:44:38,660 --> 00:44:45,460
+he's long about 17,000 shares Vol drops two points and now he's long 17,000 shares.
+
+505
+00:44:45,760 --> 00:44:46,960
+So what does he need to do?
+
+506
+00:44:47,280 --> 00:44:52,080
+He needs to go and sell 17,000 shares and to be honest guys,
+
+507
+00:44:52,160 --> 00:44:58,300
+this is actually not what really happens in the market Rule number one about options
+
+508
+00:44:58,300 --> 00:45:02,870
+is hedge if you're if you're trading options hedge with options as a market maker
+
+509
+00:45:05,510 --> 00:45:09,830
+But let's go say he goes and he sells 17,000 shares. Well,
+
+510
+00:45:09,850 --> 00:45:14,050
+this is a resistance level right at because let's say for example Jim Cousin says
+
+511
+00:45:14,050 --> 00:45:20,630
+if this because remember vol and as the stock moves Volatility changes if it's for
+
+512
+00:45:20,630 --> 00:45:23,840
+example when the queues go down Well,
+
+513
+00:45:23,960 --> 00:45:30,280
+the queues are gonna be increasing volatility So deltas are gonna change but as
+
+514
+00:45:30,280 --> 00:45:31,940
+the stock goes up, well,
+
+515
+00:45:31,980 --> 00:45:36,860
+guess what vol is gonna drop And so that's gonna change the deltas.
+
+516
+00:45:37,360 --> 00:45:41,560
+And so that's where he gets those support resistance from I'm pretty sure is that
+
+517
+00:45:41,560 --> 00:45:44,880
+you know The spot of eyeball correlation plus the Vanna flows,
+
+518
+00:45:45,020 --> 00:45:50,840
+right if spot were to rally 1% Let's say or to this support level vols would drop
+
+519
+00:45:50,840 --> 00:45:58,420
+X amount Meaning the market makers are gonna have to sell X amount of shares Dropping
+
+520
+00:45:58,420 --> 00:46:04,100
+the stock price Okay, but here's our here's our problem guys.
+
+521
+00:46:04,240 --> 00:46:12,250
+Here's the big problem For 10k short options contracts,
+
+522
+00:46:14,070 --> 00:46:23,240
+we need to trade 17,000 shares 17,000 shares on let's say something like the SPY
+
+523
+00:46:23,820 --> 00:46:29,730
+Apple that trades a hundred million shares a day 17,000 shares.
+
+524
+00:46:29,850 --> 00:46:34,480
+I'm pretty sure Neil does this on a daily basis and Neil doesn't move the market
+
+525
+00:46:34,900 --> 00:46:42,610
+Okay, the practicality of this in my opinion is ridiculous Right,
+
+526
+00:46:42,810 --> 00:46:48,640
+even if we bump this up to a hundred thousand contracts That's a hundred and seventy
+
+527
+00:46:48,640 --> 00:46:54,910
+thousand shares on a stock that trades a hundred million dollars Hundred million
+
+528
+00:46:54,910 --> 00:47:01,450
+shares a day and we're not even talking about all the other flows But we're not
+
+529
+00:47:01,450 --> 00:47:11,300
+even talking about all these flows the VOMA the color of the Zoma If the market
+
+530
+00:47:11,300 --> 00:47:15,080
+maker short a bunch of call options as a stock rallies Well,
+
+531
+00:47:15,100 --> 00:47:20,440
+he's got you gotta buy more and more and more just from the gamma exposure But the
+
+532
+00:47:20,440 --> 00:47:23,820
+Vanna exposure is telling themselves so it's like there's not only Vanna exposure
+
+533
+00:47:23,820 --> 00:47:25,040
+in the market, right?
+
+534
+00:47:25,040 --> 00:47:29,220
+there's so many more and I honestly think in my personal and I've never met a profitable
+
+535
+00:47:29,220 --> 00:47:33,180
+trader that You know, like these are second-order, you know,
+
+536
+00:47:33,180 --> 00:47:35,800
+these are these are second-order derivatives Right,
+
+537
+00:47:35,940 --> 00:47:38,340
+they don't what about the first order?
+
+538
+00:47:38,640 --> 00:47:40,960
+What about just betting on the direction of the stock?
+
+539
+00:47:41,140 --> 00:47:44,180
+You're gonna make way more money betting on the direction of the stock than betting
+
+540
+00:47:44,180 --> 00:47:48,440
+on You know the second-order effect to figure out the Delta before you try to figure
+
+541
+00:47:48,440 --> 00:47:51,120
+out the Vanna Right the change of Delta with respect to Vanna try to figure out
+
+542
+00:47:51,120 --> 00:47:52,860
+the Delta first That's where the money is.
+
+543
+00:47:53,120 --> 00:47:55,780
+The money is not in this third fourth order derivative,
+
+544
+00:47:56,260 --> 00:48:00,100
+you know But it's a complex situation that not a lot of people understand.
+
+545
+00:48:00,180 --> 00:48:05,630
+And so for that reason it's easy to kind of in my opinion you know,
+
+546
+00:48:05,630 --> 00:48:08,580
+maybe not but I feel like you know,
+
+547
+00:48:08,600 --> 00:48:13,220
+it's easier to raise capital if you know people think you're some amazing creature
+
+548
+00:48:14,580 --> 00:48:18,300
+And no one really understands you and we Sean and I actually get a lot of messages
+
+549
+00:48:18,300 --> 00:48:21,920
+guys. Can you explain Vanna? Can you like how are these guys doing it?
+
+550
+00:48:23,380 --> 00:48:26,040
+It's because we don't understand it yet everyone, you know,
+
+551
+00:48:26,080 --> 00:48:29,640
+everyone's hyping them up And so I think it's a way to raise capital in my opinion
+
+552
+00:48:34,140 --> 00:48:40,180
+But this is this is Vanna this is charm in a nutshell Actually in pretty I'd say
+
+553
+00:48:40,180 --> 00:48:44,540
+pretty in-depth This is what Vanna and charm is and now you guys know so,
+
+554
+00:48:44,780 --> 00:48:44,900
+you know,
+
+555
+00:48:45,000 --> 00:48:57,510
+congrats now you understand Vanna and charm flows So right saying they're nonlinear
+
+556
+00:48:57,510 --> 00:49:03,100
+and so we need these second or derivative guidance So red I you know,
+
+557
+00:49:03,100 --> 00:49:11,070
+I would I would actually I would disagree with that just simply because as a trader
+
+558
+00:49:11,670 --> 00:49:16,950
+We want to we want to figure out where? Where can I make the most money, right?
+
+559
+00:49:17,770 --> 00:49:18,310
+You know,
+
+560
+00:49:18,350 --> 00:49:21,030
+there's a there's a lot of guys on Twitter For example trying to price these like
+
+561
+00:49:21,030 --> 00:49:24,630
+Delta five options or these Delta three options, right?
+
+562
+00:49:24,630 --> 00:49:27,230
+And and let's and let's take a look at it real quick.
+
+563
+00:49:28,540 --> 00:49:37,460
+So So let's say we're doing $100 stock and we're trading a hundred and twenty dollar
+
+564
+00:49:37,460 --> 00:49:40,340
+strike and Like I see this constantly, right?
+
+565
+00:49:40,360 --> 00:49:45,200
+I see this constantly and it's trading out Let's say point four vol for 40% volatility
+
+566
+00:49:45,200 --> 00:49:52,100
+zero interest rates and one month expiration Does anyone know how to I I actually
+
+567
+00:49:52,100 --> 00:49:55,680
+I have it as a hyphenation. Does anyone know how to change that to?
+
+568
+00:49:56,600 --> 00:50:02,860
+So I can have this like the slash again Or did I mess up big?
+
+569
+00:50:05,370 --> 00:50:08,970
+change keyboard You know what? Okay.
+
+570
+00:50:09,010 --> 00:50:10,810
+Actually I have I have an example right here.
+
+571
+00:50:11,920 --> 00:50:17,560
+So let's say we're doing $120 strike John's gonna kill me.
+
+572
+00:50:17,580 --> 00:50:18,720
+I'm not gonna tell I'm not gonna say anything.
+
+573
+00:50:18,860 --> 00:50:24,280
+He's just gonna come back and everything's gonna be apostrophes apostrophe Okay,
+
+574
+00:50:24,280 --> 00:50:29,860
+$100 strike $120 call option and we're gonna say 40 40 fall Right and a lot of people
+
+575
+00:50:29,860 --> 00:50:31,440
+are actually trying to price this they're saying hey,
+
+576
+00:50:31,460 --> 00:50:35,450
+the tails are super cheap The tails are super cheap. Okay,
+
+577
+00:50:35,470 --> 00:50:40,910
+so when we when we price this out It's trained for 27 cents.
+
+578
+00:50:41,640 --> 00:50:42,900
+All right train for 27 cents.
+
+579
+00:50:43,280 --> 00:50:52,410
+And if we think let's say it's worth 50 vol Right now we might get a big return
+
+580
+00:50:52,410 --> 00:50:55,800
+on capital Okay, we might get a big return on capital.
+
+581
+00:50:55,800 --> 00:51:00,790
+But the reality is is That it's hard to actually get size on in the wings,
+
+582
+00:51:00,830 --> 00:51:08,240
+right? This is the practicality side Right, so we go from 27 cents to 70 cents,
+
+583
+00:51:08,400 --> 00:51:09,360
+right?
+
+584
+00:51:09,380 --> 00:51:15,130
+So we're gaining we're gaining 40 cents here On an option that we think is 10 points
+
+585
+00:51:15,130 --> 00:51:22,570
+underpriced Now the reality is is that it's 40 cents, right?
+
+586
+00:51:22,870 --> 00:51:27,610
+You to get you know You have to get a crazy amount of size on right if you want
+
+587
+00:51:27,610 --> 00:51:32,670
+to let's say make four hundred thousand dollars You have to buy What is that a million
+
+588
+00:51:32,670 --> 00:51:33,510
+of these contracts?
+
+589
+00:51:33,630 --> 00:51:38,010
+You can't get that size on right and that's where a lot of the time when I see these
+
+590
+00:51:38,010 --> 00:51:39,670
+guys on Twitter It's like well,
+
+591
+00:51:39,690 --> 00:51:43,570
+you can tell who the who the who the academic is versus who the practitioner is,
+
+592
+00:51:43,590 --> 00:51:44,310
+right?
+
+593
+00:51:44,310 --> 00:51:47,870
+I'm trying to wish we are trying to get some serious money from dollars We're trying
+
+594
+00:51:47,870 --> 00:51:51,200
+to get how much dollars can we extract from the market, right?
+
+595
+00:51:54,360 --> 00:51:56,100
+And so, you know trying to price these wings,
+
+596
+00:51:56,260 --> 00:51:59,380
+you know using fancy words like kurtosis or you know,
+
+597
+00:51:59,380 --> 00:52:03,540
+other words is It's not from a practitioner standpoint.
+
+598
+00:52:11,320 --> 00:52:13,780
+Okay, so right I'm gonna get a second.
+
+599
+00:52:14,020 --> 00:52:22,500
+Let me just read what's going on here Chick saying Jordan who warehouses the risk
+
+600
+00:52:22,500 --> 00:52:25,380
+at the end of the day like even if market makers hedging where does the risk end
+
+601
+00:52:25,380 --> 00:52:27,000
+up? Yes,
+
+602
+00:52:27,060 --> 00:52:31,540
+really good question so The risk is gonna end up to the person taking on the risk
+
+603
+00:52:31,540 --> 00:52:36,660
+if I if I'm a market maker Okay, so let's say I'm going long Delta's Okay,
+
+604
+00:52:37,040 --> 00:52:40,330
+and I buy a call option Well, I'm not gonna be hedging.
+
+605
+00:52:40,430 --> 00:52:43,470
+Let's say I'm actually bullish on the shares I'm gonna buy this call option and
+
+606
+00:52:43,470 --> 00:52:43,830
+you know,
+
+607
+00:52:43,890 --> 00:52:48,310
+I mix I want that exposure I want that exposure to the Delta but the market maker
+
+608
+00:52:48,310 --> 00:52:51,490
+is actually gonna do is he's gonna sell me that a call option He's actually not
+
+609
+00:52:51,490 --> 00:52:56,800
+gonna buy shares What he's going to do is buy the option closest to my ex to my
+
+610
+00:52:56,800 --> 00:52:59,650
+strike Right, because why is it now?
+
+611
+00:52:59,690 --> 00:53:03,110
+Let me ask you that question chicks Why would the why would the market maker instead
+
+612
+00:53:03,110 --> 00:53:07,370
+of buying my option from or selling my option and then buying shares to hedge?
+
+613
+00:53:07,850 --> 00:53:10,690
+Why would he go and buy the nearest strike option?
+
+614
+00:53:13,830 --> 00:53:14,690
+What do you think?
+
+615
+00:53:17,380 --> 00:53:19,480
+One second guys. What do you think chicks?
+
+616
+00:53:19,540 --> 00:53:23,040
+Why would he buy the nearest strike option versus buying the shares?
+
+617
+00:53:31,770 --> 00:53:37,570
+Does anyone else want to help chicks here? What's it? She's gonna say You know,
+
+618
+00:53:37,750 --> 00:53:47,070
+you're the man, you know, you got it Obviously better than the spread Okay.
+
+619
+00:53:47,150 --> 00:53:48,610
+Okay chicks. Yeah, you're absolutely right.
+
+620
+00:53:49,490 --> 00:53:54,490
+Okay The reason why he would trade the options instead of the and this is this is
+
+621
+00:53:54,490 --> 00:53:55,010
+the rule, right?
+
+622
+00:53:55,050 --> 00:53:59,150
+The rule is if you can hedge with options head with a hedge with options don't hedge
+
+623
+00:53:59,150 --> 00:54:03,110
+with shares But for some reason Twitter things everyone had just the shares The
+
+624
+00:54:03,110 --> 00:54:05,670
+reason is because if the market maker buys those shares,
+
+625
+00:54:05,730 --> 00:54:07,370
+he just closes out his Delta's.
+
+626
+00:54:07,470 --> 00:54:09,670
+He didn't close out his Vega He didn't close out his theta.
+
+627
+00:54:09,750 --> 00:54:12,920
+He didn't close out his gamma and he doesn't want that.
+
+628
+00:54:12,980 --> 00:54:17,260
+The market maker doesn't want that exposure He's trying to remain as flat as possible
+
+629
+00:54:17,260 --> 00:54:20,890
+and just collect the spread Right.
+
+630
+00:54:21,130 --> 00:54:25,230
+So when he sells you that option You can try to buy the nearest strike option to
+
+631
+00:54:25,230 --> 00:54:29,210
+get rid of those exposures and whatever he has left Which is gonna be basically
+
+632
+00:54:29,210 --> 00:54:34,130
+zero theta and zero gamma and zero Vega right price two options right beside each
+
+633
+00:54:34,130 --> 00:54:38,090
+other The the Vega and gamma exposure is basically zero There might be a little
+
+634
+00:54:38,090 --> 00:54:41,910
+bit of Delta left over and so he might hedge that off But they might have other
+
+635
+00:54:41,910 --> 00:54:47,410
+stuff in his book that hedges that Delta So,
+
+636
+00:54:47,570 --> 00:54:50,590
+you know most of the time the guy is not gonna be hedging with shares now if you
+
+637
+00:54:50,590 --> 00:54:54,030
+let's say he goes into a Super liquid option you might buy he might you know any
+
+638
+00:54:54,030 --> 00:54:58,630
+and also guys another very important point as well He does the quicker he can turn
+
+639
+00:54:58,630 --> 00:55:03,210
+over his book the better So what that means is if he can sell you that so there's
+
+640
+00:55:03,210 --> 00:55:05,310
+something called like a zero tick rule And you know,
+
+641
+00:55:05,370 --> 00:55:07,090
+this is more like like higher finance,
+
+642
+00:55:07,190 --> 00:55:12,500
+which we won't talk about today But we can talk about on another life if he can
+
+643
+00:55:12,500 --> 00:55:17,100
+get rid of that option as quick as possible He's he is happy to do that.
+
+644
+00:55:17,360 --> 00:55:20,960
+So if he doesn't have to hedge and he can just offset it to someone else as quickly
+
+645
+00:55:20,960 --> 00:55:25,080
+as possible he's uh He's very happy.
+
+646
+00:55:25,520 --> 00:55:29,260
+And the other thing we don't know is what's in the market makers book For example,
+
+647
+00:55:29,380 --> 00:55:34,070
+the market maker might be super long Delta and so by him selling you those call
+
+648
+00:55:34,070 --> 00:55:38,360
+options He doesn't need a hedge with shares because he's already super long Delta
+
+649
+00:55:38,360 --> 00:55:39,280
+And in fact,
+
+650
+00:55:39,380 --> 00:55:43,430
+he wanted you to see he wanted to sell you that call option right to get some short
+
+651
+00:55:43,430 --> 00:55:48,730
+Deltas So there's a whole bunch of reasons and I think I think there's a lot of
+
+652
+00:55:48,730 --> 00:55:54,060
+marketing going on You know a lot of raising capital going on in this space,
+
+653
+00:55:54,060 --> 00:55:59,790
+but it's my opinion I think red has a really good post that we should we should
+
+654
+00:55:59,790 --> 00:56:05,430
+chat about here So red spent a lot of time ball or ballpark in the ranges for cross
+
+655
+00:56:05,430 --> 00:56:10,860
+Delta hedging Red as I type this if you don't mind explaining a little bit.
+
+656
+00:56:11,480 --> 00:56:16,640
+So first cross Delta hedging You don't mind swing that as I read more With more
+
+657
+00:56:16,640 --> 00:56:21,000
+precise guides I could focus more on trading without having to having to do so much
+
+658
+00:56:21,000 --> 00:56:33,820
+mental math and guesswork And not compromise how much size I'm using Okay,
+
+659
+00:56:33,820 --> 00:56:41,390
+so Red I spent a lot of time as well thinking about Delta hedging but I spent a
+
+660
+00:56:41,390 --> 00:56:42,270
+little bit my time.
+
+661
+00:56:42,350 --> 00:56:44,940
+I spent a little bit of time thinking about a little bit different the time I spend
+
+662
+00:56:44,940 --> 00:56:49,950
+on Delta hedging is Do I want to add costs?
+
+663
+00:56:50,570 --> 00:56:55,050
+Right every time we Delta hedge we add a cost right and there's really there's no
+
+664
+00:56:55,050 --> 00:56:58,870
+way There's no two ways around that when you trade it's expensive to trade you have
+
+665
+00:56:58,870 --> 00:57:02,950
+to usually pay slippage You have to pay commission not just coming in but going
+
+666
+00:57:02,950 --> 00:57:06,270
+out once you put a position on to Delta hedge You also have to pay that coming out
+
+667
+00:57:06,270 --> 00:57:11,480
+when you close out the position So when we trade we're really it's really a concept
+
+668
+00:57:11,480 --> 00:57:14,840
+of do we reduce volatility aka hedging?
+
+669
+00:57:16,500 --> 00:57:21,520
+by increasing Transaction costs and that comes straight out of the bottom line.
+
+670
+00:57:21,960 --> 00:57:27,110
+Okay, so When we every time we trade it costs money now,
+
+671
+00:57:27,130 --> 00:57:34,940
+that's always the trade-off variance reduction versus Taking money away from the
+
+672
+00:57:34,940 --> 00:57:37,700
+bottom line, right? Our expected value is gonna be the same.
+
+673
+00:57:38,080 --> 00:57:43,860
+So as we all as a lot of you guys are aware of Wow, this lives getting long.
+
+674
+00:57:43,960 --> 00:57:46,060
+Okay, we're gonna we're gonna we're gonna we're gonna cut it here,
+
+675
+00:57:46,120 --> 00:57:55,120
+but I'm gonna quickly Quickly share this Okay When we trade an option their path
+
+676
+00:57:55,120 --> 00:57:58,640
+dependent, right and this is because the gamma is not constant Oh, you know,
+
+677
+00:57:58,640 --> 00:58:01,500
+we're gonna obviously down the road Hopefully we'll talk about this,
+
+678
+00:58:01,520 --> 00:58:06,080
+but we might have our P&L go up here. It might go down here.
+
+679
+00:58:07,050 --> 00:58:09,140
+It might go up here Right.
+
+680
+00:58:09,160 --> 00:58:15,980
+These are all different paths that we could take but the the the expectancy Okay,
+
+681
+00:58:15,980 --> 00:58:21,350
+the expectancy of all these paths are right here Okay,
+
+682
+00:58:21,750 --> 00:58:30,660
+now we have a choice to make we can either one embrace this Embrace that one time.
+
+683
+00:58:30,700 --> 00:58:33,640
+We're not gonna make money one time. We're gonna make a lot of money Okay,
+
+684
+00:58:33,920 --> 00:58:41,520
+or what we could do is this we can Delta hedge Which would allow us to have a tighter
+
+685
+00:58:41,520 --> 00:58:43,260
+path Okay.
+
+686
+00:58:44,440 --> 00:58:51,590
+Okay variance reduction But because of our transaction costs we drop our expected
+
+687
+00:58:51,590 --> 00:58:55,310
+value to let's say right over here Okay,
+
+688
+00:58:55,350 --> 00:59:02,710
+so we reduced our variance But we increased or we decreased our long run expectancy
+
+689
+00:59:04,380 --> 00:59:09,740
+So I wouldn't be too concerned blue about You know,
+
+690
+00:59:09,760 --> 00:59:14,380
+when do I Delta hedge right if you if you're can if you're thinking when do I Delta
+
+691
+00:59:14,380 --> 00:59:17,240
+hedge? That is a totally separate strategy.
+
+692
+00:59:17,320 --> 00:59:22,210
+What that's basically telling you is that you can trade the underline, right?
+
+693
+00:59:22,210 --> 00:59:27,210
+If you are having timing if you are timing your Delta hedges You are trading the
+
+694
+00:59:27,210 --> 00:59:30,710
+underlying and so you there should you if you have an edge in Delta?
+
+695
+00:59:30,870 --> 00:59:35,410
+You shouldn't be trading the vol because you can make so much more in Delta Right.
+
+696
+00:59:35,590 --> 00:59:40,310
+So really embrace that is the fact that if you are gonna be Delta hedging due to
+
+697
+00:59:40,310 --> 00:59:45,090
+you know Some other strategy that you're implementing on top of your vol,
+
+698
+00:59:45,230 --> 00:59:47,530
+right? It's a second strategy.
+
+699
+00:59:48,460 --> 00:59:51,860
+And so you should really think about what can I actually trade the underlying on
+
+700
+00:59:51,860 --> 00:59:57,720
+its own, right? In that case, I think you should you know, and you know,
+
+701
+00:59:57,800 --> 01:00:00,960
+of course if you can add a vol component to it You know you get double the edge
+
+702
+01:00:02,530 --> 01:00:08,800
+But I can't speak to the actual strategy of Delta hedging itself. Okay,
+
+703
+01:00:08,820 --> 01:00:14,700
+I can't speak to and when I say The strategy I mean Treating it as a Delta one strategy.
+
+704
+01:00:24,490 --> 01:00:26,370
+Oh, yeah, right if you can post to all panelists,
+
+705
+01:00:26,470 --> 01:00:34,220
+I'd be great So Ram saying can you explain can you explain variance sure Ram so
+
+706
+01:00:34,220 --> 01:00:38,340
+here you can see Ram Let's take a look at the red paths.
+
+707
+01:00:38,540 --> 01:00:43,620
+Okay And if you go to the advanced chat I posted about this today,
+
+708
+01:00:43,620 --> 01:00:47,840
+so right now I'm actually experiencing this Right.
+
+709
+01:00:47,880 --> 01:00:52,520
+I'm experiencing this but if I Delta hedged I could have experienced this Right,
+
+710
+01:00:52,520 --> 01:01:01,310
+but that also means that I give up this so Picture this Ram as the y-axis is our
+
+711
+01:01:01,310 --> 01:01:01,710
+P&L.
+
+712
+01:01:03,780 --> 01:01:04,220
+Okay,
+
+713
+01:01:04,280 --> 01:01:14,050
+and x-axis is time Imagine this Ram you buy a you buy a straddle This is similar
+
+714
+01:01:14,050 --> 01:01:19,990
+what happened to me you buy a straddle and the stock goes up 10% down 30% up 70
+
+715
+01:01:19,990 --> 01:01:26,800
+% and then at expiration Closes flat closes at your strike. Well,
+
+716
+01:01:26,800 --> 01:01:28,420
+you're gonna experience this part right here,
+
+717
+01:01:28,540 --> 01:01:38,350
+right where you made no money But the vol was crazy now sometimes with the same
+
+718
+01:01:38,350 --> 01:01:46,600
+volatility The stock could have gone like this up 10% up 50% up 70% up 90% and then
+
+719
+01:01:46,600 --> 01:01:52,720
+you experience this Right where you made a ton of money because you never Delta
+
+720
+01:01:52,720 --> 01:02:01,720
+hedged so that's the variance in the P&L the day-to-day the variance right variance
+
+721
+01:02:01,720 --> 01:02:07,410
+meaning like You know is your P&L straight or is your P&L all over the place?
+
+722
+01:02:08,160 --> 01:02:14,220
+But the end result right the end result if you're let's say buying an option at
+
+723
+01:02:14,220 --> 01:02:18,580
+30 vol But it's realizing 40 vol. Okay.
+
+724
+01:02:18,620 --> 01:02:23,730
+Well your end result is gonna be positive But the path it takes could be up here
+
+725
+01:02:23,730 --> 01:02:28,700
+or it could be down here or anywhere in between Okay,
+
+726
+01:02:29,060 --> 01:02:32,420
+and the green line is if you decide to Delta hedge, well,
+
+727
+01:02:32,500 --> 01:02:36,750
+you're gonna reduce that variance You're gonna reduce that variance a ton Now the
+
+728
+01:02:36,750 --> 01:02:39,210
+more you hedge the less you the more you reduce the variance,
+
+729
+01:02:40,390 --> 01:02:46,660
+but the more transaction costs So that's why we always say right the transaction
+
+730
+01:02:46,660 --> 01:02:53,800
+costs come out of the bottom line no matter what those are gone So we have to decide
+
+731
+01:02:53,800 --> 01:02:56,200
+do we want to reduce variance Right.
+
+732
+01:02:56,240 --> 01:03:01,370
+So for example portfolio manager at firm is gonna reduce variance for sure But at
+
+733
+01:03:01,370 --> 01:03:17,180
+the same time he's also gonna pay up a lot of costs So
+
+734
+01:03:17,180 --> 01:03:18,760
+red was just saying, you know,
+
+735
+01:03:18,780 --> 01:03:21,520
+basically if you're short gamma you're trading against the market defensively But
+
+736
+01:03:21,520 --> 01:03:24,360
+if you could pick points to where you know, where's optimal hedging,
+
+737
+01:03:24,480 --> 01:03:27,620
+you know You're obviously gonna do better and which I agree, you know,
+
+738
+01:03:27,640 --> 01:03:32,380
+if you can trade Delta one and a vol spectrum You're gonna do phenomenally well
+
+739
+01:03:44,980 --> 01:03:46,060
+So red just saying like,
+
+740
+01:03:46,300 --> 01:03:48,780
+you know when you're when you're short gamma You got to be defensive or you got
+
+741
+01:03:48,780 --> 01:03:51,680
+a hedge like if the market starts blowing through the roof You can't be like,
+
+742
+01:03:51,860 --> 01:03:53,420
+you know, come on come back come back.
+
+743
+01:03:53,540 --> 01:03:56,060
+You got a hedge quick When you're long gamma,
+
+744
+01:03:56,160 --> 01:03:58,180
+you cannot you can you afford to let it run?
+
+745
+01:04:00,710 --> 01:04:05,150
+Okay guys Wow 915 that was a long one,
+
+746
+01:04:05,470 --> 01:04:08,290
+but I hope you guys I hope you actually guys got a lot out of this one you know,
+
+747
+01:04:08,350 --> 01:04:11,750
+I So basically what I what I really wanted you guys to really understand from this
+
+748
+01:04:11,750 --> 01:04:15,840
+life is you guys are trading the meat Okay,
+
+749
+01:04:15,920 --> 01:04:19,580
+you guys are trying to find where's vol mispriced is it, you know,
+
+750
+01:04:19,660 --> 01:04:24,380
+where is Vega mispriced and that is the first order Right, just like spot.
+
+751
+01:04:24,980 --> 01:04:26,980
+Where's the stock mispriced? Where can I get Delta?
+
+752
+01:04:27,100 --> 01:04:30,590
+That is the first order and that's where the meat is Right,
+
+753
+01:04:30,590 --> 01:04:34,500
+and that's where we want to be as retail traders Trying to get the highest return
+
+754
+01:04:34,500 --> 01:04:35,000
+on capital.
+
+755
+01:04:35,120 --> 01:04:38,460
+That is where we want to be high highest dollar return That's where we want to be.
+
+756
+01:04:38,620 --> 01:04:45,850
+We want to be trading that meat So don't worry too much about the third-order derivatives,
+
+757
+01:04:45,990 --> 01:04:50,330
+I know it's all online I know it's super pumped up and it's super pumped up for
+
+758
+01:04:50,330 --> 01:04:56,670
+the reasons. We've talked about earlier Okay, and as you guys saw,
+
+759
+01:04:56,970 --> 01:05:03,600
+you know Trading $100,000 trading a hundred thousand contracts barely changes the
+
+760
+01:05:03,600 --> 01:05:10,590
+changes the market makers book relative to the overall volume and We don't even
+
+761
+01:05:10,590 --> 01:05:14,090
+know if the market makers hedging Right, so you guys can see right there.
+
+762
+01:05:14,250 --> 01:05:15,880
+It's a You know,
+
+763
+01:05:15,880 --> 01:05:27,440
+it's for me at least I'm very very very skeptical about this Trick is saying can
+
+764
+01:05:27,440 --> 01:05:33,210
+we do a big live on VIX VIX and VXX chicks? We can definitely do that Koa,
+
+765
+01:05:33,350 --> 01:05:36,030
+how can I make money? You can't that's the whole part. Uh-huh.
+
+766
+01:05:36,190 --> 01:05:41,760
+That's that's the caveat to this live that third order Greeks second order Greeks
+
+767
+01:05:41,760 --> 01:05:47,220
+is Is You know, it's second order. It's third order, right?
+
+768
+01:05:47,700 --> 01:05:50,610
+It's All our lives cool on first order stuff.
+
+769
+01:05:52,480 --> 01:05:59,390
+That's where I think you're gonna make a lot of money Red we got it. We got it.
+
+770
+01:05:59,390 --> 01:06:10,230
+We got you, buddy Okay. Well guys, thank you so much for showing up.
+
+771
+01:06:10,290 --> 01:06:17,560
+I really hope you guys got a lot of that and And I'll see you later. Yeah,
+
+772
+01:06:17,880 --> 01:06:20,200
+Neil so you can make money with gamma. Yes,
+
+773
+01:06:20,360 --> 01:06:24,780
+but Neil remember we really only use Yes,
+
+774
+01:06:24,880 --> 01:06:30,350
+I agree with that no gamma is probably one of the only one of the only things that
+
+775
+01:06:32,060 --> 01:06:32,540
+You know,
+
+776
+01:06:32,540 --> 01:06:38,640
+we can actually Make quite a bit of money from and that's it's not You know,
+
+777
+01:06:38,680 --> 01:06:40,970
+I'm gonna have to do a whole live on that. Okay,
+
+778
+01:06:40,990 --> 01:06:48,970
+because it's actually it's It's not really the gamma Okay,
+
+779
+01:06:48,970 --> 01:06:50,870
+it's not really the gamma guys.
+
+780
+01:06:50,970 --> 01:06:56,830
+It's really the vol The vol which way the Vega right when you're long straddle you're
+
+781
+01:06:56,830 --> 01:07:01,730
+long gamma but you're also long the Vega and We'll talk about that in another live
+
+782
+01:07:01,730 --> 01:07:07,730
+meal I'm not saying guys at the the second or third order Greeks are ridiculous
+
+783
+01:07:09,930 --> 01:07:14,340
+I'm just saying that I think they're being blown away out of proportion.
+
+784
+01:07:20,220 --> 01:07:20,720
+Okay?
+
+785
+01:07:22,740 --> 01:07:28,660
+Awesome guys. I will see you Awesome awesome, you know,
+
+786
+01:07:28,680 --> 01:07:31,680
+thanks for sticking out guys. Thanks for sticking out. I know it's 920.
+
+787
+01:07:31,800 --> 01:07:32,500
+You guys are unreal.
+
+788
+01:07:33,020 --> 01:07:40,020
+Enjoy your weekend I'm gonna crack a beer I'm gonna crack a beer and And enjoy so
+
+789
+01:07:40,020 --> 01:07:41,260
+see you guys. Take care.

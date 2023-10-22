@@ -1,0 +1,2859 @@
+1
+00:00:00,000 --> 00:00:05,390
+Some of you guys are really gonna enjoy this one. All right so You know,
+
+2
+00:00:05,450 --> 00:00:08,650
+we always talk about like you should find out if there's evidence, right?
+
+3
+00:00:08,690 --> 00:00:11,630
+You should find out like does this strategy work over time, right?
+
+4
+00:00:12,390 --> 00:00:13,950
+Especially for the technical guys here.
+
+5
+00:00:14,700 --> 00:00:21,570
+So There are really two things With that we can look at trading right one way is
+
+6
+00:00:21,570 --> 00:00:28,520
+is this asset mispriced? so for example, if if I'm selling you this phone,
+
+7
+00:00:28,520 --> 00:00:35,000
+okay for 500 bucks in Imperfect condition right in the box and you go online and
+
+8
+00:00:35,000 --> 00:00:37,180
+they're all selling for $1,500.
+
+9
+00:00:39,270 --> 00:00:39,670
+Well,
+
+10
+00:00:39,750 --> 00:00:44,200
+this is probably mispriced right and the way you figure out if this is mispriced
+
+11
+00:00:44,200 --> 00:00:47,900
+is You look at the specs, right you say, okay.
+
+12
+00:00:47,920 --> 00:00:51,020
+Let me see the condition Let me see if this is actually real you do your research
+
+13
+00:00:51,020 --> 00:00:55,580
+right who the seller is etc Then you find out this phone is actually mispriced.
+
+14
+00:00:56,220 --> 00:01:01,230
+That's what happens a lot of times in Option trading right, you know,
+
+15
+00:01:01,270 --> 00:01:06,740
+you look at you find the option here and you say well it's implying a volatility
+
+16
+00:01:06,740 --> 00:01:15,700
+of 50% and You know given hits historical returns or historical Last hundred days,
+
+17
+00:01:15,800 --> 00:01:17,460
+let's say or not last hundred days.
+
+18
+00:01:17,520 --> 00:01:22,580
+Let's say two years It's only moved this much and all the other sectors are moving
+
+19
+00:01:22,580 --> 00:01:23,060
+this much.
+
+20
+00:01:23,140 --> 00:01:29,090
+So this is probably overpriced or underpriced That's a lot what we do we find mispricings,
+
+21
+00:01:29,610 --> 00:01:32,910
+but then there's another side Okay, there's this data science field.
+
+22
+00:01:33,270 --> 00:01:36,770
+So that is just like knowing your asset pricing your asset then there's this data
+
+23
+00:01:36,770 --> 00:01:38,700
+science field where it's like Well,
+
+24
+00:01:39,220 --> 00:01:42,740
+can I find something that predicts the future?
+
+25
+00:01:42,820 --> 00:01:46,440
+Can I kind of predict the future? Right given this information, right?
+
+26
+00:01:46,520 --> 00:01:50,400
+Let's think about we're the weatherman Given this information.
+
+27
+00:01:50,520 --> 00:01:52,760
+Can I predict what tomorrow's weather is gonna be?
+
+28
+00:01:53,140 --> 00:02:00,880
+Okay given People coming into Amazon Can I predict what they're gonna buy right
+
+29
+00:02:00,880 --> 00:02:06,600
+and that is a whole field in itself and it's another way to look at trading Sorry,
+
+30
+00:02:06,700 --> 00:02:07,580
+I said my screens a little dirty here.
+
+31
+00:02:07,580 --> 00:02:22,440
+I'm sure So do you guys understand that do you have any questions about that there's
+
+32
+00:02:22,440 --> 00:02:25,160
+really two methods to look at trading Okay,
+
+33
+00:02:25,180 --> 00:02:27,620
+like two two ways to approach the market.
+
+34
+00:02:30,220 --> 00:02:31,900
+You guys have any questions about that?
+
+35
+00:02:37,310 --> 00:02:42,210
+So we have the mispricing and then we have the forecasting two different approaches
+
+36
+00:02:44,660 --> 00:02:48,250
+Is that basically sums up all? Professional trading these days.
+
+37
+00:02:48,330 --> 00:02:55,490
+Yeah all of it And most of the time in options, we are finding a mispricing,
+
+38
+00:02:55,550 --> 00:02:59,270
+right? This assets price at this but it should be priced over here.
+
+39
+00:02:59,590 --> 00:03:03,430
+We saw we know in the in the In the USO example,
+
+40
+00:03:03,790 --> 00:03:06,890
+you know Sean I always go back to it Given the contango.
+
+41
+00:03:07,590 --> 00:03:12,680
+It shouldn't be it shouldn't be priced like this And to a lesser degree that's what
+
+42
+00:03:12,680 --> 00:03:16,640
+we're doing with VIX Right, it's obviously it's not as extreme. Otherwise,
+
+43
+00:03:16,700 --> 00:03:17,820
+we'd be piling in a lot heavier,
+
+44
+00:03:17,860 --> 00:03:24,260
+but it's the same concept same concept So do you guys have any questions about that?
+
+45
+00:03:24,280 --> 00:03:27,890
+It seems pretty quiet right now Because I'll go over it again.
+
+46
+00:03:27,930 --> 00:03:28,750
+Looks like we're good.
+
+47
+00:03:33,500 --> 00:03:38,790
+I've never put these guys to sleep in first eight minutes crazy Okay,
+
+48
+00:03:38,810 --> 00:03:45,000
+I see contangle contangle on individual securities same way right same way all it
+
+49
+00:03:45,000 --> 00:03:50,360
+means is The the market's implying more volatility in the future,
+
+50
+00:03:51,100 --> 00:04:01,270
+right and If it's too much, well you can you want to sell that right? Okay,
+
+51
+00:04:01,290 --> 00:04:07,120
+so we understand that now when we come when it comes to forecasting some of the
+
+52
+00:04:07,120 --> 00:04:09,360
+times we can actually use technical indicators,
+
+53
+00:04:09,540 --> 00:04:14,700
+but we have to do a Quantitative driven approach an evidence-based approach.
+
+54
+00:04:14,700 --> 00:04:20,530
+So I highly recommend All of you go and read the book evidence-based technical analysis
+
+55
+00:04:21,820 --> 00:04:25,860
+Because what the author does and he's a he's one of my favorite traders of all time.
+
+56
+00:04:26,330 --> 00:04:29,910
+Okay, his name is David Aronson What the author does is he says,
+
+57
+00:04:30,090 --> 00:04:37,310
+okay this this method of technical analysis where you're just you're just You know,
+
+58
+00:04:37,330 --> 00:04:40,690
+you're you're just using your mind and and you're just thinking about it and rationing
+
+59
+00:04:40,690 --> 00:04:44,970
+about it is garbage And what he does is he says, okay. Well,
+
+60
+00:04:44,970 --> 00:04:47,920
+let's take an evidence-based approach Okay,
+
+61
+00:04:47,920 --> 00:04:50,480
+so that's what we're gonna be talking about right now and building your own strategy
+
+62
+00:04:50,480 --> 00:04:56,500
+right obviously or not Maybe obviously but it's gonna require some work Everything
+
+63
+00:04:56,500 --> 00:04:57,780
+good in life requires some work.
+
+64
+00:04:57,820 --> 00:05:01,990
+So Here's actually one of the articles from David Aronson. Okay,
+
+65
+00:05:01,990 --> 00:05:05,870
+where he actually goes about talks about how to build a strategy Okay,
+
+66
+00:05:07,260 --> 00:05:13,720
+and what we see here is on the left axis He has the stock return in a day.
+
+67
+00:05:15,410 --> 00:05:18,110
+Sorry on the y-axis On the y-axis,
+
+68
+00:05:18,250 --> 00:05:25,280
+he has the stock return the next day on the x-axis. He has the RSI level Okay,
+
+69
+00:05:25,280 --> 00:05:26,780
+so this is a theoretical example,
+
+70
+00:05:27,390 --> 00:05:31,820
+but what can we what can we see from this graph? What is this graph telling us?
+
+71
+00:05:32,720 --> 00:05:34,560
+Someone want to tell me what this graph tells us?
+
+72
+00:05:42,280 --> 00:05:43,980
+Cool. Let me let me check my phone. Actually.
+
+73
+00:05:44,000 --> 00:05:49,940
+I do not recall I Do not recall that chat I mean I'll have to take a look at it
+
+74
+00:05:49,940 --> 00:05:53,620
+before the live ends and Koa, we made a trade on VXX today.
+
+75
+00:05:53,760 --> 00:05:57,160
+If you look in the PA trade journal in the discord You'll get a full breakdown of
+
+76
+00:05:57,160 --> 00:05:57,560
+what we did.
+
+77
+00:06:01,140 --> 00:06:04,880
+So Koa is right. There's an inverse versus RSI So, what does that mean Koa?
+
+78
+00:06:04,900 --> 00:06:08,080
+Can you just go one step further? What does that mean that there's an inverse?
+
+79
+00:06:27,040 --> 00:06:30,240
+I was pretty quiet. The answer is actually on the screen. Oh, is it?
+
+80
+00:06:32,640 --> 00:06:34,930
+Yeah, so Okay,
+
+81
+00:06:35,070 --> 00:06:40,490
+perfect cause so what it was saying is the higher the RSI Then if you know if the
+
+82
+00:06:40,490 --> 00:06:44,730
+RSI is high today tomorrow's return is gonna likely be low And if the RSI is low,
+
+83
+00:06:44,850 --> 00:06:49,080
+then tomorrow's return is likely to be high, right?
+
+84
+00:06:49,260 --> 00:06:54,130
+That is You know a mean reversion strategy, right?
+
+85
+00:06:54,150 --> 00:06:59,880
+You basically want to Buy when the stock's low sell when the stock's high and that's
+
+86
+00:06:59,880 --> 00:07:04,290
+what he's doing here. He's graphing that relationship It's evidence-based.
+
+87
+00:07:04,350 --> 00:07:05,610
+It's empirical. Okay,
+
+88
+00:07:05,610 --> 00:07:17,480
+so what I did Was I did an RSI strategy on so if that's a load,
+
+89
+00:07:17,540 --> 00:07:25,030
+sorry guys Okay, I didn't RSI strategy on IBM Okay,
+
+90
+00:07:25,050 --> 00:07:33,300
+and what I did was if our side goes above 70 Sell IBM and if it goes below 30 by
+
+91
+00:07:33,300 --> 00:07:41,760
+IBM and this is over 10 years I plugged it into the computer and the computer did
+
+92
+00:07:41,760 --> 00:07:46,840
+Thousands of trades and now we can see our P&L curve. How have we done?
+
+93
+00:07:49,360 --> 00:07:49,760
+Right,
+
+94
+00:07:49,860 --> 00:07:54,460
+the blue line here guys is the number of shares that I currently own The green line
+
+95
+00:07:54,460 --> 00:07:55,220
+is my P&L.
+
+96
+00:07:55,320 --> 00:08:00,110
+The red line is my drawdown and then this orange line is the RSI It's our side three
+
+97
+00:08:00,110 --> 00:08:03,250
+day and you can see like the strategy doesn't do good.
+
+98
+00:08:04,900 --> 00:08:10,340
+But this is taking an evidenced evidence-based approach Okay,
+
+99
+00:08:10,360 --> 00:08:24,670
+so I'm just gonna pull it up here super quick Sorry guys,
+
+100
+00:08:24,790 --> 00:08:51,770
+give me one quick second Okay
+
+101
+00:08:58,260 --> 00:09:08,010
+Here we go, perfect So here we actually have the data, right? We say okay.
+
+102
+00:09:08,010 --> 00:09:10,890
+Well, what are what are we trading? Well in this case,
+
+103
+00:09:10,910 --> 00:09:13,210
+we're trading the close Okay,
+
+104
+00:09:13,230 --> 00:09:19,720
+and every time the RSI goes below 30 we get a signal to buy right if it goes above
+
+105
+00:09:19,720 --> 00:09:26,570
+70 We're gonna get a signal to sell and we're just gonna go over and over and over
+
+106
+00:09:26,570 --> 00:09:27,550
+in the compute Oops,
+
+107
+00:09:28,820 --> 00:09:33,940
+and the computers gonna do this over Over and over and over again,
+
+108
+00:09:33,960 --> 00:09:35,080
+there's no hindsight bias.
+
+109
+00:09:35,340 --> 00:09:42,060
+There's not there's just what would have happened over a given period of time now
+
+110
+00:09:43,110 --> 00:09:46,730
+We can see this we can see now. Let's let's step back for a second. Okay,
+
+111
+00:09:47,330 --> 00:09:56,500
+and let's take a look at this strategy Okay,
+
+112
+00:09:56,520 --> 00:10:07,750
+just just take a look at this painting for a second Now imagine your boss said hey,
+
+113
+00:10:08,280 --> 00:10:11,980
+I want you to go out and trade this koa I want you to go and trade the strategy
+
+114
+00:10:13,940 --> 00:10:19,600
+and you had a couple winning trades Well,
+
+115
+00:10:19,740 --> 00:10:22,850
+would you let's say you had ten trades in a row? Okay,
+
+116
+00:10:22,910 --> 00:10:24,890
+you saw this and your boss said you know what?
+
+117
+00:10:25,150 --> 00:10:28,790
+It's actually a good negative correlation to one of our other strategies I want
+
+118
+00:10:28,790 --> 00:10:33,370
+you to trade this and You got ten trades in a row that were correct.
+
+119
+00:10:33,690 --> 00:10:38,080
+You were like, let's say going on this hot streak right here Okay,
+
+120
+00:10:38,080 --> 00:10:41,620
+nice big hot streak. How would you guys feel?
+
+121
+00:10:41,860 --> 00:10:50,530
+I want you to please comment down below How would you feel as a trader good?
+
+122
+00:10:51,440 --> 00:10:55,900
+You feel good What else what else how else would you feel how else would you feel
+
+123
+00:10:55,900 --> 00:10:57,960
+like put yourself in this position? Okay,
+
+124
+00:10:58,020 --> 00:11:02,760
+you just you just you just did the back test and your boss said go to go do it Marco
+
+125
+00:11:02,760 --> 00:11:07,820
+said confident Graham said on my 11th. I'm betting the whole company Okay,
+
+126
+00:11:10,050 --> 00:11:16,940
+we feel confident guys Why would we feel confident here?
+
+127
+00:11:16,960 --> 00:11:19,580
+I'm very curious to know why would we feel confident here?
+
+128
+00:11:26,420 --> 00:11:29,640
+Why would you feel good? You got ten trades in a row. Why would you feel good?
+
+129
+00:11:34,030 --> 00:11:37,930
+We're winning correct That is correct, but we gotta go deeper right?
+
+130
+00:11:38,070 --> 00:11:39,830
+We've seen what what the strategy has done,
+
+131
+00:11:45,110 --> 00:11:52,970
+right? Okay So the answer is we wouldn't feel anything. We wouldn't feel good.
+
+132
+00:11:53,130 --> 00:11:59,300
+We wouldn't feel bad The reason we wouldn't feel good is because we know that in
+
+133
+00:11:59,300 --> 00:11:59,940
+the long run.
+
+134
+00:11:59,960 --> 00:12:04,260
+We're still gonna break even we're just on a hot streak So we shouldn't feel good
+
+135
+00:12:04,260 --> 00:12:08,390
+because we know in the future. It's gonna come back down, right?
+
+136
+00:12:08,390 --> 00:12:15,510
+We know it's not gonna continue and we don't feel bad because we know this strategy
+
+137
+00:12:15,510 --> 00:12:20,200
+breaks even Right. We we know what's going on.
+
+138
+00:12:20,260 --> 00:12:26,390
+Our emotions have been taken out of the equation. We know what to expect Right.
+
+139
+00:12:26,450 --> 00:12:30,410
+We said look at this We go let's say we go on a 20-day hot streak.
+
+140
+00:12:30,510 --> 00:12:37,940
+Okay guys from 2011 to 2000 and almost 12 Okay,
+
+141
+00:12:38,700 --> 00:12:45,770
+we went on this like Tear we're almost every trade was a winner But we can see this
+
+142
+00:12:45,770 --> 00:12:46,770
+and we could say oh, you know what?
+
+143
+00:12:46,830 --> 00:12:50,710
+We are just probably somewhere on this graph right now But in the long run if I
+
+144
+00:12:50,710 --> 00:12:51,550
+keep doing this,
+
+145
+00:12:51,550 --> 00:12:55,260
+I'm not gonna really make any money I'm not gonna make any money.
+
+146
+00:12:57,360 --> 00:12:58,960
+So I'm not nervous. I'm not excited.
+
+147
+00:12:59,060 --> 00:13:07,260
+I know what to expect now What if this graph went up straight into the right?
+
+148
+00:13:08,510 --> 00:13:14,210
+okay straight into the right and You started trading this and You did ten trades
+
+149
+00:13:14,210 --> 00:13:17,000
+in a row that were profitable. How do you guys feel now?
+
+150
+00:13:17,570 --> 00:13:18,370
+How do you guys feel now?
+
+151
+00:13:18,450 --> 00:13:27,310
+Tell me how you feel So this we bet we back test it and this thing goes straight
+
+152
+00:13:27,310 --> 00:13:31,290
+up and you start trading it and it's up ten times in A row. How do you feel?
+
+153
+00:13:49,280 --> 00:13:49,520
+Well,
+
+154
+00:13:49,580 --> 00:13:54,280
+you feel good this time this time you actually feel good because you know that this
+
+155
+00:13:54,280 --> 00:14:00,370
+is gonna actually play out in the long Run you're actually going to make money Right
+
+156
+00:14:00,370 --> 00:14:04,110
+if this was down into the right and you went on ten times in a row you just be like,
+
+157
+00:14:04,110 --> 00:14:08,950
+ah, whatever I'm gonna lose. Anyways, I'm just catching a little run here,
+
+158
+00:14:11,480 --> 00:14:12,440
+right?
+
+159
+00:14:12,500 --> 00:14:18,610
+But it's because we know what to expect that we don't we're not emotional anymore
+
+160
+00:14:19,640 --> 00:14:22,580
+We're not excited about if this happens today.
+
+161
+00:14:23,140 --> 00:14:28,840
+It's what is supposed to happen Right when you get in your car and it starts going
+
+162
+00:14:28,840 --> 00:14:31,740
+forward You're not excited.
+
+163
+00:14:31,900 --> 00:14:36,260
+You're not sad This is what's supposed to happen if you get in your car you press
+
+164
+00:14:36,260 --> 00:14:40,710
+the gas and it go starts going backward You're gonna be like what the fuck?
+
+165
+00:14:43,090 --> 00:14:43,330
+Right,
+
+166
+00:14:43,370 --> 00:14:47,210
+or if you can't if you can't shoot three pointers and all of a sudden you shoot
+
+167
+00:14:47,210 --> 00:14:50,570
+through two three pointers in a row You're not gonna think I'm gonna be going to
+
+168
+00:14:50,570 --> 00:14:51,730
+the NBA, right?
+
+169
+00:14:51,770 --> 00:14:54,970
+You're gonna be like I got lucky and this is how we need to think about trading
+
+170
+00:14:54,970 --> 00:14:56,950
+and building strategies, right?
+
+171
+00:14:58,740 --> 00:15:00,960
+We need to be able to see what has actually happened,
+
+172
+00:15:01,620 --> 00:15:06,900
+you know and with option trading It's difficult because you don't it's hard to get
+
+173
+00:15:06,900 --> 00:15:12,300
+your hands on historical data Each situation is usually unique because there's expirations
+
+174
+00:15:13,660 --> 00:15:16,580
+Right, you can still do back testing for a lot of different strategies,
+
+175
+00:15:16,660 --> 00:15:24,080
+but usually they're very unique so like here's a way to think about it like This
+
+176
+00:15:24,080 --> 00:15:24,780
+might not be the best example.
+
+177
+00:15:24,820 --> 00:15:29,290
+I'm sitting here trying to think of an example to help Clarify what we mean by when
+
+178
+00:15:29,290 --> 00:15:32,810
+we say like there's no emotion attached to it We're not saying people like traders
+
+179
+00:15:32,810 --> 00:15:38,590
+don't feel happiness or feel sadness they're not robots they're people oh yeah,
+
+180
+00:15:38,630 --> 00:15:41,790
+this guy in the Zuck maybe are a robots by aliens,
+
+181
+00:15:41,850 --> 00:15:49,900
+but imagine this like imagine you ran a Landscaping company you mow lawns you mow
+
+182
+00:15:49,900 --> 00:15:54,500
+lawns for a living you own a company that does it and you make $200,000 a year doing
+
+183
+00:15:54,500 --> 00:16:01,690
+it but all your money is made between spring and Fall and when winter starts to
+
+184
+00:16:01,690 --> 00:16:07,710
+roll around you make zero you make zero dollars so for two-thirds of the year or
+
+185
+00:16:07,710 --> 00:16:12,010
+let's say for half the year you make $200,000 and then for the other half of the
+
+186
+00:16:12,010 --> 00:16:15,490
+year you make zero dollars and you know this you know This is gonna happen every
+
+187
+00:16:15,490 --> 00:16:18,870
+single year moving forward and today is June 1st,
+
+188
+00:16:18,870 --> 00:16:22,030
+and you're making money You've made a hundred thousand dollars in the last three
+
+189
+00:16:22,030 --> 00:16:25,730
+months and you're gonna make and you're like this is gonna want forever You for
+
+190
+00:16:25,730 --> 00:16:28,850
+six months you make you've made two hundred thousand dollars now,
+
+191
+00:16:28,850 --> 00:16:32,730
+you're not sitting there like yeah This is gonna go on forever because you know
+
+192
+00:16:33,660 --> 00:16:36,960
+That first little bit of snow falls No money's coming.
+
+193
+00:16:37,080 --> 00:16:38,980
+You're aware of that before it happens.
+
+194
+00:16:39,460 --> 00:16:44,750
+You've anticipated that you've calculated for that you spend accordingly So when
+
+195
+00:16:44,750 --> 00:16:48,350
+it does happen, you're not sitting there going. Where'd my cash flow go?
+
+196
+00:16:48,770 --> 00:16:50,690
+And when you're making money, you're not like yeah Yeah,
+
+197
+00:16:50,770 --> 00:16:52,090
+you're like this is my business.
+
+198
+00:16:52,350 --> 00:16:57,930
+My business is seasonal So you're not excited when you you know,
+
+199
+00:16:57,970 --> 00:17:03,170
+and then all winter you're you make no money and then You know spring rolls around
+
+200
+00:17:03,170 --> 00:17:05,650
+again, and somebody asks you to come up, you know,
+
+201
+00:17:05,710 --> 00:17:08,570
+mow the lawn for the first time You're not like oh my god.
+
+202
+00:17:09,190 --> 00:17:12,290
+I've broken the dry streak. You see what I'm saying?
+
+203
+00:17:12,430 --> 00:17:15,930
+You're aware of these things going into your business So you're not emotionally
+
+204
+00:17:15,930 --> 00:17:23,120
+attached to the fact that it's seasonal You might you might run multiple strategies,
+
+205
+00:17:23,140 --> 00:17:23,860
+right?
+
+206
+00:17:23,860 --> 00:17:28,600
+So you might run a summer strategy where you mow lawns and then a winter strategy
+
+207
+00:17:28,600 --> 00:17:31,700
+where you shovel driveways Exactly Marcos.
+
+208
+00:17:32,560 --> 00:17:35,940
+That's exactly we're thinking the same way, right? So and that's the thing.
+
+209
+00:17:36,040 --> 00:17:37,460
+Maybe you run multiple strategies, right?
+
+210
+00:17:37,520 --> 00:17:41,920
+So this strategy maybe runs counter even though it doesn't make money It runs counter
+
+211
+00:17:41,920 --> 00:17:47,080
+to the main strategy that the firm runs because it reduces their drawdowns Makes
+
+212
+00:17:47,080 --> 00:17:50,560
+their P&L more smooth reduces the volatility of the portfolio Right.
+
+213
+00:17:50,640 --> 00:17:54,860
+So does that make sense? Does that make sense why?
+
+214
+00:17:56,590 --> 00:17:58,550
+There's no when we say there's no emotion attached.
+
+215
+00:17:58,590 --> 00:18:01,230
+It's not that we don't enjoy money it's not that we don't enjoy making money is
+
+216
+00:18:01,230 --> 00:18:04,550
+that if you're aware that you make money now and you don't make money down the Road
+
+217
+00:18:04,550 --> 00:18:09,540
+and that it balances out to you making XYZ amount per year You're not sitting there
+
+218
+00:18:10,160 --> 00:18:15,210
+Freaking out when you're making or losing money you're only gonna start getting
+
+219
+00:18:15,210 --> 00:18:18,010
+a little nervous or excited or at least you know,
+
+220
+00:18:18,050 --> 00:18:22,190
+maybe neither but just Critical thinking about it when something outside of the
+
+221
+00:18:22,190 --> 00:18:23,850
+realm of what you're expecting happens,
+
+222
+00:18:24,000 --> 00:18:29,890
+you know Maybe it's December 30th and somebody's asking you to mow their lawn and
+
+223
+00:18:29,890 --> 00:18:32,630
+they pay in advance and you're like wait What why is everyone paid me to mow lawns
+
+224
+00:18:32,630 --> 00:18:35,170
+in winter has something changed? Yeah, you know what?
+
+225
+00:18:35,190 --> 00:18:38,550
+I mean global warming is like You know what? I mean?
+
+226
+00:18:40,680 --> 00:18:43,060
+That's a really good way to put it man, man Yeah,
+
+227
+00:18:43,480 --> 00:18:45,340
+so I was sitting there silent for about trying to think of something.
+
+228
+00:18:46,870 --> 00:18:50,140
+So take a look here All right, guys. Take a look.
+
+229
+00:18:50,760 --> 00:18:54,100
+This is a mean reverting strategy and you know what?
+
+230
+00:18:55,460 --> 00:18:57,500
+Imagined you are right here.
+
+231
+00:18:57,940 --> 00:19:01,020
+Take that in Imagine you just started trading the strategy.
+
+232
+00:19:01,120 --> 00:19:07,330
+You haven't back tested it properly with a computer and you're right here You're
+
+233
+00:19:07,330 --> 00:19:12,500
+on this huge upswing Huge upswing.
+
+234
+00:19:14,650 --> 00:19:19,100
+Could you imagine your P&L going forward? Could you imagine?
+
+235
+00:19:19,840 --> 00:19:20,660
+What would be happening?
+
+236
+00:19:23,010 --> 00:19:27,610
+You start making a lot of money You might buy some things you shouldn't be buying
+
+237
+00:19:29,020 --> 00:19:40,050
+Like a computer And then You are in a long-term losing game.
+
+238
+00:19:40,250 --> 00:19:43,950
+You're in a very long-term losing game, but in the short term, right?
+
+239
+00:19:44,050 --> 00:19:50,470
+You could be you could be on any one of these tears Any one of these rips and if
+
+240
+00:19:50,470 --> 00:19:51,970
+you don't fully understand your strategy,
+
+241
+00:19:51,970 --> 00:19:57,740
+you don't fully understand what's going on here You are gonna be really really tough
+
+242
+00:19:57,740 --> 00:19:59,530
+spot Okay,
+
+243
+00:19:59,550 --> 00:20:03,650
+this is what happens to all the traders all the all the traders they go on these
+
+244
+00:20:03,650 --> 00:20:10,200
+swings right here They have no clue what's been happening before Okay,
+
+245
+00:20:10,200 --> 00:20:12,860
+so how do we how do we fix this how do we fix this? well,
+
+246
+00:20:15,540 --> 00:20:21,060
+the the and maybe not how we fix this because you know it it's gonna require some
+
+247
+00:20:21,060 --> 00:20:24,400
+You know some other other tangible skills if you're doing the forecasting.
+
+248
+00:20:24,520 --> 00:20:28,590
+So remember we said there's two types There's a mispricing and then there's a forecasting.
+
+249
+00:20:28,830 --> 00:20:34,790
+So forecasting you'll usually see in People who are doing directional trades right
+
+250
+00:20:34,790 --> 00:20:39,770
+because we're trying to predict tomorrow's to the future price of the Stocks movement
+
+251
+00:20:41,520 --> 00:20:41,920
+Right,
+
+252
+00:20:42,080 --> 00:20:46,230
+you'll see this in high-frequency trading to a high-frequency trader will do although
+
+253
+00:20:46,230 --> 00:20:50,320
+they will do these back tests all day long They'll try to find these variables which
+
+254
+00:20:50,320 --> 00:20:52,530
+we saw here, right?
+
+255
+00:20:52,650 --> 00:20:59,070
+They're gonna try to find a variable here that correlates With the assets return
+
+256
+00:20:59,870 --> 00:21:04,020
+and that's what they're gonna do all day long, right?
+
+257
+00:21:04,060 --> 00:21:06,580
+They're gonna work on their execution skills But at the end of the day,
+
+258
+00:21:06,620 --> 00:21:11,660
+they're trying to find something that's gonna help predict the future Now what we
+
+259
+00:21:11,660 --> 00:21:13,560
+actually see in financial markets,
+
+260
+00:21:14,180 --> 00:21:16,780
+okay the actual and this is what's gonna blow your mind Okay,
+
+261
+00:21:16,820 --> 00:21:20,940
+you guys are gonna book you guys you guys you guys are gonna be like buckle up buckle
+
+262
+00:21:20,940 --> 00:21:24,630
+up Actually, it's not gonna blow their mind too much. But okay.
+
+263
+00:21:24,990 --> 00:21:28,690
+I hope it gets you guys really thinking Okay of what we actually see in the world
+
+264
+00:21:31,310 --> 00:21:38,390
+so if I asked you guys What does your strategy look like? Okay,
+
+265
+00:21:38,930 --> 00:21:43,590
+if you let's say this was yours your signal this y-axis was your signal Sorry,
+
+266
+00:21:43,650 --> 00:21:45,230
+the x-axis was your signal.
+
+267
+00:21:45,390 --> 00:21:53,140
+So maybe it's your one three two step trading to finding breakouts okay,
+
+268
+00:21:53,220 --> 00:22:00,230
+and These were your signals right here and over here was the stock returns Okay.
+
+269
+00:22:00,530 --> 00:22:05,110
+So for example when your signal said buy let me draw. Can I draw on here Sean?
+
+270
+00:22:05,110 --> 00:22:05,870
+Okay,
+
+271
+00:22:10,740 --> 00:22:16,550
+so when your signal said buy so here's where it says buy and Here's where it says
+
+272
+00:22:16,550 --> 00:22:24,460
+sell which graph do you think would be the graph?
+
+273
+00:22:25,410 --> 00:22:30,680
+That would best describe your strategy Which graph do you think it would be and
+
+274
+00:22:30,680 --> 00:22:34,150
+why and let's say you had no emotions.
+
+275
+00:22:34,330 --> 00:22:39,630
+You were a robot Let's say you were a perfect robot who always executed always did
+
+276
+00:22:39,630 --> 00:22:45,480
+perfect risk management Which which which which one would you be on the graph?
+
+277
+00:22:48,070 --> 00:22:48,750
+Uh-huh.
+
+278
+00:22:51,190 --> 00:22:59,980
+Oh, you're hilarious man. Okay. Okay. Um Okay, maybe you guys can oh wait.
+
+279
+00:23:00,060 --> 00:23:02,280
+Oh see. Oh, oh, sorry. I thought okay. Sorry Cole.
+
+280
+00:23:02,380 --> 00:23:07,060
+I was looking at the wrong one I was looking at the wrong one call. Let's see.
+
+281
+00:23:07,260 --> 00:23:07,980
+Okay, that's it.
+
+282
+00:23:08,620 --> 00:23:13,400
+Yeah I was thought you were talking about F Cola aka if it was by you'd lose money
+
+283
+00:23:13,400 --> 00:23:20,040
+sell you this one. Okay, so Willis Marcos you guys are saying a Okay,
+
+284
+00:23:20,060 --> 00:23:40,800
+so Can you guys explain a little more why would it be a Why would it be a maybe
+
+285
+00:23:40,800 --> 00:23:47,340
+I should be a little more clear here. So so here is the stock returns.
+
+286
+00:23:48,290 --> 00:23:58,180
+So Here would be let's say like 10% and here would be negative 10% So when a you
+
+287
+00:23:58,180 --> 00:24:02,200
+guys are saying when your stock says buy when you're when your signal says buy you
+
+288
+00:24:02,200 --> 00:24:13,430
+lose 10% And when your signal says sell you're gonna You would lose 10% right because
+
+289
+00:24:13,430 --> 00:24:20,840
+the stock goes up Okay, so you guys are saying D Carson saying D.
+
+290
+00:24:24,060 --> 00:24:29,480
+So the reality is guys the reality is Okay,
+
+291
+00:24:31,240 --> 00:24:40,840
+the reality is your signal is actually gonna look like C This is actually what a
+
+292
+00:24:40,840 --> 00:24:45,660
+good strategy looks like is C I don't know you guys are saying like what the hell
+
+293
+00:24:45,660 --> 00:24:51,770
+this C means C looks like nothing C looks like absolutely nothing There is a correlation
+
+294
+00:24:51,770 --> 00:24:54,090
+of point zero eight, okay,
+
+295
+00:24:55,390 --> 00:25:06,720
+so what that means is this This our signal here briefly explains Has a very very
+
+296
+00:25:06,720 --> 00:25:14,660
+very very tiny bit of forecasting ability Very very small right exactly Marco.
+
+297
+00:25:14,920 --> 00:25:18,890
+It looks 5050, right? It looks 5050,
+
+298
+00:25:19,030 --> 00:25:27,460
+but it's not it's not it's super super super small and this is Actually a massive
+
+299
+00:25:27,460 --> 00:25:30,780
+edge in trading Okay,
+
+300
+00:25:30,780 --> 00:25:34,940
+a lot of traders are gonna shoot for something like this or something like this
+
+301
+00:25:34,940 --> 00:25:37,180
+or like even like this Right,
+
+302
+00:25:37,220 --> 00:25:42,140
+they're gonna try to get good signals like these or good signals like the ones All
+
+303
+00:25:42,140 --> 00:25:44,620
+the other ones right these are great. This is a great signal.
+
+304
+00:25:44,760 --> 00:25:49,650
+This is a perfect signal same with this one One to one one to one you signal says
+
+305
+00:25:49,650 --> 00:25:56,900
+this it does this This looks like there's no correlation. It's just noise.
+
+306
+00:25:57,040 --> 00:26:01,200
+Okay And in fact, it looks just like noise. Exactly.
+
+307
+00:26:01,340 --> 00:26:05,160
+It looks just like noise and the relationship just Very small,
+
+308
+00:26:05,280 --> 00:26:16,000
+I guess I did a little too small Right,
+
+309
+00:26:16,160 --> 00:26:20,780
+it doesn't even look like that's that's deep But this is actually what you guys
+
+310
+00:26:20,780 --> 00:26:22,400
+are gonna see in the market this right here.
+
+311
+00:26:22,960 --> 00:26:30,660
+This is your 90% hit rate your 90 93% hit rate your 85% hit rate your 70% hit rate
+
+312
+00:26:30,760 --> 00:26:40,020
+this over here This is your 52 53 percent hit rate and there's no way a human mind
+
+313
+00:26:40,020 --> 00:26:47,720
+a human human eyes can actually see this Right you you if you're really trained
+
+314
+00:26:47,720 --> 00:26:47,940
+at it,
+
+315
+00:26:47,980 --> 00:26:52,320
+you can see it But that's why it's so hard to actually think to actually know you
+
+316
+00:26:52,320 --> 00:26:56,430
+have an edge Right because you might win.
+
+317
+00:26:56,650 --> 00:27:03,700
+Let's say 55 out of 100 times and think you have an you know and think you have
+
+318
+00:27:03,700 --> 00:27:07,840
+an edge But an actual fact it's might just be 45 55 in the other in the opposite
+
+319
+00:27:07,840 --> 00:27:15,400
+direction or maybe even 50 50 So this is actually the reality of trading you guys
+
+320
+00:27:15,400 --> 00:27:20,670
+have any questions about this That you're that you're you're there's so much noise
+
+321
+00:27:20,670 --> 00:27:27,840
+There's so much noise in the markets and you're all you need is a super small signal
+
+322
+00:27:28,000 --> 00:27:34,480
+The signal has to be extremely the predictive power has to be extremely extremely
+
+323
+00:27:34,480 --> 00:27:41,240
+Small in order to make fortunes And I know that sounds crazy guys because everyone's
+
+324
+00:27:41,240 --> 00:27:46,620
+talking about a 60% hit rate a 70% hit rate an 80% hit rate it's actually the reality
+
+325
+00:27:46,710 --> 00:27:55,840
+a casino casino built a billion-dollar Empire off of 1% edge off a 2% edge off a
+
+326
+00:27:55,840 --> 00:27:58,320
+52% hit rate. Okay,
+
+327
+00:27:58,340 --> 00:28:15,320
+so keep that in mind By hit rate we mean like being correct Carson So
+
+328
+00:28:15,320 --> 00:28:18,660
+like if you were flipping a coin and you called heads you would have a fit if you
+
+329
+00:28:18,660 --> 00:28:22,120
+called heads 100% of the time You'd probably you'd have a 50% hit rate in the long
+
+330
+00:28:22,120 --> 00:28:27,540
+run And yeah Carson, why would you want a or B?
+
+331
+00:28:27,620 --> 00:28:33,770
+So just like in this graph right here Carson Let me just exit here.
+
+332
+00:28:36,090 --> 00:28:42,450
+So Carson just like in this graph over here And Carson, I know you're you know,
+
+333
+00:28:42,490 --> 00:28:43,150
+you're big into code.
+
+334
+00:28:43,170 --> 00:28:47,610
+You might want to check out the Quantstrat github This is where I pull the code
+
+335
+00:28:47,610 --> 00:28:53,790
+just to do the run run the back test there. It's done in R though Okay,
+
+336
+00:28:53,970 --> 00:28:56,570
+we're so remember remember in this right here,
+
+337
+00:28:56,770 --> 00:29:00,770
+oh do you know how to delete all the stuff here Sean This is a quick a quick like
+
+338
+00:29:00,770 --> 00:29:09,280
+a race all Annotate clear. Oh, okay. Perfect. Nice hide this. Yeah,
+
+339
+00:29:11,360 --> 00:29:15,130
+so just like in this graph, right? This is our signal.
+
+340
+00:29:15,390 --> 00:29:19,950
+This is our Our variable and in this case is the RSI Right,
+
+341
+00:29:20,030 --> 00:29:23,890
+so RSI tells you when something is cheap relative to the mean and expensive relative
+
+342
+00:29:23,890 --> 00:29:27,290
+to the mean So if you saw this Right,
+
+343
+00:29:27,290 --> 00:29:33,620
+even though it's negative you would say well every time RSI is below 30 buy shares
+
+344
+00:29:33,620 --> 00:29:40,360
+because it correlates with a 1% return the next day and Every time it's above let's
+
+345
+00:29:40,360 --> 00:29:45,140
+say 70 You'd want to sell shares because it goes below zero the return tomorrow
+
+346
+00:29:45,140 --> 00:29:52,180
+is below zero But what we see here is that this variable this trading signal whatever
+
+347
+00:29:52,180 --> 00:29:55,680
+it is You know, this is your one two, three step to trading, right?
+
+348
+00:29:55,680 --> 00:30:02,040
+This is your Buy when this and sell when this right whatever it is,
+
+349
+00:30:02,040 --> 00:30:07,160
+whatever your strategy is This is it and all this is telling us is well when it's
+
+350
+00:30:07,160 --> 00:30:11,560
+up here Things go down when it's below here things go up and it can explain the
+
+351
+00:30:11,560 --> 00:30:16,560
+returns tomorrow, right? This indicator explains the returns tomorrow.
+
+352
+00:30:17,370 --> 00:30:24,120
+Do you guys see how do you guys do you guys see that and this is This is what?
+
+353
+00:30:24,800 --> 00:30:28,940
+Professional trading in quantitative trading in the directional space.
+
+354
+00:30:29,040 --> 00:30:33,460
+This is what the best guys are doing Okay,
+
+355
+00:30:33,560 --> 00:30:36,780
+I just wanted you guys to get a feel for that to see what evidence-based trading
+
+356
+00:30:36,780 --> 00:30:40,180
+looks like Right, we're moving. We have computers now.
+
+357
+00:30:40,240 --> 00:30:48,140
+We're trying to move away from You know discretionary trading go do you want to
+
+358
+00:30:48,140 --> 00:30:51,920
+expand on what you're saying there and Just to touch on it quickly so Marcos has
+
+359
+00:30:51,920 --> 00:30:55,240
+asked a couple times during this just like or mentioned like it'd be kind of cool
+
+360
+00:30:55,240 --> 00:30:58,620
+to be able to do it for like multiple ideas or like What if instead of using the
+
+361
+00:30:58,620 --> 00:31:02,820
+the weekly you use the three-day or like, you know, like you use the 90-day?
+
+362
+00:31:03,140 --> 00:31:03,300
+Yeah,
+
+363
+00:31:03,380 --> 00:31:08,240
+right So I think so the thing about so the reason why people do this all day every
+
+364
+00:31:08,240 --> 00:31:13,380
+day Marcos is because there are unlimited combinations There are so many combinations
+
+365
+00:31:13,380 --> 00:31:20,320
+so many different things you can look at in so many different ways That you need
+
+366
+00:31:20,320 --> 00:31:21,160
+to do it all the time,
+
+367
+00:31:21,320 --> 00:31:26,180
+right if you're always looking for strategies you're doing this all the time We
+
+368
+00:31:26,180 --> 00:31:33,440
+actually tried to build out a backtesting model for the terminal but the thing is
+
+369
+00:31:33,440 --> 00:31:42,060
+that there's so many combinations that it's not feasible to To build to build it
+
+370
+00:31:42,060 --> 00:31:45,700
+out Hey Ram, you want to know one that?
+
+371
+00:31:46,340 --> 00:31:50,560
+Works out that we tested earnings Earnings does a great great job.
+
+372
+00:31:50,660 --> 00:31:55,690
+So does So does long overnight? Yeah long overnight,
+
+373
+00:31:55,830 --> 00:31:58,070
+that's what that's gonna be in the new terminal that's gonna be the new one back
+
+374
+00:31:58,490 --> 00:32:02,330
+So we have a couple of predictor variables where that explains the overnight return
+
+375
+00:32:03,910 --> 00:32:07,370
+right, and this is This is what's gonna be embedded in the terminal.
+
+376
+00:32:07,450 --> 00:32:07,750
+Eventually.
+
+377
+00:32:07,930 --> 00:32:13,260
+This is just a couple because like obviously we can't give you everything away There's
+
+378
+00:32:13,260 --> 00:32:17,580
+a couple good great strats for you guys to get involved and start doing it And I
+
+379
+00:32:17,580 --> 00:32:19,760
+know it's tough right? I know it's I know not everyone codes.
+
+380
+00:32:19,840 --> 00:32:23,660
+I everyone can do this There's actually backtesting softwares that can help you
+
+381
+00:32:23,660 --> 00:32:24,970
+with this Right,
+
+382
+00:32:25,070 --> 00:32:32,260
+but the point is you need evidence That's the whole point is that you need the evidence
+
+383
+00:32:34,090 --> 00:32:35,950
+You need to know does this actually work?
+
+384
+00:32:36,010 --> 00:32:39,230
+So so Ram I didn't know you actually followed us when we were running the overnight
+
+385
+00:32:39,830 --> 00:32:40,210
+Yeah,
+
+386
+00:32:40,230 --> 00:32:44,110
+so we were doing it live on the IG We stopped it after after 16 days because the
+
+387
+00:32:44,110 --> 00:32:48,270
+market literally fell out from beneath us and it's a long it's a long Long equity
+
+388
+00:32:48,270 --> 00:32:52,150
+trade so we were like this is this is not and that's actually when we started the
+
+389
+00:32:52,150 --> 00:32:52,870
+options Academy, right?
+
+390
+00:32:52,910 --> 00:33:00,880
+That's when we made that change But take this in Ram Matt Maddy Matt Robinson in
+
+391
+00:33:00,880 --> 00:33:01,240
+our group.
+
+392
+00:33:01,480 --> 00:33:07,680
+He's been running the overnight the whole time So he's been on a huge tear huge
+
+393
+00:33:07,680 --> 00:33:10,120
+tear you can reach out to him to ask him about that if you want.
+
+394
+00:33:10,400 --> 00:33:17,310
+So Ram so our overnight strategy Okay,
+
+395
+00:33:17,550 --> 00:33:23,290
+so our overnight strategy does really well in the long run really really really
+
+396
+00:33:23,290 --> 00:33:31,070
+really well and But one thing about it is that it's tied it has correlation to the
+
+397
+00:33:31,070 --> 00:33:35,950
+market So imagine Ram imagine this was all the way up into the right this graph
+
+398
+00:33:35,950 --> 00:33:41,400
+right here What happened was we were we went we were on a run we were on like we
+
+399
+00:33:41,400 --> 00:33:43,400
+were during this period right here, right?
+
+400
+00:33:43,460 --> 00:33:49,760
+We were going up up up up up and then market got hit Or we started losing money
+
+401
+00:33:49,760 --> 00:33:52,080
+and Sean I realized hey, listen, you know what?
+
+402
+00:33:52,940 --> 00:33:56,280
+We can't have our business tied to the market, right?
+
+403
+00:33:56,280 --> 00:34:00,140
+We can't just be these guys that pump out one strategy and then You know,
+
+404
+00:34:00,180 --> 00:34:05,560
+so the originally we were actually teaching guys how to do this kind of stuff and
+
+405
+00:34:05,560 --> 00:34:08,640
+giving them the tools And to trade these these strategies, right?
+
+406
+00:34:09,180 --> 00:34:13,480
+We had we had a short strategy for example That was short Boeing before the crash
+
+407
+00:34:13,480 --> 00:34:17,140
+and actually held through the crash and you'll you'll did it you'll held through
+
+408
+00:34:17,140 --> 00:34:22,780
+right Neil did really well there We also you you know, this might you know,
+
+409
+00:34:22,860 --> 00:34:28,380
+I swear to God you guys can reach out to to Damien Instagram he's actually in the
+
+410
+00:34:28,380 --> 00:34:29,780
+discord. He's in the discord.
+
+411
+00:34:30,330 --> 00:34:36,630
+He we had a we had a value strat That's a value momentum shot that said by Kodak
+
+412
+00:34:36,630 --> 00:34:38,950
+in May and like, you know,
+
+413
+00:34:38,990 --> 00:34:44,530
+you're supposed to know it was in April Yeah And it was these are like, well,
+
+414
+00:34:44,550 --> 00:34:47,850
+you know Strategies are supposed to hold for quite a long period of time.
+
+415
+00:34:48,790 --> 00:34:55,030
+So we have these strategies built in But we don't we don't want to be a signal service
+
+416
+00:34:55,030 --> 00:34:58,090
+and we don't want people to be tied to our strategies Right.
+
+417
+00:34:58,150 --> 00:35:02,010
+So that's why we decide to move over to the the option space and teach right and
+
+418
+00:35:02,010 --> 00:35:05,350
+actually like educate on how to build Your own tools how to build your own systems,
+
+419
+00:35:05,430 --> 00:35:07,070
+etc Yeah,
+
+420
+00:35:07,130 --> 00:35:10,630
+so Kodak wasn't in the terminal because it was too small back in the day in micro
+
+421
+00:35:10,630 --> 00:35:11,670
+cap Yeah,
+
+422
+00:35:11,750 --> 00:35:14,290
+we don't we don't have that in there because you shouldn't be trading options on
+
+423
+00:35:14,290 --> 00:35:18,690
+those Yeah, and actually I don't think they had options until Release.
+
+424
+00:35:19,050 --> 00:35:23,710
+Yeah Till I went to the moon. Yeah, and then back down to earth really quick.
+
+425
+00:35:24,050 --> 00:35:30,360
+So cool has a couple good questions here Up a bit. Okay. So Koa said like hey,
+
+426
+00:35:30,380 --> 00:35:34,120
+you know what? I actually only so he uses a back testing machine a fantastic.
+
+427
+00:35:34,360 --> 00:35:35,600
+Oh, I'm very happy to hear this man.
+
+428
+00:35:36,310 --> 00:35:41,990
+So he actually uses a Back testing machine trade machine trade machine and he said
+
+429
+00:35:41,990 --> 00:35:48,110
+like I like to look for high probability strategies The problem is if you just so,
+
+430
+00:35:48,410 --> 00:35:52,830
+you know We all think in terms of expected value and this yeah,
+
+431
+00:35:52,870 --> 00:36:00,840
+and this can't be So one thing is if you test everything a couple things are gonna
+
+432
+00:36:00,840 --> 00:36:03,370
+hit Right, like you see so,
+
+433
+00:36:03,550 --> 00:36:07,010
+you know how I did on Apple and the P&L looked way different I bet you if I did
+
+434
+00:36:07,010 --> 00:36:10,790
+this exact same strategy on a stock. I don't know. Give me let's do. Okay,
+
+435
+00:36:11,390 --> 00:36:13,550
+let's do Okay,
+
+436
+00:36:13,610 --> 00:36:21,420
+once give me a stock here any stock quick quick quick quick Baba actually,
+
+437
+00:36:21,520 --> 00:36:23,520
+okay Baba trend so ramen this won't work on there.
+
+438
+00:36:23,540 --> 00:36:34,990
+I need something like here's a good one actually So this is natural gas So you guys
+
+439
+00:36:34,990 --> 00:36:38,510
+see how the computer is running super quick doing all this this would take years
+
+440
+00:36:38,510 --> 00:36:42,660
+for a human to do This is gonna take years for the computer to do. Yeah,
+
+441
+00:36:42,680 --> 00:36:45,380
+so We're still in 2014.
+
+442
+00:36:45,660 --> 00:36:51,400
+Yeah You know by testing this strategy on thousands of thousands of equities We're
+
+443
+00:36:51,400 --> 00:36:55,400
+gonna find one that it actually does well on and this is actually,
+
+444
+00:36:55,660 --> 00:37:05,720
+you know Let's see how this did okay it into to all Yeah,
+
+445
+00:37:05,740 --> 00:37:12,210
+it definitely into to all did terrible actually I'm like wait a minute But if this
+
+446
+00:37:12,210 --> 00:37:14,010
+if the stock just chopped up and down like this,
+
+447
+00:37:14,010 --> 00:37:20,250
+it would it would done really well The point is it's we can't be doing this with
+
+448
+00:37:20,250 --> 00:37:25,560
+like thousands of stocks and not understanding why we're doing it We need to have
+
+449
+00:37:25,560 --> 00:37:31,810
+the reason I'm back testing this strategy because of this and this and this Yeah,
+
+450
+00:37:31,810 --> 00:37:38,130
+so you remember this Patterns exist in randomness and in order,
+
+451
+00:37:39,490 --> 00:37:45,430
+okay They you will find patterns in the clouds You'll find patterns in human behavior.
+
+452
+00:37:45,530 --> 00:37:49,410
+You'll find patterns in data Some will make sense.
+
+453
+00:37:49,530 --> 00:37:52,040
+Some don't make sense a prime example.
+
+454
+00:37:52,040 --> 00:37:56,440
+You can go watch it Jim Simons talks about it The founder of Renaissance Technologies
+
+455
+00:37:56,440 --> 00:38:00,720
+probably one of the group Probably the greatest trader of all time big big fund
+
+456
+00:38:00,720 --> 00:38:05,300
+manager trader of all time 70% year-over-year averages with a 10-figure account
+
+457
+00:38:05,970 --> 00:38:07,470
+how the fuck he does it.
+
+458
+00:38:07,770 --> 00:38:13,620
+No one knows except for him and his team But the point is that he gave an interview
+
+459
+00:38:13,620 --> 00:38:20,240
+where he said we actually found a one-to-one perfect correlation for the S&P 500
+
+460
+00:38:20,240 --> 00:38:28,750
+returns we were looking at the S&P return and predictor variable was Corn cycles
+
+461
+00:38:28,750 --> 00:38:35,620
+in Italy something about something wild corn production in northern Italy and You
+
+462
+00:38:35,620 --> 00:38:41,240
+can sit there and go Wow one-to-one Phenomenal, but should you trade it?
+
+463
+00:38:41,830 --> 00:38:47,270
+Does it make sense that how much corn was grown in a region in Italy?
+
+464
+00:38:48,740 --> 00:38:51,440
+Predicts how the biggest market in the world returns.
+
+465
+00:38:54,360 --> 00:38:56,720
+Does it make sense? Like should we trade even though it's perfect?
+
+466
+00:38:56,820 --> 00:39:00,400
+We look back to back test is like you would make you'd be the richest person in
+
+467
+00:39:00,400 --> 00:39:05,580
+the world if you did this Does it make sense? And then, you know,
+
+468
+00:39:05,620 --> 00:39:07,980
+there's things like overfitting for example, right?
+
+469
+00:39:07,980 --> 00:39:10,550
+So there's lots of different Yeah, exactly.
+
+470
+00:39:10,650 --> 00:39:14,170
+Like should if mercury's in retrograde should should we be?
+
+471
+00:39:15,390 --> 00:39:21,960
+selling futures Right You know what I mean?
+
+472
+00:39:22,510 --> 00:39:25,110
+So with when you're creating a strategy guys,
+
+473
+00:39:25,130 --> 00:39:27,290
+especially in the directional space, okay,
+
+474
+00:39:27,330 --> 00:39:31,730
+especially in the directional space When you're creating a strategy you first have
+
+475
+00:39:31,730 --> 00:39:36,780
+to answer the question Why should this work? What are you looking for? Right?
+
+476
+00:39:38,380 --> 00:39:46,460
+example in the overnight returns we said What one of these signals is is the VIX
+
+477
+00:39:46,460 --> 00:39:50,560
+in contango. That's one of the signals that actually works okay,
+
+478
+00:39:50,760 --> 00:39:57,900
+and Our theory is well when implied volatility is high involved volatility is high
+
+479
+00:39:57,900 --> 00:40:03,910
+We are less likely to see high overnight returns Because stocks when stocks are
+
+480
+00:40:03,910 --> 00:40:08,190
+volatile, they're usually going down Okay,
+
+481
+00:40:08,210 --> 00:40:12,230
+if the markets expecting so VIX is the future looking forward looking So if the
+
+482
+00:40:12,230 --> 00:40:17,050
+markets expecting volatility in the future and we know the market's smart Then we
+
+483
+00:40:17,050 --> 00:40:18,050
+shouldn't be long overnight.
+
+484
+00:40:18,700 --> 00:40:25,700
+And so that was our theory then we tested it and guess what it worked That's how
+
+485
+00:40:25,700 --> 00:40:26,960
+you have to build these systems.
+
+486
+00:40:27,060 --> 00:40:29,840
+That's how you have to build these strategies Even if you're doing it discretionary,
+
+487
+00:40:29,920 --> 00:40:34,320
+even if you're saying I'm gonna buy when there's a new 52-week high I'm gonna buy
+
+488
+00:40:34,320 --> 00:40:36,220
+when there's when we're looking at an intraday breakout.
+
+489
+00:40:37,310 --> 00:40:40,450
+We have to ask the question. Why should this work?
+
+490
+00:40:42,730 --> 00:40:44,890
+Okay, and it can't be human behaviors.
+
+491
+00:40:45,030 --> 00:40:49,250
+I don't know if some of you guys were in live yesterday We can't say oh because
+
+492
+00:40:49,250 --> 00:40:52,410
+of human pattern human patterns. It's gonna work. Okay,
+
+493
+00:40:52,430 --> 00:40:54,290
+there's no intraday human patterns, right?
+
+494
+00:40:54,530 --> 00:41:00,610
+90% are algorithms 90% of the volume is algorithms. There's no emotions there.
+
+495
+00:41:01,580 --> 00:41:03,800
+So we need to ask yourself. Why would this work?
+
+496
+00:41:04,470 --> 00:41:09,370
+Once we do that we try to test it as best we can we either use a software or I mean
+
+497
+00:41:09,370 --> 00:41:12,430
+I really don't want to say this. Actually. I'm not gonna say it.
+
+498
+00:41:12,650 --> 00:41:16,590
+I was gonna say You do it manually. I'll just say you don't do it.
+
+499
+00:41:16,770 --> 00:41:21,730
+You don't do it like that That's how you build these strategies or you go on Fiverr
+
+500
+00:41:21,730 --> 00:41:26,060
+and say hey, buddy. Listen, can you back test a strategy for me?
+
+501
+00:41:26,340 --> 00:41:28,860
+He'll charge you 20 bucks. You back testing a strategy.
+
+502
+00:41:29,040 --> 00:41:34,070
+He lets you know how it worked We used to do that we used to do that we were 50
+
+503
+00:41:34,070 --> 00:41:39,610
+bucks now, we're a hundred bucks Oh, you want your strategy back testing? Okay,
+
+504
+00:41:39,970 --> 00:41:41,130
+but not for the group though for the group.
+
+505
+00:41:41,170 --> 00:41:49,970
+We give you guys 90 bucks Okay Right. So Ram.
+
+506
+00:41:50,370 --> 00:41:55,140
+Why don't why don't you break down a strategy you're thinking of and we'll talk
+
+507
+00:41:55,140 --> 00:41:57,900
+about it We're gonna talk about it right now on the live Ram right here.
+
+508
+00:41:58,400 --> 00:42:01,950
+Tell me about it What were you thinking up because I know there's other guys in
+
+509
+00:42:01,950 --> 00:42:05,450
+this group Yeah, I know those other guys in this group You know,
+
+510
+00:42:05,690 --> 00:42:06,730
+I know Marcos for example,
+
+511
+00:42:06,850 --> 00:42:13,870
+he's very he's he's he's active He's very active and he has a signal he has a strategy
+
+512
+00:42:13,870 --> 00:42:17,710
+He has a signal but what we need to do as a trader say well to get that confidence
+
+513
+00:42:17,710 --> 00:42:20,930
+A lot of people are looking for confidence here all the time We're looking for confidence
+
+514
+00:42:20,930 --> 00:42:22,070
+to get that confidence.
+
+515
+00:42:22,190 --> 00:42:33,430
+We need to know if it actually works Ram do you mind explaining your strategy a
+
+516
+00:42:33,430 --> 00:42:33,630
+little bit?
+
+517
+00:42:33,710 --> 00:42:39,190
+I don't this is it I've seen something like buying aftermarket spy and then selling
+
+518
+00:42:39,190 --> 00:42:41,230
+it at the open the next day. Is that the one?
+
+519
+00:42:48,280 --> 00:42:52,180
+Okay, perfect. Well Ram. It says you raised your hand.
+
+520
+00:42:52,240 --> 00:42:53,100
+Did you want to come in the life?
+
+521
+00:42:59,560 --> 00:43:06,820
+Okay, perfect. Let me Okay Sean's the the zoom technician.
+
+522
+00:43:06,940 --> 00:43:17,890
+Let me see if I can do this Ram Okay, I think I think we got it. Hey,
+
+523
+00:43:17,930 --> 00:43:25,550
+buddy Hey, hey, man. Hey, hey Jordan yet so for for the stocks, okay Yeah,
+
+524
+00:43:25,710 --> 00:43:36,030
+no worries For stocks when the 5 EMA crosses above the 10 and the 21 EMA Okay Shit,
+
+525
+00:43:36,150 --> 00:43:38,930
+what else is that? I had it written down. Yeah,
+
+526
+00:43:38,990 --> 00:43:45,650
+maybe that one For short term right when the 5 EMA crosses above the the 10 EMA
+
+527
+00:43:45,650 --> 00:43:47,930
+and the 21 EMA Okay,
+
+528
+00:43:48,050 --> 00:43:52,450
+so super easy to back test and I'll actually do that for the group.
+
+529
+00:43:52,610 --> 00:43:56,070
+I think Marcos wanted that as well I'm not gonna do it on the life here,
+
+530
+00:43:56,210 --> 00:44:00,610
+but I'll do it for the group. Cool So let's actually talk about this though.
+
+531
+00:44:01,550 --> 00:44:05,860
+Why do you think this should work? What? What made you think of this idea?
+
+532
+00:44:06,580 --> 00:44:06,820
+Yeah.
+
+533
+00:44:06,860 --> 00:44:12,880
+Well this one I got actually early on when I when I started trading I read this
+
+534
+00:44:12,880 --> 00:44:19,050
+guy's books very concise to the point books Steven Joseph Burns,
+
+535
+00:44:19,190 --> 00:44:22,970
+I think I follow him on Instagram, but I was like, you know, what? Why not?
+
+536
+00:44:22,970 --> 00:44:28,030
+let me let me give this a shot and Based on what he was doing and then I applied
+
+537
+00:44:28,030 --> 00:44:35,270
+it and I really didn't even tweak it I just used it and it worked for for for trading
+
+538
+00:44:35,270 --> 00:44:36,050
+trading wise,
+
+539
+00:44:36,190 --> 00:44:40,710
+right and it works pretty well And then sometimes I even expand it out like on a
+
+540
+00:44:40,710 --> 00:44:45,270
+weekly Weekly chart or like a monthly right if I'm trying to go long something kind
+
+541
+00:44:45,270 --> 00:44:48,590
+of kind of swinging something or if I want to Hold something as long as that holds
+
+542
+00:44:48,590 --> 00:44:53,350
+Like even if though if the five crosses above the ten and the twenty one then,
+
+543
+00:44:53,670 --> 00:44:57,250
+you know Let's say the twenty one crosses above the fifty days simple moving average
+
+544
+00:44:57,250 --> 00:44:57,710
+Well,
+
+545
+00:44:57,770 --> 00:45:04,280
+like the fifty crosses above you get a golden cross or some shit like that It'll
+
+546
+00:45:04,280 --> 00:45:08,730
+work like we're for like a swing trade and I seen it like Although I was making
+
+547
+00:45:08,730 --> 00:45:13,560
+money off of it. And so I got a cool. Are you still using it today? Yeah,
+
+548
+00:45:13,660 --> 00:45:19,780
+just for like for swinging stocks Like in and out kind of thing yeah,
+
+549
+00:45:19,820 --> 00:45:26,360
+the five when the five crosses above the The ten and the twenty one I'll use it
+
+550
+00:45:26,650 --> 00:45:27,530
+Gotcha,
+
+551
+00:45:27,750 --> 00:45:32,410
+and so if I like tested it on Apple like you would think it should have a positive
+
+552
+00:45:34,300 --> 00:45:35,540
+Expectancy perhaps. Yeah,
+
+553
+00:45:35,540 --> 00:45:38,840
+I'm interested in seeing because I like I don't know anything about coding like
+
+554
+00:45:38,840 --> 00:45:45,200
+I see you get voting It's like is this long and short or just long Short as well
+
+555
+00:45:45,200 --> 00:45:46,180
+short as well.
+
+556
+00:45:46,300 --> 00:45:53,360
+So when the five crosses below the ten and the twenty one and Then even through
+
+557
+00:45:53,360 --> 00:45:54,860
+the the the fifty,
+
+558
+00:45:55,100 --> 00:46:00,420
+you know sometimes I sometimes I get an early which kind of messes me up sometimes
+
+559
+00:46:00,420 --> 00:46:04,440
+but When when the five crosses below the ten and the twenty one like, you know,
+
+560
+00:46:04,540 --> 00:46:09,260
+it's on a downtrend maybe for the short term But I'm interested in seeing what that
+
+561
+00:46:09,260 --> 00:46:12,340
+actually yields Over the long term. Yeah, definitely.
+
+562
+00:46:12,460 --> 00:46:15,700
+I like that's I can definitely do that for sure Ram,
+
+563
+00:46:15,760 --> 00:46:19,880
+but my question is like why do you think this might actually work? Like,
+
+564
+00:46:20,280 --> 00:46:23,700
+you know how like for example, we sell options around earnings and we say well,
+
+565
+00:46:24,040 --> 00:46:28,800
+it's overpriced because of you know People don't really know how to price these
+
+566
+00:46:28,800 --> 00:46:31,300
+assets. They're they're buying options to take directional bets.
+
+567
+00:46:31,460 --> 00:46:32,640
+There's no real up.
+
+568
+00:46:32,720 --> 00:46:38,500
+There's no real Natural sellers right hedge funds are using it to buy protection.
+
+569
+00:46:38,720 --> 00:46:42,780
+So we usually think all should be overpriced In this case,
+
+570
+00:46:42,800 --> 00:46:45,120
+what do you think is causing that return?
+
+571
+00:46:47,280 --> 00:46:50,160
+I'm not too sure To be honest with you.
+
+572
+00:46:50,240 --> 00:46:54,600
+I'm not I'm not too sure maybe maybe it's just the price action the way that the
+
+573
+00:46:54,600 --> 00:47:00,480
+stock is moving like I don't know like I'm not I'm not too sure Um,
+
+574
+00:47:02,160 --> 00:47:05,520
+so like this, you know, it might be working for you right now,
+
+575
+00:47:05,720 --> 00:47:13,370
+but this is something that we can kind of like Get in trouble with right because
+
+576
+00:47:13,370 --> 00:47:16,330
+like Sean always says like, you know, you start you start to say like,
+
+577
+00:47:16,390 --> 00:47:18,950
+okay This actually works and then when it stops working,
+
+578
+00:47:19,170 --> 00:47:23,090
+you don't know why and you can't trading it and you keep trading it.
+
+579
+00:47:23,090 --> 00:47:27,020
+Mm-hmm We always want to find out why would this work?
+
+580
+00:47:29,180 --> 00:47:32,040
+Okay. Okay. Yeah, does that make sense? Yeah,
+
+581
+00:47:32,120 --> 00:47:35,830
+I understand and that's where you're really gonna find the edge because you're gonna
+
+582
+00:47:35,830 --> 00:47:37,750
+totally understand your strategy yeah,
+
+583
+00:47:37,770 --> 00:47:41,070
+and we got to remember right like and I'm like,
+
+584
+00:47:41,150 --> 00:47:42,510
+this is not an attack on you in any way.
+
+585
+00:47:42,570 --> 00:47:45,750
+Like it's just like to get you to think about it You know, yeah. Yeah, right.
+
+586
+00:47:45,790 --> 00:47:47,770
+Yeah, dude. This is awesome. You came on man. Love it.
+
+587
+00:47:47,930 --> 00:47:52,590
+Remember like You're your own portfolio manager Right.
+
+588
+00:47:52,730 --> 00:47:56,890
+So imagine imagine you weren't your own portfolio manager Imagine you were investing
+
+589
+00:47:56,890 --> 00:48:00,450
+in you and you went to talk to you and you said can you explain this to me?
+
+590
+00:48:02,110 --> 00:48:04,450
+Right and there you explain the strategy go cool and they're like,
+
+591
+00:48:04,570 --> 00:48:06,130
+but why should this work and you're like,
+
+592
+00:48:06,950 --> 00:48:10,560
+I don't really know But it does You know what? I mean?
+
+593
+00:48:10,560 --> 00:48:14,380
+Like you like why the fuck am I giving this guy my money, right?
+
+594
+00:48:14,440 --> 00:48:16,380
+See that we got to think about it like that,
+
+595
+00:48:16,480 --> 00:48:21,050
+right if we remove ourselves from the situation We go like would I give someone
+
+596
+00:48:21,050 --> 00:48:24,160
+my money who's running this strategy? No,
+
+597
+00:48:24,160 --> 00:48:29,320
+no Yourself your money right and like that's why we got we got to think critically
+
+598
+00:48:29,320 --> 00:48:33,440
+right like um and look if it's worked so far and like look there's you know,
+
+599
+00:48:33,560 --> 00:48:37,920
+it's It sounds like there's some thought that's gone into it All that needs to be
+
+600
+00:48:37,920 --> 00:48:40,320
+done now is we need that we need to look at this idea test it and we need to understand
+
+601
+00:48:40,320 --> 00:48:42,120
+Why this might work? Right,
+
+602
+00:48:42,460 --> 00:48:48,240
+right You know like for example the overnight strategy the overnight strategy basically
+
+603
+00:48:48,240 --> 00:48:53,060
+filters out assets that we should be buying at the closed selling at the open because
+
+604
+00:48:53,060 --> 00:48:58,950
+they have a like a liquidity risk premium Right.
+
+605
+00:48:58,970 --> 00:49:02,590
+So because it's the markets are closed The market could tank overnight and you can't
+
+606
+00:49:02,590 --> 00:49:06,470
+get out and you're holding the bag if it opens So there's a premium for holding
+
+607
+00:49:06,470 --> 00:49:10,960
+these assets overnight And what we see is that these premiums that you're getting
+
+608
+00:49:10,960 --> 00:49:16,260
+paid outweigh the losses of when some shit does go down That's why this makes money
+
+609
+00:49:16,260 --> 00:49:18,680
+because someone else is not willing to carry that risk.
+
+610
+00:49:18,880 --> 00:49:22,320
+We are willing to carry that risk We get paid a premium for carrying the risk that
+
+611
+00:49:22,320 --> 00:49:29,300
+someone else doesn't want what what happens just a question here What happens like,
+
+612
+00:49:29,360 --> 00:49:33,280
+you know When when Tesla stock is gonna split or Apple stock is gonna split at the
+
+613
+00:49:33,280 --> 00:49:36,460
+end of August for for Apple What happens to those options?
+
+614
+00:49:36,480 --> 00:49:41,760
+Let's say you were holding Longer data does they'll adjust they adjust like perfectly
+
+615
+00:49:41,760 --> 00:49:44,520
+they there's there's no arm there or anything like that.
+
+616
+00:49:44,580 --> 00:49:54,390
+They'll adjust immediately Does that strategy take a long time to to to test or
+
+617
+00:49:54,390 --> 00:49:58,150
+it just kind of look like the 5 10 20 thing? Yeah,
+
+618
+00:49:58,170 --> 00:50:03,090
+it would take me it would take me 20 minutes. Okay. Yeah,
+
+619
+00:50:03,170 --> 00:50:07,770
+if you want to write it down on paper so I can just Frequent it that'd be great.
+
+620
+00:50:08,350 --> 00:50:16,270
+Yeah And so also so right right off the back so I got tested so many strategies
+
+621
+00:50:18,030 --> 00:50:25,720
+In the past Ram what we see is like so that's a trend-following strategy Yeah,
+
+622
+00:50:25,720 --> 00:50:31,760
+if we do it on a stock like Apple Tesla Amazon those are right because they trend
+
+623
+00:50:31,760 --> 00:50:36,160
+for a long time. Yeah. Yeah Maybe not they trend for a long time.
+
+624
+00:50:36,240 --> 00:50:37,160
+They have been trending.
+
+625
+00:50:37,300 --> 00:50:40,180
+There's a difference Yeah That's what I was reading in the book as well Like,
+
+626
+00:50:40,360 --> 00:50:43,280
+you know Like the trend is your friend and this this one helps you with the trend
+
+627
+00:50:43,280 --> 00:50:47,660
+right or whenever it's down Like when you when you see a reverse from like a bullish
+
+628
+00:50:47,660 --> 00:50:51,920
+trend to a bearish trend you can use it the other way As well, so yeah, right.
+
+629
+00:50:52,000 --> 00:50:54,220
+That'll be really interesting to see the results,
+
+630
+00:50:54,220 --> 00:50:57,320
+but if we did it on a stock like IBM, right?
+
+631
+00:50:57,320 --> 00:51:00,180
+We probably wouldn't make any money Mm-hmm,
+
+632
+00:51:00,180 --> 00:51:05,820
+because IBM is mean reverting right once once we get the crossover. Yeah,
+
+633
+00:51:05,840 --> 00:51:08,560
+it's not gonna trend anymore It's gonna come back down right if we take a look at
+
+634
+00:51:08,560 --> 00:51:14,970
+the chart for IBM So, okay, so you see here for example,
+
+635
+00:51:15,150 --> 00:51:20,350
+let me pull it up here Okay, Ram, you see the RSI strategy here on Apple. Yep.
+
+636
+00:51:20,610 --> 00:51:26,020
+It does so bad Right does terrible right and the reason it does terrible is because
+
+637
+00:51:26,020 --> 00:51:31,860
+Apple has just been trending for the last 20 years But if we look at a stock like
+
+638
+00:51:31,860 --> 00:51:37,860
+IBM Where there was no trend. Mm-hmm.
+
+639
+00:51:37,940 --> 00:51:43,080
+All of a sudden this mean reverting strategy Does a little bit better than break
+
+640
+00:51:43,080 --> 00:51:46,430
+-even Right.
+
+641
+00:51:46,510 --> 00:51:50,430
+So what the core thing is what you would want to do in this situation is like what
+
+642
+00:51:50,430 --> 00:51:53,900
+is it that out? Why is it that Apple trends? Right,
+
+643
+00:51:53,920 --> 00:51:57,420
+what causes Apple to trend what causes Amazon to trend?
+
+644
+00:51:58,360 --> 00:52:01,900
+It's not the EMA 5 over the EMA 20 that causes Apple to trend.
+
+645
+00:52:02,080 --> 00:52:07,440
+It's something else about it And that's that's the real signal Right.
+
+646
+00:52:07,520 --> 00:52:11,280
+So you so you have like two different types of when you're building out these strategies
+
+647
+00:52:11,280 --> 00:52:17,430
+You have two different things you have a signal and a filter So a filter tells you
+
+648
+00:52:17,430 --> 00:52:22,670
+these are the stocks you should trade The signal tells you when to trade them.
+
+649
+00:52:24,220 --> 00:52:25,280
+Does that make sense?
+
+650
+00:52:27,860 --> 00:52:28,340
+Yes,
+
+651
+00:52:28,340 --> 00:52:33,060
+so just to just to clear just to make sure it's 100% clear Let's say your strategy
+
+652
+00:52:33,060 --> 00:52:36,650
+is you want to buy value stocks? Okay,
+
+653
+00:52:37,980 --> 00:52:43,200
+you want to be let's say the guy that picks the bottom and the stocks rally Well,
+
+654
+00:52:43,280 --> 00:52:49,630
+the filter would be like find stocks that have a low price to earnings the signal
+
+655
+00:52:49,630 --> 00:52:55,240
+would be Buy the stock when the RSI goes below 70. Oh, sorry goes below 30,
+
+656
+00:52:55,300 --> 00:53:06,300
+right? So you're having that filter plus the signal gives you the trade Cool.
+
+657
+00:53:06,760 --> 00:53:11,050
+Yep. I understand Ram if you could please send me that list man.
+
+658
+00:53:11,290 --> 00:53:13,370
+I honestly dude I appreciate you coming out here and chatting man.
+
+659
+00:53:13,430 --> 00:53:16,350
+Anytime you want to come on. Just let me know Of course. Yeah,
+
+660
+00:53:16,350 --> 00:53:18,510
+I'll send you a message. Yeah,
+
+661
+00:53:18,550 --> 00:53:23,530
+please do or even post in the group post in the group I'll get on that look like
+
+662
+00:53:23,530 --> 00:53:28,030
+right here. No, no, no, like posting like the the traders chat or something.
+
+663
+00:53:28,490 --> 00:53:43,440
+Gotcha Okay, Ram. We're gonna let you go if you pulled that Okay Hey,
+
+664
+00:53:47,190 --> 00:53:51,080
+can you repeat the last statement Jordan? Can you repeat the last statement?
+
+665
+00:53:51,860 --> 00:53:54,060
+Don't remember it. Oh cool. Was it the one where I said?
+
+666
+00:53:55,380 --> 00:54:03,120
+Put it in the traders chat Okay, so there's a filter and there's a signal Okay,
+
+667
+00:54:03,220 --> 00:54:08,320
+there's a filter and there's a signal the filter tells you what you should be looking
+
+668
+00:54:08,320 --> 00:54:11,800
+at, right? There's 7,000 stocks out there.
+
+669
+00:54:11,820 --> 00:54:16,970
+The filter tells you what I should be looking at the signal tells you when to make
+
+670
+00:54:16,970 --> 00:54:23,010
+that trade Okay, if there's a value stock that's super cheap,
+
+671
+00:54:24,210 --> 00:54:28,970
+but the signal says it's not there yet It still has a little bit more room to go
+
+672
+00:54:30,610 --> 00:54:34,500
+That's the signal so you find so here's a great example. Okay,
+
+673
+00:54:34,580 --> 00:54:39,260
+you figure out what's in common with all trending stocks Those are your groups of
+
+674
+00:54:39,260 --> 00:54:45,550
+stocks to look at The signal is well is the EMA 5 over the EMA 10 and is the EMA
+
+675
+00:54:45,550 --> 00:54:50,140
+10 over the EMA 21 If it's not you don't take that trade.
+
+676
+00:54:50,780 --> 00:54:52,520
+These are hypothetical by the way. Yeah,
+
+677
+00:54:52,750 --> 00:54:55,030
+I'm not telling someone to do that Right, right. No, no,
+
+678
+00:54:55,030 --> 00:55:01,230
+like you wouldn't for example if the EMA 5 and the EMA 10 are over the EMA 21 on
+
+679
+00:55:01,230 --> 00:55:03,390
+IBM You wouldn't take the trade.
+
+680
+00:55:03,770 --> 00:55:10,420
+Why because IBM doesn't trade doesn't trend But you might do it on BYND or you might
+
+681
+00:55:10,420 --> 00:55:14,310
+do it on Tesla, right? So it's filter signal.
+
+682
+00:55:17,340 --> 00:55:32,360
+Okay Awesome awesome so Marcos has one last thing here
+
+683
+00:55:32,360 --> 00:55:36,000
+I saw a post some time ago a woman trader backtested that strategy and beat the
+
+684
+00:55:36,000 --> 00:55:43,700
+actual spy by 10 to 20 percent if That's the case. That's great. But Here,
+
+685
+00:55:43,800 --> 00:55:50,020
+I'll repeat this if you don't know why this isn't working You will get screwed.
+
+686
+00:55:50,140 --> 00:55:50,240
+Yeah,
+
+687
+00:55:50,260 --> 00:55:53,240
+you can't put your money behind it You can't it's gonna it's gonna bite you in the
+
+688
+00:55:53,240 --> 00:55:57,270
+ass because that that is gonna bring that I don't have any confidence I don't have
+
+689
+00:55:57,270 --> 00:56:03,160
+any confidence about this trade right Another way to think about it.
+
+690
+00:56:03,160 --> 00:56:04,340
+I'm just gonna say there. No,
+
+691
+00:56:04,480 --> 00:56:11,360
+okay So there's a guy and actually I actually talked to him Online before many times.
+
+692
+00:56:11,540 --> 00:56:17,000
+His name is Rob Carver. Okay, so he used to work at a QR Sorry,
+
+693
+00:56:17,080 --> 00:56:18,160
+he used to work at man capital,
+
+694
+00:56:18,320 --> 00:56:22,320
+which is one of the biggest like biggest quant firms ever He did really well and
+
+695
+00:56:22,320 --> 00:56:27,640
+he did like I was it like I think 35% 40% on his capital and this we're talking
+
+696
+00:56:27,640 --> 00:56:32,990
+millions of dollars for Quite a long period of time. Okay,
+
+697
+00:56:33,070 --> 00:56:40,750
+it was fantastic Great great great trader the signal, right?
+
+698
+00:56:40,810 --> 00:56:47,130
+So let's say it's the we're gonna keep it super simple simple The SMA 200 that signal
+
+699
+00:56:47,130 --> 00:56:50,570
+has to pick up on trends. So what does that mean?
+
+700
+00:56:52,030 --> 00:56:56,120
+The way they do it is they'll create simulated data. Okay,
+
+701
+00:56:56,180 --> 00:57:02,090
+this is how this how real traders do it They'll create a simulated data So they're
+
+702
+00:57:02,090 --> 00:57:02,950
+gonna do random data,
+
+703
+00:57:03,050 --> 00:57:07,630
+but they're gonna put a trend factor in there They're gonna say,
+
+704
+00:57:07,890 --> 00:57:15,060
+you know random data but at a trend Very small trend at it and then they're gonna
+
+705
+00:57:15,060 --> 00:57:21,270
+create the strategy and see if it can pick up on it Can it pick up on the simulated
+
+706
+00:57:21,270 --> 00:57:26,480
+data? Can the 200 day moving average pick up on this trend?
+
+707
+00:57:26,900 --> 00:57:28,320
+How well does it pick up on this trend?
+
+708
+00:57:30,700 --> 00:57:34,840
+And if it picks up really well, that's gonna be their signal now.
+
+709
+00:57:34,840 --> 00:57:39,360
+All they need is the filter What should I put in this signal? Okay,
+
+710
+00:57:41,260 --> 00:57:45,980
+and that's how these like in-depth Delta one Delta one mean directional strategies
+
+711
+00:57:45,980 --> 00:57:54,280
+are actually built created and used in in the professional space Okay,
+
+712
+00:57:54,320 --> 00:58:00,120
+and you can read his book his book is called Systematic trading Rob Carver all about
+
+713
+00:58:00,120 --> 00:58:05,520
+trend following and how he uses the filters with the signals to build a strategy
+
+714
+00:58:11,840 --> 00:58:17,140
+Okay, guys, I think that is going to do it for today's live. Yeah.
+
+715
+00:58:17,180 --> 00:58:18,900
+I hope you guys are pumped Yeah,
