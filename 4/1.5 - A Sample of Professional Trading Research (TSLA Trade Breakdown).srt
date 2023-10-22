@@ -1,0 +1,2275 @@
+1
+00:00:00,000 --> 00:00:03,700
+All right, guys. So in this live,
+
+2
+00:00:03,780 --> 00:00:06,080
+we're going to be chatting about some of the research that I've been doing and then
+
+3
+00:00:06,080 --> 00:00:08,220
+also the trade that I've been doing as well.
+
+4
+00:00:09,850 --> 00:00:14,050
+So I've actually shared this research with some portfolio managers that gave me
+
+5
+00:00:14,050 --> 00:00:16,070
+feedback. And funny enough,
+
+6
+00:00:16,110 --> 00:00:21,170
+they actually decided to initiate the trade as well. So it's, you know, it's,
+
+7
+00:00:21,170 --> 00:00:24,250
+it's worth the look for you guys to see like what's happening on the back end.
+
+8
+00:00:24,410 --> 00:00:26,650
+Sometimes, you know, some of the more advanced trade,
+
+9
+00:00:26,690 --> 00:00:30,370
+sometimes I might not share because, you know, for multiple different reasons.
+
+10
+00:00:30,370 --> 00:00:33,030
+So, you know, just going to give you guys some insight into that.
+
+11
+00:00:35,030 --> 00:00:36,950
+So before we actually get into the research,
+
+12
+00:00:37,110 --> 00:00:40,990
+I need to do an exercise with you guys, just so you guys can fully understand.
+
+13
+00:00:41,170 --> 00:00:44,710
+Is SteveBee on the call as well, Sean? I believe so. Okay,
+
+14
+00:00:44,770 --> 00:00:47,890
+because I shared with him the research and this is one of the questions he had.
+
+15
+00:00:47,990 --> 00:00:50,150
+So I think it's good that we start with this.
+
+16
+00:00:52,680 --> 00:00:58,780
+So I'm going to draw a graph here. Okay. And on the Y on the X axis,
+
+17
+00:00:58,800 --> 00:01:05,510
+we're going to have age. Okay, so this is age of a person. Okay.
+
+18
+00:01:06,860 --> 00:01:10,780
+And on the Y axis, we're going to have frequency. Now,
+
+19
+00:01:10,820 --> 00:01:17,180
+I was thinking frequency of, of wakeboarding. But what do you guys think? Like,
+
+20
+00:01:17,400 --> 00:01:21,520
+maybe, so something, something that people do when they're young,
+
+21
+00:01:22,300 --> 00:01:26,420
+not very often, when they're like 20s, very, very often.
+
+22
+00:01:26,640 --> 00:01:31,240
+And then when they're like 60, 70, not very often at all. Any ideas there,
+
+23
+00:01:31,280 --> 00:01:39,480
+Sean? Go to the club. Okay, nice. So it looks, so the distribution. Well,
+
+24
+00:01:39,500 --> 00:01:43,180
+you're saying there's one year olds at the club with this distribution? Okay,
+
+25
+00:01:43,200 --> 00:01:45,750
+hold on, hold on. Well,
+
+26
+00:01:45,770 --> 00:01:50,740
+because I actually have like the actual one that I wanted to show you guys already
+
+27
+00:01:50,740 --> 00:01:53,940
+pre-made. So I'm just gonna, okay, so something that. Yeah.
+
+28
+00:01:56,120 --> 00:01:57,880
+Okay. It looks like this.
+
+29
+00:02:01,730 --> 00:02:03,630
+Okay, where I think that's a really good one, Sean.
+
+30
+00:02:04,220 --> 00:02:09,270
+So this is let's say 70 years old. We're drinking in general, you know? Yeah,
+
+31
+00:02:09,270 --> 00:02:12,050
+drinking, right. These are the people drinking in grade eight.
+
+32
+00:02:12,090 --> 00:02:15,750
+That was you and I. We'll call this 30.
+
+33
+00:02:18,400 --> 00:02:24,250
+Okay, and here we have the frequency. Now, when we look at this distribution.
+
+34
+00:02:24,970 --> 00:02:27,350
+Okay, what are some things that we notice about it?
+
+35
+00:02:31,100 --> 00:02:32,900
+What are you noticing about this one, Sean?
+
+36
+00:02:33,560 --> 00:02:35,480
+Like compared to all the other distributions that we've shown?
+
+37
+00:02:37,530 --> 00:02:43,190
+It's a lot lumpier. Perfect. Right? It's a lot lumpier. Right?
+
+38
+00:02:43,250 --> 00:02:45,550
+There's like this, this bump here.
+
+39
+00:02:48,320 --> 00:02:51,620
+And then there's like, like this bump over here. Okay,
+
+40
+00:02:51,640 --> 00:02:55,100
+like this bump over here. Right? It's a lot lumpier.
+
+41
+00:02:55,340 --> 00:03:00,860
+And so this is called structure. Right? This distribution has structure.
+
+42
+00:03:02,780 --> 00:03:08,790
+And what this actually tells us is that there's different groups here. Okay,
+
+43
+00:03:08,790 --> 00:03:11,930
+there's different groups. So I'm now going to show you something.
+
+44
+00:03:12,810 --> 00:03:16,510
+And this should, this should all like make sense now. Okay.
+
+45
+00:03:16,510 --> 00:03:18,810
+So just take a look at this. We see the groups. We see like this.
+
+46
+00:03:18,970 --> 00:03:20,950
+There's these weird lumps. Right.
+
+47
+00:03:20,970 --> 00:03:24,930
+And what this basically telling us is that there's different distributions inside
+
+48
+00:03:24,930 --> 00:03:28,590
+this. Okay. So let me. Yeah.
+
+49
+00:03:28,610 --> 00:03:32,170
+Like there's probably a trait that makes all the people on the left more likely
+
+50
+00:03:32,170 --> 00:03:37,550
+to drink at age 13. Exactly. Exactly. So if I share my screen again.
+
+51
+00:03:43,160 --> 00:03:47,980
+Right. So if we, if we took that distribution and like looked inside of it,
+
+52
+00:03:48,260 --> 00:03:51,800
+we might see something like this. Right. Well, okay.
+
+53
+00:03:51,840 --> 00:03:54,980
+There's a little bit of a lump here. Let's say like it's a little lumpy.
+
+54
+00:03:54,980 --> 00:03:58,880
+And that could be because we have an underlying. Distribute.
+
+55
+00:03:58,940 --> 00:04:01,780
+We have different groups, right? In this case, we have the male.
+
+56
+00:04:02,040 --> 00:04:06,160
+Who looks like drinking much more frequently. Then let's say the females.
+
+57
+00:04:08,220 --> 00:04:12,380
+Okay. So this is called a structure and in trading.
+
+58
+00:04:13,160 --> 00:04:20,070
+If we can find the underlying structures. We can make lots of money. Right.
+
+59
+00:04:20,250 --> 00:04:23,670
+Just to, just to tie it back one more time to an earnings trade, let's say.
+
+60
+00:04:24,600 --> 00:04:28,480
+Okay. So let's say we're tying it back to an earnings trade.
+
+61
+00:04:35,990 --> 00:04:41,130
+Okay. When we dish and we graph all the earnings. All the earnings moves,
+
+62
+00:04:41,210 --> 00:04:43,530
+all the average earnings move for each stock.
+
+63
+00:04:44,480 --> 00:04:46,740
+We might see a distribution that looks like this.
+
+64
+00:04:51,120 --> 00:04:53,720
+Sorry. Actually look like this.
+
+65
+00:05:08,560 --> 00:05:12,260
+Okay. This is what we would see. So on the Y axis here, we have.
+
+66
+00:05:13,480 --> 00:05:14,440
+Size of the move.
+
+67
+00:05:17,240 --> 00:05:23,130
+I'm sorry. The X axis. We have frequency. My apologies. The Y axis here.
+
+68
+00:05:23,190 --> 00:05:32,840
+We have frequency. And on the X axis. We have. Size of the move. Okay.
+
+69
+00:05:35,220 --> 00:05:40,310
+Now, once we graph by, let's say sector. Okay. Let's say we say, okay, well,
+
+70
+00:05:40,470 --> 00:05:41,790
+let's take a look at the sectors.
+
+71
+00:05:41,790 --> 00:05:49,130
+What we might find that here is the consumer staple sector. And here.
+
+72
+00:05:50,940 --> 00:05:55,490
+Is the technology sector. And here.
+
+73
+00:05:59,720 --> 00:06:05,550
+Is the EV sector really, really skewed. And so now when we say, okay, well.
+
+74
+00:06:06,610 --> 00:06:10,100
+We have company XYZ coming up. Right.
+
+75
+00:06:10,180 --> 00:06:15,700
+We have company XYZ or let's say Tesla coming up. If we have Tesla earnings.
+
+76
+00:06:17,040 --> 00:06:20,480
+Well, we can say, okay, well, Tesla is part of the EV section.
+
+77
+00:06:20,480 --> 00:06:24,920
+So now we know that it's probably going to fall somewhere in this range.
+
+78
+00:06:25,400 --> 00:06:30,760
+It's unlikely going to fall somewhere in this range. And so that is.
+
+79
+00:06:31,660 --> 00:06:36,260
+The understanding of trying to understand the structure of the distribution and
+
+80
+00:06:36,260 --> 00:06:40,970
+finding the underlying groups. Okay. Any questions about that?
+
+81
+00:06:40,990 --> 00:06:42,230
+Because then we're going to move into the research.
+
+82
+00:06:50,820 --> 00:06:51,720
+Looks like we're okay.
+
+83
+00:06:54,050 --> 00:06:58,260
+Yeah. Okay. Good, good, good. Great. Great. Okay.
+
+84
+00:07:01,100 --> 00:07:02,280
+Let me get rid of this chat.
+
+85
+00:07:04,710 --> 00:07:07,250
+Yeah, I had the chat open, so you don't need to worry. Perfect. Perfect.
+
+86
+00:07:15,540 --> 00:07:19,970
+So here, here is, here's the research. So what I'm,
+
+87
+00:07:20,030 --> 00:07:21,010
+what I'm trying to do here is.
+
+88
+00:07:21,290 --> 00:07:24,190
+So just so you guys know how I came up with this trade idea.
+
+89
+00:07:24,430 --> 00:07:26,450
+I was listening to a podcast. It was actually the mark.
+
+90
+00:07:26,690 --> 00:07:30,530
+The mark F podcast I post in the group. Where towards the end,
+
+91
+00:07:30,530 --> 00:07:32,890
+for those of you that stuck towards the end. He said.
+
+92
+00:07:34,890 --> 00:07:39,190
+Tesla vault 75. Tesla one-year vault at 75.
+
+93
+00:07:39,470 --> 00:07:45,190
+And he was able to do some arbitrage with the, with the. Convertible bonds.
+
+94
+00:07:45,890 --> 00:07:49,390
+And I said to myself, Tesla vault 75. Right. So that was where the idea.
+
+95
+00:07:49,490 --> 00:07:52,750
+The idea spawned from was born from, right. It's just listening to a podcast.
+
+96
+00:07:54,310 --> 00:07:58,820
+Vault 75. It doesn't seem right. It doesn't seem right. So I said, okay, well,
+
+97
+00:07:58,840 --> 00:08:02,360
+let me, you know, So I looked into it a little bit more. I graphed it out,
+
+98
+00:08:02,420 --> 00:08:04,260
+right. I use the PA terminal graphed it out.
+
+99
+00:08:04,260 --> 00:08:07,480
+And I saw where we're implied vol was where it usually is. It's okay.
+
+100
+00:08:07,520 --> 00:08:09,800
+It's expensive. Right. It's expensive.
+
+101
+00:08:10,220 --> 00:08:13,760
+Now let's actually dive in and try to see, well, what is fair value here?
+
+102
+00:08:14,510 --> 00:08:17,610
+If it's too expensive. Well, then we'll obviously want to sell. Okay.
+
+103
+00:08:17,850 --> 00:08:18,590
+Spoiler alert.
+
+104
+00:08:20,680 --> 00:08:24,680
+So in this document, we're trying to. Evaluate it. Okay.
+
+105
+00:08:24,900 --> 00:08:28,620
+And it's currently trading at 75. But given my current estimate,
+
+106
+00:08:28,700 --> 00:08:32,900
+I think it's actually worth 55. Giving it a 20% premium. Okay.
+
+107
+00:08:33,600 --> 00:08:35,000
+And so we're using the data.
+
+108
+00:08:35,060 --> 00:08:38,960
+I'm not gonna go into the nuances about like why I'm using, let's say.
+
+109
+00:08:39,400 --> 00:08:43,500
+I'm not using all the data. I'm only using some of the data. But what we're,
+
+110
+00:08:43,500 --> 00:08:45,160
+but what we're basically using here is.
+
+111
+00:08:48,020 --> 00:08:48,420
+465.
+
+112
+00:08:50,680 --> 00:08:55,140
+Equities. Okay. We're looking at 465 equities in the universe.
+
+113
+00:08:56,540 --> 00:09:01,330
+And we're taking a snapshot of what they are right now. Okay. So for example,
+
+114
+00:09:02,490 --> 00:09:05,010
+The current market cap of Baba. Right.
+
+115
+00:09:05,150 --> 00:09:09,300
+The current market cap of bank of America. Et cetera, et cetera.
+
+116
+00:09:11,320 --> 00:09:16,400
+And then we're also using in our data set, a time series of Tesla. Okay.
+
+117
+00:09:16,420 --> 00:09:19,870
+So time series, meaning the vols through time. Okay.
+
+118
+00:09:19,870 --> 00:09:22,170
+So any questions about the data so far? So we're, we're,
+
+119
+00:09:22,290 --> 00:09:25,950
+we're taking a snapshot. Of the data for each. So we're basically going to say,
+
+120
+00:09:25,970 --> 00:09:26,610
+okay, well,
+
+121
+00:09:26,610 --> 00:09:30,500
+what is Tesla trading at relative to what everything else is trading at? Okay.
+
+122
+00:09:30,500 --> 00:09:31,860
+Let's, let's try to build a model here. Right.
+
+123
+00:09:31,860 --> 00:09:35,780
+A way to think about it is if all stocks are volatile, well,
+
+124
+00:09:35,800 --> 00:09:40,120
+Tesla's probably going to be volatile. We're also going to use the individual.
+
+125
+00:09:42,060 --> 00:09:44,200
+They're called target predictor variables.
+
+126
+00:09:44,380 --> 00:09:49,610
+We're going to use a variable to predict. The volatility, right.
+
+127
+00:09:49,970 --> 00:09:53,910
+Can we use a variable to predict the volatility of Baba and, and,
+
+128
+00:09:54,070 --> 00:09:57,770
+and bank of America and Bowen. And then if we can, well,
+
+129
+00:09:57,770 --> 00:10:05,020
+let's just use it to predict Tesla. Okay. Okay. So first thing to look at.
+
+130
+00:10:05,340 --> 00:10:09,520
+Okay. First thing to look at here, here is. IV 30 for Tesla.
+
+131
+00:10:09,700 --> 00:10:13,800
+Here is IV one year. And then here's the forward 31 year.
+
+132
+00:10:14,180 --> 00:10:18,520
+Let's not worry about that too much. Okay. So we can see here,
+
+133
+00:10:18,600 --> 00:10:20,800
+Tesla's trading at 75, 73.8.
+
+134
+00:10:23,070 --> 00:10:26,610
+And that's extremely bit. Okay. Let me just take away the IV 30.
+
+135
+00:10:27,380 --> 00:10:35,170
+That's extremely bit. Okay. Pre pre COVID. This whole, this whole scenario,
+
+136
+00:10:35,290 --> 00:10:42,030
+all the, all the WSB. It was trading at 45. Okay. 70 ball,
+
+137
+00:10:42,210 --> 00:10:47,190
+75 ball for a one-year option is extremely, extremely expensive. Okay.
+
+138
+00:10:48,010 --> 00:10:49,730
+You don't see that very often.
+
+139
+00:10:53,240 --> 00:10:55,920
+So I think my fans are going through the roof here. Okay. You don't,
+
+140
+00:10:56,000 --> 00:10:58,900
+you don't see that. Right. That's extremely, extremely expensive.
+
+141
+00:10:59,140 --> 00:11:02,100
+And I encourage you guys to go and look at a whole bunch of the stocks that you
+
+142
+00:11:02,100 --> 00:11:06,620
+like. And go check out the longer dated vols. Right. Even by do right now,
+
+143
+00:11:06,720 --> 00:11:14,380
+the longer dated vol is 60%. Tilray. Okay. Tilray is 95 is a hundred. Right.
+
+144
+00:11:14,420 --> 00:11:15,740
+And Tesla's in that range.
+
+145
+00:11:15,920 --> 00:11:19,480
+So it's just unbelievable how expensive this ball is.
+
+146
+00:11:23,360 --> 00:11:26,600
+And then, so what I also did here, and it's very important.
+
+147
+00:11:26,960 --> 00:11:32,540
+Is I graphed the contango. So you can graph it to contango in PA terminal.
+
+148
+00:11:33,260 --> 00:11:38,050
+Contango is basically how steep is that term structure? Okay.
+
+149
+00:11:38,350 --> 00:11:42,610
+How steep is that term structure? So if we, if we went on the PA terminal,
+
+150
+00:11:42,610 --> 00:11:45,470
+we would see something like this. Well,
+
+151
+00:11:46,730 --> 00:11:48,250
+we would see something that looks like this. Okay.
+
+152
+00:11:50,830 --> 00:11:52,610
+We would see something that looks like this.
+
+153
+00:11:52,850 --> 00:11:59,460
+The term structure would look like this. Okay. Where this is 55%. Right.
+
+154
+00:12:00,220 --> 00:12:06,780
+For the near dated implied volatility. And this is 75%.
+
+155
+00:12:08,090 --> 00:12:14,260
+For the far dated implied vol. Okay. So what the market is saying is,
+
+156
+00:12:14,320 --> 00:12:18,120
+is that as we get closer to expiration, volatility should decrease.
+
+157
+00:12:20,380 --> 00:12:23,770
+But here's the thing. Okay. Let me ask you guys this question.
+
+158
+00:12:24,990 --> 00:12:28,400
+If implied volatility is high. Okay.
+
+159
+00:12:28,400 --> 00:12:30,100
+Let's say implied volatility is extremely high.
+
+160
+00:12:30,660 --> 00:12:32,220
+What should the curve look like?
+
+161
+00:12:34,960 --> 00:12:38,480
+What should the curve look like? If implied vol is extremely high.
+
+162
+00:12:42,370 --> 00:12:43,370
+Anyone got the answer?
+
+163
+00:12:45,610 --> 00:12:49,650
+Inverted. Inverted. Exactly. Okay. It would look like this.
+
+164
+00:12:49,770 --> 00:12:57,520
+It would look like this. And what's the logic behind that, Jordan? Yep.
+
+165
+00:12:57,620 --> 00:13:02,400
+The logic is that the volatility is not going to last forever. Right.
+
+166
+00:13:02,900 --> 00:13:05,660
+It's going to imply a lot of volatility now. Volatility is mean reverting.
+
+167
+00:13:05,880 --> 00:13:08,460
+And so in the future, volatility will drop.
+
+168
+00:13:08,640 --> 00:13:10,800
+And we have lots of videos on this as well. If you guys want to go through our.
+
+169
+00:13:10,980 --> 00:13:16,040
+And like, you know, to, to just think about it logically, like, you know,
+
+170
+00:13:16,040 --> 00:13:19,380
+if we have like a big event happening,
+
+171
+00:13:20,350 --> 00:13:24,430
+you expect the market to correct price and see a big move now,
+
+172
+00:13:24,450 --> 00:13:29,450
+but that doesn't mean it's going to see the same size moves a year from now.
+
+173
+00:13:30,700 --> 00:13:34,260
+Right. The market's pretty efficient, right? So if something happens now,
+
+174
+00:13:34,260 --> 00:13:38,160
+we shouldn't see this huge tale of volatility for the next 10 years, right?
+
+175
+00:13:38,160 --> 00:13:42,740
+We should see it taper off and go back to some sort of mean or average volatility
+
+176
+00:13:42,740 --> 00:13:47,300
+for, for the asset. Exactly. Exactly. And I just, you know,
+
+177
+00:13:47,340 --> 00:13:51,560
+I encourage you guys to go look at GME vol during everything. Okay.
+
+178
+00:13:51,560 --> 00:13:58,700
+See how the vols look. So contango now if I have Ivy one year here, okay.
+
+179
+00:14:00,740 --> 00:14:08,000
+Ivy one year, what should this relationship look like? So this way. Okay. The,
+
+180
+00:14:08,060 --> 00:14:13,980
+the curve is going to get steeper. And this way it's going to get more.
+
+181
+00:14:15,780 --> 00:14:19,910
+Into contango. Right. Into normal. Right. Well, what should we see here?
+
+182
+00:14:22,760 --> 00:14:25,820
+What do you guys think? So as Ivy increases, what should happen?
+
+183
+00:14:27,030 --> 00:14:32,770
+What's it was Steve saying there down sloping to the right.
+
+184
+00:14:34,980 --> 00:14:44,660
+Okay. So as, okay. So, so. Yes. As Ivy gets higher. Okay.
+
+185
+00:14:44,800 --> 00:14:48,540
+We get more into backwardation. Okay. And as Ivy gets lower,
+
+186
+00:14:49,570 --> 00:14:52,160
+we get more into contango. Right.
+
+187
+00:14:52,180 --> 00:14:53,920
+And we should see a relationship that looks like this,
+
+188
+00:14:54,720 --> 00:15:01,140
+but right now Tesla is at the highest Ivy. Okay. One of the highest IVs.
+
+189
+00:15:03,040 --> 00:15:05,320
+And it's in contango. Okay.
+
+190
+00:15:05,320 --> 00:15:08,200
+So it would be like somewhere over here on this graph.
+
+191
+00:15:08,700 --> 00:15:11,540
+And if you scroll down a bit, you can get both graphs on the screen.
+
+192
+00:15:12,870 --> 00:15:13,650
+One second.
+
+193
+00:15:17,890 --> 00:15:21,970
+Right. So you can see that it's at the top of the range there for both graphs.
+
+194
+00:15:23,340 --> 00:15:30,040
+Right. But to this graph down here, what it did, what we did was, well,
+
+195
+00:15:30,060 --> 00:15:33,660
+we can't say we can't just plot contango and say, oh, well, it's steep.
+
+196
+00:15:34,490 --> 00:15:38,690
+You know, vol is expensive or it's low vol is cheap. We can't just do that.
+
+197
+00:15:39,130 --> 00:15:39,490
+Right.
+
+198
+00:15:40,050 --> 00:15:43,190
+And the reason we can't do that is because every time there's a lot of volatility,
+
+199
+00:15:43,410 --> 00:15:47,300
+well, there's going to be a lot of, a lot of backwardation. Right.
+
+200
+00:15:47,340 --> 00:15:50,340
+And every time there's no volatility, there's going to be a lot of contango.
+
+201
+00:15:50,740 --> 00:15:53,200
+So we can't just plot contango and say, oh, well, it's up here.
+
+202
+00:15:53,280 --> 00:15:54,140
+It's got to be expensive.
+
+203
+00:15:54,860 --> 00:16:01,160
+What we need to do is we need to divide it or normalize it by the level of implied
+
+204
+00:16:01,160 --> 00:16:04,400
+volatility. Okay. So we take contango,
+
+205
+00:16:04,560 --> 00:16:08,480
+we divide it by the level of implied volatility, right.
+
+206
+00:16:08,540 --> 00:16:12,640
+Because we should see that, you know, as implied volatility drops,
+
+207
+00:16:13,060 --> 00:16:19,210
+contango goes, starts to move into, into normality, right. Into contango. And,
+
+208
+00:16:19,250 --> 00:16:23,050
+but what we're seeing here. Okay. So once we do that, once we normalize it.
+
+209
+00:16:23,830 --> 00:16:31,820
+Okay. Which we have to do here, but we can see that we are at extreme,
+
+210
+00:16:31,820 --> 00:16:40,600
+at extreme highs, meaning implied vol is low. And contango is steep.
+
+211
+00:16:44,680 --> 00:16:51,790
+So that's a sign that maybe the back months are overpriced. Right.
+
+212
+00:16:51,790 --> 00:16:58,530
+It's extremely steep. Right. So it looks like this. When in reality,
+
+213
+00:16:58,750 --> 00:17:00,330
+it might look like this.
+
+214
+00:17:02,490 --> 00:17:07,130
+Okay. So that's what we're plotting there. And this being the back months,
+
+215
+00:17:07,490 --> 00:17:08,450
+this being the two year,
+
+216
+00:17:08,450 --> 00:17:12,430
+the one year options and this being the 30 day options. Okay.
+
+217
+00:17:17,010 --> 00:17:20,390
+Any questions there? Nope. We're all good so far. Okay.
+
+218
+00:17:24,100 --> 00:17:28,060
+Okay. So I was saying here, like, there's no surprise. Like it's obvious that,
+
+219
+00:17:28,120 --> 00:17:33,680
+that this is steep. Now as any good researcher, as any good trader,
+
+220
+00:17:33,700 --> 00:17:36,420
+you really want to understand what you're trading, right.
+
+221
+00:17:36,420 --> 00:17:37,380
+What the hell am I trading here?
+
+222
+00:17:37,420 --> 00:17:41,540
+So I really want to look more into this one eyeball one year. Right.
+
+223
+00:17:41,540 --> 00:17:45,660
+What is this implied volatility one year? Right. What does it look like?
+
+224
+00:17:45,660 --> 00:17:49,980
+What are the characteristics about it? And so I did a histogram of it. Okay.
+
+225
+00:17:51,440 --> 00:17:55,120
+You know, we have the frequency and we have the level of implied vol. Right.
+
+226
+00:17:55,120 --> 00:17:58,380
+So for example, level of a hundred didn't happen. Right.
+
+227
+00:17:58,400 --> 00:18:03,960
+But level of 70 or 75 happened actually quite frequently. Right.
+
+228
+00:18:03,960 --> 00:18:07,020
+And this could be a case that, well, if it happening quite frequently,
+
+229
+00:18:07,060 --> 00:18:10,360
+maybe that's the normal, you know, maybe that's the normal. Right.
+
+230
+00:18:10,380 --> 00:18:13,280
+And we're clearly seeing that here. Right.
+
+231
+00:18:13,280 --> 00:18:18,090
+We're clearly seeing that right here. Right. That's 75 vol. It's the norm,
+
+232
+00:18:21,230 --> 00:18:25,690
+but you can see when we graph this guys is that usually it's all the way down here.
+
+233
+00:18:25,930 --> 00:18:29,050
+Right. Usually it's at this 50 mark, which we're seeing this big hump.
+
+234
+00:18:30,460 --> 00:18:31,720
+And right now it's up here.
+
+235
+00:18:31,840 --> 00:18:39,670
+So we do some transformations and now we can see it extremely clearly. Okay.
+
+236
+00:18:39,670 --> 00:18:43,560
+We can clearly see these two humps. What do you mean by transformations,
+
+237
+00:18:43,740 --> 00:18:46,320
+Jordan? Yep. So we gaussianize.
+
+238
+00:18:46,380 --> 00:18:50,180
+So what that does is it basically tries to make these normal.
+
+239
+00:18:50,180 --> 00:18:53,020
+It tries to make these, this structure as normal as possible.
+
+240
+00:18:53,520 --> 00:18:56,260
+We give the inputs of, okay, well, what is the,
+
+241
+00:18:56,340 --> 00:18:57,600
+what is the general shape of it?
+
+242
+00:18:58,220 --> 00:19:03,180
+And then we use maximum likelihood and that shapes it to, you know, to, to,
+
+243
+00:19:03,220 --> 00:19:06,520
+to the parameters, to, to what we're, we're trying to make it look like. Cool.
+
+244
+00:19:07,430 --> 00:19:11,330
+And so here we have it. Okay. So now we have clearly, right? Like no one,
+
+245
+00:19:11,510 --> 00:19:15,350
+no one can say that there's not two humps here. Okay.
+
+246
+00:19:17,810 --> 00:19:21,830
+And so what that's telling us is that given what we were just talking about earlier,
+
+247
+00:19:21,950 --> 00:19:28,340
+right. Is that there might, there's definitely two groups. Right.
+
+248
+00:19:28,380 --> 00:19:29,640
+There's definitely two groups here.
+
+249
+00:19:32,420 --> 00:19:41,850
+Okay. And if we know, if we know that right now, Tesla given whatever,
+
+250
+00:19:41,990 --> 00:19:43,210
+imagine this group is like,
+
+251
+00:19:46,760 --> 00:19:53,440
+this group is March to June. Okay. Just like the, the, the months of the week.
+
+252
+00:19:53,500 --> 00:20:00,660
+Or sorry, the months of the year. And then this hump is July to Feb. Okay.
+
+253
+00:20:00,800 --> 00:20:06,440
+Just imagine that for a second. Well, we would, we could say that, well,
+
+254
+00:20:06,480 --> 00:20:07,640
+we're going into March.
+
+255
+00:20:09,090 --> 00:20:16,740
+So implied volatility should actually be around this 45 mark. Right.
+
+256
+00:20:16,780 --> 00:20:20,280
+If we can say that this ball is going to be part of this group,
+
+257
+00:20:21,070 --> 00:20:24,170
+we can increase our forecast drastically.
+
+258
+00:20:25,340 --> 00:20:29,260
+But if we could figure out what these two groups are, We'd be,
+
+259
+00:20:29,660 --> 00:20:34,040
+we'd make a ton of money. Right. And this, this happens in multiple fields.
+
+260
+00:20:34,140 --> 00:20:37,830
+It's not just in this, this is in a lot of different scenarios. Okay.
+
+261
+00:20:37,830 --> 00:20:42,310
+This happens to insurance, right. Or is he a smoker? Is he not smoker? Well,
+
+262
+00:20:42,350 --> 00:20:46,590
+given that we can make a distribution to distributions of life expectancy.
+
+263
+00:20:51,520 --> 00:20:51,980
+So.
+
+264
+00:20:54,570 --> 00:20:57,090
+Because I didn't have time. This research,
+
+265
+00:20:57,270 --> 00:21:01,790
+this research was done on Saturday or Sunday. Saturday, but, you know,
+
+266
+00:21:01,830 --> 00:21:04,870
+we had to, the terminal needs to get done as well.
+
+267
+00:21:05,050 --> 00:21:08,010
+So we didn't have a ton of time to, to really work on this.
+
+268
+00:21:09,770 --> 00:21:12,330
+And I thought the model that I built was good enough.
+
+269
+00:21:12,630 --> 00:21:16,220
+I didn't need to find out what these two groups were. Okay. But usually.
+
+270
+00:21:16,940 --> 00:21:19,320
+These two finding what these two groups are is very important.
+
+271
+00:21:21,100 --> 00:21:22,680
+Especially when they're so blatant like this.
+
+272
+00:21:23,160 --> 00:21:27,140
+I hope you don't have to eat those words. I know. Right. Okay.
+
+273
+00:21:29,780 --> 00:21:30,260
+So.
+
+274
+00:21:32,940 --> 00:21:36,280
+Yeah. So I was also saying here, like, usually I like to shrink the data.
+
+275
+00:21:36,280 --> 00:21:39,640
+Right. Which, which we just talked about, like shrinking it into the sector.
+
+276
+00:21:39,720 --> 00:21:44,860
+Right. So if let's say Goldman Sachs. Bank of America,
+
+277
+00:21:45,000 --> 00:21:48,660
+JP Morgan and Morgan Stanley all have an earnings implied move of 4%.
+
+278
+00:21:48,660 --> 00:21:50,140
+And then you have.
+
+279
+00:21:52,740 --> 00:21:58,390
+City group with a 10% implied move. Well, you want to shrink that. Right.
+
+280
+00:21:58,410 --> 00:22:01,650
+You want to shrink that back down to the average, to the sector. Right.
+
+281
+00:22:02,650 --> 00:22:04,730
+They do it a lot in baseball. Right. So.
+
+282
+00:22:06,440 --> 00:22:08,460
+I don't know exactly how it's done in baseball. I can't remember,
+
+283
+00:22:08,580 --> 00:22:13,160
+but they do a lot of this in baseball. I like what is your batting average?
+
+284
+00:22:14,360 --> 00:22:16,720
+And they would shrink your current, like,
+
+285
+00:22:16,740 --> 00:22:20,230
+if you want to know the batting average in the second half of the season, Well,
+
+286
+00:22:20,230 --> 00:22:22,930
+you would actually shrink your you're for the first half of the season,
+
+287
+00:22:22,990 --> 00:22:24,650
+you're batting average down to the average.
+
+288
+00:22:24,650 --> 00:22:28,890
+And you can do better by like shrinking it to the left handies or the size difference
+
+289
+00:22:28,890 --> 00:22:32,870
+or the size of the person, whatever it is, but it's very, very popular.
+
+290
+00:22:34,450 --> 00:22:39,570
+In gambling. Okay. So basically what I'm saying here is.
+
+291
+00:22:40,010 --> 00:22:42,770
+We can do a lot better, but, you know, given the time constraint,
+
+292
+00:22:42,870 --> 00:22:47,510
+give me what to put on trade tomorrow. You know, let's just make it happen.
+
+293
+00:22:49,350 --> 00:22:53,050
+And so what I did here was. So is everyone following along so far?
+
+294
+00:22:53,090 --> 00:22:59,640
+Did I put everyone to sleep yet? Oh, I think. I think everyone's so far. No,
+
+295
+00:22:59,720 --> 00:23:02,060
+no. A couple of questions, but we'll, we'll get to them at the end.
+
+296
+00:23:04,470 --> 00:23:10,290
+Okay. Good. Good. Okay. So let me zoom in here. If I zoom in on my screen,
+
+297
+00:23:10,350 --> 00:23:12,730
+Sean. Does it zoom in on your screen? Yep. All good.
+
+298
+00:23:15,300 --> 00:23:15,660
+Okay.
+
+299
+00:23:15,700 --> 00:23:22,750
+So here I have graphed the relationships between all our predictor variables.
+
+300
+00:23:23,420 --> 00:23:28,420
+Okay. So let's just quickly go back up to the predictor variables. Okay. So.
+
+301
+00:23:29,860 --> 00:23:33,680
+So here, for example, we are trying to forecast this one right here.
+
+302
+00:23:33,680 --> 00:23:37,860
+IV one year. Is what we're trying to forecast for given the data.
+
+303
+00:23:38,410 --> 00:23:42,620
+Can we build a relationship? Can we given the data,
+
+304
+00:23:42,680 --> 00:23:46,560
+can we find a relationship here? So we're trying to predict this IV one year.
+
+305
+00:23:47,400 --> 00:23:49,080
+And we might say, okay, well,
+
+306
+00:23:49,560 --> 00:23:52,740
+does the average option volume predict the one year?
+
+307
+00:23:52,960 --> 00:23:54,480
+So I'm going to ask you guys this question here. I want to,
+
+308
+00:23:54,500 --> 00:23:55,440
+I want to hear what you guys say.
+
+309
+00:23:58,340 --> 00:24:03,820
+What is the relationship between market cap. And implied volatility.
+
+310
+00:24:03,820 --> 00:24:08,900
+What is the relationship between market cap and implied volatility.
+
+311
+00:24:13,020 --> 00:24:16,980
+Inverse. Tell me more. What does that mean? What does that mean?
+
+312
+00:24:17,340 --> 00:24:22,970
+What does that mean? Highest market cap, less implied vol. Why, why would that,
+
+313
+00:24:23,050 --> 00:24:27,650
+why would that be the case? More difficult to move. Who said that one? Marcos.
+
+314
+00:24:28,230 --> 00:24:36,820
+Oh, man, my guy. My guy. So. Good try, Jacob. We need it. He said the opposite.
+
+315
+00:24:37,100 --> 00:24:41,260
+No, no, no. He was just a little late to the party. Okay. Okay. So, so Marcos.
+
+316
+00:24:41,400 --> 00:24:46,610
+So here's Ivy one year. Okay. And here's a market cap. So we go down here.
+
+317
+00:24:47,050 --> 00:24:51,550
+And it's right here. So this is the, this is the graph right here, Marcos.
+
+318
+00:24:51,950 --> 00:24:55,850
+So you can see here, if we graphed all those 465 stocks. Right.
+
+319
+00:24:55,870 --> 00:24:59,690
+We can see that. The larger or the smaller, the market cap.
+
+320
+00:25:00,130 --> 00:25:01,570
+The more of the implied volatility.
+
+321
+00:25:02,050 --> 00:25:04,550
+The lower the market cap or the bigger the market cap.
+
+322
+00:25:04,550 --> 00:25:10,510
+The lower the implied volatility. Right. So, but before we see the data.
+
+323
+00:25:10,730 --> 00:25:15,510
+We want to be able to say, we want to be like, why would we see this? Okay.
+
+324
+00:25:16,930 --> 00:25:21,790
+So let's do another one. Let's do another one. Implied volatility 30 day.
+
+325
+00:25:22,350 --> 00:25:24,590
+And implied volatility one year.
+
+326
+00:25:29,280 --> 00:25:30,260
+What's the relationship.
+
+327
+00:25:32,460 --> 00:25:37,470
+Co is saying inverse. Inverse. Co-op.
+
+328
+00:25:39,180 --> 00:25:41,400
+Does anyone want to agree or disagree with co-op?
+
+329
+00:25:50,070 --> 00:25:54,920
+Marcos and Steve disagree. Guys never bet against co-op. Don't you guys.
+
+330
+00:25:55,240 --> 00:25:58,780
+Don't you guys know this? Okay. You guys, you guys are right. It is.
+
+331
+00:25:58,940 --> 00:26:00,720
+There is a relate a positive relationship, right?
+
+332
+00:26:00,740 --> 00:26:04,600
+If implied volatility 30 goes up. So should the implied volatility one year.
+
+333
+00:26:06,140 --> 00:26:11,380
+And so we can see that right here. Right. It's, it's fairly obvious. Okay.
+
+334
+00:26:11,380 --> 00:26:15,200
+It's fairly obvious. Now keep in mind guys for this data, I'm not using Tesla.
+
+335
+00:26:15,720 --> 00:26:20,070
+I'm not using Tesla because that's going to contaminate the data. Okay.
+
+336
+00:26:20,070 --> 00:26:23,980
+We'll do one more. We'll do. Okay. Here's a good one. Okay. Here's a good one.
+
+337
+00:26:24,400 --> 00:26:25,380
+Let's see who gets this one.
+
+338
+00:26:27,380 --> 00:26:31,240
+Wait, actually hold on. Let me just see super quick. If it's. Okay.
+
+339
+00:26:33,800 --> 00:26:34,640
+The skew.
+
+340
+00:26:36,680 --> 00:26:43,890
+And the implied volatility 30 day. One year. So the level. The long-term skew.
+
+341
+00:26:44,440 --> 00:26:50,450
+Okay. The long-term skew versus. The implied volatility one year.
+
+342
+00:26:55,240 --> 00:27:00,280
+Higher skew lower IB. Okay. Was that one, Steve? Yeah.
+
+343
+00:27:00,860 --> 00:27:02,620
+You saw this one already. Cheater.
+
+344
+00:27:05,300 --> 00:27:11,320
+We should abandon. So it is right. So what we see here, right.
+
+345
+00:27:11,340 --> 00:27:14,020
+And what we should see is that companies that have high skew.
+
+346
+00:27:14,240 --> 00:27:15,920
+Are usually companies like biotechs.
+
+347
+00:27:16,060 --> 00:27:19,200
+They're usually companies that like are on this crazy runs. They're till rate,
+
+348
+00:27:19,280 --> 00:27:23,930
+they're game stop. Companies that have. Or companies have a lot of put skew.
+
+349
+00:27:24,390 --> 00:27:28,910
+Are companies like Walmart or companies like target or companies like.
+
+350
+00:27:30,220 --> 00:27:34,380
+Procter and gamble. Where the risk is to the downside. Not to the upside.
+
+351
+00:27:34,700 --> 00:27:40,100
+Johnson and Johnson. Has no risk to the upside. Okay.
+
+352
+00:27:40,300 --> 00:27:43,780
+So we can see that right here. Slope infinity, which is the long-term slope.
+
+353
+00:27:45,260 --> 00:27:51,750
+And the Ivy one year. Okay. So the more. The more calls.
+
+354
+00:27:52,110 --> 00:27:54,090
+The more types of calls are relative to puts.
+
+355
+00:27:57,870 --> 00:28:01,470
+Then the more, the higher, the implied volatility is. Okay.
+
+356
+00:28:01,490 --> 00:28:04,950
+So what we are just going to quickly take a look at our data set here.
+
+357
+00:28:05,370 --> 00:28:09,610
+Implied volatility one year. The Ivy 30 day is a good predictor. Okay.
+
+358
+00:28:10,010 --> 00:28:12,290
+The slope is the skews, a good predictor.
+
+359
+00:28:14,710 --> 00:28:20,660
+The market cap is a good predictor. Okay. Also. Contango.
+
+360
+00:28:21,120 --> 00:28:24,100
+So there's groups here again. We can kind of see the groups here.
+
+361
+00:28:24,680 --> 00:28:26,220
+Now I didn't have time to look into these.
+
+362
+00:28:26,740 --> 00:28:31,040
+But you can clearly see that there are like a couple of groups here. Okay.
+
+363
+00:28:36,200 --> 00:28:38,840
+We don't have time to look into it, but anyways, it is, it is.
+
+364
+00:28:38,960 --> 00:28:43,240
+It is a little bit predictive given by the red line. Okay. Also.
+
+365
+00:28:45,180 --> 00:28:50,640
+Realized volatility. What's actually happening is a good predictor. And lastly,
+
+366
+00:28:50,880 --> 00:28:55,320
+the borrow cost is a slightly, slightly a good predictor as well. Okay.
+
+367
+00:28:55,400 --> 00:28:59,440
+How much it costs to borrow the stock. Right. Hi.
+
+368
+00:28:59,880 --> 00:29:03,560
+Stocks with high borrow would have a high implied vol stock with low borrow with
+
+369
+00:29:03,560 --> 00:29:05,430
+that low implied vol. Okay.
+
+370
+00:29:05,510 --> 00:29:08,490
+And so we run a quick regression model and we get this. Okay.
+
+371
+00:29:08,490 --> 00:29:13,690
+We get market caps, a really good predictor. Okay. The skews a good predictor.
+
+372
+00:29:13,810 --> 00:29:18,850
+The Ivy 30 script. Contango is realized vol and the oral rate.
+
+373
+00:29:18,930 --> 00:29:20,050
+So we put it into the computer.
+
+374
+00:29:20,190 --> 00:29:23,450
+The computer starts looking at it starts to build these models and says, okay,
+
+375
+00:29:23,510 --> 00:29:28,070
+Hey, you know what? I can actually predict the volatility given these inputs.
+
+376
+00:29:28,070 --> 00:29:32,350
+But this one here, the volatility of volatility. That wasn't very,
+
+377
+00:29:32,490 --> 00:29:35,630
+that wasn't very, I didn't really use it when I was trying to predict it.
+
+378
+00:29:35,810 --> 00:29:37,290
+I didn't really use it. So I said, okay, great.
+
+379
+00:29:39,920 --> 00:29:41,120
+So what we did now.
+
+380
+00:29:43,900 --> 00:29:44,340
+Okay.
+
+381
+00:29:46,490 --> 00:29:52,700
+So now. What we did was we graphed it. We graphed hours. Okay. So now we said,
+
+382
+00:29:52,760 --> 00:29:59,370
+okay, okay. Model. Okay. Computer. Here is. All the information we have.
+
+383
+00:29:59,870 --> 00:30:06,660
+I want you to go and predict what. You think the forecast is. Okay.
+
+384
+00:30:06,660 --> 00:30:08,980
+I want you to go and predict here. Here's the, here's the model.
+
+385
+00:30:09,140 --> 00:30:12,660
+I want you to go and predict Boeing's or Boeing's implied vol one year.
+
+386
+00:30:12,820 --> 00:30:13,920
+I want you to go predict.
+
+387
+00:30:16,750 --> 00:30:19,030
+Apple's implied vol one year. Okay. So that's what we did.
+
+388
+00:30:20,370 --> 00:30:26,260
+And so this is what the graph looks like. Okay. So on the, on the X axis here.
+
+389
+00:30:26,540 --> 00:30:28,080
+We took, we took the log of it.
+
+390
+00:30:30,700 --> 00:30:33,280
+There's reasons why I did that, but I took the log of it.
+
+391
+00:30:33,920 --> 00:30:36,060
+And we can see here that.
+
+392
+00:30:38,380 --> 00:30:44,280
+It predicts very well. Okay. Now, obviously it's seen the data. Right.
+
+393
+00:30:44,300 --> 00:30:45,140
+It's seen the data.
+
+394
+00:30:45,500 --> 00:30:48,020
+But what we're trying to do is we're just trying to explain it.
+
+395
+00:30:48,140 --> 00:30:51,420
+We're trying to explain this implied vol one year. Okay.
+
+396
+00:30:51,800 --> 00:30:54,480
+And this is an extremely good, right. This is saying, okay, well,
+
+397
+00:30:54,560 --> 00:30:56,960
+I can basically give you extremely good confidence.
+
+398
+00:30:57,140 --> 00:31:00,840
+If you give me this information. Right. Which we just talked about up here.
+
+399
+00:31:00,840 --> 00:31:05,700
+Okay. If you can give me this information. I can predict.
+
+400
+00:31:05,960 --> 00:31:09,160
+What the implied volatility is going to be with really good accuracy.
+
+401
+00:31:12,020 --> 00:31:17,220
+And so. So what do we do? Well, now we gave the model unseen data.
+
+402
+00:31:17,740 --> 00:31:23,850
+We gave the model Tesla. We said, okay, model. Here's Tesla.
+
+403
+00:31:24,230 --> 00:31:27,210
+Here's Tesla's information. What do you got for us?
+
+404
+00:31:28,350 --> 00:31:31,200
+And this is what it's got for us. Okay.
+
+405
+00:31:31,200 --> 00:31:34,400
+So what it's got for us is that if we were to.
+
+406
+00:31:34,700 --> 00:31:44,430
+First of the forecast would be 54%. 54% for the one year. Okay. Now,
+
+407
+00:31:44,590 --> 00:31:47,870
+if I were to graph where this was. On this graph,
+
+408
+00:31:48,130 --> 00:31:50,630
+it would be right at the center point here. Okay.
+
+409
+00:31:50,670 --> 00:31:54,650
+This would be our predicted value value on the green line. Okay.
+
+410
+00:31:54,650 --> 00:31:56,130
+See this little green, see the green line here.
+
+411
+00:31:56,710 --> 00:31:58,610
+This is what our model would predict.
+
+412
+00:32:00,690 --> 00:32:02,830
+However, it's all the way up here.
+
+413
+00:32:05,100 --> 00:32:10,310
+Okay. It's all the way up at the 75% mark. Right.
+
+414
+00:32:10,350 --> 00:32:16,960
+When our model is saying this should be at 54. Okay. And. You know, Stephen,
+
+415
+00:32:17,080 --> 00:32:20,200
+for example, obviously this looks really expensive. Now, Stephen, for example,
+
+416
+00:32:20,480 --> 00:32:24,200
+has this belief. And I agree with him here. That eventually.
+
+417
+00:32:24,600 --> 00:32:28,580
+So Tesla has a lot of calls to you, even in the longterm. It's not, it's not.
+
+418
+00:32:28,740 --> 00:32:31,520
+It was a lot steeper on Friday, but starting to come back down.
+
+419
+00:32:31,700 --> 00:32:35,760
+But Stephen has this idea that. It's going to completely invert eventually.
+
+420
+00:32:36,830 --> 00:32:39,550
+And if that was the case, right. If Stephen's right.
+
+421
+00:32:39,690 --> 00:32:40,990
+And I think he's going to be right here.
+
+422
+00:32:41,230 --> 00:32:46,450
+Then our model would actually predict a 51% implied vol. Right.
+
+423
+00:32:46,470 --> 00:32:49,670
+Because remember, skew went into this. Skew went into the model.
+
+424
+00:32:51,100 --> 00:32:55,140
+It would predict a 51% implied move of 51% volatility level.
+
+425
+00:32:58,620 --> 00:33:01,000
+And so, you know, obviously this is crazy expensive.
+
+426
+00:33:01,040 --> 00:33:02,060
+So you got to short this thing.
+
+427
+00:33:02,560 --> 00:33:07,260
+And so I did short this thing and I am short this thing through. A January,
+
+428
+00:33:07,480 --> 00:33:13,160
+2023. Okay. So actually two-year volatility. Straddle.
+
+429
+00:33:13,300 --> 00:33:15,980
+And let me show you guys what this P and L should look like.
+
+430
+00:33:16,300 --> 00:33:21,330
+So this is the big moment. Okay. You guys can see. So,
+
+431
+00:33:25,080 --> 00:33:26,040
+so this.
+
+432
+00:33:51,980 --> 00:33:55,340
+We're actually a little bit higher here. Just to show you guys for this.
+
+433
+00:33:56,140 --> 00:34:01,340
+I'll show you guys what I have on. So this is what I have on. Okay. Now,
+
+434
+00:34:01,340 --> 00:34:09,570
+if volatility were to drop. Okay. To the 54 mark. Oh, you have too many.
+
+435
+00:34:11,460 --> 00:34:14,180
+On a 10 lot. Right. This would be worth a hundred.
+
+436
+00:34:14,500 --> 00:34:19,760
+The P and L would be $170,000. Okay. If this were to drop now.
+
+437
+00:34:21,980 --> 00:34:23,620
+You know, it's quite, it's quite, you know,
+
+438
+00:34:23,680 --> 00:34:27,690
+the straddle is going for 830 bucks. But eventually, you know,
+
+439
+00:34:27,970 --> 00:34:31,430
+we try to buy back for, let's say about 700. That'd be the fair value.
+
+440
+00:34:31,490 --> 00:34:35,370
+I've already priced it out. $700, $710. Fair value. Okay.
+
+441
+00:34:36,640 --> 00:34:39,980
+So on a one lot of these. Right. Which is actually not very margin intensive.
+
+442
+00:34:40,220 --> 00:34:45,880
+It is $30,000. Okay. Cause the credit is being used against the collateral.
+
+443
+00:34:46,800 --> 00:34:53,300
+It's 30,000. You would make 17 grand. Per one lot. Now.
+
+444
+00:34:53,780 --> 00:34:56,400
+This might take a while to, this might take a while to play out.
+
+445
+00:34:56,440 --> 00:34:59,310
+It might take a month. It might take two months. Okay.
+
+446
+00:34:59,490 --> 00:35:02,660
+Might take them tomorrow. I take a week. But.
+
+447
+00:35:05,420 --> 00:35:08,180
+Vols are extremely, extremely pricey. And I think that, you know,
+
+448
+00:35:08,200 --> 00:35:11,700
+this will go down. And conversely though, we always need to think about, well,
+
+449
+00:35:11,800 --> 00:35:16,390
+if we're wrong. Right. We're never wrong. I'm just joking. We're always wrong.
+
+450
+00:35:16,710 --> 00:35:18,910
+But, and what would happen if we are wrong?
+
+451
+00:35:19,170 --> 00:35:21,870
+Which I don't think we're always wrong. My apologies. When we are wrong.
+
+452
+00:35:22,070 --> 00:35:24,210
+If we are wrong. What does that look like? Right.
+
+453
+00:35:24,210 --> 00:35:28,500
+If we're not thinking about the downside, we're not a trader. Okay. So what,
+
+454
+00:35:28,620 --> 00:35:31,480
+if we're wrong, what would happen? And. We look at the data.
+
+455
+00:35:33,920 --> 00:35:36,760
+That I was showing you before the max, the highest point.
+
+456
+00:35:37,020 --> 00:35:44,810
+The Ivy one year has ever gone to. Is 81. Okay. 81. So.
+
+457
+00:35:45,350 --> 00:35:47,970
+That'd be about eight points. We would lose here.
+
+458
+00:36:00,290 --> 00:36:01,390
+Okay. So we would lose.
+
+459
+00:36:01,490 --> 00:36:06,380
+And let's say we stress it to a 20% move in the underlying. Okay.
+
+460
+00:36:06,400 --> 00:36:12,320
+So per one lot. You can lose between four and $10,000. You guys were thinking,
+
+461
+00:36:12,440 --> 00:36:15,720
+how the hell does a one lot cost that? Like. Make you lose that much.
+
+462
+00:36:16,280 --> 00:36:23,160
+This is the power. Or this is what happens. When you trade. Vega. Okay.
+
+463
+00:36:23,160 --> 00:36:28,180
+And when I mean Vega, I mean a two-year option. Like this is all Vega. Right.
+
+464
+00:36:28,400 --> 00:36:34,260
+This is how much volatility can actually cost you or, or have you gain. Right.
+
+465
+00:36:35,630 --> 00:36:36,510
+It's quite a bit.
+
+466
+00:36:38,580 --> 00:36:43,650
+So that is, so that's it, Sean. What do you think? I got nothing to say.
+
+467
+00:36:43,830 --> 00:36:47,390
+I think it's awesome. Yeah. Hell yeah. So anyways, long story short,
+
+468
+00:36:47,490 --> 00:36:53,240
+I'm short vol. For those reasons. I think we need to name PA Vega gang.
+
+469
+00:36:54,120 --> 00:37:00,560
+Vega gang. Vega gang. I like it, man. What do you guys think? Vega gang.
+
+470
+00:37:04,770 --> 00:37:09,850
+New generation of traders. Vega gang. I like it. We had a couple of questions.
+
+471
+00:37:11,030 --> 00:37:12,270
+Let's scroll up a bit here.
+
+472
+00:37:14,780 --> 00:37:21,340
+Where is it? I saw Red had a question here. What's up, Red? How goes it, man?
+
+473
+00:37:21,860 --> 00:37:26,870
+Red, where is it? Red, I've lost your question, man. Oh, here we go. Okay.
+
+474
+00:37:26,930 --> 00:37:30,610
+So back when you were talking about the level of implied vol on Tesla right now.
+
+475
+00:37:30,610 --> 00:37:36,760
+You said think or swim saying the IV percentile on Tesla is only 6.42.
+
+476
+00:37:36,760 --> 00:37:43,130
+And on bar chart, it's saying the IV rank is 7.6 and IV percentile is 18%. Yes.
+
+477
+00:37:44,560 --> 00:37:52,080
+Yes. So keep in mind, guys, there are many different options, right?
+
+478
+00:37:52,080 --> 00:37:55,440
+So if we take a look here, we take a look here.
+
+479
+00:37:57,330 --> 00:38:01,020
+Let me pull up the share screen.
+
+480
+00:38:10,400 --> 00:38:19,250
+Okay. Okay. So what those IV ranks look at is this, is the IV30, right?
+
+481
+00:38:19,350 --> 00:38:21,490
+It's very low. Look how low it is.
+
+482
+00:38:22,130 --> 00:38:24,550
+Look how low it is right now relative to the last six months.
+
+483
+00:38:24,810 --> 00:38:27,490
+It's at the bottom. It's at the very bottom.
+
+484
+00:38:30,680 --> 00:38:35,060
+But what we're looking at is the one-year option. And this is at the top.
+
+485
+00:38:35,940 --> 00:38:38,020
+And to make it even so you can do, for example,
+
+486
+00:38:38,820 --> 00:38:44,100
+I was talking to my buddy at Jefferies and he was saying that every two to three
+
+487
+00:38:44,100 --> 00:38:44,480
+weeks,
+
+488
+00:38:44,480 --> 00:38:51,680
+they see a huge number of calls coming in or they call upside vol coming in,
+
+489
+00:38:51,880 --> 00:38:54,880
+right? Buying Tesla upside vol longer dated. Okay.
+
+490
+00:38:55,500 --> 00:38:59,540
+And so when I was talking to him,
+
+491
+00:38:59,900 --> 00:39:03,280
+what he's ended up doing was a reverse calendar spread, right?
+
+492
+00:39:03,580 --> 00:39:10,760
+Where he's buying this cheap vol, right? And selling the expensive vol.
+
+493
+00:39:11,240 --> 00:39:15,240
+And what you get by doing that is you're trading the forward vol,
+
+494
+00:39:15,380 --> 00:39:19,600
+which is this green line right here. And take a look at how expensive this is.
+
+495
+00:39:20,340 --> 00:39:26,520
+This is at the top, right? So the way he structured this was, okay,
+
+496
+00:39:26,520 --> 00:39:31,480
+I'm going to buy some Aprils and I'm going to sell some Jan 2023s because he's hoping
+
+497
+00:39:31,480 --> 00:39:37,900
+for that reversion in the term structure, right? Or that he realizes, right,
+
+498
+00:39:37,980 --> 00:39:40,960
+he's saying that gamma is cheap and Vega is expensive.
+
+499
+00:39:41,910 --> 00:39:47,860
+So he's going to sell that Vega and he's going to buy that gamma. Okay. So,
+
+500
+00:39:47,860 --> 00:39:54,500
+yeah, that's, so Koa asked, can I sell the two year and buy the 30 day? Oh,
+
+501
+00:39:54,540 --> 00:39:59,760
+look at that Koa. Perfect. Perfect. Right. That's the forward one year. Right.
+
+502
+00:40:00,020 --> 00:40:01,320
+I wouldn't, I wouldn't buy the 30 day.
+
+503
+00:40:01,380 --> 00:40:04,160
+I look into April because the further you go back, right.
+
+504
+00:40:04,160 --> 00:40:11,140
+And the cheaper the vol, then the higher, the forward vol. So April, the April,
+
+505
+00:40:11,540 --> 00:40:16,940
+Jan 2023 is this line right here. And it's extremely, extremely expensive.
+
+506
+00:40:20,520 --> 00:40:24,020
+So, yeah, I feel like I talked too much for that Ivy rank one.
+
+507
+00:40:24,520 --> 00:40:29,150
+Moral of the story, Ivy rank is usually looked at the 30 day options,
+
+508
+00:40:29,390 --> 00:40:33,160
+which is very low right now. But in reality,
+
+509
+00:40:33,240 --> 00:40:35,160
+the longer data stuff is extremely expensive.
+
+510
+00:40:35,400 --> 00:40:36,900
+It's being overlooked in my opinion.
+
+511
+00:40:39,100 --> 00:40:42,890
+Blessings asking what's the worst case scenario here. Yeah.
+
+512
+00:40:42,910 --> 00:40:47,290
+So the worst case scenario is vols go up eight or nine points, right?
+
+513
+00:40:47,290 --> 00:40:50,930
+Obviously, you know, freak freak environment where vols go up,
+
+514
+00:40:50,970 --> 00:40:55,160
+let's say 10 points. But if they were to go up 10 points,
+
+515
+00:40:55,810 --> 00:40:58,950
+the stock would have to move huge in my opinion, right?
+
+516
+00:40:58,950 --> 00:41:03,390
+Like massive to push two-year vols up 10 Vegas. It would have to be huge.
+
+517
+00:41:03,390 --> 00:41:09,210
+So that's why if you buy those, let's say April's right. Those that gamma,
+
+518
+00:41:09,490 --> 00:41:13,890
+if you do get that huge move, well, you're going to get paid for it. Right.
+
+519
+00:41:14,110 --> 00:41:16,870
+You're going to lose on the, on the, on the gens,
+
+520
+00:41:17,090 --> 00:41:21,800
+but you're going to make a boatload on the April's. Right. So it's a relative,
+
+521
+00:41:22,000 --> 00:41:27,420
+it's a relative value trade. I did, you know, I'm more of a cowboy as, as,
+
+522
+00:41:27,620 --> 00:41:33,200
+as the guy from Jeffrey's was telling me. So I'm just outright short vols,
+
+523
+00:41:36,240 --> 00:41:39,680
+but I don't, I don't work at a firm like Jeffrey, so I don't really need to.
+
+524
+00:41:42,440 --> 00:41:44,640
+So if somebody wanted to take a long vol trade,
+
+525
+00:41:44,680 --> 00:41:51,440
+do you think that April vol is cheap? No. No. It's cheap relative to Jan, 2023.
+
+526
+00:41:51,780 --> 00:41:55,220
+Got it. It's not cheap in absolute terms. Cool.
+
+527
+00:41:57,990 --> 00:42:00,950
+We're going to, so Marcos is commenting,
+
+528
+00:42:01,690 --> 00:42:05,630
+saying maybe the market is expecting Tesla to have a very big down move.
+
+529
+00:42:08,430 --> 00:42:12,290
+Even the markets. It could. Right. But what we're seeing, so here's the thing,
+
+530
+00:42:12,450 --> 00:42:13,270
+Marcos, which is very weird.
+
+531
+00:42:13,430 --> 00:42:18,050
+And we believe that the back is coming from structured flow. Right.
+
+532
+00:42:19,190 --> 00:42:20,150
+So I think like this one,
+
+533
+00:42:20,230 --> 00:42:22,730
+if the market thought there was going to be a big down move, well,
+
+534
+00:42:22,750 --> 00:42:27,750
+then the near gated option should be expensive as well. But they're not right.
+
+535
+00:42:27,790 --> 00:42:28,810
+The market's in contango,
+
+536
+00:42:28,910 --> 00:42:32,490
+meaning that the market thinks vol is going to be extremely low.
+
+537
+00:42:34,720 --> 00:42:37,920
+It's just that it's so steep. Right. So instead of it,
+
+538
+00:42:37,940 --> 00:42:41,750
+let's say being like this Marcos, which is fair value, it's like this.
+
+539
+00:42:47,730 --> 00:42:51,190
+So yeah. Yeah. I don't think the marketing is going to have a big down move.
+
+540
+00:42:51,290 --> 00:42:54,800
+We would see something a little bit different. We would see more call skew.
+
+541
+00:42:55,040 --> 00:42:58,660
+Okay. Or sorry. A big down. I would see more put skew.
+
+542
+00:42:59,060 --> 00:43:01,160
+And we would see more volatility.
+
+543
+00:43:04,230 --> 00:43:05,470
+But the funny you say that though, Marcos,
+
+544
+00:43:05,570 --> 00:43:08,490
+because I was talking to a couple of people and they were saying that.
+
+545
+00:43:11,100 --> 00:43:15,860
+The Martin, I think the Tesla could have a huge sell-off. So. You know,
+
+546
+00:43:15,980 --> 00:43:18,280
+maybe the market is, maybe the market is. I don't know.
+
+547
+00:43:18,280 --> 00:43:23,360
+But at least some people are. I think it's going to be a big, big down. Tico.
+
+548
+00:43:23,460 --> 00:43:28,240
+What do you think? The only opinion that matters when it comes to Tesla. Yes.
+
+549
+00:43:30,450 --> 00:43:34,730
+$2,500. Okay. Got it. 25.
+
+550
+00:43:36,950 --> 00:43:43,940
+So any other questions there?
+
+551
+00:43:51,590 --> 00:43:56,120
+No, it looks good. Jared. Jared, are there any questions there? I saw,
+
+552
+00:43:56,260 --> 00:44:01,520
+I saw a couple of posts. Jared. Was it a question or how you commenting a bit?
+
+553
+00:44:02,080 --> 00:44:02,440
+Yeah.
+
+554
+00:44:09,160 --> 00:44:11,360
+Of course, dude. Of course.
+
+555
+00:44:13,470 --> 00:44:15,330
+I'm going to be coming back full swing, dude.
+
+556
+00:44:16,090 --> 00:44:20,150
+Let's get wrapping a couple of things up. Well, definitely be back.
+
+557
+00:44:20,590 --> 00:44:25,050
+Funny enough, actually Hutch. Maybe I won't be back, dude. I got, I got the,
+
+558
+00:44:25,050 --> 00:44:28,290
+I got the new computer back. And I don't have discord anywhere.
+
+559
+00:44:28,530 --> 00:44:29,830
+Cause I took it off my phone.
+
+560
+00:44:32,060 --> 00:44:34,320
+And so I don't know my, I don't know my password.
+
+561
+00:44:34,320 --> 00:44:35,360
+So I'm going to have to reset it.
+
+562
+00:44:35,660 --> 00:44:38,960
+I might have to actually come back in under a different handle. I don't know.
+
+563
+00:44:40,010 --> 00:44:46,010
+So we'll see. I could tell Jordan how to reset his password, but. You know,
+
+564
+00:44:46,070 --> 00:44:49,930
+I'm liking the efficiency right now, so I might leave it for a few more weeks.
+
+565
+00:44:51,570 --> 00:44:54,350
+Exactly. Yeah. He's getting a lot of stuff done, Jared. It's, it's good.
+
+566
+00:44:57,330 --> 00:45:03,370
+And when I come back is a broke PRNAV 3.0. Yeah. Broke PRNAV 3.0 diamond rank.
+
+567
+00:45:03,770 --> 00:45:07,840
+Yeah, exactly. No admin status, just diamond rank.
+
+568
+00:45:12,060 --> 00:45:13,460
+But yeah, Hutch, man, I'm still,
+
+569
+00:45:13,480 --> 00:45:15,560
+I'm still telling my friends about that Disney trade.

@@ -1,0 +1,475 @@
+1
+00:00:00,000 --> 00:00:02,640
+What's up everyone? So today I'm really excited to bring you this.
+
+2
+00:00:02,740 --> 00:00:07,450
+We're gonna be starting up in R and I think you guys are gonna be super excited
+
+3
+00:00:07,450 --> 00:00:07,790
+with this.
+
+4
+00:00:07,850 --> 00:00:11,830
+I've been so excited bringing you guys this it's probably a 30 part video with 5
+
+5
+00:00:11,830 --> 00:00:15,840
+to 10 minute videos in between and Every day we're gonna do a little bit of art
+
+6
+00:00:15,840 --> 00:00:22,360
+to get closer to our end goal of being able to back test to be able to scrape data
+
+7
+00:00:22,360 --> 00:00:29,360
+from the internet pull data wrangle data and make be able to create and Create profitable
+
+8
+00:00:29,360 --> 00:00:34,060
+trading strategies So with that said guys, let's get to it.
+
+9
+00:00:34,140 --> 00:00:39,180
+I am currently on a MacBook I'm gonna go over what it would look like if you were
+
+10
+00:00:39,180 --> 00:00:43,810
+on a Windows so first thing we're gonna do is we're gonna go to Google.
+
+11
+00:00:43,950 --> 00:00:51,560
+We're gonna type in download R so you're gonna have this thing right here if you're
+
+12
+00:00:51,560 --> 00:00:57,190
+a Windows user just click right here and Download this download this link right
+
+13
+00:00:57,190 --> 00:01:01,360
+here But for ours Mac users,
+
+14
+00:01:01,640 --> 00:01:13,440
+we'll go download R for Mac click on the first link and We are going to be downloading
+
+15
+00:01:13,440 --> 00:01:17,410
+this first package right here, so let's go ahead and click on it.
+
+16
+00:01:19,230 --> 00:01:25,640
+It's gonna download Excuse that it's gonna take about a couple minutes.
+
+17
+00:01:25,840 --> 00:01:30,980
+So I'm gonna skip this part now and and move forward If you guys are using Windows
+
+18
+00:01:30,980 --> 00:01:36,060
+just answer the standard Prompts that they send you as you're clicking through the
+
+19
+00:01:36,060 --> 00:01:39,240
+download function features Okay,
+
+20
+00:01:39,300 --> 00:01:41,640
+while this is loading we're gonna go download our studio.
+
+21
+00:01:41,820 --> 00:01:50,020
+So our studio is a place where you can code so remember R is just the The coding
+
+22
+00:01:50,020 --> 00:01:53,100
+language, but you want to have a nice HUD something.
+
+23
+00:01:53,240 --> 00:01:57,800
+It's called a GUI GUI something that you want to just be able to write code in like
+
+24
+00:01:57,800 --> 00:02:04,050
+a script like a file So that's gonna be called our studio So, let's go.
+
+25
+00:02:04,450 --> 00:02:07,510
+It's gonna be the first link. Oh sorry,
+
+26
+00:02:09,010 --> 00:02:14,100
+it's gonna be here download our studio click on that and Then we're gonna scroll
+
+27
+00:02:14,100 --> 00:02:18,940
+all the way down So Windows users are gonna be downloading this link right here
+
+28
+00:02:20,480 --> 00:02:28,370
+but for us We are going to be downloading this one right here secondly So let's
+
+29
+00:02:28,370 --> 00:02:32,690
+download that So now we have the two things running we have our and we have our
+
+30
+00:02:32,690 --> 00:02:37,110
+studio So before you actually open up the R studio,
+
+31
+00:02:37,430 --> 00:02:42,990
+let's make sure R is installed So it's gonna say just gonna say continue continue
+
+32
+00:02:44,250 --> 00:02:54,740
+Agree We'll install for all users And install Password,
+
+33
+00:02:55,260 --> 00:03:07,360
+okay type in the password for your Mac Okay,
+
+34
+00:03:07,440 --> 00:03:10,980
+we'll close and we're gonna move that to the trash. Okay.
+
+35
+00:03:11,000 --> 00:03:15,020
+Now we have R installed So this is what R looks like by itself,
+
+36
+00:03:15,160 --> 00:03:21,230
+so it's this thing right here bottom left So this is called the R programming language,
+
+37
+00:03:21,410 --> 00:03:25,650
+right? You can type in something let's say 4 plus 4 is 8 Well,
+
+38
+00:03:25,670 --> 00:03:28,670
+you see how ugly this like layout looks it doesn't look very clean doesn't look
+
+39
+00:03:28,670 --> 00:03:36,480
+very nice So what we want to do is we want to use R studio So let's go ahead and
+
+40
+00:03:36,480 --> 00:03:36,780
+finish.
+
+41
+00:03:36,960 --> 00:03:45,190
+So we click on the bottom left It'll start pop up And we'll just drag that into
+
+42
+00:03:45,190 --> 00:03:46,470
+applications oops,
+
+43
+00:03:49,420 --> 00:03:57,580
+and we will replace Because I already have R studio Downloaded but you guys might
+
+44
+00:03:57,580 --> 00:03:59,340
+not have this. Oh,
+
+45
+00:03:59,340 --> 00:04:08,760
+you guys won't have this All right So now I believe that is all so close this out
+
+46
+00:04:10,420 --> 00:04:17,940
+Now you should go to your applications And you will have something like this So
+
+47
+00:04:17,940 --> 00:04:31,820
+now guys we are officially ready to start our programming journey All right now
+
+48
+00:04:31,820 --> 00:04:34,700
+as quants Okay, so I already have a whole bunch of day.
+
+49
+00:04:34,780 --> 00:04:38,340
+It looks like Reinstalling it. It just opened up my previous sessions.
+
+50
+00:04:38,680 --> 00:04:42,660
+You guys will have a blank page here So you guys will have something that looks
+
+51
+00:04:42,660 --> 00:04:48,160
+exactly like this Since we're quants, we have to go dark screen Initially,
+
+52
+00:04:48,220 --> 00:04:49,680
+it'll be a white screen,
+
+53
+00:04:49,760 --> 00:04:55,760
+but you guys need to change that we are quants here so in In the Mac,
+
+54
+00:04:55,900 --> 00:04:59,340
+it's called view. I can't remember what it is in Microsoft,
+
+55
+00:04:59,580 --> 00:05:06,450
+but It's what it's one of the tabs that at the top here So you want to go to panes
+
+56
+00:05:06,450 --> 00:05:09,290
+and you want to go to pane layout?
+
+57
+00:05:10,870 --> 00:05:19,050
+We're gonna go to appearance We're gonna change our studio theme to sky It's gonna
+
+58
+00:05:19,050 --> 00:05:20,170
+change the background here,
+
+59
+00:05:20,290 --> 00:05:24,270
+but we want to change this actually to dark So what we're gonna do you can scroll
+
+60
+00:05:24,270 --> 00:05:27,590
+through the list here. This is the one guys tomorrow night blue.
+
+61
+00:05:28,010 --> 00:05:35,540
+This is the quant Background so we're gonna hit apply and then okay,
+
+62
+00:05:35,700 --> 00:05:37,440
+and here we are now.
+
+63
+00:05:37,540 --> 00:05:44,690
+We're ready So this is our studio and we're just gonna do Our first our first two
+
+64
+00:05:44,690 --> 00:05:48,930
+lines of code To get started, but you know,
+
+65
+00:05:49,030 --> 00:05:50,490
+this is gonna be a long process guys You know,
+
+66
+00:05:50,570 --> 00:05:53,710
+we're gonna chip away at it every single day and eventually we're gonna get there
+
+67
+00:05:54,680 --> 00:05:58,800
+so Are at the simplest form as a calculator, right?
+
+68
+00:05:58,880 --> 00:06:04,420
+So you can do something like four plus four and then you hit enter so on the Mac,
+
+69
+00:06:04,660 --> 00:06:10,740
+it's for me its command enter you hold down command you press enter and on a windows,
+
+70
+00:06:10,980 --> 00:06:17,340
+it's It's one of the keys either to shift enter or I think control enter it's one
+
+71
+00:06:17,340 --> 00:06:22,220
+of those Now run down here so now we have we output eight So this right here guys
+
+72
+00:06:22,220 --> 00:06:24,500
+at the bottom is called a console.
+
+73
+00:06:24,780 --> 00:06:30,560
+So this you could say four plus four eight But up here,
+
+74
+00:06:30,700 --> 00:06:34,460
+so whatever you type in here and press enter it'll automatically run, right?
+
+75
+00:06:35,080 --> 00:06:41,400
+but up here we have our script so you can write stuff here like Hello,
+
+76
+00:06:43,800 --> 00:06:45,940
+and nothing will happen right you can go to the next line.
+
+77
+00:06:46,060 --> 00:06:52,060
+Nothing will happen This is just it's like a Microsoft Word script But once you
+
+78
+00:06:52,060 --> 00:06:56,500
+press enter or command enter it'll run that script and you can also run the command
+
+79
+00:06:56,500 --> 00:07:04,320
+like this so let's say we have four plus four and We have eight plus eight We can
+
+80
+00:07:04,320 --> 00:07:08,320
+highlight these Press run and it'll run both.
+
+81
+00:07:08,360 --> 00:07:14,410
+It'll run both of them or we can just go command enter command enter so at its simplest
+
+82
+00:07:14,410 --> 00:07:19,740
+form R is a Calculator All right,
+
+83
+00:07:19,800 --> 00:07:27,880
+we can go 8 times 5 divided by 2 and Outcomes number 20. So this is our script.
+
+84
+00:07:28,040 --> 00:07:31,630
+This is our console Over here. We have our environment.
+
+85
+00:07:32,130 --> 00:07:38,970
+So in a programming language let's say we Okay,
+
+86
+00:07:39,030 --> 00:07:40,390
+maybe we'll get to this in a second.
+
+87
+00:07:40,390 --> 00:07:46,150
+Let's start off with our first function our first script Which is going to be to
+
+88
+00:07:46,150 --> 00:07:54,490
+print hello world and Command enter boom. We just have printed.
+
+89
+00:07:54,690 --> 00:08:01,610
+Hello world Now this print right here is called a function right,
+
+90
+00:08:01,710 --> 00:08:07,150
+so if you go question mark print, which just says Basically,
+
+91
+00:08:07,150 --> 00:08:12,290
+tell me about print and press command enter It'll tell us a little bit about the
+
+92
+00:08:12,290 --> 00:08:14,260
+function, right?
+
+93
+00:08:14,300 --> 00:08:25,480
+So you put in an object into the function which we said hello world and Out will
+
+94
+00:08:25,480 --> 00:08:34,200
+come Right, you can see examples Out will come Whatever you put in here, right?
+
+95
+00:08:34,240 --> 00:08:35,480
+It'll print it to the console.
+
+96
+00:08:37,140 --> 00:08:44,270
+So if we said print 10 It'll print 10 now Similarly,
+
+97
+00:08:44,270 --> 00:08:46,410
+you can just run 10 and I'll print 10.
+
+98
+00:08:46,930 --> 00:08:51,550
+So this is the most basic command now Let's say we want to save this variable.
+
+99
+00:08:51,550 --> 00:08:53,580
+So we're gonna store it. Okay,
+
+100
+00:08:53,600 --> 00:09:02,340
+so this is where our environment is gonna come into play let's say we do a or my
+
+101
+00:09:03,760 --> 00:09:19,000
+first line equals to print Hello world when we run my
+
+102
+00:09:20,310 --> 00:09:26,770
+first line It comes out to hello world Right,
+
+103
+00:09:26,890 --> 00:09:29,110
+and we actually don't even need to say print. Hello world.
+
+104
+00:09:29,190 --> 00:09:33,150
+We can just take that out Hello world Type it again.
+
+105
+00:09:33,230 --> 00:09:38,170
+And now when we take that out So if you notice it doesn't print it when we did it
+
+106
+00:09:38,200 --> 00:09:43,650
+when we said print My first line print hello world out came hello world,
+
+107
+00:09:43,730 --> 00:09:45,030
+but in this case,
+
+108
+00:09:45,090 --> 00:09:53,440
+we're just saying My first line equals hello world now we can say print my first
+
+109
+00:09:54,000 --> 00:10:01,940
+line Hello world, just so you guys can see in our global environment. Now.
+
+110
+00:10:02,060 --> 00:10:07,890
+We have this thing called My first line and what it's what its value is is hello
+
+111
+00:10:07,890 --> 00:10:08,270
+world,
+
+112
+00:10:08,350 --> 00:10:15,000
+right if we have let's say X equals 10 Now we have a new variable called X and value
+
+113
+00:10:15,000 --> 00:10:21,840
+is 10 And if you guys want to save your script you go you hit this button here save
+
+114
+00:10:22,940 --> 00:10:27,780
+You save it as my first Saving whatever document you want.
+
+115
+00:10:27,860 --> 00:10:29,020
+Let's say we save it in documents.
+
+116
+00:10:29,260 --> 00:10:36,900
+We hit save and now we can reference this by clicking on this little folder finder
+
+117
+00:10:38,790 --> 00:10:45,970
+Let's go documents Date modified my first are and there it is.
+
+118
+00:10:46,430 --> 00:10:50,810
+So now we can just run the code once again So I hope that was helpful guys in our
+
+119
+00:10:50,810 --> 00:10:53,210
+first session on our and our studio and getting started.

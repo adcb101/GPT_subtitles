@@ -1,0 +1,2079 @@
+1
+00:00:00,430 --> 00:00:05,760
+Okay. Okay, guys. So in this, in today's live,
+
+2
+00:00:05,780 --> 00:00:07,520
+we're gonna be talking about risk-neutral densities. Basically,
+
+3
+00:00:07,700 --> 00:00:10,280
+what does the market think is gonna happen in the future?
+
+4
+00:00:10,880 --> 00:00:14,960
+What is the market telling us about the future? Right? Remember,
+
+5
+00:00:15,980 --> 00:00:19,000
+a trade only happens when we disagree with the market.
+
+6
+00:00:19,560 --> 00:00:23,220
+If we agree with the market, there's no trade because it's already priced in,
+
+7
+00:00:23,280 --> 00:00:26,060
+right? It's like this. If we think Apple is gonna go up,
+
+8
+00:00:26,420 --> 00:00:29,310
+and everyone thinks Apple is gonna go up, well,
+
+9
+00:00:29,410 --> 00:00:30,990
+it's probably already priced in, right?
+
+10
+00:00:31,470 --> 00:00:34,010
+So Apple's already fairly pricing the future return.
+
+11
+00:00:34,500 --> 00:00:39,000
+If I'm selling this phone for $100, and you think it's only worth $100,
+
+12
+00:00:39,380 --> 00:00:43,680
+and you want to resell it, what's the point in buying it, right?
+
+13
+00:00:44,000 --> 00:00:46,040
+Where's the money to be made? You're gonna buy it from me for $100,
+
+14
+00:00:46,120 --> 00:00:48,460
+and go sell it for $100? There's no money there.
+
+15
+00:00:49,100 --> 00:00:50,980
+Trade happens when I'm selling this phone for $100,
+
+16
+00:00:51,020 --> 00:00:56,120
+and you think it's worth $200, and you, well, this is a Samsung S9,
+
+17
+00:00:56,200 --> 00:00:58,760
+so it's only worth $50. So buying it would actually be a mistake,
+
+18
+00:00:58,760 --> 00:01:03,440
+no matter what I was charging you for it. But you get the point, right?
+
+19
+00:01:03,860 --> 00:01:09,230
+You need to disagree on the value of something in order for there to be a trade.
+
+20
+00:01:09,270 --> 00:01:11,530
+And when it comes to the option space, the cool thing about the options is,
+
+21
+00:01:11,650 --> 00:01:14,430
+the options are future forecasting tools, right?
+
+22
+00:01:14,550 --> 00:01:19,920
+More so even than the stock price. So we can look at the option chain.
+
+23
+00:01:20,020 --> 00:01:22,000
+We can extract some information out of it and be like,
+
+24
+00:01:22,120 --> 00:01:24,640
+what is the market telling us that these options,
+
+25
+00:01:25,100 --> 00:01:29,160
+and what are these options telling us that the market is saying is going to happen
+
+26
+00:01:29,160 --> 00:01:32,660
+in the future, right? Remember, depending on who's buying what,
+
+27
+00:01:32,740 --> 00:01:35,800
+what people are willing to pay for different things across the option chain,
+
+28
+00:01:35,800 --> 00:01:36,900
+and through time,
+
+29
+00:01:36,900 --> 00:01:42,400
+we're able to extract or create a prediction of what the market is saying is gonna
+
+30
+00:01:42,400 --> 00:01:45,560
+happen in the future. And then we can compare that to what we think,
+
+31
+00:01:46,300 --> 00:01:51,710
+and maybe find a trade. And then on top of that, when we are trading, remember,
+
+32
+00:01:51,790 --> 00:01:54,780
+guys, we're never trading with certainty, okay?
+
+33
+00:01:54,800 --> 00:01:57,440
+That's the most important thing. You know, when someone says,
+
+34
+00:01:57,460 --> 00:02:02,840
+buy this because it's going up tomorrow, that's wrong. They have no idea,
+
+35
+00:02:02,900 --> 00:02:06,420
+right? You are trading a probability-based game. It's like this.
+
+36
+00:02:07,040 --> 00:02:10,660
+You think there's a 60% chance that the stock goes up tomorrow.
+
+37
+00:02:11,240 --> 00:02:14,080
+Or let's say you're really, like, let's say you're a Forex trader,
+
+38
+00:02:14,540 --> 00:02:17,520
+and you think there's a 95% chance that the stock goes up tomorrow,
+
+39
+00:02:17,820 --> 00:02:22,620
+or that the Forex pair goes up tomorrow. Now, you need to think, okay,
+
+40
+00:02:22,620 --> 00:02:24,480
+what does the market think it's gonna go up tomorrow?
+
+41
+00:02:24,480 --> 00:02:27,760
+Maybe the market thinks there's only a 50% chance that it goes up tomorrow.
+
+42
+00:02:28,380 --> 00:02:31,000
+And so in that case, the asset is gonna be cheap,
+
+43
+00:02:31,060 --> 00:02:35,360
+and you can buy the pair and make money in the long run. Now, 5% of the time,
+
+44
+00:02:36,020 --> 00:02:39,120
+you're gonna lose money. That doesn't mean making a bad trade.
+
+45
+00:02:39,360 --> 00:02:42,000
+And that's assuming you have a good forecast, right? Remember,
+
+46
+00:02:42,340 --> 00:02:43,460
+Sean always says this.
+
+47
+00:02:44,530 --> 00:02:48,270
+A good trade or a winning trade is not always a good trade,
+
+48
+00:02:48,510 --> 00:02:50,350
+and a losing trade is not always a bad trade.
+
+49
+00:02:50,590 --> 00:02:51,970
+You're playing a probability-based game.
+
+50
+00:02:52,170 --> 00:02:55,250
+If you think there's a 75% chance the stock goes up, and it goes down,
+
+51
+00:02:55,410 --> 00:02:57,890
+you got unlucky. There's nothing wrong with that.
+
+52
+00:02:58,170 --> 00:03:01,530
+It doesn't mean the trade was bad. Right. Because if it came up again,
+
+53
+00:03:01,590 --> 00:03:05,230
+you should take it again. And doing that every time it comes up,
+
+54
+00:03:05,230 --> 00:03:07,510
+in the long run, you make money, right?
+
+55
+00:03:07,830 --> 00:03:13,530
+It's like looking at a downtrend in stocks, like in the S&P, and being like,
+
+56
+00:03:13,710 --> 00:03:17,290
+buying the S&P doesn't make money. Well, no. We know how much it makes.
+
+57
+00:03:17,330 --> 00:03:20,530
+It makes 8%, right? But you will go through these downswings.
+
+58
+00:03:21,190 --> 00:03:24,250
+If it only went up until the right, how would it make a lot more than 8%?
+
+59
+00:03:25,730 --> 00:03:27,530
+Renato, you like the hair. Thanks, man. Appreciate it.
+
+60
+00:03:27,550 --> 00:03:29,410
+And we're going to be talking about Sean. Sean got one, too.
+
+61
+00:03:29,490 --> 00:03:34,910
+We got a couple of nice, fresh cuts. Okay. So let's jump into it. Okay.
+
+62
+00:03:34,930 --> 00:03:37,250
+What we're going to do, we're going to do quite a bit here, guys.
+
+63
+00:03:39,270 --> 00:03:41,650
+I want you guys to give me— I'm going to share my screen.
+
+64
+00:03:41,970 --> 00:03:45,050
+I want you guys to tell me, first guy to say it,
+
+65
+00:03:45,230 --> 00:03:47,890
+a stock that you like that's liquid. Okay?
+
+66
+00:03:47,950 --> 00:03:49,010
+We're going to start with a liquid stock.
+
+67
+00:03:49,390 --> 00:03:52,550
+Give me a stock that you like that's liquid. All right. Apple. Apple.
+
+68
+00:03:53,050 --> 00:03:58,990
+Apple is first. Oh, we don't— Okay. We'll do Apple and MA, Marcos. Okay.
+
+69
+00:03:58,990 --> 00:04:02,940
+So— Oh. Okay. Here we go.
+
+70
+00:04:06,520 --> 00:04:11,450
+So let's— So I wrote some code here for you guys. So what we're going to do,
+
+71
+00:04:11,530 --> 00:04:13,570
+and I'm going to go step-by-step to show you guys, okay?
+
+72
+00:04:13,710 --> 00:04:14,790
+So don't worry about the code.
+
+73
+00:04:15,210 --> 00:04:17,710
+The code is just a tool to help us collect the data. Okay?
+
+74
+00:04:21,400 --> 00:04:27,440
+So what we're going to do is I pulled the option data, okay, for Apple.
+
+75
+00:04:27,440 --> 00:04:31,920
+So let's take a look. Okay. So here's Apple. Here's the trade date,
+
+76
+00:04:31,980 --> 00:04:37,100
+which is today. Here's the expiration date. So this is, you know, October 2nd.
+
+77
+00:04:37,180 --> 00:04:40,200
+This is October 9 options, October 16. We have the strike.
+
+78
+00:04:40,520 --> 00:04:44,020
+We have the call volume, open interest. We have the implied volatilities.
+
+79
+00:04:44,300 --> 00:04:46,720
+We have the option prices, everything. Okay?
+
+80
+00:04:47,340 --> 00:04:51,940
+So now what we're going to do is these options are forward-looking, right?
+
+81
+00:04:51,960 --> 00:04:52,980
+When you buy an option,
+
+82
+00:04:52,980 --> 00:04:57,360
+that person who's selling it to you has some view of the future.
+
+83
+00:04:57,660 --> 00:05:01,240
+Let's say it's a 30-day option. They have some view of the future.
+
+84
+00:05:03,360 --> 00:05:08,160
+So what we can do is we can actually take this option data,
+
+85
+00:05:08,580 --> 00:05:10,440
+take the implied volatility data,
+
+86
+00:05:11,700 --> 00:05:15,140
+and graph out what the market thinks is going to happen in the future.
+
+87
+00:05:15,690 --> 00:05:20,290
+What is the probability that the market thinks the stock is going to follow?
+
+88
+00:05:23,840 --> 00:05:27,300
+And guys, we are always trading this. Okay?
+
+89
+00:05:27,420 --> 00:05:30,200
+So even though if you don't know it, we're going to talk about it right now.
+
+90
+00:05:30,360 --> 00:05:31,300
+We're always trading it.
+
+91
+00:05:31,360 --> 00:05:34,000
+So let's look at the – which expiration do you guys want to look at?
+
+92
+00:05:34,420 --> 00:05:37,420
+Give me the expiration. I have the October 16 here,
+
+93
+00:05:37,480 --> 00:05:39,020
+but give me the expiration you guys want to look at.
+
+94
+00:05:43,710 --> 00:05:47,430
+Where's the chat? Chat, chat, chat, chat. There it is. Got it.
+
+95
+00:05:48,720 --> 00:05:55,280
+What do you guys want to look at? What's the expo? October 16, November 2nd.
+
+96
+00:05:55,280 --> 00:05:59,720
+What do you guys want to look at? Okay. Renato is saying October 16. Okay.
+
+97
+00:06:00,940 --> 00:06:12,290
+So what I did was I just took all the options for Apple from October 16. Okay?
+
+98
+00:06:12,390 --> 00:06:17,830
+Now, I created this model. Okay? That basically – it's called a dual gamma.
+
+99
+00:06:17,970 --> 00:06:22,330
+It basically tries to price out the – it takes the option data,
+
+100
+00:06:22,410 --> 00:06:24,910
+the implied volatility data, and turns it into a probability.
+
+101
+00:06:25,880 --> 00:06:30,080
+Probability density. So let's graph it out.
+
+102
+00:06:36,890 --> 00:06:44,780
+Okay. So here we have all the strikes. Okay? We have all the strikes here.
+
+103
+00:06:45,760 --> 00:06:52,260
+And here is what the market thinks is the probability of Apple going to those strikes.
+
+104
+00:06:53,080 --> 00:06:57,440
+Okay? So on the y-axis, we have the probability. On the x-axis,
+
+105
+00:06:57,920 --> 00:07:02,740
+we have the strikes. Okay? So here's an example.
+
+106
+00:07:02,740 --> 00:07:13,510
+The probability that Apple goes to $50 in two weeks is basically zero.
+
+107
+00:07:14,380 --> 00:07:17,160
+Make this a little bigger. Okay?
+
+108
+00:07:17,180 --> 00:07:19,640
+The probability that Apple goes to – and so each dot here, guys,
+
+109
+00:07:19,680 --> 00:07:23,140
+is an option contract. Each single dot is an option contract.
+
+110
+00:07:23,460 --> 00:07:25,940
+So the probability that Apple goes to 50 is almost zero.
+
+111
+00:07:26,920 --> 00:07:29,800
+Did you explain the y-axis? Yeah. It's the probability. Okay.
+
+112
+00:07:29,800 --> 00:07:32,020
+So this is what the market thinks is going in the future.
+
+113
+00:07:32,020 --> 00:07:37,370
+So if I actually graph out Apple's current price, okay?
+
+114
+00:07:38,170 --> 00:07:41,610
+So this is where Apple's current price is. So we can look at this,
+
+115
+00:07:41,710 --> 00:07:46,720
+and it really looks like the market is saying it's normally distributed.
+
+116
+00:07:46,840 --> 00:07:49,460
+It's random. It's going to be random going forward. They don't know.
+
+117
+00:07:49,980 --> 00:07:52,500
+They don't know if it's likely to go up, if it's likely to go down,
+
+118
+00:07:52,560 --> 00:07:55,120
+where the volatility is going to be. They're not too sure.
+
+119
+00:07:57,060 --> 00:08:03,350
+And it's slightly flatter to the upside. Ever so slightly. Over here? Yeah.
+
+120
+00:08:03,870 --> 00:08:07,570
+What do you mean flatter? Like it stays higher for longer. Yeah, yeah. So,
+
+121
+00:08:07,690 --> 00:08:08,930
+okay. So that's actually a really good point.
+
+122
+00:08:09,010 --> 00:08:10,730
+So this one doesn't really show it that well.
+
+123
+00:08:10,790 --> 00:08:11,970
+We're going to look at some other examples.
+
+124
+00:08:13,380 --> 00:08:18,640
+But we can see that there's actually a higher chance that the stock rallies.
+
+125
+00:08:19,220 --> 00:08:23,780
+Very slightly. Okay, very slightly that the stock rallies a lot, right?
+
+126
+00:08:23,820 --> 00:08:29,220
+So it's trading at 113. This is like 130. Okay, so there's a little bit of...
+
+127
+00:08:29,220 --> 00:08:31,420
+This is basically a call skew. And we're going to look into this.
+
+128
+00:08:31,420 --> 00:08:35,980
+They're implying like an 8% chance of it going to 130. And like, you know,
+
+129
+00:08:36,040 --> 00:08:39,260
+like a 6% chance of it going to 70.
+
+130
+00:08:41,700 --> 00:08:46,320
+So let's take a look at something like...
+
+131
+00:08:47,180 --> 00:08:52,280
+Let's take a look at something that has a lot of risk. Let's take a look at...
+
+132
+00:08:52,920 --> 00:08:55,580
+Here, you know what? Let's go to the terminal for a second.
+
+133
+00:09:12,850 --> 00:09:14,830
+It's so funny how you still use my login for the terminal.
+
+134
+00:09:17,570 --> 00:09:21,770
+Okay, so let's look at something that has a lot of skew. Okay,
+
+135
+00:09:21,950 --> 00:09:26,580
+so a lot of call skew. Sorry, a lot of call skew. Okay,
+
+136
+00:09:26,940 --> 00:09:28,960
+let's get this thing pretty liquid.
+
+137
+00:09:31,470 --> 00:09:36,830
+And we'll get price above 40. Okay, so this thing, Datadog.
+
+138
+00:09:37,150 --> 00:09:40,990
+No idea what that is. Kyle was chatting to me about this. Okay, so this thing,
+
+139
+00:09:41,290 --> 00:09:43,090
+if we look here, if we look at Datadog,
+
+140
+00:09:45,730 --> 00:09:50,700
+okay? If we look at Datadog, there's call skew. You guys see that, right?
+
+141
+00:09:51,340 --> 00:09:54,520
+There's call skew here on Datadog. So let's take a look at it.
+
+142
+00:10:21,660 --> 00:10:23,940
+So we're going to take a look at Datadog here.
+
+143
+00:10:38,880 --> 00:10:46,460
+Should be good. All you change is the ticker, right?
+
+144
+00:10:50,340 --> 00:10:56,260
+Okay, here we go. Check this out, guys. Okay, so if I plot the...
+
+145
+00:10:58,660 --> 00:11:02,480
+Okay, so you guys can see here that there's actually,
+
+146
+00:11:02,740 --> 00:11:06,800
+there's a higher chance of a huge up move. You can see how fat,
+
+147
+00:11:06,940 --> 00:11:08,860
+like there's not a lot of options for this one,
+
+148
+00:11:09,040 --> 00:11:12,730
+but you can slightly see how fat this is over here. Okay,
+
+149
+00:11:13,030 --> 00:11:20,020
+and then you can also see that these options right here at around $85 are a bit
+
+150
+00:11:20,020 --> 00:11:25,700
+overpriced, right? This line should follow down like this and come in,
+
+151
+00:11:25,720 --> 00:11:28,640
+but there's a little bit of clustering here. So these 85, 83,
+
+152
+00:11:28,780 --> 00:11:34,320
+82 options over here, these are slightly overpriced, right? Relative to,
+
+153
+00:11:34,440 --> 00:11:37,140
+let's say, this one right here. Okay,
+
+154
+00:11:37,140 --> 00:11:41,820
+so a market maker might come in and he would sell these and buy these options.
+
+155
+00:11:41,820 --> 00:11:46,760
+And buy around it, sell the overpriced individual contract.
+
+156
+00:11:47,080 --> 00:11:48,200
+But as a positional trader,
+
+157
+00:11:48,360 --> 00:11:52,940
+we're more interested in where is the overpriced option in general?
+
+158
+00:11:53,140 --> 00:11:54,620
+So what else can we do here? Well,
+
+159
+00:11:54,760 --> 00:12:01,900
+what we can do is we can actually graph the historical returns of Datadog.
+
+160
+00:12:03,090 --> 00:12:07,350
+Okay, we can graph the historical returns of Datadog. Now,
+
+161
+00:12:07,390 --> 00:12:08,170
+let's take a look here.
+
+162
+00:12:08,920 --> 00:12:14,320
+What do we notice about the actual realized distribution? This is Datadog.
+
+163
+00:12:14,580 --> 00:12:19,680
+What we realize is there's actually a fatter left tail. Okay,
+
+164
+00:12:19,720 --> 00:12:23,200
+meaning that the risk is usually to the downside.
+
+165
+00:12:23,760 --> 00:12:26,400
+The down moves are usually more frequent.
+
+166
+00:12:26,560 --> 00:12:33,020
+The big down moves are usually more frequent, okay, than the big up moves.
+
+167
+00:12:33,630 --> 00:12:37,910
+Okay, let me show you guys. Let me plot a line here. Let me plot a graph here.
+
+168
+00:12:42,020 --> 00:12:50,100
+So what I'm going to do is I'm going to put a line at negative 0.04. Okay,
+
+169
+00:12:50,100 --> 00:12:55,820
+and a line at 0.04. So 4% up versus 4% down.
+
+170
+00:12:57,940 --> 00:13:00,150
+Okay, and what we actually see here, guys,
+
+171
+00:13:00,830 --> 00:13:04,430
+is actually we're going to go not even that high up.
+
+172
+00:13:04,510 --> 00:13:05,090
+We're going to go right here.
+
+173
+00:13:08,730 --> 00:13:13,570
+Okay, so what we notice here, guys, is remember, y-axis is the frequency. Okay,
+
+174
+00:13:14,030 --> 00:13:19,190
+so there are usually larger down moves, right? You can see right here.
+
+175
+00:13:19,680 --> 00:13:23,700
+There are usually larger down moves than there are large up moves.
+
+176
+00:13:24,300 --> 00:13:25,540
+So what does this mean?
+
+177
+00:13:26,100 --> 00:13:31,570
+This means that there should be put skew rather than call skew.
+
+178
+00:13:31,680 --> 00:13:33,420
+But when we look at the data,
+
+179
+00:13:34,080 --> 00:13:37,200
+when we look at what the options market is implying, okay,
+
+180
+00:13:39,870 --> 00:13:44,230
+we can see that there's actually call skew, right?
+
+181
+00:13:44,230 --> 00:13:47,670
+The market's thinking that there's a higher chance the stock blows to the upside.
+
+182
+00:13:48,030 --> 00:13:52,010
+But when we look at historical realized distributions, we say, well,
+
+183
+00:13:52,090 --> 00:13:54,290
+guess what? No, it doesn't. Now,
+
+184
+00:13:54,370 --> 00:13:57,230
+this doesn't mean that there's not some fundamental reason that's happening right
+
+185
+00:13:57,230 --> 00:14:00,570
+now. For example, when Walmart was getting bid up for TikTok,
+
+186
+00:14:01,830 --> 00:14:05,290
+we should have a little bit of volatility to the upside, right?
+
+187
+00:14:05,590 --> 00:14:10,480
+But sometimes the market gets so unreasonable. Okay,
+
+188
+00:14:10,500 --> 00:14:12,940
+we're going to look at one more, SPY.
+
+189
+00:14:12,940 --> 00:14:18,000
+And then we're going to look at how you can price this without graphing this risk
+
+190
+00:14:18,000 --> 00:14:18,620
+neutral density.
+
+191
+00:14:30,480 --> 00:14:36,200
+Look at this, guys, okay? We have a fat tail. We have a very, very fat tail.
+
+192
+00:14:36,780 --> 00:14:42,030
+See that? Let me put a line right here for you guys to see it. So AB line,
+
+193
+00:14:42,170 --> 00:14:47,660
+let's do... So spot price right now, I believe.
+
+194
+00:14:49,880 --> 00:14:52,480
+I believe the current spot price is...
+
+195
+00:14:52,480 --> 00:15:00,170
+So S&P is currently trading at or was currently when this data was pulled is $334.
+
+196
+00:15:00,830 --> 00:15:12,780
+So if we go, for example, let's say we're going to go 10% down. So actually,
+
+197
+00:15:15,480 --> 00:15:20,100
+we're not going to go that far down. We're going to go, let's say, 5%, 4% down,
+
+198
+00:15:22,360 --> 00:15:25,950
+okay? And we're going to go 4% up.
+
+199
+00:15:34,060 --> 00:15:34,540
+Okay,
+
+200
+00:15:37,100 --> 00:15:38,760
+let's actually go a little bit more.
+
+201
+00:15:47,900 --> 00:15:52,640
+Here we go, boom. Okay, look at this, guys, okay?
+
+202
+00:15:54,610 --> 00:15:59,350
+So you guys can see right here. So here is a 8% move up.
+
+203
+00:16:00,250 --> 00:16:04,510
+The market's saying that there's an 8% chance of this happening over the next two
+
+204
+00:16:04,510 --> 00:16:08,050
+weeks, 8% chance, okay?
+
+205
+00:16:08,150 --> 00:16:15,970
+But an 8% down move actually has more of a 15% chance happening, okay?
+
+206
+00:16:16,110 --> 00:16:18,330
+That's what the options market's implying. It's saying, well,
+
+207
+00:16:18,450 --> 00:16:22,870
+there's actually a bigger chance that a large move down happens.
+
+208
+00:16:23,350 --> 00:16:26,670
+And there's a smaller chance that a large up move happens.
+
+209
+00:16:29,580 --> 00:16:33,120
+Steven, this is implied,
+
+210
+00:16:35,200 --> 00:16:39,690
+okay? And then what we can do is we can also graph it. Like,
+
+211
+00:16:39,730 --> 00:16:41,770
+does this make sense? Well, let's take a look,
+
+212
+00:16:48,680 --> 00:16:53,430
+okay? Well, absolutely, this makes sense. Absolutely, right?
+
+213
+00:16:53,730 --> 00:17:00,680
+You see some right around here. So if I did, let's say, we're going to say,
+
+214
+00:17:00,760 --> 00:17:03,540
+let's say, a 3% down move, 3% up move. Okay, let's do this.
+
+215
+00:17:05,800 --> 00:17:09,460
+Actually, let's do a little less. So this is on the daily timeframe, guys.
+
+216
+00:17:10,560 --> 00:17:15,470
+These are the daily terms, okay? There is,
+
+217
+00:17:17,250 --> 00:17:23,310
+it's more likely that we have a down move than we do have an up move or large up
+
+218
+00:17:23,310 --> 00:17:33,610
+move, okay? Not a, it's not a small up move. It's a large up move, okay,
+
+219
+00:17:33,610 --> 00:17:36,750
+versus a large down move. The chances are a lot higher. Now,
+
+220
+00:17:37,010 --> 00:17:38,410
+what we notice though,
+
+221
+00:17:38,490 --> 00:17:42,410
+what we're seeing in the implied versus the realized is that the difference was
+
+222
+00:17:42,410 --> 00:17:44,560
+huge, right?
+
+223
+00:17:44,640 --> 00:17:50,140
+And that's why they say selling out of the money puts is a long-term profitable
+
+224
+00:17:50,140 --> 00:17:55,100
+strategy because it usually implies more than what actually happens, right?
+
+225
+00:17:55,100 --> 00:18:00,180
+The implied skew is usually overpriced, right?
+
+226
+00:18:00,200 --> 00:18:01,340
+There's a lot of research on this.
+
+227
+00:18:02,320 --> 00:18:06,820
+And this is where you guys see it in firsthand, okay?
+
+228
+00:18:09,280 --> 00:18:13,800
+So how can, without having the risk-neutral densities in front of us, okay,
+
+229
+00:18:13,920 --> 00:18:18,880
+how can we make a decision? How can we say, well, what's the market implying?
+
+230
+00:18:19,440 --> 00:18:22,040
+Well, it's very simple. And we're going to go thinkorswim,
+
+231
+00:18:22,120 --> 00:18:23,540
+and we're going to price it out right now.
+
+232
+00:18:24,000 --> 00:18:28,820
+So you guys can see what is the market implying an up move versus a down move.
+
+233
+00:18:35,430 --> 00:18:37,970
+And just to be clear, guys, whenever you make a trade,
+
+234
+00:18:38,990 --> 00:18:44,840
+you always have a view on the distribution of the future, right? As soon as,
+
+235
+00:18:45,000 --> 00:18:47,200
+if you don't know for certainty, think about this, guys.
+
+236
+00:18:47,640 --> 00:18:52,990
+If you don't know for certainty, you have a distribution, you have odds,
+
+237
+00:18:53,450 --> 00:18:56,810
+you have probabilities. When you take a trade,
+
+238
+00:18:56,950 --> 00:19:00,410
+if you don't know for certain that this stock is going to go up,
+
+239
+00:19:01,400 --> 00:19:04,100
+you have a distribution of possible outcomes.
+
+240
+00:19:04,720 --> 00:19:08,660
+It is likely that the stock goes up, let's say 3%.
+
+241
+00:19:09,380 --> 00:19:11,980
+It's less likely it goes up 10%,
+
+242
+00:19:12,080 --> 00:19:15,520
+and it's not likely that it goes down 2% or 3%,
+
+243
+00:19:15,520 --> 00:19:19,240
+whatever your odds are when you're making your bet. That's your implied odds,
+
+244
+00:19:19,320 --> 00:19:20,280
+right? Whenever you make a trade,
+
+245
+00:19:20,340 --> 00:19:23,660
+you're actually calculating that in your head, whether you know it or not.
+
+246
+00:19:24,460 --> 00:19:28,080
+And if we graphed out all your thoughts and opinions about the stock,
+
+247
+00:19:28,420 --> 00:19:29,760
+it would look something like this,
+
+248
+00:19:32,240 --> 00:19:35,400
+okay? And this is what the options market is showing you here,
+
+249
+00:19:42,030 --> 00:19:43,070
+okay?
+
+250
+00:19:46,060 --> 00:19:47,900
+So let's see what's going on here.
+
+251
+00:19:53,280 --> 00:20:03,210
+So we said SPY had a lot of put skew, okay? We said SPY had a lot of put skew.
+
+252
+00:20:03,390 --> 00:20:10,120
+So what does that mean? So the market is saying that there is a chance,
+
+253
+00:20:11,140 --> 00:20:14,820
+the down move is a lot larger than an up move.
+
+254
+00:20:14,820 --> 00:20:16,820
+That's what the market is saying, okay?
+
+255
+00:20:18,420 --> 00:20:22,040
+So the down move is a lot larger than an up move. So what do you guys think?
+
+256
+00:20:22,120 --> 00:20:26,620
+Is the market saying that S&P is going to go down or the S&P is going to go up?
+
+257
+00:20:27,280 --> 00:20:29,560
+What is the most likely scenario for tomorrow?
+
+258
+00:20:34,240 --> 00:20:39,230
+Stephen's saying up slightly, okay? Does anyone disagree with Stephen?
+
+259
+00:20:44,680 --> 00:20:45,640
+Ains is saying down.
+
+260
+00:20:47,730 --> 00:20:51,030
+Okay, Stephen's right here, okay? Because think about it like this, Ains.
+
+261
+00:20:52,480 --> 00:20:57,720
+You're in a basketball. You are betting on a basketball game, okay?
+
+262
+00:20:59,020 --> 00:21:01,060
+And it's going to, like, actually, Ains,
+
+263
+00:21:01,220 --> 00:21:03,560
+what sport is like your favorite sport?
+
+264
+00:21:04,180 --> 00:21:07,700
+Because then it's more relatable and then maybe it will help you understand.
+
+265
+00:21:08,890 --> 00:21:10,290
+What's your favorite sport to play?
+
+266
+00:21:12,940 --> 00:21:16,140
+NFL, okay. So, fuck, I don't know any NFL. Okay,
+
+267
+00:21:16,140 --> 00:21:17,820
+so who's like the worst team and the best team?
+
+268
+00:21:24,420 --> 00:21:31,470
+Okay, Packers is worst team or best team? Okay, Packers best, Jets worst. Ains,
+
+269
+00:21:31,590 --> 00:21:34,210
+okay, Ains is saying Tampa's best. Okay, so we're going to mix it up.
+
+270
+00:21:34,290 --> 00:21:40,500
+We're going to say it's Tampa versus the Jets in Tampa, okay?
+
+271
+00:21:40,760 --> 00:21:42,540
+Tampa's playing the Jets in Tampa.
+
+272
+00:21:46,690 --> 00:21:48,750
+What do you think the probabilities of Tampa winning is?
+
+273
+00:21:58,740 --> 00:22:02,840
+90%, exactly, right? It's going to be huge. They should win eyes closed.
+
+274
+00:22:04,340 --> 00:22:09,430
+So what are the odds going to be on betting on the Jets, right?
+
+275
+00:22:09,470 --> 00:22:12,690
+You should be getting a huge payout if you bet on the Jets and they win,
+
+276
+00:22:12,690 --> 00:22:16,510
+but you're not going to get a big payout if you bet on Tampa and they win,
+
+277
+00:22:17,150 --> 00:22:20,580
+right? So that's what's happening here.
+
+278
+00:22:20,660 --> 00:22:26,320
+If the market is saying there's a chance of a huge down move, okay?
+
+279
+00:22:26,520 --> 00:22:32,280
+So the chance of a huge down move, aka the Jets winning, okay,
+
+280
+00:22:32,920 --> 00:22:37,540
+then you are going to get paid out big, right?
+
+281
+00:22:37,600 --> 00:22:45,220
+But it's most likely that Tampa is going to win. So if you buy the S&P, right,
+
+282
+00:22:45,360 --> 00:22:50,220
+you are most likely going to get a little bit of an up move tomorrow, right?
+
+283
+00:22:50,240 --> 00:22:51,180
+You might get a percent tomorrow,
+
+284
+00:22:52,440 --> 00:22:56,260
+but less likely you're going to have a huge down move.
+
+285
+00:22:56,760 --> 00:23:00,710
+It has to compensate for that, right? Imagine if it was like this, guys.
+
+286
+00:23:01,290 --> 00:23:06,130
+Imagine if it was more likely that the stock went down and it was more likely that
+
+287
+00:23:06,130 --> 00:23:08,590
+if it did go down, it would go down like crazy.
+
+288
+00:23:09,330 --> 00:23:13,630
+That would be like saying if the Jets win, or sorry,
+
+289
+00:23:13,710 --> 00:23:16,310
+that would be like saying if Tampa wins, you get paid out three to one.
+
+290
+00:23:17,360 --> 00:23:22,140
+That doesn't make sense, right? So the way we look at it is,
+
+291
+00:23:22,220 --> 00:23:26,090
+the way the market looks at it is, it has to be a fair bet, right?
+
+292
+00:23:26,090 --> 00:23:30,270
+If I'm going to buy equities, let's say there's two scenarios tomorrow. Okay,
+
+293
+00:23:30,270 --> 00:23:31,210
+I'm going to buy this stock.
+
+294
+00:23:31,530 --> 00:23:36,800
+It's either going to go up very little or it's going to go down a lot. Well,
+
+295
+00:23:36,900 --> 00:23:41,880
+in order for this to be a fair bet, the up move has to be more likely.
+
+296
+00:23:42,870 --> 00:23:47,210
+Does that make sense? In order for me to bet on Tampa, it has to be a fair bet.
+
+297
+00:23:47,670 --> 00:23:52,250
+And that also means that I'm going to get paid out less because it's more likely
+
+298
+00:23:52,250 --> 00:23:53,210
+that Tampa wins.
+
+299
+00:23:55,440 --> 00:24:00,600
+Okay, so if we see big put skew, meaning the risk from last night,
+
+300
+00:24:00,700 --> 00:24:04,240
+from last week's live or this week's live, the risk is to the downside,
+
+301
+00:24:04,600 --> 00:24:06,740
+meaning the big move is to the downside,
+
+302
+00:24:07,520 --> 00:24:12,010
+then most likely the stock needs to go up. Okay,
+
+303
+00:24:12,110 --> 00:24:13,110
+so we're going to look at that right now.
+
+304
+00:24:14,750 --> 00:24:17,310
+We are going to look at a 14-day option.
+
+305
+00:24:19,960 --> 00:24:22,860
+Okay, and how we're going to do this, so I'm going to go on SPY here.
+
+306
+00:24:27,540 --> 00:24:33,190
+Okay, and what I'm going to do is I'm going to price a vertical spread.
+
+307
+00:24:35,400 --> 00:24:42,720
+So S&P is trading at 334. Okay, that was the last close, 334. Okay,
+
+308
+00:24:42,720 --> 00:24:43,940
+so what we're going to do is,
+
+309
+00:24:44,240 --> 00:24:49,480
+we're going to go to the 334 strike and we're going to buy a 10-wide vertical spread.
+
+310
+00:24:49,940 --> 00:24:57,460
+So we're going to go 5 down to 329 and we're going to go 5 up to 339.
+
+311
+00:24:59,700 --> 00:25:04,960
+Okay, so far so good. We're going, the spot price was 334.
+
+312
+00:25:05,100 --> 00:25:10,010
+We're going 5 down and we're going 5 up. Okay,
+
+313
+00:25:10,050 --> 00:25:13,880
+so now we have a call spread 329, 339. So let's take a look here.
+
+314
+00:25:20,190 --> 00:25:26,380
+Okay, so here it is. Okay, so here is our bet. Now,
+
+315
+00:25:27,930 --> 00:25:31,150
+what do you guys notice here? So here's where the current stock price is.
+
+316
+00:25:33,540 --> 00:25:36,160
+Okay, let me just turn this into,
+
+317
+00:25:38,520 --> 00:25:40,400
+just make this a lot easier for you guys to see.
+
+318
+00:25:43,560 --> 00:25:48,400
+Okay, see this line here? This line is where the current stock price is.
+
+319
+00:25:48,960 --> 00:25:51,810
+What do you guys notice about this bet? Okay,
+
+320
+00:25:51,850 --> 00:25:57,430
+pretend this bet is the Tampa Bay versus the Jets. If I said this is our,
+
+321
+00:25:57,610 --> 00:26:01,250
+who are we betting on here, guys? If you had this payout right now,
+
+322
+00:26:01,710 --> 00:26:04,970
+if this was your payout, who would you be, who would we bet,
+
+323
+00:26:05,090 --> 00:26:06,850
+who would we be betting on here?
+
+324
+00:26:09,270 --> 00:26:13,150
+Okay, and this is, yeah. Who would we be betting on if this was the win,
+
+325
+00:26:13,270 --> 00:26:14,290
+if this was the winning side?
+
+326
+00:26:16,380 --> 00:26:21,840
+Rami said the Bucks. Is that Tampa Bay Bucks? What's the other team? Jets.
+
+327
+00:26:22,820 --> 00:26:29,130
+I have no idea. Okay, Mark was saying Tampa Bay. Okay, so, exactly. Why?
+
+328
+00:26:29,290 --> 00:26:31,390
+Why would this, why would this spread here?
+
+329
+00:26:31,870 --> 00:26:33,610
+Why would this trade be betting on Tampa?
+
+330
+00:26:38,800 --> 00:26:42,700
+Okay. Tell me more, Ram. Tell me more. You're on the right track. Tell me more.
+
+331
+00:26:50,100 --> 00:26:55,000
+Why? Why is this here? I'm going to make this actually 575. Why?
+
+332
+00:26:55,220 --> 00:26:59,940
+Why is it that this trade here is betting on Tampa? How do we know this?
+
+333
+00:26:59,980 --> 00:27:02,940
+How can we infer that this is betting on Tampa and not the Jets?
+
+334
+00:27:07,040 --> 00:27:09,640
+What do you guys think? What's going on here? Right?
+
+335
+00:27:12,080 --> 00:27:15,660
+Okay. Marco's odds are in our favor. What is,
+
+336
+00:27:15,960 --> 00:27:19,280
+tell me more about the payoff of this thing. Tell me more about the payoff.
+
+337
+00:27:19,900 --> 00:27:24,660
+The payout. Exactly. What about the payout, Ram? Tell me more.
+
+338
+00:27:24,720 --> 00:27:29,530
+I need to know more here, bud. It's not, it's actually not one-to-one. So,
+
+339
+00:27:29,670 --> 00:27:38,230
+if we lose, we lose 5,750. If we win, we win 4,250. The payout is less.
+
+340
+00:27:38,530 --> 00:27:43,350
+Exactly. Right? Because Tampa has a higher chance of winning,
+
+341
+00:27:43,790 --> 00:27:50,340
+we have to get paid out less. We can't get paid out the same. So,
+
+342
+00:27:50,940 --> 00:27:53,260
+and we're looking at this spread here. Okay.
+
+343
+00:27:53,700 --> 00:28:00,140
+The market's telling us that the most likely scenario is S&P 500 in the next 16
+
+344
+00:28:00,140 --> 00:28:05,520
+days to be up. Now, that's great. But what are these odds?
+
+345
+00:28:05,900 --> 00:28:08,560
+What is the market telling us here? What are the odds we're getting?
+
+346
+00:28:09,630 --> 00:28:14,710
+The odds we're getting is there's a 57.5% chance. So,
+
+347
+00:28:14,910 --> 00:28:20,310
+all we did was we took our debit and we divided it by the width of the strikes.
+
+348
+00:28:21,620 --> 00:28:26,620
+Okay. The width of the strikes. And that is 57.5% chance. So,
+
+349
+00:28:26,700 --> 00:28:32,120
+the market is saying that there is a 57.5% chance that in the next 16 days,
+
+350
+00:28:33,340 --> 00:28:34,680
+S&P 500 is going to be up.
+
+351
+00:28:38,780 --> 00:28:42,790
+Now, we have something to work with here, guys. Okay.
+
+352
+00:28:42,830 --> 00:28:45,110
+Imagine I just told you that. Imagine I told you this, actually.
+
+353
+00:28:45,900 --> 00:28:51,020
+There's a 75% chance that the market's going to be up. What could you do?
+
+354
+00:28:51,980 --> 00:28:55,980
+What could you do? Well, first off, you'd have to think to yourself, well,
+
+355
+00:28:56,160 --> 00:29:01,190
+that doesn't make sense. Right? That's kind of...
+
+356
+00:29:02,210 --> 00:29:05,250
+The market's telling me there's a 75% chance up. I've never seen that before.
+
+357
+00:29:05,810 --> 00:29:08,810
+Right? It's usually 55, 57 at best.
+
+358
+00:29:10,840 --> 00:29:13,960
+Right? So, what we could do is we could sell this spread.
+
+359
+00:29:17,010 --> 00:29:19,030
+Right? We could sell this spread.
+
+360
+00:29:19,030 --> 00:29:23,050
+Because this spread is giving us great risk reward. Right?
+
+361
+00:29:23,130 --> 00:29:28,750
+Imagine if it was 75% chance, guys. Okay? It'd be $7.50. Okay?
+
+362
+00:29:28,890 --> 00:29:29,870
+This is what we would have.
+
+363
+00:29:32,060 --> 00:29:35,800
+Now, this trade would be an amazing trade. This would be a beautiful trade.
+
+364
+00:29:36,300 --> 00:29:43,260
+Right? It'd be huge. Huge. Huge. Huge trade. When I said beautiful there,
+
+365
+00:29:43,440 --> 00:29:48,360
+I felt like I sounded like him. It's going to be beautiful. Beautiful.
+
+366
+00:29:48,760 --> 00:29:53,550
+Beautiful. Okay. So, if you put on this trade, right? Well,
+
+367
+00:29:53,550 --> 00:29:56,310
+there's a 25% chance. Okay?
+
+368
+00:29:56,350 --> 00:29:58,750
+Sometimes you can be wrong here is what I'm trying to say here.
+
+369
+00:29:59,150 --> 00:30:02,010
+Sometimes you can be wrong. And you might say to yourself, Oh,
+
+370
+00:30:02,010 --> 00:30:05,900
+this was a bad trade. No, this was a great trade. Right?
+
+371
+00:30:05,980 --> 00:30:09,530
+Because most of the time you're going to be right. Right?
+
+372
+00:30:09,610 --> 00:30:14,260
+Or this trade has a positive expectancy. Okay? So,
+
+373
+00:30:14,360 --> 00:30:19,230
+let's go back to our risk-neutral densities. You guys can see that. Right?
+
+374
+00:30:19,230 --> 00:30:22,290
+We're looking at, I think you guys are going to have a nicer perspective. Now,
+
+375
+00:30:22,310 --> 00:30:26,530
+when we look at this, Let me actually just take the logs of this. So,
+
+376
+00:30:26,630 --> 00:30:28,370
+you guys might be able to see it a little bit better.
+
+377
+00:30:36,180 --> 00:30:36,540
+Okay.
+
+378
+00:30:39,790 --> 00:30:43,470
+So, you guys see how fat this tail is? Right?
+
+379
+00:30:43,510 --> 00:30:45,690
+You guys see that fatness in the tail, right?
+
+380
+00:30:48,070 --> 00:30:51,990
+Okay. What this is saying is, So, the,
+
+381
+00:30:53,570 --> 00:30:57,980
+I'm just going to take a screenshot here. So, we're going to draw on it, guys.
+
+382
+00:30:57,980 --> 00:30:59,620
+You can use it.
+
+383
+00:31:04,670 --> 00:31:06,750
+Oh, nice. Okay.
+
+384
+00:31:09,030 --> 00:31:14,310
+Is this good over here? This box? Yeah, it's good. Okay. So,
+
+385
+00:31:14,430 --> 00:31:19,590
+I get a straight line. Okay. So, here is where spot price is going to be. Okay?
+
+386
+00:31:23,860 --> 00:31:25,860
+So, what is this telling us? Well,
+
+387
+00:31:25,880 --> 00:31:30,320
+it's telling us that the most likely scenario, Remember, this is probably,
+
+388
+00:31:31,180 --> 00:31:36,460
+You still have the, yeah. This is frequency. Okay? This is frequency.
+
+389
+00:31:38,080 --> 00:31:44,610
+The most likely scenario is this. Is a little tiny up move.
+
+390
+00:31:47,410 --> 00:31:52,910
+That is the most likely scenario. Now, if this was the most likely scenario,
+
+391
+00:31:53,150 --> 00:31:56,090
+We would just buy stocks. We would just buy stocks and make money.
+
+392
+00:31:56,190 --> 00:31:59,890
+Make so much money. Okay? We have a little bit of an edge.
+
+393
+00:32:00,130 --> 00:32:02,400
+We'd make a ton of money. But that's not right.
+
+394
+00:32:02,680 --> 00:32:05,180
+We can't just make free money like this. We can't just print money.
+
+395
+00:32:06,460 --> 00:32:12,500
+There has to be a catch. And the catch is, The chance of a huge down move.
+
+396
+00:32:16,160 --> 00:32:28,440
+Okay? Is higher than the chance of a huge up move. So,
+
+397
+00:32:28,560 --> 00:32:31,240
+we are being compensated for the small probability,
+
+398
+00:32:31,460 --> 00:32:32,840
+For the higher probability of winning.
+
+399
+00:32:33,490 --> 00:32:37,330
+Because of a larger probability of a large down move.
+
+400
+00:32:37,770 --> 00:32:42,890
+And that is called risk neutral. Because we are indifferent.
+
+401
+00:32:43,690 --> 00:32:48,730
+We are risk neutral. We don't care if we sell or if we buy.
+
+402
+00:32:48,990 --> 00:32:50,430
+Because it's a fair bet.
+
+403
+00:32:52,450 --> 00:32:54,690
+Okay? And that is what this is all about.
+
+404
+00:32:54,930 --> 00:32:57,790
+It's about graphing out what are the options thinking.
+
+405
+00:32:58,510 --> 00:33:02,610
+What is the option market thinking is the future. Now, we would make money.
+
+406
+00:33:03,370 --> 00:33:09,110
+If ours was different than this. If we thought the graph should look like this.
+
+407
+00:33:09,550 --> 00:33:14,830
+Okay? We thought it should look like this. A lot of positive call skew.
+
+408
+00:33:16,720 --> 00:33:17,560
+Something like this.
+
+409
+00:33:19,740 --> 00:33:24,760
+Sorry guys. Terrible drawing. But imagine our thing looked like this. Okay?
+
+410
+00:33:24,940 --> 00:33:28,820
+Well, we can make a trade. Because guess what? These options are cheap.
+
+411
+00:33:29,240 --> 00:33:31,160
+And these options are cheap.
+
+412
+00:33:34,820 --> 00:33:39,120
+Okay? So, if we don't have access to this.
+
+413
+00:33:39,320 --> 00:33:42,300
+Which we are all going to have eventually on the terminal.
+
+414
+00:33:45,100 --> 00:33:47,800
+This is... Oops. Ah, shit.
+
+415
+00:33:57,740 --> 00:34:06,070
+Okay? What we can do instead is price it. Using a call spread. Okay?
+
+416
+00:34:06,730 --> 00:34:09,170
+We can price it by using a call spread.
+
+417
+00:34:10,730 --> 00:34:13,070
+And we can actually price them using butterflies as well.
+
+418
+00:34:13,350 --> 00:34:20,000
+To get the risk neutral density. But call spread is usually enough. Okay?
+
+419
+00:34:20,200 --> 00:34:22,840
+You're getting the probability of an up move versus a down move.
+
+420
+00:34:22,940 --> 00:34:24,020
+This explains the skew.
+
+421
+00:34:28,810 --> 00:34:34,110
+Okay? So, we'll scroll to DDOG. It's the same thing here. So,
+
+422
+00:34:34,130 --> 00:34:36,050
+what do you guys think we're going to see when we price this call spread?
+
+423
+00:34:44,760 --> 00:34:46,820
+What do you guys think we're going to see when we price this call spread?
+
+424
+00:34:46,820 --> 00:34:48,300
+It's not very liquid though, unfortunately.
+
+425
+00:35:20,730 --> 00:35:21,910
+Okay. So, here we are with this.
+
+426
+00:35:28,810 --> 00:35:35,950
+So, $3.10 for this call spread. For 7 wide call spread. Okay? Quick maths.
+
+427
+00:35:36,490 --> 00:35:41,820
+3 divided by 7. Or, sorry. Yeah, we'll just call it 3. Oh, no.
+
+428
+00:35:41,880 --> 00:35:43,180
+I think it was 3. What was it? 3.10.
+
+429
+00:35:45,380 --> 00:35:49,780
+Okay. So, the market's saying there's only a 44% chance of an up move. Right?
+
+430
+00:35:49,780 --> 00:35:55,190
+But that also means what the market is saying is the volatility to the upside is
+
+431
+00:35:55,190 --> 00:35:58,790
+going to be a lot stronger than to the downside. So,
+
+432
+00:35:58,890 --> 00:36:02,110
+now you guys got to come and say, well, DDOG,
+
+433
+00:36:03,050 --> 00:36:09,140
+this thing is definitely not going down. And so, this call spread, okay,
+
+434
+00:36:09,860 --> 00:36:11,300
+is a really good trade.
+
+435
+00:36:14,140 --> 00:36:18,800
+Right? Because you think this should actually have a… Think about it like this,
+
+436
+00:36:18,900 --> 00:36:19,560
+guys. Right?
+
+437
+00:36:20,510 --> 00:36:27,820
+The way you can think about it is if you thought there was a 60% chance that the
+
+438
+00:36:27,820 --> 00:36:32,870
+stock goes up, well, it should be priced at $6. Oh, sorry.
+
+439
+00:36:33,210 --> 00:36:36,410
+It should be priced at like $3.70.
+
+440
+00:36:38,820 --> 00:36:43,960
+Right? Or 60%? What would 60% be? I think it's like $3.85.
+
+441
+00:36:47,090 --> 00:36:47,330
+Okay,
+
+442
+00:36:47,330 --> 00:36:51,350
+so this thing should be priced at $3.85 because you think there's a 60% chance that
+
+443
+00:36:51,350 --> 00:36:53,970
+it goes up, but it's priced at $3.10.
+
+444
+00:36:56,240 --> 00:37:00,020
+Cool. Cool. That's it. That's all I really have to show you guys today. So,
+
+445
+00:37:00,100 --> 00:37:00,840
+let's talk about one more thing here,
+
+446
+00:37:00,860 --> 00:37:03,040
+which is kind of what Jack is alluding to here. He's like,
+
+447
+00:37:03,300 --> 00:37:06,620
+so are we assuming it's not going down based on the distribution? No,
+
+448
+00:37:06,640 --> 00:37:09,200
+we're coming up with our own forecast to compare to it. So,
+
+449
+00:37:09,220 --> 00:37:10,540
+maybe we can quickly, for a couple of minutes,
+
+450
+00:37:10,640 --> 00:37:14,320
+talk about how they actually go about formulating their own opinions about these
+
+451
+00:37:14,320 --> 00:37:20,480
+things more objectively rather than just how they feel. Yeah. So,
+
+452
+00:37:20,600 --> 00:37:26,410
+one way you can look at it, right, is through the realized distributions.
+
+453
+00:37:27,010 --> 00:37:30,350
+Right? What actually has happened historically? Okay,
+
+454
+00:37:30,370 --> 00:37:32,750
+so if we look historically at S&P 500, let's say.
+
+455
+00:37:34,500 --> 00:37:37,180
+What does it actually look like? So,
+
+456
+00:37:37,380 --> 00:37:44,060
+an easy one to think would be we should never see call skew on the S&P 500 because
+
+457
+00:37:44,060 --> 00:37:45,640
+it's never shown call skew before.
+
+458
+00:37:45,720 --> 00:37:48,060
+It doesn't make sense for there to be call skew on the S&P 500.
+
+459
+00:37:48,220 --> 00:37:53,080
+The risk is not to the upside. It's to the downside. That's one way.
+
+460
+00:37:54,140 --> 00:37:56,820
+In that sense, you're kind of harvesting this risk premium.
+
+461
+00:37:56,820 --> 00:38:05,750
+The other way is situational. Right? So, Walmart was in a bid for TikTok. Okay?
+
+462
+00:38:05,810 --> 00:38:09,290
+Now, you're not going to be able to get data on this. Right?
+
+463
+00:38:10,260 --> 00:38:16,500
+You were in a situational position where this only happens once ever.
+
+464
+00:38:17,580 --> 00:38:20,740
+Walmart is never going to be in a situation where they're bidding for TikTok.
+
+465
+00:38:21,680 --> 00:38:26,220
+Right? This is a one-time thing. So, it's your job as a trader,
+
+466
+00:38:26,380 --> 00:38:30,880
+if you want to trade this, to be like, well, what are the odds? Well,
+
+467
+00:38:30,900 --> 00:38:35,020
+first off, if Walmart gets the deal, the stock goes up.
+
+468
+00:38:35,840 --> 00:38:40,720
+If they don't get the deal, the stock goes down. So, what do you do?
+
+469
+00:38:40,880 --> 00:38:43,140
+You go in and you see what the market is pricing.
+
+470
+00:38:43,480 --> 00:38:48,220
+Maybe the market is pricing 50-50. It's unsure. Okay?
+
+471
+00:38:50,820 --> 00:38:53,040
+So, what you need to do now is say, well,
+
+472
+00:38:53,080 --> 00:38:58,720
+what are the odds that Walmart gets TikTok? And that's research. Right?
+
+473
+00:38:58,820 --> 00:39:04,340
+Nothing beats good, old, hardcore research. That's your job as a trader.
+
+474
+00:39:04,520 --> 00:39:12,270
+And that's why you will get paid. Right? Okay? So, that's how you go about it.
+
+475
+00:39:12,490 --> 00:39:13,650
+You can either, for example,
+
+476
+00:39:13,730 --> 00:39:20,550
+sell vol on the S&P 500 because you can historically see that the skew right now
+
+477
+00:39:20,550 --> 00:39:27,210
+is a lot higher than what it usually is implying. Okay? It's a lot higher. So,
+
+478
+00:39:27,330 --> 00:39:31,430
+you would say, okay, well, I should be selling vol here. Okay? Now,
+
+479
+00:39:31,450 --> 00:39:35,200
+that's a risk premium that you're going to be harvesting. Okay?
+
+480
+00:39:35,500 --> 00:39:40,380
+But then there's a situational factor. DDOG. They just got bought by Microsoft.
+
+481
+00:39:40,900 --> 00:39:44,400
+People think the stock is still going up and the volatility is to the upside.
+
+482
+00:39:46,360 --> 00:39:49,780
+It's your job now to be like, what's actually going to happen here?
+
+483
+00:39:50,960 --> 00:39:55,060
+Let me dig in. Let me look at the research. Let me look at everything I can.
+
+484
+00:39:55,120 --> 00:39:57,720
+Let me get my hands on as much information as I possibly can.
+
+485
+00:39:58,690 --> 00:40:02,310
+Then I'm going to make a decision. I'm going to bet reasonably large.
+
+486
+00:40:02,790 --> 00:40:07,320
+And if I get paid out, it was because I put in the work. That's it.
+
+487
+00:40:11,080 --> 00:40:14,180
+Marcos, I agree. So, maybe next week we'll talk. Or no,
+
+488
+00:40:14,240 --> 00:40:16,740
+next week we're going to talk about stats, right? Stats. After next week. So,
+
+489
+00:40:16,840 --> 00:40:21,090
+two weeks from now, we'll focus heavily on research. Yeah.
+
+490
+00:40:30,180 --> 00:40:33,180
+Right. You got it, Steve. So, what they were saying,
+
+491
+00:40:33,320 --> 00:40:37,460
+the most likely scenario is Walmart doesn't get it. But if they do get it,
+
+492
+00:40:37,660 --> 00:40:39,560
+right? It's going to blow up. It's going to blow up.
+
+493
+00:40:39,560 --> 00:40:42,100
+Because if everyone's thinking, so, think about this, Steve.
+
+494
+00:40:44,490 --> 00:40:46,270
+People don't know for certain, right? So,
+
+495
+00:40:46,350 --> 00:40:47,670
+there's always going to be something priced in. So,
+
+496
+00:40:48,190 --> 00:40:51,690
+people don't know for certain. And so, if Walmart didn't get the deal,
+
+497
+00:40:51,870 --> 00:40:55,070
+the stock would come down, which it did. And that was the most likely event.
+
+498
+00:40:56,270 --> 00:41:00,710
+But if it did go through, it would catch everyone off guard. And so,
+
+499
+00:41:00,770 --> 00:41:04,030
+the volatility would be to the upside. So,
+
+500
+00:41:04,070 --> 00:41:06,350
+then it would be your job to be like, well,
+
+501
+00:41:06,750 --> 00:41:10,410
+what are the odds Walmart actually gets that deal? Right?
+
+502
+00:41:10,510 --> 00:41:13,550
+Maybe it's actually less than what the market's implying.
+
+503
+00:41:13,650 --> 00:41:15,850
+Maybe the market was implying, Steve. I think it was like,
+
+504
+00:41:16,150 --> 00:41:19,550
+it was actually a lot of call skew. It was a ton of call skew. So,
+
+505
+00:41:19,710 --> 00:41:22,150
+it might have been like, let's say, 45-55.
+
+506
+00:41:24,400 --> 00:41:29,200
+So, you know, 45% chance Walmart didn't get the deal. But remember,
+
+507
+00:41:29,320 --> 00:41:32,640
+it also had other things priced in. Like, if the stock market still went up,
+
+508
+00:41:33,080 --> 00:41:35,620
+it wasn't just the TikTok. Because obviously,
+
+509
+00:41:35,700 --> 00:41:42,840
+it wasn't going to be a 45% chance that Walmart got TikTok. But you might say,
+
+510
+00:41:42,940 --> 00:41:46,820
+well, if they actually don't get the deal, then even if the market goes up,
+
+511
+00:41:47,080 --> 00:41:50,900
+Walmart is still going to go down. Okay? And then you could be like, well,
+
+512
+00:41:50,960 --> 00:41:54,120
+it's actually like, considering everyone else in the race,
+
+513
+00:41:54,440 --> 00:41:59,580
+it's only really a 15% chance that Walmart gets the deal. So,
+
+514
+00:41:59,660 --> 00:42:01,820
+when they announce that it's Oracle that's getting the deal,
+
+515
+00:42:02,220 --> 00:42:05,450
+what's going to happen to Walmart? Right? And so,
+
+516
+00:42:05,650 --> 00:42:11,270
+you actually would be buying put spreads or you would be shorting the shares.
+
+517
+00:42:13,790 --> 00:42:14,090
+Okay?
+
+518
+00:42:17,970 --> 00:42:21,150
+So, that's going to be, that is what we're going to be talking about.
+
+519
+00:42:21,390 --> 00:42:24,380
+And that's what we're going to wrap it up here. Yeah, Steve,
+
+520
+00:42:24,420 --> 00:42:27,120
+I know you'd like this, man. It's a little bit more advanced stuff.

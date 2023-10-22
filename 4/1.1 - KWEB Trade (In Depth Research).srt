@@ -1,0 +1,915 @@
+1
+00:00:00,820 --> 00:00:06,600
+Okay, so in this video, guys, we're going to be chatting about, sorry,
+
+2
+00:00:06,740 --> 00:00:10,220
+give me one quick sec, let me make sure that,
+
+3
+00:00:15,570 --> 00:00:15,930
+okay.
+
+4
+00:00:20,800 --> 00:00:23,220
+All right, so we'll say we're gonna be chatting actually about Queb.
+
+5
+00:00:25,000 --> 00:00:30,860
+So Steve B. found a really interesting idea that when we looked further into,
+
+6
+00:00:31,940 --> 00:00:33,440
+that we think there could be a ton of alpha.
+
+7
+00:00:34,550 --> 00:00:39,130
+So I just thought go through the process of how we found it,
+
+8
+00:00:39,210 --> 00:00:43,250
+what we think might happen and then why we think it's cheap or expensive.
+
+9
+00:00:44,520 --> 00:00:46,260
+So I got a message from Steve saying, hey, listen,
+
+10
+00:00:46,560 --> 00:00:51,330
+check out the longer dated vols on Queb. Okay,
+
+11
+00:00:51,330 --> 00:00:54,580
+so let me share my screen here and we will take a look together.
+
+12
+00:01:16,540 --> 00:01:17,900
+So can you guys see my screen?
+
+13
+00:01:21,260 --> 00:01:25,640
+All right, so Queb, we're gonna plot a couple of vols here.
+
+14
+00:01:25,680 --> 00:01:31,680
+We're gonna plot September, August, October, November,
+
+15
+00:01:31,720 --> 00:01:35,240
+because we traded November, but then we're gonna plot Jan 2023.
+
+16
+00:01:44,170 --> 00:01:45,150
+So take a look here.
+
+17
+00:01:45,770 --> 00:01:50,590
+One thing we noticed was if you look at some vols in terms of August,
+
+18
+00:01:50,850 --> 00:01:52,650
+September, you notice like,
+
+19
+00:01:52,970 --> 00:01:55,530
+so actually let's just look at August and September right now.
+
+20
+00:01:56,920 --> 00:02:01,040
+So the near dated vols. All right, let's take a look at these.
+
+21
+00:02:01,580 --> 00:02:06,660
+And you notice how initially you had a big spike, then cooled off,
+
+22
+00:02:06,920 --> 00:02:09,680
+and then it spiked back up to around the same level.
+
+23
+00:02:10,860 --> 00:02:19,310
+So it's almost like gamma is being priced in the same now as it was when the first
+
+24
+00:02:19,310 --> 00:02:20,090
+big move happened.
+
+25
+00:02:22,420 --> 00:02:27,000
+However, when we look, and this is also true for, let's say, November.
+
+26
+00:02:27,180 --> 00:02:28,720
+So we're getting a little bit further out,
+
+27
+00:02:29,000 --> 00:02:34,230
+but you can still see like November is back at its previous highs. All right,
+
+28
+00:02:34,250 --> 00:02:38,750
+now let's take a look at Jan 2023.
+
+29
+00:02:42,210 --> 00:02:44,270
+So what do we notice here about Jan 2023? Well,
+
+30
+00:02:46,290 --> 00:02:51,970
+it's continued to make, like there's a reach for vega here, right?
+
+31
+00:02:51,970 --> 00:02:57,550
+There's a reach for these long dated vols where we can see that the long-term vols
+
+32
+00:02:57,550 --> 00:03:02,470
+are making new highs, right? So what we might've seen,
+
+33
+00:03:02,530 --> 00:03:03,890
+if it was similar to everything else,
+
+34
+00:03:03,890 --> 00:03:09,050
+is we might've seen Jan 2023 around 3940 vol.
+
+35
+00:03:09,510 --> 00:03:11,850
+But instead we're seeing it at 46 and a half.
+
+36
+00:03:12,610 --> 00:03:16,190
+And when Steve first mentioned it to me, it was like 47 and a half.
+
+37
+00:03:16,370 --> 00:03:20,570
+But then of course we started selling and we might've brought the term structure
+
+38
+00:03:20,570 --> 00:03:23,130
+down or the January down a little bit.
+
+39
+00:03:24,010 --> 00:03:30,810
+So here we have Jan 2023 trading in line with options that are 90 days out,
+
+40
+00:03:30,910 --> 00:03:33,520
+60 days out. And so right off the bat,
+
+41
+00:03:33,540 --> 00:03:38,640
+that kind of tells us that maybe these long dated options are overpriced,
+
+42
+00:03:39,230 --> 00:03:42,670
+right? Maybe someone's reaching for vega and it's less liquid.
+
+43
+00:03:42,670 --> 00:03:50,660
+So it's likely that vols might be getting too bid out there. So we said, okay,
+
+44
+00:03:50,700 --> 00:03:52,540
+let's investigate a little more. Let's see what's going on.
+
+45
+00:03:53,280 --> 00:03:54,580
+And so what we actually started looking at,
+
+46
+00:03:54,620 --> 00:03:58,940
+what we started noticing or Steve started noticing was look at some of these other
+
+47
+00:03:58,940 --> 00:04:04,980
+names. Some of the stocks in the holding, that Queb is holding here. You know,
+
+48
+00:04:05,020 --> 00:04:12,180
+we got Baidu 43 vol, right? For Jan 2023. We got Baba 45 vol.
+
+49
+00:04:13,240 --> 00:04:17,920
+We got JD.com 42 vol.
+
+50
+00:04:18,000 --> 00:04:23,520
+So some of the biggest holdings here are trading well below the 47 vol that we were
+
+51
+00:04:23,520 --> 00:04:26,380
+seeing earlier. And so what we actually did was we said, okay, well,
+
+52
+00:04:26,380 --> 00:04:27,600
+let's create a sheet here.
+
+53
+00:04:29,730 --> 00:04:34,450
+Let's create a sheet and let's take a look at here.
+
+54
+00:04:35,750 --> 00:04:39,630
+Let's take a look at all the holdings and let's see what is being implied by the
+
+55
+00:04:39,630 --> 00:04:41,890
+correlation here. What's the implied correlation here on Queb?
+
+56
+00:04:43,490 --> 00:04:45,750
+So you can see what we did here. We did like 10 cent holding.
+
+57
+00:04:45,750 --> 00:04:49,950
+This is 11% of Queb and it's trading at 34 vol, right?
+
+58
+00:04:49,990 --> 00:04:55,600
+Alibaba 10% trading at 44 vol. We did it for all the stocks here.
+
+59
+00:04:57,010 --> 00:05:00,690
+Unfortunately, some of the stocks don't have options, they're not optionable.
+
+60
+00:05:00,910 --> 00:05:06,240
+So we put no data. The good news was a lot of these didn't have,
+
+61
+00:05:07,800 --> 00:05:10,180
+there was only 4% of the assets.
+
+62
+00:05:10,780 --> 00:05:16,680
+4% of the assets for this ETF that didn't have any data.
+
+63
+00:05:17,630 --> 00:05:18,710
+Luckily we had Bloomberg.
+
+64
+00:05:19,130 --> 00:05:25,180
+So we were able to use the volatility surface here to find what, you know,
+
+65
+00:05:25,240 --> 00:05:33,600
+what vols were trading in Hong Kong. So for example, the Hong Kong 10 cent,
+
+66
+00:05:34,540 --> 00:05:39,860
+right? We can see that the, you know, the December 2022 is trading at 34 vol,
+
+67
+00:05:40,140 --> 00:05:43,360
+right? At a hundred percent money in this. So we were able to input that there.
+
+68
+00:05:44,600 --> 00:05:47,880
+We go down the list and now we're trying to say, okay, well,
+
+69
+00:05:48,020 --> 00:05:53,260
+given all this information now, but what's the implied correlation of this ETF,
+
+70
+00:05:54,230 --> 00:05:59,170
+right? So the closer, you know, of course these,
+
+71
+00:05:59,310 --> 00:06:02,600
+these stocks are not going to move with correlation of one, right.
+
+72
+00:06:03,100 --> 00:06:03,900
+That'd be crazy.
+
+73
+00:06:04,040 --> 00:06:10,500
+And it's likely because the volatilities are a lot higher on these names that the
+
+74
+00:06:10,500 --> 00:06:14,610
+correlation is going to be a lot lower. Okay. Maybe 30, maybe 40.
+
+75
+00:06:17,330 --> 00:06:18,990
+And we're going to have to test that of course.
+
+76
+00:06:18,990 --> 00:06:21,290
+But the first thing we need to do is, okay, we need to say, well,
+
+77
+00:06:23,840 --> 00:06:31,880
+what's the implied correlation. So what we did was we pulled in the data. Okay.
+
+78
+00:06:32,920 --> 00:06:35,040
+We pulled in the data here and we said,
+
+79
+00:06:42,480 --> 00:06:46,520
+we're going to make, we need. So to calculate implied correlation,
+
+80
+00:06:46,620 --> 00:06:50,980
+we need three things. We need volatility. Okay. For all the components.
+
+81
+00:06:51,460 --> 00:06:56,330
+And then we need the weights for all the components. Actually,
+
+82
+00:06:56,350 --> 00:06:58,430
+let me just pause here and make sure everyone's following here.
+
+83
+00:06:59,530 --> 00:07:02,570
+Let me check the chat questions so far, guys.
+
+84
+00:07:04,980 --> 00:07:06,100
+Yeah. Tico similar to let,
+
+85
+00:07:06,280 --> 00:07:09,420
+I don't think we did an in-depth analysis on lit and when we should have,
+
+86
+00:07:09,720 --> 00:07:11,200
+but this one we're doing a lot more.
+
+87
+00:07:15,140 --> 00:07:15,740
+All right.
+
+88
+00:07:18,610 --> 00:07:23,490
+Okay. So here we said, okay, let's get the vols, which we have. Right.
+
+89
+00:07:23,530 --> 00:07:25,550
+We have the volatilities and we have the weights.
+
+90
+00:07:25,750 --> 00:07:28,950
+So we're going to get two vectors weights and applied vol.
+
+91
+00:07:29,030 --> 00:07:29,950
+So let's just take a look at those.
+
+92
+00:07:33,930 --> 00:07:37,710
+Okay. So these are all the volatilities, right? 10 cent was 34 vol Bob.
+
+93
+00:07:37,750 --> 00:07:43,910
+I was 44. And then let's get the weights. So here you go. Here we see 11%, 10%.
+
+94
+00:07:44,600 --> 00:07:51,300
+And then we need the implied volatility. Of the ETF. 47.
+
+95
+00:07:54,300 --> 00:07:58,400
+Now what we're going to do here. Is given all that information,
+
+96
+00:07:58,440 --> 00:08:02,180
+we can actually calculate. What the implied correlation is.
+
+97
+00:08:02,440 --> 00:08:04,620
+I'm not going to go into this formula too much.
+
+98
+00:08:04,700 --> 00:08:09,520
+Maybe one day we can go into it in depth. But for now,
+
+99
+00:08:09,520 --> 00:08:12,520
+we're just going to run it. Okay.
+
+100
+00:08:12,620 --> 00:08:18,840
+And we actually get an implied correlation of 76%. For two year options.
+
+101
+00:08:19,320 --> 00:08:23,280
+So this is crazy, right? To give you guys a general idea.
+
+102
+00:08:23,800 --> 00:08:26,720
+Of some other ETFs or some other indexes.
+
+103
+00:08:27,760 --> 00:08:31,280
+What their correlations are looking like. Let's go to.
+
+104
+00:08:38,030 --> 00:08:39,610
+Not my COVID test today, guys.
+
+105
+00:08:40,010 --> 00:08:43,950
+I don't know if I might have it not feeling great. A little bit of a fever,
+
+106
+00:08:44,130 --> 00:08:44,790
+a little bit of a cough.
+
+107
+00:08:49,320 --> 00:08:52,740
+Let's see. Alrighty. So here we go.
+
+108
+00:08:52,740 --> 00:08:56,320
+So let's take a look at implied correlations for a couple indexes here.
+
+109
+00:09:03,340 --> 00:09:06,980
+So here's the implied correlation across all of these indexes.
+
+110
+00:09:07,390 --> 00:09:19,770
+So we have Dow Jones. 41%. Okay. We have S&P 500. 30%. NASDAQ 37%. Russell 21%.
+
+111
+00:09:20,390 --> 00:09:25,530
+Okay. And just the other day. S&P was at like 23. Dow Jones.
+
+112
+00:09:25,610 --> 00:09:30,140
+I'm actually surprised to see 41. It's quite high in my opinion.
+
+113
+00:09:32,770 --> 00:09:37,770
+And then you can see in Europe here, like the Euro stocks, 50 is 39. FTSE.
+
+114
+00:09:37,910 --> 00:09:40,730
+And these are all the 30 day options. So let's actually go further out.
+
+115
+00:09:41,010 --> 00:09:41,910
+Let's go to the one year.
+
+116
+00:09:44,740 --> 00:09:49,040
+So here actually it picks up a bit. Okay. That's for another story,
+
+117
+00:09:49,120 --> 00:09:54,290
+but usually. Vols are more expensive in the back, right? You get that contango.
+
+118
+00:09:54,710 --> 00:09:55,790
+So the implied vol.
+
+119
+00:09:56,650 --> 00:10:00,430
+For the single names are usually not going to be in contango. But the,
+
+120
+00:10:00,450 --> 00:10:03,530
+the index is. Right. So it looks like there's going to be like more of a,
+
+121
+00:10:03,590 --> 00:10:05,110
+more of a premium in the back there.
+
+122
+00:10:07,670 --> 00:10:10,550
+So not, not really surprised to see that.
+
+123
+00:10:10,610 --> 00:10:15,170
+Let's see if we change this to three months. Yeah. Okay. Anyways.
+
+124
+00:10:15,770 --> 00:10:23,190
+We're seeing like anywhere between 30. And 45. For these indexes.
+
+125
+00:10:23,470 --> 00:10:28,350
+Hang sang index. So in Asia, we've got 34 and a half. And then in Australia,
+
+126
+00:10:28,350 --> 00:10:34,380
+we're seeing 40. What's this ESTX banks. This one's pretty heavy.
+
+127
+00:10:35,910 --> 00:10:37,830
+So this let's see what, let's see what's holding.
+
+128
+00:10:37,910 --> 00:10:38,610
+Let's see what's in this thing.
+
+129
+00:10:41,250 --> 00:10:46,520
+Okay. So it looks like. Not many stocks. There's only like what?
+
+130
+00:10:46,900 --> 00:10:49,180
+20 stocks here. 15 stocks.
+
+131
+00:10:52,870 --> 00:10:55,350
+It seems super concentrated. Right.
+
+132
+00:10:55,370 --> 00:10:57,870
+And these are probably all very low volatilities. Remember what you said when,
+
+133
+00:10:57,870 --> 00:11:01,550
+when vols are lower for the individual name, usually.
+
+134
+00:11:02,330 --> 00:11:05,130
+The implied correlations can be a little bit higher if they're the,
+
+135
+00:11:05,330 --> 00:11:11,040
+if they're the same asset. That being said though, if the index drops, right.
+
+136
+00:11:11,040 --> 00:11:13,860
+Or everything goes down. The volatilities increase.
+
+137
+00:11:14,340 --> 00:11:15,560
+And so does the implied correlations.
+
+138
+00:11:21,640 --> 00:11:21,680
+Okay.
+
+139
+00:11:25,980 --> 00:11:31,180
+So 30, 35 to 40 to 45, 30 to 45 is what we're seeing. Even 25 to 45.
+
+140
+00:11:32,530 --> 00:11:40,850
+And we're seeing 76. For these Chinese tech stocks. Right.
+
+141
+00:11:40,870 --> 00:11:45,460
+So we're trading the tech basket. And then we're seeing a 76.
+
+142
+00:11:45,580 --> 00:11:49,380
+So just like to put that perspective, NASDAQ is 45. Right.
+
+143
+00:11:49,400 --> 00:11:54,420
+So that's pretty insane. Right. And so the question we should ask is like,
+
+144
+00:11:54,440 --> 00:11:56,900
+okay, well, what, what do we think implied correlation should be?
+
+145
+00:11:59,160 --> 00:12:02,220
+And let's say, for example, we think implied correlation should be.
+
+146
+00:12:04,060 --> 00:12:11,060
+Let's just throw an arbitrary number out there. 45. Okay. 45%. Well,
+
+147
+00:12:11,060 --> 00:12:19,730
+if we change Ivy. So let's say 37. Okay. And we hit this. Well,
+
+148
+00:12:19,730 --> 00:12:25,620
+now we're getting 45. Implied vol. Now 45 implied correlation. So what,
+
+149
+00:12:25,640 --> 00:12:27,820
+what that's telling us is if the,
+
+150
+00:12:27,860 --> 00:12:31,840
+if the basket has an implied correlation of 45%.
+
+151
+00:12:33,130 --> 00:12:39,820
+Then the fair value of balls today is 37. Is 37%.
+
+152
+00:12:39,980 --> 00:12:42,160
+But right now it's trading at 47.
+
+153
+00:12:46,840 --> 00:12:53,520
+Now that being said though, is, is 45% correlation for value. Right.
+
+154
+00:12:53,560 --> 00:12:55,680
+And so what we need to do is we need to say, okay, well, let's,
+
+155
+00:12:56,180 --> 00:12:57,560
+let's plot the realize correlation.
+
+156
+00:12:57,560 --> 00:13:01,520
+Let's pull up the realize correlation for this ETF over time and see what it,
+
+157
+00:13:01,680 --> 00:13:06,920
+see what it is. I don't have that right now, guys, unfortunately.
+
+158
+00:13:07,360 --> 00:13:09,480
+I was working on it, but I didn't have enough time to finish it.
+
+159
+00:13:09,720 --> 00:13:14,720
+So I'll post it in the group. Next week. But let's just,
+
+160
+00:13:14,880 --> 00:13:17,060
+let's just quickly take a look here at SMP.
+
+161
+00:13:19,640 --> 00:13:21,580
+Let's see. We can plot this guys.
+
+162
+00:13:26,750 --> 00:13:31,460
+There's a function here. I don't recall what it is, but anyways,
+
+163
+00:13:31,580 --> 00:13:35,320
+three month realized vols for the SMP. Let's take a look at the realized vols.
+
+164
+00:13:35,360 --> 00:13:37,760
+Okay. The realized correlations. Look at this guys.
+
+165
+00:13:40,240 --> 00:13:46,620
+Russell index 12 SMP 26. Dow Jones 28. Right. All of a sudden now,
+
+166
+00:13:46,640 --> 00:13:48,100
+like usually we,
+
+167
+00:13:48,360 --> 00:13:50,980
+people usually say like ETFs are usually more expensive and that's because you're
+
+168
+00:13:50,980 --> 00:13:54,670
+getting this like implied correlation risk premium. Right.
+
+169
+00:13:55,190 --> 00:13:56,290
+So let's go six months.
+
+170
+00:13:57,620 --> 00:14:01,610
+So now all of a sudden we go from what was a correlation of,
+
+171
+00:14:01,710 --> 00:14:07,570
+let's say 25 to 45. From now let's say 15 to 30. Right.
+
+172
+00:14:07,650 --> 00:14:08,810
+For the realized correlations.
+
+173
+00:14:13,980 --> 00:14:16,540
+And so, you know, given all this information,
+
+174
+00:14:16,660 --> 00:14:20,380
+we could probably say that implied correlation of 76 is like way overdue,
+
+175
+00:14:20,380 --> 00:14:23,120
+but we need to figure out what it should be. Right.
+
+176
+00:14:23,180 --> 00:14:30,720
+And it's likely going to be something along the lines of 40%. Maybe even 35%.
+
+177
+00:14:33,280 --> 00:14:36,440
+And so, you know, if we were, let's say a humongous hedge fund, and we wanted,
+
+178
+00:14:36,600 --> 00:14:37,860
+let's say, let's say less risk.
+
+179
+00:14:37,900 --> 00:14:41,320
+What we could do is maybe do a dispersion trade where we figure out, okay,
+
+180
+00:14:41,420 --> 00:14:42,500
+well, what assets shouldn't,
+
+181
+00:14:42,600 --> 00:14:46,880
+can we buy here to kind of replicate the ETF invest with only,
+
+182
+00:14:46,980 --> 00:14:48,140
+let's say a handful of stocks.
+
+183
+00:14:48,260 --> 00:14:53,700
+Maybe we will want to only use 10 stocks and can we replicate the most of this basket
+
+184
+00:14:53,700 --> 00:14:55,760
+or most of the volatility of this basket.
+
+185
+00:14:56,650 --> 00:15:01,360
+And so we would do that by those vols sell the quibble,
+
+186
+00:15:01,460 --> 00:15:02,880
+which has a 76 implied core.
+
+187
+00:15:03,080 --> 00:15:05,320
+So basically we're buying realized core selling implied core,
+
+188
+00:15:05,380 --> 00:15:07,300
+and we're going to capture the spread between that.
+
+189
+00:15:12,670 --> 00:15:15,470
+But in this case, we're cowboys. You guys know we're cowboys.
+
+190
+00:15:15,730 --> 00:15:20,380
+And so we're just going to go outright short Vega and short the volatility.
+
+191
+00:15:29,610 --> 00:15:33,670
+Yeah, Tico. So implied correlation is usually going to be higher, right?
+
+192
+00:15:33,710 --> 00:15:38,730
+That's why there's usually a higher risk premium in ETFs.
+
+193
+00:15:38,750 --> 00:15:43,460
+And there is single stocks is because of that. So you wouldn't hedge Tico.
+
+194
+00:15:43,540 --> 00:15:46,790
+You would just let it rip, right? You're almost,
+
+195
+00:15:46,950 --> 00:15:51,320
+you're replicating the basket with these stocks and you're going to let them rip.
+
+196
+00:15:54,320 --> 00:15:59,590
+At least that's what I would do because it's super cost of like, this is,
+
+197
+00:15:59,630 --> 00:16:01,910
+that's probably a really good trade to do this, right?
+
+198
+00:16:01,950 --> 00:16:05,030
+But what we're going to do is we're going to see what the realized correlation is,
+
+199
+00:16:05,150 --> 00:16:10,450
+test it out, make sure that, you know,
+
+200
+00:16:10,470 --> 00:16:15,500
+realize the realized correlation is in between 50 and 90, usually. Right.
+
+201
+00:16:15,520 --> 00:16:18,200
+If that's the case and, you know, we probably don't want to be selling this,
+
+202
+00:16:18,240 --> 00:16:20,140
+but it's unlikely. It's very unlikely.
+
+203
+00:16:24,990 --> 00:16:27,770
+Okay. So that is what, that's really what we're going to be.
+
+204
+00:16:27,770 --> 00:16:30,110
+That's really what I wanted to show you guys today.
+
+205
+00:16:32,200 --> 00:16:35,980
+So you want to be a big seller so far. We're not a hundred percent. Sure.
+
+206
+00:16:36,060 --> 00:16:40,310
+Just yet. But a big seller of these quibbles.
+
+207
+00:16:43,330 --> 00:16:50,370
+Okay. And I think guys, so Jan,
+
+208
+00:16:50,450 --> 00:16:53,410
+2023 is usually a tree at 27 at the lowest point.
+
+209
+00:16:55,880 --> 00:16:59,500
+That's what I wanted to use as a PA terminal here to show you guys.
+
+210
+00:17:06,780 --> 00:17:09,960
+We plot the one-year vols over time.
+
+211
+00:17:15,350 --> 00:17:20,660
+We can see that this thing was trading at 27. It was trading at 28,
+
+212
+00:17:21,380 --> 00:17:30,220
+29 at a low at the lowest point during the debacle of the tiger cub vault went to
+
+213
+00:17:30,220 --> 00:17:33,460
+38. And now we're trading at 45 all. Okay.
+
+214
+00:17:36,720 --> 00:17:41,880
+So likely when things settle down, we're going to see vols.
+
+215
+00:17:41,900 --> 00:17:47,020
+I would say maybe drop, drop back down to 35, 33. If you're going,
+
+216
+00:17:47,080 --> 00:17:53,020
+if you're willing to hold it, which would be insane, right?
+
+217
+00:17:53,560 --> 00:17:57,040
+It'd be pretty insane considering all that Vega.
+
+218
+00:18:02,490 --> 00:18:06,110
+Actually, let's see Steve. Are we the only volume in Jan, 2023 today?
+
+219
+00:18:13,000 --> 00:18:15,520
+But we can't be though. There's must've been tons of buyers though.
+
+220
+00:18:21,440 --> 00:18:26,020
+Okay. It had almost no volume.
+
+221
+00:18:29,500 --> 00:18:30,020
+Interesting.
+
+222
+00:18:33,570 --> 00:18:34,590
+I wonder who buying it done.
+
+223
+00:18:36,460 --> 00:18:45,130
+There seems to be quite a lot of open interest here on the,
+
+224
+00:18:47,360 --> 00:18:56,490
+on these Jan 20, 23 calls a 60 strike like 10 K.
+
+225
+00:18:57,390 --> 00:19:02,790
+That's a ton of Vega monster size.
+
+226
+00:19:06,600 --> 00:19:12,080
+Yeah, no problem. No problem, Joey. Enjoy your swim, buddy. Okay.
+
+227
+00:19:12,120 --> 00:19:15,980
+That's going to be, that's going to be all for today. Have a good weekend,
+
+228
+00:19:16,060 --> 00:19:17,080
+everyone. Enjoy yourselves.
+
+229
+00:19:17,560 --> 00:19:20,810
+Take it easy and we will see you all back on Monday.

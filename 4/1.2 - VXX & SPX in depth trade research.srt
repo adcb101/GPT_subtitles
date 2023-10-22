@@ -1,0 +1,1267 @@
+1
+00:00:00,000 --> 00:00:03,300
+All right, everyone,
+
+2
+00:00:03,660 --> 00:00:08,600
+today we're going to be looking over a trade that came to my attention recently,
+
+3
+00:00:09,000 --> 00:00:18,010
+and it's VXX SPY relative value trade. I just thought I'd go, you know,
+
+4
+00:00:18,050 --> 00:00:22,150
+through my thought process with you guys and also, you know,
+
+5
+00:00:22,170 --> 00:00:23,410
+what the trade looks like.
+
+6
+00:00:24,180 --> 00:00:27,740
+And just like basically break it down for you guys to see like maybe what's going
+
+7
+00:00:27,740 --> 00:00:28,660
+on in my head sometimes.
+
+8
+00:00:32,390 --> 00:00:36,490
+So with that said, let me just share my screen and we'll jump right into it.
+
+9
+00:00:40,000 --> 00:00:40,560
+You should be able to.
+
+10
+00:00:43,340 --> 00:00:43,700
+All right.
+
+11
+00:00:46,230 --> 00:00:51,530
+So, the trade is VXX SPY. And first, you know, you guys probably saying like,
+
+12
+00:00:51,690 --> 00:00:53,150
+how did I come up with this? Well,
+
+13
+00:00:53,350 --> 00:00:55,870
+the first thing I did was I scanned for the most,
+
+14
+00:00:55,990 --> 00:00:59,010
+the highest implied vol for the one year options, which I was looking for.
+
+15
+00:00:59,410 --> 00:01:05,400
+So let me just write that in there. The thought process was implied vol,
+
+16
+00:01:05,960 --> 00:01:13,080
+one year, looking for the highest in terms of percentile.
+
+17
+00:01:13,500 --> 00:01:17,100
+So where is it right now versus where is it usually? And let me just,
+
+18
+00:01:17,260 --> 00:01:21,390
+I'll draw that out here. Let me just draw that out.
+
+19
+00:01:21,390 --> 00:01:24,190
+So if the implied volatility looks like this,
+
+20
+00:01:25,480 --> 00:01:31,400
+I scanned on the one year implied vol for options that are up here,
+
+21
+00:01:31,800 --> 00:01:33,200
+for implied volatility that's up here.
+
+22
+00:01:36,390 --> 00:01:38,110
+And VXX came on the radar.
+
+23
+00:01:41,800 --> 00:01:43,680
+So the first I did was I said, okay,
+
+24
+00:01:43,680 --> 00:01:48,120
+let me let me plot the implied volatility of the VIX, of the one year options.
+
+25
+00:01:48,220 --> 00:01:50,580
+Okay, so it came up my radar. So let me take a look at this.
+
+26
+00:01:50,580 --> 00:01:52,420
+And here's what we notice, right?
+
+27
+00:01:52,740 --> 00:01:56,850
+The one year implied volatility is as high as it was during COVID,
+
+28
+00:01:58,260 --> 00:02:03,510
+which is insane. It's insanity, but it's up there. Okay, it's at the,
+
+29
+00:02:03,670 --> 00:02:08,290
+it's at all time highs. And so I have a friend who, you know,
+
+30
+00:02:08,310 --> 00:02:11,830
+trades professionally in the VIX and SPX space. And I met, I said to him,
+
+31
+00:02:11,830 --> 00:02:16,180
+I said, hey, like, what's going on here? You know, this, I'm like,
+
+32
+00:02:16,200 --> 00:02:24,340
+this is extremely odd for me to see that the volatility of VXX is so high.
+
+33
+00:02:24,540 --> 00:02:28,260
+And we're gonna talk about that in a second. And he said, since the crash,
+
+34
+00:02:29,090 --> 00:02:39,830
+buying vol on VXX has been one of the most popular ways to get long volatility exposure.
+
+35
+00:02:41,300 --> 00:02:47,220
+Okay, so buying buying call options on VXX to get, let's say,
+
+36
+00:02:47,400 --> 00:02:48,360
+tail risk exposure.
+
+37
+00:02:50,660 --> 00:02:51,480
+And just so you guys know,
+
+38
+00:02:51,860 --> 00:02:56,200
+what we're looking at here is the one year volatility of VXX.
+
+39
+00:02:57,360 --> 00:03:03,780
+And VXX is volatility. So you call this the vol of vol. Okay, vol of vol.
+
+40
+00:03:05,880 --> 00:03:10,570
+I said, okay, well, you know, I wonder what the S&P vol looks like, right?
+
+41
+00:03:10,750 --> 00:03:15,830
+You know, there's really two ways that are popular to hedge. One, buy SPX puts.
+
+42
+00:03:16,740 --> 00:03:19,000
+Okay, two, buy VIX calls.
+
+43
+00:03:21,070 --> 00:03:24,580
+So I plotted the S&P, one year vol.
+
+44
+00:03:25,020 --> 00:03:30,190
+And you guys can see it's been trickling down. Right, which makes sense. Well,
+
+45
+00:03:30,230 --> 00:03:33,370
+you know, we're seeing the absolute opposite for VXX. Super weird.
+
+46
+00:03:36,990 --> 00:03:40,630
+So what I'm just going to do here is I'm going to plot the three month vol and the
+
+47
+00:03:40,630 --> 00:03:45,110
+one year vol in the same graph. Okay, so here's the three month. Here is VXX,
+
+48
+00:03:45,880 --> 00:03:49,580
+implied volatility. And for three months.
+
+49
+00:03:49,980 --> 00:03:58,060
+And here is SPX three month right here. So I asked my friend, I said, hey,
+
+50
+00:03:58,100 --> 00:04:00,960
+like, how should I structure this trade? Like, you know, I'm trying to,
+
+51
+00:04:01,060 --> 00:04:04,880
+you know, do you see anything, you know, going on here? And he said,
+
+52
+00:04:04,940 --> 00:04:12,990
+it's clear as day that VXX is actually the alpha leg. Meaning,
+
+53
+00:04:13,740 --> 00:04:16,020
+we want to get short vol on VXX.
+
+54
+00:04:16,020 --> 00:04:21,740
+But it's kind of hard being short vol outright. You know, things go sour.
+
+55
+00:04:21,900 --> 00:04:26,340
+You could be in big trouble. VXX can be explosive. So what he said he would do,
+
+56
+00:04:26,800 --> 00:04:33,310
+so he's taking the trade, is buy SPY vol as the hedge. Okay,
+
+57
+00:04:33,310 --> 00:04:35,550
+so now we're not just looking at VXX in isolation.
+
+58
+00:04:35,870 --> 00:04:39,350
+We need to look at VXX vol with S&P vol.
+
+59
+00:04:42,200 --> 00:04:49,000
+And one thing to note here, guys, is it's hard to view these graphs like this,
+
+60
+00:04:49,340 --> 00:04:52,320
+right? We don't even know if these are correlated. Like, it's hard to say, hey,
+
+61
+00:04:52,400 --> 00:04:56,180
+well, you know, our next step would be, let me write it down here.
+
+62
+00:04:56,760 --> 00:05:06,300
+Our next step would be, is SPX vol correlated with VXX vol,
+
+63
+00:05:09,500 --> 00:05:11,880
+right? At the end of the day, we're trading vol versus vol.
+
+64
+00:05:12,340 --> 00:05:14,460
+If these things aren't correlated, we could be in big trouble.
+
+65
+00:05:14,460 --> 00:05:19,610
+And it's hard for us to see if they are correlated from this graph. Okay,
+
+66
+00:05:19,730 --> 00:05:24,860
+so what we need to do is we need to scale the data. Okay, so basically,
+
+67
+00:05:25,020 --> 00:05:27,660
+we got to turn everything into standard deviations.
+
+68
+00:05:29,570 --> 00:05:32,210
+So that's what I'm just doing right here. I'm just scaling the data.
+
+69
+00:05:32,430 --> 00:05:38,210
+So now we can actually look at this and look how clean this is now. We can say,
+
+70
+00:05:38,290 --> 00:05:45,010
+okay, well, clearly, these two assets are very similar or correlated, right?
+
+71
+00:05:45,070 --> 00:05:46,270
+Would anyone disagree with that?
+
+72
+00:05:47,540 --> 00:05:53,340
+Would anyone disagree and say the volatility is not – vol of vol is not correlated
+
+73
+00:05:53,340 --> 00:05:58,640
+with vol of S&P? What do you guys think?
+
+74
+00:06:02,960 --> 00:06:05,140
+So I think we can all say, you know, it is, right?
+
+75
+00:06:07,860 --> 00:06:14,170
+And so now we say, okay, well, we know – it looks like VXX is overpriced. Okay,
+
+76
+00:06:14,170 --> 00:06:17,810
+that's our alpha like. And it looks like S&P is fairly priced.
+
+77
+00:06:18,380 --> 00:06:23,980
+So we can buy S&P against our VXX position and trade this. Now,
+
+78
+00:06:24,040 --> 00:06:26,120
+the last thing we need to do – well, not the last thing,
+
+79
+00:06:26,160 --> 00:06:27,700
+but an important step is to say, okay, well,
+
+80
+00:06:27,860 --> 00:06:34,470
+where is this relationship today relative to where it usually is? Okay?
+
+81
+00:06:37,860 --> 00:06:41,260
+And not just that, we want to see, okay, well,
+
+82
+00:06:41,260 --> 00:06:44,460
+where is the relationship of the 1-year vol, the 90-day vol,
+
+83
+00:06:44,760 --> 00:06:50,620
+and the realized vols? Okay? So because we need to decide, like,
+
+84
+00:06:50,760 --> 00:06:53,640
+are we going to trade the 1-year relationship?
+
+85
+00:06:53,880 --> 00:06:57,760
+Are we going to trade the 10-day relationship, the 90-day relationship?
+
+86
+00:06:58,220 --> 00:06:59,200
+What are we going to trade here?
+
+87
+00:06:59,900 --> 00:07:02,220
+And so that's what this last graph is going to do here.
+
+88
+00:07:06,250 --> 00:07:16,460
+So in green, lime green here, okay, this is the realized vol relationship.
+
+89
+00:07:17,160 --> 00:07:21,620
+So what is the realized vol of S&P? What is the realized vol of VXX?
+
+90
+00:07:22,080 --> 00:07:25,700
+Divide those by each other, and that's this green line. Okay?
+
+91
+00:07:25,960 --> 00:07:30,080
+And you can see that – well, like, that's what it is, okay?
+
+92
+00:07:31,080 --> 00:07:32,400
+We're going to get back to what we see.
+
+93
+00:07:32,400 --> 00:07:37,640
+The second thing is this red line here is the implied vol 90 days.
+
+94
+00:07:38,200 --> 00:07:43,720
+So IV 90-day of the S&P 500 divided by the 90-day vol of VXX.
+
+95
+00:07:44,220 --> 00:07:47,900
+That's this red graph here. And the blue graph is the 1-year.
+
+96
+00:07:48,000 --> 00:07:51,540
+So the 1-year of S&P 500 divided by the 1-year of VXX.
+
+97
+00:07:53,470 --> 00:07:58,910
+And so what we notice is the relationships are at the highs. Okay?
+
+98
+00:07:58,930 --> 00:08:06,550
+So Vega looks overpriced. Okay? Vega on VXX versus XPX looks overpriced.
+
+99
+00:08:07,600 --> 00:08:15,170
+What we also notice is that the realized ratio is much lower as well.
+
+100
+00:08:15,690 --> 00:08:18,190
+And not only much lower, it doesn't get much higher.
+
+101
+00:08:19,720 --> 00:08:23,460
+So what does this mean for us? Well, it means a couple things.
+
+102
+00:08:24,060 --> 00:08:29,470
+The first thing is vol is overpriced. Vega is overpriced.
+
+103
+00:08:29,830 --> 00:08:33,450
+And the second thing is it's going to have a positive carry,
+
+104
+00:08:33,450 --> 00:08:39,420
+meaning theta is overpriced as well. Okay? So when we put on this position,
+
+105
+00:08:39,660 --> 00:08:44,560
+it's going to carry theta. It's going to make money every single day. Right?
+
+106
+00:08:44,920 --> 00:08:46,320
+Should make money every single day.
+
+107
+00:08:48,080 --> 00:08:51,140
+And the second thing is we actually might get the vols to drop.
+
+108
+00:08:51,840 --> 00:08:56,680
+We might get Vega gains and theta gains. Very rare. That's a very rare, like,
+
+109
+00:08:57,410 --> 00:09:03,250
+trade to find. But it looks like this is actually going to have both. Right?
+
+110
+00:09:03,290 --> 00:09:03,870
+Which is awesome.
+
+111
+00:09:06,280 --> 00:09:09,160
+So before we go and actually structure this position, I have it on thinkorswim.
+
+112
+00:09:09,400 --> 00:09:10,800
+Does anyone have any questions about this?
+
+113
+00:09:19,080 --> 00:09:22,960
+Any questions? Any questions, guys? Like,
+
+114
+00:09:23,000 --> 00:09:25,460
+usually what we'll see is we'll put on, let's say, you know,
+
+115
+00:09:26,040 --> 00:09:27,520
+realized vol is going to be through the roof.
+
+116
+00:09:27,840 --> 00:09:32,000
+And so implied vol is going to be through the roof. But when you sell vol,
+
+117
+00:09:32,280 --> 00:09:35,480
+usually the realized outpace is the theta. Right?
+
+118
+00:09:35,500 --> 00:09:38,510
+The gamma outpace is the theta. But in this situation,
+
+119
+00:09:38,650 --> 00:09:39,870
+we actually might get both.
+
+120
+00:09:45,260 --> 00:09:46,460
+Let's go structure it out,
+
+121
+00:09:46,540 --> 00:09:48,780
+and we'll come back with any questions here because I'm not seeing any yet.
+
+122
+00:09:49,340 --> 00:09:52,600
+Okay, great. So let's go and.
+
+123
+00:09:54,780 --> 00:09:56,080
+Okay. So here we go.
+
+124
+00:09:56,260 --> 00:10:00,410
+So here is a paper trade of it just so you guys can see it.
+
+125
+00:10:04,750 --> 00:10:08,420
+So the way we're structuring this trade is going to be theta neutral.
+
+126
+00:10:09,140 --> 00:10:14,000
+And we're going to be doing the S&P 500 volatility versus the vol of vol.
+
+127
+00:10:14,440 --> 00:10:17,780
+And we're going to be doing them a strangle swap. Okay?
+
+128
+00:10:17,780 --> 00:10:20,180
+We're going to do one strangle versus another strangle.
+
+129
+00:10:21,920 --> 00:10:23,680
+And so this is what it looks like.
+
+130
+00:10:29,100 --> 00:10:32,240
+So here's our S&P. First thing to note, guys, we're going to notice about this.
+
+131
+00:10:32,500 --> 00:10:35,100
+So I put this on earlier today just to show you guys in this example.
+
+132
+00:10:37,500 --> 00:10:42,440
+You see how this is up $1,600. This is down $2,000. That's the whole idea,
+
+133
+00:10:42,580 --> 00:10:42,720
+right?
+
+134
+00:10:42,980 --> 00:10:46,160
+One gain is going to offset the loss or the gain is going to offset the loss.
+
+135
+00:10:46,200 --> 00:10:50,180
+And in the long run, we're going to make more money on the winning side.
+
+136
+00:10:50,360 --> 00:10:51,000
+Then we lose.
+
+137
+00:10:53,480 --> 00:10:58,760
+Okay. So here is the S&P. And the way we structured it is we're long.
+
+138
+00:10:59,240 --> 00:11:03,140
+So we're in September. We decide to do the 90-day vol. We just graph it.
+
+139
+00:11:03,240 --> 00:11:06,590
+We pull up the graph again. We're trading this red line here. Okay?
+
+140
+00:11:06,590 --> 00:11:09,690
+Because the red line is going to give us a little bit of exposure to realized vol.
+
+141
+00:11:10,690 --> 00:11:15,180
+And it's at the highs. Okay? The one-year vol has come in quite a bit.
+
+142
+00:11:15,740 --> 00:11:17,460
+Still high, but has come in quite a bit.
+
+143
+00:11:18,650 --> 00:11:25,210
+So the structure we did here is a delta 25 strangle. Okay? On the S&P 500.
+
+144
+00:11:25,610 --> 00:11:34,010
+So I bought 100 of the 380s and bought 100 of the 442 to give us a total theta of
+
+145
+00:11:34,010 --> 00:11:37,810
+$1,000. So every single day, this position is going to lose $1,000.
+
+146
+00:11:40,550 --> 00:11:45,590
+On the flip side, we did this VXX trade. Okay?
+
+147
+00:11:45,590 --> 00:11:52,440
+And we did it again with a little bit more theta because it's the alpha leg.
+
+148
+00:11:53,380 --> 00:11:58,500
+So we got 1,150 theta. Okay?
+
+149
+00:11:58,620 --> 00:12:02,900
+So theta neutral plus a little bit more theta because this is the alpha leg.
+
+150
+00:12:03,540 --> 00:12:08,200
+And then again, delta 25 strangle. And this is what the trade looks like.
+
+151
+00:12:08,400 --> 00:12:14,520
+We're short the 31 put and short the 80 call. So that's the trade.
+
+152
+00:12:15,430 --> 00:12:18,570
+And hopefully, you know, in two, three weeks,
+
+153
+00:12:18,950 --> 00:12:20,890
+this thing makes a bunch of money.
+
+154
+00:12:26,460 --> 00:12:27,740
+So now do we have any questions?
+
+155
+00:12:31,680 --> 00:12:32,480
+Any comments?
+
+156
+00:12:38,430 --> 00:12:39,890
+Will do, Ram. Just waiting for Jordan here.
+
+157
+00:12:42,820 --> 00:12:47,910
+Good? Okay. Ram's asking, can you explain what an alpha leg is?
+
+158
+00:12:53,410 --> 00:12:56,510
+I was going to make a silly joke there. But anyways, Ram,
+
+159
+00:12:56,690 --> 00:13:00,770
+the alpha leg is you have two things here, right? Now,
+
+160
+00:13:01,000 --> 00:13:04,280
+one of them is likely to be the over... Okay,
+
+161
+00:13:04,360 --> 00:13:05,600
+one of them is likely to be efficient.
+
+162
+00:13:06,120 --> 00:13:08,260
+And the other is likely to be over or underpriced.
+
+163
+00:13:09,340 --> 00:13:11,660
+The over or underpriced leg is the alpha leg.
+
+164
+00:13:12,020 --> 00:13:14,700
+This is the leg otherwise known as the error correcting leg.
+
+165
+00:13:15,020 --> 00:13:21,200
+This is the leg that you think should correct. Not this one. Okay? So usually,
+
+166
+00:13:21,680 --> 00:13:24,120
+there's two things. You usually want to get this leg on first.
+
+167
+00:13:24,900 --> 00:13:28,970
+And you usually want to trade a little more size. So in this case, Ram,
+
+168
+00:13:29,290 --> 00:13:34,460
+imagine we have two things here. Okay? They're trading differently. Now,
+
+169
+00:13:34,460 --> 00:13:36,340
+we think one of two things are going to happen.
+
+170
+00:13:37,360 --> 00:13:40,060
+This is going to come down or this is going to go up.
+
+171
+00:13:40,220 --> 00:13:42,860
+Or maybe they meet in the middle. But in this case,
+
+172
+00:13:43,300 --> 00:13:47,480
+we think that this leg right here is the alpha leg.
+
+173
+00:13:48,350 --> 00:13:51,610
+So what that means is we think this is going to correct.
+
+174
+00:13:53,800 --> 00:13:57,080
+So we want to get short a little bit more of this. Right?
+
+175
+00:13:59,070 --> 00:14:03,420
+Imagine Coca-Cola and Pepsi usually move like this together. Right?
+
+176
+00:14:03,460 --> 00:14:09,090
+They usually move like this. And then all of a sudden, Pepsi goes like this.
+
+177
+00:14:10,070 --> 00:14:14,690
+Okay? Now, Pepsi jumped up a bunch in terms of vol. Coca-Cola didn't change.
+
+178
+00:14:15,250 --> 00:14:18,430
+All right? Well, the question we need to ask is like, okay,
+
+179
+00:14:18,470 --> 00:14:22,610
+like assuming these should get more correlated or, you know,
+
+180
+00:14:22,610 --> 00:14:23,750
+come back together in some way.
+
+181
+00:14:24,110 --> 00:14:28,490
+Is Pepsi supposed to come down or is Coca-Cola supposed to go up?
+
+182
+00:14:29,010 --> 00:14:31,870
+If we determine that Coca-Cola is the one that's supposed to go up,
+
+183
+00:14:32,030 --> 00:14:34,430
+this would be the leg that we actually make money on.
+
+184
+00:14:35,610 --> 00:14:37,830
+And this would be the one that we have as a hedge.
+
+185
+00:14:39,890 --> 00:14:42,930
+Right? But this is the one that makes the money by coming up.
+
+186
+00:14:51,560 --> 00:14:55,700
+Perfect. So we've got another question from Adam here. Adam's saying,
+
+187
+00:14:56,080 --> 00:14:58,360
+so when you say collect Theta and Vega,
+
+188
+00:14:58,360 --> 00:15:03,180
+do you mean the extra 150 a day that you're getting on the short options?
+
+189
+00:15:05,290 --> 00:15:05,430
+Yeah.
+
+190
+00:15:08,060 --> 00:15:13,800
+Yeah. Like Adam. So that 150 is the Theta, the positive carry. Right?
+
+191
+00:15:13,820 --> 00:15:16,460
+So that's like the Theta gains that we would gain from putting this on.
+
+192
+00:15:17,180 --> 00:15:22,790
+The Vega gains would come from the position correcting, the vols coming down.
+
+193
+00:15:23,340 --> 00:15:25,740
+So it's like, while we wait for the vols to come down,
+
+194
+00:15:25,900 --> 00:15:28,900
+we actually don't have to burn money holding the position.
+
+195
+00:15:28,900 --> 00:15:31,000
+We'll actually make money holding the position.
+
+196
+00:15:32,140 --> 00:15:35,220
+So we kind of get to double dip in a way. So, Jordan,
+
+197
+00:15:35,440 --> 00:15:38,680
+maybe this is an important question to ask. I'm surprised it didn't come up,
+
+198
+00:15:38,740 --> 00:15:43,810
+honestly. How do we lose money here? Yeah. Good question.
+
+199
+00:15:44,370 --> 00:15:49,790
+So we lose money here if implied vol, if the spread continues.
+
+200
+00:15:49,870 --> 00:15:51,970
+Because remember, guys, we're trading this. I'm sharing my screen still, right?
+
+201
+00:15:52,430 --> 00:15:55,910
+Yes. Okay. So we lose money a couple of ways here.
+
+202
+00:15:59,960 --> 00:16:03,460
+Way number one, this red line here continues to go up.
+
+203
+00:16:03,460 --> 00:16:07,360
+We're short this red line right now. Okay. We're short this red line.
+
+204
+00:16:08,240 --> 00:16:09,040
+Why do we lose money?
+
+205
+00:16:09,420 --> 00:16:13,910
+This red line goes up and that means we're losing on Vega. Okay.
+
+206
+00:16:13,970 --> 00:16:15,850
+Implied vols are still moving.
+
+207
+00:16:19,360 --> 00:16:22,920
+The other way we lose is this green line shoots up.
+
+208
+00:16:23,320 --> 00:16:25,510
+We're also short this green line. Okay.
+
+209
+00:16:25,610 --> 00:16:29,470
+We're saying that we're not technically short this green line.
+
+210
+00:16:29,570 --> 00:16:32,570
+We're just saying that this red line is going to be higher than this green line.
+
+211
+00:16:33,070 --> 00:16:36,510
+So if this red line goes down and this green line goes down, you know,
+
+212
+00:16:36,510 --> 00:16:37,370
+we're going to be okay.
+
+213
+00:16:38,670 --> 00:16:42,330
+So that's another way we could lose money is if this green line just shoots through
+
+214
+00:16:42,330 --> 00:16:50,470
+the roof. AKA let's say S&P doesn't move. Okay. And VXX moves like crazy.
+
+215
+00:16:52,020 --> 00:16:53,580
+You got another question here.
+
+216
+00:16:54,140 --> 00:16:59,860
+How do you know how to size these two positions relative to each other? Yep.
+
+217
+00:17:00,120 --> 00:17:02,600
+You can. So in this case, Theta neutral.
+
+218
+00:17:03,200 --> 00:17:06,980
+So Theta neutral just means premium neutral. So think about it like this.
+
+219
+00:17:08,770 --> 00:17:12,250
+So there's two things, right? There's Vega neutral, which is notional neutral.
+
+220
+00:17:12,890 --> 00:17:18,570
+So you buy $1 million of the underlying of SPX and,
+
+221
+00:17:18,730 --> 00:17:22,470
+or SPY and a million dollars of VXX. Theta neutral means.
+
+222
+00:17:23,600 --> 00:17:30,290
+Imagine nothing happened. Okay. So this, this strangle. Nothing happens.
+
+223
+00:17:30,350 --> 00:17:33,410
+We realize the max loss on both of these. Okay.
+
+224
+00:17:33,410 --> 00:17:38,760
+It just means we wouldn't lose or make any money. They're premium neutral. See,
+
+225
+00:17:38,840 --> 00:17:45,800
+so for example, and this is. $138,000 is how much premium we have to output.
+
+226
+00:17:46,580 --> 00:17:50,840
+And this is going to be, it should be a tiny bit more. Or 138,000.
+
+227
+00:17:50,960 --> 00:17:57,220
+So they're both 138,000. They're premium neutral, AKA. Theta neutral.
+
+228
+00:17:59,980 --> 00:18:03,320
+And that's, you know, whether you want to do Vega neutral or Theta neutral,
+
+229
+00:18:03,640 --> 00:18:04,800
+that's for another conversation.
+
+230
+00:18:08,460 --> 00:18:12,020
+So we've got a question here. I'm going to jump in front of this one though.
+
+231
+00:18:13,580 --> 00:18:17,400
+How are you going to manage this position or is there any management required?
+
+232
+00:18:21,650 --> 00:18:23,610
+Well, I thought you were going to jump in front of it. No, no.
+
+233
+00:18:23,610 --> 00:18:26,650
+That's the one that I mentioned. I shared my question. That is my question. Oh,
+
+234
+00:18:26,890 --> 00:18:33,480
+okay. Okay. Okay. Okay. Okay. Got it. How do I manage this position?
+
+235
+00:18:34,280 --> 00:18:37,760
+So this is a really good question. And as this thing changes.
+
+236
+00:18:37,760 --> 00:18:41,900
+So for example let's say we,
+
+237
+00:18:42,180 --> 00:18:47,270
+let's say implied volatility of VXX starts to collapse.
+
+238
+00:18:47,470 --> 00:18:51,330
+Then I'm obviously going to close out the position. If let's say the stock,
+
+239
+00:18:51,690 --> 00:18:57,590
+the S&P jumps up and VXX doesn't move. Well, I got to hedge my deltas. Right.
+
+240
+00:18:58,730 --> 00:19:00,450
+So it's really going to be,
+
+241
+00:19:00,850 --> 00:19:02,790
+there's going to be a lot of different combos that could happen,
+
+242
+00:19:02,930 --> 00:19:07,190
+but I'm really only caring. I really only care about two things. Okay.
+
+243
+00:19:07,190 --> 00:19:13,080
+Two things I care about. Delta and theta. If one of my legs get too high theta,
+
+244
+00:19:13,620 --> 00:19:16,560
+I'm going to neutralize it. If one of my legs get too high delta,
+
+245
+00:19:16,860 --> 00:19:19,440
+I'm going to neutralize it. And I'm always thinking about it.
+
+246
+00:19:19,700 --> 00:19:27,540
+I'm always thinking about this trade together, together as a whole. Okay. Yeah.
+
+247
+00:19:27,560 --> 00:19:30,520
+So I was actually about to add on there, Jordan. Where can someone look at the,
+
+248
+00:19:30,540 --> 00:19:31,780
+the whole portfolio?
+
+249
+00:19:34,810 --> 00:19:38,030
+Obviously you have, like if I just look at this one trade, it's not,
+
+250
+00:19:38,090 --> 00:19:38,970
+it doesn't look beta neutral. It's just beta neutral.
+
+251
+00:19:38,970 --> 00:19:40,950
+well how can I see the whole thing together?
+
+252
+00:19:41,510 --> 00:19:46,270
+Like what my total theta is on this and my total delta, things like that. Yep.
+
+253
+00:19:46,450 --> 00:19:49,110
+So your theta, you guys don't need to do any adjusting for it.
+
+254
+00:19:49,190 --> 00:19:52,610
+It's going to be right here. Delta is going to be a little trickier. Okay.
+
+255
+00:19:52,650 --> 00:19:56,730
+Delta is going to be a lot trickier. Because S S and P 500.
+
+256
+00:19:56,970 --> 00:20:00,210
+One delta of S and P 500 is different than one delta of the XX.
+
+257
+00:20:02,080 --> 00:20:03,600
+And maybe we can have another live on that,
+
+258
+00:20:03,600 --> 00:20:07,540
+but that's that's going to be a little bit trickier. Theta. You just.
+
+259
+00:20:08,400 --> 00:20:11,640
+It's just premium. Right. So you can just look at it right here.
+
+260
+00:20:14,210 --> 00:20:18,200
+So now for a serious question, You know, we always say, you know,
+
+261
+00:20:18,280 --> 00:20:21,460
+don't try to repair a losing trade. When are you,
+
+262
+00:20:21,560 --> 00:20:24,540
+when would you actually exit this thing for a loss? Yeah,
+
+263
+00:20:24,560 --> 00:20:28,240
+that's a really good question. And with this trade, it's actually really hard.
+
+264
+00:20:28,870 --> 00:20:31,950
+It's really hard to exit this trade, but you still have to, you know,
+
+265
+00:20:31,950 --> 00:20:33,490
+you still have to exit. So let me go back to our,
+
+266
+00:20:36,280 --> 00:20:40,080
+well, it's something to the top like this. Okay. And you look over,
+
+267
+00:20:40,180 --> 00:20:43,550
+let's say five years data. And it's at the top. It's hard.
+
+268
+00:20:44,420 --> 00:20:48,930
+As this thing keeps going against you, it's hard to say I'm wrong. Okay.
+
+269
+00:20:48,930 --> 00:20:50,590
+Especially with a relative value trade like this,
+
+270
+00:20:50,650 --> 00:20:55,320
+that has such a tight relationship. In this case, you have,
+
+271
+00:20:55,420 --> 00:21:00,600
+you want to have a PNL stop. So if I lose X amount of dollars,
+
+272
+00:21:01,080 --> 00:21:03,950
+I have to close the position. Okay.
+
+273
+00:21:04,150 --> 00:21:08,490
+Remember being wrong and having the right time are the same or having the wrong
+
+274
+00:21:08,490 --> 00:21:13,250
+time or the same thing. So have a PNL stop. And when you hit that,
+
+275
+00:21:13,350 --> 00:21:14,370
+you got to exit the position.
+
+276
+00:21:20,700 --> 00:21:23,480
+So we have another question here from Lucas, Lucas, what's going on, man.
+
+277
+00:21:24,250 --> 00:21:28,060
+He said, I'm not sure if he covered this yet,
+
+278
+00:21:28,880 --> 00:21:31,540
+but VXX appears to be made up 50%.
+
+279
+00:21:32,060 --> 00:21:35,820
+Front month contracts for VIX and 50% June contracts.
+
+280
+00:21:36,100 --> 00:21:39,680
+And then something he's pointing out about this is that the June contracts have
+
+281
+00:21:39,680 --> 00:21:43,240
+a lower implied vol than the may contracts. And what do we think about that?
+
+282
+00:21:44,890 --> 00:21:48,570
+So I think probably right now it's probably 50, 50, but it's, it's,
+
+283
+00:21:48,610 --> 00:21:53,970
+they're trying to find out what the 30 day volatility, the 30 day vol is.
+
+284
+00:21:54,070 --> 00:21:58,390
+Right. So let's say for example, so June right now is 44 days, I believe away.
+
+285
+00:21:58,670 --> 00:22:00,250
+And may is 18.
+
+286
+00:22:00,670 --> 00:22:04,630
+As we get closer and closer as June gets closer and closer to that 30 day mark.
+
+287
+00:22:05,050 --> 00:22:09,310
+Then VXX is going to start buying more and more of June contracts.
+
+288
+00:22:11,100 --> 00:22:13,520
+And in terms of June, having a lower implied vol,
+
+289
+00:22:13,760 --> 00:22:19,310
+that just means there's going to be a rollup. Right. So you can actually, if,
+
+290
+00:22:19,310 --> 00:22:22,250
+if, if, if, if the market's in steep contango,
+
+291
+00:22:23,680 --> 00:22:27,760
+Then VXX should start to trend down. Because of that roll down.
+
+292
+00:22:28,510 --> 00:22:32,280
+If it's in backwardation. Then as a,
+
+293
+00:22:32,400 --> 00:22:35,220
+as June gets closer and closer to the 30 day, right. Well,
+
+294
+00:22:35,460 --> 00:22:40,450
+think about VXX as a, as the ETF is selling high and buying low. Right.
+
+295
+00:22:40,450 --> 00:22:45,360
+So it's going to have a roll up. And. So how,
+
+296
+00:22:45,440 --> 00:22:51,710
+how does that affect this position? I thought about it and, you know, that,
+
+297
+00:22:51,790 --> 00:22:56,580
+that, that, that, that effect from the term structure.
+
+298
+00:22:56,780 --> 00:23:03,180
+It's not actually going to be as important here just because our position is so
+
+299
+00:23:03,180 --> 00:23:05,850
+wide. Right. If you look at our position here,
+
+300
+00:23:09,290 --> 00:23:13,680
+if you look at our position here. We get a 10% move in the underlying.
+
+301
+00:23:15,220 --> 00:23:18,200
+It doesn't really affect our position because we're a hundred days out.
+
+302
+00:23:18,720 --> 00:23:19,860
+So we're not really,
+
+303
+00:23:19,860 --> 00:23:23,080
+we're not really too concerned about those Delta moves for now.
+
+304
+00:23:23,660 --> 00:23:26,160
+We're more concerned about just the level of vol.
+
+305
+00:23:30,370 --> 00:23:33,910
+And. I keep in mind, this is also vol of vol. This is not.
+
+306
+00:23:34,550 --> 00:23:38,930
+This is not volatility. Right. The VXX is the vol.
+
+307
+00:23:40,500 --> 00:23:45,000
+And this is the volatility of that volatility. So it's called vol, vol, vol.
+
+308
+00:23:48,980 --> 00:23:51,680
+Any other questions? Yeah. I hope to answer your question.
+
+309
+00:23:54,830 --> 00:24:01,740
+Danveer. What's up, man? Good to see you here. I just noticed.
+
+310
+00:24:03,080 --> 00:24:05,870
+We have another Sean in the chat. Oh,
+
+311
+00:24:08,130 --> 00:24:09,650
+And I was like,
+
+312
+00:24:09,950 --> 00:24:12,630
+I thought it was maybe Jekka or someone playing a joke on me at first.
+
+313
+00:24:13,070 --> 00:24:17,790
+But then I remembered. We actually have another Sean. Is he Irish? Hello, Sean.
+
+314
+00:24:18,630 --> 00:24:23,270
+I spelt the Irish way. So probably. What's up, dude.
+
+315
+00:24:26,520 --> 00:24:31,680
+An imposter. Right. There can only be one.
+
+316
+00:24:34,870 --> 00:24:35,970
+So I guess I'll leave.
+
+317
+00:24:39,080 --> 00:24:43,140
+Cool. So if we have no more questions, I'm going to stop the recording there.

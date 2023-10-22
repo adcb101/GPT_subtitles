@@ -1,0 +1,1855 @@
+1
+00:00:01,010 --> 00:00:02,890
+So, on tonight's live, everyone,
+
+2
+00:00:02,990 --> 00:00:05,110
+we wanted to just have more of an open discussion.
+
+3
+00:00:05,450 --> 00:00:09,270
+The reason is the big thing we're going to focus on this week is Coinbase,
+
+4
+00:00:09,790 --> 00:00:13,710
+right? Coinbase, super hype company, right?
+
+5
+00:00:13,950 --> 00:00:18,810
+Really difficult to actually like evaluate because it's hard to actually find something
+
+6
+00:00:18,810 --> 00:00:22,550
+to compare it to. And it's coming out with the options tomorrow.
+
+7
+00:00:23,530 --> 00:00:27,230
+So what we wanted to discuss with you is some of the ideas that we're going to be
+
+8
+00:00:27,230 --> 00:00:31,870
+looking at first thing in the morning tomorrow for pricing out Coinbase volatility
+
+9
+00:00:33,000 --> 00:00:34,320
+and trying to actually,
+
+10
+00:00:36,430 --> 00:00:37,270
+if there's a trade, right?
+
+11
+00:00:37,270 --> 00:00:40,590
+There's a chance this thing can open up really crazy levels of vol.
+
+12
+00:00:41,900 --> 00:00:44,440
+And we just want to make sure that, you know,
+
+13
+00:00:45,840 --> 00:00:49,640
+we have an idea of what we're looking at so we can, you know,
+
+14
+00:00:50,690 --> 00:00:51,730
+pull trigger if need be.
+
+15
+00:00:53,980 --> 00:00:54,620
+What do you think, Jordan?
+
+16
+00:00:56,860 --> 00:00:57,900
+So, guys, tomorrow,
+
+17
+00:00:58,020 --> 00:01:02,420
+Coinbase coming out with vol products or vol products coming out on Coinbase,
+
+18
+00:01:02,460 --> 00:01:05,540
+I should say. And we want to be the first ones there, right?
+
+19
+00:01:05,560 --> 00:01:08,020
+We want to be the first ones being able to value this product.
+
+20
+00:01:08,480 --> 00:01:12,460
+I was asking around some pretty smart people who are in the industry and asked them
+
+21
+00:01:12,460 --> 00:01:15,440
+like, how are you going to value this? And they said,
+
+22
+00:01:15,460 --> 00:01:20,160
+it's going to be tough because there's no comparables, right?
+
+23
+00:01:20,160 --> 00:01:21,820
+There's nothing that's comparable. So, you know,
+
+24
+00:01:21,840 --> 00:01:26,960
+Sean and I were chatting and we were thinking about some ideas on how we could value
+
+25
+00:01:26,960 --> 00:01:30,740
+this thing. And we thought, you know, as a team, we would try to figure it out.
+
+26
+00:01:31,600 --> 00:01:34,880
+If we can be the first ones to value this thing properly tomorrow, well,
+
+27
+00:01:35,020 --> 00:01:37,520
+you know, there's going to be a lot of money on the table, right? So,
+
+28
+00:01:37,720 --> 00:01:41,180
+I think it's good that we have this discussion today. So,
+
+29
+00:01:41,220 --> 00:01:45,220
+why don't we kick it off with some of our ideas to start, Jordan? Yeah. So,
+
+30
+00:01:45,720 --> 00:01:48,740
+the first thing I was thinking was like, okay, well, there's no comparables,
+
+31
+00:01:48,920 --> 00:01:55,800
+but can we take a blend of some stuff to try and value this, right? So,
+
+32
+00:01:55,820 --> 00:02:01,710
+the ones that I were thinking of right off the bat were Ethereum and Bitcoin vol.
+
+33
+00:02:03,450 --> 00:02:04,890
+And then also make, but, you know,
+
+34
+00:02:05,070 --> 00:02:10,330
+because it's a company also taking maybe some Tesla vol and GME vol and making a
+
+35
+00:02:10,330 --> 00:02:16,490
+blend. And Sean had a- Oh, sorry, dude, I muted you accidentally.
+
+36
+00:02:19,140 --> 00:02:19,740
+There we go.
+
+37
+00:02:23,210 --> 00:02:27,730
+No, no, I just muted you accidentally because someone came in with some noise.
+
+38
+00:02:29,520 --> 00:02:30,520
+Here, just unmute yourself.
+
+39
+00:02:32,520 --> 00:02:35,540
+Just now, right? Yeah, my apologies. No, no problem. So,
+
+40
+00:02:35,800 --> 00:02:37,520
+Steve B still heard me say happy birthday to him.
+
+41
+00:02:38,160 --> 00:02:41,420
+And he heard me saying happy birthday, right? All right. Yeah, guys,
+
+42
+00:02:41,440 --> 00:02:45,640
+just so you know, keep your mics on mute. Just until like, you know,
+
+43
+00:02:45,640 --> 00:02:47,700
+unless you have something just for background noise, things like that.
+
+44
+00:02:49,230 --> 00:02:53,540
+All right. So, yeah, Coinbase.
+
+45
+00:02:53,820 --> 00:02:58,360
+We try to take a blend to try to figure out what the vols are there. And so,
+
+46
+00:02:58,500 --> 00:03:05,630
+GME, Tesla, and Bitcoin and Ethereum vol.
+
+47
+00:03:06,400 --> 00:03:11,920
+But Sean also had a really good point there. Well, what about a brokerage,
+
+48
+00:03:12,340 --> 00:03:17,660
+right? Isn't this thing, isn't this thing like a brokerage? And so, you know,
+
+49
+00:03:17,660 --> 00:03:25,340
+we said, okay, well, maybe it's obviously not going to be as- What's that?
+
+50
+00:03:25,940 --> 00:03:30,630
+What's IBKR vol? IBKR vol is like 25. Yeah,
+
+51
+00:03:30,750 --> 00:03:33,880
+so it's probably not going to be that. Right. Oh,
+
+52
+00:03:34,640 --> 00:03:41,500
+Marcos is saying there might be a couple of comparables like FUTU and TIGR.
+
+53
+00:03:42,360 --> 00:03:44,760
+Yeah? What are these? What are these, Marcos?
+
+54
+00:03:46,820 --> 00:03:48,740
+Do you want to chat? Like, what's going on? Well, like,
+
+55
+00:03:48,760 --> 00:03:54,190
+what are these products? I think those are like Chinese digital brokerages.
+
+56
+00:03:57,700 --> 00:04:01,890
+Chinese digital brokerage. Interesting. That could be close.
+
+57
+00:04:02,190 --> 00:04:06,260
+That could be good. That could be really good. Digitized? Not like,
+
+58
+00:04:06,380 --> 00:04:09,260
+I don't think those are like crypto brokerage. Yeah,
+
+59
+00:04:09,320 --> 00:04:12,600
+these are probably going to be, I would say, more volatile than Coinbase.
+
+60
+00:04:13,020 --> 00:04:18,100
+What was the other one, Marcos, you said? TIGR. TIGR?
+
+61
+00:04:20,150 --> 00:04:22,930
+Yeah, because, so one of the things I was thinking, right? You know,
+
+62
+00:04:22,970 --> 00:04:25,110
+we could use like Bitcoin vol, for example,
+
+63
+00:04:27,130 --> 00:04:32,130
+but, you know, are their revenues really tied to the value of Bitcoin?
+
+64
+00:04:33,310 --> 00:04:35,720
+You know, like, you know,
+
+65
+00:04:35,720 --> 00:04:39,680
+I'm trying to think of what would be on like interactive brokerage because they
+
+66
+00:04:39,680 --> 00:04:44,020
+make their money off of commissions, right? You know, do we know,
+
+67
+00:04:44,140 --> 00:04:46,340
+are they taking the Bitcoin and investing it somewhere?
+
+68
+00:04:46,700 --> 00:04:50,540
+Or do they just hold it for their clients? Like, you know,
+
+69
+00:04:50,580 --> 00:04:55,930
+where are they really making their money? Yeah. Yeah,
+
+70
+00:04:55,930 --> 00:04:58,690
+it'll impact buying and selling for sure. But that's more like,
+
+71
+00:04:58,960 --> 00:05:02,720
+it's not like Bitcoin goes from $100,000 to $50,000,
+
+72
+00:05:02,920 --> 00:05:06,740
+their revenues are cut in half. It's not a one-to-one relationship like that.
+
+73
+00:05:07,000 --> 00:05:10,380
+Because maybe, like, do we know, does a dip in Bitcoin encourage more buying?
+
+74
+00:05:11,920 --> 00:05:13,240
+Do people just, you know, like,
+
+75
+00:05:15,640 --> 00:05:20,150
+on a surface level, it's like that's not their revenue, you know? Or is it?
+
+76
+00:05:20,230 --> 00:05:21,330
+I don't know a ton about them.
+
+77
+00:05:23,100 --> 00:05:27,980
+I think their earnings are going to be a lot more volatile than let's say a lot
+
+78
+00:05:27,980 --> 00:05:30,900
+of the competitor or like a lot of like, you know, regular brokerages.
+
+79
+00:05:32,980 --> 00:05:35,960
+And you have that retail hump, right? The retail pump.
+
+80
+00:05:36,240 --> 00:05:41,420
+Which is why I was thinking we put in GME as kind of like in the mix as well.
+
+81
+00:05:41,560 --> 00:05:42,340
+GME vols.
+
+82
+00:05:45,390 --> 00:05:47,430
+But this is going to be a tricky one. I was looking,
+
+83
+00:05:47,530 --> 00:05:50,370
+so the ones that Marcos mentioned are trading at about $100 vol.
+
+84
+00:05:51,230 --> 00:05:54,330
+Futu and Tiger are trading at about $100 volatility.
+
+85
+00:05:56,460 --> 00:06:00,880
+There's one to check out here as well. It's a Canadian company, VYGR.
+
+86
+00:06:01,760 --> 00:06:08,660
+It's a crypto exchange listed on the TSX. Really? That's what I'm seeing here.
+
+87
+00:06:08,760 --> 00:06:12,030
+These things went to the, this thing went to the moon. Okay,
+
+88
+00:06:12,150 --> 00:06:14,410
+but realized vols are only $35.
+
+89
+00:06:16,930 --> 00:06:23,450
+Because one thing we're seeing with Coinbase right now is, I'm sorry, guys.
+
+90
+00:06:23,830 --> 00:06:25,410
+Does anyone know actually? Oh, there it is.
+
+91
+00:06:27,620 --> 00:06:30,960
+The last two days, guys, it's been moving 3%,
+
+92
+00:06:33,040 --> 00:06:36,860
+right? So when vols come out, I would imagine this thing picks up a little bit.
+
+93
+00:06:39,960 --> 00:06:43,640
+You know, like, what if this thing actually realizes $50 vol or $40 vol,
+
+94
+00:06:48,570 --> 00:06:49,230
+right?
+
+95
+00:06:51,990 --> 00:06:53,630
+If I look at Tesla, for example,
+
+96
+00:06:53,730 --> 00:07:00,090
+so Tesla is trading at $58 realized vol right now. $70 implied. Okay,
+
+97
+00:07:00,090 --> 00:07:03,350
+we got GME realizing $100 vol.
+
+98
+00:07:06,400 --> 00:07:12,020
+And the one that Sean mentioned is realizing $35 vol. And IBKR, TD, Ameritrade,
+
+99
+00:07:12,280 --> 00:07:14,280
+they're all realizing $20 vol.
+
+100
+00:07:17,970 --> 00:07:24,220
+So Koa is raising his hand here. So I would say like anything above $80 vol,
+
+101
+00:07:24,400 --> 00:07:26,080
+guys, is probably a sell.
+
+102
+00:07:28,240 --> 00:07:30,580
+And we're going to be trading the longer dated vols.
+
+103
+00:07:30,980 --> 00:07:34,600
+That's what's going to be probably most overpriced is the longer dated vol.
+
+104
+00:07:35,160 --> 00:07:38,780
+And, you know, the GAMLA is probably going to be fairly priced.
+
+105
+00:07:39,390 --> 00:07:43,830
+It's that longer dated vol that's going to be over underpriced. So,
+
+106
+00:07:44,030 --> 00:07:49,620
+Micah had an idea. Eric, Micah, a few people have had ideas here. Actually,
+
+107
+00:07:49,700 --> 00:07:50,640
+lots of ideas in the chat.
+
+108
+00:07:52,900 --> 00:07:54,520
+So I'll start with Micah's idea here. He said,
+
+109
+00:07:54,580 --> 00:07:57,420
+what if we start by setting an upper bound on vol? Right?
+
+110
+00:07:57,500 --> 00:07:59,180
+Coinbase isn't more likely to be,
+
+111
+00:07:59,280 --> 00:08:02,660
+isn't likely to be more volatile than their first two to three days after their
+
+112
+00:08:02,660 --> 00:08:07,660
+IPO anyways. Really good point, actually. Really good point, Micah.
+
+113
+00:08:08,200 --> 00:08:16,280
+And the only issue is the first day was like 300 vol. Right?
+
+114
+00:08:16,340 --> 00:08:21,460
+But if we look after that, Micah, and that's a really good point, actually.
+
+115
+00:08:24,930 --> 00:08:25,810
+This range here.
+
+116
+00:08:29,910 --> 00:08:35,070
+It's only a 6% range. So I think, honestly,
+
+117
+00:08:35,130 --> 00:08:37,370
+I think that's actually a really good way to look at it, buddy.
+
+118
+00:08:39,360 --> 00:08:44,320
+Let's just do the math super quick. So I'd say upper bound, 96 vol.
+
+119
+00:08:47,420 --> 00:08:47,840
+Wow.
+
+120
+00:08:49,850 --> 00:08:55,040
+Watch this thing come out at 120 vol tomorrow. Like the one year.
+
+121
+00:08:55,080 --> 00:08:57,920
+I know Steve B saying the shorter-dated vol is going to be overpriced.
+
+122
+00:08:58,360 --> 00:08:59,960
+I actually, I would disagree with that, Steve.
+
+123
+00:08:59,980 --> 00:09:01,040
+And I'd love to hear your opinion.
+
+124
+00:09:02,840 --> 00:09:08,860
+Gamma is probably not going to be too expensive. Right? Like this thing,
+
+125
+00:09:08,960 --> 00:09:14,280
+this thing could get pumped so easily. And I think that the longer-dated vols,
+
+126
+00:09:14,360 --> 00:09:15,440
+man, are going to be through the roof.
+
+127
+00:09:15,820 --> 00:09:21,740
+They're going to come down like 40 vegas on a two-year option. You know,
+
+128
+00:09:21,780 --> 00:09:24,650
+in a week. Just like ARKX did.
+
+129
+00:09:29,390 --> 00:09:32,390
+Not 40 vegas, but 10 vegas. Koa has his hand up.
+
+130
+00:09:32,450 --> 00:09:34,290
+Maybe we'll see what Koa has to say. He's got,
+
+131
+00:09:34,530 --> 00:09:38,370
+he's always got a good opinion there. Yeah, Koa, just send me your mic. Okay.
+
+132
+00:09:38,870 --> 00:09:47,780
+Hi. So I read somewhere that the, how do you say? The exchange,
+
+133
+00:09:48,340 --> 00:09:57,090
+the centralized exchange like Coinbase, Binance, the number of like,
+
+134
+00:09:57,290 --> 00:10:03,250
+the percentage of trades are going down. And what's up is the,
+
+135
+00:10:03,530 --> 00:10:07,790
+how do you say it? Like SoFi,
+
+136
+00:10:08,390 --> 00:10:15,670
+distributed exchange where you don't have a centralized,
+
+137
+00:10:17,060 --> 00:10:21,500
+everything is like anonymous and decentralized.
+
+138
+00:10:22,800 --> 00:10:25,700
+So just to give you like the trend,
+
+139
+00:10:27,250 --> 00:10:33,370
+I think Coinbase is going to go up for the next six-month year,
+
+140
+00:10:34,320 --> 00:10:40,260
+but perhaps later, the trend will go like they will have to offer,
+
+141
+00:10:40,650 --> 00:10:47,670
+I don't know, decentralized trades because that's where it's hot.
+
+142
+00:10:47,930 --> 00:10:51,210
+Like the market is going there because if you have decentralized,
+
+143
+00:10:52,110 --> 00:10:57,190
+you have less fees, and you have more anonymity. Like you have better,
+
+144
+00:10:58,920 --> 00:11:01,080
+less government intervention,
+
+145
+00:11:01,380 --> 00:11:07,520
+less risk than going with decentralized transactions.
+
+146
+00:11:08,550 --> 00:11:10,350
+So what do you think about the vols though, Koa?
+
+147
+00:11:10,390 --> 00:11:13,830
+Do you think it's going to be like crazy volatile or do you think it's going to
+
+148
+00:11:13,830 --> 00:11:18,520
+start to really settle down? I'm actually surprised that it didn't double.
+
+149
+00:11:18,520 --> 00:11:23,320
+I mean, I thought it would double, triple in like Doge or something.
+
+150
+00:11:24,080 --> 00:11:30,000
+So I think the risk is to the upside.
+
+151
+00:11:30,160 --> 00:11:36,620
+Like the stock will go up if suddenly Bitcoin is going up,
+
+152
+00:11:36,680 --> 00:11:40,520
+and then everybody wants to FOMO and get into the coins,
+
+153
+00:11:40,820 --> 00:11:43,680
+whether Bitcoin or Ethereum or Doge or whatever.
+
+154
+00:11:44,120 --> 00:11:52,460
+So people will go in and want to be in the trade. So the volume will go up.
+
+155
+00:11:53,620 --> 00:12:00,240
+But I don't think they make money because they hold the cryptos.
+
+156
+00:12:01,390 --> 00:12:07,690
+Like if crypto doubles, they won't double their assets. I don't think so. Okay.
+
+157
+00:12:08,050 --> 00:12:12,630
+Maybe we could start by thinking about like how big this thing is, right?
+
+158
+00:12:12,630 --> 00:12:17,110
+If it's a huge company, right? It's going to be hard to move.
+
+159
+00:12:17,810 --> 00:12:20,050
+And if the volume is going to be huge, it's going to be hard to move.
+
+160
+00:12:20,050 --> 00:12:25,440
+So does anyone know how big this thing is? What's the market cap? What's that?
+
+161
+00:12:25,720 --> 00:12:30,420
+It's 11% of the crypto market. Dude, but how big is the company?
+
+162
+00:12:30,560 --> 00:12:33,760
+Like what's the market cap of this thing? How many shares are available?
+
+163
+00:12:34,380 --> 00:12:41,730
+It's like 61 billion. It's 61 billion? Oh, this is going to be a...
+
+164
+00:12:41,730 --> 00:12:43,970
+That should bring vols down like crazy.
+
+165
+00:12:46,490 --> 00:12:47,590
+Let me see. 185 million.
+
+166
+00:12:53,140 --> 00:12:59,120
+Yeah. Wow. 62 billion market cap. Shares outstanding. Almost 200 million.
+
+167
+00:13:04,290 --> 00:13:05,670
+So this is pretty big.
+
+168
+00:13:08,290 --> 00:13:13,950
+So to give you an idea, Binance market cap is 77 billion.
+
+169
+00:13:16,830 --> 00:13:17,290
+Okay.
+
+170
+00:13:19,730 --> 00:13:26,260
+So, guys, this looks like a sell. And they have 25.
+
+171
+00:13:26,380 --> 00:13:28,520
+Binance have 25% of market share.
+
+172
+00:13:31,320 --> 00:13:36,660
+And their value like slightly over like more than these companies at 11.
+
+173
+00:13:36,940 --> 00:13:42,580
+This has around. Like it moves, right? So the data is like it could be 11%,
+
+174
+00:13:42,580 --> 00:13:46,140
+I said. But it could be 14 right now or 9. I don't know.
+
+175
+00:13:48,380 --> 00:13:49,200
+Okay. Well,
+
+176
+00:13:49,220 --> 00:13:52,680
+just given that the market cap is honestly 65 billion or 68 billion,
+
+177
+00:13:53,360 --> 00:13:55,180
+that's huge, right?
+
+178
+00:13:55,260 --> 00:14:00,320
+This isn't like a GME $3 billion company easy to push around, right?
+
+179
+00:14:00,320 --> 00:14:02,300
+This is a lot of money that would take to move this thing.
+
+180
+00:14:04,680 --> 00:14:09,500
+So that's also, you know, if we see vols at like 100% tomorrow,
+
+181
+00:14:09,820 --> 00:14:12,600
+that would just be phenomenal. Phenomenal for us.
+
+182
+00:14:15,130 --> 00:14:18,430
+So, yeah, I think we're seeing over 100 is a sell for sure.
+
+183
+00:14:18,510 --> 00:14:21,750
+And we're talking about the one-year options here, right? Yeah, yeah.
+
+184
+00:14:21,750 --> 00:14:22,610
+The one-year options.
+
+185
+00:14:23,050 --> 00:14:26,550
+Because I'm thinking like it's got to be vols should be more than Tesla,
+
+186
+00:14:26,610 --> 00:14:28,570
+in my opinion. At least at the beginning.
+
+187
+00:14:30,060 --> 00:14:33,900
+Ryan's asking what is a what's Square vol when it IPO'd?
+
+188
+00:14:38,140 --> 00:14:38,640
+Let's see.
+
+189
+00:14:42,870 --> 00:14:45,670
+That could actually be a pretty good comparison, actually.
+
+190
+00:14:46,370 --> 00:14:51,010
+And Adam's mentioning it too, right? Two-year vol on Square right now is 47%.
+
+191
+00:14:53,070 --> 00:14:58,160
+Yeah. I'd actually say, guys, so I'm looking that up right now.
+
+192
+00:14:58,240 --> 00:14:58,880
+But as I do that,
+
+193
+00:14:59,080 --> 00:15:05,210
+I would actually say probably above like 75 vol is probably going to be a sell.
+
+194
+00:15:07,340 --> 00:15:10,730
+Let's see what Square was when it IPO'd. 60.
+
+195
+00:15:12,760 --> 00:15:17,260
+60 realized vol. The two-year was probably fair value is probably 45.
+
+196
+00:15:23,720 --> 00:15:29,060
+Question for you here. In terms of like time of day to sell it,
+
+197
+00:15:29,060 --> 00:15:31,460
+would you be looking to sell this right at the open?
+
+198
+00:15:31,780 --> 00:15:36,240
+Or do you think will there be like a lot of volume coming in throughout the day
+
+199
+00:15:36,240 --> 00:15:42,420
+that maybe it's worth waiting? I think you have your fair value.
+
+200
+00:15:42,720 --> 00:15:48,540
+I think for me, I'm going to put this at 70 fair value.
+
+201
+00:15:49,470 --> 00:15:54,330
+I'm just going off of like where Tesla is right now and also a 5% a day vol figure.
+
+202
+00:15:56,620 --> 00:16:02,750
+So anything that's a pretty big spread, I'm going to be selling it.
+
+203
+00:16:03,350 --> 00:16:05,790
+If this thing opens up at 100 vol, I'm going to sell it right in the morning.
+
+204
+00:16:07,070 --> 00:16:11,070
+I'm not going to put all the chips in the middle. But if it goes to, let's say,
+
+205
+00:16:11,090 --> 00:16:14,610
+120 vol, I'll get some more. And then unfortunately, if it keeps going,
+
+206
+00:16:14,710 --> 00:16:17,850
+I might have to get out of the position.
+
+207
+00:16:20,660 --> 00:16:24,520
+But I would be, I have my fair value and what vol I want to sell it at.
+
+208
+00:16:24,920 --> 00:16:27,100
+And if it opens up there, I'm going to have to sell it right away.
+
+209
+00:16:29,820 --> 00:16:30,300
+Got it.
+
+210
+00:16:36,150 --> 00:16:40,860
+Any other ideas? Steve B, you want to come chat? Birthday boy. Bring him in.
+
+211
+00:16:41,240 --> 00:16:41,680
+How's it going?
+
+212
+00:16:45,390 --> 00:16:52,380
+30. Wow, man, dude. How's it feel, man? It's almost your bedtime.
+
+213
+00:16:53,060 --> 00:16:56,400
+You're officially in the fossil gang. Me in the fossil gang, yeah.
+
+214
+00:16:58,430 --> 00:17:05,030
+I'll be like Jack, shout out to the fossil gang crew. Me, Dan, and uh... Right?
+
+215
+00:17:05,030 --> 00:17:09,010
+Anyways. Okay, I'll give my thoughts here. So first off,
+
+216
+00:17:09,190 --> 00:17:14,370
+I'd expect to see a lot of backwardation in the term structure, right, Jordan?
+
+217
+00:17:14,570 --> 00:17:17,650
+So just because if shorter-dated vols are 100, I don't think that's a sell.
+
+218
+00:17:18,670 --> 00:17:22,170
+Especially because it's an IPO, right? So 30-day vol, like that's a good point.
+
+219
+00:17:22,230 --> 00:17:24,270
+Like if people look at, oh, 30-day vol is 100, sell.
+
+220
+00:17:24,790 --> 00:17:26,890
+I don't think that's a good idea necessarily.
+
+221
+00:17:28,070 --> 00:17:32,130
+The other thing is there might not be super long-dated options.
+
+222
+00:17:33,000 --> 00:17:38,840
+So it might be only six months. So in that case, yeah.
+
+223
+00:17:39,530 --> 00:17:44,950
+They might not give you all the options up to 2023 and stuff.
+
+224
+00:17:47,140 --> 00:17:52,940
+And I think that's a really good point. Any ideas on how you would value this?
+
+225
+00:17:54,500 --> 00:17:57,200
+I think you guys brought up the good points for me.
+
+226
+00:17:57,400 --> 00:18:00,200
+The major point for lower vol is the market cap.
+
+227
+00:18:00,900 --> 00:18:05,700
+And the major point for higher vol is just the fact that it's an IPO.
+
+228
+00:18:05,760 --> 00:18:12,420
+And I think it's got a lot of challenging macro stuff that with Bitcoin regulation,
+
+229
+00:18:12,740 --> 00:18:16,300
+new players potentially entering the field fundamentally.
+
+230
+00:18:18,720 --> 00:18:22,600
+They've made a lot of revenue, but stuff's going to change, right?
+
+231
+00:18:22,680 --> 00:18:28,230
+So I wouldn't be surprised if it's half the price in six months.
+
+232
+00:18:29,540 --> 00:18:33,220
+So because at the same time, they just put out the IPO, right?
+
+233
+00:18:33,280 --> 00:18:34,640
+And people have to value this, right?
+
+234
+00:18:35,100 --> 00:18:37,320
+Just because it traded within a range for a couple of days,
+
+235
+00:18:37,860 --> 00:18:44,580
+I don't think that signifies that it's necessarily for sure going to be a lower
+
+236
+00:18:44,580 --> 00:18:46,680
+vol. But I was kind of thinking around the same.
+
+237
+00:18:46,920 --> 00:18:52,800
+If one-year vol was like at 100, to me, that seems conclusive enough.
+
+238
+00:18:52,980 --> 00:18:58,880
+So for six-month vol, what would that be like? It would be like 110, 120. Yeah,
+
+239
+00:18:58,920 --> 00:19:06,870
+yeah. But I wanted it to be, because I don't have a lot of confidence in that.
+
+240
+00:19:07,290 --> 00:19:10,230
+So if it's 110 on the high side, and I doubt it would open up low,
+
+241
+00:19:10,330 --> 00:19:14,450
+but if it opened up like under 50 on the,
+
+242
+00:19:14,870 --> 00:19:17,030
+like even the shorter-dated vol might be worth it.
+
+243
+00:19:19,670 --> 00:19:21,090
+That's kind of about the range I put.
+
+244
+00:19:22,490 --> 00:19:27,670
+So what do you think about Micah's idea that the second day of the IPO,
+
+245
+00:19:27,970 --> 00:19:30,110
+it'll only move 6%? What's your thoughts there?
+
+246
+00:19:30,110 --> 00:19:34,700
+And targeting that as the upper bound? Well, you're taking one day of data,
+
+247
+00:19:34,880 --> 00:19:40,800
+right? But it's like the IPO day. The IPO day itself,
+
+248
+00:19:41,060 --> 00:19:46,980
+it moved from 370 to 420 and then back down to 330. Yeah, yeah, yeah. Huge vol.
+
+249
+00:19:47,740 --> 00:19:51,100
+And I haven't gone, to be honest,
+
+250
+00:19:51,200 --> 00:19:54,760
+if I knew a little more about IPOs and everything,
+
+251
+00:19:54,960 --> 00:19:57,900
+but the earnings is going to be volatile as fuck. Yeah, exactly.
+
+252
+00:19:57,900 --> 00:20:03,340
+It always is for the, or potentially for these new listings, right?
+
+253
+00:20:03,840 --> 00:20:06,740
+So there's going to be some events of significant volatility.
+
+254
+00:20:09,790 --> 00:20:13,450
+I just think if it's super no-brainer, you take it, and then afterwards,
+
+255
+00:20:13,590 --> 00:20:17,630
+maybe we look at it and then look at the term structure and then see, well,
+
+256
+00:20:17,690 --> 00:20:20,190
+the term structure makes sense, right? Because there might be a trade there.
+
+257
+00:20:20,730 --> 00:20:24,550
+Yeah. So we look and see, hey, you know what? The term structure is flat.
+
+258
+00:20:26,860 --> 00:20:29,260
+That could be a trade, right? Exactly.
+
+259
+00:20:29,540 --> 00:20:33,420
+If this thing opens up flat vol surface tomorrow, and, you know,
+
+260
+00:20:33,460 --> 00:20:37,200
+it's 100 across the board, I think that's like a no-brainer easy trade. Yeah.
+
+261
+00:20:37,340 --> 00:20:39,560
+So like there might be a trade that comes up.
+
+262
+00:20:40,960 --> 00:20:45,520
+But I was going to approach it if there's something easy that comes up that I'm
+
+263
+00:20:45,520 --> 00:20:51,040
+like, this really makes sense. Like, I don't know.
+
+264
+00:20:51,200 --> 00:20:56,530
+Part of the part is when you sell like long-graded vol is, you know,
+
+265
+00:20:56,650 --> 00:21:01,650
+say it opens up at 75 and you sell, right? The six-month. What happens if it,
+
+266
+00:21:01,730 --> 00:21:05,190
+as you said, it goes up to 100, right? In that day. Yeah.
+
+267
+00:21:05,370 --> 00:21:07,650
+At the end of the day, you know, there's not going to be someone,
+
+268
+00:21:08,130 --> 00:21:11,110
+there might not be someone selling vol, right?
+
+269
+00:21:13,160 --> 00:21:16,920
+Like if it just has the right kind of combination of things.
+
+270
+00:21:17,600 --> 00:21:22,920
+And I'm not super sure how exactly, you know, it works. Like with ARKX,
+
+271
+00:21:22,940 --> 00:21:26,280
+it was a lot easier, right? Because you knew the volatility of the components.
+
+272
+00:21:26,440 --> 00:21:29,800
+It's not a- Exactly. This one's just so hard to value, right?
+
+273
+00:21:29,800 --> 00:21:34,380
+I do think that's where the, potentially there's obviously alpha there, right?
+
+274
+00:21:34,660 --> 00:21:37,460
+There's a ton, right? No one knows how to value this.
+
+275
+00:21:37,840 --> 00:21:44,280
+If you have a better dart, then, you know, at least for like a small position,
+
+276
+00:21:44,780 --> 00:21:48,160
+you could throw it at it, right? Right.
+
+277
+00:21:49,170 --> 00:21:52,370
+I think we're onto something too here in terms of like, you know,
+
+278
+00:21:52,670 --> 00:21:53,850
+the way we're looking at this,
+
+279
+00:21:53,910 --> 00:21:57,750
+the way we're trying to compare it to other things. What would be great?
+
+280
+00:21:57,810 --> 00:21:59,650
+And I don't know if we have information or data on it.
+
+281
+00:21:59,650 --> 00:22:05,870
+Does anyone have fundamental data on this thing in terms of balance sheet and stuff?
+
+282
+00:22:05,950 --> 00:22:10,130
+Because then we can start comparing it to other companies that have, you know,
+
+283
+00:22:10,170 --> 00:22:14,180
+similar characteristics. Like if this thing, imagine this thing,
+
+284
+00:22:14,280 --> 00:22:18,720
+we find out that it basically has all cash on the balance sheet and, you know,
+
+285
+00:22:18,760 --> 00:22:22,140
+revenues are pretty stable. I don't know. I haven't seen it. Well, you know,
+
+286
+00:22:22,140 --> 00:22:26,940
+this thing can't be volatile for too long, right? What do you think about that,
+
+287
+00:22:26,980 --> 00:22:31,660
+Steve? Mike is going to pull it up on his BBG. Yeah, he's a criminal. Yeah,
+
+288
+00:22:31,940 --> 00:22:33,180
+I agree.
+
+289
+00:22:33,360 --> 00:22:39,200
+But I do feel as though like I did read a couple articles and essentially like,
+
+290
+00:22:39,320 --> 00:22:41,140
+you know, they've been making all this revenue.
+
+291
+00:22:43,120 --> 00:22:45,580
+But the risk is kind of that they get squeezed out.
+
+292
+00:22:47,240 --> 00:22:52,340
+So it might not be as much like, like, I do think obviously the fundamentals,
+
+293
+00:22:52,460 --> 00:22:56,340
+if we can like more information, we get the better. Yeah.
+
+294
+00:22:58,450 --> 00:23:01,410
+You know, it's I think just tough. It's tough to value it.
+
+295
+00:23:01,410 --> 00:23:05,290
+Because what I was thinking of, like the way you value Tesla was so exact.
+
+296
+00:23:05,830 --> 00:23:10,160
+Right. And you should have all 20, you know, 20 points overvalued.
+
+297
+00:23:10,160 --> 00:23:13,220
+And you probably had a conference range of maybe five points on either side.
+
+298
+00:23:13,380 --> 00:23:17,060
+Right. Right. And in this situation,
+
+299
+00:23:17,460 --> 00:23:23,010
+like you have to have like a range of like 40 points, probably. So see,
+
+300
+00:23:23,070 --> 00:23:29,410
+let me ask you a hard question here. Gun to your head. What is fair value of,
+
+301
+00:23:29,710 --> 00:23:36,260
+let's say, one year vol for Coinbase? Fair value.
+
+302
+00:23:38,760 --> 00:23:42,190
+I'd probably say 60, but it wouldn't be selling it. Yeah.
+
+303
+00:23:42,450 --> 00:23:45,190
+Like if I had to sell it 60 or buy it 60, I'd sell it 60.
+
+304
+00:23:45,270 --> 00:23:49,450
+But I wouldn't sell it 60. Just because like if I think there's, you know,
+
+305
+00:23:49,490 --> 00:23:53,610
+10 points of edge, but I have no confidence in that, then I don't sell it.
+
+306
+00:23:53,750 --> 00:23:57,870
+Right. So you'd say 60 vol. And what do you think the odds are?
+
+307
+00:23:58,050 --> 00:23:59,730
+I would want to sell it a hundred.
+
+308
+00:24:00,250 --> 00:24:03,450
+And do you think there's any odds that this thing is actually worth 40 vol?
+
+309
+00:24:05,880 --> 00:24:11,000
+Um, yes. Me too. I actually, I do. Like, I think there's a chance,
+
+310
+00:24:11,120 --> 00:24:15,030
+but you can't be selling, you can't be selling vol. No, no, no.
+
+311
+00:24:15,090 --> 00:24:22,050
+I'm just trying to evaluate. Yeah, yeah, yeah. I think 40 is the lowest. Yeah,
+
+312
+00:24:22,330 --> 00:24:26,910
+yeah. If for some reason it opened like 40 vol, like,
+
+313
+00:24:27,070 --> 00:24:31,530
+like if it's opening similar to Snaps or whatever, then I think you buy it.
+
+314
+00:24:32,940 --> 00:24:38,470
+I don't know who said it in here, Steve, but if we think about it, like a,
+
+315
+00:24:38,610 --> 00:24:44,150
+like square, right. Square was kind of like a new technology when it came out.
+
+316
+00:24:44,550 --> 00:24:47,690
+But, but the only, the difference is, is that square had was,
+
+317
+00:24:47,910 --> 00:24:50,420
+was dealing with cash, right.
+
+318
+00:24:51,710 --> 00:24:54,230
+It wasn't dealing with like with the crypto space.
+
+319
+00:24:54,310 --> 00:25:01,500
+So maybe we could like say square plus some premium. Yeah. Yeah.
+
+320
+00:25:01,540 --> 00:25:04,960
+You got to have premium just because of the fact that you don't know. Right.
+
+321
+00:25:05,000 --> 00:25:09,490
+So it's like your margin of error. Right. Yes. I'd actually say 60 vol,
+
+322
+00:25:09,630 --> 00:25:15,310
+65 vol would probably be fair value. And we'd want to be selling at 85 plus.
+
+323
+00:25:15,890 --> 00:25:18,590
+Exactly. Yeah. For the one year.
+
+324
+00:25:19,190 --> 00:25:23,550
+So the one year is probably probably a hundred. Yeah, exactly. Exactly.
+
+325
+00:25:23,570 --> 00:25:25,190
+Really good point. Well, yeah, there's no way,
+
+326
+00:25:25,310 --> 00:25:30,980
+there's no way I'm selling 30 day at a hundred vol. Yeah. Because like, Christ,
+
+327
+00:25:31,440 --> 00:25:35,960
+I mean, just how we had on the initial day. Exactly. You know, you're done.
+
+328
+00:25:36,260 --> 00:25:41,200
+You're right. It's not a, not worth it. And yeah, we'll have a, have a look.
+
+329
+00:25:41,320 --> 00:25:46,710
+I'll be, I'll be curious. But the market may come like, you know, I haven't,
+
+330
+00:25:46,810 --> 00:25:52,090
+I haven't actually watched many of these single stock IPOs and I don't like the
+
+331
+00:25:52,090 --> 00:25:55,170
+ones that I looked at with me get a couple I looked at,
+
+332
+00:25:55,350 --> 00:26:00,570
+they seem pretty fairly priced actually. So got it. If it,
+
+333
+00:26:00,670 --> 00:26:03,330
+I guess if it comes out fairly priced, at least we did a good analysis.
+
+334
+00:26:04,030 --> 00:26:06,770
+Exactly. Exactly. Okay. Let's see what we got here. Let's see. We got,
+
+335
+00:26:06,790 --> 00:26:09,490
+we got some questions here for Steve. Potentially you can answer them.
+
+336
+00:26:10,720 --> 00:26:14,860
+Adam saying if it's flat, if it's a flat surface, can we do a calendar spread?
+
+337
+00:26:15,500 --> 00:26:18,360
+Absolutely. Absolutely. The issue is though,
+
+338
+00:26:18,800 --> 00:26:22,860
+Adam is that realized vol could be tough. It could honestly be very,
+
+339
+00:26:22,900 --> 00:26:23,760
+very tough to value.
+
+340
+00:26:23,760 --> 00:26:30,580
+And I think maybe just trading one leg tomorrow might be the ideal,
+
+341
+00:26:30,600 --> 00:26:32,640
+the ideal way to go.
+
+342
+00:26:36,180 --> 00:26:39,960
+Okay. So we got some, we got some earnings data here. Thanks to iPhone.
+
+343
+00:26:40,160 --> 00:26:42,640
+I think Eric's pointing out a good point there as well.
+
+344
+00:26:45,720 --> 00:26:46,160
+Yeah.
+
+345
+00:26:48,310 --> 00:26:54,390
+So Adam saying what happened with RBLX IPO vols were way overpriced, right?
+
+346
+00:26:54,390 --> 00:26:57,350
+So you could solve all there and it came down pretty quick.
+
+347
+00:26:58,400 --> 00:27:01,100
+And I think that's a tendency, right? Especially with these hype IPOs.
+
+348
+00:27:01,500 --> 00:27:02,860
+The only one that I haven't,
+
+349
+00:27:02,940 --> 00:27:10,280
+that I saw where like vol ripped like crazy was BYND, right? Vols came out,
+
+350
+00:27:10,620 --> 00:27:14,400
+they were priced. I think it was like 70 vol and the thing just ripped.
+
+351
+00:27:15,000 --> 00:27:17,140
+But other than that, they seem to be overpriced usually.
+
+352
+00:27:20,030 --> 00:27:24,390
+But BYND, like when it came out, did it have as much hype as like it became?
+
+353
+00:27:24,910 --> 00:27:25,710
+Cause didn't it like,
+
+354
+00:27:25,870 --> 00:27:29,510
+because what happened is after IPO just kept going up and up and up.
+
+355
+00:27:29,550 --> 00:27:30,230
+I don't know what.
+
+356
+00:27:33,910 --> 00:27:34,350
+Yeah.
+
+357
+00:27:36,200 --> 00:27:39,460
+Like that'd be a good one to kind of think of just like what could go wrong.
+
+358
+00:27:40,640 --> 00:27:44,580
+But that was a smaller market cap too, right? It was. Yeah. This is huge, man.
+
+359
+00:27:44,600 --> 00:27:49,130
+And I think that's a really good point, Steve. This thing's huge, right?
+
+360
+00:27:49,130 --> 00:27:51,770
+It's gonna take a lot of money to move this. But even look at Tesla, man.
+
+361
+00:27:51,790 --> 00:27:53,890
+We're seeing Tesla move at 60 vol right now.
+
+362
+00:27:56,290 --> 00:27:58,890
+Yeah. I was thinking of like a member of the tribute had,
+
+363
+00:27:58,950 --> 00:28:04,110
+didn't really work out on what was it? Chinese.
+
+364
+00:28:06,210 --> 00:28:12,990
+GSX? No. The one before it was before that. Was it ETF? No, Steve.
+
+365
+00:28:13,470 --> 00:28:19,080
+It didn't work out? Yeah. We got out of it pretty quick. Oh, lit. Oh, fine. No,
+
+366
+00:28:19,100 --> 00:28:23,910
+no, not lit. What was that one? I haven't traded any other one.
+
+367
+00:28:23,970 --> 00:28:28,630
+The one that got into the EV space. That was lit. No.
+
+368
+00:28:31,160 --> 00:28:33,600
+It's single stock. I can't remember the name,
+
+369
+00:28:34,260 --> 00:28:41,390
+but it was a large market cap and it ripped. I don't remember it. Baidu? Baidu.
+
+370
+00:28:41,950 --> 00:28:44,250
+Got it. Yeah. That was, that was pretty bad.
+
+371
+00:28:44,650 --> 00:28:47,690
+But eventually vols came down like crazy. Eventually.
+
+372
+00:28:49,960 --> 00:28:55,280
+After you got a margin call. Yeah. Like that selling high IV rank.
+
+373
+00:28:55,560 --> 00:28:56,800
+But even then though, right?
+
+374
+00:28:56,820 --> 00:29:00,280
+That thing was only moving five or 6% a day just because the vols I was selling
+
+375
+00:29:00,280 --> 00:29:04,000
+at 60 and it was realizing 80. Yeah. Like it wasn't that.
+
+376
+00:29:04,620 --> 00:29:09,200
+And it moved one direction the whole time. Yeah. Yeah. I think,
+
+377
+00:29:09,380 --> 00:29:14,140
+I think we can come to the conclusion. We are going to, we're going to say 65,
+
+378
+00:29:14,360 --> 00:29:21,200
+60 to 65 vol is fair value. And 85 vol and above for the one year.
+
+379
+00:29:21,520 --> 00:29:23,040
+We are huge sellers in.
+
+380
+00:29:25,930 --> 00:29:33,010
+I like that. I like that for tomorrow. If it opens up at 120, I'm shopping.
+
+381
+00:29:33,730 --> 00:29:35,590
+If it opens up at 120, it goes all in.
+
+382
+00:29:39,430 --> 00:29:43,610
+I have some fundamental data. Perfect. Thanks Tico.
+
+383
+00:29:46,360 --> 00:30:00,830
+So Coinbase revenue basically quadruple this year. So they, they,
+
+384
+00:30:00,930 --> 00:30:05,620
+they were making 1 billion and now they're making, oh, hold on. Sorry.
+
+385
+00:30:05,740 --> 00:30:12,320
+They were making 500 million in 2019. It doubled to 1.2 or something like that.
+
+386
+00:30:12,380 --> 00:30:19,800
+And now in the first quarter, they're making 1.8. In the first quarter. So,
+
+387
+00:30:19,880 --> 00:30:30,460
+so basically 7.2 for the whole year compared to 1.2. How about their earnings?
+
+388
+00:30:30,560 --> 00:30:34,080
+Do you have their earnings there too? Yeah. That's the earnings.
+
+389
+00:30:35,070 --> 00:30:38,250
+What about their, their debt to equity? Are they all,
+
+390
+00:30:38,550 --> 00:30:40,990
+what's their balance there? I like, of course, you know,
+
+391
+00:30:41,030 --> 00:30:43,270
+the first couple of days can be crazy volatile still.
+
+392
+00:30:43,270 --> 00:30:46,890
+Cause all the flows coming in, but if we're selling that longer dated stuff,
+
+393
+00:30:46,930 --> 00:30:49,830
+eventually that's going to die out and go towards its fundamental value.
+
+394
+00:30:49,830 --> 00:30:54,090
+So if we can get a good sense of what's up, what's going on on that side,
+
+395
+00:30:58,540 --> 00:31:02,170
+that's equity Tico. What do you got there? Hold on, hold on.
+
+396
+00:31:05,520 --> 00:31:10,200
+I don't have access. Oh my goodness. Tico. I thought you were the,
+
+397
+00:31:10,560 --> 00:31:13,360
+I thought you were the guy. I thought you were the fundamental expert there,
+
+398
+00:31:13,460 --> 00:31:15,560
+man. I thought you had all the data. I wasn't looking for that.
+
+399
+00:31:15,700 --> 00:31:20,580
+I wasn't looking for that. Debt to assets is 83%. According to this,
+
+400
+00:31:20,660 --> 00:31:26,080
+it's a 5.86 billion in assets and 4.8 billion in liabilities. Wow.
+
+401
+00:31:26,160 --> 00:31:31,330
+So it's positive equity. Is that all debt? Can you see or no? It doesn't.
+
+402
+00:31:31,610 --> 00:31:37,660
+I have no details. It's just a high level balance sheet. Got it. Okay.
+
+403
+00:31:37,680 --> 00:31:42,180
+So it has some equity, which is good. Just to give you an idea, Binance,
+
+404
+00:31:42,420 --> 00:31:46,330
+everything is double. Like revenue, like profit.
+
+405
+00:31:46,530 --> 00:31:52,160
+They're making 1 billion profit last year. Got it. And is there any vol on,
+
+406
+00:31:52,360 --> 00:31:56,830
+like Binance is not public, right? I don't think so.
+
+407
+00:31:58,830 --> 00:32:03,290
+Else we would have heard about it. Yeah. Tico, I got an idea.
+
+408
+00:32:04,010 --> 00:32:08,910
+What was this valued at a year ago? Right. You know how they did the IPO,
+
+409
+00:32:09,010 --> 00:32:09,230
+right?
+
+410
+00:32:11,950 --> 00:32:16,430
+And they have a valuation at the IPO. Like this was private before, right?
+
+411
+00:32:18,800 --> 00:32:23,680
+What? Coinbase? Coinbase. Yeah. Yeah. But it had a valuation, right?
+
+412
+00:32:23,700 --> 00:32:27,420
+So what was his valuation last year? How did that change from this year? Right.
+
+413
+00:32:28,390 --> 00:32:30,850
+So over the course of the year, how much did it move? Right.
+
+414
+00:32:32,520 --> 00:32:36,500
+I would say that would be an absolute extreme probably.
+
+415
+00:32:36,500 --> 00:32:43,180
+I know that Binance multiplied by 14, their valuation last year.
+
+416
+00:32:45,640 --> 00:32:53,040
+Like 2020. Multiplied by 14. Okay. So Binance has grown then, Tico.
+
+417
+00:32:55,190 --> 00:33:01,810
+Yeah, but Binance is 85 billion in market cap. Yeah. And it has grown by 14.
+
+418
+00:33:01,910 --> 00:33:09,740
+So divided by 14. And, oh, sorry. Coinbase is 85. What was Coinbase's,
+
+419
+00:33:10,000 --> 00:33:13,200
+like what would be their market cap a year ago?
+
+420
+00:33:15,910 --> 00:33:16,590
+Okay, let me check.
+
+421
+00:33:19,250 --> 00:33:23,450
+Because if it grew like 20X,
+
+422
+00:33:26,140 --> 00:33:31,000
+then that's obviously concerning.
+
+423
+00:33:33,150 --> 00:33:34,590
+I'm going to stick with my numbers.
+
+424
+00:33:34,710 --> 00:33:38,670
+I'm going to stick with that 60-65 fair value for the one year. Not even.
+
+425
+00:33:38,810 --> 00:33:43,340
+I'd say 60. 60 fair value for the one year, Steve. Yeah.
+
+426
+00:33:45,560 --> 00:33:48,860
+So 85, I'm a seller. 80, maybe I'm a seller.
+
+427
+00:33:51,950 --> 00:33:54,850
+Yeah. And if we get like something like in that maybe range,
+
+428
+00:33:54,890 --> 00:33:57,910
+maybe it pumps up a bit. Exactly, right? There's got to be some,
+
+429
+00:33:57,970 --> 00:34:02,690
+I might even put like a limit order in. Just get me in at 85 vol or 90 vol.
+
+430
+00:34:06,020 --> 00:34:07,860
+But we'll see how this thing opens up tomorrow.
+
+431
+00:34:08,440 --> 00:34:13,560
+Everyone's going to have the trigger ready. And see you all bright and early.
+
+432
+00:34:14,000 --> 00:34:17,750
+Yeah, see you guys bright and early tomorrow. Any other questions?
+
+433
+00:34:23,120 --> 00:34:23,820
+Let's see.
+
+434
+00:34:27,470 --> 00:34:31,950
+Eric's saying here that the shares were trading at $345 a share privately.
+
+435
+00:34:34,160 --> 00:34:38,280
+Interesting. What did this IPO at? Didn't it IPO at 345?
+
+436
+00:34:39,180 --> 00:34:41,460
+It IPO'd right around there, but then it shot right up.
+
+437
+00:34:44,630 --> 00:34:48,490
+It IPO'd at 380. Wow, I thought they would mark it up way higher than that.
+
+438
+00:34:50,330 --> 00:34:55,020
+The insiders were pissed. Yeah, I bet. I'd be living.
+
+439
+00:34:58,090 --> 00:35:02,240
+Okay. So that's the ideas we have for tomorrow.
+
+440
+00:35:02,320 --> 00:35:05,100
+If you guys have any other idea on what this thing should be trading at,
+
+441
+00:35:05,560 --> 00:35:12,190
+please let us know. Just to recap, we use Square Vol. Square Vol IPO,
+
+442
+00:35:12,450 --> 00:35:16,580
+Square Vol today. Tesla. We're not using GME.
+
+443
+00:35:16,760 --> 00:35:18,580
+We're using some of the brokerages right now.
+
+444
+00:35:18,720 --> 00:35:22,360
+We're using one of the brokers in Canada that are similar, Sean's saying.
+
+445
+00:35:22,920 --> 00:35:25,140
+And then a couple digital ones in China,
+
+446
+00:35:25,200 --> 00:35:28,200
+which are trading at around 80 to 100 vol.
+
+447
+00:35:29,520 --> 00:35:31,480
+And that's probably going to be obviously a little more volatile.
+
+448
+00:35:32,870 --> 00:35:38,250
+So anywhere above 80, that should be a sell on this thing. Okay?
+
+449
+00:35:38,250 --> 00:35:41,910
+Especially because the largest move after the first day was only 6%.
+
+450
+00:35:44,750 --> 00:35:48,990
+And it's moving 3% a day right now. So I know we don't have a lot of data,
+
+451
+00:35:49,390 --> 00:35:53,670
+but my best guess would be anything above 80 for the one-year option is a clear
+
+452
+00:35:53,670 --> 00:35:54,030
+sell.
+
+453
+00:36:00,500 --> 00:36:05,020
+Rising Bloomberg compares coin to some weird companies. Yeah,
+
+454
+00:36:05,040 --> 00:36:07,260
+let us know what the vols are there. Just post them in there.
+
+455
+00:36:07,260 --> 00:36:10,580
+Post them in the chat later on, in the Discord chat.
+
+456
+00:36:10,760 --> 00:36:14,800
+Any comparables you guys have there, let us know. The more information,
+
+457
+00:36:15,100 --> 00:36:16,240
+the better decision we can make.
+
+458
+00:36:18,830 --> 00:36:21,970
+Sleep well tonight because it's going to be a wild ride tomorrow. Yeah.
+
+459
+00:36:22,470 --> 00:36:27,210
+Imagine a blowout in the morning. I doubt it. I doubt it. All right, guys,
+
+460
+00:36:27,270 --> 00:36:32,520
+get ready. Before we sell. Mike, liquidate the other stuff, man.
+
+461
+00:36:32,580 --> 00:36:40,150
+Get ready for it. Yeah. Collect your $8 off of, what is it? ARCX?
+
+462
+00:36:40,150 --> 00:36:44,120
+Take those dollars and run? All my accounts in ARCX right now.
+
+463
+00:36:44,260 --> 00:36:48,380
+So liquidating that would be kind of difficult for me. Yeah, I know, right? Oh,
+
+464
+00:36:48,420 --> 00:36:48,500
+man.

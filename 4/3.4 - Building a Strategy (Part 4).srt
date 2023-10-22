@@ -1,0 +1,1115 @@
+1
+00:00:00,240 --> 00:00:02,640
+So, you guys know where we left off.
+
+2
+00:00:02,980 --> 00:00:05,580
+We were looking at our straddle P&L as our target variable,
+
+3
+00:00:05,940 --> 00:00:12,200
+trying to basically create a system that can give us above and beyond returns over
+
+4
+00:00:12,200 --> 00:00:15,500
+that two and a half percent that we were seeing from the risk premium. So,
+
+5
+00:00:15,720 --> 00:00:20,910
+I'm just going to give a summary of our target variable so we can get back on the
+
+6
+00:00:20,910 --> 00:00:21,350
+same page.
+
+7
+00:00:23,740 --> 00:00:27,880
+So, as you guys can see, our mean is negative two and a half percent, right?
+
+8
+00:00:27,880 --> 00:00:31,400
+We're getting charged that risk premium for selling that risk.
+
+9
+00:00:34,370 --> 00:00:36,270
+But we need to do much better.
+
+10
+00:00:36,410 --> 00:00:40,970
+And this is one of the biggest things that I think might affect other traders is
+
+11
+00:00:40,970 --> 00:00:45,470
+not knowing how big an edge needs to be to overcome costs, right?
+
+12
+00:00:45,510 --> 00:00:48,150
+A lot of the time, when you have brokerage fees, you have commissions,
+
+13
+00:00:48,250 --> 00:00:51,070
+you have slippage, and that's going to eat away at your profits.
+
+14
+00:00:51,190 --> 00:00:54,760
+And most of the time, it's going to eat much more than your profits.
+
+15
+00:00:59,650 --> 00:01:03,430
+All right, thanks guys. Sean would have killed me there. All right, let's see.
+
+16
+00:01:06,900 --> 00:01:08,040
+Recording in progress.
+
+17
+00:01:13,300 --> 00:01:16,020
+So, we need much more, but how much more do we need? So,
+
+18
+00:01:16,320 --> 00:01:17,900
+what I thought was I was going to do,
+
+19
+00:01:20,340 --> 00:01:22,760
+basically, I started looking at my historical earning trades and I thought,
+
+20
+00:01:22,880 --> 00:01:25,800
+okay, well, what hurdle do we need to overcome?
+
+21
+00:01:26,060 --> 00:01:30,180
+And for some of the guys that are on here that are taking earnings to that next
+
+22
+00:01:30,180 --> 00:01:30,420
+level,
+
+23
+00:01:30,640 --> 00:01:34,740
+I'd love for you guys to actually input what you think the hurdle is that we need
+
+24
+00:01:34,740 --> 00:01:41,320
+to overcome. So, in this case, what I have is a 3% in, a 3% out,
+
+25
+00:01:42,410 --> 00:01:46,620
+and a half a percent in commissions, okay? So,
+
+26
+00:01:46,820 --> 00:01:52,340
+and this 3% is based on the straddle price, all right? So, let's say,
+
+27
+00:01:52,400 --> 00:01:57,300
+for example, in this case, let's say the mid of a straddle is $8, okay?
+
+28
+00:01:57,300 --> 00:01:59,080
+Because don't forget, we're working with the data,
+
+29
+00:01:59,440 --> 00:02:02,740
+and the data is going to be basically the mid, right? So,
+
+30
+00:02:02,880 --> 00:02:04,280
+if the mid of the straddle is $8,
+
+31
+00:02:05,470 --> 00:02:09,370
+we're going to be basically spending 20 cents getting into the trade,
+
+32
+00:02:10,010 --> 00:02:13,050
+20 cents getting out of the trade, and then about, you know,
+
+33
+00:02:13,110 --> 00:02:16,910
+five or 10 cents for the commissions. So, for $8 straddle,
+
+34
+00:02:17,920 --> 00:02:21,560
+we're looking at about 50 cents in commissions. And so,
+
+35
+00:02:21,640 --> 00:02:25,320
+that's a total of six and a half percent that we need to overcome,
+
+36
+00:02:28,040 --> 00:02:32,160
+okay? So, from some of the other guys on here, Marjan, if you're on here,
+
+37
+00:02:32,200 --> 00:02:35,970
+if you could just, you know, let me know what your thoughts on this are. So,
+
+38
+00:02:36,030 --> 00:02:41,660
+six and a half hurdle, and right now, without just blindly selling vol,
+
+39
+00:02:42,020 --> 00:02:44,780
+we're actually losing 4% per trade,
+
+40
+00:02:47,000 --> 00:02:51,140
+okay? And this is what kills the traders, right?
+
+41
+00:02:51,180 --> 00:02:55,620
+We see a nice two and a half percent edge, and we say, hey, you know what,
+
+42
+00:02:55,640 --> 00:02:57,580
+let's just go and sell vol, we're going to make quite a bit of money.
+
+43
+00:02:59,080 --> 00:03:02,140
+The issue is, you're actually in a negative spot. And this happens,
+
+44
+00:03:02,620 --> 00:03:06,570
+especially in options, because the bid-ask spreads are very wide.
+
+45
+00:03:10,120 --> 00:03:11,800
+And does anyone want to disagree with this statement?
+
+46
+00:03:13,410 --> 00:03:17,350
+Or does anyone think they have a better number here, a better hurdle number?
+
+47
+00:03:27,700 --> 00:03:30,940
+So, the next step we're going to do now is now that we know what our hurdle is,
+
+48
+00:03:31,000 --> 00:03:31,260
+basically,
+
+49
+00:03:31,440 --> 00:03:33,940
+anything above six and a half percent is going straight to our pockets.
+
+50
+00:03:36,540 --> 00:03:37,980
+So, what I first did was,
+
+51
+00:03:38,160 --> 00:03:44,160
+I want to make sure that this risk premium has always been there through time,
+
+52
+00:03:44,480 --> 00:03:47,620
+right? A lot of the times, maybe it just happened once, or, you know,
+
+53
+00:03:47,640 --> 00:03:51,580
+it happened maybe for a couple quarters, and then it was gone. So,
+
+54
+00:03:51,600 --> 00:03:56,080
+what we need to do is we need to make sure that it's actually happened consistently,
+
+55
+00:03:56,840 --> 00:03:58,760
+or maybe it hasn't happened consistently. So,
+
+56
+00:03:58,820 --> 00:04:02,280
+what I did actually was I got eight years of data. Okay,
+
+57
+00:04:02,280 --> 00:04:04,200
+so I know when Hutch sees this, he'll be pretty happy with it.
+
+58
+00:04:04,520 --> 00:04:07,500
+I pulled in eight years of data, and what I said was, basically,
+
+59
+00:04:08,420 --> 00:04:11,400
+only show me the data that has a tight bid-ask spread.
+
+60
+00:04:14,700 --> 00:04:16,600
+And that's why I call this liquid ER.
+
+61
+00:04:18,420 --> 00:04:20,700
+And if we look at how many data points we have,
+
+62
+00:04:24,370 --> 00:04:27,610
+we have 17,000 events over an eight,
+
+63
+00:04:27,610 --> 00:04:32,010
+almost 18,000 events over an eight-year period. So, what I said was, okay,
+
+64
+00:04:32,030 --> 00:04:36,190
+let's look at our straddle P&L, and let's look at that through time.
+
+65
+00:04:40,490 --> 00:04:43,650
+So, here's what we have. And this graph is gonna come in handy later.
+
+66
+00:04:46,020 --> 00:04:50,480
+And just quickly looking at this, you can see the zero line up here. Oops,
+
+67
+00:04:50,640 --> 00:04:51,300
+sorry, guys.
+
+68
+00:04:58,330 --> 00:05:02,330
+Sorry, guys, that was a little bit of a spoiler. So, here it is right here,
+
+69
+00:05:02,730 --> 00:05:08,450
+all right? Here's our straddle P&L through time. And you can see, so,
+
+70
+00:05:08,530 --> 00:05:12,130
+for example, on this quarter, like 2013, you know, we were making,
+
+71
+00:05:12,690 --> 00:05:17,490
+we were losing 6% per quarter. And then we started making, you know,
+
+72
+00:05:17,530 --> 00:05:21,150
+2% per quarter here, if we're long the straddle. And then,
+
+73
+00:05:21,350 --> 00:05:23,150
+but now we're at this period where it's like,
+
+74
+00:05:23,720 --> 00:05:28,600
+the P&L is just getting sucked out of these straddles. So,
+
+75
+00:05:28,700 --> 00:05:32,400
+I wanna show you guys a post from our buddy, Ben. Okay,
+
+76
+00:05:32,900 --> 00:05:34,280
+which I think is a little bit ridiculous,
+
+77
+00:05:34,940 --> 00:05:36,360
+but we're gonna take a look at it anyways.
+
+78
+00:05:40,610 --> 00:05:42,590
+So, can you guys see my Twitter screen?
+
+79
+00:05:45,020 --> 00:05:46,940
+So, let me know if you guys can see my Twitter screen here.
+
+80
+00:05:52,870 --> 00:05:54,760
+Okay, great. So,
+
+81
+00:05:54,940 --> 00:06:00,400
+here's Ben posting the variance risk premium in selling equity fall, all right?
+
+82
+00:06:00,560 --> 00:06:03,260
+And you can see, so, you can see the zero line right here.
+
+83
+00:06:04,740 --> 00:06:08,300
+And what Ben is saying is like, there's a downtrend. This is since 1992. Now,
+
+84
+00:06:08,560 --> 00:06:11,520
+I really don't think there's a downtrend, but what we notice here, guys,
+
+85
+00:06:11,560 --> 00:06:14,400
+is like, you can basically see the cycles of variance risk premium.
+
+86
+00:06:15,700 --> 00:06:18,560
+You get a crash, variance risk premium is negative.
+
+87
+00:06:19,040 --> 00:06:23,140
+Then for the next five to 10 years, we start climbing, right,
+
+88
+00:06:23,140 --> 00:06:25,980
+and all of a sudden, you know, short sellers got blown out,
+
+89
+00:06:26,180 --> 00:06:31,270
+short vol traders got blown out of the water. And, you know,
+
+90
+00:06:31,370 --> 00:06:35,250
+all of a sudden selling vol is a huge, huge profitable strategy.
+
+91
+00:06:38,400 --> 00:06:42,700
+And what we're seeing here is kind of a similar thing, right, you can see like,
+
+92
+00:06:42,760 --> 00:06:47,380
+okay, 2013, 2015 to 2015, like really profitable.
+
+93
+00:06:47,980 --> 00:06:52,100
+Then it got like not profitable. Then we had the blowout, right?
+
+94
+00:06:52,400 --> 00:06:54,660
+And now all of a sudden vol is becoming extremely,
+
+95
+00:06:54,820 --> 00:06:58,520
+selling vol around earnings is becoming extremely profitable again.
+
+96
+00:07:01,130 --> 00:07:07,820
+So, you know, we can almost say that selling earnings vol is cyclical, okay?
+
+97
+00:07:07,960 --> 00:07:10,780
+You're gonna have a lot of short vol sellers come back into the market again,
+
+98
+00:07:11,420 --> 00:07:14,960
+let's say the next few years, and that's gonna drive down the risk premium,
+
+99
+00:07:15,560 --> 00:07:18,980
+right? And we can see that right here. Like, guys, for two years,
+
+100
+00:07:19,440 --> 00:07:24,030
+selling vol was not profitable before even we look at the commission structure,
+
+101
+00:07:24,630 --> 00:07:26,410
+okay? So just keep that in mind.
+
+102
+00:07:26,910 --> 00:07:32,530
+Blindly selling vol constantly is probably not gonna be profitable because you have
+
+103
+00:07:32,530 --> 00:07:35,450
+a 4% hurdle or sorry, a 6% hurdle.
+
+104
+00:07:37,800 --> 00:07:43,210
+And on top of that, you get years where it's like positive returns.
+
+105
+00:07:44,100 --> 00:07:46,340
+So selling vol could be extremely, extremely difficult.
+
+106
+00:07:49,640 --> 00:07:52,880
+Okay, so now something,
+
+107
+00:07:53,740 --> 00:07:57,180
+so now we come to the conclusion that we can't just sell vol, okay?
+
+108
+00:07:57,420 --> 00:07:59,000
+We're not gonna make any money. We're gonna lose money,
+
+109
+00:07:59,000 --> 00:08:02,900
+especially on a something where the holding period is a half day cycle.
+
+110
+00:08:03,300 --> 00:08:05,660
+You're holding overnight. The commission structure is huge.
+
+111
+00:08:05,960 --> 00:08:07,160
+The bid asks are huge.
+
+112
+00:08:12,600 --> 00:08:17,540
+So what we need to do is, oh, what I found, and this was actually unbelievable.
+
+113
+00:08:17,960 --> 00:08:22,800
+And it was unbelievable and unbelievably simple, okay?
+
+114
+00:08:25,250 --> 00:08:30,670
+If there is a vol drop, you're gonna earn. Let me say it again.
+
+115
+00:08:31,130 --> 00:08:36,490
+If there is a vol drop, you're gonna earn. And so sometimes we'll see,
+
+116
+00:08:37,780 --> 00:08:45,850
+let's say the implied move or the IV30 day at 60, the IV, sorry,
+
+117
+00:08:45,930 --> 00:08:52,460
+the IV30 day at 60, the IV60 day at 57. And there's an earnings event.
+
+118
+00:08:52,780 --> 00:08:56,080
+We wanna sell volatility. Well, the thing is,
+
+119
+00:08:56,260 --> 00:08:59,550
+you actually might not get the vol drop that you were anticipating. Well,
+
+120
+00:08:59,610 --> 00:09:02,830
+let's say for example, realize vol is above implied vol.
+
+121
+00:09:03,450 --> 00:09:09,190
+And so after the earnings event, the vol doesn't drop. So check this out, guys.
+
+122
+00:09:09,210 --> 00:09:12,210
+This is very exciting. What I did is I said, okay, look,
+
+123
+00:09:12,590 --> 00:09:18,480
+let's create this variable called vol drop, okay? And this basically says,
+
+124
+00:09:19,200 --> 00:09:25,020
+what in percentage was the change from yesterday to today? So let's say,
+
+125
+00:09:25,120 --> 00:09:32,480
+so this was the formula. Vol drop equals IV30 divided by, sorry,
+
+126
+00:09:33,240 --> 00:09:45,200
+IV30 tomorrow minus IV30 today. Okay, and then we divide that by IV30 today.
+
+127
+00:09:45,720 --> 00:09:46,520
+So it's just the delta.
+
+128
+00:09:50,300 --> 00:09:51,560
+Okay, so we'll do a quick example.
+
+129
+00:09:52,960 --> 00:09:57,500
+Let's say today the vol is 50% or tomorrow the vol is 50%.
+
+130
+00:09:58,060 --> 00:10:02,470
+Yesterday before the event, it was 60%, okay?
+
+131
+00:10:12,010 --> 00:10:15,330
+So that would be the formula. So tomorrow after the event, it goes to 50.
+
+132
+00:10:15,590 --> 00:10:18,930
+Yesterday it was 60 and yesterday it was 60.
+
+133
+00:10:19,210 --> 00:10:22,360
+And so that would give us 10 divided by 50.
+
+134
+00:10:22,980 --> 00:10:28,140
+This would be equivalent to a 16% drop in vols, okay? So it's not in vegas.
+
+135
+00:10:28,500 --> 00:10:30,300
+It's in percentage.
+
+136
+00:10:32,550 --> 00:10:35,780
+So that's what that is. And if we actually take a look at,
+
+137
+00:10:39,430 --> 00:10:42,230
+let's take a look at this variable because it's very important.
+
+138
+00:10:42,510 --> 00:10:43,730
+It's actually extremely important.
+
+139
+00:10:51,160 --> 00:10:54,750
+Look at this, guys. Most of the time there's a vol drop. Okay,
+
+140
+00:10:54,750 --> 00:10:58,310
+so here's the zero line right here, meaning no vol drop. You know,
+
+141
+00:10:58,430 --> 00:11:01,470
+sometimes vol increases after the event, rarely,
+
+142
+00:11:02,810 --> 00:11:07,820
+and most of the time it gets smoked, right? The IV crush,
+
+143
+00:11:07,920 --> 00:11:12,000
+whatever the retail call it. But what we're saying here is, okay,
+
+144
+00:11:12,140 --> 00:11:19,460
+let's at least give it a 10% drop, okay? So for example, it was 23 vol before.
+
+145
+00:11:20,000 --> 00:11:24,040
+After the next day, it was 19%, right? On a 30-day option.
+
+146
+00:11:24,780 --> 00:11:30,580
+That means the event vol was 73%. And so the expected move was 3.5%, okay?
+
+147
+00:11:31,200 --> 00:11:35,480
+For this scenario, right? Sometimes, for example, it's, I don't know,
+
+148
+00:11:35,800 --> 00:11:42,310
+80 tomorrow and 88 yesterday, right? And you know,
+
+149
+00:11:42,350 --> 00:11:44,290
+you're still gonna get a similar, oops.
+
+150
+00:11:46,840 --> 00:11:47,720
+This one was a big one,
+
+151
+00:11:50,100 --> 00:11:55,410
+right? That was a big 10%. So you say, okay, let's at least have that.
+
+152
+00:11:55,670 --> 00:11:57,470
+And now let's take a look at our P&L,
+
+153
+00:11:59,740 --> 00:12:04,480
+okay? So here I plotted in blue without that filter over time.
+
+154
+00:12:05,720 --> 00:12:12,220
+One simple filter. And then I plotted the red. Red is after that filter.
+
+155
+00:12:13,810 --> 00:12:20,590
+And what we can see here is our P&L drastically increases in every single quarter,
+
+156
+00:12:21,800 --> 00:12:26,440
+okay? Now, I'm sure some of you guys are saying, well, hey, Jordan,
+
+157
+00:12:27,860 --> 00:12:32,130
+how do we know there's gonna be a vol drop, right? How,
+
+158
+00:12:32,470 --> 00:12:34,950
+if we know there's gonna be a vol drop, then our life gets a lot easier.
+
+159
+00:12:36,000 --> 00:12:38,340
+And so that's the next thing, right?
+
+160
+00:12:38,800 --> 00:12:40,080
+How do we know there's gonna be a vol drop?
+
+161
+00:12:41,390 --> 00:12:47,380
+And there's two things that I found are the most important for the vol drop,
+
+162
+00:12:48,370 --> 00:12:52,530
+okay? One, and the Hutch might not agree with me, but I think after this slide,
+
+163
+00:12:52,610 --> 00:12:58,300
+he might start agreeing with me. One, IV needs to be bigger than RV.
+
+164
+00:12:59,970 --> 00:13:01,990
+The implied move could be 10%,
+
+165
+00:13:04,070 --> 00:13:07,450
+okay? The implied move can be 10%.
+
+166
+00:13:07,450 --> 00:13:14,270
+If the RV is higher than the current IV or the current non-event vol, okay?
+
+167
+00:13:14,490 --> 00:13:20,510
+Don't take the trade, okay? We basically wanna make sure that after this event,
+
+168
+00:13:20,510 --> 00:13:25,440
+IV is gonna get crushed. And if you guys go back to my 100K challenge,
+
+169
+00:13:26,000 --> 00:13:27,240
+I traded DRI,
+
+170
+00:13:28,000 --> 00:13:33,840
+and there was an example where the stock moved 3% after earnings and vol didn't
+
+171
+00:13:33,840 --> 00:13:39,210
+move, okay? If I had known that, I wouldn't have sold vol,
+
+172
+00:13:39,750 --> 00:13:45,070
+we would have been a profitable trade. So that's the first thing,
+
+173
+00:13:45,210 --> 00:13:47,490
+IV or the non-event vol,
+
+174
+00:13:47,670 --> 00:13:49,810
+the vol that you think this thing's gonna collapse to after the event,
+
+175
+00:13:50,250 --> 00:13:54,410
+needs to be greater than the RV, okay? In this case, I just did IV over RV.
+
+176
+00:13:56,420 --> 00:14:00,030
+There needs to be contango. I'm sorry, backwardation, whoops,
+
+177
+00:14:03,840 --> 00:14:06,520
+okay? There needs to be backwardation,
+
+178
+00:14:07,470 --> 00:14:11,200
+meaning the front needs to be higher than the back, okay?
+
+179
+00:14:11,240 --> 00:14:13,560
+And the back needs to be higher than the one after that.
+
+180
+00:14:15,830 --> 00:14:16,450
+So now,
+
+181
+00:14:17,360 --> 00:14:23,870
+what we're gonna do here is we're gonna apply a simple Aaron Brown method,
+
+182
+00:14:25,340 --> 00:14:28,380
+okay? We're gonna apply a very simple Aaron Brown method. So actually, sorry,
+
+183
+00:14:28,500 --> 00:14:29,240
+not just yet.
+
+184
+00:14:30,070 --> 00:14:35,320
+So what I'm gonna do is I'm gonna plot three variables on their own. Contango,
+
+185
+00:14:36,510 --> 00:14:40,990
+IV, sorry, IV versus RV. So how big is IV versus RV?
+
+186
+00:14:41,130 --> 00:14:45,850
+The ones we just talked about here. And then the size of the move, okay?
+
+187
+00:14:46,190 --> 00:14:48,230
+So here we go, we're gonna plot the first one.
+
+188
+00:14:50,700 --> 00:14:54,810
+So here, okay, we can see that.
+
+189
+00:14:57,570 --> 00:15:01,310
+So what I did basically was I took the backwardation,
+
+190
+00:15:01,310 --> 00:15:06,790
+backwardation here equals IV30 divided by IV60, right?
+
+191
+00:15:06,850 --> 00:15:11,380
+And I ranked all of them in our data set. And I said, okay,
+
+192
+00:15:12,050 --> 00:15:14,650
+let's break them out into quantiles.
+
+193
+00:15:14,950 --> 00:15:18,070
+So let's just view our data here just so you guys were on the same page.
+
+194
+00:15:18,840 --> 00:15:21,420
+But we went over this the last two lives.
+
+195
+00:15:44,620 --> 00:15:50,980
+Okay, so for example, this one here, the IV30 is 11% greater than the IV60.
+
+196
+00:15:51,420 --> 00:15:58,020
+And so this goes into our seventh quantile. And this is 26% higher.
+
+197
+00:15:58,590 --> 00:16:01,540
+So it goes into our 10th percentile, okay?
+
+198
+00:16:02,780 --> 00:16:09,160
+So basically what we can see here is the higher the IV30 is over the 60,
+
+199
+00:16:09,420 --> 00:16:14,710
+aka steeper backwardation, okay? The worse the long straddle PNL is,
+
+200
+00:16:18,530 --> 00:16:21,650
+okay? So we're gonna get back to that in a second.
+
+201
+00:16:22,090 --> 00:16:33,070
+I will answer all those questions there, okay? So the higher the backwardation,
+
+202
+00:16:33,630 --> 00:16:37,890
+the higher our PNL. And we're gonna do the same for IV versus RV.
+
+203
+00:16:38,030 --> 00:16:41,010
+I love this one, guys. I love this one so much, okay?
+
+204
+00:16:41,150 --> 00:16:46,540
+And the reason I love this one is because you can see here, it's pretty stable.
+
+205
+00:16:47,140 --> 00:16:52,580
+Like when IV is just slightly over RV or IV is equal to RV or IV is below RV,
+
+206
+00:16:52,880 --> 00:16:57,990
+it's stable. And then like, look how quickly that melts off, right?
+
+207
+00:16:58,070 --> 00:17:03,060
+So we could see that, okay, well, basically, when IV is a lot higher than RV,
+
+208
+00:17:03,600 --> 00:17:04,260
+we're gonna earn,
+
+209
+00:17:07,640 --> 00:17:09,880
+okay? I'll go back over that in a second.
+
+210
+00:17:14,230 --> 00:17:17,190
+Yeah, I know, I have my windows open and like it's a busy street outside.
+
+211
+00:17:19,960 --> 00:17:24,180
+Okay, just joking. Sean's on the loose right now. Yeah, Rob got it. Okay, good,
+
+212
+00:17:24,260 --> 00:17:30,880
+good. Okay, so that's why I really like this IV versus RV, right?
+
+213
+00:17:32,750 --> 00:17:35,490
+The next thing is the implied move. We already went over this one.
+
+214
+00:17:35,630 --> 00:17:38,550
+The higher the implied move, the more our straddle PNL is.
+
+215
+00:17:39,030 --> 00:17:44,110
+Now this can of course be improved upon because Walmart at a 6% implied move,
+
+216
+00:17:44,370 --> 00:17:48,220
+it's huge. Shopify at a 6% move is not huge,
+
+217
+00:17:50,740 --> 00:17:55,060
+okay? This one is great as well, okay? Higher implied move,
+
+218
+00:17:55,920 --> 00:17:59,580
+the lower our long straddle PNL is gonna be.
+
+219
+00:18:01,960 --> 00:18:06,290
+So just to make sure everyone is aware, I'll write these out right here.
+
+220
+00:18:07,410 --> 00:18:13,570
+Contango equals F1 divided by F2, okay? So IV30 divided by IV60.
+
+221
+00:18:15,150 --> 00:18:27,000
+This is IV30 divided by RV30 or RV20, okay? And then this is implied move,
+
+222
+00:18:28,320 --> 00:18:30,220
+right? This has to do with the concept of shrinkage.
+
+223
+00:18:33,190 --> 00:18:35,370
+So now, this is the beautiful part.
+
+224
+00:18:38,350 --> 00:18:42,600
+We're gonna use Aaron Brown technique, which basically says, okay,
+
+225
+00:18:43,760 --> 00:18:49,190
+small things, small factors alone don't make a lot of money,
+
+226
+00:18:49,570 --> 00:18:51,390
+but together they make a ton of money.
+
+227
+00:18:54,270 --> 00:18:56,530
+So I did it. Adam, I didn't do that.
+
+228
+00:18:59,310 --> 00:19:00,970
+I don't, like there's gonna be,
+
+229
+00:19:01,250 --> 00:19:03,950
+like these variables are gonna be constantly changing and there's so many we can
+
+230
+00:19:03,950 --> 00:19:05,070
+do, so many we can test.
+
+231
+00:19:05,390 --> 00:19:08,450
+I don't know how far we wanna go with this because like this alone,
+
+232
+00:19:08,610 --> 00:19:12,200
+as we're gonna see right now, is gonna be a profitable system, okay?
+
+233
+00:19:13,580 --> 00:19:17,970
+So what I did here was I said, okay, look,
+
+234
+00:19:20,350 --> 00:19:22,170
+give me, I'm gonna filter for,
+
+235
+00:19:22,330 --> 00:19:27,070
+so all my indicators on their own are not gonna make us any money, right?
+
+236
+00:19:27,070 --> 00:19:30,950
+It might get us, let's say negative 4% or negative 3%,
+
+237
+00:19:31,430 --> 00:19:35,650
+but it's not gonna get us past that 6.5% hurdle by themselves.
+
+238
+00:19:36,710 --> 00:19:41,440
+So what I said was I said, okay, look, let's take all our data set,
+
+239
+00:19:41,880 --> 00:19:44,320
+18,000 variables, 18,000 observation,
+
+240
+00:19:45,760 --> 00:19:52,820
+and I want the ones that have above average backwardation,
+
+241
+00:19:53,780 --> 00:19:59,700
+above average IB versus RB, and above average implied move, no,
+
+242
+00:19:59,860 --> 00:20:03,080
+above the average implied move number. Okay, like, so for example,
+
+243
+00:20:03,080 --> 00:20:06,000
+I was actually long vol on ADBE today.
+
+244
+00:20:08,290 --> 00:20:13,640
+Basically, it was $15 in debit and was able to offset all my,
+
+245
+00:20:13,960 --> 00:20:19,680
+basically get out at 17.50. I sold all my deltas when it touched 567.50,
+
+246
+00:20:21,640 --> 00:20:26,210
+just based off this simple model. And that was a long vol play,
+
+247
+00:20:26,250 --> 00:20:27,070
+not a short vol play.
+
+248
+00:20:28,260 --> 00:20:33,920
+So we're taking the above average for just the three variables that we looked at
+
+249
+00:20:33,920 --> 00:20:36,640
+here. And now let's take a look at this, guys. This is very exciting.
+
+250
+00:20:39,800 --> 00:20:47,900
+Our mean return now passes our hurdle, okay? Seven, negative seven,
+
+251
+00:20:48,920 --> 00:20:53,260
+the straddle, if we're a shorting vol, the straddle loses 7% on average,
+
+252
+00:20:53,500 --> 00:20:56,000
+which is half a percent higher than our hurdle,
+
+253
+00:20:57,020 --> 00:20:59,440
+aka this is a profitable system.
+
+254
+00:21:02,280 --> 00:21:08,050
+Now, one thing that we need to be concerned about is, well, what is our,
+
+255
+00:21:08,750 --> 00:21:12,510
+how many bets do we have? Right, well, what if we only have five bets?
+
+256
+00:21:13,120 --> 00:21:16,860
+So we can take a look here. We have 4,400 bets, okay?
+
+257
+00:21:17,300 --> 00:21:30,700
+So basically 25% of our quarterly bets, okay? And you can see here, if I do,
+
+258
+00:21:30,700 --> 00:21:35,980
+you can see here, if I do,
+
+259
+00:21:43,790 --> 00:21:44,270
+okay?
+
+260
+00:21:47,180 --> 00:21:49,540
+Check this out, guys. Let's do tail,
+
+261
+00:21:51,680 --> 00:21:55,500
+okay? Because we have less events to begin.
+
+262
+00:21:55,940 --> 00:22:02,800
+So we're doing about six to 800 bets a quarter, okay? Without any filters.
+
+263
+00:22:04,720 --> 00:22:08,160
+We add the filters, we're doing 25%.
+
+264
+00:22:08,160 --> 00:22:13,860
+So we're basically doing 200 bets to 150 bets a quarter. And of course,
+
+265
+00:22:13,900 --> 00:22:16,680
+you probably still wanna refine that, get that number up to 10%.
+
+266
+00:22:16,680 --> 00:22:18,460
+That's where I'm trying to head to.
+
+267
+00:22:21,900 --> 00:22:24,400
+Now, what we're gonna do now is we're gonna plot a P&L.
+
+268
+00:22:28,170 --> 00:22:32,270
+So the first one we're gonna do is we're gonna plot the PA straddle P&L. Now,
+
+269
+00:22:33,060 --> 00:22:37,900
+as you can see, this looks fantastic. This is without the 4% hurdle, okay?
+
+270
+00:22:39,220 --> 00:22:45,830
+If I took away the 4% or the 6%, let's see how I can do this here,
+
+271
+00:22:46,710 --> 00:22:50,290
+times negative one minus 0.06,
+
+272
+00:22:52,620 --> 00:22:57,550
+okay? There we go. Here is our P&L for the strategy, all right?
+
+273
+00:22:58,020 --> 00:23:02,740
+Now let's look at this one. Without any filters, we hit all the bets. Well,
+
+274
+00:23:02,740 --> 00:23:04,880
+this one makes like two times as much money,
+
+275
+00:23:05,040 --> 00:23:21,110
+but once
+
+276
+00:23:21,110 --> 00:23:25,370
+we take that out, once we take out that 6% all of a sudden,
+
+277
+00:23:25,770 --> 00:23:32,370
+this becomes a terrible strategy, right? And you can see our P&L,
+
+278
+00:23:32,870 --> 00:23:40,700
+when we filter for better names, we get a less smaller standard deviation.
+
+279
+00:23:41,300 --> 00:23:42,780
+And so our Sharpe ratio is gonna be much higher.

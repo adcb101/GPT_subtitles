@@ -1,0 +1,2759 @@
+1
+00:00:00,110 --> 00:00:11,210
+So, interesting, okay, okay, so we're good, yep, all good, awesome, oh yeah,
+
+2
+00:00:11,310 --> 00:00:14,470
+okay guys, so we're going to kick off where we started last,
+
+3
+00:00:14,650 --> 00:00:17,810
+and we're going to actually go another another layer here,
+
+4
+00:00:18,150 --> 00:00:23,310
+so remember how in last, just to get you guys up to speed, in last,
+
+5
+00:00:25,500 --> 00:00:29,920
+in our last video, we talked about what our target variable is,
+
+6
+00:00:30,000 --> 00:00:33,160
+what our candidate variables are, how to start thinking about this problem,
+
+7
+00:00:34,160 --> 00:00:37,780
+some ideas, some problems we can start thinking about, and, you know,
+
+8
+00:00:37,800 --> 00:00:40,080
+if you guys want to take on your own projects, right,
+
+9
+00:00:40,220 --> 00:00:43,220
+just some ideas to get you guys thinking, to get, you know, to get you started.
+
+10
+00:00:43,820 --> 00:00:48,700
+So I've sent everyone who asked me for sample data, for the data,
+
+11
+00:00:48,780 --> 00:00:49,860
+I've sent you guys a sample,
+
+12
+00:00:50,260 --> 00:00:53,880
+simply because I can't send more than five megabytes over Discord,
+
+13
+00:00:54,300 --> 00:00:58,900
+so everyone has about a thousand data points for this project to work with,
+
+14
+00:00:59,880 --> 00:01:05,140
+and so with this lecture, we're going to be going to our next step now, right,
+
+15
+00:01:05,180 --> 00:01:10,260
+which is going to be really getting into understanding, you know,
+
+16
+00:01:10,280 --> 00:01:12,920
+more of our data, and, you know, actually trying to test some things,
+
+17
+00:01:13,020 --> 00:01:16,300
+and learning a little bit more about statistics as we go forward,
+
+18
+00:01:16,400 --> 00:01:19,440
+and just so you guys know, this isn't going to be like a three-part course,
+
+19
+00:01:19,540 --> 00:01:22,020
+right, like the thing with building models,
+
+20
+00:01:22,100 --> 00:01:25,880
+it actually takes a long time to develop, right, it's not overnight,
+
+21
+00:01:25,960 --> 00:01:29,800
+if it was overnight, you just, everyone would be rich extremely quickly,
+
+22
+00:01:30,120 --> 00:01:34,820
+so these things take time, and it's usually really hard to extract some alpha,
+
+23
+00:01:34,960 --> 00:01:36,520
+but I think after this live, guys,
+
+24
+00:01:36,980 --> 00:01:40,180
+a majority of you are going to be miles ahead of everyone else,
+
+25
+00:01:40,740 --> 00:01:44,600
+so let's get started here, so I'm going to share my screenshot. Yeah,
+
+26
+00:01:44,720 --> 00:01:49,330
+are you going to do a recap of where we left off? Yeah, yeah, yeah,
+
+27
+00:01:49,330 --> 00:01:52,740
+a little bit, so let me share my screen here, dude,
+
+28
+00:01:56,860 --> 00:01:59,780
+okay, and let me know, guys, if I'm going too fast, okay,
+
+29
+00:02:00,320 --> 00:02:05,490
+we'll really slow it down, so to recap, our target variable, okay,
+
+30
+00:02:05,510 --> 00:02:07,950
+so we're doing an earnings trading strategy,
+
+31
+00:02:08,250 --> 00:02:15,110
+and our target variable is our straddle P&L, so what is our P&L for, you know,
+
+32
+00:02:15,150 --> 00:02:16,710
+if we were to buy a straddle today,
+
+33
+00:02:16,710 --> 00:02:21,470
+what would that P&L look like tomorrow after the event, close to close,
+
+34
+00:02:22,090 --> 00:02:25,670
+so that's our target, okay, really important to understand that,
+
+35
+00:02:25,930 --> 00:02:28,250
+and you can go back to the last live to, you know,
+
+36
+00:02:28,270 --> 00:02:29,610
+to get caught up to speed with that,
+
+37
+00:02:31,900 --> 00:02:35,560
+so we're just going to recap here, we're going to plot our target variable,
+
+38
+00:02:36,560 --> 00:02:39,700
+okay, and you can see here, actually, we're going to get a little bit,
+
+39
+00:02:39,800 --> 00:02:41,640
+a couple statistics about our target as well,
+
+40
+00:02:43,180 --> 00:02:44,720
+just so everyone's back up to speed,
+
+41
+00:02:51,060 --> 00:02:57,800
+okay, so here's our target, right, you can see our max move is 500%, okay,
+
+42
+00:02:57,840 --> 00:03:00,540
+so we make, you know, if we buy a straddle for $10,
+
+43
+00:03:00,800 --> 00:03:07,590
+we sell it the next day for $60, and our worst P&L is 75%,
+
+44
+00:03:07,590 --> 00:03:15,370
+we lose 75% of our straddle, the median is, we lose about 8% on average,
+
+45
+00:03:15,370 --> 00:03:20,170
+and the mean is negative 2.5%, and this is just the variance risk premium,
+
+46
+00:03:20,470 --> 00:03:24,330
+right, so on average, and we would expect to see this, on average,
+
+47
+00:03:24,610 --> 00:03:26,650
+buying straddles lose a bit of money,
+
+48
+00:03:28,370 --> 00:03:31,970
+and here is what the density plot looks like, right,
+
+49
+00:03:31,990 --> 00:03:37,640
+you can see all the way out here, we have, you know, our 500%, our 500% winner,
+
+50
+00:03:38,000 --> 00:03:42,000
+and then, but a majority of the time, right, so this is what white line here,
+
+51
+00:03:42,100 --> 00:03:45,480
+this is the zero line, so you can see most of our stuff,
+
+52
+00:03:45,480 --> 00:03:51,090
+the mode is to the left of the zero line, meaning that most of the time,
+
+53
+00:03:51,530 --> 00:03:56,500
+the median, we're going to be losing money, okay, and on average,
+
+54
+00:03:56,760 --> 00:03:59,480
+we're losing some money as well, okay,
+
+55
+00:03:59,640 --> 00:04:04,360
+so now that we understand what our target variable is,
+
+56
+00:04:04,800 --> 00:04:09,300
+we're going to start looking at our data, our target variable, remember I said,
+
+57
+00:04:09,380 --> 00:04:15,150
+guys, we want to spend the majority of our time on the target, right,
+
+58
+00:04:15,170 --> 00:04:16,790
+that's where the highest payoff is going to be,
+
+59
+00:04:16,950 --> 00:04:21,010
+a lot of people try to spend time doing the newest XGBoost model,
+
+60
+00:04:21,150 --> 00:04:24,410
+the newest AI model, okay, finding these new predictors,
+
+61
+00:04:24,630 --> 00:04:29,030
+the most return you're going to get is through working on your target, okay,
+
+62
+00:04:29,030 --> 00:04:31,710
+so we're going to jump into that, Sean, is there,
+
+63
+00:04:31,810 --> 00:04:33,730
+if there's any questions coming down to the chain,
+
+64
+00:04:33,810 --> 00:04:36,790
+do you mind just like letting me know? Yeah, 100%, I've got my eye on it,
+
+65
+00:04:36,970 --> 00:04:40,670
+I'll interject as necessary. Awesome, awesome, okay,
+
+66
+00:04:43,580 --> 00:04:47,720
+so I'm not bashing this guy, you know, I think he's really interested,
+
+67
+00:04:47,920 --> 00:04:49,460
+but this is a mistake a lot of people make,
+
+68
+00:04:49,480 --> 00:04:51,620
+and I think it's important that we really talk about this,
+
+69
+00:04:52,200 --> 00:04:58,400
+so Mitchell Rosenthal, he said, always impressed by how smart the market is,
+
+70
+00:04:58,840 --> 00:05:03,800
+especially when looking at predictive relationships, most times I come up dry,
+
+71
+00:05:04,440 --> 00:05:10,340
+something I found tonight had a lowish R-squared of 0.16, and big variation,
+
+72
+00:05:10,680 --> 00:05:15,130
+but still big enough to be considered, okay, so we'll take a look at this,
+
+73
+00:05:15,330 --> 00:05:16,750
+so just so everyone knows,
+
+74
+00:05:17,310 --> 00:05:21,810
+the R-squared tells us basically how much variance we can explain in our data,
+
+75
+00:05:22,430 --> 00:05:27,670
+okay, so an R-squared of one would look like this, okay, so let me just,
+
+76
+00:05:27,790 --> 00:05:31,350
+just so everyone's familiar with R-squared, because it's really important,
+
+77
+00:05:35,730 --> 00:05:40,190
+it would have a really high R-squared, okay, temperature today, okay,
+
+78
+00:05:40,210 --> 00:05:42,110
+and temperature yesterday,
+
+79
+00:05:45,160 --> 00:05:51,880
+so if temperature today is 30 degrees, okay, what is, what do you guys, sorry,
+
+80
+00:05:51,960 --> 00:05:52,880
+if temperature yesterday,
+
+81
+00:05:55,920 --> 00:05:59,520
+I guess most people are American, if temperature yesterday was 90 degrees,
+
+82
+00:06:01,240 --> 00:06:03,240
+what do you think the temperature today would be?
+
+83
+00:06:07,640 --> 00:06:12,400
+Marcos is saying like 90. 90, like 90, right, and then if it was like 80,
+
+84
+00:06:12,940 --> 00:06:17,840
+it would be 80, right, and so you plot these, oops, sorry guys,
+
+85
+00:06:18,060 --> 00:06:21,990
+and you plot these data points, right, and it would look like this,
+
+86
+00:06:25,770 --> 00:06:28,510
+it'd be really tight, you know, it'd be a really good predictor,
+
+87
+00:06:29,280 --> 00:06:34,220
+and if we did the line of best fit, it'd look like that, okay,
+
+88
+00:06:34,240 --> 00:06:42,350
+and what this tells us is that the temperature yesterday explains a ton of variance
+
+89
+00:06:42,350 --> 00:06:48,290
+in the temperature today, okay, and this would have a very high R-squared,
+
+90
+00:06:48,590 --> 00:06:56,990
+and R-squared, guys, okay, is, can only be between zero and one, okay,
+
+91
+00:06:57,110 --> 00:07:00,170
+where one means it explains a hundred percent of the variance,
+
+92
+00:07:00,270 --> 00:07:06,640
+and zero means explains nothing, all right, so this guy is saying,
+
+93
+00:07:07,880 --> 00:07:10,840
+and just to make sure, guys, I'm not bashing him, I think, you know, he's very,
+
+94
+00:07:10,840 --> 00:07:13,460
+he's very inquisitive, and, but, you know,
+
+95
+00:07:13,480 --> 00:07:15,780
+it's good to learn from some people's mistakes, right,
+
+96
+00:07:16,260 --> 00:07:29,530
+so he is saying he found R-squared of 0.16, okay,
+
+97
+00:07:29,530 --> 00:07:33,970
+so his target, he can explain his target with six,
+
+98
+00:07:34,270 --> 00:07:39,300
+he can explain 16 percent of his target's variance, so let's go back to here,
+
+99
+00:07:39,560 --> 00:07:41,420
+so everyone, does everyone understand R-squared,
+
+100
+00:07:43,860 --> 00:07:49,950
+okay, it's, and also, guys, it's also, if you, if you square this,
+
+101
+00:07:49,990 --> 00:07:53,750
+you get the correlation, so this also means,
+
+102
+00:07:55,430 --> 00:08:01,530
+R-squared of 0.16 also means a correlation of 0.16 times 0.16, I don't know,
+
+103
+00:08:01,610 --> 00:08:04,610
+like, maybe, maybe 30 something,
+
+104
+00:08:06,890 --> 00:08:07,030
+okay,
+
+105
+00:08:09,080 --> 00:08:13,970
+higher, way higher, actually, like 50 percent correlation, okay,
+
+106
+00:08:14,150 --> 00:08:18,300
+so does everyone understand that, are we good on that one, Sean,
+
+107
+00:08:18,650 --> 00:08:22,380
+what do you think? That looks good. So he's saying, hey, guys,
+
+108
+00:08:22,380 --> 00:08:25,940
+I found this R-squared, so on his x-axis, he has some variable,
+
+109
+00:08:26,650 --> 00:08:30,550
+and on the y-axis, he has some variable, and he's saying, like, you know,
+
+110
+00:08:30,590 --> 00:08:32,530
+I only found an R-squared of 0.16,
+
+111
+00:08:34,710 --> 00:08:38,710
+and that's humongous, right, that's actually, like,
+
+112
+00:08:38,710 --> 00:08:42,270
+if you could get an R-squared of 0.16, that's ginormous,
+
+113
+00:08:42,310 --> 00:08:48,240
+but there's something actually more important in this data set that's,
+
+114
+00:08:48,340 --> 00:08:52,980
+that's not very good, okay, that he's, that he's forgetting about,
+
+115
+00:08:53,020 --> 00:08:57,540
+and this is probably one of the biggest things in, yeah, in modeling, okay,
+
+116
+00:08:57,560 --> 00:08:58,980
+and when we're talking about our target,
+
+117
+00:09:07,190 --> 00:09:08,390
+there's groups here,
+
+118
+00:09:10,620 --> 00:09:15,360
+okay, there's lots of groups here, so you might have a couple regimes, right,
+
+119
+00:09:15,720 --> 00:09:18,420
+you can see there might be this regime right here,
+
+120
+00:09:21,580 --> 00:09:24,060
+there looks like there's another regime right here,
+
+121
+00:09:26,900 --> 00:09:30,460
+okay, and there looks like, maybe they're groups, maybe there's something else,
+
+122
+00:09:30,900 --> 00:09:32,540
+it looks like there's another one right here like this,
+
+123
+00:09:33,400 --> 00:09:35,020
+and actually there could be a third one here,
+
+124
+00:09:35,380 --> 00:09:44,960
+a fourth one that looks like this, okay, so we, as, when we're forecasting,
+
+125
+00:09:45,160 --> 00:09:48,080
+we're learning about our target variable, we first need to understand,
+
+126
+00:09:48,220 --> 00:09:51,060
+is there a structure in our data, okay, this is called structure,
+
+127
+00:09:51,160 --> 00:09:53,920
+and we're going to talk more about it, and then can we fix it,
+
+128
+00:09:54,970 --> 00:09:57,030
+is there a structure in our data, and can we fix it,
+
+129
+00:10:01,850 --> 00:10:05,010
+so let's, let's get back to work here, let's get back to our work,
+
+130
+00:10:13,720 --> 00:10:16,280
+okay, so when we look at, when we look at this,
+
+131
+00:10:16,480 --> 00:10:19,140
+when we originally look at this, it's hard to tell,
+
+132
+00:10:19,460 --> 00:10:22,420
+it's hard to tell if there's any structure in our data, like, do you guys see,
+
+133
+00:10:23,140 --> 00:10:26,500
+like, a structure in our data would look something like this, okay,
+
+134
+00:10:33,160 --> 00:10:36,400
+okay, it would look something like this, right, where there's like other,
+
+135
+00:10:36,700 --> 00:10:38,240
+there's other groups,
+
+136
+00:10:40,750 --> 00:10:44,550
+there's other groups inside this, okay,
+
+137
+00:10:47,400 --> 00:10:52,300
+there's other, there's a bunch of distributions mushed up together, all right,
+
+138
+00:10:52,720 --> 00:10:56,080
+and we want to, basically we want to try to, and pick out what these are,
+
+139
+00:10:59,230 --> 00:11:02,530
+okay, a really easy one to look at would be something that looked like this,
+
+140
+00:11:13,240 --> 00:11:19,160
+right, this is a bimodal, okay, so there's clearly two distributions here,
+
+141
+00:11:19,630 --> 00:11:21,410
+all mushed up to one,
+
+142
+00:11:24,460 --> 00:11:30,460
+and we need to be able to pick these apart, what are these two groups, okay,
+
+143
+00:11:30,560 --> 00:11:32,600
+and another thing, guys, actually, we're going to,
+
+144
+00:11:32,640 --> 00:11:33,840
+we're going to get to that in a second,
+
+145
+00:11:35,890 --> 00:11:37,710
+so that's, that's so important, guys, I see,
+
+146
+00:11:37,810 --> 00:11:41,310
+I've seen Chris Seville do this so many times, it drives me up the wall, okay,
+
+147
+00:11:41,430 --> 00:11:43,670
+I'm not, not just that, but like, a lot of people do this,
+
+148
+00:11:43,730 --> 00:11:46,130
+and as a good forecaster, and as a good modeler,
+
+149
+00:11:46,150 --> 00:11:47,450
+we need to be able to pick those apart,
+
+150
+00:11:47,510 --> 00:11:51,040
+we need to look at the structure in our data, we need to figure that out, okay,
+
+151
+00:11:51,060 --> 00:11:52,380
+it's the most important thing,
+
+152
+00:11:56,180 --> 00:11:59,140
+all right, so what we need to do is, we actually need to do a little bit of a,
+
+153
+00:11:59,200 --> 00:12:01,720
+of a transformation here to this data set,
+
+154
+00:12:01,780 --> 00:12:05,440
+because it's hard to tell if there's structure like this, and so we do,
+
+155
+00:12:06,940 --> 00:12:10,560
+what we basically do is, we, we try to make,
+
+156
+00:12:10,600 --> 00:12:13,820
+we try to make that distribution normal, we apply some mathematics, and we say,
+
+157
+00:12:13,880 --> 00:12:16,440
+okay, can we make this distribute, if this distribution was normal,
+
+158
+00:12:16,640 --> 00:12:20,460
+what would it look like, okay, and this is what it looks like,
+
+159
+00:12:21,200 --> 00:12:26,390
+so here's our target, let's give that a second to load,
+
+160
+00:12:26,630 --> 00:12:28,050
+I don't know why it takes long,
+
+161
+00:12:38,350 --> 00:12:42,870
+okay, I don't know why it's not loading there, that old,
+
+162
+00:12:42,930 --> 00:12:45,490
+that old distribution that we just saw turned into this,
+
+163
+00:12:46,520 --> 00:12:50,110
+and we can see there's tons of structure here, right, look at this,
+
+164
+00:12:50,350 --> 00:12:54,170
+here's a hump, here's a hump, here's a hump, you know, here's a,
+
+165
+00:12:54,190 --> 00:12:56,950
+here's you know, in the shoulders, we're seeing a little bit, right,
+
+166
+00:12:57,030 --> 00:13:02,970
+there's clearly, this is not something, you know, that's normal, right,
+
+167
+00:13:02,970 --> 00:13:05,530
+and there's clearly a lot of stuff happening inside this,
+
+168
+00:13:06,230 --> 00:13:08,530
+but the good thing about this is,
+
+169
+00:13:08,610 --> 00:13:10,590
+it means that there's going to be a lot of edge here,
+
+170
+00:13:10,960 --> 00:13:15,900
+if we can figure out what, what are these distributions inside this,
+
+171
+00:13:16,910 --> 00:13:22,010
+what they are, we can make a ton of money, okay, that's the good news, right,
+
+172
+00:13:22,010 --> 00:13:28,180
+if it was just normal, there would be, there would be barely any alpha, right,
+
+173
+00:13:28,200 --> 00:13:33,020
+it'd be extremely hard to find alpha, and just to prove it to you guys, okay,
+
+174
+00:13:33,080 --> 00:13:38,620
+just to prove it to you guys, what is the most efficient market we know, right,
+
+175
+00:13:38,640 --> 00:13:41,920
+it's the S&P, so what I'm going to do is, I'm going to get the S&P 500,
+
+176
+00:13:43,780 --> 00:13:50,900
+and I'm going to do the exact same thing with the S&P 500 returns,
+
+177
+00:13:51,340 --> 00:13:55,560
+the exact same thing, so imagine our target variable was the S&P 500,
+
+178
+00:13:57,790 --> 00:13:58,470
+look at this,
+
+179
+00:14:01,730 --> 00:14:04,700
+look how, look how beautiful this is, there's no humps,
+
+180
+00:14:05,160 --> 00:14:06,620
+this is like almost perfectly normal,
+
+181
+00:14:08,500 --> 00:14:12,100
+it's going to be extremely hard to find alpha into something like this,
+
+182
+00:14:14,830 --> 00:14:17,170
+right, to be extremely, extremely hard,
+
+183
+00:14:18,010 --> 00:14:21,490
+yet this is one of the most traded instruments by retail traders,
+
+184
+00:14:24,680 --> 00:14:26,640
+and like that's why we always say it's so important,
+
+185
+00:14:26,860 --> 00:14:29,200
+you want to find a game where you could actually generate alpha,
+
+186
+00:14:29,480 --> 00:14:33,830
+where you can actually make money. So Jordan, would you say that when you're,
+
+187
+00:14:33,850 --> 00:14:35,370
+when you're looking at, when you're trying to norm,
+
+188
+00:14:35,510 --> 00:14:39,550
+would this be called like normalizing your data? That's a different thing,
+
+189
+00:14:40,850 --> 00:14:44,990
+yeah, it's, we're trying to basically normalize it into a normal distribution,
+
+190
+00:14:45,450 --> 00:14:47,190
+it's not, it's not actually normalizing,
+
+191
+00:14:47,270 --> 00:14:53,650
+it's just we're trying to convert this using some techniques to make it normal.
+
+192
+00:14:54,130 --> 00:14:59,610
+Okay, so just to maybe make it clear, I'll try and put it in layman's terms,
+
+193
+00:14:59,850 --> 00:15:01,970
+when you're doing this to your data,
+
+194
+00:15:02,370 --> 00:15:08,770
+it's when you see those like humps and like lumps in the normal distribution that
+
+195
+00:15:08,770 --> 00:15:13,870
+you know there's something that's not like clearly understood or like that,
+
+196
+00:15:13,870 --> 00:15:19,190
+that hump is the opportunity that you want to try and uncover. Exactly, if the,
+
+197
+00:15:19,310 --> 00:15:24,090
+if the target that you're doing is tradable, so for example S&P 500 returns,
+
+198
+00:15:24,510 --> 00:15:29,630
+straddle P&L, right? If it's tradable and there's humps in the data, right?
+
+199
+00:15:29,930 --> 00:15:34,460
+That usually means you can find some alpha there, okay? You don't want it,
+
+200
+00:15:34,600 --> 00:15:36,260
+if it's perfectly smooth, it's going to be like,
+
+201
+00:15:36,360 --> 00:15:40,560
+obviously we can go more granular here and there is, this is not perfect,
+
+202
+00:15:40,900 --> 00:15:42,580
+there's not perfect distribution and you know,
+
+203
+00:15:42,600 --> 00:15:45,620
+you have some of the smartest guys in the world trying to pick those off.
+
+204
+00:15:46,410 --> 00:15:49,770
+Exactly, put it around them and stuff. Exactly, or they might trade,
+
+205
+00:15:49,870 --> 00:15:51,830
+let's say an option, because this is not the option data,
+
+206
+00:15:51,830 --> 00:15:57,030
+this is just the stock data, right? They might trade an option that, you know,
+
+207
+00:15:57,050 --> 00:16:00,070
+is not, is being, is not properly expressing the,
+
+208
+00:16:00,570 --> 00:16:03,830
+the distribution that they should, that they should see. Right,
+
+209
+00:16:03,850 --> 00:16:06,630
+so is it almost like you could say perfectly efficient markets,
+
+210
+00:16:06,710 --> 00:16:10,820
+this distribution would be perfect? Yeah, exactly, like exactly, right?
+
+211
+00:16:10,840 --> 00:16:18,460
+So if you're trying to delta trade the S&P 500, I wish you the best of luck,
+
+212
+00:16:18,970 --> 00:16:22,350
+right? It's gonna be extremely difficult to do. Okay, yeah,
+
+213
+00:16:22,370 --> 00:16:24,650
+I think this probably makes it clear, especially with that little explanation,
+
+214
+00:16:24,790 --> 00:16:28,210
+I think it makes sense. So Robbie's saying,
+
+215
+00:16:28,390 --> 00:16:32,130
+is it okay to assume that all distributions should be normal and smooth?
+
+216
+00:16:33,850 --> 00:16:38,450
+When you normalize them, if, so not all distributions need to be like that.
+
+217
+00:16:38,850 --> 00:16:41,870
+If there's groups in there, like obviously they're not going to be, but,
+
+218
+00:16:42,390 --> 00:16:45,710
+and like as we progress through these courses, you'll actually see like,
+
+219
+00:16:47,050 --> 00:16:52,490
+there are certain things where it's, it's not normal,
+
+220
+00:16:52,890 --> 00:16:56,110
+but you can find ways to like pick them apart and actually turn them into,
+
+221
+00:16:56,190 --> 00:16:59,150
+into normals, right? Once you try to, if,
+
+222
+00:16:59,710 --> 00:17:03,310
+once you try to normalize something into a normal distribution and there's no alpha
+
+223
+00:17:03,310 --> 00:17:06,410
+on it, it should look almost perfectly normal, like this,
+
+224
+00:17:06,470 --> 00:17:09,220
+it should look like this, right? Because if you look at,
+
+225
+00:17:09,320 --> 00:17:11,870
+if you look at what we're doing here, we are,
+
+226
+00:17:12,890 --> 00:17:16,590
+so this is called Gaussianize where it's a, it's a function in R,
+
+227
+00:17:16,970 --> 00:17:18,350
+but what we're actually doing is saying,
+
+228
+00:17:18,850 --> 00:17:23,230
+we're telling it a little bit about our data, right? Like in this case,
+
+229
+00:17:23,770 --> 00:17:24,970
+when we did this one,
+
+230
+00:17:27,710 --> 00:17:30,570
+where he goes in that load, okay, I'm just gonna plot it again, guys.
+
+231
+00:17:34,960 --> 00:17:36,860
+And we're looking at this one, but we're telling, so we're,
+
+232
+00:17:37,060 --> 00:17:38,180
+remember we talked about priors,
+
+233
+00:17:38,660 --> 00:17:41,960
+but we're telling our model here is that this thing has a fat tail, right?
+
+234
+00:17:41,960 --> 00:17:46,340
+And this is seen by this type HH. And then we're using maximum likelihood,
+
+235
+00:17:46,860 --> 00:17:51,220
+you know, a maximum likelihood estimate to try to figure out,
+
+236
+00:17:51,420 --> 00:17:56,640
+like try to smooth those bumps. And then if it's still coming out like this,
+
+237
+00:17:58,150 --> 00:18:02,340
+there's clearly like, there's clearly some alpha here, but with this one,
+
+238
+00:18:03,900 --> 00:18:08,820
+it's perfectly smooth, right? So usually, like,
+
+239
+00:18:09,530 --> 00:18:12,590
+I don't want to say in all cases, because I obviously haven't seen all cases,
+
+240
+00:18:12,970 --> 00:18:19,240
+but usually if your target's all bumpy, there's probably some money to be made.
+
+241
+00:18:19,420 --> 00:18:21,680
+Almost certain, there's almost certainly money to be made.
+
+242
+00:18:22,020 --> 00:18:23,520
+If your target's perfectly smooth,
+
+243
+00:18:23,900 --> 00:18:27,820
+a lot of people have already removed those bumps by trading the underlying asset.
+
+244
+00:18:32,390 --> 00:18:32,430
+Okay,
+
+245
+00:18:32,470 --> 00:18:36,090
+we'll take one more question here for now on this particular section and move on,
+
+246
+00:18:36,110 --> 00:18:38,730
+Jordan. Yeah. Arcorn's asking,
+
+247
+00:18:39,050 --> 00:18:42,450
+do you ever worry that some of the mathematics that gets applied to form your data
+
+248
+00:18:42,450 --> 00:18:46,070
+into distributions removes outliers that might actually be alpha,
+
+249
+00:18:46,210 --> 00:18:52,410
+but get normalized as noise? So I would say, I would say no, Robby,
+
+250
+00:18:52,770 --> 00:18:56,830
+just because we've already removed our outliers. So for example,
+
+251
+00:18:56,970 --> 00:18:58,790
+and I don't know if you were here for the last session,
+
+252
+00:18:58,990 --> 00:19:08,120
+but there were stuff like, let's say that were 19 times our target,
+
+253
+00:19:08,500 --> 00:19:12,720
+or not 19 times, 1900% winners. And so we kind of, and we,
+
+254
+00:19:12,780 --> 00:19:15,980
+we remove those from our data because we didn't think they were necessary.
+
+255
+00:19:16,630 --> 00:19:20,530
+And then all we're doing here is we're just trying to look at our distribution.
+
+256
+00:19:21,490 --> 00:19:23,810
+So we don't really care if some outliers are being removed here.
+
+257
+00:19:23,930 --> 00:19:26,410
+We're just trying to like look at it and like say, okay, well,
+
+258
+00:19:26,430 --> 00:19:29,730
+there's clearly some structure here. Right. So let's say for example,
+
+259
+00:19:29,790 --> 00:19:37,310
+like you can see here for this, I said, okay, only go from 0.6 to 0.5. Right.
+
+260
+00:19:37,310 --> 00:19:40,190
+If I maybe increase this, maybe there's a little bump in the tail somewhere.
+
+261
+00:19:40,820 --> 00:19:42,640
+Right. But I'm not really too concerned about that.
+
+262
+00:19:42,700 --> 00:19:43,960
+I'm really focusing on the meat here.
+
+263
+00:19:50,950 --> 00:19:53,100
+So, so now we know like basically, okay,
+
+264
+00:19:53,100 --> 00:19:55,940
+there's lots of groupings here and eventually we're gonna have to try to figure
+
+265
+00:19:55,940 --> 00:19:59,530
+this out. And just before we move into the next part, guys,
+
+266
+00:19:59,550 --> 00:20:02,370
+I just have some questions for you. Like, what do you think these could be?
+
+267
+00:20:03,290 --> 00:20:05,110
+Like, what do you think these humps could be here?
+
+268
+00:20:07,790 --> 00:20:13,170
+And also remember guys, our real data, right?
+
+269
+00:20:13,230 --> 00:20:15,890
+Our real data is actually going to be a bunch of these,
+
+270
+00:20:21,500 --> 00:20:24,600
+right? Our real data, it might be a bunch of these.
+
+271
+00:20:29,300 --> 00:20:31,180
+So what do you guys, what do you guys think? Like,
+
+272
+00:20:31,970 --> 00:20:34,290
+what do you guys think these, these bumps could, these groups,
+
+273
+00:20:34,390 --> 00:20:35,130
+these bumps could be?
+
+274
+00:20:44,430 --> 00:20:46,450
+So just to remind the guys, what data set are we looking at here, Jordan?
+
+275
+00:20:47,080 --> 00:20:48,500
+So here we're looking at our target.
+
+276
+00:20:48,560 --> 00:20:50,840
+We're always going to be talking about our target always.
+
+277
+00:20:51,300 --> 00:20:52,820
+And that's our straddle P&L,
+
+278
+00:20:56,460 --> 00:20:59,040
+right? So if we're looking at, if we're talking about our straddle P&L, what,
+
+279
+00:20:59,220 --> 00:21:01,200
+what kind of groups do you think there might be here?
+
+280
+00:21:07,770 --> 00:21:10,450
+Ned saying before market open or after close.
+
+281
+00:21:13,360 --> 00:21:15,470
+Ned, is this guy for real?
+
+282
+00:21:16,190 --> 00:21:19,450
+I literally had a call with him yesterday talking to him about this.
+
+283
+00:21:21,540 --> 00:21:23,660
+Sebastian saying people trading for different reasons.
+
+284
+00:21:26,400 --> 00:21:30,790
+Okay. I don't, I wouldn't, maybe like there's all,
+
+285
+00:21:30,850 --> 00:21:33,290
+you always got to try everything, right? But maybe I,
+
+286
+00:21:33,290 --> 00:21:34,410
+I'm not a hundred percent sure,
+
+287
+00:21:38,290 --> 00:21:40,810
+but I wasn't thinking, I think there's, I think there's easier ones,
+
+288
+00:21:41,070 --> 00:21:44,450
+different industries, different types of companies, a hundred percent,
+
+289
+00:21:44,570 --> 00:21:48,590
+a hundred percent like that one, right? Different tech, different sectors.
+
+290
+00:21:48,890 --> 00:21:54,200
+Maybe like the banking sector has a lot higher straddle P&L on average, right?
+
+291
+00:21:55,280 --> 00:21:59,880
+It could be like some fundamental, some fundamental factors, right.
+
+292
+00:21:59,920 --> 00:22:03,900
+Which would be like in the industry before market after close.
+
+293
+00:22:03,900 --> 00:22:06,440
+So that was one that I was kind of like working with and it was kind of,
+
+294
+00:22:06,460 --> 00:22:07,460
+it was showing some promise.
+
+295
+00:22:10,070 --> 00:22:12,630
+You know, you, you really want to think about this stuff.
+
+296
+00:22:12,730 --> 00:22:14,630
+So I can't stress this enough. Everyone,
+
+297
+00:22:15,850 --> 00:22:20,090
+the difference between someone who actually is going to make money in trading and
+
+298
+00:22:20,090 --> 00:22:23,150
+forecasting is actually going to spend the time to think about their data.
+
+299
+00:22:23,310 --> 00:22:27,050
+It's actually going to be an expert in there and in this field to understand like,
+
+300
+00:22:27,130 --> 00:22:29,170
+what should I pull out here? What should I think about?
+
+301
+00:22:29,210 --> 00:22:33,480
+What variables should I do? As you go through the forecasting,
+
+302
+00:22:33,540 --> 00:22:35,780
+you're going to see a lot of people doing high-end modeling.
+
+303
+00:22:36,870 --> 00:22:39,230
+You're going to see them doing the latest neural network.
+
+304
+00:22:40,420 --> 00:22:42,540
+We need to step away from that. Okay.
+
+305
+00:22:42,540 --> 00:22:45,620
+We really need to think about our data here, right?
+
+306
+00:22:45,920 --> 00:22:51,140
+Craftsmanship over whatever else is out there. Okay.
+
+307
+00:22:51,140 --> 00:22:54,220
+You really want to become a craftsman here and this is what's going to take you
+
+308
+00:22:54,220 --> 00:22:57,920
+to, you know, way above where everyone else is sitting at right now.
+
+309
+00:23:02,720 --> 00:23:06,180
+So yeah, you guys, you know, keep thinking about it. You know, Margin,
+
+310
+00:23:06,240 --> 00:23:13,040
+for example, Margin Kyle in our group, I always told him like, you know,
+
+311
+00:23:13,100 --> 00:23:16,120
+sometimes you're not thinking enough about this stuff, right?
+
+312
+00:23:16,140 --> 00:23:19,140
+You need to be constantly thinking like, okay,
+
+313
+00:23:22,220 --> 00:23:24,820
+what actually might go in here, right?
+
+314
+00:23:24,820 --> 00:23:29,710
+Instead of just like throwing everything at the wall,
+
+315
+00:23:29,970 --> 00:23:32,530
+you want to really think about this stuff over and over again.
+
+316
+00:23:34,640 --> 00:23:38,640
+All right. So onto our next step, we're going to jump into regressions here.
+
+317
+00:23:39,470 --> 00:23:39,890
+Okay.
+
+318
+00:23:39,890 --> 00:23:47,330
+We're going to jump into regressions and this is going to talk about or feedback
+
+319
+00:23:47,330 --> 00:23:49,750
+on the Twitter example we were chatting about.
+
+320
+00:23:50,170 --> 00:23:52,750
+So what I'm going to do guys is we're going to look at our first candidate.
+
+321
+00:23:53,750 --> 00:23:54,170
+Okay.
+
+322
+00:23:54,170 --> 00:23:58,260
+We're going to look at our first candidate here and we're going to look at the implied
+
+323
+00:23:58,260 --> 00:24:03,540
+move versus the straddle P&L. So what do you guys think about this?
+
+324
+00:24:04,260 --> 00:24:09,210
+If we increase the implied move. Okay. So if we look at stocks that,
+
+325
+00:24:09,210 --> 00:24:14,560
+let's say have a 20% implied move versus stocks that have a 2% implied move,
+
+326
+00:24:14,740 --> 00:24:19,550
+what do you think the straddle P&L would look like?
+
+327
+00:24:20,090 --> 00:24:23,210
+Do you think it would have a negative correlation, a positive correlation?
+
+328
+00:24:23,830 --> 00:24:28,190
+What do you guys think as we increase the straddle P&L or as we increase implied
+
+329
+00:24:28,190 --> 00:24:30,530
+move, what happens to straddle P&L?
+
+330
+00:24:31,390 --> 00:24:35,310
+Adam saying that if we increase the implied, the P&L should decrease. Okay.
+
+331
+00:24:35,810 --> 00:24:39,270
+So let's, and like how, if you were to picture in your head,
+
+332
+00:24:39,270 --> 00:24:43,850
+how would you think it would look like? Would it be a clear, a clear like,
+
+333
+00:24:45,140 --> 00:24:47,280
+would it be a clear pattern? Like would, if I showed you the graph,
+
+334
+00:24:47,320 --> 00:24:51,440
+would you be like, yes, this definitely has a correlation. What do you think?
+
+335
+00:24:57,400 --> 00:25:03,300
+And I just arbitrary arbitrarily chose implied moves. Adam saying probably not.
+
+336
+00:25:03,940 --> 00:25:08,360
+Okay. So let's plot it. Minimal correlation. Okay. Let's plot it.
+
+337
+00:25:08,420 --> 00:25:11,140
+So here it is. Okay. This is what it looks like.
+
+338
+00:25:11,220 --> 00:25:19,150
+So straddle P&L on the left side on the Y axis. And implied move on the X axis.
+
+339
+00:25:20,760 --> 00:25:22,420
+All right. So what do you guys think?
+
+340
+00:25:22,700 --> 00:25:24,260
+Do you think this is a good predictor or not?
+
+341
+00:25:26,380 --> 00:25:31,050
+Like I'm looking at this and I'm, I'm wondering like, should we even,
+
+342
+00:25:31,390 --> 00:25:32,890
+should we even consider looking at this?
+
+343
+00:25:36,850 --> 00:25:41,490
+Getting some nos, some yeses. Okay. So in this, in,
+
+344
+00:25:41,610 --> 00:25:44,430
+if we go back to what our buddy said on Twitter, he would say,
+
+345
+00:25:44,850 --> 00:25:51,000
+he would say definitely not. Right. If we do actual, if we actually do,
+
+346
+00:25:51,870 --> 00:25:54,950
+if we run a linear model, we run that model.
+
+347
+00:26:04,490 --> 00:26:10,820
+Okay. We get an R square, not even one, not even one.
+
+348
+00:26:10,920 --> 00:26:15,560
+And the person on Twitter was saying 16. That's too low. Right.
+
+349
+00:26:15,580 --> 00:26:21,600
+We don't even get one. Now the thing is guys in trading, this is a huge,
+
+350
+00:26:21,600 --> 00:26:27,750
+huge edge, but a lot of people are looking for these like monster signals.
+
+351
+00:26:28,670 --> 00:26:28,810
+Right.
+
+352
+00:26:29,470 --> 00:26:35,020
+But this is a massive edge and it's hard to really see it through this graph.
+
+353
+00:26:35,500 --> 00:26:38,970
+So what we need to do is we need to look at,
+
+354
+00:26:39,030 --> 00:26:41,250
+we need to really spend the time to look at this stuff.
+
+355
+00:26:43,070 --> 00:26:47,810
+Someone would have saw this scene on R square 0.004 and then moved on and said,
+
+356
+00:26:47,870 --> 00:26:51,470
+ah, you know, ah, this one doesn't work yet. This thing,
+
+357
+00:26:51,590 --> 00:26:55,770
+it could be the one of many pieces that makes you extremely wealthy.
+
+358
+00:26:58,490 --> 00:27:05,490
+So what we're going to do is we are going to take these implied moves and break
+
+359
+00:27:05,490 --> 00:27:11,490
+them into quantiles. So we're going to take 10%. So let's say for example,
+
+360
+00:27:11,890 --> 00:27:19,220
+we have implied moves ranging from one to 10. We're going to take one,
+
+361
+00:27:19,680 --> 00:27:21,920
+you know, and say that's 10% of our, of the implied moves.
+
+362
+00:27:21,920 --> 00:27:25,420
+Then two is another 10% and we're going to break them up into quantiles.
+
+363
+00:27:25,620 --> 00:27:27,620
+So let me just draw that out for you guys.
+
+364
+00:27:29,780 --> 00:27:34,980
+Okay. So here we have implied moves ranging from zero to 30, let's say,
+
+365
+00:27:37,240 --> 00:27:41,220
+but we're going to break them up into 10% chunks. Okay.
+
+366
+00:27:42,990 --> 00:27:48,390
+So we might say this is quantile, this is a quantile one, quantile two, three,
+
+367
+00:27:48,750 --> 00:27:51,450
+four, right. And inside each quantile,
+
+368
+00:27:51,970 --> 00:27:57,970
+this might have implied moves ranging from one to three implied moves ranging from
+
+369
+00:27:57,970 --> 00:28:01,350
+four to six. Okay. So we're going to do that right now.
+
+370
+00:28:01,390 --> 00:28:02,390
+We're going to take a look at this.
+
+371
+00:28:04,980 --> 00:28:05,540
+And this is,
+
+372
+00:28:05,620 --> 00:28:08,740
+I hope you guys are going to see like where some of the craftsmanship comes in.
+
+373
+00:28:13,450 --> 00:28:14,470
+So this is what we're going to do.
+
+374
+00:28:14,470 --> 00:28:17,970
+We're going to take all our implied moves and break them into 10 pieces. Okay.
+
+375
+00:28:19,540 --> 00:28:26,620
+And what we're going to do is we're going to look at, we're going to view data.
+
+376
+00:28:34,020 --> 00:28:35,220
+We're going to view our data here.
+
+377
+00:28:38,420 --> 00:28:43,050
+Okay. So let me just move this up here guys. So we're going to look at just,
+
+378
+00:28:43,170 --> 00:28:45,350
+for example, the first quantile here. Okay.
+
+379
+00:28:45,350 --> 00:28:50,690
+And you can see that these in the first quantile, we have like 1% moves,
+
+380
+00:28:50,770 --> 00:28:53,650
+2% moves, you know, one, 2% moves. Okay.
+
+381
+00:28:54,070 --> 00:28:55,630
+Let's see what we got in the second quantile.
+
+382
+00:28:58,400 --> 00:29:01,240
+We got like 3% moves, 2% moves. Okay.
+
+383
+00:29:01,500 --> 00:29:03,620
+And then when we get to the 10th percentile,
+
+384
+00:29:07,540 --> 00:29:09,040
+okay. Oops. These are the NAs.
+
+385
+00:29:15,590 --> 00:29:19,950
+Okay. Here we have like implied moves of 17, 18, 28, 16.
+
+386
+00:29:25,290 --> 00:29:28,660
+Okay. So now what we're going to do is we're going to say, okay,
+
+387
+00:29:31,910 --> 00:29:35,980
+let's make this bigger so you guys can, everyone can see.
+
+388
+00:29:40,920 --> 00:29:43,980
+It's a little bit tricky to see here, but I'm going to, I'm going to adjust it.
+
+389
+00:29:44,000 --> 00:29:47,380
+So, you know, we, we get, we get more insights, but I said, okay, like,
+
+390
+00:29:47,380 --> 00:29:54,060
+let's graph the PNLs now for each, for each percentile, right?
+
+391
+00:29:54,080 --> 00:29:58,240
+So if we look at, you know, percentile one with all the small moves,
+
+392
+00:29:58,420 --> 00:30:01,360
+that's this orange one right here. Okay. That's,
+
+393
+00:30:01,420 --> 00:30:05,280
+that's this orange one right here. And if we look at the, you know,
+
+394
+00:30:05,300 --> 00:30:08,740
+the ones with the biggest implied moves, that's this pink one right down here.
+
+395
+00:30:10,450 --> 00:30:12,090
+Now it's a little hard to see with these 10.
+
+396
+00:30:13,140 --> 00:30:19,170
+So what we're going to do is we're just going to plot the lowest,
+
+397
+00:30:19,430 --> 00:30:23,910
+the lowest implied moves and the largest implied moves. Okay.
+
+398
+00:30:24,010 --> 00:30:27,160
+And look at their, look at, look at their graph. So here we go.
+
+399
+00:30:27,500 --> 00:30:33,380
+Look at this monster, monster difference, right?
+
+400
+00:30:34,060 --> 00:30:39,500
+You can see that the stocks with the highest implied move clearly lose a lot more
+
+401
+00:30:39,500 --> 00:30:47,060
+often, like a lot more often. And stocks that have the smallest implied moves,
+
+402
+00:30:49,150 --> 00:30:53,860
+they lose, they, you know, they don't lose that much, right? Well,
+
+403
+00:30:53,920 --> 00:30:56,700
+sure they lose, you know, they lose often, but they got, you know, they don't,
+
+404
+00:30:56,800 --> 00:31:01,000
+they definitely don't lose as much and they have this big, you know,
+
+405
+00:31:01,180 --> 00:31:04,080
+they make more, they make more money a lot more of the time.
+
+406
+00:31:05,150 --> 00:31:06,450
+So monster difference,
+
+407
+00:31:06,490 --> 00:31:12,220
+but we weren't able to tell that by looking at that scatterplot, right?
+
+408
+00:31:12,260 --> 00:31:13,500
+We needed to look a little deeper.
+
+409
+00:31:13,820 --> 00:31:21,350
+And so what we're going to do actually right now is we are going to take a look
+
+410
+00:31:21,350 --> 00:31:25,800
+at this from a numerical standpoint. Okay. So bear with me here, guys.
+
+411
+00:31:27,260 --> 00:31:30,720
+Here are the largest implied moves. Okay.
+
+412
+00:31:33,580 --> 00:31:33,900
+Oops.
+
+413
+00:31:37,380 --> 00:31:39,320
+Here are the largest implied moves.
+
+414
+00:31:39,680 --> 00:31:42,060
+And then here are the smallest implied moves.
+
+415
+00:31:42,930 --> 00:31:45,470
+And look what happens as we go up the scale.
+
+416
+00:31:45,670 --> 00:31:49,870
+So this Med is our median P and L of the straddle.
+
+417
+00:31:50,150 --> 00:31:53,490
+And the mean is our mean P and L of the straddle. Okay.
+
+418
+00:31:53,690 --> 00:32:00,790
+So you can see here as the implied move increases, right?
+
+419
+00:32:01,770 --> 00:32:07,450
+Our straddle P and L decreases tremendously. It goes. So the actually guys,
+
+420
+00:32:07,750 --> 00:32:12,560
+if you buy the cheapest implied moves, you will,
+
+421
+00:32:12,720 --> 00:32:16,380
+you will actually make money barely, but you'll make money.
+
+422
+00:32:17,620 --> 00:32:20,940
+If you buy the most expensive implied moves,
+
+423
+00:32:21,120 --> 00:32:25,600
+you're going to lose 6% per straddle.
+
+424
+00:32:27,960 --> 00:32:31,880
+Okay. Now this is, this is substantial, right?
+
+425
+00:32:31,880 --> 00:32:33,700
+This is a humongous difference here.
+
+426
+00:32:36,130 --> 00:32:40,220
+So keep that in mind. All right.
+
+427
+00:32:40,460 --> 00:32:46,300
+Keep that in mind that this implied move is actually,
+
+428
+00:32:46,660 --> 00:32:51,670
+we're definitely using it. We're definitely using it in our model. Okay. This,
+
+429
+00:32:51,830 --> 00:32:55,250
+and remember in, in trading, you're never going to have a signal.
+
+430
+00:32:55,370 --> 00:32:59,150
+That's a 25% R squared, right? Think about it.
+
+431
+00:32:59,290 --> 00:33:04,210
+If you could find something that explained the variance by 25%,
+
+432
+00:33:04,210 --> 00:33:08,680
+you become rich extremely quickly like this. You,
+
+433
+00:33:08,800 --> 00:33:12,300
+all you would do is just always take the best trades and then it would just disappear,
+
+434
+00:33:12,400 --> 00:33:13,700
+right? Because you're getting bigger,
+
+435
+00:33:13,840 --> 00:33:15,880
+you're getting bigger and bigger so quickly.
+
+436
+00:33:16,810 --> 00:33:21,430
+You alone are going to remove that edge, right?
+
+437
+00:33:21,450 --> 00:33:25,420
+And that's why you're never going to see R squared of 0.25. Jordan,
+
+438
+00:33:25,540 --> 00:33:31,660
+do you think you can try and like, help, help us conceptualize why you know,
+
+439
+00:33:31,740 --> 00:33:37,260
+an R squared of a 0.25 is like not, it's not what we should be looking for.
+
+440
+00:33:37,300 --> 00:33:40,080
+And really we should be looking for things closer to what we found with this implied
+
+441
+00:33:40,080 --> 00:33:42,520
+move. Is there a way you can help us conceptualize that?
+
+442
+00:33:42,720 --> 00:33:46,520
+I'm thinking like they just been doing with you know,
+
+443
+00:33:46,540 --> 00:33:50,460
+things that do predict that well are already priced in because they're obvious to
+
+444
+00:33:50,460 --> 00:33:50,820
+everyone.
+
+445
+00:33:51,060 --> 00:33:54,200
+Maybe it's something along those lines and we're looking for something more unique.
+
+446
+00:33:54,280 --> 00:33:59,620
+And then if you can try to really help conceptualize why something so small holds
+
+447
+00:33:59,620 --> 00:34:03,880
+so much significance. So think about like this guys, right?
+
+448
+00:34:09,330 --> 00:34:11,870
+Okay. So first off a single edge,
+
+449
+00:34:11,990 --> 00:34:15,870
+a single indicator on its own is not going to be enough to make money.
+
+450
+00:34:16,090 --> 00:34:18,190
+You're going to need a couple of them, right?
+
+451
+00:34:18,290 --> 00:34:22,710
+So that's why the small ones are still going to be there because you can't trade
+
+452
+00:34:22,710 --> 00:34:24,290
+them on their own. You got to combine a whole bunch.
+
+453
+00:34:25,420 --> 00:34:26,480
+Now let's take a look at this. Okay.
+
+454
+00:34:27,020 --> 00:34:31,410
+Let's say I bet $50,000 every single trade.
+
+455
+00:34:31,530 --> 00:34:37,820
+So every single trade I sell $50,000 worth of premium. Okay.
+
+456
+00:34:37,880 --> 00:34:40,000
+Every single earning trade, I do $50,000 worth of premium.
+
+457
+00:34:40,550 --> 00:34:43,230
+And my edge is 0.0625.
+
+458
+00:34:47,110 --> 00:34:50,770
+And there's an earnings event during this earnings event or during this earnings
+
+459
+00:34:50,770 --> 00:34:52,190
+season, I can do 200 events.
+
+460
+00:34:54,620 --> 00:34:57,320
+So check this out during this quarter, during this, you know,
+
+461
+00:34:57,320 --> 00:34:59,500
+this one earning season, I'm betting 50,000 each trade.
+
+462
+00:35:00,710 --> 00:35:03,390
+I'm going to make $625,000.
+
+463
+00:35:05,920 --> 00:35:11,240
+Okay. Super tiny edge. Imagine this was, imagine, you know,
+
+464
+00:35:11,240 --> 00:35:20,090
+we got a signal and this became like 15%, right?
+
+465
+00:35:20,130 --> 00:35:23,850
+Where we're making $1.5 million. And you can see how,
+
+466
+00:35:24,070 --> 00:35:29,080
+if you actually do have a real edge and you're trading at a relatively high frequency,
+
+467
+00:35:29,590 --> 00:35:31,230
+you're going to make a ton of money.
+
+468
+00:35:32,960 --> 00:35:37,300
+And that's why these huge edges don't actually exist. Because if they did,
+
+469
+00:35:37,340 --> 00:35:40,980
+it would take you four quarters before you just totally erased the edge yourself.
+
+470
+00:35:43,310 --> 00:35:47,050
+And so if you're trading the S&P 500, you know, and you think you have,
+
+471
+00:35:47,130 --> 00:35:50,210
+let's say a good model that can predict, I don't know,
+
+472
+00:35:50,490 --> 00:35:58,490
+let's say adjusted 60% of the time. That's, that's insane. It would take maybe,
+
+473
+00:35:58,550 --> 00:36:01,910
+let's say two months or not even two months at 60%,
+
+474
+00:36:01,910 --> 00:36:05,210
+maybe like three weeks to figure out if you're actually profitable or not.
+
+475
+00:36:07,240 --> 00:36:10,240
+Okay. Because you don't need a big edge in trading to make money.
+
+476
+00:36:10,400 --> 00:36:12,040
+You need a very, very, very small edge.
+
+477
+00:36:16,800 --> 00:36:22,190
+All right. So does everyone understand that? What do you think, Sean?
+
+478
+00:36:22,450 --> 00:36:23,770
+Sean O'Toole Bill had a question here. You said,
+
+479
+00:36:23,830 --> 00:36:29,370
+can you add other candidates and do like a logistic regression without curve fitting
+
+480
+00:36:29,370 --> 00:36:33,550
+it too much? Yeah. So you can do, so logistic regression would mean,
+
+481
+00:36:33,690 --> 00:36:38,690
+would imply that your target variable is binary one or zero, right?
+
+482
+00:36:39,850 --> 00:36:49,160
+In this case, we have a, a non-binary, right? So it's, it's continuous, right?
+
+483
+00:36:49,300 --> 00:36:52,780
+It can be 3%, 3.111%.
+
+484
+00:36:52,780 --> 00:36:56,940
+So we're running regressions instead of a logistic regression.
+
+485
+00:36:59,060 --> 00:37:06,030
+Okay. So, okay. One more important thing here that I really want to chat about.
+
+486
+00:37:06,030 --> 00:37:07,750
+So, is there any questions about that?
+
+487
+00:37:07,770 --> 00:37:10,330
+Cause we're going to be moving on to a very important topic.
+
+488
+00:37:12,980 --> 00:37:15,330
+I think we're all right to move on here. Okay.
+
+489
+00:37:16,480 --> 00:37:23,810
+So what is something that I mean, actually extremely, extremely, and Ned,
+
+490
+00:37:23,950 --> 00:37:25,290
+please don't, please don't spoil it, Ned.
+
+491
+00:37:27,470 --> 00:37:30,470
+I'd be really impressed if someone knew what was wrong.
+
+492
+00:37:31,150 --> 00:37:36,380
+What is like really wrong with that, with that graph that we drew,
+
+493
+00:37:38,260 --> 00:37:39,620
+with this graph right here,
+
+494
+00:37:43,760 --> 00:37:51,420
+like what's really wrong with this data or in general,
+
+495
+00:37:51,480 --> 00:37:52,340
+what's wrong with our data?
+
+496
+00:37:55,340 --> 00:37:58,660
+I'll give it like one minute there, Sean, just for someone to take a guess.
+
+497
+00:38:02,430 --> 00:38:03,710
+I'll shout them out as they come in.
+
+498
+00:38:08,420 --> 00:38:10,200
+Like what's, maybe you're not wrong with our data.
+
+499
+00:38:10,240 --> 00:38:13,850
+What's wrong with our target variable? Like there's something inherently wrong.
+
+500
+00:38:15,720 --> 00:38:18,940
+Lucas is saying not as many data points for high implied moves.
+
+501
+00:38:20,730 --> 00:38:23,990
+Robbie's saying the P and L is calculated at the end of each day instead of right
+
+502
+00:38:23,990 --> 00:38:24,690
+after the open.
+
+503
+00:38:27,320 --> 00:38:32,610
+Okay. Arcorn saying need more data. Joey's saying we have different groups.
+
+504
+00:38:34,770 --> 00:38:38,330
+Who's okay. Joey's saying different groups. Yes. Joey. Perfect.
+
+505
+00:38:38,470 --> 00:38:41,590
+So first off we have a ton of data. We have 30,000 data points here.
+
+506
+00:38:42,050 --> 00:38:47,120
+We definitely don't need any more data, but Joey hit it right on the head.
+
+507
+00:38:47,900 --> 00:38:52,040
+Okay. Joey hit it right on the head. We have, we have tickers. We have groups.
+
+508
+00:38:52,970 --> 00:38:53,330
+Okay.
+
+509
+00:38:53,330 --> 00:39:00,470
+So what I'm going to do here is I'm going to filter for Footlocker KO and Goldman
+
+510
+00:39:00,470 --> 00:39:07,220
+Sachs, three different moves. They should have different size moves. Okay.
+
+511
+00:39:07,480 --> 00:39:09,900
+And I'm going to plot their moves. Look at this guys.
+
+512
+00:39:11,600 --> 00:39:15,540
+Here's so blue is Coca-Cola's moves. Greens are Goldman Sachs.
+
+513
+00:39:15,560 --> 00:39:21,350
+And then red is Footlocker, right? The moves are drastically different.
+
+514
+00:39:22,550 --> 00:39:30,730
+And so we can't really compare a 5% implied move to Coca-Cola, Pepsi,
+
+515
+00:39:30,930 --> 00:39:37,900
+to Coca-Cola, Footlocker, and Goldman Sachs. We can't do that. Right.
+
+516
+00:39:38,520 --> 00:39:42,840
+There is basically no pooling. Okay. And there's no pooling until really,
+
+517
+00:39:42,940 --> 00:39:46,380
+this is probably the most important takeaway from this, from this live guys.
+
+518
+00:39:46,760 --> 00:39:51,450
+So we're have have a example here to really demonstrate it.
+
+519
+00:39:51,490 --> 00:39:52,250
+They do a really good job.
+
+520
+00:39:52,310 --> 00:39:54,170
+And then we're going to go into our data and take a look at it.
+
+521
+00:39:54,170 --> 00:39:55,590
+And we're going to actually do pooling.
+
+522
+00:39:56,010 --> 00:39:58,410
+And then we'll look into something called partial pooling and we'll save that for
+
+523
+00:39:58,410 --> 00:40:03,480
+next week. All right. So imagine, okay.
+
+524
+00:40:03,500 --> 00:40:08,820
+Imagine we are trying to predict the average reaction time of someone.
+
+525
+00:40:09,180 --> 00:40:14,240
+And then we look at the amount of sleep someone got. Okay. So,
+
+526
+00:40:14,640 --> 00:40:20,740
+and we looked at, let's say 400 people. And here I'm just showing you 20. Okay.
+
+527
+00:40:20,740 --> 00:40:26,210
+So we looked at 400 people and we just took a sample of 20 and we said, okay,
+
+528
+00:40:26,250 --> 00:40:32,160
+well days of sleep deprivation versus average reaction time.
+
+529
+00:40:33,740 --> 00:40:35,000
+So what do you guys think?
+
+530
+00:40:36,030 --> 00:40:39,350
+What would you guys think like the data should look like?
+
+531
+00:40:39,410 --> 00:40:41,150
+I know it's right here already, but let's, let's,
+
+532
+00:40:41,150 --> 00:40:44,520
+let's really talk about this and think about this, right?
+
+533
+00:40:44,660 --> 00:40:48,890
+As the days of sleep without sleep increase,
+
+534
+00:40:48,990 --> 00:40:51,900
+your reaction time should also increase.
+
+535
+00:40:52,940 --> 00:40:56,250
+It takes you longer to react to something. Okay.
+
+536
+00:40:58,610 --> 00:41:03,350
+But we can't just put everyone together and then run a regression.
+
+537
+00:41:06,140 --> 00:41:09,620
+On average, let's say Sean might be faster at reacting.
+
+538
+00:41:12,420 --> 00:41:17,960
+So he's going to have a separate model, right? And let's say Joey,
+
+539
+00:41:18,880 --> 00:41:22,620
+he's even faster at reacting. So he's going to have a separate model,
+
+540
+00:41:24,630 --> 00:41:28,590
+but that's going to, that's going to overfit. So let's take a look here.
+
+541
+00:41:29,070 --> 00:41:32,940
+So in the red, okay, we have no pooling. Okay.
+
+542
+00:41:32,940 --> 00:41:38,060
+No pooling means we just look at each individual's persons and run the regression.
+
+543
+00:41:40,260 --> 00:41:46,210
+Okay. The green line, the green model is saying, okay,
+
+544
+00:41:46,230 --> 00:41:48,570
+let's just put everyone's data together and run a regression.
+
+545
+00:41:50,670 --> 00:41:53,460
+Okay. We can't just do that.
+
+546
+00:41:53,520 --> 00:41:58,900
+And this is like one of my like big secrets of finance that, you know, I,
+
+547
+00:41:58,980 --> 00:42:03,460
+I spent a lot of time on this and I hope you guys are going to see the value in
+
+548
+00:42:03,460 --> 00:42:03,600
+it.
+
+549
+00:42:05,810 --> 00:42:08,670
+So the thing here is we,
+
+550
+00:42:08,810 --> 00:42:12,490
+it's not good to just pull the data and it's not good to just know,
+
+551
+00:42:12,690 --> 00:42:15,390
+use no pooling, right? So let's look at this guy's data here, Mitchell.
+
+552
+00:42:16,480 --> 00:42:21,460
+What's Mitchell doing here? He's just slapping everything together, right?
+
+553
+00:42:22,080 --> 00:42:24,300
+He's doing no pooling and he's trying to run a regression.
+
+554
+00:42:27,360 --> 00:42:30,980
+We're missing a lot of information there, just like in our data, our structure,
+
+555
+00:42:31,080 --> 00:42:33,860
+there's groups, there's things like that. And we need to account for those.
+
+556
+00:42:37,240 --> 00:42:42,060
+So in this dataset here, Sean and I, and Joey are still human.
+
+557
+00:42:43,000 --> 00:42:47,220
+We still have similar characteristics. We still live, breathe, eat, sleep,
+
+558
+00:42:47,930 --> 00:42:56,990
+do whatever. And so we want to get a mix of pooling and no pooling, right?
+
+559
+00:42:57,050 --> 00:42:58,450
+Let's go back to our earnings dataset.
+
+560
+00:43:00,140 --> 00:43:03,360
+We don't want to just look at the average move for each individual equity,
+
+561
+00:43:04,490 --> 00:43:09,900
+right? Because at the end of the day, they're all still companies. So,
+
+562
+00:43:10,500 --> 00:43:12,720
+but we don't, at the same time, we don't want to mush them all together,
+
+563
+00:43:12,760 --> 00:43:16,860
+which we were doing before, right? We want to say, okay, well, you know,
+
+564
+00:43:17,400 --> 00:43:21,240
+equities are still equity and they still have earnings calls and they still move
+
+565
+00:43:21,240 --> 00:43:23,560
+up when there's a big beat and they still move down when there's a big beat.
+
+566
+00:43:23,760 --> 00:43:28,820
+So why don't we use that data? We only have 14 data points for each earnings,
+
+567
+00:43:28,820 --> 00:43:34,340
+but we can look at someone else, let's say Footlocker and Macy's and say, okay,
+
+568
+00:43:34,360 --> 00:43:38,400
+well, this is how Macy's reacts. So let's use some of their data in our model.
+
+569
+00:43:38,480 --> 00:43:43,360
+And now we can get more data and that is partial pooling. Okay.
+
+570
+00:43:43,640 --> 00:43:47,020
+So what it would look like is we have this new line,
+
+571
+00:43:47,940 --> 00:43:51,800
+which would be this blue line right here. So it's,
+
+572
+00:43:51,800 --> 00:43:56,910
+it's kind of hard to see you guys. So green line is complete pooling. Okay.
+
+573
+00:43:56,910 --> 00:43:59,510
+So it's always going to be the same in every graph,
+
+574
+00:43:59,570 --> 00:44:05,660
+no matter what the red line, it fits only to this individual. Okay.
+
+575
+00:44:05,660 --> 00:44:11,350
+Only to that single stock. And then the blue line, okay. Uses a mix of both.
+
+576
+00:44:12,420 --> 00:44:18,080
+All right. And that is, that is the partial pooling. All right.
+
+577
+00:44:18,080 --> 00:44:22,370
+So you can see that right here. This is a zoomed in version. Okay.
+
+578
+00:44:22,850 --> 00:44:25,030
+And here's another way you can think about it.
+
+579
+00:44:26,430 --> 00:44:28,050
+And we're going to go a little bit more in depth here.
+
+580
+00:44:30,390 --> 00:44:32,690
+Here's another way you can think about it. If we look at,
+
+581
+00:44:33,250 --> 00:44:37,630
+let's say we look at the whole baseball season and we look at the first part of
+
+582
+00:44:37,630 --> 00:44:41,500
+the baseball season and we see someone hit, like,
+
+583
+00:44:41,600 --> 00:44:42,920
+I actually don't know baseball,
+
+584
+00:44:43,060 --> 00:44:47,840
+but let's say someone hit like an unbelievable amount of home runs. Okay.
+
+585
+00:44:47,840 --> 00:44:49,800
+And then we were asked to say, like,
+
+586
+00:44:49,880 --> 00:44:52,300
+what is this person likely to do in the next season,
+
+587
+00:44:52,380 --> 00:44:53,640
+in the next half of the season?
+
+588
+00:44:54,720 --> 00:44:57,400
+And a lot of people would go by the hot hand theory.
+
+589
+00:44:57,920 --> 00:45:02,460
+He's going to do just as good. He's on fire. He's killing it. Right.
+
+590
+00:45:03,540 --> 00:45:08,890
+But he's human. He's still a baseball player. Right.
+
+591
+00:45:08,990 --> 00:45:11,090
+So what we would do is we would say, okay, well,
+
+592
+00:45:11,110 --> 00:45:15,090
+what's the average home runs that we saw that we saw this season.
+
+593
+00:45:16,240 --> 00:45:19,900
+And we would say, okay, well, let's shrink him. Okay.
+
+594
+00:45:19,900 --> 00:45:23,360
+So he's all the way up here with like crazy amount of home runs and here's the average.
+
+595
+00:45:24,370 --> 00:45:27,250
+And we're going to say, okay, for the next bit of season. Okay.
+
+596
+00:45:27,830 --> 00:45:30,290
+He's probably going to be a lot closer to the average.
+
+597
+00:45:30,410 --> 00:45:33,010
+He might be still above because he's really good,
+
+598
+00:45:33,070 --> 00:45:36,480
+but we're going to shrink him down. Okay.
+
+599
+00:45:37,100 --> 00:45:38,660
+And that's what the partial pooling is.
+
+600
+00:45:38,840 --> 00:45:43,130
+We're using his data and things that are similar and pulling it in.
+
+601
+00:45:43,670 --> 00:45:47,850
+And we can get better when we shrink to something that is more reasonable or something
+
+602
+00:45:47,850 --> 00:45:51,530
+that's more the same. So for example, maybe he's a left-hander.
+
+603
+00:45:52,110 --> 00:45:57,230
+And so we're going to shrink him to all the left-handed batters.
+
+604
+00:45:57,570 --> 00:46:00,650
+I think that's what they're called. Okay. And the better. So for example,
+
+605
+00:46:00,650 --> 00:46:02,590
+instead of shrinking footlocker to all the stocks,
+
+606
+00:46:02,810 --> 00:46:07,830
+we shrink footlocker to all the stocks in that sector. Right.
+
+607
+00:46:07,910 --> 00:46:09,210
+And that's another reason, well,
+
+608
+00:46:09,210 --> 00:46:12,250
+obviously we're going to go more into detail about this strategy as we continue,
+
+609
+00:46:13,380 --> 00:46:16,440
+but what we're going to do now is we're going to,
+
+610
+00:46:16,640 --> 00:46:19,460
+we're going to do complete pooling. Okay.
+
+611
+00:46:19,460 --> 00:46:20,700
+We're going to do complete pooling here.
+
+612
+00:46:21,890 --> 00:46:24,790
+So what I'm going to do is take that data.
+
+613
+00:46:27,490 --> 00:46:29,390
+I'm going to take that data that we just saw there.
+
+614
+00:46:30,350 --> 00:46:33,330
+Let me just get it up here so we can look at it. Okay.
+
+615
+00:46:33,810 --> 00:46:35,150
+And I'm going to scale the data.
+
+616
+00:46:35,530 --> 00:46:39,940
+So basically complete pooling and we're graph it right. You guys,
+
+617
+00:46:40,620 --> 00:46:43,440
+here's what it looks like. So just, okay.
+
+618
+00:46:43,460 --> 00:46:47,320
+Just so you guys know what we're doing here is we're saying we're turning,
+
+619
+00:46:47,440 --> 00:46:51,920
+let's say so footlocker 10% move for footlocker is a two standard deviation move.
+
+620
+00:46:52,550 --> 00:46:54,870
+It's a five standard deviation move for Coca-Cola.
+
+621
+00:46:55,590 --> 00:46:59,320
+So we're putting everything on the same scale. Okay.
+
+622
+00:47:01,980 --> 00:47:10,130
+Boom. Okay. Now we have something that is complete pooling here, right?
+
+623
+00:47:10,130 --> 00:47:12,970
+So everything is on the same scale now, right? You can see, for example,
+
+624
+00:47:13,410 --> 00:47:17,210
+you know, here are the two standard deviation moves here, the two,
+
+625
+00:47:17,350 --> 00:47:20,750
+three standard deviation moves. Now we can model using this,
+
+626
+00:47:20,830 --> 00:47:26,090
+but there's obviously a better way. And that is the partial pool, but that's,
+
+627
+00:47:26,170 --> 00:47:29,110
+it's 855. That's going to be for our, our next live. Okay.
+
+628
+00:47:29,190 --> 00:47:32,630
+So just showing you guys some of the insights and like how we need to be thinking
+
+629
+00:47:32,630 --> 00:47:34,150
+about this data and like being,
+
+630
+00:47:34,370 --> 00:47:38,450
+being a craftsman here and not just like rushing into these things.
+
+631
+00:47:38,450 --> 00:47:41,330
+They take time, they take, you know, work and they,
+
+632
+00:47:41,790 --> 00:47:45,690
+you gotta be constantly improving. Brilliant. So Jordan,
+
+633
+00:47:46,130 --> 00:47:49,230
+a couple of questions for you here in the chat and a couple that I'm going to tack
+
+634
+00:47:49,230 --> 00:47:49,790
+on as well.
+
+635
+00:47:50,890 --> 00:47:55,230
+So we talked about a couple of different things that are more like data science
+
+636
+00:47:55,230 --> 00:47:58,630
+techniques in this rather than just the direct application to finance,
+
+637
+00:47:58,710 --> 00:48:04,350
+such as turning your data into a normal distribution, complete pooling,
+
+638
+00:48:04,550 --> 00:48:07,730
+partial pooling. And these are not necessarily finance specific, right?
+
+639
+00:48:07,770 --> 00:48:09,590
+These are data science specific things.
+
+640
+00:48:10,010 --> 00:48:12,150
+If somebody wanted to learn more about these things,
+
+641
+00:48:13,030 --> 00:48:16,850
+can they learn about it on online? Like, can they just Google these things?
+
+642
+00:48:16,990 --> 00:48:19,850
+Will they be able to find code in the language that they are trying to learn it
+
+643
+00:48:19,850 --> 00:48:25,150
+in by Googling them? Is this all a part of a package that you downloaded?
+
+644
+00:48:25,330 --> 00:48:27,930
+What's the deal? For sure. You can do all of this.
+
+645
+00:48:28,050 --> 00:48:30,830
+You can learn all of this online. A couple of good resources,
+
+646
+00:48:30,830 --> 00:48:33,030
+cross-validated Kaggle,
+
+647
+00:48:33,290 --> 00:48:39,810
+and then a couple of really good books from David Aronson that's directly relatable
+
+648
+00:48:39,810 --> 00:48:41,270
+to finance. It's not an easy read.
+
+649
+00:48:42,090 --> 00:48:44,610
+An easier read would be evidence-based technical analysis.
+
+650
+00:48:45,640 --> 00:48:46,980
+So that's a good one to start with.
+
+651
+00:48:50,930 --> 00:48:57,930
+Yeah. So I would say those three or four places to get your feet wet. Kaggle,
+
+652
+00:48:58,210 --> 00:49:03,330
+you know, type in EDA, exploratory data analysis on Kaggle,
+
+653
+00:49:03,490 --> 00:49:06,610
+where people actually get paid to forecast things and they show all their work.
+
+654
+00:49:07,030 --> 00:49:08,190
+See what they're doing, right?
+
+655
+00:49:08,230 --> 00:49:14,580
+And you'll see a lot of the times 99% is spent on understanding your data and learning
+
+656
+00:49:14,580 --> 00:49:16,870
+about it. Yeah.
+
+657
+00:49:16,890 --> 00:49:20,270
+I'm more so talking about just learning about the different techniques and actually
+
+658
+00:49:20,270 --> 00:49:23,430
+getting the code for them, so they don't have to maybe start- Oh yeah.
+
+659
+00:49:23,510 --> 00:49:27,170
+And all the codes on Kaggle as well. It just takes time, right?
+
+660
+00:49:27,170 --> 00:49:31,200
+Like if you want to become a good data scientist, it's going to take time,
+
+661
+00:49:31,420 --> 00:49:34,960
+right? But this is the stuff that happens at the top quant funds, right?
+
+662
+00:49:34,960 --> 00:49:39,980
+Where they bring in a bunch of quants and then they teach them finance and then
+
+663
+00:49:39,980 --> 00:49:42,520
+they say, okay, let's get some data. Let's get to work.
+
+664
+00:49:44,880 --> 00:49:47,800
+So Joey's asking, I guess, related to the partial pooling saying,
+
+665
+00:49:48,880 --> 00:49:53,440
+so maybe you would match them with their correlated stocks and create like little
+
+666
+00:49:53,440 --> 00:49:59,350
+baskets of stocks? Yeah, absolutely. Right? Absolutely. So sectors, maybe,
+
+667
+00:49:59,610 --> 00:50:02,430
+sometimes it's really hard getting your hands on good sector data.
+
+668
+00:50:03,400 --> 00:50:04,660
+You want to try everything, Joey.
+
+669
+00:50:04,720 --> 00:50:06,820
+You want to really think about it and then try it.
+
+670
+00:50:09,630 --> 00:50:12,010
+And then just to clarify, Tico was saying,
+
+671
+00:50:12,210 --> 00:50:17,920
+are you saying that like a 5% move is different for different stocks? 100%,
+
+672
+00:50:17,920 --> 00:50:22,620
+right? A 5% move for Coca-Cola is huge. A 5% move for Shopify is like normal.
+
+673
+00:50:22,620 --> 00:50:29,080
+Mm-hmm. And then Stephen B saying, can we backtest partial pooling?
+
+674
+00:50:29,100 --> 00:50:30,540
+Like in the baseball example,
+
+675
+00:50:30,540 --> 00:50:34,620
+can we test how well it worked in the past and how much shrinkage we should use?
+
+676
+00:50:35,390 --> 00:50:38,330
+Yes. So that's going to be for another day, Stephen,
+
+677
+00:50:38,410 --> 00:50:41,990
+but you can actually graph like over time how well your model is doing. Like,
+
+678
+00:50:42,030 --> 00:50:45,310
+is it getting better? Is it getting worse? And that's a good method to use.
+
+679
+00:50:46,930 --> 00:50:50,530
+Partial pooling is used in like some of the best sports betting models.
+
+680
+00:50:53,700 --> 00:50:55,780
+All right. So that seems to be all the questions.
+
+681
+00:50:56,100 --> 00:50:59,960
+We're going to end the session here, just before we do the good stuff. Jordan,
+
+682
+00:51:00,060 --> 00:51:04,840
+another great live and I will be posting this up shortly. Yeah.
+
+683
+00:51:05,100 --> 00:51:07,700
+And next live guys, we're going to start getting into more of our data,
+
+684
+00:51:08,100 --> 00:51:13,060
+learning more about our dataset and starting maybe in a couple more,
+
+685
+00:51:13,120 --> 00:51:16,480
+we're going to actually build out, start building out the model and testing it,
+
+686
+00:51:16,560 --> 00:51:22,950
+backtesting it across, you know, a walk forward analysis,
+
+687
+00:51:22,950 --> 00:51:26,010
+cross-sectional analysis, all that stuff is going to happen.
+
+688
+00:51:26,070 --> 00:51:29,210
+And we're going to build something out good. We're going to make some money.
+
+689
+00:51:29,530 --> 00:51:32,890
+Exactly. And then we're all going to get rich guys. All right.
+
+690
+00:51:33,640 --> 00:51:35,460
+See you guys on the next live. See you.

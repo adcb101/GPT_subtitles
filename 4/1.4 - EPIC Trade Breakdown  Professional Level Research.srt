@@ -1,0 +1,1251 @@
+1
+00:00:02,290 --> 00:00:04,430
+Okay, so guys in this live,
+
+2
+00:00:04,490 --> 00:00:06,790
+we're going to talk about the JD trades start to finish.
+
+3
+00:00:08,290 --> 00:00:11,910
+Basically how this whole thing unfolded and you guys are going to be able to see
+
+4
+00:00:11,910 --> 00:00:16,230
+how like a great trade went from, you know,
+
+5
+00:00:16,250 --> 00:00:18,390
+like the whole process of how this happened.
+
+6
+00:00:22,790 --> 00:00:27,620
+So just so you guys know, this might be a little bit more advanced. So please,
+
+7
+00:00:27,760 --> 00:00:30,960
+there's no dumb questions. If you have a question, you know, don't hesitate,
+
+8
+00:00:31,160 --> 00:00:35,040
+stop, ask, and we will, we'll answer the questions. So I guess,
+
+9
+00:00:35,120 --> 00:00:38,780
+let me pull up the chat here.
+
+10
+00:00:44,240 --> 00:00:46,760
+Yeah, the trades, it's over now. It's over now.
+
+11
+00:00:46,820 --> 00:00:55,330
+So we're going to start this off. So this morning, I was already positioned,
+
+12
+00:00:57,120 --> 00:01:00,440
+right? Sean and I, we already had a position on, right?
+
+13
+00:01:01,720 --> 00:01:05,360
+So what we were betting on was we had a position on for quite some time now,
+
+14
+00:01:05,380 --> 00:01:07,120
+right? And it turned out to be very profitable.
+
+15
+00:01:07,880 --> 00:01:11,540
+So Neil actually did a live on this guys, where you can see,
+
+16
+00:01:11,740 --> 00:01:15,520
+so I think it's just two weeks ago. Yeah. When we initiated the trade,
+
+17
+00:01:15,920 --> 00:01:18,860
+Neil did a whole presentation on it. I just want to see who's on the live.
+
+18
+00:01:18,940 --> 00:01:19,460
+Is Neil on the live?
+
+19
+00:01:25,310 --> 00:01:26,070
+Yeah, he is. Okay.
+
+20
+00:01:28,070 --> 00:01:29,770
+So Neil, Kyle chime in here.
+
+21
+00:01:32,130 --> 00:01:34,910
+So okay. So we already had a position on, okay.
+
+22
+00:01:35,910 --> 00:01:38,810
+And if you guys want more information on how the position was structured,
+
+23
+00:01:38,970 --> 00:01:40,570
+you know, you can take a look at that live,
+
+24
+00:01:41,170 --> 00:01:45,170
+but what we're basically betting on was when the earnings date would be.
+
+25
+00:01:45,630 --> 00:01:48,010
+When JD would release their earnings date.
+
+26
+00:01:48,630 --> 00:01:53,890
+So we believed it's going to be on November 16th, okay.
+
+27
+00:01:54,310 --> 00:02:00,060
+Which is after the November 13th expiration. However,
+
+28
+00:02:00,290 --> 00:02:08,300
+the market was pricing in a November 13th earnings date. Okay.
+
+29
+00:02:08,400 --> 00:02:11,780
+November 13th earnings date, and we were betting on November 16th.
+
+30
+00:02:11,780 --> 00:02:16,130
+So we had this position on for a little while. So to structure this trade,
+
+31
+00:02:16,330 --> 00:02:17,930
+we had to create a calendar spread.
+
+32
+00:02:19,060 --> 00:02:24,480
+So what we did was we sold the overpriced volatility in November 13th.
+
+33
+00:02:24,500 --> 00:02:25,600
+Remember the market is saying,
+
+34
+00:02:25,880 --> 00:02:28,860
+this is where the volatility is going to be on November 13th.
+
+35
+00:02:28,860 --> 00:02:32,390
+So we sold that because we said, it's not going to be there, right?
+
+36
+00:02:32,390 --> 00:02:36,190
+If we take out that event vol, all of a sudden vol drops.
+
+37
+00:02:37,900 --> 00:02:42,180
+So we sold that and to hedge that short vol and that short gamma,
+
+38
+00:02:43,160 --> 00:02:47,270
+we bought the November 20th. Okay.
+
+39
+00:02:47,390 --> 00:02:49,870
+And so you guys can see the structure of the trade right here, right?
+
+40
+00:02:54,580 --> 00:02:59,760
+Short the 90, November 13th, long the 90, November 20th, right there. Okay.
+
+41
+00:02:59,940 --> 00:03:03,660
+That's what it looks like. And now it's going for $1.43, but funny enough,
+
+42
+00:03:03,680 --> 00:03:07,700
+actually, we put on this position for 35 cents, right?
+
+43
+00:03:07,760 --> 00:03:14,880
+We actually did the 90 and the 75 calendars for a total of 71 cents total,
+
+44
+00:03:15,060 --> 00:03:26,330
+all in. So currently the position looks something like this, right?
+
+45
+00:03:26,710 --> 00:03:29,670
+Obviously I exited this morning and we'll talk about why,
+
+46
+00:03:29,910 --> 00:03:33,270
+but this is what the position currently looks like. Right. It was extremely,
+
+47
+00:03:33,450 --> 00:03:34,130
+extremely profitable.
+
+48
+00:03:39,560 --> 00:03:42,500
+Yeah. So code saying, what about just being long only?
+
+49
+00:03:42,900 --> 00:03:47,510
+So you couldn't because the real mispricing was in the November 13th. Okay.
+
+50
+00:03:47,510 --> 00:03:49,470
+It was in the November 13th. You had to be selling that.
+
+51
+00:03:49,570 --> 00:03:51,990
+You couldn't just be long the November 20th.
+
+52
+00:03:58,810 --> 00:04:03,640
+Okay. So what happened this morning? So this morning, you know, had my,
+
+53
+00:04:03,820 --> 00:04:08,400
+had my little meeting with the, with the junior analyst Neil gang and you know,
+
+54
+00:04:08,440 --> 00:04:09,600
+here's the conversation, right?
+
+55
+00:04:10,120 --> 00:04:15,040
+So Neil mentions that I vol for the November 13th had dropped below the November
+
+56
+00:04:15,040 --> 00:04:18,760
+20 by a sizable amount, right? You guys can see from that graph right here.
+
+57
+00:04:19,960 --> 00:04:24,920
+So this tells us that finally the market said, okay, you know what, Neil,
+
+58
+00:04:25,080 --> 00:04:30,450
+you're right. The earnings date is going to be November 20th. Okay. So,
+
+59
+00:04:30,750 --> 00:04:33,150
+you know, so here I asked Neil in the morning, I said, Neil,
+
+60
+00:04:33,330 --> 00:04:36,390
+when you get a chance, please look at JD. There's a market pricing.
+
+61
+00:04:36,470 --> 00:04:39,950
+The market's pricing in November 13 because when I looked at the market earlier
+
+62
+00:04:39,950 --> 00:04:46,670
+this morning, it had November 13 above November 20, AKA there was still,
+
+63
+00:04:46,830 --> 00:04:50,210
+there was still a trade to be made. We should be getting more size on.
+
+64
+00:04:50,590 --> 00:04:54,810
+And then Neil comes back saying, okay, here it is, right? It's already,
+
+65
+00:04:54,950 --> 00:05:00,150
+it's already, we are right. We should take off the position. So I said, wow,
+
+66
+00:05:00,190 --> 00:05:03,310
+like I can't believe this just happened. So I told Neil, you know,
+
+67
+00:05:03,350 --> 00:05:05,250
+take off the trade now and, you know,
+
+68
+00:05:05,270 --> 00:05:07,450
+post the P and L to the group and explain, you know,
+
+69
+00:05:07,490 --> 00:05:09,270
+follow up with your video there so that people can learn.
+
+70
+00:05:10,780 --> 00:05:14,360
+So I got out of my position on that news.
+
+71
+00:05:17,630 --> 00:05:22,450
+However, Neil had it, Neil was wrong, Neil had a little,
+
+72
+00:05:22,810 --> 00:05:25,590
+I don't know what happened last night. Maybe he had a late night, long,
+
+73
+00:05:26,370 --> 00:05:31,710
+a little bit of a bender. But you know, midday, Kyle comes in and says, guys,
+
+74
+00:05:32,410 --> 00:05:38,720
+you know, November 13th is still bid. It's still above November 20, right?
+
+75
+00:05:38,760 --> 00:05:44,020
+He's seeing 57 for the November 20 and 56 for the November 13, right?
+
+76
+00:05:44,040 --> 00:05:48,840
+There's still, there's still an event being priced into the November 13. Okay.
+
+77
+00:05:49,820 --> 00:05:52,500
+So, unfortunately I was on my phone at the time I wasn't on,
+
+78
+00:05:52,800 --> 00:05:56,140
+I wasn't on a desktop, otherwise I would have checked. You know,
+
+79
+00:05:56,160 --> 00:05:59,800
+I took Neil's word for it and close out the position, but that's okay. We got,
+
+80
+00:05:59,840 --> 00:06:04,360
+we got back into it later on and here's Neil making a joke of it, right?
+
+81
+00:06:04,380 --> 00:06:05,580
+Saying I never gave the signal.
+
+82
+00:06:07,940 --> 00:06:12,910
+Okay. So, but you know, we can't be mad at, we can't be mad at him though,
+
+83
+00:06:12,910 --> 00:06:17,790
+because he was the one who initiated the trade at 70 cents and then we got it off
+
+84
+00:06:17,790 --> 00:06:21,130
+for, you know, well over, well over a dollar, close to a dollar 40.
+
+85
+00:06:23,640 --> 00:06:27,400
+Exactly. Right. Steven, it was Neil's idea. So, you know,
+
+86
+00:06:27,420 --> 00:06:30,680
+he did make us quite a bit of money. So we can't ding him for that.
+
+87
+00:06:34,560 --> 00:06:39,600
+So what happens? Well, the research starts, right? So we realized that, okay,
+
+88
+00:06:39,640 --> 00:06:44,690
+November 13th is still bid relative to November 20. We need to make a trade.
+
+89
+00:06:45,760 --> 00:06:47,260
+Okay. We need to make a trade here.
+
+90
+00:06:47,280 --> 00:06:52,110
+Something needs to happen because there's a complete inefficiency.
+
+91
+00:06:52,270 --> 00:06:58,250
+Like Neil's model basically said the chance of this happening is zero. Okay.
+
+92
+00:06:58,390 --> 00:07:00,790
+And if you guys want to learn about what Neil's model was,
+
+93
+00:07:00,870 --> 00:07:03,970
+he did a whole video on it and that's posted on our, on our YouTube.
+
+94
+00:07:06,810 --> 00:07:11,360
+Basically zero chance that it could happen. So we said, okay,
+
+95
+00:07:11,360 --> 00:07:14,000
+we need to start putting on some size if this is correct,
+
+96
+00:07:14,160 --> 00:07:17,460
+but why is the market getting this so wrong? So funny enough, guys,
+
+97
+00:07:18,060 --> 00:07:18,920
+while this was happening,
+
+98
+00:07:21,100 --> 00:07:22,840
+okay, so hold on before we get there.
+
+99
+00:07:23,260 --> 00:07:32,290
+So what I need to do first was figure out what was the fair value of the non-event
+
+100
+00:07:32,290 --> 00:07:35,350
+volatility. Okay. What was the fair value for this non-event volatility?
+
+101
+00:07:35,710 --> 00:07:42,310
+So what I did was I used the QQQ and BABA to try to figure out what should JD vol
+
+102
+00:07:42,310 --> 00:07:45,350
+be trading at if there was no event, right?
+
+103
+00:07:45,410 --> 00:07:46,990
+Obviously these are all correlated together.
+
+104
+00:07:47,670 --> 00:07:54,270
+We can get a sense of what JD vol should be trading at given BABA and NASDAQ don't
+
+105
+00:07:54,270 --> 00:07:57,640
+have earnings during November 13th, right?
+
+106
+00:07:58,380 --> 00:08:02,940
+So we're using the new terminal here. And what, so this,
+
+107
+00:08:03,040 --> 00:08:08,580
+this graph right here is showing us the NASDAQ vol minus JD vol and the average
+
+108
+00:08:08,580 --> 00:08:10,670
+is about 18%. Okay.
+
+109
+00:08:10,950 --> 00:08:17,720
+So at the time NASDAQ I vol for the November 13th was trading at 27%.
+
+110
+00:08:18,060 --> 00:08:21,500
+So we had 18% on that and we get 45%. Okay.
+
+111
+00:08:21,580 --> 00:08:32,960
+So 45% given NASDAQ should be JD vol. Also, BABA I vol was 42%. Okay.
+
+112
+00:08:33,670 --> 00:08:40,220
+And so given that information, right, we also look at the BABA JD spread,
+
+113
+00:08:40,660 --> 00:08:44,560
+right? Given that information, JD spread,
+
+114
+00:08:44,680 --> 00:08:51,170
+and we looked at the beta between JD and BABA should be about 46%. Okay.
+
+115
+00:08:51,170 --> 00:08:53,350
+Given what we just took from BABA and Q's,
+
+116
+00:08:56,290 --> 00:09:00,260
+the event, the non-event vol should be 45%. Okay.
+
+117
+00:09:00,280 --> 00:09:01,660
+That was the information we came up with.
+
+118
+00:09:04,250 --> 00:09:11,370
+Yet the JD non-event vol November 13th at the time was 55% implied volatility.
+
+119
+00:09:13,600 --> 00:09:18,270
+Okay. So we said, okay, something's up here, but we don't know what.
+
+120
+00:09:18,430 --> 00:09:21,750
+So we actually, you know, we started to go in very small, very light, right?
+
+121
+00:09:21,750 --> 00:09:23,110
+We got a couple of diagonals on.
+
+122
+00:09:25,600 --> 00:09:31,580
+Now at the time, so this is at 1.33. So at the time I get a message, okay,
+
+123
+00:09:31,580 --> 00:09:33,020
+from a PM. Well, XPM,
+
+124
+00:09:33,080 --> 00:09:36,060
+he actually used to be head of the derivative desk at JP Morgan.
+
+125
+00:09:36,060 --> 00:09:38,420
+And he's saying, what do you think of this,
+
+126
+00:09:38,600 --> 00:09:43,760
+of this long November straddle short 1.7 Jan straddle for BIIB. Totally,
+
+127
+00:09:43,980 --> 00:09:48,920
+totally different. Totally different trade. He's like,
+
+128
+00:09:48,960 --> 00:09:52,540
+I think that Jan vol is too high relative to no vol. Once, you know,
+
+129
+00:09:52,580 --> 00:09:57,580
+once this is gone, you know, there should be nothing left after March.
+
+130
+00:09:57,860 --> 00:10:00,640
+So I said, I'll have a look. But in the meantime,
+
+131
+00:10:01,360 --> 00:10:05,340
+JD will announce November 13th cycle tomorrow.
+
+132
+00:10:06,730 --> 00:10:09,670
+The out the money call should drop nine points. This is the research that,
+
+133
+00:10:09,770 --> 00:10:13,850
+you know, we were working on at the time. And he asked me like,
+
+134
+00:10:13,910 --> 00:10:15,710
+did investor relations tell you this? Like, how do you know this?
+
+135
+00:10:15,710 --> 00:10:19,570
+And then he says, Bloomberg has it confirmed as 1113.
+
+136
+00:10:19,590 --> 00:10:21,490
+So he checks his terminal and he says,
+
+137
+00:10:21,590 --> 00:10:26,620
+Bloomberg has it confirmed on November 13th. Right. So right off the bat,
+
+138
+00:10:26,640 --> 00:10:30,170
+I'm thrown for a loop. Right. I was like, I was like,
+
+139
+00:10:30,170 --> 00:10:33,110
+there's nothing on investor relations. Like why is this happening? Right.
+
+140
+00:10:33,170 --> 00:10:34,830
+How does Bloomberg have it confirmed? How's,
+
+141
+00:10:34,990 --> 00:10:38,260
+how the hell does Bloomberg have this confirmed? So I was like, holy shit,
+
+142
+00:10:38,280 --> 00:10:41,970
+I could be on the wrong side of the trade. Right. I'm selling this thing.
+
+143
+00:10:42,030 --> 00:10:47,440
+It's already confirmed. And so he's, he gave us an idea like, like maybe China,
+
+144
+00:10:47,580 --> 00:10:50,380
+maybe in China, they don't have to give a date. Right. You know,
+
+145
+00:10:50,800 --> 00:10:54,720
+who knows what the, what the, what the rules are over there. Right. And if,
+
+146
+00:10:54,880 --> 00:10:57,880
+and if that's the case though, so if it was November 13th,
+
+147
+00:10:57,880 --> 00:11:01,940
+we could come in there and buy a ton, a ton of vol November 13th.
+
+148
+00:11:01,940 --> 00:11:04,600
+It'd be the best trade. It'd be the best trade ever.
+
+149
+00:11:04,620 --> 00:11:07,800
+We'd make millions and millions and millions. Billions and billions.
+
+150
+00:11:07,800 --> 00:11:13,300
+How does he say it? Millions. You got the hand, the hand gestures down. Okay.
+
+151
+00:11:13,420 --> 00:11:19,410
+So, um, so I was like, you could buy November. I was like, if that's the case,
+
+152
+00:11:19,430 --> 00:11:23,530
+you could buy November 13th, sell November 20th, quasi ARB. Right. Um,
+
+153
+00:11:23,790 --> 00:11:28,350
+I was like, there should be 7% implied move. And then he takes a look at it.
+
+154
+00:11:28,370 --> 00:11:31,430
+I send him some information. He's like, nice work. So at the bottom here,
+
+155
+00:11:31,430 --> 00:11:34,650
+I'm going to start selling November 13th. Right.
+
+156
+00:11:34,670 --> 00:11:36,490
+And buy some obvious earnings in December.
+
+157
+00:11:36,530 --> 00:11:37,950
+So he's going to also do a calendar spread.
+
+158
+00:11:37,950 --> 00:11:41,610
+Sell November 13th and buy longer dated options.
+
+159
+00:11:41,730 --> 00:11:46,340
+Some similar to what we were doing. So here's Bloomberg. Okay.
+
+160
+00:11:46,360 --> 00:11:50,530
+So here's what he was seeing. So you guys can see right here where it says,
+
+161
+00:11:50,590 --> 00:11:53,170
+so it says like earning surprise snapshot under measure.
+
+162
+00:11:53,430 --> 00:11:59,910
+It says next announcement, 11, 13th, 2020, 11, 13,
+
+163
+00:12:00,070 --> 00:12:03,090
+but it has a C meaning it's confirmed. Right.
+
+164
+00:12:03,230 --> 00:12:05,010
+Bloomberg usually has an E if it's only an estimate,
+
+165
+00:12:05,330 --> 00:12:09,610
+but they have it confirmed November 13th. Okay.
+
+166
+00:12:10,130 --> 00:12:13,130
+So all of a sudden this makes sense, right?
+
+167
+00:12:14,610 --> 00:12:19,940
+Bloomberg people with millions of dollars who can actually move markets are seeing
+
+168
+00:12:19,940 --> 00:12:25,500
+that November 13th, this earnings is confirmed. Okay. And you know,
+
+169
+00:12:25,800 --> 00:12:29,820
+Bloomberg is never wrong. Right. So we must be on the wrong side here.
+
+170
+00:12:29,900 --> 00:12:34,020
+Bloomberg is going to be right. Right. We, how are we going to go against this?
+
+171
+00:12:35,020 --> 00:12:40,820
+So our two interns, Neil and Kyle, they start looking into this. Right.
+
+172
+00:12:43,780 --> 00:12:45,400
+So they started looking into this.
+
+173
+00:12:46,810 --> 00:12:48,970
+And so Neil comes up with actually a great idea. He says like,
+
+174
+00:12:49,270 --> 00:12:51,050
+so since JD is a Chinese company,
+
+175
+00:12:52,150 --> 00:12:56,320
+potentially they have a different website for their investors. And guess what?
+
+176
+00:12:56,440 --> 00:12:58,140
+Sure enough, they did. Right.
+
+177
+00:12:58,240 --> 00:13:01,760
+Neil actually goes and finds this on the Hong Kong stock exchange filings.
+
+178
+00:13:02,340 --> 00:13:04,120
+And I was blown away when he found this. I was like,
+
+179
+00:13:04,120 --> 00:13:08,730
+you gotta be kidding me here. Right. So he finds this and right at the top,
+
+180
+00:13:08,850 --> 00:13:11,210
+it says a board meeting. Right.
+
+181
+00:13:11,210 --> 00:13:16,050
+And we click on it and it's actually have a board meeting on November 13th to discuss
+
+182
+00:13:16,050 --> 00:13:21,360
+the future earnings. Okay. November 13th,
+
+183
+00:13:21,360 --> 00:13:23,420
+they have a meeting to discuss the future earnings.
+
+184
+00:13:23,860 --> 00:13:27,400
+And that is what Bloomberg was actually picking up on.
+
+185
+00:13:27,840 --> 00:13:33,340
+It wasn't the earnings date. It was a board meeting and they got that mixed up.
+
+186
+00:13:33,930 --> 00:13:40,730
+So big inefficiency on Bloomberg's end. Right. And a lot of markets right now,
+
+187
+00:13:40,910 --> 00:13:44,090
+a lot of brokerages, a lot of like earnings, whispers, all those guys.
+
+188
+00:13:44,110 --> 00:13:47,110
+We're starting to pick up on this. That is November 13th,
+
+189
+00:13:47,110 --> 00:13:51,790
+which is a complete inefficiency. Okay. Complete inefficiency.
+
+190
+00:13:54,160 --> 00:13:57,140
+Yeah. So Steven, that's, and that's what we thought about, right? We said,
+
+191
+00:13:58,580 --> 00:14:03,140
+we said, okay, well, this could signal, this could signal some type of like,
+
+192
+00:14:03,680 --> 00:14:06,980
+some type of all, some type of all right. We can't just go and say,
+
+193
+00:14:07,140 --> 00:14:08,780
+let's go solve all. Now we've got to learn more.
+
+194
+00:14:08,820 --> 00:14:10,820
+We have to understand our edge more. Right.
+
+195
+00:14:10,820 --> 00:14:13,560
+We have to understand this inefficiency more. There's the market smart.
+
+196
+00:14:13,560 --> 00:14:18,280
+We can't just go and blindly start doing stuff. So what happens? Well,
+
+197
+00:14:18,300 --> 00:14:23,240
+we find another day, right? The date of board meeting on August 4th.
+
+198
+00:14:23,430 --> 00:14:29,260
+And this had the exact same scenario. It said on August 4th,
+
+199
+00:14:29,260 --> 00:14:32,180
+we're going to have earnings. We're going to have a board meeting.
+
+200
+00:14:32,300 --> 00:14:34,100
+We were going to discuss earnings in the future.
+
+201
+00:14:37,340 --> 00:14:41,760
+And what happened was actually they confirmed on August 6th,
+
+202
+00:14:42,440 --> 00:14:44,100
+they came out on August 6th and said,
+
+203
+00:14:44,100 --> 00:14:50,570
+we're going to have earnings after this date, after this board meeting. Okay.
+
+204
+00:14:51,650 --> 00:14:55,690
+So this board meeting actually happened on August 14th. So August 4th,
+
+205
+00:14:55,690 --> 00:14:55,910
+they said,
+
+206
+00:14:55,950 --> 00:14:59,410
+we're going to have a board meeting on August 14th to discuss earnings just like,
+
+207
+00:14:59,890 --> 00:15:04,360
+just like now. Right. They're saying on November 3rd,
+
+208
+00:15:04,360 --> 00:15:08,020
+we're going to have a board meeting on November 13th to discuss earnings.
+
+209
+00:15:11,340 --> 00:15:13,820
+So what, so now we've got to keep going. We've got to keep digging.
+
+210
+00:15:14,840 --> 00:15:22,290
+So what I did was I went back to thinkorswim on August 5th. Okay. August 5th.
+
+211
+00:15:22,350 --> 00:15:26,740
+So right after they announced, let me go back a slide.
+
+212
+00:15:29,140 --> 00:15:34,620
+So right after they announced, right, I went back. And what do we see? Well,
+
+213
+00:15:34,660 --> 00:15:36,960
+we see that vol is still bid, right?
+
+214
+00:15:37,320 --> 00:15:40,880
+For the August 14th where they're supposed to have their, their board meeting.
+
+215
+00:15:41,560 --> 00:15:47,130
+Vol is still bid, just the exact same scenario as what we're having right now.
+
+216
+00:15:48,740 --> 00:15:51,240
+Right. Exactly. The exact same scenario.
+
+217
+00:15:53,270 --> 00:15:58,150
+But look what happened guys. Once they confirmed the earnings date, August 6th,
+
+218
+00:16:01,530 --> 00:16:04,410
+look at this vol for the August 14th.
+
+219
+00:16:06,490 --> 00:16:09,830
+So look at the August 14th guys. Look at the vol. No, let's do this.
+
+220
+00:16:12,810 --> 00:16:17,240
+Oh, it's this one. It's this one. Okay. Look at the vol here.
+
+221
+00:16:19,180 --> 00:16:25,140
+Are you going to change it? It goes from, it goes from 53 to 40.
+
+222
+00:16:26,450 --> 00:16:29,810
+As soon as they confirmed the earnings, the board meeting meant nothing.
+
+223
+00:16:30,450 --> 00:16:31,290
+Vol vanished.
+
+224
+00:16:33,960 --> 00:16:35,360
+Okay. It completely vanished.
+
+225
+00:16:38,790 --> 00:16:40,490
+And that's what's happening right now.
+
+226
+00:16:43,260 --> 00:16:49,170
+And that's what's happening right now. Right. So we said, okay,
+
+227
+00:16:49,510 --> 00:16:52,650
+that's all we need. We completely understand this edge.
+
+228
+00:16:53,050 --> 00:16:54,830
+We 100% understand this edge.
+
+229
+00:16:56,160 --> 00:16:58,960
+And literally the exact same scenario happened last quarter.
+
+230
+00:17:00,090 --> 00:17:02,610
+And it looks like in order to take advantage of this,
+
+231
+00:17:02,670 --> 00:17:08,270
+we need to start selling November 13th. And we need to do this in size.
+
+232
+00:17:09,100 --> 00:17:11,720
+We need to do this in size. So we started selling.
+
+233
+00:17:12,180 --> 00:17:16,810
+So here are my screenshots from today. Okay. So we started selling in size,
+
+234
+00:17:16,850 --> 00:17:21,130
+right? We've got hundreds of lots on. I mean, oops.
+
+235
+00:17:21,330 --> 00:17:24,290
+We just kept pounding and pounding and pounding. So I was getting in.
+
+236
+00:17:24,330 --> 00:17:26,890
+Sean was getting in. Neil was getting in. Kyle was getting in.
+
+237
+00:17:26,910 --> 00:17:31,430
+We just kept hitting this thing as much as we possibly could. Now,
+
+238
+00:17:32,810 --> 00:17:36,130
+what happened though? Right. We just, there's no, we can't just like, you know,
+
+239
+00:17:36,450 --> 00:17:39,550
+you can't just be making free money here. Right. And no one just,
+
+240
+00:17:39,710 --> 00:17:45,230
+no one notices. You know, it's like, um, uh, it's like the support line,
+
+241
+00:17:45,310 --> 00:17:47,950
+you know, you can just sell as many as you want at the support line.
+
+242
+00:17:47,970 --> 00:17:51,830
+You can just, you know, or you can buy as much as you want at the, uh, sorry.
+
+243
+00:17:51,870 --> 00:17:53,930
+You can buy as much as you want at the resistance line. Right.
+
+244
+00:17:54,030 --> 00:17:56,490
+The whole technical analysis thing. Like it's infinite fills.
+
+245
+00:17:56,690 --> 00:18:00,060
+It's not infinite fills. Right. So here, for example,
+
+246
+00:18:00,060 --> 00:18:02,660
+the market maker started catching on. So towards the end of the day,
+
+247
+00:18:02,700 --> 00:18:07,020
+the market makers were noticing that all of a sudden, all this, all this,
+
+248
+00:18:07,240 --> 00:18:11,030
+all these lots were coming into the market. And so they, they,
+
+249
+00:18:11,030 --> 00:18:14,620
+they took notice of this. Right. And so, unfortunately for me,
+
+250
+00:18:14,620 --> 00:18:16,960
+I had to pay a little bit of a premium. I, you know, I,
+
+251
+00:18:16,960 --> 00:18:20,420
+I let the guys get in prior to I did. And then, you know,
+
+252
+00:18:21,190 --> 00:18:24,350
+unfortunately I had to pay up a little bit and I was just coming in more size to
+
+253
+00:18:24,350 --> 00:18:27,490
+look at Jordan, the true Robin hood. Yeah. I know the trading world.
+
+254
+00:18:27,650 --> 00:18:31,610
+I know Sean and I have been the nice guys here and letting you guys look and letting
+
+255
+00:18:31,610 --> 00:18:36,610
+you guys come in first. Right. So, um, now,
+
+256
+00:18:36,710 --> 00:18:40,630
+so here we're going to look at some of the data. Okay. So here we go.
+
+257
+00:18:41,960 --> 00:18:44,860
+What are the guys saying? Stephen's making me laugh.
+
+258
+00:18:47,240 --> 00:18:50,880
+Yeah. So let's take a look here. Right. So this, this, uh,
+
+259
+00:18:50,880 --> 00:18:54,080
+this is today's implied volatility for the 90 call option. Okay.
+
+260
+00:18:54,080 --> 00:18:59,630
+For the November 13th, this is when Neil was sleeping in the red, right.
+
+261
+00:18:59,650 --> 00:19:01,110
+We could have got some pretty good fills there,
+
+262
+00:19:01,350 --> 00:19:06,270
+but then this green period is when we started researching and we started researching,
+
+263
+00:19:06,330 --> 00:19:09,850
+um, you know, what was happening. Right.
+
+264
+00:19:09,850 --> 00:19:13,170
+And then we started getting fills and you can see guys,
+
+265
+00:19:13,270 --> 00:19:16,170
+we just started driving that vol down. Right.
+
+266
+00:19:16,250 --> 00:19:20,130
+We started hitting it and just driving the vol down and the market maker started
+
+267
+00:19:20,130 --> 00:19:24,640
+adjusting. Right. They said, okay, something's going on here and we need to,
+
+268
+00:19:24,680 --> 00:19:27,520
+we need to adjust. We need to adjust.
+
+269
+00:19:30,270 --> 00:19:34,250
+So this is for the, that was November 13th. This is for the November 20.
+
+270
+00:19:34,510 --> 00:19:36,970
+You can see guys, it stayed bid, right?
+
+271
+00:19:37,030 --> 00:19:40,150
+The market maker actually wasn't pushing it too far up.
+
+272
+00:19:40,150 --> 00:19:42,990
+And you know why he wasn't pushing it too far up because it was already pricing
+
+273
+00:19:42,990 --> 00:19:45,970
+in the move. Right. Because we know it's like, uh,
+
+274
+00:19:46,490 --> 00:19:48,590
+it's most likely going to be November 13th,
+
+275
+00:19:48,590 --> 00:19:52,510
+but November 20th for sure has it priced in. Right.
+
+276
+00:19:52,550 --> 00:19:55,370
+And it was a lot more liquid, right? November 20 is the monthly,
+
+277
+00:19:55,490 --> 00:19:58,570
+a lot more liquid. So market maker doesn't need to, you know,
+
+278
+00:19:58,610 --> 00:20:01,030
+doesn't need to get too worried. Right. He's got a lot of options there.
+
+279
+00:20:02,060 --> 00:20:05,460
+And so we didn't drive up November 22 much, but you can see,
+
+280
+00:20:05,520 --> 00:20:09,960
+we literally drove, uh, November, uh, that's, that's the nineties.
+
+281
+00:20:09,960 --> 00:20:12,200
+And look at the, out of the money guys. Okay. We,
+
+282
+00:20:12,380 --> 00:20:14,900
+we were selling out of the money on the November 13th.
+
+283
+00:20:14,960 --> 00:20:21,690
+We absolutely crushed it, right? We absolute vol went from 62 to 54.
+
+284
+00:20:24,360 --> 00:20:28,360
+You made markets more fair, right? We, we, exactly. We provided a service,
+
+285
+00:20:28,360 --> 00:20:31,080
+right. But you know, this is,
+
+286
+00:20:31,120 --> 00:20:34,720
+this is a thing where we can't get unlimited fills, but we,
+
+287
+00:20:34,820 --> 00:20:36,700
+unfortunately we can't get unlimited fills and, you know,
+
+288
+00:20:36,740 --> 00:20:39,860
+by trading it's expensive, right. And by trading size, you know,
+
+289
+00:20:39,880 --> 00:20:42,320
+that's why we say there's some capacity constraint ideas.
+
+290
+00:20:42,320 --> 00:20:46,460
+I can't come in here with $20 million and do this. Right.
+
+291
+00:20:48,500 --> 00:20:50,020
+So a couple of things though, guys,
+
+292
+00:20:50,120 --> 00:20:56,180
+there was someone who came in with 550 lots around one 15.
+
+293
+00:20:59,000 --> 00:21:02,260
+It's funny that, you know, when I sent my, uh, you know, the guy, the message,
+
+294
+00:21:02,360 --> 00:21:06,140
+it was just before that, but wonder who it was. Yeah. It's funny that,
+
+295
+00:21:06,140 --> 00:21:08,420
+you know, someone came in here with some serious, serious size.
+
+296
+00:21:08,660 --> 00:21:11,800
+And you can see right here, guys, they hit the bid.
+
+297
+00:21:12,360 --> 00:21:17,680
+So they were willing to sell at the bid. They were being aggressive.
+
+298
+00:21:17,820 --> 00:21:18,200
+They're saying,
+
+299
+00:21:18,600 --> 00:21:25,040
+I know for sure that this thing is overpriced and I'm willing to hit that bid.
+
+300
+00:21:26,090 --> 00:21:32,020
+And they did with 550 loss. And I think that also triggered the start.
+
+301
+00:21:32,060 --> 00:21:35,520
+So if we got in a bit earlier, I think we could have got better fills,
+
+302
+00:21:35,640 --> 00:21:38,680
+but coming from these big orders. And then,
+
+303
+00:21:38,680 --> 00:21:41,200
+then I was coming with a hundreds of lots coming in.
+
+304
+00:21:41,400 --> 00:21:46,860
+It's just like the market can't do it. He just said, Hey, this is it. Yeah.
+
+305
+00:21:46,940 --> 00:21:50,790
+I might be on the wrong side here. I can't do this.
+
+306
+00:21:53,120 --> 00:21:58,590
+So, so that is, uh, let's see. I think that's the end of the presentation.
+
+307
+00:22:00,470 --> 00:22:01,670
+Yeah. So that's it.
+
+308
+00:22:02,370 --> 00:22:10,000
+So there guys is an example of going from start to finish for a trade. Well,
+
+309
+00:22:10,000 --> 00:22:11,040
+I guess, well, we still have tomorrow.
+
+310
+00:22:11,120 --> 00:22:13,140
+We still got to take off the position tomorrow.
+
+311
+00:22:15,250 --> 00:22:17,250
+You know, that's how, that's how this game works.
+
+312
+00:22:22,000 --> 00:22:24,300
+Okay. Let's, let's go into a little question period here.
+
+313
+00:22:24,360 --> 00:22:25,900
+I'm gonna stop the recording. That was awesome.
