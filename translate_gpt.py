@@ -643,18 +643,6 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/kaggle/working/GPT_subtitles/4/1.1 - KWEB Trade (In Depth Research).srt',
-               '/kaggle/working/GPT_subtitles/4/1.2 - VXX & SPX in depth trade research.srt',
-               '/kaggle/working/GPT_subtitles/4/1.3 - Strategizing on How to Price COIN Options.srt',
-               '/kaggle/working/GPT_subtitles/4/1.4 - EPIC Trade Breakdown  Professional Level Research.srt',
-               '/kaggle/working/GPT_subtitles/4/1.5 - A Sample of Professional Trading Research (TSLA Trade Breakdown).srt',
-               '/kaggle/working/GPT_subtitles/4/1.6 - NKLA Breakdown _ An Inside Look at Professional Trading Mentality.srt',
-               '/kaggle/working/GPT_subtitles/4/1.7 - Building a Sports Betting Model with Aaron Brown.srt',
-               '/kaggle/working/GPT_subtitles/4/1.8 - How Risk Neutral Densities Work.srt',
-               '/kaggle/working/GPT_subtitles/4/2.1 - Coding for Traders - Setting Up R and R Studio - Lesson 1.srt',
-               '/kaggle/working/GPT_subtitles/4/2.2 - Coding for Traders - Pulling and Plotting a Data Set - Lesson 2.srt',
-               '/kaggle/working/GPT_subtitles/4/2.3 - Coding for Traders - Writing Your First Function - Lesson 3.srt',
-               '/kaggle/working/GPT_subtitles/4/2.4 - Coding for Traders - Running A Regression Analysis - Lesson 4.srt',
                '/kaggle/working/GPT_subtitles/4/3.1 - Building a Strategy (Part 1).srt',
                '/kaggle/working/GPT_subtitles/4/3.2 - Building a Strategy (Part 2).srt',
                '/kaggle/working/GPT_subtitles/4/3.3 - Building a Strategy (Part 3).srt',
