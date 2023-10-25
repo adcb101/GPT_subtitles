@@ -654,7 +654,7 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
     
         subtitle = Subtitle(input_file)
         translator = Translator(model=model, batch_size=batch_size, target_language=target_language, source_language=source_language,
-                                titles=file_name, video_info=video_info, input_path=item, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
+                                titles=file_name, video_info=video_info, input_path=input_file, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
     
         subtitle_batches, timestamps_batches = subtitle.get_processed_batches_and_timestamps(
             batch_size)
@@ -666,7 +666,7 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
         #
         subtitle.save_subtitles(output_file, translated_subtitles)
         
-        print(item+'已完成')
+        #print(item+'已完成')
 
         # print(translated_transcript)
         # subtitle.add_dual_subtitles(input_file,translated_subtitles)
