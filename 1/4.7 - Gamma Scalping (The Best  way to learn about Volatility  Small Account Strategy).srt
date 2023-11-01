@@ -1,0 +1,3107 @@
+1
+00:00:00,500 --> 00:00:04,320
+So everyone, on tonight's live, we wanted to, you know,
+
+2
+00:00:04,320 --> 00:00:07,720
+Jordan and I spent some time thinking about it, and we thought of a way that,
+
+3
+00:00:08,200 --> 00:00:11,760
+if you have a small account, I shared with you guys a couple of weeks ago,
+
+4
+00:00:11,880 --> 00:00:14,580
+my small account challenge, where I said, you know,
+
+5
+00:00:14,700 --> 00:00:16,500
+the way I grew an account from, you know,
+
+6
+00:00:16,920 --> 00:00:20,460
+a couple thousand bucks to a couple bigger thousand bucks, you know,
+
+7
+00:00:20,480 --> 00:00:23,960
+from three to eight was by taking really high conviction trades,
+
+8
+00:00:24,100 --> 00:00:27,840
+putting a ton of risk on the table, cutting losers short, letting winners run.
+
+9
+00:00:29,210 --> 00:00:33,130
+And it's a good strategy. It's a good strategy, but to really, you know,
+
+10
+00:00:33,760 --> 00:00:37,520
+if you're fresh into the options game, or, you know, like, you know,
+
+11
+00:00:37,560 --> 00:00:41,720
+maybe a couple months in, you're not gonna learn a ton doing that,
+
+12
+00:00:41,740 --> 00:00:44,660
+and you're not gonna be finding those trades yourself. Right,
+
+13
+00:00:44,660 --> 00:00:47,680
+a lot of those trades that are high enough conviction that you would be doing that
+
+14
+00:00:47,680 --> 00:00:51,040
+would come from the group. So it's not necessarily like, sure,
+
+15
+00:00:51,100 --> 00:00:52,660
+you might make some money today,
+
+16
+00:00:52,700 --> 00:00:56,120
+but you're not building yourself into the person that makes money for a long time.
+
+17
+00:00:57,690 --> 00:01:01,210
+And that's, what you get that from is by trading a lot,
+
+18
+00:01:01,290 --> 00:01:05,050
+by finding your own ideas and then trading them with frequency.
+
+19
+00:01:05,540 --> 00:01:11,120
+The problem with that is that you have to pay to play, right,
+
+20
+00:01:11,360 --> 00:01:15,060
+trading costs money. You pay commissions, you pay the spread.
+
+21
+00:01:16,240 --> 00:01:19,320
+And if you're trading, you know, a $2,000 account, let's say,
+
+22
+00:01:20,010 --> 00:01:26,540
+you're gonna get eaten alive by those commissions. So what can you do to learn?
+
+23
+00:01:26,940 --> 00:01:30,130
+What can you do to make money and learn?
+
+24
+00:01:30,130 --> 00:01:34,770
+And that is what we are gonna talk about on today's live. It's a top,
+
+25
+00:01:34,850 --> 00:01:38,790
+it's actually a silver topic, but I think, and Jordan will talk about this,
+
+26
+00:01:38,950 --> 00:01:42,600
+we might bump this down a bit because I think it's so valuable.
+
+27
+00:01:42,920 --> 00:01:51,080
+Tonight's topic is Gamma Scalping and Delta Hedging and particularly Gamma Scalping
+
+28
+00:01:51,640 --> 00:01:54,460
+as an actual account strategy.
+
+29
+00:01:57,660 --> 00:02:03,480
+Any intro comments, Jordan? No, I think it's, I guess, actually, intro comment.
+
+30
+00:02:04,200 --> 00:02:05,480
+This is actually how I learned.
+
+31
+00:02:08,160 --> 00:02:12,740
+So when I first started trading, just to give super quick background there,
+
+32
+00:02:12,740 --> 00:02:13,800
+when I first started into options,
+
+33
+00:02:14,220 --> 00:02:18,860
+the way that I learned was by buying straddles, so right off the bat,
+
+34
+00:02:18,980 --> 00:02:22,830
+limited risk, okay, buying straddles and Gamma Scalping.
+
+35
+00:02:23,440 --> 00:02:25,280
+That was the way I learned, right? At the end of the day,
+
+36
+00:02:25,340 --> 00:02:29,060
+if you don't have money on the table, it's hard to be motivated to learn.
+
+37
+00:02:30,270 --> 00:02:34,950
+You don't really learn the nuances, like spreads, like commissions,
+
+38
+00:02:35,410 --> 00:02:42,740
+like drawdowns, right? Like market impact. Risks, Greeks. Exactly,
+
+39
+00:02:43,180 --> 00:02:45,180
+and so the cheapest way,
+
+40
+00:02:45,720 --> 00:02:49,740
+the cheapest way to learn this is try to find under priced vol,
+
+41
+00:02:50,580 --> 00:02:53,220
+buy straddles and Delta Hedging or Gamma Scalping.
+
+42
+00:02:54,220 --> 00:02:58,220
+And I would go on the Bloomberg Terminal every day, scan, like,
+
+43
+00:02:58,260 --> 00:02:59,360
+so this is maybe four years ago,
+
+44
+00:02:59,520 --> 00:03:05,340
+scan for stocks that were cheap in terms of volatility.
+
+45
+00:03:05,340 --> 00:03:07,420
+This might be buying stuff into earnings.
+
+46
+00:03:07,740 --> 00:03:09,680
+You guys can reach out to Pulumi about this as well.
+
+47
+00:03:10,200 --> 00:03:13,240
+We spent a lot of time on it. Buying stuff below its first quantile. Yeah,
+
+48
+00:03:13,420 --> 00:03:19,860
+just buying something that I thought was cheap. And then Delta Hedges, right?
+
+49
+00:03:20,060 --> 00:03:24,680
+And this is probably the cheapest way to learn options, in my opinion.
+
+50
+00:03:25,490 --> 00:03:29,570
+And you can make money. And you can make, I mean, hey,
+
+51
+00:03:29,750 --> 00:03:33,690
+there's nothing better than you wake up in the morning and the stocks move 10%,
+
+52
+00:03:34,490 --> 00:03:36,010
+right? It's anti-fragile.
+
+53
+00:03:36,410 --> 00:03:39,090
+And we're in an environment now where vol's maybe picking up a little bit,
+
+54
+00:03:39,190 --> 00:03:42,580
+starting, you can feel some stuff boiling. Well,
+
+55
+00:03:42,660 --> 00:03:44,480
+Gamma Scalping might not be a bad thing.
+
+56
+00:03:45,880 --> 00:03:49,380
+So the beauty about long convexity is you're never gonna wake up in the morning
+
+57
+00:03:49,380 --> 00:03:54,800
+and say, shit, you know? That's what we wake up in the morning and say.
+
+58
+00:03:55,810 --> 00:03:59,070
+Exactly, exactly. Most of the time you're gonna wake up in the morning and say,
+
+59
+00:03:59,110 --> 00:04:03,250
+well, whatever, right? But sometimes you're gonna wake up in the morning,
+
+60
+00:04:03,490 --> 00:04:04,430
+holy cow,
+
+61
+00:04:06,780 --> 00:04:12,180
+right? So it's the best way, in my opinion, to learn. Learn options, you know,
+
+62
+00:04:12,180 --> 00:04:15,870
+and also make some money. And what's really cool about it,
+
+63
+00:04:15,890 --> 00:04:18,910
+so it involves buying and selling shares. In the US,
+
+64
+00:04:19,210 --> 00:04:22,120
+you can trade shares for free, right?
+
+65
+00:04:22,180 --> 00:04:27,240
+So you get to save a good bit of money on those commissions. Whereas in Canada,
+
+66
+00:04:27,340 --> 00:04:32,300
+like even with IBKR, you pay a small fee for shares, right? Yeah, dude,
+
+67
+00:04:32,400 --> 00:04:36,260
+you're always paying. Pay like a buck, right? Yeah, a buck, yeah. Minimum.
+
+68
+00:04:36,700 --> 00:04:40,120
+Right, so you don't have to pay that. Yeah, Marcos, but we're in Canada.
+
+69
+00:04:41,220 --> 00:04:46,980
+Thinkorswim's five bucks in and out. It's crazy. And sure,
+
+70
+00:04:47,060 --> 00:04:51,620
+like I think it's actually probably the best way, the best intro into vol. So,
+
+71
+00:04:52,060 --> 00:04:57,310
+you know, I'm really happy Marcos just posted there. Like sometimes it's,
+
+72
+00:04:57,410 --> 00:05:02,080
+you know, and just from like what I know from Marcos, he's very, you know,
+
+73
+00:05:02,160 --> 00:05:04,200
+he's got some good alpha in the directional space.
+
+74
+00:05:04,950 --> 00:05:08,390
+But getting into vol sometimes, it might be a little tricky, right? Especially,
+
+75
+00:05:08,590 --> 00:05:10,970
+you know, you see Sean and I always talking about being short convexity.
+
+76
+00:05:12,440 --> 00:05:16,180
+If you decide to buy volatility, right, which everyone can do,
+
+77
+00:05:16,420 --> 00:05:18,410
+and Delta hedge that, it's,
+
+78
+00:05:18,570 --> 00:05:22,070
+I think it's a super good introduction to trading volatility.
+
+79
+00:05:25,100 --> 00:05:32,970
+So let's start this off with, what is gamma scalping? Okay, yeah,
+
+80
+00:05:32,990 --> 00:05:36,630
+maybe we'll start with gamma scalping. Okay,
+
+81
+00:05:36,830 --> 00:05:40,030
+we'll talk about gamma scalping and then we'll just do a quick PA scan and then
+
+82
+00:05:40,030 --> 00:05:41,790
+run a strategy. Yeah, yeah, it's like, you know,
+
+83
+00:05:41,810 --> 00:05:44,410
+not everyone here will be familiar with that as a strategy, right?
+
+84
+00:05:45,270 --> 00:05:47,270
+So let's talk about first actually, what is gamma?
+
+85
+00:05:49,350 --> 00:05:53,810
+So gamma is basically the rate of change of Delta, right?
+
+86
+00:05:53,870 --> 00:05:58,710
+So how much your Delta is gonna change for every dollar move in the stock price.
+
+87
+00:06:00,600 --> 00:06:03,580
+So, okay, just to make it like as simple as possible.
+
+88
+00:06:03,700 --> 00:06:10,180
+So your Delta is your exposure to the stock price. Yes.
+
+89
+00:06:10,460 --> 00:06:16,030
+How much money your option makes or loses as the stock itself moves. Correct.
+
+90
+00:06:16,030 --> 00:06:23,960
+And what gamma is, is your sensitivity to, so the, let's say this, you know,
+
+91
+00:06:24,060 --> 00:06:28,080
+if the stock moves $1, you get paid $1, let's say.
+
+92
+00:06:28,790 --> 00:06:32,510
+But if the stock keeps moving that way and starts to move quicker, well,
+
+93
+00:06:32,550 --> 00:06:37,560
+you're gonna actually get paid out more. And that's the gamma effect. Correct.
+
+94
+00:06:37,800 --> 00:06:41,660
+So gamma is that rate of change in how much you get paid for the stock moving.
+
+95
+00:06:42,080 --> 00:06:46,880
+So basically the difference between the stock moving like 1%, 1%,
+
+96
+00:06:46,880 --> 00:06:50,840
+1% versus like a 5% on the last day, right?
+
+97
+00:06:50,920 --> 00:06:55,260
+The pay off of that one move is different. Right,
+
+98
+00:06:55,320 --> 00:06:59,360
+think about buying a way out of the money call option. You think about Tesla,
+
+99
+00:06:59,580 --> 00:07:07,200
+you buy a $2,000 call option and expiring tomorrow, expiring tomorrow. Well,
+
+100
+00:07:07,300 --> 00:07:09,960
+if the stock moves up a hundred bucks today from 800 to 900,
+
+101
+00:07:09,960 --> 00:07:14,730
+you're gonna see zero change in the P&L of your call option, okay?
+
+102
+00:07:15,530 --> 00:07:21,600
+But imagine that stock continues to go up and now it's at 1,000. Well,
+
+103
+00:07:21,640 --> 00:07:26,490
+all of a sudden from 1,000 to 1,100, you're gonna be making a ton of money.
+
+104
+00:07:26,940 --> 00:07:29,580
+And that's that gamma exposure, right?
+
+105
+00:07:29,680 --> 00:07:33,220
+It's your Delta's changing through time or through spot.
+
+106
+00:07:36,990 --> 00:07:40,330
+Sean, can I share my screen? I wanted to show them something. Yeah, sure.
+
+107
+00:07:47,990 --> 00:07:49,250
+Should we get? Yep.
+
+108
+00:07:51,740 --> 00:07:55,880
+So we come over to the terminal here.
+
+109
+00:07:57,740 --> 00:08:01,160
+So one thing to keep in mind guys is that when we are a gamma,
+
+110
+00:08:01,400 --> 00:08:06,840
+an option is basically priced if you were to gamma scalp it.
+
+111
+00:08:07,100 --> 00:08:12,300
+If you were to get, so let's say option is priced at 30 implied vol. Well,
+
+112
+00:08:12,360 --> 00:08:15,140
+what the market is saying here is if you gamma scalp this,
+
+113
+00:08:17,040 --> 00:08:23,560
+you would break even, okay? So we're going to show you what I'm talking about.
+
+114
+00:08:23,800 --> 00:08:25,640
+So let's say the stock's trading at a hundred.
+
+115
+00:08:27,180 --> 00:08:29,440
+We've got a stock trading at a hundred dollars. Actually,
+
+116
+00:08:29,640 --> 00:08:31,160
+let's use a real world example.
+
+117
+00:08:33,240 --> 00:08:37,150
+Steve, something you're looking at. What's the ticker?
+
+118
+00:08:39,820 --> 00:08:41,940
+DLR. DLR.
+
+119
+00:08:45,330 --> 00:08:50,650
+So Steve's looking at DLR and he is, in this case, let's say he's long vol.
+
+120
+00:08:51,330 --> 00:08:52,790
+Okay, he wants to be long volatility.
+
+121
+00:08:55,280 --> 00:09:00,200
+And Steve, you give me an option with $5 strike. Say, come on, Steve.
+
+122
+00:09:00,640 --> 00:09:03,000
+I just have to, it's only a dollar wide strike, Steve.
+
+123
+00:09:06,530 --> 00:09:11,690
+What do we got? ATVI. Okay, thank you, thank you.
+
+124
+00:09:13,840 --> 00:09:17,020
+Okay, so let's say we're trading ATVI. Okay,
+
+125
+00:09:17,060 --> 00:09:18,240
+and we're trading these weeklies here.
+
+126
+00:09:22,910 --> 00:09:24,650
+We're trading these weeklies here. Well,
+
+127
+00:09:24,910 --> 00:09:30,160
+these options are priced at 27% implied volatility. Okay,
+
+128
+00:09:30,240 --> 00:09:31,800
+they're priced at 27% implied volatility.
+
+129
+00:09:33,180 --> 00:09:37,680
+And what that means is if we were to delta hedge this, right,
+
+130
+00:09:37,740 --> 00:09:41,280
+we would break even because the stock should realize 27% implied volatility.
+
+131
+00:09:42,480 --> 00:09:44,900
+Okay, so let's say Steve's looking to buy this straddle here.
+
+132
+00:09:54,730 --> 00:10:01,270
+Okay, so if we were to delta hedge this, we would realize 27% implied vol,
+
+133
+00:10:01,490 --> 00:10:04,200
+which is what the market's saying. Okay,
+
+134
+00:10:04,200 --> 00:10:06,320
+the market's saying this stock is gonna realize 27%.
+
+135
+00:10:06,320 --> 00:10:10,600
+Let's head over to the terminal here. Okay, and let's price this out.
+
+136
+00:10:10,600 --> 00:10:14,920
+So a lot of the time, guys, we're pricing options. Okay,
+
+137
+00:10:14,940 --> 00:10:20,700
+a lot of time we're pricing them. So that expiration is March 19,
+
+138
+00:10:23,090 --> 00:10:26,040
+or sorry, March 12.
+
+139
+00:10:29,640 --> 00:10:35,880
+Okay, and so 27 vol. Stock's trading at 102.25,
+
+140
+00:10:40,080 --> 00:10:46,570
+and we are buying the 103 strike. Okay, so the straddle price, right,
+
+141
+00:10:46,630 --> 00:10:54,300
+the call price is 229, and the put price is $3. So 5.29 for this straddle.
+
+142
+00:10:54,720 --> 00:10:59,960
+Okay, $2.29 plus $3, $5.30 to buy this straddle.
+
+143
+00:11:01,960 --> 00:11:07,920
+But let's say we think volatility is gonna be 40%.
+
+144
+00:11:09,980 --> 00:11:10,400
+Okay,
+
+145
+00:11:12,400 --> 00:11:18,460
+that straddle today should be worth 7.80.
+
+146
+00:11:22,140 --> 00:11:26,040
+Okay, it should be worth 7.80 today, but it's trading for 5.30.
+
+147
+00:11:29,300 --> 00:11:32,820
+Right, so what we need to do is buy this option, buy the straddle,
+
+148
+00:11:33,020 --> 00:11:35,020
+and then delta hedge or gamma scalp.
+
+149
+00:11:37,040 --> 00:11:37,680
+What do you think, Sean?
+
+150
+00:11:39,700 --> 00:11:40,860
+I think it's good.
+
+151
+00:11:42,920 --> 00:11:48,120
+So I think quickly, Jordan, if you can try to explain why we have to do that.
+
+152
+00:11:49,510 --> 00:11:53,090
+Like, okay, so if it's gonna realize 40% vol,
+
+153
+00:11:53,190 --> 00:11:55,510
+why don't I just buy the straddle? Isn't that what we say?
+
+154
+00:11:55,630 --> 00:12:05,420
+If we think vol is cheap, buy the straddle. Why am I doing this scalp? Dude,
+
+155
+00:12:05,500 --> 00:12:08,020
+it's a brilliant question. To be honest with you,
+
+156
+00:12:08,040 --> 00:12:10,620
+I've always asked that question when I was starting out as well.
+
+157
+00:12:11,600 --> 00:12:16,880
+And so let me- Whiteboard?
+
+158
+00:12:26,620 --> 00:12:29,420
+Okay, so here's actually the beautiful thing about options, right?
+
+159
+00:12:29,420 --> 00:12:31,320
+It's something that we don't talk about much in Predicting Alpha,
+
+160
+00:12:33,740 --> 00:12:38,480
+but it's actually one of the beautiful things about options, okay?
+
+161
+00:12:39,390 --> 00:12:44,250
+We're looking at a stock here, ATVI, that's being priced at 27, okay?
+
+162
+00:12:44,250 --> 00:12:47,990
+And it's going to realize 40.
+
+163
+00:12:52,390 --> 00:12:56,230
+And this is where the stock is starting at, okay? Now,
+
+164
+00:12:56,330 --> 00:13:03,820
+the thing with the stock is it could realize 40 vol multiple ways, okay?
+
+165
+00:13:03,960 --> 00:13:10,450
+In fact, there is infinite paths, okay? So for example,
+
+166
+00:13:10,650 --> 00:13:12,590
+this stock could realize 40 vol like this,
+
+167
+00:13:15,190 --> 00:13:18,220
+okay? It could realize 40 vol like this.
+
+168
+00:13:22,280 --> 00:13:24,020
+It could realize 40 vol like this,
+
+169
+00:13:27,050 --> 00:13:30,590
+okay? There are infinite ways at which this could realize 40 vol.
+
+170
+00:13:30,730 --> 00:13:33,110
+It could also realize 40 vols like this,
+
+171
+00:13:35,300 --> 00:13:42,780
+okay? And so what delta hedging does, or gamma scalping, the same thing, okay?
+
+172
+00:13:43,530 --> 00:13:53,160
+What this allows us to do is it allows us to convert realized volatility into,
+
+173
+00:13:53,320 --> 00:13:55,800
+or sorry, implied volatility into realized volatility.
+
+174
+00:13:56,890 --> 00:14:02,780
+So whether we get this path, we get this path, or we get this path,
+
+175
+00:14:04,000 --> 00:14:07,540
+as long as it realizes 40 vol, we're gonna make money.
+
+176
+00:14:08,460 --> 00:14:12,020
+Because- As long as it realizes more than 27. Right, right, sorry. Yeah,
+
+177
+00:14:12,180 --> 00:14:14,300
+as long as it realizes more than 27, we're gonna make money.
+
+178
+00:14:15,730 --> 00:14:17,990
+It takes away the directional component,
+
+179
+00:14:20,160 --> 00:14:24,280
+okay? Do you wanna maybe show it day by day maybe,
+
+180
+00:14:24,460 --> 00:14:30,820
+and how hedging your delta there- Gotcha, gotcha.
+
+181
+00:14:31,500 --> 00:14:36,730
+Makes the directional component not matter. Okay, so we're gonna go,
+
+182
+00:14:36,830 --> 00:14:40,830
+we're gonna do one where we don't delta hedge. And also guys, keep in mind,
+
+183
+00:14:41,010 --> 00:14:44,950
+every path we took there, so when we buy the straddle, okay?
+
+184
+00:14:46,480 --> 00:14:52,340
+Our expected value is, in our case, 27 minus 40, it was the $3.50.
+
+185
+00:14:52,940 --> 00:14:55,800
+If we place this trade 1,000 times,
+
+186
+00:14:56,060 --> 00:15:01,220
+our expected value would be that dollar amount. But on one give and take,
+
+187
+00:15:01,320 --> 00:15:06,830
+it might not. So let's do that example here. So here's day one, we start here,
+
+188
+00:15:06,910 --> 00:15:12,520
+okay? We buy this option, 27 vol. Tomorrow, it goes up.
+
+189
+00:15:13,040 --> 00:15:19,760
+And 40 vol divided by 16, plays plus here. Oh, you know what, Jordan?
+
+190
+00:15:19,840 --> 00:15:24,440
+I think I actually have a really good way to show this. Can I try to- Yep, yep,
+
+191
+00:15:24,440 --> 00:15:28,260
+yep, yep. Can I try to show the screen? Okay, let me,
+
+192
+00:15:28,920 --> 00:15:33,520
+I'm gonna have to use some big brain power here. Just so you know,
+
+193
+00:15:33,820 --> 00:15:40,020
+2.5% vol a day, 2.5% move is a 40 vol. Yeah, yeah, yeah. No,
+
+194
+00:15:40,120 --> 00:15:44,960
+that won't be necessary for this if my brain works. Nice.
+
+195
+00:15:46,840 --> 00:15:53,660
+So let's say here's where we are today, okay? We buy this option for 27 vol.
+
+196
+00:15:54,510 --> 00:15:58,490
+We are anticipating it to be about 40% vol, okay?
+
+197
+00:16:04,310 --> 00:16:11,110
+So let's say we get that two, sure, that 2.5% move up, Jordan, okay? So we get,
+
+198
+00:16:11,390 --> 00:16:17,250
+so let's call this our, let's say, you know, this right here, right?
+
+199
+00:16:17,310 --> 00:16:21,590
+This line where this dot is right now, this is our starting point, right?
+
+200
+00:16:22,270 --> 00:16:25,820
+So we're on day one right now. We're at our starting point.
+
+201
+00:16:26,930 --> 00:16:33,250
+And then in the first day, it moves up 2.5% to here, right? So this is day one.
+
+202
+00:16:33,450 --> 00:16:38,880
+And we'll say this is like the end of day one. So we'll call this two. Well,
+
+203
+00:16:39,200 --> 00:16:44,940
+when we, at this point, if we hedge our deltas, it's like us doing this.
+
+204
+00:16:47,780 --> 00:16:51,900
+And now we are back at that line again. You see what happened there?
+
+205
+00:16:52,560 --> 00:16:58,530
+We reset our position. We're back in line with this. Now let's say on day two,
+
+206
+00:16:58,930 --> 00:17:11,000
+it goes down 2.5%, okay? What we do then is we come in and we hedge it again,
+
+207
+00:17:11,930 --> 00:17:14,990
+and we keep in line with that. We're staying delta neutral here.
+
+208
+00:17:15,070 --> 00:17:20,840
+And we're getting to capture these gains from these moves, right?
+
+209
+00:17:20,940 --> 00:17:24,360
+And then let's say day three, we get, you know, a 4% move up,
+
+210
+00:17:26,610 --> 00:17:30,990
+you know, we're gonna come in here and we're gonna,
+
+211
+00:17:31,980 --> 00:17:36,140
+maybe made that a little too big. And we're gonna bring it back down here.
+
+212
+00:17:36,820 --> 00:17:39,720
+Come with me, come here, come on. I really like that.
+
+213
+00:17:39,800 --> 00:17:41,600
+I really like this diagram, dude.
+
+214
+00:17:44,420 --> 00:17:45,940
+Any questions about this, guys?
+
+215
+00:17:49,390 --> 00:17:53,110
+And also just to add on to Sean is that if he doesn't delta hedge,
+
+216
+00:17:53,290 --> 00:17:56,890
+he has delta exposure. So in the first case,
+
+217
+00:17:56,950 --> 00:18:02,140
+he wants the stock to continue to rally. And if it doesn't, well,
+
+218
+00:18:02,160 --> 00:18:07,410
+then he's gonna lose. So he's increasing his variance, but he's increasing his,
+
+219
+00:18:07,410 --> 00:18:09,890
+you know, winners and losers.
+
+220
+00:18:10,670 --> 00:18:13,870
+But instead what he's doing here is he's removing that exposure,
+
+221
+00:18:16,840 --> 00:18:19,640
+right? So think about this. Like on this first,
+
+222
+00:18:19,960 --> 00:18:28,950
+when I delta hedged this first one here, I locked in a plus 2.5 move, right?
+
+223
+00:18:29,310 --> 00:18:34,830
+So I got paid as if the stock moved 2.5 as an absolute move. So, okay,
+
+224
+00:18:34,870 --> 00:18:35,430
+here's what we're doing.
+
+225
+00:18:35,690 --> 00:18:40,630
+We are removing positive and negative moves and just having absolute moves.
+
+226
+00:18:42,170 --> 00:18:45,590
+That's basically what it is, right, Jordan? Yeah, that's exactly what it is.
+
+227
+00:18:45,830 --> 00:18:50,490
+Right, does that make sense? So imagine this, imagine a stock went plus 2.5,
+
+228
+00:18:51,030 --> 00:18:56,550
+imagine a stock went plus 2.5 on day one, and then it went on day two,
+
+229
+00:18:56,770 --> 00:19:02,130
+minus 2.5. Oh my God, why am I, something's wrong with me here, dude. 2.5,
+
+230
+00:19:02,510 --> 00:19:09,410
+that would be a total percent move of zero and you wouldn't get paid if you just
+
+231
+00:19:09,410 --> 00:19:15,990
+held the straddle. But if we delta hedged here and we delta hedged here,
+
+232
+00:19:16,510 --> 00:19:20,770
+what we basically do is we remove this sign and we remove this sign,
+
+233
+00:19:21,290 --> 00:19:24,650
+leaving us with a total move of 5%.
+
+234
+00:19:37,610 --> 00:19:40,230
+Yeah, cool, I could do that. Cole's asking,
+
+235
+00:19:40,330 --> 00:19:44,620
+can we do that like an example with shares? I think for a hypothetical,
+
+236
+00:19:44,780 --> 00:19:49,420
+it might get a little messy. I think we can do them pretty quick. Okay,
+
+237
+00:19:49,420 --> 00:19:51,160
+you wanna do it? Yeah.
+
+238
+00:19:53,440 --> 00:19:56,540
+So here, Teeqo, here, I'll just, you know, show me your screen. Yeah,
+
+239
+00:19:56,540 --> 00:19:57,060
+you can share your screen.
+
+240
+00:20:01,430 --> 00:20:07,540
+Of course, Teeqo, we'll always talk about Tesla.
+
+241
+00:20:08,680 --> 00:20:13,200
+I actually love how every time Teeqo asks a question, we use a Tesla reference.
+
+242
+00:20:13,860 --> 00:20:20,260
+Yes. Okay, Teeqo, so we buy the straddle, okay? Think about this, okay?
+
+243
+00:20:21,000 --> 00:20:25,540
+Here we go. So here's day one that Sean talked about, right? Here's day one.
+
+244
+00:20:26,740 --> 00:20:31,210
+Honestly, gamma scalping Tesla is probably a really good idea. Yeah,
+
+245
+00:20:31,290 --> 00:20:36,130
+especially on the cheaper, the near-term stuff, it's pretty cheap right now.
+
+246
+00:20:36,290 --> 00:20:43,770
+Okay, so Teeqo, let's say we start here, okay? And Tesla, it's so funny,
+
+247
+00:20:43,870 --> 00:20:48,790
+I almost called Tesla Teeqo. Might as well, it's interchangeable. And so,
+
+248
+00:20:49,310 --> 00:20:58,680
+Teeqo, Tesla drops 20%. It drops 20%, okay? And now it's trading over here.
+
+249
+00:21:00,010 --> 00:21:08,260
+And we have just made $65,000, okay? We've just made $65,000. Now, okay,
+
+250
+00:21:08,280 --> 00:21:09,500
+in this case, I'd probably close it,
+
+251
+00:21:09,600 --> 00:21:13,380
+but imagine we still had a bunch of gamma left, okay? Which,
+
+252
+00:21:14,080 --> 00:21:16,980
+imagine we still had a bunch of gamma left. Tomorrow,
+
+253
+00:21:17,120 --> 00:21:20,700
+if we wake up and the stock goes up further, we make a ton of money.
+
+254
+00:21:22,870 --> 00:21:27,280
+But if it comes back down tomorrow, well, now we're gonna lose money.
+
+255
+00:21:28,790 --> 00:21:36,560
+So what we can do is we can lock in this game. We can actually lock this in.
+
+256
+00:21:36,960 --> 00:21:39,380
+The way we lock this in is flattening our deltas.
+
+257
+00:21:40,360 --> 00:21:44,640
+So now we have no directional exposure. So Jordan,
+
+258
+00:21:44,700 --> 00:21:48,160
+do you wanna maybe put a price slice there and then flatten your deltas and show
+
+259
+00:21:48,160 --> 00:21:50,820
+how that changes the instantaneous? Yeah,
+
+260
+00:21:50,960 --> 00:21:56,040
+so one thing to keep in mind is the shares aren't gonna be here at this price,
+
+261
+00:21:56,060 --> 00:21:59,520
+so it's gonna be a little bit different, but- Oh, actually, no,
+
+262
+00:21:59,540 --> 00:22:02,380
+you should be able to adjust the bid you're putting in for the share. Okay,
+
+263
+00:22:02,400 --> 00:22:10,170
+let's see. Shouldn't you? We will find out, sir. Exactly, Cole,
+
+264
+00:22:10,250 --> 00:22:17,500
+you'd buy shares there. Right, so Tesla comes down, it's at 665, and we say,
+
+265
+00:22:17,580 --> 00:22:20,340
+okay, we need to buy some shares here to remove our directional exposure.
+
+266
+00:22:20,820 --> 00:22:26,600
+And lock in our game. Exactly, well, okay, so what's that? 665,
+
+267
+00:22:30,480 --> 00:22:35,460
+we're gonna buy shares. But how many do we buy? Well, we need to buy 650,
+
+268
+00:22:36,360 --> 00:22:39,810
+right? That's our delta. So let's say we buy 650.
+
+269
+00:22:39,810 --> 00:22:43,570
+We have a negative 650 delta and each share is a positive delta,
+
+270
+00:22:43,570 --> 00:22:46,390
+so we want that to be at zero, so we'd buy 650.
+
+271
+00:22:49,020 --> 00:22:52,980
+And so now you can see here, well, if the stock, because we're long gamma,
+
+272
+00:22:53,100 --> 00:22:58,580
+so we still want movement. So if the stock falls back down to, let's say, 800,
+
+273
+00:22:59,470 --> 00:23:04,580
+well, we're gonna make a ton of money, right? We're gonna be up $69,000,
+
+274
+00:23:06,660 --> 00:23:12,000
+okay? And because we're long gamma, we want movement. If the stock rallies,
+
+275
+00:23:14,170 --> 00:23:18,220
+if the stock continues to drop, well, we're still gonna make money.
+
+276
+00:23:19,850 --> 00:23:23,260
+So let me ask you guys this question. How do we lose money?
+
+277
+00:23:24,140 --> 00:23:28,600
+The stock falls down, we make, yeah. The stock falls down, we make money.
+
+278
+00:23:28,660 --> 00:23:31,180
+The stock rallies, we make money. How do we lose money?
+
+279
+00:23:32,220 --> 00:23:36,180
+Marcos is saying no volatility. Tell me more, Marcos. Tell me more.
+
+280
+00:23:36,280 --> 00:23:36,820
+Do you need to know more?
+
+281
+00:23:44,760 --> 00:23:45,560
+Expires worthless,
+
+282
+00:23:47,960 --> 00:23:52,260
+beta. Marcos, I need, who said that? Who said that one? Marcos? Perfect.
+
+283
+00:23:52,680 --> 00:23:57,860
+Sylvan, quickly, second place also said beta. Exactly, right?
+
+284
+00:23:57,860 --> 00:24:01,820
+There's no free money here. Okay, there's no free money here. Every single day,
+
+285
+00:24:01,900 --> 00:24:05,100
+we can see right here, our position is gonna lose $1,000.
+
+286
+00:24:07,160 --> 00:24:08,880
+Okay, so- That's too many words. For that gamma,
+
+287
+00:24:11,100 --> 00:24:15,840
+right? We are paying for that gamma to have that exposure of, okay,
+
+288
+00:24:15,900 --> 00:24:18,400
+if the stock moves up and the stock moves down, we're gonna make money, right?
+
+289
+00:24:19,040 --> 00:24:21,600
+And so it needs to move up and down by a certain amount.
+
+290
+00:24:22,470 --> 00:24:25,470
+And it has to move actually by the amount of our theta,
+
+291
+00:24:25,590 --> 00:24:27,290
+how much we're gonna lose. Yeah,
+
+292
+00:24:27,330 --> 00:24:29,190
+it basically has to move more than the implied move,
+
+293
+00:24:31,470 --> 00:24:35,790
+right? Remember, we bought at 27, expecting it to move more than 27.
+
+294
+00:24:36,150 --> 00:24:39,190
+If it moves less than 27 implied vol, we lose.
+
+295
+00:24:42,340 --> 00:24:46,360
+And what's that number? Well, our daily break-even is 27 divided by 16.
+
+296
+00:24:46,700 --> 00:24:53,620
+That is 1.8%. So as long as the stock moves by more than 1.8% tomorrow,
+
+297
+00:24:54,140 --> 00:24:58,280
+we're gonna make money. Okay, if we lock that in.
+
+298
+00:25:01,280 --> 00:25:02,740
+By the way, guys, read what Red's saying.
+
+299
+00:25:02,800 --> 00:25:07,760
+He's sharing some good points in the chat. But Jordan, I guess,
+
+300
+00:25:08,590 --> 00:25:09,990
+I think people are starting to understand it.
+
+301
+00:25:10,030 --> 00:25:16,080
+We'll take some questions at the end, but how do we turn this into a strategy?
+
+302
+00:25:16,320 --> 00:25:18,120
+Because one thing that people need,
+
+303
+00:25:18,640 --> 00:25:22,500
+traders would need to keep in mind is I need to be able to buy and sell shares.
+
+304
+00:25:23,980 --> 00:25:27,180
+So when you were, okay, let's assume for a minute,
+
+305
+00:25:27,400 --> 00:25:32,400
+you have a thousand dollar account, just a nice round number.
+
+306
+00:25:33,310 --> 00:25:36,770
+How much should you allocate for a straddle?
+
+307
+00:25:37,370 --> 00:25:39,270
+And how much should you allocate for shares?
+
+308
+00:25:39,530 --> 00:25:44,370
+Like what ratio of your account should you have available for hedging to efficiently
+
+309
+00:25:44,370 --> 00:25:49,290
+run a gamma scalping strategy? Dude, super great question.
+
+310
+00:25:49,650 --> 00:25:57,810
+So usually you should have 50% of your max deltas in capital, okay?
+
+311
+00:25:57,910 --> 00:26:03,010
+You wanna- In non vol terms. Okay, so in this case, right?
+
+312
+00:26:03,370 --> 00:26:06,480
+So we're gonna do one more, okay?
+
+313
+00:26:08,420 --> 00:26:12,440
+What is the max amount of shares that we would ever buy in a one lot?
+
+314
+00:26:14,840 --> 00:26:16,640
+What would be the maximum shares we would ever need?
+
+315
+00:26:19,360 --> 00:26:24,960
+100, Koaw got it first. Justin, you said that really skeptical. You said 100?
+
+316
+00:26:26,260 --> 00:26:30,470
+You don't get the points, man. Perfect, so if we, if our delta,
+
+317
+00:26:30,570 --> 00:26:33,650
+if we're all the way over here, guys, we'll check that out, right?
+
+318
+00:26:33,670 --> 00:26:35,770
+Our delta is 100, it's negative 99.
+
+319
+00:26:38,130 --> 00:26:44,620
+I usually leave 50% I would need in gunpowder, okay? So 50%,
+
+320
+00:26:44,620 --> 00:26:49,180
+so 50 deltas on Tesla, right? So because you guys can see here, right?
+
+321
+00:26:49,180 --> 00:26:53,800
+Like when we get to 50, right? We're usually closing out the position.
+
+322
+00:26:54,370 --> 00:26:58,780
+We're starting to run out of gamma. So I need 50 deltas.
+
+323
+00:26:58,900 --> 00:27:08,580
+So 50 times $600 is 30 grand, okay? And 30 grand, cause I'm using margin.
+
+324
+00:27:09,000 --> 00:27:11,640
+I don't know how, I think it's a 50% in the States.
+
+325
+00:27:12,180 --> 00:27:19,790
+I would need 15,000 in gunpowder. So I buy this straddle for 66. Oh, sorry,
+
+326
+00:27:19,890 --> 00:27:26,300
+I buy this straddle for 10 grand and then I need 15 grand behind. So Jordan,
+
+327
+00:27:26,460 --> 00:27:31,460
+another question for you here. We sort of, as a rule of thumb,
+
+328
+00:27:31,560 --> 00:27:36,020
+say trade stocks that are liquid and above $15 in price.
+
+329
+00:27:37,400 --> 00:27:39,720
+So that might put some people, you know,
+
+330
+00:27:39,780 --> 00:27:42,980
+hypothetically someone's got like a $600 account. They're just trying to learn.
+
+331
+00:27:43,500 --> 00:27:49,320
+That might put them in a bit of a tricky spot. So for a strategy like this,
+
+332
+00:27:50,200 --> 00:27:55,880
+does that rule that we've sort of said to sort of stick with change?
+
+333
+00:27:57,880 --> 00:27:58,740
+It doesn't.
+
+334
+00:27:58,820 --> 00:28:02,420
+And I actually want to ask the guys this question to see who's on their toes today.
+
+335
+00:28:04,900 --> 00:28:10,520
+What would be the characteristics of a stock that would offer the most leverage?
+
+336
+00:28:10,840 --> 00:28:14,460
+So obviously you have a small account. You're gonna need leverage, right?
+
+337
+00:28:14,460 --> 00:28:16,220
+There's no ways around that.
+
+338
+00:28:17,840 --> 00:28:24,130
+So what characteristics of a stock would offer the most leverage? Who's got it?
+
+339
+00:28:24,170 --> 00:28:29,700
+Steve's got it. I know he's got it. It's for sure. Danny's saying a 3X ETF. 3X,
+
+340
+00:28:29,760 --> 00:28:34,690
+okay. Come on, Danny. You're better than this. Absolutely not. Steve,
+
+341
+00:28:34,750 --> 00:28:41,540
+what's the answer here, bud? Wow. Wow, Trent. Oh, my man. Trent,
+
+342
+00:28:41,960 --> 00:28:45,040
+if you can expand on that, that'd be great. That is the right answer.
+
+343
+00:28:47,750 --> 00:28:49,170
+That is the right answer.
+
+344
+00:28:53,530 --> 00:28:57,110
+Because they are less risky? Okay, it's not that they're less risky.
+
+345
+00:28:58,040 --> 00:29:01,980
+It's that you can buy them, right? The gamma is gonna be extremely low.
+
+346
+00:29:02,480 --> 00:29:05,220
+So you can buy these things for extremely cheap, right?
+
+347
+00:29:05,860 --> 00:29:09,600
+And because it's basically, it's something, the market should just say like,
+
+348
+00:29:09,980 --> 00:29:13,140
+if it's something really low vol, right? Well, if nothing happens,
+
+349
+00:29:13,200 --> 00:29:15,680
+you're not gonna lose a lot. But if something does happen,
+
+350
+00:29:15,780 --> 00:29:18,800
+you're gonna make a boatload, right? So the low vol,
+
+351
+00:29:18,940 --> 00:29:22,020
+you're gonna have very low gamma. Oh, so my apologies.
+
+352
+00:29:22,020 --> 00:29:25,000
+You're gonna have the highest gamma, the lowest theta, right?
+
+353
+00:29:25,060 --> 00:29:29,040
+The rent ratio is gonna be the lowest. The lower the vol,
+
+354
+00:29:29,600 --> 00:29:33,680
+the lower the rent ratio. So let's, for example,
+
+355
+00:29:33,920 --> 00:29:39,050
+and just to show you guys here super quick, let's take a look at Tesla, okay?
+
+356
+00:29:39,150 --> 00:29:45,360
+We'll go to Tesla, we'll go to Tesla March, okay? And we'll buy a Straddle.
+
+357
+00:29:45,860 --> 00:29:49,160
+Actually, we won't go March, my apologies. We'll go March 19th.
+
+358
+00:29:52,000 --> 00:29:59,470
+We'll take a look here, okay? And the rent ratio, so our theta, 1100,
+
+359
+00:29:59,930 --> 00:30:05,230
+and our gamma's five, okay? Now let's go over to Coke,
+
+360
+00:30:15,410 --> 00:30:23,300
+okay? So 1100 to five, and here it's 252 gamma to 40 thetas, right?
+
+361
+00:30:23,360 --> 00:30:28,480
+The leverage is extreme, right? Imagine, for example, a 10% move in Coke.
+
+362
+00:30:31,020 --> 00:30:36,980
+That'd be huge. Your payout would be massive. In Tesla, it'd be a normal day,
+
+363
+00:30:37,890 --> 00:30:40,450
+okay? So your leverage is huge here.
+
+364
+00:30:42,560 --> 00:30:46,100
+And so to answer the question there, Sean,
+
+365
+00:30:46,860 --> 00:30:50,900
+what you need to do is you need to go and find these low vol,
+
+366
+00:30:51,470 --> 00:30:58,300
+potentially huge moves, right? Potential big moves, low vol.
+
+367
+00:31:01,120 --> 00:31:03,780
+So Red's saying, we want a gamma scalp,
+
+368
+00:31:03,860 --> 00:31:06,440
+but it looks like the implied move is smaller than the average move.
+
+369
+00:31:06,900 --> 00:31:10,100
+Tasty Trade would say, you know, I'm not saying this is Red's opinion,
+
+370
+00:31:10,120 --> 00:31:12,340
+he's just sharing, Tasty Trade would say,
+
+371
+00:31:12,560 --> 00:31:14,620
+only consider doing this if IV rank is under 30.
+
+372
+00:31:16,990 --> 00:31:23,610
+So there's this big misconception, and Sean and I did a live on this,
+
+373
+00:31:23,670 --> 00:31:27,790
+or a video on this, that buying low IV rank, or sorry,
+
+374
+00:31:27,930 --> 00:31:32,460
+selling low- Selling high IV rank. Selling high IV rank works, right?
+
+375
+00:31:32,460 --> 00:31:38,360
+And this is actually the opposite of what we see. Usually when IV vol is high,
+
+376
+00:31:39,320 --> 00:31:42,020
+realized vol is even higher, right?
+
+377
+00:31:42,140 --> 00:31:45,380
+Think about selling implied volatility during a market crash.
+
+378
+00:31:45,600 --> 00:31:50,840
+Think about- Or on GameStop. Or on GameStop, right? If the stock moves 50%,
+
+379
+00:31:50,840 --> 00:31:54,840
+you're done. You're toast, right?
+
+380
+00:31:54,900 --> 00:32:00,180
+So what we usually see is implied vol doesn't get as high as realized vol when it's
+
+381
+00:32:00,180 --> 00:32:07,110
+high. And when it's low, it's usually at a premium. So here's a quick example.
+
+382
+00:32:07,590 --> 00:32:10,190
+A lot of hedge funds, what they'll do is they'll sell the VIX,
+
+383
+00:32:10,270 --> 00:32:15,470
+and this is very popular in like the vol arm space in hedge funds.
+
+384
+00:32:15,990 --> 00:32:20,950
+They'll sell VIX futures when VIX is in contango, right?
+
+385
+00:32:21,070 --> 00:32:26,190
+Meaning that VIX is downward sloping. The future curve is downward sloping.
+
+386
+00:32:26,510 --> 00:32:30,240
+And they'll buy vol when it's upward sloping. Okay,
+
+387
+00:32:30,240 --> 00:32:33,500
+so kind of opposite to maybe what tasty trade might say.
+
+388
+00:32:35,690 --> 00:32:41,050
+In this case, right? You wanna buy vol when it's cheap,
+
+389
+00:32:42,130 --> 00:32:46,890
+relative to what you think it's going to be. Yeah, and so what we'll,
+
+390
+00:32:48,110 --> 00:32:51,130
+obviously this involves forecasting future vol a bit.
+
+391
+00:32:51,490 --> 00:32:54,770
+This is where the terminal becomes your best friend, right?
+
+392
+00:32:54,770 --> 00:32:55,890
+So we're gonna get into that in a minute.
+
+393
+00:32:55,970 --> 00:33:01,750
+But before we move into the terminal and some filtering you can use to find stocks
+
+394
+00:33:01,750 --> 00:33:04,390
+that you may want to do this on, right? Because I think,
+
+395
+00:33:04,710 --> 00:33:06,330
+like I've been thinking about it. I think for,
+
+396
+00:33:06,830 --> 00:33:10,450
+if you're relatively new to options and have a, you know,
+
+397
+00:33:10,510 --> 00:33:13,610
+on the smaller side account, I think this is an,
+
+398
+00:33:13,870 --> 00:33:15,330
+and especially if you're from the US,
+
+399
+00:33:17,260 --> 00:33:20,660
+this is something definitely worth looking at.
+
+400
+00:33:22,970 --> 00:33:26,290
+So Jordan. Yeah. Straddle or strangle?
+
+401
+00:33:28,420 --> 00:33:34,160
+Yeah, so strangle more advanced. Let's see if Trent can get this one. Trent,
+
+402
+00:33:36,400 --> 00:33:42,240
+max loss on a Delta head strangle. What is it? What do we got dude?
+
+403
+00:33:44,950 --> 00:33:48,870
+And Steve. He needs a minute. He's analyzing the trade right now. Okay, sorry.
+
+404
+00:33:49,030 --> 00:33:54,460
+No, hold on guys, guys. Max loss on a Delta head straddle. Who's got that one?
+
+405
+00:33:55,020 --> 00:33:56,360
+Okay, but then we'll go into the strangle.
+
+406
+00:33:58,900 --> 00:34:05,080
+Max loss. So let me, let me open these up. What are the guys saying there,
+
+407
+00:34:05,140 --> 00:34:12,180
+Trent? Co is saying the spread, the width. Okay, so the width, okay.
+
+408
+00:34:12,220 --> 00:34:13,420
+Or one full leg.
+
+409
+00:34:16,400 --> 00:34:21,080
+Okay, so my apologies guys. What is the max loss on a Delta head straddle?
+
+410
+00:34:21,080 --> 00:34:24,560
+Let's start simple. Max loss on a Delta head straddle.
+
+411
+00:34:34,240 --> 00:34:40,640
+Theta, the lowest point in the graph. Thank you. The debit, the debit you pay.
+
+412
+00:34:41,410 --> 00:34:45,490
+That is the max loss. Now let's take a look at a strangle.
+
+413
+00:34:46,940 --> 00:34:52,140
+Is the max loss on a strangle the debit you pay? Who's got the answer there?
+
+414
+00:34:56,220 --> 00:35:00,440
+Is the max loss on a strangle the debit you paid? Assuming Delta hedging.
+
+415
+00:35:01,740 --> 00:35:06,240
+Width of the strikes. Width of the strikes.
+
+416
+00:35:08,300 --> 00:35:13,310
+Steve's saying it's more than the debit. Why, why Steve? Why Steve?
+
+417
+00:35:13,670 --> 00:35:14,390
+Why would it be more?
+
+418
+00:35:17,510 --> 00:35:23,360
+He's like, that's what I got, man. I was hoping you would roll with it. Yes,
+
+419
+00:35:23,360 --> 00:35:26,640
+that's actually what he's like. That's what I got. Okay,
+
+420
+00:35:26,660 --> 00:35:29,880
+so the max you can lose on a straddle is the debit you paid. Okay.
+
+421
+00:35:30,360 --> 00:35:31,940
+Now imagine this guys.
+
+422
+00:35:34,270 --> 00:35:43,210
+Imagine this. Imagine you buy the strangle. Okay. And it moves to 729.
+
+423
+00:35:45,780 --> 00:35:47,680
+Moves to seven. Actually, let's go a little wider here.
+
+424
+00:35:55,750 --> 00:36:01,650
+Let's say it moves to 700 on the strangle. Well, now you're short,
+
+425
+00:36:03,000 --> 00:36:07,600
+you're short 200 Deltas. Okay, so you buy 200 shares.
+
+426
+00:36:10,050 --> 00:36:14,610
+Now imagine if the stock moves down. Okay, so you buy 200 shares.
+
+427
+00:36:18,160 --> 00:36:19,440
+So let's go buy 200 shares.
+
+428
+00:36:23,440 --> 00:36:28,490
+So you buy 200 shares at 681.
+
+429
+00:36:40,010 --> 00:36:46,560
+Well, now check this out. What if the stock goes to 600 and then gets pinned?
+
+430
+00:36:48,280 --> 00:36:52,930
+Right, then it gets pinned. And so now you're decaying with theta, right?
+
+431
+00:36:52,950 --> 00:36:55,950
+You're stuck over here. You're decaying with theta.
+
+432
+00:36:58,210 --> 00:37:02,530
+And you just lost a ton of money, like a ton of money, right?
+
+433
+00:37:02,570 --> 00:37:06,910
+And I actually know a guy who's on the floor of the Siebel trading crude.
+
+434
+00:37:07,870 --> 00:37:12,950
+And he was in a huge position on a Delta 10 strangle.
+
+435
+00:37:14,950 --> 00:37:19,750
+And stock moved and he got pinned. Or it's not the stock, sorry,
+
+436
+00:37:19,870 --> 00:37:25,530
+the commodity moved and he got pinned to the strike, right?
+
+437
+00:37:25,870 --> 00:37:28,450
+And this is the worst case scenario for you.
+
+438
+00:37:30,800 --> 00:37:36,190
+So trading strangles are a bit trickier, okay? For a couple of reasons.
+
+439
+00:37:36,350 --> 00:37:41,990
+One is you can get pinned, in which case you can lose a lot of money, okay?
+
+440
+00:37:42,740 --> 00:37:46,260
+Second case is there's other Greeks involved, right?
+
+441
+00:37:46,260 --> 00:37:52,480
+There's third order Greeks that are happening that might kind of throw you off balance.
+
+442
+00:37:55,520 --> 00:38:00,200
+So I started with straddles, really wide, really tight strangles, okay?
+
+443
+00:38:00,720 --> 00:38:07,110
+Stock's trading at 97.50, maybe do the 195 strangle. When you get wide,
+
+444
+00:38:08,510 --> 00:38:13,460
+you know, sure you get a ton of leverage, but you gotta be very careful. Okay,
+
+445
+00:38:13,460 --> 00:38:19,620
+it's more of an advanced, you know, like no need to rush it here. Yeah.
+
+446
+00:38:19,820 --> 00:38:25,010
+You know what I mean? So for the purposes of this live, straddle. Straddle.
+
+447
+00:38:25,070 --> 00:38:28,210
+Right, this is for learning purposes, straddle, all right? Straddle.
+
+448
+00:38:28,810 --> 00:38:32,570
+Stick with the straddle for now. As you get better,
+
+449
+00:38:33,090 --> 00:38:35,790
+if you choose to pursue this further, we'll talk about strangles.
+
+450
+00:38:37,030 --> 00:38:42,660
+Small account challenge for gamma scalping, straddle. Jordan,
+
+451
+00:38:43,320 --> 00:38:45,560
+how many days to expiration? You know, given,
+
+452
+00:38:46,020 --> 00:38:49,140
+we want the learning experience here.
+
+453
+00:38:49,180 --> 00:38:51,660
+We want this to be a profitable learning experience.
+
+454
+00:38:52,100 --> 00:38:57,040
+How many days to expiration to minimize the choices someone has to make,
+
+455
+00:38:57,040 --> 00:39:00,100
+and they can focus on the good stuff. How do they pick it,
+
+456
+00:39:00,100 --> 00:39:02,930
+or what would you recommend? I'd recommend two.
+
+457
+00:39:03,170 --> 00:39:06,750
+I recommend trying longer data stuff, 90 days, 120 days.
+
+458
+00:39:07,350 --> 00:39:10,700
+Try playing with that Vega, right? Cheap way to play with the Vega.
+
+459
+00:39:12,990 --> 00:39:18,380
+And then, you know, 20 days. 20 days to expiration, 15 days to expiration,
+
+460
+00:39:18,560 --> 00:39:21,290
+play with the gamma. And as you're doing that,
+
+461
+00:39:21,350 --> 00:39:23,110
+you should be asking questions about it in the group,
+
+462
+00:39:23,130 --> 00:39:24,230
+and people can help you out. Like,
+
+463
+00:39:24,330 --> 00:39:28,350
+clearly there's a few guys in here who know their stuff when it comes to gamma scalping.
+
+464
+00:39:29,150 --> 00:39:32,650
+Jordan, next question for you. How often should you be hedging it?
+
+465
+00:39:32,730 --> 00:39:35,570
+Do you set a threshold for hedging? Do you, you know,
+
+466
+00:39:35,610 --> 00:39:42,380
+if you're in the States and you have, you know, unlimited trades, more or less,
+
+467
+00:39:43,970 --> 00:39:48,330
+you know, say you're trading something super liquid, do you sit there all day,
+
+468
+00:39:48,510 --> 00:39:52,700
+scalp, scalp, you know, scalping your pips? What do you do? Hedges to close.
+
+469
+00:39:53,200 --> 00:39:55,360
+Hedges to close. And Sean, I'm going to say this, man.
+
+470
+00:39:55,460 --> 00:39:57,000
+I'll promise everyone on this live here.
+
+471
+00:39:57,360 --> 00:40:01,300
+If they buy a 20 day straddle and they Delta hedge every single day,
+
+472
+00:40:01,680 --> 00:40:08,300
+they will be a completely different person when that straddle expires. Wow.
+
+473
+00:40:09,420 --> 00:40:13,750
+That's a, it's a big claim. Yeah, it's a big claim. It's a bit,
+
+474
+00:40:13,770 --> 00:40:16,870
+it's a good claim though. So you're saying hedge at the close.
+
+475
+00:40:17,010 --> 00:40:18,230
+Why are you saying that?
+
+476
+00:40:20,800 --> 00:40:23,380
+So there's obviously, you know, better ways to hedge,
+
+477
+00:40:24,360 --> 00:40:28,440
+but that kind of like incorporates a second strategy or you got a Delta one strategy
+
+478
+00:40:28,440 --> 00:40:32,660
+and a vol strategy. You know, just pick a, you know, just hedge at the close,
+
+479
+00:40:32,720 --> 00:40:35,460
+right? Or pick a threshold. So there's two ways you can do this.
+
+480
+00:40:35,540 --> 00:40:39,660
+Pick a threshold, which is, okay, after a hundred Deltas, hedge.
+
+481
+00:40:41,800 --> 00:40:43,780
+Or at the close, hedge.
+
+482
+00:40:44,300 --> 00:40:47,540
+All we're doing here is we are removing our directional exposure.
+
+483
+00:40:48,020 --> 00:40:51,060
+There's no reason to get too excited about it. Maybe set it as like,
+
+484
+00:40:52,950 --> 00:40:57,170
+if your Delta represents 1% of your account hedge or hedge at the close.
+
+485
+00:40:59,040 --> 00:41:02,480
+Obviously stick to one. So don't, don't, don't, don't like be like, oh,
+
+486
+00:41:02,500 --> 00:41:04,160
+you know, I'm doing this one today and this one tomorrow.
+
+487
+00:41:04,940 --> 00:41:06,900
+Stick to one and just do it for, you know,
+
+488
+00:41:06,980 --> 00:41:12,600
+you guys aren't going to lose a lot of money. I think- Yeah. Yeah. Maybe,
+
+489
+00:41:12,600 --> 00:41:15,400
+maybe, maybe do that. Hedge at 1% of your, of your account.
+
+490
+00:41:18,180 --> 00:41:22,540
+Up to you. It's arbitrary. Yeah, it's arbitrary. For now, just,
+
+491
+00:41:23,000 --> 00:41:24,620
+I guarantee you guys, just give it a try.
+
+492
+00:41:25,260 --> 00:41:28,880
+You're not going to lose a lot of money. Buy what's cheap vol to you.
+
+493
+00:41:29,380 --> 00:41:31,900
+Delta hedge it. You're not going to lose a lot of money. Worst case scenario.
+
+494
+00:41:32,120 --> 00:41:35,680
+Best case scenario, the stock blows out. And please just, you know,
+
+495
+00:41:35,720 --> 00:41:38,700
+remember this live and it's your yacht party.
+
+496
+00:41:38,960 --> 00:41:43,170
+I'll share my Venmo with you and you can send me some money. Yeah.
+
+497
+00:41:48,450 --> 00:41:53,570
+Just subscribe to my only fans. If you, if you hit the jackpot.
+
+498
+00:41:56,100 --> 00:41:59,120
+All right. Danny's saying, I'm going to give it a try for fun. All right, man.
+
+499
+00:41:59,260 --> 00:42:00,280
+Let's see it happen. You better,
+
+500
+00:42:00,420 --> 00:42:05,950
+you better be giving us the daily updates in the chat. Daily update, man. Okay.
+
+501
+00:42:05,990 --> 00:42:08,430
+Got a couple more questions here for you. And Danny,
+
+502
+00:42:08,490 --> 00:42:10,710
+if you're going to be giving it a try make sure you ask your questions.
+
+503
+00:42:11,490 --> 00:42:15,410
+And post the results. Post daily results. Like day one, Delta this. Track it.
+
+504
+00:42:15,870 --> 00:42:16,690
+Yeah, track it.
+
+505
+00:42:19,590 --> 00:42:21,030
+When do you close the position?
+
+506
+00:42:24,180 --> 00:42:26,840
+So I would close it. So it really depends on your gamma, right?
+
+507
+00:42:26,840 --> 00:42:30,970
+If the stock's all the way up here we don't have any gamma left. I'm out.
+
+508
+00:42:31,910 --> 00:42:33,030
+Right. So that's going to be,
+
+509
+00:42:33,130 --> 00:42:39,360
+you know before we put on any position guys really think about, well,
+
+510
+00:42:39,380 --> 00:42:40,520
+what are the possibilities? Right?
+
+511
+00:42:40,520 --> 00:42:43,540
+Like this is something that Sean and I are trying to get you guys to do in silver
+
+512
+00:42:43,540 --> 00:42:45,060
+which is the tree diagram.
+
+513
+00:42:46,090 --> 00:42:50,530
+Before we even put on this position we should look at this graph right here and
+
+514
+00:42:50,530 --> 00:42:55,160
+say what could happen tomorrow? Right? So for example,
+
+515
+00:42:55,280 --> 00:42:59,500
+we stress it to tomorrow, one day and well,
+
+516
+00:42:59,500 --> 00:43:01,720
+what do I do if the stock goes here? Right?
+
+517
+00:43:01,720 --> 00:43:02,780
+What do I do if the stock goes here?
+
+518
+00:43:03,240 --> 00:43:08,020
+What do I do if the stock goes here or here? Right? And usually we say,
+
+519
+00:43:08,100 --> 00:43:12,560
+okay by a certain gamma amount, I'm out. Right? If the stock is,
+
+520
+00:43:12,680 --> 00:43:14,080
+let's say up here I'm out of the position.
+
+521
+00:43:16,570 --> 00:43:18,770
+And you can also look at that theta amount as well. Right?
+
+522
+00:43:18,930 --> 00:43:25,620
+You can see our theta drops from 1800 at the money to 900. Right?
+
+523
+00:43:25,780 --> 00:43:32,770
+It's the position is done. So, you know,
+
+524
+00:43:32,790 --> 00:43:35,670
+we want to get back into that new position now where, okay, ball's cheap.
+
+525
+00:43:35,890 --> 00:43:38,430
+Let's get back into the, at the monies. Right?
+
+526
+00:43:38,450 --> 00:43:40,030
+And that's one thing about the strangles,
+
+527
+00:43:40,030 --> 00:43:44,900
+you know going a little off the road here take a look at the strangles. Right?
+
+528
+00:43:45,340 --> 00:43:48,400
+Look at this, look at this guys. Check out that theta. Okay.
+
+529
+00:43:48,400 --> 00:43:52,420
+Check out that theta there. You guys see that theta number?
+
+530
+00:43:53,020 --> 00:43:57,300
+What do you guys notice about that theta number? Who's got it? Who's got it?
+
+531
+00:43:57,300 --> 00:44:01,160
+What do you guys notice about that theta number on the strangle versus that straddle?
+
+532
+00:44:07,410 --> 00:44:12,270
+Higher. Increasing. Perfect. Like it, so it actually, it's a,
+
+533
+00:44:12,310 --> 00:44:13,450
+it's a lot more constant.
+
+534
+00:44:14,140 --> 00:44:18,240
+So if the stock moves here or the stock moves there you're going to have that constant
+
+535
+00:44:18,240 --> 00:44:24,200
+gamma. Right? But as a straddle, as the stock moves, you deplete your gamma.
+
+536
+00:44:24,790 --> 00:44:29,290
+And what the gamma means is basically your sensitivity to the movement. Right?
+
+537
+00:44:29,410 --> 00:44:32,930
+So check this out guys. You know, super exciting, super good life.
+
+538
+00:44:33,190 --> 00:44:37,170
+I'm pumped up. You guys are pumped up. This is good stuff. Right?
+
+539
+00:44:37,450 --> 00:44:41,180
+So take a look at this, right? Let's say the stock moves up here. Okay.
+
+540
+00:44:41,280 --> 00:44:45,680
+Let's say the stock moves to 950. Right? Or watch this.
+
+541
+00:44:48,580 --> 00:44:49,240
+Watch this.
+
+542
+00:44:52,650 --> 00:44:53,670
+Okay. Oops.
+
+543
+00:44:55,760 --> 00:45:00,540
+We're going to sell. So we're over here at 950. Okay. We need to sell.
+
+544
+00:45:00,680 --> 00:45:01,880
+How many do we need to sell?
+
+545
+00:45:06,610 --> 00:45:08,150
+400 at 950.
+
+546
+00:45:14,340 --> 00:45:18,820
+So let's take a look at this. Look at that exposure guys. Right?
+
+547
+00:45:18,980 --> 00:45:22,120
+Look at that exposure. It's like a straddle. Right?
+
+548
+00:45:22,120 --> 00:45:23,280
+We still have a ton of gamma.
+
+549
+00:45:25,320 --> 00:45:29,060
+So that is the beauty of the strangle as well. Right? Is we get this constant.
+
+550
+00:45:29,200 --> 00:45:35,060
+We get this gamma across a huge time, a huge width. Okay.
+
+551
+00:45:35,080 --> 00:45:38,420
+But it's also can be more risky. But there's no free lunch in this game.
+
+552
+00:45:39,190 --> 00:45:41,790
+You want more, you want more risk or you want more reward?
+
+553
+00:45:42,210 --> 00:45:44,780
+You got to take on more risk. Okay.
+
+554
+00:45:48,590 --> 00:45:49,330
+So Jordan,
+
+555
+00:45:49,350 --> 00:45:53,330
+we're going to hop into the terminal in a second and actually talk about, okay,
+
+556
+00:45:53,350 --> 00:45:56,130
+well, how do we find the right trade to be doing this on? Right.
+
+557
+00:45:56,230 --> 00:46:00,610
+But before we do that, Red had a question. He said, Sean,
+
+558
+00:46:00,710 --> 00:46:03,190
+you were saying that gamma scalping resets your position,
+
+559
+00:46:03,330 --> 00:46:06,790
+but Jordan was saying that gamma gets depleted. Can we resolve,
+
+560
+00:46:06,890 --> 00:46:11,890
+can you resolve this, you know, things button heads. All right, Sean.
+
+561
+00:46:13,020 --> 00:46:16,380
+All right. Square up. Red, you're the best. Okay.
+
+562
+00:46:19,520 --> 00:46:25,040
+So, so gamma scalping, I think what Sean meant there is delta. Okay.
+
+563
+00:46:25,040 --> 00:46:30,640
+So when you flatten your delta, okay, your gamma can get,
+
+564
+00:46:30,840 --> 00:46:34,860
+your gamma can get depleted, right? You have no gamma here. Okay.
+
+565
+00:46:34,860 --> 00:46:38,520
+You can see that by the blue line, the purple line, that convexity, right?
+
+566
+00:46:38,560 --> 00:46:42,120
+You see that convexity here, right? Let me just super quick.
+
+567
+00:46:44,540 --> 00:46:48,400
+So Red, check this out. Okay. If I were to draw a line here, Red, a flat line,
+
+568
+00:46:48,400 --> 00:46:52,600
+a tangent line back to, I see you're kidding me, man. Dude,
+
+569
+00:46:52,660 --> 00:46:56,520
+just use the straight line tool. I don't know why you try and do this. Okay.
+
+570
+00:46:56,820 --> 00:47:03,470
+Here we go. Here we go. Okay. Okay, okay. Red, let's go back to,
+
+571
+00:47:04,950 --> 00:47:06,830
+to first year calc. Okay.
+
+572
+00:47:09,620 --> 00:47:13,480
+Is this calc? Yeah, yeah, yeah. This is, maybe, maybe second.
+
+573
+00:47:13,720 --> 00:47:18,540
+Maybe advanced functions. Yeah. Is it the tangent line? It could, it could be.
+
+574
+00:47:18,600 --> 00:47:23,980
+I don't know. Oh my God. Derivative, I guess. Okay. Okay. Here we go.
+
+575
+00:47:25,190 --> 00:47:25,810
+Here we go.
+
+576
+00:47:30,640 --> 00:47:34,200
+Okay, Red. So you see that convexity there, right?
+
+577
+00:47:34,200 --> 00:47:37,260
+You see how it's not straight. It's not linear. It has like that convexity.
+
+578
+00:47:37,960 --> 00:47:42,450
+And as long as we have that convexity, we're long gamma. Okay.
+
+579
+00:47:42,470 --> 00:47:44,770
+Now let's go over here, right?
+
+580
+00:47:44,870 --> 00:47:49,030
+If I draw a tangent line somewhere at some point, there's no convexity.
+
+581
+00:47:50,970 --> 00:47:58,150
+So what happens is as long as we have that gamma, delta hedging,
+
+582
+00:47:59,290 --> 00:48:03,920
+all it does is take that directional exposure away. That's all it does.
+
+583
+00:48:04,020 --> 00:48:06,560
+So now we get back to whatever point we are.
+
+584
+00:48:06,700 --> 00:48:09,820
+Remember when Sean was showing that like a tree diagram?
+
+585
+00:48:12,420 --> 00:48:16,250
+If, so take a look at this. Okay. Take a look at this. Sorry, Sean.
+
+586
+00:48:16,770 --> 00:48:19,250
+This is the one. This is the one that's going to set away. Okay.
+
+587
+00:48:21,190 --> 00:48:23,370
+So you can see here, right? I draw this diagonal line here.
+
+588
+00:48:23,570 --> 00:48:31,400
+And right over here is where we are going to be delta neutral. Okay.
+
+589
+00:48:31,480 --> 00:48:34,480
+In this position here, let's say. Yeah. So when I did that reset,
+
+590
+00:48:34,480 --> 00:48:38,660
+it's like putting you as that tangent line now. Exactly. Exactly.
+
+591
+00:48:38,680 --> 00:48:40,940
+So if you look like Jordan, show them like where they are right at the bottom,
+
+592
+00:48:41,000 --> 00:48:45,220
+draw a tangent line at the delta neutral spot. Well, Inception.
+
+593
+00:48:45,740 --> 00:48:47,660
+So I know I'm actually going to go delta neutral here.
+
+594
+00:48:47,780 --> 00:48:51,900
+I'm going to flatten the deltas right here. Do it. So right here,
+
+595
+00:48:51,900 --> 00:48:57,360
+you can see that we are 500 deltas. Okay.
+
+596
+00:48:57,420 --> 00:48:59,960
+We need to be long 500 deltas to flatten.
+
+597
+00:49:02,500 --> 00:49:04,980
+Check that out now, Red. Right. You see that now?
+
+598
+00:49:05,450 --> 00:49:09,390
+Now we don't care what happens, right? As long as it moves,
+
+599
+00:49:12,210 --> 00:49:16,320
+right? We basically took this line and we did this.
+
+600
+00:49:19,340 --> 00:49:22,060
+We took that line, Red, and we did this.
+
+601
+00:49:26,370 --> 00:49:32,000
+That's it. We tilted it. As long as we're that gamma, we have that convexity.
+
+602
+00:49:34,880 --> 00:49:38,900
+So Jordan, one last thing before we hop into the terminal.
+
+603
+00:49:39,040 --> 00:49:42,960
+I said that this is a great way if you have a small account to, you know,
+
+604
+00:49:43,040 --> 00:49:46,670
+grow it. Is this limited to small accounts? No,
+
+605
+00:49:46,750 --> 00:49:49,830
+this is limited to market makers. You know,
+
+606
+00:49:49,850 --> 00:49:55,240
+market makers are doing this on a daily basis. Right. So what would you say,
+
+607
+00:49:55,360 --> 00:49:57,200
+like, if you were to, if someone were to say, like,
+
+608
+00:49:57,200 --> 00:50:02,680
+why should I do gamma scalping? What would you really tell them? Okay.
+
+609
+00:50:02,680 --> 00:50:06,350
+So I just want you guys to know, like, I do this all the time. Okay.
+
+610
+00:50:06,870 --> 00:50:10,420
+If I'm long volatility, if I'm long volatility,
+
+611
+00:50:11,160 --> 00:50:13,440
+and usually I'm not long volatility on a 10-day option,
+
+612
+00:50:13,580 --> 00:50:15,640
+I'm usually long volatility on a 30-day, 40-day option.
+
+613
+00:50:15,640 --> 00:50:21,190
+If the stock moves up 7% in a day, and I still have gamma,
+
+614
+00:50:25,560 --> 00:50:32,510
+Jordan, I can take the risk if I want to, if I want to increase the variance,
+
+615
+00:50:32,870 --> 00:50:36,910
+nothing wrong with that, or I could just remove that risk.
+
+616
+00:50:39,190 --> 00:50:39,310
+Okay.
+
+617
+00:50:39,310 --> 00:50:44,610
+So it's all you're doing is you're removing the risk of the directional bet.
+
+618
+00:50:44,930 --> 00:50:49,340
+If you think the stock is going to rally still, well, don't remove it.
+
+619
+00:50:49,730 --> 00:50:50,250
+You know,
+
+620
+00:50:50,250 --> 00:50:53,490
+if the stock goes up and you still think it's going to go up and you're long gamma,
+
+621
+00:50:53,490 --> 00:50:57,370
+why would you hedge your deltas?
+
+622
+00:50:58,050 --> 00:51:01,290
+Hedging your delta and gamma scalping is taking away that risk.
+
+623
+00:51:01,550 --> 00:51:07,050
+It allows you to convert implied to realized volatility and learn about how to trade
+
+624
+00:51:07,050 --> 00:51:10,790
+volatility. And, you know, and not just learn about it, actually trade it.
+
+625
+00:51:11,810 --> 00:51:15,550
+Do the thing. Do the thing, do the thing, right? Like, I'm always hedging.
+
+626
+00:51:15,710 --> 00:51:19,350
+I'm always hedging my deltas, right? I'm usually concerned about my thetas,
+
+627
+00:51:19,570 --> 00:51:22,050
+right? So I'll take out my deltas, I'll take out my thetas,
+
+628
+00:51:22,430 --> 00:51:26,910
+and now I'm just left with, let's say, you know, in that case,
+
+629
+00:51:26,950 --> 00:51:29,170
+I'm talking about relative value. Yeah, my view on,
+
+630
+00:51:30,210 --> 00:51:31,350
+I'm assuming relative value,
+
+631
+00:51:31,510 --> 00:51:36,710
+my view on one option's gamma versus the other option's gamma. So Jordan,
+
+632
+00:51:36,870 --> 00:51:39,010
+I think at this point, because it's nine o'clock, guys,
+
+633
+00:51:39,030 --> 00:51:42,630
+I want to thank you for sticking around so long. You know, I hope the content,
+
+634
+00:51:43,030 --> 00:51:46,690
+it's not because you fell asleep. Because you're pumped.
+
+635
+00:51:46,890 --> 00:51:49,450
+Because you're pumped up, right? That's why you're still here at nine o'clock.
+
+636
+00:51:49,770 --> 00:51:50,210
+So Jordan,
+
+637
+00:51:50,310 --> 00:51:53,670
+now let's get into the moment that a lot of people have been waiting for.
+
+638
+00:51:53,890 --> 00:51:55,310
+They've been sitting here saying, goddammit,
+
+639
+00:51:55,370 --> 00:51:56,990
+when are they gonna show me how to find a trade for this?
+
+640
+00:51:58,290 --> 00:52:02,550
+Let's hop into the terminal, Jordan. Yeah. And show how to filter for this.
+
+641
+00:52:05,040 --> 00:52:11,620
+Until next time. We'll see you guys. And that will be in part two. Okay, okay,
+
+642
+00:52:11,620 --> 00:52:14,940
+okay, okay, okay. So let's go volatility trader, right? We're in volatility,
+
+643
+00:52:15,260 --> 00:52:19,900
+and we're gonna go to the volatility analyzer. And we're looking for cheap vol,
+
+644
+00:52:20,040 --> 00:52:22,000
+okay? So one thing is,
+
+645
+00:52:22,140 --> 00:52:28,800
+is we need to know that our IV versus our forecast is cheap, right?
+
+646
+00:52:28,840 --> 00:52:32,420
+So implied vol divided by the forecast is 0.1. What do you wanna look for?
+
+647
+00:52:32,460 --> 00:52:36,370
+Something under 0.9? Yeah, so maybe, yeah, you know what? Honestly,
+
+648
+00:52:36,450 --> 00:52:37,290
+I'd go 0.99,
+
+649
+00:52:37,470 --> 00:52:42,670
+because sometimes you can find these like fundamentally cheap ones. Okay.
+
+650
+00:52:43,870 --> 00:52:47,970
+So for example, there's actually so many examples,
+
+651
+00:52:48,170 --> 00:52:50,670
+but I'll just give you one super quick that I did a long time ago.
+
+652
+00:52:51,110 --> 00:52:55,910
+Foot Locker back in 2017. This is when I was learning about gamma scalping.
+
+653
+00:52:57,270 --> 00:53:01,530
+They had a court case coming up. And for some reason,
+
+654
+00:53:01,950 --> 00:53:04,250
+market wasn't pricing it in. It was a pretty big court case.
+
+655
+00:53:04,410 --> 00:53:08,450
+And so I bought vol, you know, the stock shot through the roof,
+
+656
+00:53:08,450 --> 00:53:09,190
+and it was a good trade.
+
+657
+00:53:10,060 --> 00:53:12,980
+And then the court case got thrown out the next day and nothing happened. Yeah.
+
+658
+00:53:14,780 --> 00:53:18,060
+Okay, so IV versus forecast, we want that below one, right?
+
+659
+00:53:18,080 --> 00:53:21,600
+We want the implied volatility higher than what we think is gonna happen. Well,
+
+660
+00:53:21,680 --> 00:53:25,420
+throw on your price and option volume filters first. Yeah, yeah, yeah, yeah.
+
+661
+00:53:25,500 --> 00:53:29,160
+We always gotta, you know, we gotta, you know, best practices here.
+
+662
+00:53:29,220 --> 00:53:32,320
+We gotta make sure there's some volume and we gotta make sure that it's not a penny
+
+663
+00:53:32,320 --> 00:53:36,540
+stock. Exactly, exactly. You know, I'm usually gonna like to trade over,
+
+664
+00:53:37,540 --> 00:53:42,830
+we like to trade over 20 bucks here. And now implied volatility, okay,
+
+665
+00:53:42,890 --> 00:53:47,250
+we're resigning here. Implied volatility, I'm gonna want below, okay,
+
+666
+00:53:47,250 --> 00:53:48,490
+I'm gonna want below 50 here.
+
+667
+00:53:50,700 --> 00:53:51,680
+Okay, I'm gonna want cheap vol.
+
+668
+00:53:53,690 --> 00:53:57,350
+And then I also want IV rank. I'm gonna have IV rank below.
+
+669
+00:53:57,910 --> 00:54:01,280
+So it's gonna be above a certain threshold, right?
+
+670
+00:54:01,360 --> 00:54:05,680
+Because if the stock's not realizing anything, implied vol is gonna be too low,
+
+671
+00:54:06,150 --> 00:54:11,190
+right? And it's basically gonna be RVs down here, IVs up here. Okay,
+
+672
+00:54:11,310 --> 00:54:16,520
+and we want, I'm gonna say IV below 50. Okay, and now look, we have 20 stocks.
+
+673
+00:54:17,210 --> 00:54:21,130
+We just filtered for 20 stocks. All right, so let's say for example,
+
+674
+00:54:21,850 --> 00:54:25,670
+and you know what? We're gonna filter by IV versus forecast.
+
+675
+00:54:28,240 --> 00:54:35,680
+AKAM, okay? AKAM. It's the first one, right? So IV versus forecast, 0.77,
+
+676
+00:54:37,400 --> 00:54:38,320
+right? Very cheap. Actually,
+
+677
+00:54:38,480 --> 00:54:41,420
+is there any stock that you guys see right off the bat that you guys wanna talk
+
+678
+00:54:41,420 --> 00:54:48,680
+about? Go through them. Okay, so we got WFC here, okay? We got STZ on the list.
+
+679
+00:54:49,900 --> 00:54:54,380
+Isn't that Constellation? Yeah, yeah, the Constellation brand.
+
+680
+00:54:54,480 --> 00:54:55,820
+We got Constellation brand on the list.
+
+681
+00:54:57,980 --> 00:55:05,350
+TSN, XRT, XRT, TAP. What do you guys see? What do you guys like? Marcos,
+
+682
+00:55:05,490 --> 00:55:08,190
+I know you like this stuff, Marcos. Is Marcos still around? Yeah,
+
+683
+00:55:08,230 --> 00:55:13,900
+Marcos is still here. Nice, nice. KHC, I remember trading earnings on the KHC.
+
+684
+00:55:13,900 --> 00:55:17,660
+Okay, we got two for MTCH. I think those on page two. Okay,
+
+685
+00:55:19,800 --> 00:55:23,820
+okay, MTCH, okay. So average option volume, 13K, pretty liquid.
+
+686
+00:55:24,410 --> 00:55:28,870
+We're looking good. Yeah, implied vol versus forecast, 89.
+
+687
+00:55:28,870 --> 00:55:33,570
+We can see that the implied volatility 30 day is 45%. I have it ranked 37.
+
+688
+00:55:34,130 --> 00:55:37,810
+Looks, this actually looks great. Looks great. Who came up with this one?
+
+689
+00:55:37,850 --> 00:55:44,190
+This one looks really good. Koa and Danny. Okay, nice. So you come here, MTCH,
+
+690
+00:55:47,100 --> 00:55:51,410
+and, right, we're gonna buy a straddle. Or, you know what?
+
+691
+00:55:51,510 --> 00:55:54,490
+Because I know you guys love a little bit of leverage, we'll do a strangle,
+
+692
+00:55:54,750 --> 00:55:57,010
+okay? No, no, do the straddle. Just do the straddle just for,
+
+693
+00:55:57,790 --> 00:55:59,750
+we need this to be like the step,
+
+694
+00:55:59,750 --> 00:56:03,290
+and people are gonna watch this again to get the steps. So let's do straddle.
+
+695
+00:56:03,730 --> 00:56:08,550
+The one issue is we don't have the 160, 250 strike. So we're gonna do the 165,
+
+696
+00:56:08,650 --> 00:56:12,550
+160, super tight strangle. Couldn't you start with a little delta hedge?
+
+697
+00:56:13,770 --> 00:56:18,340
+I guess, yeah. Actually, really good point, Sean. Really good point. Okay,
+
+698
+00:56:18,340 --> 00:56:20,860
+so we're gonna buy the 165 straddle. Now take in, guys.
+
+699
+00:56:21,770 --> 00:56:27,910
+The delta here is 47 and 53. So right off the bat,
+
+700
+00:56:27,950 --> 00:56:30,410
+we're gonna be short negative six deltas.
+
+701
+00:56:33,170 --> 00:56:40,040
+Okay, and negative six times 100, and our negative 0.6 times 100 is 60 deltas.
+
+702
+00:56:41,470 --> 00:56:48,010
+So here we are. We are short 60 deltas. And so that's not a lot of deltas,
+
+703
+00:56:48,070 --> 00:56:50,630
+right? So basically what this is saying is you're short 70 shares.
+
+704
+00:56:51,790 --> 00:56:55,690
+You're short 70 shares. Can you handle that variance? I'm sure you can, right?
+
+705
+00:56:55,690 --> 00:56:57,890
+Everyone in this chat can handle 70 shares of variance.
+
+706
+00:57:00,440 --> 00:57:05,780
+So we come in here and the stock moves up, let's say 3% tomorrow.
+
+707
+00:57:08,050 --> 00:57:11,550
+We're gonna be long 257 deltas.
+
+708
+00:57:11,790 --> 00:57:14,680
+So we're gonna have to come in and sell some shares.
+
+709
+00:57:15,580 --> 00:57:16,520
+We're gonna have to sell some shares.
+
+710
+00:57:18,140 --> 00:57:22,160
+Make sure you're trading something that leaves you that 50% threshold for hedging.
+
+711
+00:57:22,700 --> 00:57:24,700
+Yeah. Make sure you have that.
+
+712
+00:57:30,880 --> 00:57:36,760
+Yep, there you go, right? Now we hedge 250 shares. The stock goes down,
+
+713
+00:57:36,840 --> 00:57:38,420
+we make money. Stock goes up, we make money.
+
+714
+00:57:38,860 --> 00:57:44,540
+If the stock passes with time and doesn't move, we lose money. So I guess,
+
+715
+00:57:44,680 --> 00:57:46,720
+Jordan, a couple of questions just to end off the slide.
+
+716
+00:57:47,300 --> 00:57:48,960
+Bringing it back to when we close this out.
+
+717
+00:57:49,000 --> 00:57:50,280
+So obviously you're gonna hedge your deltas.
+
+718
+00:57:50,320 --> 00:57:51,420
+You're gonna pick a threshold here.
+
+719
+00:57:51,600 --> 00:57:57,560
+You're either gonna do it maybe every time your delta number is 1% of your account
+
+720
+00:57:57,560 --> 00:57:59,660
+value. Maybe you're gonna do it at the end of the day.
+
+721
+00:57:59,780 --> 00:58:04,280
+You're gonna pick a threshold, stick to it and hedge. Now,
+
+722
+00:58:04,500 --> 00:58:07,900
+questions you gotta ask. When are you right and you take it off?
+
+723
+00:58:08,040 --> 00:58:10,460
+When are you wrong and you take it off, right? At the end of the day,
+
+724
+00:58:10,560 --> 00:58:14,660
+if this is a big loser, maybe you wanna get out of it. If it's a big winner,
+
+725
+00:58:14,860 --> 00:58:15,680
+maybe you wanna get out of it.
+
+726
+00:58:15,760 --> 00:58:21,840
+What are these metrics that we should look for to exit? Yeah, so super quick,
+
+727
+00:58:22,060 --> 00:58:24,240
+I would say, put these trades on.
+
+728
+00:58:24,300 --> 00:58:27,440
+You guys are gonna figure that out for yourselves, in my opinion.
+
+729
+00:58:27,980 --> 00:58:32,680
+That being said, the losers are gonna be extremely, extremely, extremely small,
+
+730
+00:58:33,200 --> 00:58:36,340
+okay? If you trade this small size in terms of debit. So let's say,
+
+731
+00:58:36,380 --> 00:58:41,140
+for example, this is $1,670 to buy one of these, okay?
+
+732
+00:58:41,140 --> 00:58:44,130
+If that's too much for you, don't trade this, okay?
+
+733
+00:58:44,130 --> 00:58:47,020
+So pick a debit that you're comfortable with. Now,
+
+734
+00:58:47,260 --> 00:58:49,600
+you're not even gonna- And you can actually choose that with like the stock price,
+
+735
+00:58:49,640 --> 00:58:52,940
+pretty much. Yeah, and the thing is,
+
+736
+00:58:53,860 --> 00:58:58,220
+you are not gonna lose this full debit because you're gonna be delta hedging,
+
+737
+00:58:58,260 --> 00:59:04,040
+okay? So you're gonna make back some money. So pick, let's say, a debit,
+
+738
+00:59:04,380 --> 00:59:11,260
+times it by 50%. So in this case, 1,670 times 50% is 800 bucks.
+
+739
+00:59:11,620 --> 00:59:16,190
+If you're okay with losing $800, this is perfect. Okay,
+
+740
+00:59:16,190 --> 00:59:20,980
+so you're not gonna lose a lot of money, first off. So closing this out,
+
+741
+00:59:21,120 --> 00:59:23,740
+I wouldn't even say worry about it. Just keep delta hedging, keep learning.
+
+742
+00:59:23,900 --> 00:59:27,080
+Keep learning about this as you do it. You're not gonna lose a ton of money.
+
+743
+00:59:28,050 --> 00:59:31,150
+In terms of taking it out, you guys will know this as well, okay?
+
+744
+00:59:31,330 --> 00:59:35,110
+You're gonna wake up one morning and the stocks rally 10%, okay?
+
+745
+00:59:35,230 --> 00:59:39,040
+You just close the damn position. Red's got a question here. He's saying,
+
+746
+00:59:39,140 --> 00:59:45,060
+should I have a profit target on the entire straddle strangle or individual targets
+
+747
+00:59:45,060 --> 00:59:49,650
+on either side? Yeah, when you enter this trade, Red,
+
+748
+00:59:50,830 --> 00:59:55,800
+you are buying the straddle because why? Why are we buying the straddle?
+
+749
+00:59:57,420 --> 00:59:59,780
+Really important question. Why are we buying the straddle?
+
+750
+01:00:02,640 --> 01:00:06,340
+He says he wants like a sharp move. Okay, it's more than that,
+
+751
+01:00:06,420 --> 01:00:10,500
+it's more than that. Okay, we're buying the straddle. Or he's saying gamma.
+
+752
+01:00:11,500 --> 01:00:14,620
+Well, we're buying the straddle because we think it's worth more. Yeah.
+
+753
+01:00:14,620 --> 01:00:16,500
+Because if we delta hedge, it's worth more.
+
+754
+01:00:17,190 --> 01:00:20,510
+So we have an expectation of what this is worth, right?
+
+755
+01:00:20,550 --> 01:00:22,610
+Before we even buy the straddle, we value it.
+
+756
+01:00:23,630 --> 01:00:28,780
+This straddle is worth $20 to us and I can buy it for 1670 right now.
+
+757
+01:00:29,920 --> 01:00:36,980
+So when I realize that 300 bucks, I'm out. Exactly, Sylvain.
+
+758
+01:00:38,240 --> 01:00:41,300
+Sylvain's saying the vol's cheap. Exactly, the vol's cheap.
+
+759
+01:00:42,180 --> 01:00:47,240
+And so when finally, right, when we realize what we expect to realize, I'm out.
+
+760
+01:00:48,620 --> 01:00:52,920
+Or if I buy this position right now and tomorrow I realize 400 bucks on a 16,
+
+761
+01:00:53,040 --> 01:00:58,160
+on 24, I buy it for 1600. I think it's worth 20. I think it's worth $400 more.
+
+762
+01:00:58,480 --> 01:01:03,830
+And tomorrow the stock moves 400 bucks. Most likely I'm out. But you know,
+
+763
+01:01:03,850 --> 01:01:07,830
+that's for another talk of when we reevaluate. But most likely, we're out.
+
+764
+01:01:08,270 --> 01:01:10,850
+But we got the move we wanted to onto the next one.
+
+765
+01:01:15,520 --> 01:01:16,800
+Exactly, Red. Yeah.
+
+766
+01:01:19,020 --> 01:01:23,070
+All right, guys, that is going to conclude this live. That is Gamma Scalping.
+
+767
+01:01:23,070 --> 01:01:26,790
+I highly recommend anybody looking to learn vol seriously for you to the space.
+
+768
+01:01:26,890 --> 01:01:30,390
+If you're trying to grow a small account, this is what to do, right?
+
+769
+01:01:30,710 --> 01:01:32,310
+Spend a lot of time thinking about it. I think this is,
+
+770
+01:01:32,650 --> 01:01:40,940
+I hope you're as excited as I am to see this brought to the Predicting Alpha members.
+
+771
+01:01:43,260 --> 01:01:47,120
+I'm amped. Jordan, we should totally have, for the strategy scanner,
+
+772
+01:01:47,180 --> 01:01:48,640
+we should have like a Gamma Scalp thing.
+
+773
+01:01:52,180 --> 01:01:56,680
+We should. Pip Scalper. Pip Scalper. We're going to have a cheap vol one.
+
+774
+01:01:57,900 --> 01:02:02,240
+Can we call it the Pip Scalper? We can call it the Pip Scalper. Okay, good,
+
+775
+01:02:02,260 --> 01:02:02,640
+good, good.
+
+776
+01:02:04,920 --> 01:02:08,260
+All right, everyone, we're going to end the live there. I hope you enjoyed it.
+
+777
+01:02:08,360 --> 01:02:10,180
+And we'll see you all tomorrow. See you guys.

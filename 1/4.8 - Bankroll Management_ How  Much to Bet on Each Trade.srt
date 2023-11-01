@@ -1,0 +1,1203 @@
+1
+00:00:00,560 --> 00:00:02,160
+Okay, guys, so in this video,
+
+2
+00:00:02,200 --> 00:00:05,290
+we're going to be talking about bankroll management, okay?
+
+3
+00:00:05,330 --> 00:00:09,010
+And why bankroll management is actually a make or break in your trading.
+
+4
+00:00:09,570 --> 00:00:12,130
+If you don't have bankroll management,
+
+5
+00:00:12,550 --> 00:00:15,710
+you can turn a winning strategy into a losing strategy. Okay?
+
+6
+00:00:15,870 --> 00:00:18,850
+And that's why it's so important. And today in the group,
+
+7
+00:00:18,890 --> 00:00:20,230
+we actually saw it for the first time.
+
+8
+00:00:20,410 --> 00:00:24,210
+We actually got our first taste at a five standard deviation move in the group,
+
+9
+00:00:24,590 --> 00:00:25,230
+right? CRM.
+
+10
+00:00:25,290 --> 00:00:29,170
+This is by far one of the biggest earnings blowouts I've seen since I started trading.
+
+11
+00:00:29,170 --> 00:00:33,910
+And a lot of the time, we don't think our max loss is actually possible, right?
+
+12
+00:00:34,010 --> 00:00:37,950
+None of us here has seen our max loss until today.
+
+13
+00:00:38,390 --> 00:00:40,470
+And it can actually destroy you,
+
+14
+00:00:40,530 --> 00:00:42,790
+it can cripple your account if you bet too big.
+
+15
+00:00:43,470 --> 00:00:47,210
+So that's what we're gonna be talking about today, bankroll management,
+
+16
+00:00:47,570 --> 00:00:51,430
+and how this can actually, you know, make you a profitable trader,
+
+17
+00:00:51,670 --> 00:00:55,010
+assuming you have a good strategy. Okay?
+
+18
+00:00:55,010 --> 00:01:02,220
+And how it will cripple you if you don't have this. Okay? Win or lose,
+
+19
+00:01:02,280 --> 00:01:06,200
+if you don't have this, you will never make it as a profitable trader. Okay?
+
+20
+00:01:06,240 --> 00:01:07,860
+And we're gonna go over why in detail,
+
+21
+00:01:08,220 --> 00:01:11,240
+and I think you guys are gonna get a lot of value out of this. Okay.
+
+22
+00:01:11,640 --> 00:01:14,600
+So let's jump into it. We're gonna be playing a game here.
+
+23
+00:01:14,640 --> 00:01:16,020
+I'm gonna give you guys a hypothetical example,
+
+24
+00:01:16,120 --> 00:01:19,140
+and I want you guys to take a guess on what the answer is.
+
+25
+00:01:19,200 --> 00:01:22,420
+And the winner of this is going to, like we said, get a one-on-one tomorrow.
+
+26
+00:01:22,680 --> 00:01:28,120
+So let's play a game, okay? We are going to the casino, and let's call it,
+
+27
+00:01:28,220 --> 00:01:32,200
+you know, some type of new blackjack game. Okay?
+
+28
+00:01:33,350 --> 00:01:36,450
+We go to the casino with $1,000 in our bank account.
+
+29
+00:01:37,090 --> 00:01:43,270
+We're playing this game where when we win, we win 1.2. And when we lose,
+
+30
+00:01:44,190 --> 00:01:46,130
+we lose whatever we put down at the casino.
+
+31
+00:01:46,670 --> 00:01:54,140
+And we have a 60% chance that we win. So that means a 40% chance that we lose.
+
+32
+00:01:54,560 --> 00:01:59,450
+Okay? Imagine we took a trade here. Our winners are 1.2 times our losers,
+
+33
+00:01:59,770 --> 00:02:07,120
+and we win 60% of the time. How much of this $1,000 should we bet? Okay?
+
+34
+00:02:07,260 --> 00:02:11,480
+To stab at that, guys, put your comments down here,
+
+35
+00:02:11,500 --> 00:02:12,920
+and we'll take a look at it towards the end.
+
+36
+00:02:13,440 --> 00:02:15,420
+So what we're gonna calculate here, guys,
+
+37
+00:02:15,440 --> 00:02:18,940
+is there's actually an optimal bet size.
+
+38
+00:02:19,540 --> 00:02:23,320
+There's actually the perfect amount to grow your account.
+
+39
+00:02:24,260 --> 00:02:26,940
+If you bet more than this, you don't do well. If you bet less than this,
+
+40
+00:02:26,980 --> 00:02:30,860
+you don't do as well. Okay? And this is what we call the Kelly Criterion.
+
+41
+00:02:31,100 --> 00:02:35,640
+So this is what we use. Now, it can get very advanced,
+
+42
+00:02:35,800 --> 00:02:36,820
+but this is actually very simple.
+
+43
+00:02:36,920 --> 00:02:39,400
+And this is what a lot of professional gamblers use all the time.
+
+44
+00:02:39,440 --> 00:02:42,160
+It's actually the basis of risk management and option trading.
+
+45
+00:02:43,140 --> 00:02:45,980
+So that is the Kelly Criterion.
+
+46
+00:02:45,980 --> 00:02:51,960
+What the Kelly Criterion tells us is if we want to optimize our expectancy,
+
+47
+00:02:52,260 --> 00:02:54,740
+meaning if we want to make the most money in the long run,
+
+48
+00:02:54,880 --> 00:02:58,620
+how much should we be betting? And that is what the Kelly Criterion is.
+
+49
+00:03:00,280 --> 00:03:06,120
+So the formula for that is the probability you win, okay,
+
+50
+00:03:06,780 --> 00:03:13,760
+times the odds that you win. Okay, we're going to call that B, plus one,
+
+51
+00:03:14,420 --> 00:03:20,800
+minus one, divided by the odds of you winning. Okay?
+
+52
+00:03:21,080 --> 00:03:25,460
+This formula is going to maximize our long-term gains, right?
+
+53
+00:03:25,500 --> 00:03:28,160
+It's going to make sure we don't go bankrupt. Okay?
+
+54
+00:03:28,320 --> 00:03:33,160
+So we're going to plug in these numbers into here and find out who is the closest
+
+55
+00:03:33,160 --> 00:03:37,420
+to the winner. Now, this is the Kelly Criterion, okay?
+
+56
+00:03:37,420 --> 00:03:44,080
+Probability of you winning, the odds of you winning, plus one, minus one,
+
+57
+00:03:44,600 --> 00:03:51,440
+divided by the odds of you winning, the odds on your bet. Right?
+
+58
+00:03:51,480 --> 00:03:58,780
+So the odds on our bet here was 1.2. Okay? We win 1.2 times our losers.
+
+59
+00:03:59,140 --> 00:04:03,400
+We bet $100 and we lose, we're going to lose 100. But if we win,
+
+60
+00:04:03,480 --> 00:04:06,370
+we're going to win 120. Okay?
+
+61
+00:04:07,810 --> 00:04:10,810
+So we're going to plug it into this formula and we're going to see who wins here.
+
+62
+00:04:10,930 --> 00:04:18,080
+So we have probability of us winning, 60%. The odds that we're getting are 1.2,
+
+63
+00:04:19,760 --> 00:04:28,920
+plus one, minus one. Okay? Divided by 1.2.
+
+64
+00:04:29,570 --> 00:04:43,350
+So this is going to be 0.6 times 2.2, minus one, divided by 1.2.
+
+65
+00:04:43,470 --> 00:04:48,910
+So 0.32 divided by 1.2. 0.27.
+
+66
+00:04:52,580 --> 00:05:05,020
+0.27. Yeah. Okay. So on our $1,000 account, is it 0.027 or 0.27? 0.27. Okay.
+
+67
+00:05:05,440 --> 00:05:19,680
+So on our $1,000 account, okay, we should be betting $270 per bet. Now,
+
+68
+00:05:19,720 --> 00:05:24,400
+this number right here is going to optimize our long-term expectancy.
+
+69
+00:05:25,140 --> 00:05:29,550
+We have to bet $270 every time. Okay?
+
+70
+00:05:29,590 --> 00:05:33,390
+Some people will come in here and they'll bet too much. Okay? Not good.
+
+71
+00:05:34,510 --> 00:05:36,350
+And some people will come in and bet too little,
+
+72
+00:05:36,450 --> 00:05:39,810
+and that's not optimizing their bank. That's not optimizing their expectancy.
+
+73
+00:05:40,880 --> 00:05:44,720
+Okay? Now that we know this, so you guys, so far so good,
+
+74
+00:05:45,900 --> 00:05:48,080
+this is how much we should be betting to optimize our bank.
+
+75
+00:05:48,140 --> 00:05:51,680
+But what does this mean? What does this mean? What does this $270 mean?
+
+76
+00:05:51,680 --> 00:05:56,140
+So this, by the way, guys, is called our Kelly fraction. Okay?
+
+77
+00:05:56,600 --> 00:05:57,780
+That's our Kelly fraction.
+
+78
+00:06:00,730 --> 00:06:05,390
+Okay? This is optimizing our bankroll without the risk of blowing up. Okay?
+
+79
+00:06:06,250 --> 00:06:12,480
+Now, let us, let us, oh, sorry, guys, you still, yeah, okay.
+
+80
+00:06:12,620 --> 00:06:19,580
+Now let us go into an example of why we need to know this and why it's so important.
+
+81
+00:06:20,220 --> 00:06:25,780
+Okay. Okay. So we said our Kelly score equals 270. Okay?
+
+82
+00:06:26,540 --> 00:06:28,320
+I'm going to draw a couple of scenarios here.
+
+83
+00:06:32,040 --> 00:06:36,360
+And by the way, guys, we have an expected, we have a positive expectancy,
+
+84
+00:06:36,520 --> 00:06:45,240
+right? Our strategy, okay? Expected value is equal to 0.6 times 1.2, right?
+
+85
+00:06:46,180 --> 00:06:52,640
+Minus, this is all from bronze, minus 0.4 times 1. Right?
+
+86
+00:06:52,640 --> 00:06:55,760
+That's our expected value. So we go 0.6 times 1.2,
+
+87
+00:06:56,300 --> 00:07:08,900
+0.72 minus 0.4 equals 32 cents. Okay? For every dollar we bet,
+
+88
+00:07:09,100 --> 00:07:13,880
+we're going to make 32 cents. That's our expectancy, our long run expectancy.
+
+89
+00:07:14,040 --> 00:07:17,920
+For every dollar I bet, I'm either going to, on average, right?
+
+90
+00:07:17,940 --> 00:07:21,560
+I'm either going to win $1.20 or I'm going to lose $1. But on average,
+
+91
+00:07:21,700 --> 00:07:28,560
+I'm going to make 32 cents. Okay? So I'm going to draw a couple examples here.
+
+92
+00:07:29,140 --> 00:07:33,800
+So imagine we sit down at this game. We sit down at this game. Obviously,
+
+93
+00:07:33,860 --> 00:07:35,820
+we're going to become rich. We're going to become filthy rich, right?
+
+94
+00:07:36,220 --> 00:07:38,120
+If we can sit at this game forever and ever and ever,
+
+95
+00:07:38,360 --> 00:07:39,780
+we're going to become billionaires.
+
+96
+00:07:42,110 --> 00:07:46,930
+So let's graph this out. Let's graph out our play. So here is time zero.
+
+97
+00:07:47,710 --> 00:07:52,890
+And here is money one. Okay? This is our bankroll.
+
+98
+00:07:52,990 --> 00:07:53,910
+We're going to call this our bankroll.
+
+99
+00:07:56,350 --> 00:07:59,550
+Okay? I'm going to draw a couple graphs for you guys.
+
+100
+00:07:59,950 --> 00:08:02,430
+So let's say we come to this game starting at $1,000.
+
+101
+00:08:05,410 --> 00:08:10,110
+Okay? So on our y-axis, we have our bankroll. Okay? And then here,
+
+102
+00:08:10,250 --> 00:08:13,290
+we have the number of games we played. So let's say we start with zero.
+
+103
+00:08:13,610 --> 00:08:19,230
+And then by the end of the year, we've played 5,000 games. 5,000 hands. Okay?
+
+104
+00:08:20,920 --> 00:08:25,770
+And our first graph looks like this.
+
+105
+00:08:29,080 --> 00:08:36,570
+Okay? That's our first graph. Our second graph looks like this.
+
+106
+00:08:40,050 --> 00:08:43,390
+Okay? We're going to do four graphs, actually, guys. Make it a little more fun.
+
+107
+00:08:44,750 --> 00:08:47,390
+Our third graph looks like this.
+
+108
+00:08:53,440 --> 00:08:55,820
+And our final graph looks like this.
+
+109
+00:09:05,040 --> 00:09:11,080
+Okay? So these are four different people playing this game. Okay?
+
+110
+00:09:11,140 --> 00:09:12,500
+We have four different people playing this game.
+
+111
+00:09:12,500 --> 00:09:16,660
+We're going to call them Marcos, Ram, Lavelle, and Dan. Okay?
+
+112
+00:09:16,660 --> 00:09:17,960
+These guys are all playing this game.
+
+113
+00:09:20,290 --> 00:09:27,010
+I want you guys to tell me how much each person is betting at this game.
+
+114
+00:09:27,070 --> 00:09:30,310
+So remember, we have $1,000. Okay?
+
+115
+00:09:31,800 --> 00:09:35,340
+And we're going to talk in terms of Kelly fractions. Okay?
+
+116
+00:09:35,380 --> 00:09:39,800
+So we know Kelly of 1 is 270. Okay? I want you guys to tell me,
+
+117
+00:09:40,940 --> 00:09:45,900
+what Kelly fraction is this guy betting at? So you can scale from, let's say,
+
+118
+00:09:46,020 --> 00:09:51,540
+0.1, means 10% of Kelly, all the way up to, let's call it 2 times Kelly. Okay?
+
+119
+00:09:51,600 --> 00:09:57,520
+So you're betting 2 times the Kelly fraction. And right now,
+
+120
+00:09:57,700 --> 00:10:00,620
+we're playing a game that is a long run. The more we play,
+
+121
+00:10:00,760 --> 00:10:04,500
+the more money we make. Right? It's a long-term expected value game.
+
+122
+00:10:04,760 --> 00:10:09,220
+The more games, the more money. Okay? So first one. Blue guy.
+
+123
+00:10:09,600 --> 00:10:14,100
+What Kelly fraction is he betting at? Okay? Let's see what we got here.
+
+124
+00:10:15,000 --> 00:10:20,380
+So what Kelly fraction is this guy? We have this crazy, crazy P&L graph,
+
+125
+00:10:20,560 --> 00:10:23,600
+and it goes all the way up here. What fraction is he betting at?
+
+126
+00:10:24,000 --> 00:10:30,280
+So Koa's saying 2. Marco's saying 2. Okay? So 2. How about this guy?
+
+127
+00:10:30,340 --> 00:10:36,920
+He's got a smoother P&L. It goes right here. What's this guy betting at? 1.5.
+
+128
+00:10:37,000 --> 00:10:37,320
+Okay.
+
+129
+00:10:39,770 --> 00:10:42,050
+Okay. How about this guy right here? This guy in the green.
+
+130
+00:10:42,390 --> 00:10:46,090
+So he's got a really smooth P&L. What's he doing? He's doing 1.
+
+131
+00:10:46,230 --> 00:10:49,930
+Kyle's saying 1. Okay. And how about this guy? How about this guy?
+
+132
+00:10:50,010 --> 00:10:52,690
+It looks like he lost a lot of his money. What happened to him?
+
+133
+00:10:54,580 --> 00:10:57,560
+Pranav's saying 0.5, 0.69. Okay. We're going to call it.
+
+134
+00:10:57,580 --> 00:11:02,360
+What are you guys saying here? 0.5, 0.3. Okay. Awesome. Awesome.
+
+135
+00:11:02,500 --> 00:11:03,280
+We're going to go with 0.5.
+
+136
+00:11:05,360 --> 00:11:08,240
+Okay. Guys, I got to tell you something.
+
+137
+00:11:10,320 --> 00:11:15,760
+You guys had this flipped. Everyone had this flipped. Okay.
+
+138
+00:11:15,760 --> 00:11:18,220
+Kyle's saying negative 1. Okay. Let's talk about this.
+
+139
+00:11:20,280 --> 00:11:28,870
+The guy who lost all his money, you know what he did? He bet $280.
+
+140
+00:11:30,770 --> 00:11:39,700
+He bet $280 at that casino. He bet over 1 of the Kelly Criterion.
+
+141
+00:11:40,310 --> 00:11:46,390
+He bet over 1. He loses money in the long run. This guy up here,
+
+142
+00:11:47,130 --> 00:11:54,100
+he did 1 times Kelly. Remember, Kelly optimizes your bankroll.
+
+143
+00:11:54,600 --> 00:11:57,180
+It optimizes your expectancy given your bankroll.
+
+144
+00:11:57,620 --> 00:12:01,980
+So this is always going to be the highest out of all different combinations.
+
+145
+00:12:03,470 --> 00:12:10,410
+Okay. So this is the highest. The next highest is not full Kelly, right?
+
+146
+00:12:10,470 --> 00:12:17,580
+So this guy right here, he's betting $270. This guy right here, he's betting,
+
+147
+00:12:19,040 --> 00:12:29,240
+let's call it half Kelly. Okay. So he's betting 140. Okay. And this guy,
+
+148
+00:12:29,340 --> 00:12:34,120
+he's betting a quarter of Kelly. So he's betting .25 Kelly,
+
+149
+00:12:34,320 --> 00:12:35,820
+which is about 80 bucks.
+
+150
+00:12:38,650 --> 00:12:41,830
+And this guy down here is betting, we're going to call it $300.
+
+151
+00:12:43,290 --> 00:12:47,010
+Because in the long run, if he bets more than this number,
+
+152
+00:12:47,470 --> 00:12:52,690
+he turns a winning strategy, a very profitable strategy. Imagine this, guys.
+
+153
+00:12:52,730 --> 00:12:56,290
+Imagine every time you bet, you got 32 cents for every dollar.
+
+154
+00:12:57,250 --> 00:13:01,330
+Imagine every time you bet $10,000, you got on average 3,200 back.
+
+155
+00:13:02,620 --> 00:13:03,900
+That's the strategy right here.
+
+156
+00:13:04,440 --> 00:13:06,860
+And this guy does phenomenal because he bets Kelly.
+
+157
+00:13:07,180 --> 00:13:11,660
+This guy does good because he bets half Kelly. This guy does okay,
+
+158
+00:13:11,720 --> 00:13:15,020
+but he didn't maximize. But look, his P&L is very smooth.
+
+159
+00:13:15,380 --> 00:13:16,460
+And he bet quarter Kelly.
+
+160
+00:13:16,780 --> 00:13:19,580
+This guy who maybe he didn't understand bankroll management,
+
+161
+00:13:20,160 --> 00:13:21,600
+he lost all his money.
+
+162
+00:13:23,710 --> 00:13:26,250
+Okay. And why is this the case? How can this be possible?
+
+163
+00:13:26,730 --> 00:13:31,030
+How can this be possible in the long run? Well, if you think about it,
+
+164
+00:13:32,750 --> 00:13:35,410
+if he's betting, let's say $300.
+
+165
+00:13:37,420 --> 00:13:37,820
+Okay.
+
+166
+00:13:41,070 --> 00:13:44,230
+Let's go with a bigger amount just so you guys can make sense of it.
+
+167
+00:13:45,390 --> 00:13:51,600
+Imagine he's betting 500 bucks. Okay. It's only going to take him two times.
+
+168
+00:13:52,620 --> 00:13:57,280
+He only has to win. He only has to lose two times in a row to go down,
+
+169
+00:13:57,560 --> 00:14:02,020
+to lose his whole bankroll. Right. And if we know some mathematics, we win.
+
+170
+00:14:02,880 --> 00:14:10,980
+Sorry. We lose, right, 0.4 times 0.4. That's 50 points. Right.
+
+171
+00:14:11,060 --> 00:14:16,970
+We lose two times in a row, 16% of the time. Right. And if we do that again,
+
+172
+00:14:17,570 --> 00:14:26,260
+6.4% of the time. Right. We lose three times in a row. And four times in a row,
+
+173
+00:14:26,620 --> 00:14:29,320
+by the time we go bankrupt, it's about 1% of the time.
+
+174
+00:14:31,120 --> 00:14:36,720
+But the way that Kelly Criterion is built is that it's unlikely for us to lose four
+
+175
+00:14:36,720 --> 00:14:42,100
+times in a row without at least us getting a head start. Okay. We only lose,
+
+176
+00:14:42,440 --> 00:14:46,960
+you know, at the initial start 1% of the time. Okay.
+
+177
+00:14:47,140 --> 00:14:48,960
+So that is how Kelly Criterion works.
+
+178
+00:14:48,960 --> 00:14:56,380
+It helps us avoid maximizing our bankroll as well as avoiding bankruptcy. Okay.
+
+179
+00:14:57,520 --> 00:15:01,080
+Okay. So that's, that's on the whiteboard I want to show you.
+
+180
+00:15:01,160 --> 00:15:03,200
+Then I was just going to show you guys a,
+
+181
+00:15:03,200 --> 00:15:08,410
+an example on my computer super quick. So I know,
+
+182
+00:15:08,590 --> 00:15:11,410
+I know the guys that read the Yoon Sinclair book, I did the same thing as well.
+
+183
+00:15:11,470 --> 00:15:13,730
+I skipped over risk bankroll management.
+
+184
+00:15:13,730 --> 00:15:18,570
+And actually Yoon Sinclair didn't introduce me to Kelly Criterion,
+
+185
+00:15:18,750 --> 00:15:22,150
+but I've read somewhere else. And then I realized he did a lot of work on it.
+
+186
+00:15:22,310 --> 00:15:25,550
+So he, in this example, he does the exact same thing.
+
+187
+00:15:25,730 --> 00:15:28,910
+He shows us what I just showed you. Okay. And, you know,
+
+188
+00:15:29,050 --> 00:15:30,070
+if there's any mathematicians,
+
+189
+00:15:30,130 --> 00:15:32,330
+you guys can go in and learn a little bit more about the math.
+
+190
+00:15:33,990 --> 00:15:37,930
+The black line here is Kelly. It's full Kelly. It optimizes your bet,
+
+191
+00:15:38,050 --> 00:15:41,660
+your bankroll. This line down here is half Kelly.
+
+192
+00:15:41,660 --> 00:15:43,580
+He's betting half the optimal size.
+
+193
+00:15:43,760 --> 00:15:48,060
+And this where the guy eventually goes bankrupt is twice Kelly.
+
+194
+00:15:48,260 --> 00:15:54,980
+Two times the Kelly Criterion. Okay. So that is what happens, right?
+
+195
+00:15:55,020 --> 00:16:00,140
+This is our dollar P&L. So this is why bankroll management is so important.
+
+196
+00:16:00,300 --> 00:16:01,280
+Because if you're betting,
+
+197
+00:16:01,800 --> 00:16:04,400
+so let's actually take it back to an iron condor example.
+
+198
+00:16:04,400 --> 00:16:08,420
+Now we're actually going to do it right here, right here on the live.
+
+199
+00:16:09,240 --> 00:16:13,660
+So let's do an iron condor example. Okay. So here we have an iron condor.
+
+200
+00:16:19,420 --> 00:16:22,530
+Okay. Now let's say when we win.
+
+201
+00:16:22,630 --> 00:16:27,410
+Now the thing that's a little bit different with trading is that there's no binary
+
+202
+00:16:27,410 --> 00:16:31,770
+outcome. It's not like you either win or you lose. You could be over here,
+
+203
+00:16:32,230 --> 00:16:34,970
+right? Or you can be over here. There's lots of different combinations.
+
+204
+00:16:35,510 --> 00:16:38,210
+And this is actually where Hune Sinclair has done a lot of work.
+
+205
+00:16:38,510 --> 00:16:39,650
+He's done a lot of work on this,
+
+206
+00:16:39,770 --> 00:16:43,770
+on turning that Kelly Criterion and expanding on it for option trading.
+
+207
+00:16:43,770 --> 00:16:47,130
+So if you guys want to learn more about it, math is pretty intense.
+
+208
+00:16:48,090 --> 00:16:53,050
+It's in his book. Okay. So we're going to use this hypothetical example.
+
+209
+00:16:54,660 --> 00:16:59,040
+Now we're going to say when we win on average. Okay. We're going to use like,
+
+210
+00:16:59,080 --> 00:17:00,160
+let's say this line. Okay.
+
+211
+00:17:00,160 --> 00:17:03,100
+So let's say we put on this iron condor and we say when we win,
+
+212
+00:17:03,600 --> 00:17:05,600
+we're going to win 500 bucks.
+
+213
+00:17:08,260 --> 00:17:14,060
+Okay. And when we lose. Okay. We're going to lose. Let's say this is,
+
+214
+00:17:14,440 --> 00:17:17,220
+I don't know. Let's say our max loss is a thousand.
+
+215
+00:17:20,790 --> 00:17:24,920
+Okay. Now we know a lot of the probabilities, right?
+
+216
+00:17:24,980 --> 00:17:31,460
+We know that one standard deviation, 60% of the time, right? 68% of the time.
+
+217
+00:17:31,980 --> 00:17:34,440
+We're going to, we're going to make money. We're going to be somewhere in here.
+
+218
+00:17:34,880 --> 00:17:35,520
+Right. And, you know,
+
+219
+00:17:35,520 --> 00:17:38,440
+I was just talking to Kyle earlier yesterday or something.
+
+220
+00:17:38,560 --> 00:17:46,500
+His hit ratio was 1.29. Okay. So that is almost 68% of the time. Right.
+
+221
+00:17:46,580 --> 00:17:47,360
+For his earning trades.
+
+222
+00:17:49,590 --> 00:17:52,950
+So we know that we're going to make money about 68% of the time.
+
+223
+00:17:53,370 --> 00:17:57,690
+You're going to be somewhere in here. 33% of the time or 32% of the time,
+
+224
+00:17:57,750 --> 00:18:01,150
+we're going to lose money. Okay. But we're going to lose big, right?
+
+225
+00:18:01,270 --> 00:18:03,870
+This is just like an earnings trade. We're going to win 500 and we're right.
+
+226
+00:18:04,290 --> 00:18:07,330
+And we're going to lose a thousand when we're wrong. Okay.
+
+227
+00:18:08,370 --> 00:18:15,110
+So now we have probabilities. Now we have our, our, our PNLs. If we're right,
+
+228
+00:18:15,190 --> 00:18:17,090
+if we're wrong, and we can throw that into the Kelly criteria.
+
+229
+00:18:19,750 --> 00:18:21,410
+So we're going to throw it into the Kelly criteria.
+
+230
+00:18:26,790 --> 00:18:28,170
+Okay. So 0.68.
+
+231
+00:18:30,820 --> 00:18:36,660
+0.5. Plus one, right? The odds are half for every thousand we lose.
+
+232
+00:18:36,740 --> 00:18:49,030
+We make 500. Minus one over 0.5. 0.68. Times. 1.5. Minus one.
+
+233
+00:18:51,080 --> 00:19:02,960
+Divided by. 0.5. 1.02. Minus one. Yeah. Over 0.5. 0.04. So in this example,
+
+234
+00:19:03,500 --> 00:19:11,650
+we cannot bet more than 4% of our bankroll. If we bet more than 4%, guess what?
+
+235
+00:19:12,920 --> 00:19:18,210
+We lose money in the long run. Okay. So I know that's shocking guys.
+
+236
+00:19:18,330 --> 00:19:22,790
+And this is why we always say, you know, keep it to 5%. Right.
+
+237
+00:19:23,030 --> 00:19:24,730
+Keep it to 5% for these earnings trades.
+
+238
+00:19:25,830 --> 00:19:29,970
+And the reason we do 5% is I think we have a little bit higher expectancy here.
+
+239
+00:19:30,840 --> 00:19:35,940
+Okay. A little bit higher. And our, our win loss is usually not a two to one.
+
+240
+00:19:36,040 --> 00:19:42,200
+It's usually one to 1.5. So we usually say that 0.05. When you start going,
+
+241
+00:19:42,480 --> 00:19:48,040
+let's say 10%. 15%. Even though you're in a winning game,
+
+242
+00:19:48,660 --> 00:19:54,830
+you are going to lose all of your money. Now. You know, you sometimes,
+
+243
+00:19:55,030 --> 00:20:01,230
+you know, you hear Sean, I say. If you find an edge that big. That big. Well,
+
+244
+00:20:01,270 --> 00:20:07,280
+imagine. We had. 0.80 here. Imagine we had insane confidence, right?
+
+245
+00:20:07,320 --> 00:20:11,740
+This number right here. This P. This is our confidence level.
+
+246
+00:20:12,940 --> 00:20:15,680
+How confident are you? If you're confident in trade you,
+
+247
+00:20:15,860 --> 00:20:17,140
+that means you think it's going to happen.
+
+248
+00:20:17,760 --> 00:20:20,360
+If you don't think it's going to happen, this P value goes down.
+
+249
+00:20:20,980 --> 00:20:25,080
+And in trading, if this P value goes down. What happens to be.
+
+250
+00:20:26,270 --> 00:20:29,310
+What happens to be if you're, if you're making a trade right now.
+
+251
+00:20:29,790 --> 00:20:35,410
+And P goes down. B has to go up. If you, if peace, okay.
+
+252
+00:20:35,530 --> 00:20:39,370
+If P is your confidence, if you're, if you're not confident on trade,
+
+253
+00:20:39,550 --> 00:20:42,990
+what does that mean? It means the risk reward has to be huge.
+
+254
+00:20:45,450 --> 00:20:48,410
+Otherwise you're not going to take a trade. If you're that's why our one,
+
+255
+00:20:48,490 --> 00:20:50,990
+three, two flies, for example, we're not confident. Always.
+
+256
+00:20:51,390 --> 00:20:56,370
+We don't have a directional view, but guess what? This B value is 10 to one.
+
+257
+00:20:57,060 --> 00:20:58,440
+This B value is 10.
+
+258
+00:21:00,480 --> 00:21:04,760
+Right? So this is how we start to figure out, well, you know,
+
+259
+00:21:04,880 --> 00:21:07,660
+how should we make a trade here? What kind of, you know, how,
+
+260
+00:21:07,860 --> 00:21:11,860
+how can this math right. Integrate into our trading. Into our betting.
+
+261
+00:21:11,860 --> 00:21:14,480
+At the end of the day, guys, we're betting here. We're we're bets. We're,
+
+262
+00:21:14,480 --> 00:21:16,780
+we're, we're creating these bets and we have to manage them properly.
+
+263
+00:21:17,200 --> 00:21:23,600
+It's so important. And perhaps saying, if I bet 271. Instead of two 70.
+
+264
+00:21:25,160 --> 00:21:28,440
+You go back up in the long run. I know it doesn't say,
+
+265
+00:21:28,520 --> 00:21:30,840
+I know that might sound crazy for now. Now,
+
+266
+00:21:30,840 --> 00:21:35,580
+obviously it's not going to look like exactly. Right away. Yes.
+
+267
+00:21:35,640 --> 00:21:40,220
+It's not gonna happen right away. But in the long run. It's going to happen.
+
+268
+00:21:40,220 --> 00:21:45,900
+This $1 per nap is going to screw you. Okay. And that is. This is not,
+
+269
+00:21:45,940 --> 00:21:49,860
+this is not theory. This is not theory. This is math. Okay.
+
+270
+00:21:49,860 --> 00:21:55,040
+This is what actually happens. You lose in the long run. Betting $1 more.
+
+271
+00:21:55,320 --> 00:21:59,140
+So guys. Here's the harsh reality. Here's the harsh reality.
+
+272
+00:21:59,930 --> 00:22:07,620
+If your account size is $1,000. And you are doing an earnings trade. Okay.
+
+273
+00:22:07,980 --> 00:22:11,020
+What does that mean? What does that mean? If your account size is $1,000,
+
+274
+00:22:11,200 --> 00:22:15,280
+you're doing earnings trade. You can't have a loser. Okay.
+
+275
+00:22:19,750 --> 00:22:20,550
+Bigger than that.
+
+276
+00:22:22,810 --> 00:22:29,670
+Okay. You cannot have a loser. Bigger than this. Your risk on the trade.
+
+277
+00:22:30,310 --> 00:22:35,520
+Cannot be bigger than this number. Okay. If you're doing an earnings trade.
+
+278
+00:22:36,600 --> 00:22:41,680
+Yeah. If you have 5,000. Your max risk. Cannot be 250.
+
+279
+00:22:41,820 --> 00:22:46,690
+Cannot be bigger than $250. Okay. And what does that mean? Well,
+
+280
+00:22:46,710 --> 00:22:49,830
+it just means that you can't trade everything right now.
+
+281
+00:22:49,830 --> 00:22:53,690
+That you can only take certain trades. Okay.
+
+282
+00:22:53,890 --> 00:22:57,350
+And there's another thing you can do. Is you can create your own strategy.
+
+283
+00:22:57,550 --> 00:23:05,430
+Which either increases P. Increases your confidence. Or increases B.
+
+284
+00:23:07,110 --> 00:23:12,230
+Increases the risk to reward ratio. Okay. And this number.
+
+285
+00:23:12,230 --> 00:23:16,090
+So if we actually plug it in with instead of 500 and 1,000.
+
+286
+00:23:16,210 --> 00:23:21,110
+Let's say we did like 500 and 750 or 600. Which is more realistic.
+
+287
+00:23:22,270 --> 00:23:28,530
+This number goes up. So 6.66. So in reality, you know, you can't be making.
+
+288
+00:23:28,870 --> 00:23:32,170
+You can't be putting on the line. More than 60 bucks.
+
+289
+00:23:32,370 --> 00:23:34,810
+For every $1,000 you have in your account.
+
+290
+00:23:37,880 --> 00:23:42,840
+Okay. That is. That is the reality of trading. And I know it's hard.
+
+291
+00:23:42,840 --> 00:23:45,280
+I know sometimes I might be like, holy shit. Like that's crazy.
+
+292
+00:23:46,100 --> 00:23:48,780
+This is the truth. You know, there's people. There's, you know,
+
+293
+00:23:48,800 --> 00:23:52,060
+as the saying goes, men lie and women lie. But numbers don't.
+
+294
+00:23:52,080 --> 00:23:53,780
+Numbers don't lie. Okay.
+
+295
+00:23:56,120 --> 00:23:58,300
+If you're just flat out doing the earning strategy.
+
+296
+00:23:58,580 --> 00:23:59,600
+You can't bet more than this.
+
+297
+00:24:00,440 --> 00:24:02,820
+If you want to create your own strategy around earnings.
+
+298
+00:24:02,980 --> 00:24:07,300
+If you have a certain idea that, you know. Is going to increase either P or B.
+
+299
+00:24:07,540 --> 00:24:10,500
+Now you can bet more. And this is not just for earnings.
+
+300
+00:24:10,600 --> 00:24:13,970
+This is for every strategy out there. Okay.
+
+301
+00:24:16,140 --> 00:24:18,700
+So now the lecture is over. I'm just going to go and answer some questions.
