@@ -1,0 +1,2083 @@
+1
+00:00:00,940 --> 00:00:05,820
+Okay, so today's lecture is going to be on expected value.
+
+2
+00:00:06,200 --> 00:00:07,900
+So we all talk about expected value.
+
+3
+00:00:07,960 --> 00:00:09,460
+There's a little bit about it in the bronze course,
+
+4
+00:00:09,460 --> 00:00:12,840
+but today we're gonna deep dive into really how expected value plays out,
+
+5
+00:00:12,900 --> 00:00:14,180
+what we need to think about,
+
+6
+00:00:14,260 --> 00:00:17,540
+how it looks like in different scenarios in the world of trading and even outside
+
+7
+00:00:17,540 --> 00:00:23,410
+of the world of trading. So let's hop right into it. Yeah, so as Sean's saying,
+
+8
+00:00:23,570 --> 00:00:25,290
+like expected value is everything, right? It's,
+
+9
+00:00:25,610 --> 00:00:29,520
+if we have a positive expected value, it means we're playing a winning game,
+
+10
+00:00:29,520 --> 00:00:33,470
+means we're making money. So what we're gonna do here,
+
+11
+00:00:33,590 --> 00:00:37,740
+and what I did here was I simulated,
+
+12
+00:00:37,920 --> 00:00:41,720
+so we're looking at the top left graph over here, guys. Okay,
+
+13
+00:00:41,880 --> 00:00:51,880
+what I did was I simulated an expected value, okay, with 62% hit rate.
+
+14
+00:00:52,080 --> 00:00:59,610
+So we win 62% of the time. And when we win, we win a dollar. And when we lose,
+
+15
+00:00:59,870 --> 00:01:04,950
+we lose a dollar 50. So risk reward is one to 1.5, 1.5 to one.
+
+16
+00:01:06,440 --> 00:01:11,700
+And 38% chance we lose, 62% chance we win. Very similar to earnings. Okay,
+
+17
+00:01:11,760 --> 00:01:15,900
+obviously it's not perfect, but very similar. So 38% of the time, right here,
+
+18
+00:01:15,960 --> 00:01:18,140
+guys, remember, this is our expected value formula.
+
+19
+00:01:18,860 --> 00:01:24,060
+Probability of winning times how much we win minus probability of losing times how
+
+20
+00:01:24,060 --> 00:01:24,780
+much we lose.
+
+21
+00:01:27,100 --> 00:01:29,060
+And what we need to really just remember here, guys,
+
+22
+00:01:29,100 --> 00:01:30,960
+is what are we trying to really calculate here?
+
+23
+00:01:31,370 --> 00:01:33,560
+We're trying to calculate if we're supposed to win, right?
+
+24
+00:01:35,960 --> 00:01:39,830
+Theoretically, do we come out ahead in a game like this?
+
+25
+00:01:40,230 --> 00:01:42,450
+And the things that we need to consider are really two things, right?
+
+26
+00:01:42,470 --> 00:01:46,910
+So it's our risk to reward and our probabilities of success, right?
+
+27
+00:01:46,910 --> 00:01:51,890
+We can use this to break down blackjack, casino games, all types of betting.
+
+28
+00:01:51,990 --> 00:01:59,110
+We can use it to break down life and death situations, although it's like,
+
+29
+00:01:59,430 --> 00:02:03,290
+if you win, you live. If you lose, you die.
+
+30
+00:02:03,390 --> 00:02:07,670
+And it's like a 99% chance you live. It's like, you know, but you can use this.
+
+31
+00:02:07,730 --> 00:02:11,640
+You can really apply this to anything. And why do we do this though,
+
+32
+00:02:11,700 --> 00:02:15,400
+is also because we need to see what it looks like to play in a winning game,
+
+33
+00:02:15,960 --> 00:02:19,200
+right? Imagine we have no clue what a winning game looks like.
+
+34
+00:02:19,240 --> 00:02:21,220
+People might think winning game only goes up into the right.
+
+35
+00:02:21,640 --> 00:02:24,680
+So we need to simulate what does a winning game actually look like?
+
+36
+00:02:24,980 --> 00:02:28,650
+And because we can do that, we can get more understanding, right?
+
+37
+00:02:28,650 --> 00:02:31,050
+So we are gonna simulate a winning game. And in fact,
+
+38
+00:02:31,050 --> 00:02:35,830
+our expected value is 5 cents for every dollar we bet.
+
+39
+00:02:36,610 --> 00:02:42,180
+So every time I go bet a dollar, I'm gonna make 5 cents on average. Okay,
+
+40
+00:02:42,200 --> 00:02:46,320
+so that is our edge here. And just let's stop on that for one second,
+
+41
+00:02:46,340 --> 00:02:50,640
+because let's think about it. In a game where you either win one or lose 1.5,
+
+42
+00:02:51,020 --> 00:02:54,880
+how the hell do you make 5 cents? Well, what you do is,
+
+43
+00:02:55,360 --> 00:02:59,080
+you have to look at it in the long run, right? So for example,
+
+44
+00:03:01,680 --> 00:03:06,600
+62% of the time, you're gonna win one, 38% of the time, you're gonna lose 1.5.
+
+45
+00:03:07,700 --> 00:03:12,920
+If you average that out over a long, long time, on average per hand,
+
+46
+00:03:13,120 --> 00:03:18,120
+so if you took your total return and divided it by the number of games you played,
+
+47
+00:03:18,640 --> 00:03:24,000
+you would get 5 cents plus 5 cents. So on average, you made 5 cents per game,
+
+48
+00:03:24,080 --> 00:03:28,220
+but on each individual game, you either went plus one or negative 1.5.
+
+49
+00:03:30,030 --> 00:03:33,310
+So we're actually gonna play one game here. Okay,
+
+50
+00:03:33,310 --> 00:03:34,790
+we're gonna play one game 10 times.
+
+51
+00:03:34,930 --> 00:03:39,840
+So one player is gonna play this game 10 times. Okay,
+
+52
+00:03:39,840 --> 00:03:44,640
+so we have a 5 cent edge for every dollar we bet. So we're gonna play it.
+
+53
+00:03:44,680 --> 00:03:47,000
+So we're gonna play this game 10 times, okay?
+
+54
+00:03:49,100 --> 00:03:54,900
+And one player, okay? And this is what happens. So you can see,
+
+55
+00:03:55,620 --> 00:03:59,920
+we- Started with a little loss. We lost $1.80, right? We started out zero.
+
+56
+00:04:01,100 --> 00:04:05,600
+Or sorry, $1.50. Our first bet, we went down to negative $1.50.
+
+57
+00:04:06,100 --> 00:04:11,520
+Then we lost another $1.50. Okay, so now we're at $3. This is the second hand.
+
+58
+00:04:11,920 --> 00:04:15,240
+Then third hand, we made $1.00. Fourth hand, we made $1.00.
+
+59
+00:04:15,840 --> 00:04:19,680
+It kept going up and up and up and up and up. Then we lost one couple,
+
+60
+00:04:20,220 --> 00:04:26,180
+lost a couple, okay? And we ended up being down negative $2.00. Okay,
+
+61
+00:04:26,200 --> 00:04:26,860
+let's run it again.
+
+62
+00:04:28,940 --> 00:04:31,260
+Do you guys understand what's going on here? Yeah, if not,
+
+63
+00:04:31,380 --> 00:04:34,800
+we'll stop and play again. Okay, so look at this, guys. In this situation,
+
+64
+00:04:35,580 --> 00:04:41,360
+okay? We won twice in a row, right? We went from $1.00, then $2.00.
+
+65
+00:04:41,560 --> 00:04:44,460
+We won $1.00 and $1.00, right? Every time we win, we get $1.00.
+
+66
+00:04:44,880 --> 00:04:49,800
+And then we went on this really bad losing streak. Got smoked. Got smoked.
+
+67
+00:04:51,090 --> 00:04:53,510
+So do you guys get this so far? So far, we're good.
+
+68
+00:04:53,610 --> 00:04:55,190
+If you looked at this return, what would you think?
+
+69
+00:04:56,440 --> 00:05:03,080
+If all you looked at was the outcome, good or bad strategy? Yeah, dookie,
+
+70
+00:05:03,200 --> 00:05:05,380
+bad strategy, right? You look at that P&L graph, you go,
+
+71
+00:05:05,440 --> 00:05:06,920
+I don't want my P&L graph to look like that.
+
+72
+00:05:07,020 --> 00:05:09,880
+I don't wanna do what this guy's doing. But this is a winning game.
+
+73
+00:05:10,200 --> 00:05:11,560
+This is a winning game. You're in a winning,
+
+74
+00:05:11,620 --> 00:05:17,130
+you're playing a winning game here. Okay, so let's actually do that again.
+
+75
+00:05:17,290 --> 00:05:18,490
+Let's take it a little step further. Okay,
+
+76
+00:05:18,530 --> 00:05:25,080
+what we're gonna do actually is we're going to play this game 100 times.
+
+77
+00:05:25,760 --> 00:05:27,400
+We're gonna play this game 100 times,
+
+78
+00:05:28,960 --> 00:05:32,140
+but what we're gonna do is we're gonna have 10 people play this game.
+
+79
+00:05:32,560 --> 00:05:35,080
+So I think we have a little more than 10 guys on the live here.
+
+80
+00:05:35,900 --> 00:05:41,480
+So just imagine everyone, we'll do 11 because we have 11 of you on the live.
+
+81
+00:05:43,430 --> 00:05:48,210
+All of us play this game. And we play this game, we do 100 trades, okay?
+
+82
+00:05:48,230 --> 00:05:50,270
+So every time this trade comes up, we do it.
+
+83
+00:05:50,310 --> 00:05:54,210
+And we actually are able to place 100 trades, every person on this live here,
+
+84
+00:05:55,060 --> 00:05:58,060
+okay? So let's actually see what happens now.
+
+85
+00:06:11,940 --> 00:06:16,650
+Okay, look at this. So about half of us make money.
+
+86
+00:06:16,650 --> 00:06:18,150
+Each of these lines is a different player. Yeah,
+
+87
+00:06:18,190 --> 00:06:20,130
+so each of these lines is a different player. So for example,
+
+88
+00:06:20,230 --> 00:06:22,050
+this orange line here is Codemaster.
+
+89
+00:06:22,470 --> 00:06:25,030
+And then obviously this yellow line down here is either- That's Parker. Yeah,
+
+90
+00:06:25,130 --> 00:06:27,830
+it's either- It's Neil or Parker. Or Kyle too. Or it could be Kyle. Oh,
+
+91
+00:06:27,950 --> 00:06:29,850
+it's probably Kyle. It's most likely Kyle.
+
+92
+00:06:32,610 --> 00:06:37,350
+Okay, so each one of these is a different line. But what is this telling us?
+
+93
+00:06:37,770 --> 00:06:39,610
+What is this telling us here? What can we infer here, right?
+
+94
+00:06:39,610 --> 00:06:42,950
+And why can we actually joke about it being Kyle? Because that's luck.
+
+95
+00:06:43,850 --> 00:06:48,920
+It's unlucky that Kyle got, he's the one that got fucked, right?
+
+96
+00:06:49,000 --> 00:06:51,280
+That's why they say in trading, there's a lot of luck, right?
+
+97
+00:06:51,280 --> 00:06:55,830
+There's a lot of noise and very small signal. So this game has a lot of luck.
+
+98
+00:06:57,930 --> 00:07:01,530
+And, you know, so let's say 100 trades, this is half an earning season, okay?
+
+99
+00:07:01,930 --> 00:07:04,830
+Now let's actually bump this up. Let's play this game.
+
+100
+00:07:05,290 --> 00:07:06,950
+Let's play this game for two earning seasons.
+
+101
+00:07:09,160 --> 00:07:13,140
+So we've got 11 of us here, okay? Play the whole earning season.
+
+102
+00:07:13,280 --> 00:07:14,060
+Play the whole earning season.
+
+103
+00:07:16,100 --> 00:07:19,200
+Come on, brown line. Okay,
+
+104
+00:07:22,080 --> 00:07:29,350
+now take a look at this. Four of us get absolutely loaded, okay?
+
+105
+00:07:29,350 --> 00:07:31,110
+Four of us actually make 40,
+
+106
+00:07:31,270 --> 00:07:35,700
+we start off with a dollar and we end up with 40 bucks. Okay,
+
+107
+00:07:35,700 --> 00:07:38,540
+some of us actually hit 50 bucks. So some of us get rich.
+
+108
+00:07:40,710 --> 00:07:46,410
+On the other hand, some of us, another four of us lose. Actually two,
+
+109
+00:07:46,530 --> 00:07:50,570
+two lose a lot. A few of them are floating around break even, right?
+
+110
+00:07:50,610 --> 00:07:52,570
+This guy does okay. He does 10 times, 10 times better than me.
+
+111
+00:07:52,570 --> 00:07:57,480
+10 times is money, right? It's pretty good. You know, this guy breaks even,
+
+112
+00:07:57,520 --> 00:08:02,060
+this guy breaks even, but two of us lose a little bit of money, okay?
+
+113
+00:08:02,060 --> 00:08:07,240
+We go in debt. So this is half an earning season. Sorry, this is two quarters.
+
+114
+00:08:07,580 --> 00:08:10,640
+Now, if we did a full year cycle, okay?
+
+115
+00:08:10,640 --> 00:08:16,950
+We did a full year on a strategy that has a 5% edge, okay?
+
+116
+00:08:18,080 --> 00:08:20,620
+Very similar to earnings. Very, very similar to earnings,
+
+117
+00:08:31,400 --> 00:08:38,440
+okay? Almost all of us make money here and we're all playing the same game.
+
+118
+00:08:38,800 --> 00:08:40,840
+Every single one of us is playing the same game.
+
+119
+00:08:41,280 --> 00:08:46,320
+Some of us get absolutely rich, right? We're just- A hundred times your money.
+
+120
+00:08:46,340 --> 00:08:49,830
+A hundred times our money. But some of us get extremely, extremely wealthy.
+
+121
+00:08:50,910 --> 00:08:55,420
+On the flip side, some of us get unlucky. And look, in this case,
+
+122
+00:08:55,500 --> 00:08:58,960
+brown lines at the top. Kyle comes from being the underdog to top dog.
+
+123
+00:08:59,540 --> 00:09:01,300
+Now look at what's happening over here, guys.
+
+124
+00:09:01,300 --> 00:09:07,430
+Look at what's happening in the first 100 hands, okay? It's really noise.
+
+125
+00:09:07,590 --> 00:09:12,850
+It's really noise. And a lot of us are floating around break even here.
+
+126
+00:09:14,130 --> 00:09:18,370
+And we can say as well that these guys that are up here are higher than average.
+
+127
+00:09:18,370 --> 00:09:20,050
+They got more than what was made, right?
+
+128
+00:09:20,070 --> 00:09:23,670
+Maybe we're only supposed to be around here. This is our expected value, right?
+
+129
+00:09:23,910 --> 00:09:29,140
+Is maybe to be up 10 hands or 10 times our money or 15 times our money.
+
+130
+00:09:29,160 --> 00:09:31,840
+But people are all the way up here. Other guys are down here.
+
+131
+00:09:32,160 --> 00:09:36,160
+And obviously you guys are gonna see that if we increase this number, right?
+
+132
+00:09:38,240 --> 00:09:42,240
+Everybody makes money. Every single one of us is gonna make money.
+
+133
+00:09:43,990 --> 00:09:45,670
+Just give it a second to load. It usually takes a little while.
+
+134
+00:09:48,310 --> 00:09:50,450
+Because we're running quite a bit of hands here, right?
+
+135
+00:09:50,490 --> 00:09:53,670
+We're running basically a life cycle of earnings. You know,
+
+136
+00:09:53,690 --> 00:09:56,570
+earnings until five, 10 years of earnings.
+
+137
+00:10:01,340 --> 00:10:03,020
+It's just gonna take a second here to load, guys.
+
+138
+00:10:05,720 --> 00:10:07,080
+Just a little sludge break.
+
+139
+00:10:12,450 --> 00:10:14,310
+Can't believe I drank a whole stein of this garbage.
+
+140
+00:10:21,360 --> 00:10:29,060
+Well, there we go, right? Everybody makes money, okay? But in the short run.
+
+141
+00:10:30,080 --> 00:10:32,180
+Doesn't always happen that way. Doesn't always happen, right?
+
+142
+00:10:32,200 --> 00:10:35,780
+And this is why it's sometimes hard to stay with a strategy even though it's a winning
+
+143
+00:10:35,780 --> 00:10:39,600
+game, right? Like for example, if I told you guys for certain, I said, hey,
+
+144
+00:10:39,620 --> 00:10:42,460
+let's play a game. And we're gonna play this game exactly.
+
+145
+00:10:43,420 --> 00:10:46,660
+None of you would say no to it. None of you. And if you do,
+
+146
+00:10:47,160 --> 00:10:49,700
+there's something wrong. You're not understanding probabilities.
+
+147
+00:10:49,840 --> 00:10:53,430
+You're not understanding expected value. However,
+
+148
+00:10:53,430 --> 00:10:55,830
+it doesn't mean you're gonna come out right away a winner.
+
+149
+00:10:56,860 --> 00:10:59,840
+Even in the short run. It takes a while for edges to play out.
+
+150
+00:10:59,940 --> 00:11:02,840
+And if we have a bad earnings season like we had now, like we had last quarter,
+
+151
+00:11:02,920 --> 00:11:05,920
+it wasn't a great season, that's for sure, right? Tons of blowouts.
+
+152
+00:11:07,520 --> 00:11:10,680
+That's gonna affect our P&L, right? The quarter before that was unreal.
+
+153
+00:11:10,780 --> 00:11:11,600
+It was an unreal quarter.
+
+154
+00:11:13,000 --> 00:11:18,720
+And this is why simulating these games where we actually know for certain,
+
+155
+00:11:18,720 --> 00:11:22,000
+for a hundred percent certainty, we should come out a winner.
+
+156
+00:11:22,520 --> 00:11:30,920
+We even at some point come out losers, right? In a full earnings season,
+
+157
+00:11:31,260 --> 00:11:34,860
+two of us here lost, right? Three of us here lost.
+
+158
+00:11:34,940 --> 00:11:37,420
+And two of us came out breakeven, just a little bit better than breakeven.
+
+159
+00:11:38,880 --> 00:11:41,580
+But it doesn't make it a bad game, right? It doesn't make it a bad game.
+
+160
+00:11:41,800 --> 00:11:42,880
+You're still playing a winning game.
+
+161
+00:11:43,040 --> 00:11:45,680
+And now what we need to really think about, right?
+
+162
+00:11:45,740 --> 00:11:50,710
+So what this really paints a picture of guys is that you can't just look at the
+
+163
+00:11:50,710 --> 00:11:52,770
+outcome. The outcome matters. If you're not making money,
+
+164
+00:11:52,850 --> 00:11:57,940
+you need to be on top of things. But what do you need to be on top of, right?
+
+165
+00:11:57,980 --> 00:12:01,540
+That's the real question here is, do you need to be on top of like, oh,
+
+166
+00:12:01,540 --> 00:12:06,460
+my psychology? Do you need to be on top of, you know, I missed the breakout.
+
+167
+00:12:06,560 --> 00:12:07,780
+It was actually, it was a false breakout.
+
+168
+00:12:08,280 --> 00:12:09,900
+What do you really need to be on top of here?
+
+169
+00:12:10,500 --> 00:12:14,760
+What you need to be on top of is your expected value. Is there still edge?
+
+170
+00:12:14,900 --> 00:12:18,480
+Do you still actually have an edge in this game? Is this still a winning game?
+
+171
+00:12:19,180 --> 00:12:22,990
+So you look at things like at a surface level,
+
+172
+00:12:24,120 --> 00:12:26,880
+your risk reward and your probabilities of success.
+
+173
+00:12:26,880 --> 00:12:30,220
+What is your confidence in this trade? Where is that coming from? Right,
+
+174
+00:12:30,220 --> 00:12:32,920
+the most important thing is to really,
+
+175
+00:12:33,520 --> 00:12:40,090
+really know what goes into your expected value. Why like, so for example,
+
+176
+00:12:40,090 --> 00:12:44,190
+in this equation, if you look up here, we put in a 62% chance of winning.
+
+177
+00:12:45,690 --> 00:12:49,230
+It's hard to find a game that has a 62% chance of winning. Right,
+
+178
+00:12:49,270 --> 00:12:53,010
+but what we balanced it with, right? Because earnings is maybe close to that.
+
+179
+00:12:53,350 --> 00:12:57,330
+We balanced it with a one reward, 1.5 risk.
+
+180
+00:12:57,820 --> 00:13:02,030
+So you lose more when you lose than you make when you win. Right,
+
+181
+00:13:02,030 --> 00:13:03,750
+and this is how you'll typically see it play out.
+
+182
+00:13:03,890 --> 00:13:05,610
+If there's a huge probability of winning, right?
+
+183
+00:13:05,610 --> 00:13:09,710
+So you can go and sell out of the money it puts. You'll have an 85, 90,
+
+184
+00:13:09,830 --> 00:13:16,530
+95% hit rate, but your risk reward is like one to a hundred, right?
+
+185
+00:13:16,550 --> 00:13:20,350
+When it does blow out, you lose it all. And when you plug those numbers in,
+
+186
+00:13:20,390 --> 00:13:21,250
+you find out you have a negative,
+
+187
+00:13:21,250 --> 00:13:26,550
+or only maybe very slightly positive expected value with blow up potential,
+
+188
+00:13:28,820 --> 00:13:32,880
+right? So that's how we really want you guys thinking about this.
+
+189
+00:13:32,940 --> 00:13:36,980
+This is how a professional trader looks at this game. They don't just look,
+
+190
+00:13:37,080 --> 00:13:43,380
+you know, go back to running it, like run it out like a hundred times. Right,
+
+191
+00:13:43,620 --> 00:13:48,920
+or just copy the whole thing down. Yeah. This one here? Yeah, all the way down.
+
+192
+00:13:50,820 --> 00:13:56,660
+Look at me guys, I'm coding now, right? If you just see this, right?
+
+193
+00:13:56,760 --> 00:14:00,660
+Or if we do, do I just change this to a one? For what?
+
+194
+00:14:01,000 --> 00:14:05,200
+If I just want one player? Yeah, just take away this. Okay.
+
+195
+00:14:05,580 --> 00:14:06,700
+Let me just run this one more time, guys.
+
+196
+00:14:08,170 --> 00:14:11,950
+We can just run this one actually right here. Yeah, just like that line. Okay,
+
+197
+00:14:12,010 --> 00:14:15,840
+yeah. Oh yeah, I see what you mean. Right, if you see this,
+
+198
+00:14:16,320 --> 00:14:20,560
+looks like a bad game. Someone shows you this, it's awful.
+
+199
+00:14:21,060 --> 00:14:24,380
+Remember we told you about the guy in that Tasty Trade group,
+
+200
+00:14:24,560 --> 00:14:29,800
+what was his name? Denny, not Denny, the one with the post COVID journal.
+
+201
+00:14:29,980 --> 00:14:35,460
+Oh yeah, Daniel Sung. Yeah, Daniel Sung. He was a rising star on Tasty Trade.
+
+202
+00:14:35,640 --> 00:14:37,440
+He was big in this Facebook group we were in.
+
+203
+00:14:37,920 --> 00:14:43,480
+He was keeping a trade journal post COVID where he was selling zero day to expiration
+
+204
+00:14:43,480 --> 00:14:45,960
+out of the money options and collecting pennies.
+
+205
+00:14:46,890 --> 00:14:48,370
+Why did he have to do post COVID?
+
+206
+00:14:49,630 --> 00:14:51,970
+Because the reason he had to do post COVID is he was playing a game with negative
+
+207
+00:14:51,970 --> 00:14:52,770
+expected value.
+
+208
+00:14:53,130 --> 00:14:56,010
+And when COVID happened and we had that huge downturn in the market,
+
+209
+00:14:56,130 --> 00:15:00,010
+he lost his shirt. So now he needs to sell courses to get his shirt back.
+
+210
+00:15:01,940 --> 00:15:04,960
+But that's why we can't just look at a snapshot.
+
+211
+00:15:05,080 --> 00:15:07,740
+What he's showing there is a snapshot where it does well.
+
+212
+00:15:07,820 --> 00:15:09,500
+The market is only going up right now.
+
+213
+00:15:09,760 --> 00:15:14,200
+Selling puts makes money or would have made money historically over the last five
+
+214
+00:15:14,200 --> 00:15:18,380
+months or 10 years. Yeah, but because we never had a down day.
+
+215
+00:15:19,610 --> 00:15:26,240
+But what you're getting there is, the way we can think about it, guys,
+
+216
+00:15:26,360 --> 00:15:31,840
+is like this. If I change this to 10,000 plays, let's say.
+
+217
+00:15:33,700 --> 00:15:35,780
+You wanna do the one guy? Can I just run this whole thing? Yeah, that's good.
+
+218
+00:15:37,450 --> 00:15:44,530
+Right? So let's say that this is the graph here. What Denny did,
+
+219
+00:15:45,230 --> 00:15:47,270
+let's say is this.
+
+220
+00:15:49,540 --> 00:15:53,330
+He showed you this. Why is it such an ugly color?
+
+221
+00:15:53,330 --> 00:16:03,220
+What these guys are doing is they're showing you this. Right? Look how it did,
+
+222
+00:16:03,320 --> 00:16:07,770
+but they're not showing you this. But as sophisticated traders,
+
+223
+00:16:07,850 --> 00:16:10,970
+we need to look at the whole picture. We need to ask these tough questions.
+
+224
+00:16:11,920 --> 00:16:16,700
+You know, we gotta think about it. And if we only look at a small sample size,
+
+225
+00:16:17,060 --> 00:16:19,220
+right? Let's say this is 100 trades.
+
+226
+00:16:21,840 --> 00:16:25,400
+And let's say this is 100 trades. Well,
+
+227
+00:16:25,500 --> 00:16:29,640
+two very different pictures of the same game. What do you believe?
+
+228
+00:16:30,430 --> 00:16:32,210
+And this is why we can't just look at this. We can't just look at the chart.
+
+229
+00:16:32,470 --> 00:16:36,760
+We can't just look at our outcome. Because you see number one,
+
+230
+00:16:38,020 --> 00:16:41,470
+and you think it's the worst strategy in the world. You see number two,
+
+231
+00:16:41,610 --> 00:16:45,190
+and you think you're gonna be Jeff Bezos next year. When in reality,
+
+232
+00:16:45,790 --> 00:16:48,970
+when you look at up here, when you look at all this,
+
+233
+00:16:49,450 --> 00:16:51,170
+when you look at the code that goes into it,
+
+234
+00:16:51,370 --> 00:16:53,230
+when you look at the expected value,
+
+235
+00:16:54,050 --> 00:16:56,550
+instead of when you look at what the game really is,
+
+236
+00:16:56,570 --> 00:16:59,130
+rather than just what the outcome has been, you can say,
+
+237
+00:16:59,490 --> 00:17:03,280
+this is a game I wanna play. This is a game where I'm supposed to make money.
+
+238
+00:17:04,150 --> 00:17:05,930
+That's the way we need to be thinking about our trades.
+
+239
+00:17:06,010 --> 00:17:09,150
+Am I supposed to make money here? Given my risk to reward,
+
+240
+00:17:09,370 --> 00:17:12,970
+given my confidence in the trade, what the hell is my outcome supposed to be?
+
+241
+00:17:13,050 --> 00:17:13,990
+Am I supposed to make money?
+
+242
+00:17:15,220 --> 00:17:18,020
+And that's why it's so important to understand why you should make money,
+
+243
+00:17:18,620 --> 00:17:21,600
+right? Why should we make money selling vol on earnings? Well,
+
+244
+00:17:21,620 --> 00:17:23,440
+if we didn't make money selling vol on earnings,
+
+245
+00:17:23,520 --> 00:17:25,320
+that would mean buying vol around earnings,
+
+246
+00:17:25,890 --> 00:17:29,120
+which would make it an unbelievable trade. Because remember guys,
+
+247
+00:17:29,860 --> 00:17:33,040
+if you can diversify a long vol strategy that makes money,
+
+248
+00:17:33,200 --> 00:17:39,660
+you have the holy grail, because everything is a max risk.
+
+249
+00:17:39,660 --> 00:17:43,500
+And if you can diversify that max risk, you can make a ton of money,
+
+250
+00:17:43,720 --> 00:17:47,180
+ton of money. Now, should the market pay you for that?
+
+251
+00:17:47,740 --> 00:17:54,220
+Does it make sense theoretically, right? It doesn't, like everyone would do it.
+
+252
+00:17:55,020 --> 00:17:58,020
+Then the other thing is, well, whose money are we eating here?
+
+253
+00:17:58,020 --> 00:18:01,420
+Whose lunch are we eating here? Who's gonna be buying these options? Well,
+
+254
+00:18:01,620 --> 00:18:05,100
+if retail traders are predominantly long options,
+
+255
+00:18:05,660 --> 00:18:10,100
+if hedge funds are predominantly long options, if you can't,
+
+256
+00:18:10,140 --> 00:18:14,520
+if the barrier to entry for selling options is higher than the barrier to entry
+
+257
+00:18:14,520 --> 00:18:15,460
+for buying options,
+
+258
+00:18:15,740 --> 00:18:21,280
+it doesn't make sense that buying options around earnings should make money.
+
+259
+00:18:22,960 --> 00:18:25,180
+It doesn't make sense. And if it did make sense,
+
+260
+00:18:26,060 --> 00:18:30,540
+we'd all be rich extremely quickly, because we can leverage.
+
+261
+00:18:31,250 --> 00:18:34,630
+We can leverage on a long vol strat. We can't leverage on a short vol strat,
+
+262
+00:18:36,670 --> 00:18:39,970
+okay? So we have to think about that, but guys, we will go through drawdowns.
+
+263
+00:18:39,970 --> 00:18:44,100
+We just came off an amazing quarter. It only makes sense. You know,
+
+264
+00:18:44,100 --> 00:18:45,500
+Neil's on this live. You guys can ask Neil.
+
+265
+00:18:45,940 --> 00:18:51,160
+Every single trade Neil put on last quarter was a winner, right?
+
+266
+00:18:53,830 --> 00:18:56,870
+So it's tough. Like even that guy that I showed you, that Kay Seidel,
+
+267
+00:18:59,250 --> 00:19:02,250
+he did his first earnings season last quarter, and it was amazing.
+
+268
+00:19:02,510 --> 00:19:05,390
+It was amazing. He hyped it up, talked to his group, posted it everywhere.
+
+269
+00:19:07,440 --> 00:19:11,820
+And then this quarter, he went ghost. He went silent, okay?
+
+270
+00:19:12,080 --> 00:19:16,500
+And we all know the reason, right? He doesn't buy wings. He was selling vol,
+
+271
+00:19:16,660 --> 00:19:17,900
+and he got absolutely crushed,
+
+272
+00:19:20,490 --> 00:19:22,350
+okay? Oh, sorry, it wasn't Kay Seidel, actually.
+
+273
+00:19:22,450 --> 00:19:27,590
+It was the other guy from MacroOps, MacroOptions or whatever. Okay,
+
+274
+00:19:27,590 --> 00:19:29,930
+so now that we have that,
+
+275
+00:19:30,410 --> 00:19:32,930
+a couple of questions here in the group we're gonna chat about.
+
+276
+00:19:38,820 --> 00:19:41,560
+So Renato, you're asking us to run it with a one-to-one risk to reward.
+
+277
+00:19:41,820 --> 00:19:48,220
+So- Sorry, I'm struggling. Neil, I've done about 5,000 trades over about three,
+
+278
+00:19:48,300 --> 00:19:52,660
+four years. Renato wants us to run it with a one-to-one risk to reward.
+
+279
+00:19:52,740 --> 00:19:56,400
+So here's the thing. We can do that. You can just click clear. Okay.
+
+280
+00:19:57,400 --> 00:19:59,420
+We can do that. It's gonna be skewed though,
+
+281
+00:19:59,440 --> 00:20:02,080
+because the odds of you finding something with a one-to-one risk reward where you
+
+282
+00:20:02,080 --> 00:20:04,360
+have a 62% chance of winning is gonna be really hard.
+
+283
+00:20:04,960 --> 00:20:06,920
+And we're gonna show you what your expected value is for that, right?
+
+284
+00:20:06,920 --> 00:20:10,300
+You'll see why it'll be really hard. Yeah, so let's put this in. Okay,
+
+285
+00:20:10,400 --> 00:20:13,440
+so every time we're gonna win 62% of the time,
+
+286
+00:20:13,620 --> 00:20:16,520
+our risk reward is gonna be one-to-one and we're gonna lose 30% of the time.
+
+287
+00:20:16,900 --> 00:20:22,180
+Well, that makes our expected value 24 cents for every dollar you bet.
+
+288
+00:20:22,300 --> 00:20:28,800
+So imagine you bet $10,000. On average, you should make $2,400 per trade.
+
+289
+00:20:29,160 --> 00:20:35,600
+Even if you lose 10,000, on average, your expected value is 2,400 per trade.
+
+290
+00:20:36,280 --> 00:20:40,820
+So let's go and run that. So we're gonna run that just 100 times. Okay,
+
+291
+00:20:40,960 --> 00:20:45,220
+and we're gonna have the same 11 guys here. Maybe there's 12 now. There's 13.
+
+292
+00:20:45,340 --> 00:20:47,060
+So all of us are gonna play this game.
+
+293
+00:20:49,620 --> 00:20:53,760
+Better luck this time, Kyle. Well, you guys are gonna do great, right? Kyle,
+
+294
+00:20:53,820 --> 00:20:58,760
+you're okay. Kyle is taking the brown color. I'll take the dark blue line.
+
+295
+00:20:59,100 --> 00:21:03,320
+Jordan, who are you? Okay, I'm gonna do green. I'm gonna do dark green,
+
+296
+00:21:03,440 --> 00:21:07,420
+light green, dark green. Okay, Neil's the light purple line.
+
+297
+00:21:08,670 --> 00:21:09,990
+Andreas is the yellow line.
+
+298
+00:21:13,280 --> 00:21:15,520
+Look at that. Just in 100 games,
+
+299
+00:21:16,480 --> 00:21:18,960
+everybody makes not just a little bit of money. Look at this.
+
+300
+00:21:19,220 --> 00:21:27,100
+Some guys made 50 times their money in just 100 games. You and Kyle. Yeah,
+
+301
+00:21:27,320 --> 00:21:30,140
+that's right. That's right, buddy. We're back on top, right?
+
+302
+00:21:30,240 --> 00:21:34,130
+That's next earning season. But look what happened, guys. In the short run,
+
+303
+00:21:34,170 --> 00:21:37,660
+look what happened in the first 25 hands, right? Actually,
+
+304
+00:21:37,760 --> 00:21:40,100
+even the first 40 hands, right?
+
+305
+00:21:40,960 --> 00:21:45,680
+Two guys here were losing money in a game that was like you're never gonna find
+
+306
+00:21:45,680 --> 00:21:51,240
+anywhere. They were still losing money in the first 40 hands. Okay,
+
+307
+00:21:51,260 --> 00:21:55,500
+so- Is this only 100 hands? This is 100 hands. Everyone got rich.
+
+308
+00:21:55,820 --> 00:22:00,020
+Everyone made money, right? So with these- Wait,
+
+309
+00:22:00,040 --> 00:22:04,200
+can we change it to one-to-one? Yeah. So here's an example, guys. You know,
+
+310
+00:22:04,740 --> 00:22:06,860
+and this is obviously not for the more advanced guys.
+
+311
+00:22:06,860 --> 00:22:12,540
+I know you guys already know your shit, but for the newer guys here,
+
+312
+00:22:13,000 --> 00:22:15,280
+that's why when you see someone come and say, hey, listen,
+
+313
+00:22:15,360 --> 00:22:17,900
+I have a 90% hit rate with a one-to-one,
+
+314
+00:22:18,280 --> 00:22:22,020
+let's actually run that and you guys will see. Okay, so we're gonna go.
+
+315
+00:22:22,500 --> 00:22:27,280
+Unless his name is Jeff and his last name is Bezos. Okay, so 90% hit rate.
+
+316
+00:22:27,420 --> 00:22:30,060
+Okay, imagine we had a 90% hit rate, one-to-one risk reward.
+
+317
+00:22:37,070 --> 00:22:40,850
+You actually, no one in this group even went through a drawdown.
+
+318
+00:22:41,130 --> 00:22:44,710
+So if someone's saying, listen, I do a 90% hit rate, one-to-one risk reward.
+
+319
+00:22:45,290 --> 00:22:49,090
+You only need to do five trades for you to say, is this guy legit?
+
+320
+00:22:49,690 --> 00:22:51,110
+Only five trades. So for example,
+
+321
+00:22:51,170 --> 00:22:53,930
+if you're in Aristotle's group and Aristotle's claiming, I don't know,
+
+322
+00:22:54,050 --> 00:22:57,750
+even 85% or 90%, whatever it is, with two-to-one risk reward,
+
+323
+00:22:59,840 --> 00:23:05,060
+then you only have to take his trades two times, three times in order to say,
+
+324
+00:23:05,160 --> 00:23:09,740
+okay, is he legit or not? If you are losing money after two or three trades,
+
+325
+00:23:10,200 --> 00:23:13,790
+he's not legit. He's lying to you, right?
+
+326
+00:23:13,790 --> 00:23:16,490
+And these are just quick- It's just numbers. It's just numbers, right?
+
+327
+00:23:16,650 --> 00:23:20,590
+They always say men lie, women lie, numbers don't, okay? This is just,
+
+328
+00:23:20,670 --> 00:23:22,010
+you can just say, hey, listen, Aristotle,
+
+329
+00:23:22,750 --> 00:23:25,130
+you say you have 90% hit rate with a one-to-one risk reward.
+
+330
+00:23:25,830 --> 00:23:30,420
+Why is it after 10 trades, I'm down 30% of my account? Well,
+
+331
+00:23:30,420 --> 00:23:33,940
+you know what he's gonna say. Risk management. Yeah, mentality, psychology,
+
+332
+00:23:34,080 --> 00:23:37,140
+risk management. You got greedy. You got greedy, right? It's not,
+
+333
+00:23:37,280 --> 00:23:41,380
+you should never lose ever if you can find that kind of money.
+
+334
+00:23:41,380 --> 00:23:44,760
+Like you could put a monkey in front of the computer and just tell it they hit the
+
+335
+00:23:44,760 --> 00:23:46,440
+button and you should make money.
+
+336
+00:23:46,940 --> 00:23:51,190
+And the reason why these games actually don't exist, okay,
+
+337
+00:23:51,230 --> 00:23:56,120
+is because if they did exist, someone would take advantage of it. Now,
+
+338
+00:23:56,520 --> 00:23:58,880
+I don't wanna say they don't exist because they do,
+
+339
+00:23:59,380 --> 00:24:03,340
+but they do where the barrier to entry is extremely high. For example,
+
+340
+00:24:03,680 --> 00:24:08,390
+insurance. Insurance, you and I can't go and start up an insurance company.
+
+341
+00:24:09,370 --> 00:24:12,110
+We can't do it. Sean, can you go start an insurance company tomorrow? We can.
+
+342
+00:24:12,330 --> 00:24:16,490
+Yeah, we can't go do it, right? We can't go and start up a bank.
+
+343
+00:24:16,590 --> 00:24:21,090
+We can't go and do these things where the premiums are extremely expensive relative
+
+344
+00:24:21,090 --> 00:24:23,010
+to the payouts.
+
+345
+00:24:25,080 --> 00:24:27,360
+However, anyone can open up a brokerage account.
+
+346
+00:24:28,780 --> 00:24:30,200
+Anyone can go and look at a chart.
+
+347
+00:24:30,380 --> 00:24:33,660
+Anyone can go and start selling vol around earnings. Well, not anyone,
+
+348
+00:24:33,820 --> 00:24:37,750
+but a lot of people. Anyone can go and buy vol around earnings.
+
+349
+00:24:38,640 --> 00:24:42,800
+So for that reason, if there was a strategy that was extremely profitable,
+
+350
+00:24:42,800 --> 00:24:44,780
+remember, we're living in a world of competition.
+
+351
+00:24:44,800 --> 00:24:49,720
+We're living in a world where you are playing against extremely smart people,
+
+352
+00:24:49,840 --> 00:24:52,260
+not just the people in Aristotle Group, not just Sean and I.
+
+353
+00:24:52,640 --> 00:24:56,620
+You're playing against- Ewan Sinclair. Ewan Sinclair, Aaron Brown, right?
+
+354
+00:24:57,340 --> 00:25:00,730
+Firms. And if they have, let's say,
+
+355
+00:25:00,770 --> 00:25:04,330
+20 guys that come into a room every single day and say, hey, listen,
+
+356
+00:25:04,450 --> 00:25:08,630
+let's test this strategy, right? So for that reason,
+
+357
+00:25:08,690 --> 00:25:12,630
+you're never gonna find something that is a huge expected value.
+
+358
+00:25:13,090 --> 00:25:16,980
+But that doesn't mean you can't get rich. Big difference.
+
+359
+00:25:17,240 --> 00:25:20,620
+You don't need a huge expected value. Exactly. You just need unexpected value,
+
+360
+00:25:20,920 --> 00:25:23,980
+a positive one. It's like what Aaron Brown says. Aaron Brown says,
+
+361
+00:25:24,080 --> 00:25:28,270
+if you wanna get rich, all you need is a 3% edge. That's it.
+
+362
+00:25:28,490 --> 00:25:31,250
+But people don't look at that and they spend their whole time looking for these
+
+363
+00:25:31,250 --> 00:25:36,170
+strategies that have a 80% win rate, a 75% win rate, a 90% win rate,
+
+364
+00:25:36,350 --> 00:25:41,110
+and they never end up making it because they were looking too far ahead.
+
+365
+00:25:41,530 --> 00:25:42,970
+They're being too ahead of themselves.
+
+366
+00:25:46,840 --> 00:25:49,400
+It's like, what's another example we can use for that? Like, it's like,
+
+367
+00:25:53,860 --> 00:25:56,300
+look at even in the world of business these days,
+
+368
+00:25:57,020 --> 00:26:01,420
+most of the new tech that you see coming out is incremental changes to what already
+
+369
+00:26:01,420 --> 00:26:03,140
+exists. It's not every,
+
+370
+00:26:03,160 --> 00:26:05,540
+you don't need to always search for the blow out of the water,
+
+371
+00:26:06,100 --> 00:26:08,990
+the fucking lottery ticket, right?
+
+372
+00:26:09,030 --> 00:26:11,550
+There's money to be made in incremental things and very,
+
+373
+00:26:11,630 --> 00:26:16,660
+very small edges and very small changes. You know what I mean? Yeah,
+
+374
+00:26:16,680 --> 00:26:18,560
+and I think Stephen had a really good point here as well. He's like,
+
+375
+00:26:18,600 --> 00:26:21,640
+remember guys, when oil was negative $20 a barrel,
+
+376
+00:26:23,220 --> 00:26:26,120
+Sean and I couldn't go into the barrel yard and say, hey, give me some oil.
+
+377
+00:26:26,300 --> 00:26:34,340
+I wanna put a thousand barrels of oil in my backyard in our little 300 square foot
+
+378
+00:26:34,340 --> 00:26:37,780
+balcony, right? We can't do that. We can't do that.
+
+379
+00:26:37,860 --> 00:26:41,780
+So that's a huge barrier to entry. We should have bought some barrels, dude.
+
+380
+00:26:41,780 --> 00:26:45,020
+I mean, I think they do like a thousand barrels.
+
+381
+00:26:45,160 --> 00:26:46,900
+You have to buy a thousand barrels. That's one contract.
+
+382
+00:26:47,300 --> 00:26:49,460
+So Sean and I can't go and do that.
+
+383
+00:26:51,780 --> 00:26:55,600
+You guys can't go and do that. You're gonna have a storing facility.
+
+384
+00:26:55,840 --> 00:26:58,980
+You gotta be able to, whatever the whole process is, I have no clue,
+
+385
+00:26:59,240 --> 00:27:01,460
+but it's a high barrier to entry.
+
+386
+00:27:01,680 --> 00:27:04,760
+So the people that can do it and store it will get paid for it.
+
+387
+00:27:05,120 --> 00:27:09,420
+And those are extremely profitable plays, right? But we don't need that.
+
+388
+00:27:09,540 --> 00:27:11,600
+We don't need that to get rich. And also guys,
+
+389
+00:27:11,600 --> 00:27:14,480
+those people that are doing it have a business, they have employees,
+
+390
+00:27:14,680 --> 00:27:17,380
+they have overhead, they have a ton of overhead, right?
+
+391
+00:27:17,480 --> 00:27:21,260
+You wanna keep your overhead low and just find a small edge and play it over the
+
+392
+00:27:21,260 --> 00:27:24,700
+long run. And most importantly, understand your edge.
+
+393
+00:27:24,880 --> 00:27:26,300
+If you don't understand your edge,
+
+394
+00:27:26,560 --> 00:27:28,260
+how the hell are you gonna live through a drawdown?
+
+395
+00:27:30,500 --> 00:27:32,660
+If I wasn't saying to you guys, guys, listen,
+
+396
+00:27:33,060 --> 00:27:36,680
+selling vol around earnings events has a long-term positive expected value.
+
+397
+00:27:37,940 --> 00:27:41,160
+You guys would have given up. A lot of you would have given up, right?
+
+398
+00:27:41,160 --> 00:27:44,540
+It's one thing you can do is reduce your risk, right? I know,
+
+399
+00:27:44,660 --> 00:27:48,160
+I always talked to Neil about this when he was starting out with us.
+
+400
+00:27:49,410 --> 00:27:53,030
+You can't just have a $5,000 count in trade earnings because it's hard,
+
+401
+00:27:53,070 --> 00:27:55,590
+it's really difficult, right? You have to go to smaller names.
+
+402
+00:27:55,650 --> 00:27:57,050
+You gotta really work your way up there.
+
+403
+00:27:57,470 --> 00:27:59,130
+You gotta go really small and work your way up.
+
+404
+00:27:59,230 --> 00:28:03,840
+But that's hard because a lot of the companies are $150 stocks, right?
+
+405
+00:28:03,880 --> 00:28:07,440
+So remember, another thing about having your expected value play out,
+
+406
+00:28:07,660 --> 00:28:09,060
+the most important thing actually,
+
+407
+00:28:09,920 --> 00:28:12,740
+after finding a positive expected value game is managing your risk.
+
+408
+00:28:13,760 --> 00:28:16,380
+And that's the whole Kelly Criterion thing we talked about. Right,
+
+409
+00:28:16,900 --> 00:28:18,760
+so even if we're playing a game,
+
+410
+00:28:18,900 --> 00:28:21,260
+like let's say earnings that has a winning expected value,
+
+411
+00:28:21,840 --> 00:28:28,540
+but our risk is too big, you're gonna end up losing. So this is what makes,
+
+412
+00:28:28,660 --> 00:28:30,760
+for example, selling earnings a little bit difficult.
+
+413
+00:28:31,000 --> 00:28:32,540
+It's a little harder for the average person.
+
+414
+00:28:33,960 --> 00:28:35,880
+But buying a vol around earnings is easy.
+
+415
+00:28:37,160 --> 00:28:38,540
+So when you guys build out these strategies,
+
+416
+00:28:38,540 --> 00:28:41,980
+you really have to think these through, okay? Why should I make money here?
+
+417
+00:28:42,340 --> 00:28:48,100
+The first thing. Then obviously, if you can test it, that's very important.
+
+418
+00:28:48,340 --> 00:28:51,280
+But even more importantly, is understand why the edge is there.
+
+419
+00:28:52,270 --> 00:28:54,970
+Then build out a risk structure where it's like, okay, well,
+
+420
+00:28:54,990 --> 00:28:58,590
+this is how much risk I have to take per trade. If I go any bigger than this,
+
+421
+00:28:58,650 --> 00:29:00,810
+I'm gonna make money. And a good rule of thumb is,
+
+422
+00:29:00,890 --> 00:29:04,050
+if you don't know how much risk you should be betting, bet small.
+
+423
+00:29:04,900 --> 00:29:07,960
+If you don't know how much risk you should be playing, bet small.
+
+424
+00:29:08,020 --> 00:29:09,240
+I can't say that enough, okay, guys?
+
+425
+00:29:17,590 --> 00:29:22,750
+Exactly. Actually, negative gamma. I had no clue that Lotto Max was plus EV.
+
+426
+00:29:22,930 --> 00:29:26,310
+I'd actually love to hear that, because I'd like to go- Buy some tickets. Yeah,
+
+427
+00:29:26,330 --> 00:29:30,210
+have some fun with it, man. If you want to post it in Trader's Chat,
+
+428
+00:29:30,270 --> 00:29:34,320
+that'd be sweet, dude. Nice little trade we'll have going here.
+
+429
+00:29:37,670 --> 00:29:40,630
+You know, it's- I'm on a 15-year drawdown,
+
+430
+00:29:40,710 --> 00:29:44,500
+but I have a positive expected value. But you're gonna hit it.
+
+431
+00:29:44,720 --> 00:29:48,440
+I'm gonna hit one day. Yeah. And it's funny,
+
+432
+00:29:48,480 --> 00:29:50,820
+because even when you have a positive expected value in a game like that,
+
+433
+00:29:50,860 --> 00:29:52,880
+you might even go your whole life without hitting it, right?
+
+434
+00:29:53,280 --> 00:29:55,100
+But you only have to hit it once. But you only have to hit it once.
+
+435
+00:29:55,280 --> 00:29:58,500
+So all of a sudden, it's positive. Yeah, and we have 12 guys playing that game,
+
+436
+00:29:58,520 --> 00:29:59,840
+right? As you guys saw,
+
+437
+00:30:00,340 --> 00:30:02,360
+some people actually make money and some people lose money.
+
+438
+00:30:02,440 --> 00:30:05,220
+And you can't look at the guy and be like, you're better than me,
+
+439
+00:30:05,220 --> 00:30:07,320
+you're smarter than me, because they're playing the same game.
+
+440
+00:30:07,380 --> 00:30:09,740
+They're doing the same thing. That's why there's so much luck.
+
+441
+00:30:09,840 --> 00:30:12,820
+And if you talk to any- I'm sure you guys have heard this many times.
+
+442
+00:30:13,140 --> 00:30:15,420
+If you talk to anyone who's made a lot of money in the world,
+
+443
+00:30:15,420 --> 00:30:20,920
+they'll tell you a lot of it was luck, right? You need the skill.
+
+444
+00:30:21,180 --> 00:30:21,780
+There's no question.
+
+445
+00:30:21,900 --> 00:30:25,860
+No one's gonna get extremely rich without putting in skill,
+
+446
+00:30:25,980 --> 00:30:30,560
+unless they hit the lottery, or they inherited it.
+
+447
+00:30:30,940 --> 00:30:33,660
+But if you wanna go from nothing to something and work your way up,
+
+448
+00:30:33,740 --> 00:30:36,780
+you need that skill. But there's a lot of luck along the way.
+
+449
+00:30:37,300 --> 00:30:38,780
+You met the right person at the right time.
+
+450
+00:30:39,830 --> 00:30:41,450
+A good deal came up at the right time,
+
+451
+00:30:41,450 --> 00:30:44,210
+which gave you your first boost to get into the game. Yeah,
+
+452
+00:30:44,230 --> 00:30:46,510
+but you had the skill to recognize the deal. Yeah, exactly.
+
+453
+00:30:48,550 --> 00:30:51,930
+It's like, there's a saying about luck. It's like- I just dropped my water.
+
+454
+00:30:52,800 --> 00:30:54,180
+What is it? It's like,
+
+455
+00:30:57,370 --> 00:31:01,030
+being lucky is opening yourself up to luck and putting yourself in a position for
+
+456
+00:31:01,030 --> 00:31:03,630
+lucky things to happen, right? So for example,
+
+457
+00:31:04,610 --> 00:31:07,950
+everyone else saw the deal that was a good deal that showed up.
+
+458
+00:31:08,190 --> 00:31:12,230
+You're the one who took it, but you didn't take it because you're Joe Schmo.
+
+459
+00:31:12,410 --> 00:31:14,870
+You took it because you studied whatever industry that is.
+
+460
+00:31:17,090 --> 00:31:21,170
+Yeah, exactly. Dylan, exactly, man. Luck is nothing more than preparation,
+
+461
+00:31:21,370 --> 00:31:25,010
+meeting opportunity. Exactly. That's exactly what I was trying to say, man.
+
+462
+00:31:28,920 --> 00:31:31,560
+And you know you're prepared when your expected value is positive.
+
+463
+00:31:33,790 --> 00:31:35,290
+Amply prepared. Yeah.
+
+464
+00:31:37,560 --> 00:31:44,330
+I hope you guys got some insight there in strategy development and what reality
+
+465
+00:31:44,330 --> 00:31:46,730
+actually looks like, what rich actually looks like.
+
+466
+00:31:46,830 --> 00:31:50,330
+So I'm just gonna quickly do it again, guys. If you can find,
+
+467
+00:31:50,450 --> 00:31:54,170
+so if you can find a strategy, let's say, where you can trade on a daily basis.
+
+468
+00:31:54,510 --> 00:31:56,990
+So we'll actually have some fun and go through a couple of strategies.
+
+469
+00:31:58,050 --> 00:32:00,630
+If you can find a strategy that you can trade,
+
+470
+00:32:00,930 --> 00:32:02,110
+let's say like a Delta One product,
+
+471
+00:32:02,210 --> 00:32:04,650
+like a stock product or a Forex pair or whatever,
+
+472
+00:32:05,350 --> 00:32:08,710
+let's say you can trade on a daily timeframe. Actually, let's go,
+
+473
+00:32:08,950 --> 00:32:10,930
+let's have some more fun because I know there's a couple of scalpers here.
+
+474
+00:32:12,750 --> 00:32:16,240
+Let's say you can trade 10 times a day. So in one year,
+
+475
+00:32:18,370 --> 00:32:23,030
+3,650 trades. Okay, actually, sorry, 2,500 trades, one year. Okay, one year.
+
+476
+00:32:33,030 --> 00:32:35,830
+Okay, and let's say 60, 40,
+
+477
+00:32:38,450 --> 00:32:40,950
+one-to-one, one-to-one, 60, 40.
+
+478
+00:32:44,600 --> 00:32:48,060
+Okay, and this is what a lot of us,
+
+479
+00:32:50,210 --> 00:32:54,470
+this is what a lot of us are used to when we first get into trading. All right,
+
+480
+00:32:54,530 --> 00:32:58,170
+this seems reasonable. Hey, you know what? I'm 60% right, no problem.
+
+481
+00:32:58,230 --> 00:33:00,310
+One-to-one risk reward. Easy, easy. It's easy.
+
+482
+00:33:00,490 --> 00:33:04,530
+I can trade this on a daily timeframe, scalping some pips. This makes sense.
+
+483
+00:33:04,790 --> 00:33:05,770
+This makes a lot of sense to me.
+
+484
+00:33:11,960 --> 00:33:16,820
+So look at this. Everyone makes money in one year. Everybody. You should make,
+
+485
+00:33:16,960 --> 00:33:20,140
+and most people make between 2,000 and 3,000%. Yeah.
+
+486
+00:33:20,910 --> 00:33:25,150
+Most people make 20 times their money in one year. That's the average.
+
+487
+00:33:25,270 --> 00:33:29,660
+20 times the money in one year. So we need to ask ourselves this question,
+
+488
+00:33:29,740 --> 00:33:29,900
+right?
+
+489
+00:33:31,920 --> 00:33:34,360
+If some of you out there are scalping pips,
+
+490
+00:33:36,270 --> 00:33:38,070
+and let's say you had a long period of time.
+
+491
+00:33:38,190 --> 00:33:39,490
+Let's say you've been doing this for three months.
+
+492
+00:33:40,730 --> 00:33:45,020
+You need to really ask yourself, why is my expected value not showing?
+
+493
+00:33:45,920 --> 00:33:50,640
+Why is it not making me money? Okay? Because this seems realistic.
+
+494
+00:33:50,860 --> 00:33:54,800
+I'm gonna win 60% of the time. I'm gonna lose 40% of the time. Right?
+
+495
+00:33:55,060 --> 00:33:58,420
+I'm more right than I'm wrong most of the time. Right? You know,
+
+496
+00:33:58,420 --> 00:34:03,170
+it's just a little bit, I'm just a little bit smarter than being wrong. Right?
+
+497
+00:34:03,670 --> 00:34:11,330
+I'm just a little bit better than 50%. Well, and you can see right here, right?
+
+498
+00:34:12,530 --> 00:34:18,420
+You should never be losing after a year. Right? And you can actually see after,
+
+499
+00:34:21,430 --> 00:34:24,250
+oh, you know what? This is actually, guys, this is only a hundred games.
+
+500
+00:34:24,370 --> 00:34:27,110
+This is only a hundred games. This is only 10 days of trading.
+
+501
+00:34:27,950 --> 00:34:29,890
+I forgot to run it here.
+
+502
+00:34:34,780 --> 00:34:38,440
+Look at this. You make 600 times your money.
+
+503
+00:34:40,720 --> 00:34:44,600
+Okay? You make 600 times your money running it for one year.
+
+504
+00:34:45,920 --> 00:34:49,800
+So we really gotta ask ourselves, does this make sense? So important,
+
+505
+00:34:49,960 --> 00:34:55,440
+so critical, so critical. These are the reasons why these trades don't exist.
+
+506
+00:34:57,060 --> 00:35:04,010
+No, sorry. They do exist, but you're rarely gonna be able to act on them. Okay?
+
+507
+00:35:04,070 --> 00:35:08,270
+You're rarely gonna be able to act on them. High barrier to entry, for example.
+
+508
+00:35:09,490 --> 00:35:11,590
+Dude, I was running it a hundred, I did a hundred times.
+
+509
+00:35:11,670 --> 00:35:12,810
+This is what happened when I did a whole year.
+
+510
+00:35:14,980 --> 00:35:18,980
+Oh, so you make 600 times your money. 600 times your money. One to- One to one,
+
+511
+00:35:19,140 --> 00:35:25,520
+60, 40. Okay. Okay, so what do you guys think about that? Yeah,
+
+512
+00:35:25,560 --> 00:35:28,800
+what do you guys think about this? Because this is something, I know,
+
+513
+00:35:28,880 --> 00:35:33,320
+at least for me, when I was first started trading, 60, 40, one to one,
+
+514
+00:35:33,460 --> 00:35:37,300
+that seemed super doable. It seems super doable. Super doable.
+
+515
+00:35:37,780 --> 00:35:40,580
+So what do you guys think about this? Like, are we crazy?
+
+516
+00:35:40,920 --> 00:35:44,160
+What do you guys think? I wanna know your opinion, your real authentic opinion,
+
+517
+00:35:44,180 --> 00:35:46,460
+because we gotta talk about it. We got 20 minutes left on the live.
+
+518
+00:35:47,080 --> 00:35:51,090
+We got a whole group here of guys who are passionate about trading, you know?
+
+519
+00:35:51,090 --> 00:35:55,850
+And a lot of people think 60, 40 is real. It's realistic. So let's,
+
+520
+00:35:55,970 --> 00:35:59,110
+one to one risk reward. So let's talk about it. Let's get it out in the open.
+
+521
+00:35:59,430 --> 00:36:02,250
+And I'm gonna actually end the live, the recording here. Okay.
