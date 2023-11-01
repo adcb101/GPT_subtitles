@@ -1,0 +1,447 @@
+1
+00:00:00,180 --> 00:00:02,960
+Ok guys, now that you understand what a backspread is,
+
+2
+00:00:03,400 --> 00:00:08,400
+we are actually going to take that backspread one step further and create a butterfly.
+
+3
+00:00:09,760 --> 00:00:14,820
+Now a butterfly is the exact same thing as a same strike iron condor.
+
+4
+00:00:15,630 --> 00:00:17,130
+So remember an iron condor,
+
+5
+00:00:17,430 --> 00:00:23,140
+we have a short put and a short call at the same strike,
+
+6
+00:00:23,380 --> 00:00:26,840
+and then a long put and a long call as our hedge.
+
+7
+00:00:27,540 --> 00:00:31,580
+Well a butterfly is actually the exact same structure and there is no difference
+
+8
+00:00:31,580 --> 00:00:32,280
+between the two.
+
+9
+00:00:32,720 --> 00:00:38,300
+So we are actually going to build out a butterfly through a vertical,
+
+10
+00:00:39,580 --> 00:00:42,180
+a backspread, and then into a butterfly.
+
+11
+00:00:44,580 --> 00:00:47,340
+And I am sure some of you are already seeing how this is going to work.
+
+12
+00:00:48,830 --> 00:00:52,110
+So to recap, here is our vertical spread.
+
+13
+00:00:52,750 --> 00:01:00,290
+When we cap it off and sell another call, we get a ratio spread.
+
+14
+00:01:00,590 --> 00:01:05,390
+Now what we can do here is we can buy another call that is further out of the money.
+
+15
+00:01:05,940 --> 00:01:16,530
+And that is going to cap our loss. So we have created a butterfly spread.
+
+16
+00:01:18,350 --> 00:01:26,060
+An example would be, this is the 200 call, this is the 210 call,
+
+17
+00:01:26,340 --> 00:01:29,620
+we are selling two of these, we only have one of those.
+
+18
+00:01:30,400 --> 00:01:36,360
+And then we are buying the 220 call, and we are buying just one.
+
+19
+00:01:38,090 --> 00:01:40,310
+So this is going to be a butterfly spread.
+
+20
+00:01:40,820 --> 00:01:44,070
+Now a butterfly can be used for many different things,
+
+21
+00:01:44,210 --> 00:01:45,870
+just like an iron condor. Remember,
+
+22
+00:01:46,350 --> 00:01:49,690
+a butterfly is an iron condor with the same strike.
+
+23
+00:01:50,250 --> 00:01:53,270
+So they can be used in many different scenarios.
+
+24
+00:01:54,070 --> 00:01:57,270
+One scenario is to be short volatility.
+
+25
+00:01:58,920 --> 00:02:03,150
+If we think that the stock is not going to move that much, let's say the stock,
+
+26
+00:02:03,230 --> 00:02:03,890
+let's say Apple,
+
+27
+00:02:06,360 --> 00:02:08,460
+is trading at 210.
+
+28
+00:02:10,530 --> 00:02:14,640
+Well, we can buy the butterfly, so we are buying the 200 call,
+
+29
+00:02:15,000 --> 00:02:18,440
+selling two 210 calls, buying one 220 call,
+
+30
+00:02:23,130 --> 00:02:27,880
+and as long as the stock stays within this range, we are going to make money.
+
+31
+00:02:28,520 --> 00:02:32,340
+But that's only one way to trade butterflies. And this way,
+
+32
+00:02:32,720 --> 00:02:34,320
+the butterfly is short volatility,
+
+33
+00:02:34,580 --> 00:02:40,900
+because we are short two call options that are at the money, or near the money.
+
+34
+00:02:40,900 --> 00:02:45,280
+But there is another way to trade butterflies, and that is to get direction,
+
+35
+00:02:45,500 --> 00:02:50,860
+to get delta, and to trade into skew. So remember, with the backspread,
+
+36
+00:02:51,000 --> 00:02:56,240
+we like to trade them when there is high skew. We bought an at the money,
+
+37
+00:02:56,580 --> 00:02:59,100
+we sold an out of the money put,
+
+38
+00:02:59,420 --> 00:03:05,380
+and then we sold another out of the money put to create the backspread. Well,
+
+39
+00:03:05,440 --> 00:03:07,940
+we can actually do the same thing with butterflies,
+
+40
+00:03:08,340 --> 00:03:12,980
+if we don't want this unlimited risk. So let's take a look.
+
+41
+00:03:14,260 --> 00:03:17,920
+Apple is trading at 210, and there is a lot of skew on Apple,
+
+42
+00:03:18,590 --> 00:03:22,270
+a lot of put skew. So what we can do here, is we can buy the 210 put,
+
+43
+00:03:24,860 --> 00:03:32,400
+sell two of the 200 puts, because the skew is high,
+
+44
+00:03:32,680 --> 00:03:37,220
+maybe the implied volatility here is 30, and here it's 35.
+
+45
+00:03:38,550 --> 00:03:42,410
+So these are very expensive. And instead of having unlimited risk,
+
+46
+00:03:42,650 --> 00:03:48,050
+we can actually buy the farther out of the money put to cap our risk off.
+
+47
+00:03:49,430 --> 00:03:53,450
+Now obviously, because there is steep skew, this put,
+
+48
+00:03:53,690 --> 00:03:57,140
+let's say is going to be 40%, is going to be very expensive.
+
+49
+00:03:57,980 --> 00:04:01,220
+So we're going to be giving a lot of our edge back to the market.
+
+50
+00:04:02,790 --> 00:04:08,130
+But one thing we are going to get is a debit, meaning we have limited risk.
+
+51
+00:04:08,510 --> 00:04:12,450
+So by giving up a little bit of edge, we get more margin efficiency,
+
+52
+00:04:12,750 --> 00:04:18,310
+and we get a limited downside, which is just the debit we paid.
+
+53
+00:04:18,630 --> 00:04:21,330
+Maybe this spread costs us $3.
+
+54
+00:04:23,680 --> 00:04:26,200
+So our max loss on this trade is going to be $3.
+
+55
+00:04:26,820 --> 00:04:30,260
+And what we have with this fly now, is we are actually directional.
+
+56
+00:04:30,780 --> 00:04:34,920
+So if the stock moves down, we're going to make a lot of money,
+
+57
+00:04:35,820 --> 00:04:40,220
+and if the stock moves too far down, we're going to start losing money.
+
+58
+00:04:41,680 --> 00:04:44,660
+So the way I like to trade these butterflies is when I think the stock is going
+
+59
+00:04:44,660 --> 00:04:48,760
+up or down, and I like to place the fly into the direction of the skew.
+
+60
+00:04:49,120 --> 00:04:52,540
+And then I also think that the skew is very expensive.
+
+61
+00:04:53,000 --> 00:04:56,560
+Now the way I like to trade these flies is I like to place them in the direction
+
+62
+00:04:56,560 --> 00:05:00,720
+that I think the stock is going. So if I think, let's say, Apple is going down,
+
+63
+00:05:01,160 --> 00:05:02,900
+then I'm going to buy one of these flies.
+
+64
+00:05:03,240 --> 00:05:06,740
+But another reason why I'm going to buy them is because the skew is expensive.
+
+65
+00:05:07,080 --> 00:05:11,840
+So if I'm directional, and there's skew in my direction,
+
+66
+00:05:12,420 --> 00:05:15,240
+I'm going to want to buy this butterfly.
+
+67
+00:05:15,580 --> 00:05:22,040
+And this butterfly is going to offer me a fantastic risk to reward. In fact,
+
+68
+00:05:22,380 --> 00:05:26,220
+this butterfly right here might be giving me 1 to 10,
+
+69
+00:05:27,080 --> 00:05:33,120
+where I risk 1 to make 10. So this is where and why we use butterflies.
+
+70
+00:05:33,440 --> 00:05:37,140
+Now let's talk about three things. Risk management, days to expiration,
+
+71
+00:05:37,600 --> 00:05:40,300
+and which strikes to pick. So in terms of days to expiration,
+
+72
+00:05:41,200 --> 00:05:46,000
+what's going to matter is your view on either volatility or direction.
+
+73
+00:05:46,480 --> 00:05:50,280
+What you're going to see is, if you go really far out in expiration,
+
+74
+00:05:50,760 --> 00:05:52,680
+your red line is going to look like this.
+
+75
+00:05:55,540 --> 00:05:57,420
+Let's say the stock's trading right over here,
+
+76
+00:05:59,500 --> 00:06:01,600
+meaning that even if the stock does go down,
+
+77
+00:06:02,460 --> 00:06:04,020
+you're not going to make a lot of money.
+
+78
+00:06:04,180 --> 00:06:07,440
+But if you trade a fly with 10 days to expiration,
+
+79
+00:06:08,360 --> 00:06:10,880
+what you might see is something that looks like this.
+
+80
+00:06:14,520 --> 00:06:18,390
+Meaning, if the stock does go down, let's say tomorrow,
+
+81
+00:06:18,930 --> 00:06:21,790
+your instantaneous P&L is going to be positive.
+
+82
+00:06:22,350 --> 00:06:26,710
+You're actually going to make money. And so if I do have a directional view,
+
+83
+00:06:26,970 --> 00:06:28,390
+which I usually do when I trade butterflies,
+
+84
+00:06:28,990 --> 00:06:32,150
+I'm going to be trading these a lot shorter days to expiration,
+
+85
+00:06:32,910 --> 00:06:35,350
+definitely under two weeks.
+
+86
+00:06:39,640 --> 00:06:41,300
+If it has more than two weeks,
+
+87
+00:06:41,640 --> 00:06:47,060
+I'm not going to be able to take advantage of the extra delta I get when the stock
+
+88
+00:06:47,060 --> 00:06:51,840
+goes down. Now what about risk management? Well, for risk management,
+
+89
+00:06:52,220 --> 00:06:57,100
+it's very simple. These butterflies usually give you a huge risk reward.
+
+90
+00:06:58,420 --> 00:07:01,320
+So the way I like to think about these is, if I'm wrong,
+
+91
+00:07:01,600 --> 00:07:04,420
+I'm not going to lose a lot of money. But if I'm right,
+
+92
+00:07:04,600 --> 00:07:05,700
+I'm going to make a lot of money.
+
+93
+00:07:05,700 --> 00:07:08,440
+So I usually think about these almost as a lottery ticket,
+
+94
+00:07:08,580 --> 00:07:13,080
+where if I don't win, that's okay. If I do enough of these though,
+
+95
+00:07:14,080 --> 00:07:18,260
+eventually my positive expected value in the trade is going to show itself.
+
+96
+00:07:18,900 --> 00:07:23,690
+Lastly, we're going to be talking about which strikes to pick. Well, again,
+
+97
+00:07:23,750 --> 00:07:28,790
+this is totally up to you. If you want to be short gamma or short volatility,
+
+98
+00:07:29,290 --> 00:07:36,490
+then you want to do something where the body is going to be at the money.
+
+99
+00:07:36,650 --> 00:07:38,290
+And if you want direction,
+
+100
+00:07:38,990 --> 00:07:43,250
+then this short strike is going to be in the direction that you want.
+
+101
+00:07:43,430 --> 00:07:48,570
+So if you're bearish, this is going to be below 210. The width of the strikes,
+
+102
+00:07:48,910 --> 00:07:54,010
+you really have to play around with them because there's no one size fits all strikes.
+
+103
+00:07:55,090 --> 00:08:00,990
+The wider you go, the higher the room for error. The smaller you go,
+
+104
+00:08:01,250 --> 00:08:02,510
+the smaller the room for error.
+
+105
+00:08:03,090 --> 00:08:07,130
+As this butterfly is going to start becoming very, very narrow.
+
+106
+00:08:08,960 --> 00:08:13,580
+So I hope you guys understand what a butterfly is and when to use it.
+
+107
+00:08:14,310 --> 00:08:18,830
+These are a very popular strategy that I like to use because you have max risk,
+
+108
+00:08:19,410 --> 00:08:22,350
+which is the debit you pay, and they're very versatile.
+
+109
+00:08:22,650 --> 00:08:26,490
+You can use them to be short volatility, or you can use them for direction,
+
+110
+00:08:26,790 --> 00:08:29,010
+or you can use them to trade into skew.
+
+111
+00:08:29,010 --> 00:08:31,250
+So I hope you guys found that video insightful,
+
+112
+00:08:31,610 --> 00:08:32,690
+and I'll talk to you in the next one.

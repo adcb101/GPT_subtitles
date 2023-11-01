@@ -1,0 +1,1827 @@
+1
+00:00:01,520 --> 00:00:05,300
+Why do we look at the world in implied volatilities when we're option traders?
+
+2
+00:00:06,820 --> 00:00:09,960
+Why do we do that? Why do we not look at it through prices?
+
+3
+00:00:13,360 --> 00:00:16,820
+Okay. Why is it that as an option trader, you guys come in here,
+
+4
+00:00:16,840 --> 00:00:19,240
+a lot of the new guys come in here and right off the bat,
+
+5
+00:00:19,360 --> 00:00:22,640
+they have to start looking at the world through this implied volatility lens.
+
+6
+00:00:25,960 --> 00:00:29,560
+You know, why are we doing this? Wouldn't it make more sense to just use price?
+
+7
+00:00:31,090 --> 00:00:31,990
+What do you guys think?
+
+8
+00:00:39,540 --> 00:00:43,340
+I think Neil fell asleep, man. He's either freaking out or he fell asleep. No,
+
+9
+00:00:43,360 --> 00:00:44,260
+he just doesn't know the answer.
+
+10
+00:00:46,980 --> 00:00:47,340
+Okay,
+
+11
+00:00:49,610 --> 00:00:55,010
+so what do you guys think? Wow, no answer. All right, go for it. Okay,
+
+12
+00:00:55,170 --> 00:00:57,150
+I'm gonna have to share my screen and we're gonna jump into it.
+
+13
+00:01:07,500 --> 00:01:11,980
+Is he asleep or alone or with someone? No, no, he's asleep. It's Neil, man.
+
+14
+00:01:12,240 --> 00:01:12,900
+It's with someone.
+
+15
+00:01:17,010 --> 00:01:21,630
+Okay, so here we're gonna go to an option price calculator, okay?
+
+16
+00:01:24,060 --> 00:01:28,950
+And I want you guys to think about this for a second, okay? Neil,
+
+17
+00:01:29,030 --> 00:01:29,830
+so the question is,
+
+18
+00:01:30,410 --> 00:01:33,410
+why do we look at the world through implied volatilities and not price?
+
+19
+00:01:34,480 --> 00:01:40,160
+So I want you guys to imagine this, okay? So first off, 99% of retail traders,
+
+20
+00:01:40,600 --> 00:01:45,240
+99% of traders look at the world through price in terms of options.
+
+21
+00:01:45,960 --> 00:01:48,320
+The professionals always look at it through implied volatility.
+
+22
+00:01:48,720 --> 00:01:49,960
+Why is that the case?
+
+23
+00:01:52,500 --> 00:01:57,260
+Okay, so imagine we're looking at... Actually,
+
+24
+00:01:57,320 --> 00:01:59,820
+let me pull up thinkorswim as well. Okay,
+
+25
+00:01:59,900 --> 00:02:02,780
+imagine we're looking at a stock that's trading for 100 bucks.
+
+26
+00:02:04,840 --> 00:02:09,320
+It's trading at $100 and we're looking at the 105 strike call option.
+
+27
+00:02:11,650 --> 00:02:17,450
+Now, if that 105 strike call option was $3 or $2 or $8,
+
+28
+00:02:19,180 --> 00:02:21,560
+would we be able to make decisions off of that?
+
+29
+00:02:26,700 --> 00:02:29,470
+What do you guys think? While I sign in here,
+
+30
+00:02:29,550 --> 00:02:30,710
+let me know what you guys are thinking.
+
+31
+00:02:35,620 --> 00:02:39,120
+Because I feel like even with some of the guys here, Kyle, Neil, Steve,
+
+32
+00:02:39,120 --> 00:02:42,800
+I feel like I still have to ingrain this in your heads.
+
+33
+00:02:45,460 --> 00:02:48,380
+Right, Renato? We can't just... We can't make a decision.
+
+34
+00:02:49,500 --> 00:02:55,450
+If I'm looking at Apple, okay? And Apple's trading right now at $115.
+
+35
+00:02:56,840 --> 00:03:01,140
+And I look at this call option for 120 and it's going for $3 and 70 cents.
+
+36
+00:03:01,580 --> 00:03:06,600
+What does that mean? Right, Sean always says, learn how to price your asset.
+
+37
+00:03:06,700 --> 00:03:08,740
+Is it cheap or expensive? Is it fair value? Do you know,
+
+38
+00:03:11,320 --> 00:03:16,820
+right? We can't gain any information from $3 and 70 cents.
+
+39
+00:03:19,670 --> 00:03:21,410
+Do you want to say something? No, keep going. Okay,
+
+40
+00:03:21,510 --> 00:03:27,190
+so now let's see why we want to look at it through implied volatility lens.
+
+41
+00:03:27,970 --> 00:03:32,360
+Well, the first thing we need to think about is, how are these options created?
+
+42
+00:03:32,500 --> 00:03:36,920
+How are they replicated, right? How can we actually value this asset?
+
+43
+00:03:37,940 --> 00:03:43,090
+And the way we can value this asset is through volatility. Okay,
+
+44
+00:03:43,250 --> 00:03:47,730
+options are a volatility product. Let's go into option calculator here, okay?
+
+45
+00:03:49,660 --> 00:03:53,000
+Stocks trading at 100. We look at the 105 strike call.
+
+46
+00:03:53,600 --> 00:03:55,040
+Days until expiration is 30.
+
+47
+00:03:59,200 --> 00:04:04,800
+Okay, dividend interest rates are zero and implied volatility is 30%. Well,
+
+48
+00:04:04,880 --> 00:04:07,620
+that implied volatility level. Okay,
+
+49
+00:04:07,620 --> 00:04:14,040
+so the implied volatility meaning what the market is expecting to happen corresponds
+
+50
+00:04:14,040 --> 00:04:18,400
+to $1.56 call option.
+
+51
+00:04:21,010 --> 00:04:23,430
+Okay, so now you're probably thinking, well, Jordan,
+
+52
+00:04:24,040 --> 00:04:27,440
+what the hell does volatility of 30 mean to us? Right,
+
+53
+00:04:27,480 --> 00:04:32,140
+it doesn't mean anything either. Well, we can actually see,
+
+54
+00:04:32,780 --> 00:04:36,400
+we can actually graph volatility through time, right? And we can see, well,
+
+55
+00:04:36,860 --> 00:04:42,920
+how has this thing moved, right? Now we're being able to see,
+
+56
+00:04:43,000 --> 00:04:46,620
+is this cheap or is this expensive, right? If we look at,
+
+57
+00:04:46,660 --> 00:04:50,750
+let's take a look here. Let's see how we can take a look.
+
+58
+00:04:51,780 --> 00:04:53,120
+So we're looking at Apple, let's say.
+
+59
+00:04:58,460 --> 00:05:03,370
+And what I'm going to graph is the historical implied volatility. Okay,
+
+60
+00:05:03,470 --> 00:05:04,710
+just by itself.
+
+61
+00:05:09,500 --> 00:05:12,780
+I'm going to expand it. Yeah, so here's the implied volatility for Apple.
+
+62
+00:05:16,890 --> 00:05:19,610
+Well, now let me ask you guys this question, okay?
+
+63
+00:05:20,130 --> 00:05:21,550
+So first I'm going to ask you this.
+
+64
+00:05:29,120 --> 00:05:30,800
+So I'm going to graph, actually,
+
+65
+00:05:33,340 --> 00:05:35,220
+I'm going to graph this option.
+
+66
+00:05:40,870 --> 00:05:48,250
+Okay, so this is the, what was this? This is the November 20th contract. Okay,
+
+67
+00:05:48,290 --> 00:05:52,010
+November 20th contract. At the money call. Just out of the, well,
+
+68
+00:05:52,130 --> 00:05:54,270
+right now it's out of the money. Okay,
+
+69
+00:05:54,270 --> 00:05:56,470
+so let me actually go a little bit longer out here, guys.
+
+70
+00:06:02,830 --> 00:06:05,230
+I can only go back five days, it looks like. Okay,
+
+71
+00:06:05,330 --> 00:06:09,130
+let me ask you guys this question right now. Is this price,
+
+72
+00:06:09,230 --> 00:06:13,030
+so right now it's trading at $2.40. Is this cheap or expensive?
+
+73
+00:06:13,470 --> 00:06:18,230
+What do you guys think? It's trading for $2.40. Is it cheap or expensive?
+
+74
+00:06:21,450 --> 00:06:22,530
+Okay, here it is right here.
+
+75
+00:06:25,060 --> 00:06:27,560
+Okay, and this is what it's been trading at the last five days.
+
+76
+00:06:29,330 --> 00:06:30,110
+Cheap or expensive?
+
+77
+00:06:32,540 --> 00:06:36,280
+Koaw is saying cheap. How come? Why Koaw? Marco's saying it depends.
+
+78
+00:06:36,680 --> 00:06:39,420
+I like that answer better. Kyle's saying, I don't know. Right?
+
+79
+00:06:39,420 --> 00:06:41,740
+I like that answer too. Yeah, we really don't know.
+
+80
+00:06:42,900 --> 00:06:44,800
+We really don't know because this option, for example,
+
+81
+00:06:45,220 --> 00:06:50,850
+maybe it was at the money here and now it's out of the money. Right, well,
+
+82
+00:06:50,890 --> 00:06:51,950
+obviously it's going to go down,
+
+83
+00:06:52,410 --> 00:06:54,450
+but that has nothing to do with the stock price. Well,
+
+84
+00:06:54,470 --> 00:06:56,610
+it has nothing to do with the stock price, but it has nothing to do with,
+
+85
+00:06:56,710 --> 00:06:58,050
+right, it's...
+
+86
+00:07:00,800 --> 00:07:03,920
+It has nothing to do with fair value. Right, it was at a different price here.
+
+87
+00:07:04,020 --> 00:07:04,660
+The,
+
+88
+00:07:04,660 --> 00:07:11,840
+let's say Apple over here was trading at 120 and now Apple's trading at 115 over
+
+89
+00:07:11,840 --> 00:07:14,020
+here. Well, obviously this call option is going to go down,
+
+90
+00:07:14,300 --> 00:07:17,320
+but that means we have to have a view on the price, not on the option.
+
+91
+00:07:19,740 --> 00:07:23,690
+Right? On the price of the stock, on the price of the underlying. Now,
+
+92
+00:07:23,730 --> 00:07:25,890
+let's take a look at implied vol, okay?
+
+93
+00:07:49,760 --> 00:07:53,160
+Actually, we'll look at SLV because that one, oh shit.
+
+94
+00:07:59,120 --> 00:08:02,460
+It's so fucking funny, man. Always happens. Should've held it.
+
+95
+00:08:03,000 --> 00:08:10,170
+Always happens to me, man. Okay. Okay, guys, I swear to God, these things,
+
+96
+00:08:10,330 --> 00:08:13,150
+I don't know who draws these, okay? I swear to God, they're not me.
+
+97
+00:08:13,610 --> 00:08:19,240
+Must be Chris. Chris must be taking over my computer. Okay, so we can see here,
+
+98
+00:08:19,280 --> 00:08:21,260
+right, guys? Let's take a look. Time frame set up.
+
+99
+00:08:21,340 --> 00:08:25,220
+You pinned up our strike too, man. I know, right? Should've held it, man.
+
+100
+00:08:25,260 --> 00:08:25,840
+Isn't that crazy?
+
+101
+00:08:28,430 --> 00:08:36,660
+And just to keep you guys in the loop, back in, right, back in July,
+
+102
+00:08:37,200 --> 00:08:42,960
+Sean and I were selling the 23s straddles on silver, November expiration.
+
+103
+00:08:43,880 --> 00:08:47,660
+And what do you know, guys? Pins to our strike, okay? Not the first time.
+
+104
+00:08:48,260 --> 00:08:49,900
+Won't be the last time. What else do you know, guys?
+
+105
+00:08:50,180 --> 00:08:54,640
+We fucking sold it like a month ago. Yeah, we sold it on the first breakdown.
+
+106
+00:08:55,220 --> 00:09:00,260
+Okay, so we can look at this graph right here, okay?
+
+107
+00:09:00,260 --> 00:09:02,800
+Without even doing any data statistical analysis,
+
+108
+00:09:02,820 --> 00:09:04,780
+we can look at this graph here and be like, okay,
+
+109
+00:09:05,260 --> 00:09:08,200
+this is expensive relative to history.
+
+110
+00:09:10,240 --> 00:09:11,240
+Okay, relative to history,
+
+111
+00:09:11,380 --> 00:09:15,700
+this implied volatility is probably extremely expensive and is almost certainly
+
+112
+00:09:15,700 --> 00:09:20,500
+gonna go down in the future, right, which it did. Now,
+
+113
+00:09:20,640 --> 00:09:23,720
+obviously timing it perfectly is difficult, right? So for example,
+
+114
+00:09:25,220 --> 00:09:27,840
+we might've been, and we were, right,
+
+115
+00:09:27,860 --> 00:09:35,380
+we were selling vol here and it went all the way up to here, right? But,
+
+116
+00:09:35,840 --> 00:09:36,080
+you know,
+
+117
+00:09:36,120 --> 00:09:39,800
+we were able to manage the position and eventually it turned out to be a profitable
+
+118
+00:09:39,800 --> 00:09:42,800
+trade, right? Came all the way back down and then we exited around here.
+
+119
+00:09:44,980 --> 00:09:50,260
+Now, the whole purpose of this is, this is how we can view options, okay?
+
+120
+00:09:50,400 --> 00:09:53,540
+And it's not just the level of implied volatility, okay?
+
+121
+00:09:53,580 --> 00:09:55,320
+That's the most important thing as well, okay?
+
+122
+00:09:55,320 --> 00:09:56,880
+It's not just the level of implied volatility,
+
+123
+00:09:57,460 --> 00:10:02,870
+it's also for the surrounding options. And what do I mean by that?
+
+124
+00:10:05,000 --> 00:10:10,110
+Well, we look at Apple here and I wanna compare,
+
+125
+00:10:10,110 --> 00:10:16,740
+let's say the 120 call option and the 125 call option. Well,
+
+126
+00:10:16,780 --> 00:10:23,020
+the 120 call option is $4 and 5 cents and the 125 call option is $2 and 50 cents.
+
+127
+00:10:23,260 --> 00:10:27,820
+So why don't I just sell a whole bunch of these 120s and buy a whole bunch of the
+
+128
+00:10:27,820 --> 00:10:36,400
+125s, right? We have to be able to compare these options locally, okay?
+
+129
+00:10:36,400 --> 00:10:43,120
+So there's a globally and there's also locally and this is on a local plane here,
+
+130
+00:10:44,170 --> 00:10:45,510
+okay? So we can see, okay, well,
+
+131
+00:10:45,650 --> 00:10:51,570
+this option is trading for 47 and a half percent and this option is trading for
+
+132
+00:10:51,570 --> 00:11:01,720
+47.13%. Now, what if this option here was trading for, let's say $1, okay?
+
+133
+00:11:01,720 --> 00:11:06,350
+So right now it's trading for $1.80. Imagine it was trading for a buck. Well,
+
+134
+00:11:06,350 --> 00:11:12,650
+we wouldn't be able to tell if it's expensive or cheap but we can because we use
+
+135
+00:11:12,650 --> 00:11:17,210
+implied volatilities. This would be 47 and a half and this would be 35,
+
+136
+00:11:20,480 --> 00:11:20,760
+right?
+
+137
+00:11:20,780 --> 00:11:26,060
+So we could do something now where we could buy this at 35% and sell these at 47%,
+
+138
+00:11:26,060 --> 00:11:27,560
+right, and make money.
+
+139
+00:11:28,850 --> 00:11:33,730
+And that is why using implied volatilities and looking at the world through implied
+
+140
+00:11:33,730 --> 00:11:39,210
+volatility is crucial in option trading and why you won't see market makers or professional
+
+141
+00:11:39,210 --> 00:11:45,030
+option traders quoting in price. They'll always quote in implied vol, right?
+
+142
+00:11:45,070 --> 00:11:50,250
+And I'm gonna try and explain it a little deeper here as well or just in a little
+
+143
+00:11:50,250 --> 00:11:51,350
+bit more of a simple way maybe.
+
+144
+00:11:55,960 --> 00:11:59,120
+You make money on an option, right? Let's say you were to buy a call,
+
+145
+00:11:59,260 --> 00:12:00,760
+not just when the stock goes up,
+
+146
+00:12:00,820 --> 00:12:05,840
+but when it goes up within a given timeframe past a certain point, right?
+
+147
+00:12:05,840 --> 00:12:08,520
+Remember the characteristics of what really an option is made up of, right?
+
+148
+00:12:08,700 --> 00:12:13,780
+You need to have a view on how quickly it's going to move as well, right?
+
+149
+00:12:13,780 --> 00:12:19,140
+And what we know volatility means is it's the size and speed of these moves,
+
+150
+00:12:19,390 --> 00:12:22,630
+right? It's almost like you can use,
+
+151
+00:12:22,710 --> 00:12:27,350
+similar to the way we use volatile in other words,
+
+152
+00:12:27,450 --> 00:12:30,510
+like Jordan has a great example with a drunk guy walking down the street,
+
+153
+00:12:30,750 --> 00:12:30,990
+right?
+
+154
+00:12:32,210 --> 00:12:39,930
+If we were trying to measure how drunk this person was just by asking him how many
+
+155
+00:12:39,930 --> 00:12:40,530
+beers he had,
+
+156
+00:12:40,710 --> 00:12:45,270
+we might not get a great read because who knows it might be a seasoned alcoholic.
+
+157
+00:12:45,590 --> 00:12:51,650
+He's had seven beers, but that's just a typical Tuesday afternoon for him.
+
+158
+00:12:51,790 --> 00:12:55,730
+He hasn't even got to the evening yet or maybe it's someone who's never drank before
+
+159
+00:12:55,730 --> 00:12:58,750
+and seven beers should put them in the hospital, right?
+
+160
+00:12:58,770 --> 00:12:59,750
+So we can't really judge it like that.
+
+161
+00:12:59,770 --> 00:13:05,170
+But what we could maybe look at is we could watch this person walk and see how they
+
+162
+00:13:05,170 --> 00:13:05,990
+stumble, right?
+
+163
+00:13:09,590 --> 00:13:16,000
+Maybe if this is the case, if this is the sidewalk, right? And we'll say,
+
+164
+00:13:16,120 --> 00:13:22,270
+this is the road, there's like cars driving here now.
+
+165
+00:13:23,990 --> 00:13:25,690
+Maybe the person walks like this,
+
+166
+00:13:27,830 --> 00:13:28,190
+right?
+
+167
+00:13:30,270 --> 00:13:31,470
+Maybe he's walking like this,
+
+168
+00:13:32,370 --> 00:13:34,890
+which he's got a good buzz going or maybe he walks like this.
+
+169
+00:13:36,720 --> 00:13:39,540
+Maybe he's pretty sober, who knows how many beers he had,
+
+170
+00:13:39,600 --> 00:13:42,820
+maybe he's pretty sober or maybe he's walking like this.
+
+171
+00:13:47,820 --> 00:13:50,600
+Guys, I don't know if you know this, but that's Neil after one beer.
+
+172
+00:13:53,120 --> 00:13:53,720
+That's Neil.
+
+173
+00:13:55,970 --> 00:13:57,710
+That's Neil, yeah.
+
+174
+00:14:00,690 --> 00:14:01,870
+But you guys get what I'm saying, right?
+
+175
+00:14:01,910 --> 00:14:05,290
+So volatility can help us explain things that price cannot, right?
+
+176
+00:14:05,290 --> 00:14:10,190
+Because at the end of the day, the option is not just about where it moves to,
+
+177
+00:14:10,330 --> 00:14:12,170
+it's about how quickly it's moving as well, right?
+
+178
+00:14:12,290 --> 00:14:14,070
+Volatility is the size of these moves.
+
+179
+00:14:14,250 --> 00:14:18,810
+And the implied volatility is what is the market saying those moves are going to
+
+180
+00:14:18,810 --> 00:14:24,930
+be? Now, if we looked at an option on Apple versus an option on Amazon,
+
+181
+00:14:25,550 --> 00:14:29,050
+both of them at the money, they're going to be drastically different prices,
+
+182
+00:14:29,050 --> 00:14:33,810
+right? Imagine the option on a penny stock versus the option on $2,000 Amazon,
+
+183
+00:14:34,150 --> 00:14:37,350
+right? The Amazon option might be like a few hundred bucks,
+
+184
+00:14:37,350 --> 00:14:39,570
+whereas the penny stock one is 10 cents.
+
+185
+00:14:39,850 --> 00:14:41,590
+Does that make the penny stock one cheap?
+
+186
+00:14:41,950 --> 00:14:43,970
+How are we supposed to compare these things and be like,
+
+187
+00:14:44,030 --> 00:14:47,130
+what are these options telling us about these different stocks?
+
+188
+00:14:47,570 --> 00:14:51,770
+The only way that we can do it is by having an apples to apples comparison to them.
+
+189
+00:14:51,770 --> 00:14:54,990
+And that's why we can use something like this, like volatility, right?
+
+190
+00:14:55,190 --> 00:14:59,650
+What if we looked at the volatility measures for each of them and we see that,
+
+191
+00:14:59,670 --> 00:15:02,550
+you know, sure the Amazon one, right?
+
+192
+00:15:02,570 --> 00:15:09,380
+Is maybe let's say $200 and the penny stock one is 50 cents.
+
+193
+00:15:10,200 --> 00:15:12,020
+But in terms of implied volatility,
+
+194
+00:15:12,160 --> 00:15:18,820
+maybe the Amazon one is saying this and the penny stock one is saying this.
+
+195
+00:15:20,490 --> 00:15:26,900
+All of a sudden we see that this penny stock one is telling us that the market thinks
+
+196
+00:15:26,900 --> 00:15:28,420
+this thing is going to move like crazy.
+
+197
+00:15:28,960 --> 00:15:33,920
+Whereas the Amazon one is telling us that it's actually implying that Amazon isn't
+
+198
+00:15:33,920 --> 00:15:36,760
+going to move much in the future, right?
+
+199
+00:15:36,780 --> 00:15:39,220
+Now you can see how once we move it to implied volatilities,
+
+200
+00:15:39,440 --> 00:15:45,410
+we can start looking at things relative to one another and start to make judgments
+
+201
+00:15:46,330 --> 00:15:51,690
+about what would need to happen in the future in order for this to be a profitable
+
+202
+00:15:51,690 --> 00:15:53,870
+or unprofitable trade if we bought or sold, right?
+
+203
+00:15:53,870 --> 00:15:57,670
+In order to help us make a better decision about what's this thing worth,
+
+204
+00:15:58,720 --> 00:16:04,820
+right? You know, anything you want to add there? Nope. I think it allows,
+
+205
+00:16:04,980 --> 00:16:08,440
+implied volatility allows us to look at the world on the same playing field,
+
+206
+00:16:08,680 --> 00:16:13,340
+right? Everything is lined up. Exactly. Right? Of course,
+
+207
+00:16:13,380 --> 00:16:16,700
+an Amazon call is going to be $50 and, you know,
+
+208
+00:16:16,780 --> 00:16:20,000
+a small cap stock is going to be or a small price stock is going to be $2.
+
+209
+00:16:20,810 --> 00:16:24,570
+You can't say this $2 one is cheaper than the $50 Amazon.
+
+210
+00:16:24,570 --> 00:16:27,630
+A lot of people actually look at the world like that, right?
+
+211
+00:16:27,630 --> 00:16:29,590
+We have to always look at implied vol,
+
+212
+00:16:32,040 --> 00:16:34,200
+okay? And Neil, do you actually want to share your story there?
+
+213
+00:16:34,260 --> 00:16:38,260
+I can't remember. Like, did you roll down the hill and then the goat hit you?
+
+214
+00:16:38,960 --> 00:16:44,140
+Is that how it worked? The goat nailed you with the picture up with its horns?
+
+215
+00:16:45,770 --> 00:16:50,190
+Okay. Anyway, so... And guys, at the end, after the live is done,
+
+216
+00:16:50,250 --> 00:16:53,190
+I'm going to go over some implied correlation stuff super quick.
+
+217
+00:16:53,350 --> 00:16:57,630
+I just realized I have Chris Cidio up here. I really got to stop. But anyways,
+
+218
+00:16:58,070 --> 00:16:59,510
+we... I thought we talked about this, man. Yeah,
+
+219
+00:16:59,530 --> 00:17:03,250
+we can go over the implied correlation post he just tweeted about for the more advanced
+
+220
+00:17:03,250 --> 00:17:10,590
+guys. Okay. So stocks trading at $100, $105 call price, okay?
+
+221
+00:17:10,830 --> 00:17:13,470
+Days until expiration, $30. Volatility, $30. Now,
+
+222
+00:17:13,930 --> 00:17:18,390
+look what happens when we change the price of implied volatility.
+
+223
+00:17:18,490 --> 00:17:21,050
+When we change implied volatility, okay?
+
+224
+00:17:21,250 --> 00:17:23,730
+So when we go from $30 to let's say $40,
+
+225
+00:17:24,580 --> 00:17:34,260
+the call option is going to go from $1.56 to $2.60. So if we think that today,
+
+226
+00:17:34,560 --> 00:17:38,800
+fair value or volatility in the future is going to be 40%,
+
+227
+00:17:40,260 --> 00:17:45,080
+that call option should be worth $2.60 today.
+
+228
+00:17:49,370 --> 00:17:53,810
+But because the market is saying it's only going to move $30, it's only $1.56,
+
+229
+00:17:55,180 --> 00:17:55,780
+right?
+
+230
+00:17:55,820 --> 00:17:59,360
+By having our own forecast of what volatility will look like in the future,
+
+231
+00:17:59,720 --> 00:18:06,370
+we can now say, is this cheap or expensive? And we can do this for any option.
+
+232
+00:18:07,800 --> 00:18:09,760
+Because it's no longer about the price of the option,
+
+233
+00:18:09,960 --> 00:18:12,620
+it's about what that option has baked into it.
+
+234
+00:18:13,960 --> 00:18:17,360
+And the measure we can use that's baked into the option to compare them all is implied
+
+235
+00:18:17,360 --> 00:18:17,780
+volatility.
+
+236
+00:18:21,830 --> 00:18:23,450
+Yeah, I know. Good thing you're going to the gym, man,
+
+237
+00:18:23,510 --> 00:18:25,130
+or you probably wouldn't be on the slide right now.
+
+238
+00:18:26,450 --> 00:18:28,170
+That goat would have gone through you, man. Yeah.
+
+239
+00:18:31,910 --> 00:18:36,030
+So that is why we look at implied volatility, okay? Now, the next thing is,
+
+240
+00:18:36,530 --> 00:18:39,510
+well, how do we find these opportunities?
+
+241
+00:18:39,750 --> 00:18:44,750
+Where would we find opportunities where options are going to be over or underpriced?
+
+242
+00:18:45,880 --> 00:18:49,320
+So the way you want to think about it is, this is actually coming off of,
+
+243
+00:18:50,000 --> 00:18:53,900
+I've always had this idea, but I think Yoon said a lot nicer.
+
+244
+00:18:55,140 --> 00:18:57,920
+You can take advantage, for example, of risk premiums, right?
+
+245
+00:18:57,920 --> 00:19:01,160
+We always talk about this. Where is the market?
+
+246
+00:19:01,380 --> 00:19:05,660
+Where are people not willing to go? Right? So for example,
+
+247
+00:19:05,780 --> 00:19:09,620
+people don't want down and out put exposure.
+
+248
+00:19:09,740 --> 00:19:12,260
+And I guess before we hop into that, like something that should be said is,
+
+249
+00:19:12,400 --> 00:19:14,880
+it's not like you're just going to look at an option chain and it's going to be
+
+250
+00:19:14,880 --> 00:19:16,380
+like, all of them are 40 implied vol,
+
+251
+00:19:16,420 --> 00:19:20,360
+and you'll just see one that's like 20 implied vol. You know, the market,
+
+252
+00:19:20,840 --> 00:19:22,940
+something that people have to always keep in mind is,
+
+253
+00:19:23,540 --> 00:19:27,820
+the market is not perfectly efficient, but it's damn good, right?
+
+254
+00:19:28,120 --> 00:19:32,240
+So there will usually be like a reasonable explanation for why something would be
+
+255
+00:19:32,240 --> 00:19:36,000
+expensive or cheap. Now there's times where it's not. And when we see those,
+
+256
+00:19:36,240 --> 00:19:40,890
+we take advantage of all of them, right? Like BCLI, right?
+
+257
+00:19:41,010 --> 00:19:45,510
+We were in this trade right now, where you want to pull it up.
+
+258
+00:19:46,780 --> 00:19:50,640
+That's a good example. Right? Go through that. Because like, look guys,
+
+259
+00:19:50,720 --> 00:19:53,840
+here's the implied vol. The stock's a lot less liquid, okay? Look at this.
+
+260
+00:19:53,880 --> 00:19:58,780
+This is going for 185% and this is going for 262%, right?
+
+261
+00:19:59,200 --> 00:20:03,510
+Now a naive person might come in here and be like, arbitrage opportunity. Well,
+
+262
+00:20:03,570 --> 00:20:07,810
+the reality is this brokerage here is not giving you fair,
+
+263
+00:20:07,930 --> 00:20:09,550
+it's not quoting you the fair price, right?
+
+264
+00:20:09,570 --> 00:20:12,810
+They're using mid as an implied vol fair value.
+
+265
+00:20:13,460 --> 00:20:14,680
+So you might come in here and say, okay,
+
+266
+00:20:14,680 --> 00:20:17,640
+I'm going to sell a boatload of these and buy a boatload of these, right?
+
+267
+00:20:17,640 --> 00:20:23,480
+You might do, let's say a ratio spread here, right? Let's see,
+
+268
+00:20:23,660 --> 00:20:26,380
+1250 and what was it? 1750,
+
+269
+00:20:29,230 --> 00:20:34,140
+right? You might come in here and say, well, Jordan,
+
+270
+00:20:34,180 --> 00:20:37,200
+I'm going to sell a bunch of these, right? I'm going to sell vol at 260.
+
+271
+00:20:37,780 --> 00:20:40,840
+I'm going to buy vol at 185 and it looks great,
+
+272
+00:20:45,400 --> 00:20:49,240
+right? Look at this guys, it looks fantastic. You know, we're going to,
+
+273
+00:20:49,300 --> 00:20:52,460
+we basically, we get to, we're not going to lose money below,
+
+274
+00:20:52,680 --> 00:20:57,470
+if we hold to expiration below 24 bucks, right? And on the downside,
+
+275
+00:20:57,570 --> 00:21:01,270
+we're obviously going to make, you know, the 1050 bucks.
+
+276
+00:21:01,590 --> 00:21:03,890
+The difference more or less. And you might say, okay, well, you know,
+
+277
+00:21:04,030 --> 00:21:06,890
+if this was priced, for example, so you guys can see right here, right?
+
+278
+00:21:07,680 --> 00:21:12,000
+Let's price this out. So here, 185 implied vol, okay?
+
+279
+00:21:12,000 --> 00:21:15,160
+This one looks pretty liquid. You can see the bid ask spreads pretty tight,
+
+280
+00:21:15,260 --> 00:21:19,300
+not super tight, but pretty tight, okay? But look at this one over here.
+
+281
+00:21:21,010 --> 00:21:25,490
+What if this was priced at 185 vol? How much should this be worth?
+
+282
+00:21:25,710 --> 00:21:31,420
+So right now, for example, the brokerage is quoting us a mid of $1.15, okay?
+
+283
+00:21:31,440 --> 00:21:33,320
+So let's go to our option calculator super quick.
+
+284
+00:21:35,280 --> 00:21:40,690
+Stock is trading at $10 and 20 cents.
+
+285
+00:21:44,790 --> 00:21:55,520
+And we're looking at the 1750 call is until expiration 25 and volatility 185,
+
+286
+00:21:55,620 --> 00:21:56,300
+okay?
+
+287
+00:21:58,410 --> 00:22:03,590
+So this option would go from $1.15 to 42 cents. This is the real fair value,
+
+288
+00:22:03,690 --> 00:22:12,470
+right? The real fair value is 42 cents, not $1.15, right? If it was $1.15,
+
+289
+00:22:12,510 --> 00:22:14,330
+we'd want to sell these as much as possible.
+
+290
+00:22:14,330 --> 00:22:18,510
+And the only way we were able to do this is through the lens of implied volatility,
+
+291
+00:22:19,170 --> 00:22:21,790
+not through the lens of the price,
+
+292
+00:22:25,040 --> 00:22:25,360
+okay?
+
+293
+00:22:27,790 --> 00:22:32,930
+Look at this one, right? This one's the mid here is $2.50.
+
+294
+00:22:33,250 --> 00:22:37,660
+It's trading at 450% implied vol. You know,
+
+295
+00:22:37,720 --> 00:22:40,500
+someone might come in here and be like, this is awesome. This is an awesome,
+
+296
+00:22:40,660 --> 00:22:43,940
+you know, an awesome sell. I'm going to get this for $2.50.
+
+297
+00:22:44,440 --> 00:22:47,700
+They start buying these, right? They start accumulating these at 185.
+
+298
+00:22:47,700 --> 00:22:52,930
+Then they come and start selling these and they realize I can't get this for $2
+
+299
+00:22:52,930 --> 00:22:58,520
+.50, right? Because they weren't looking at the lens of implied vol, right?
+
+300
+00:22:58,560 --> 00:23:01,120
+This is an arbitrage opportunity, right? Look at this, guys.
+
+301
+00:23:01,180 --> 00:23:09,280
+We can sell this for $2.50 and we can buy this for $1.20.
+
+302
+00:23:14,350 --> 00:23:19,980
+Arbitrage. There's nowhere on this graph where we lose money, okay?
+
+303
+00:23:20,730 --> 00:23:25,020
+And that is why this will never happen, right? You know,
+
+304
+00:23:25,100 --> 00:23:27,300
+this exact thing will never happen. I've never seen it.
+
+305
+00:23:27,320 --> 00:23:28,840
+You guys probably won't ever see it. Who knows?
+
+306
+00:23:29,890 --> 00:23:33,550
+But maybe leave a resting order. Some new book will come in and hit you, right?
+
+307
+00:23:33,610 --> 00:23:35,250
+So, you know, these are,
+
+308
+00:23:35,330 --> 00:23:40,130
+if we don't look at the world through implied volatility and we only look at price,
+
+309
+00:23:40,230 --> 00:23:42,870
+because I've seen a lot of the guys in the group, for example, be like, hey,
+
+310
+00:23:43,050 --> 00:23:44,390
+how can I lose money on this trade?
+
+311
+00:23:45,030 --> 00:23:46,390
+Because they were looking at it through price.
+
+312
+00:23:47,480 --> 00:23:48,740
+If you're looking at through implied vol,
+
+313
+00:23:48,780 --> 00:23:51,850
+you'll realize that the world's a lot different.
+
+314
+00:23:52,550 --> 00:23:54,170
+And that's how the professionals look at this game.
+
+315
+00:23:56,440 --> 00:24:00,240
+Kyle, down and out means, so if we're looking at the option chain, okay?
+
+316
+00:24:00,900 --> 00:24:05,440
+We're down. So we go down in strikes and we're out in time.
+
+317
+00:24:05,800 --> 00:24:10,440
+So down and out might be, let's say, a 200-day Delta 5 or Delta 10 put,
+
+318
+00:24:13,310 --> 00:24:18,370
+okay? Yeah, out in time, way out of the mind. Yeah, that's a down and out.
+
+319
+00:24:18,390 --> 00:24:20,410
+Basically betting on this thing going to zero in the long run.
+
+320
+00:24:24,030 --> 00:24:27,810
+Marcos is asking if we ever look at volume. We don't look at volume.
+
+321
+00:24:28,310 --> 00:24:30,870
+In the sense that a lot of other people do. Yeah, you know,
+
+322
+00:24:31,250 --> 00:24:37,570
+and that being said, Marcos, you know, you've been with us for a while now.
+
+323
+00:24:37,730 --> 00:24:38,990
+You know that we don't know everything.
+
+324
+00:24:39,950 --> 00:24:43,490
+And so I've heard of stories where guys would, you know,
+
+325
+00:24:43,510 --> 00:24:48,090
+find these small cap stocks. They have a huge print,
+
+326
+00:24:48,330 --> 00:24:54,340
+an aggressive print on the ask for, you know, let's say 5,000 contracts.
+
+327
+00:24:55,490 --> 00:24:57,390
+And you can tag along with those, right?
+
+328
+00:24:57,470 --> 00:25:01,870
+And that's actually a retail strategy that big institutions can't do.
+
+329
+00:25:02,290 --> 00:25:05,330
+That being said, I think you need to do a lot more.
+
+330
+00:25:06,400 --> 00:25:10,160
+It's a lot harder to do that than said.
+
+331
+00:25:13,120 --> 00:25:14,320
+Yeah, because now you're in the queue.
+
+332
+00:25:16,690 --> 00:25:20,940
+Ko is saying 5 cents versus $5. Did I just say something about that? No,
+
+333
+00:25:20,940 --> 00:25:21,900
+he's just looking at this.
+
+334
+00:25:24,790 --> 00:25:28,950
+Oh, the bid-ask spread. On the 20, on the 22.50. So someone, right,
+
+335
+00:25:28,970 --> 00:25:32,390
+is willing to buy this for 5 cents and someone's willing to sell this for $5.
+
+336
+00:25:33,810 --> 00:25:35,910
+There's basically no market there. There's no market here, right?
+
+337
+00:25:35,910 --> 00:25:37,810
+So you need to come in and be able to price this.
+
+338
+00:25:37,810 --> 00:25:42,720
+Now you can't price this without looking at implied vol, right?
+
+339
+00:25:42,840 --> 00:25:45,140
+You can't just come in here. Imagine you, imagine this Tico.
+
+340
+00:25:45,360 --> 00:25:49,420
+Imagine you come in here and you're like, okay, mid is $2.50,
+
+341
+00:25:49,860 --> 00:25:56,460
+I'm going to buy it for $2.50. You would be paying 450% implied vol.
+
+342
+00:25:57,850 --> 00:26:02,700
+And this is actually guys, what retail people do. Okay,
+
+343
+00:26:02,700 --> 00:26:05,700
+I'm convinced even though there is, you know,
+
+344
+00:26:05,840 --> 00:26:07,620
+there is something happening on this expiration.
+
+345
+00:26:09,270 --> 00:26:16,020
+I'm convinced some group posted about BCLI because of the volatilities through the
+
+346
+00:26:16,020 --> 00:26:19,200
+roof. And these are the guys buying these options,
+
+347
+00:26:21,290 --> 00:26:25,190
+right? We got to think about it. It's a cheap, like how in heaven's name,
+
+348
+00:26:26,330 --> 00:26:31,660
+let's wait, where are we, December, right? We sold the 18, right? Yeah,
+
+349
+00:26:33,600 --> 00:26:33,900
+you know,
+
+350
+00:26:34,040 --> 00:26:38,740
+how in heaven's name is this going for 390% implied vol on the downside,
+
+351
+00:26:41,560 --> 00:26:45,770
+right? These are things where, look at this guys,
+
+352
+00:26:46,390 --> 00:26:48,870
+the stock has to go to zero in order for us to lose money.
+
+353
+00:26:48,970 --> 00:26:53,670
+Like people are betting on bankruptcy here, right? And not just that,
+
+354
+00:26:53,750 --> 00:26:57,170
+it's like, well, there's, the stock doesn't go instantly to zero, right?
+
+355
+00:26:57,190 --> 00:27:00,190
+There's still, you know, a net liquidation value, right?
+
+356
+00:27:00,190 --> 00:27:05,260
+There's still value to shareholders here. So whoever's betting this,
+
+357
+00:27:05,620 --> 00:27:06,440
+betting on these things,
+
+358
+00:27:09,080 --> 00:27:09,960
+it's crazy.
+
+359
+00:27:10,120 --> 00:27:14,380
+And I think one thing that has to do with it is because the price is so low.
+
+360
+00:27:14,380 --> 00:27:17,520
+So if this was, let's say a $500 stock,
+
+361
+00:27:17,680 --> 00:27:21,680
+I don't think we would see 380% implied vol, to be honest.
+
+362
+00:27:22,140 --> 00:27:24,300
+We'd see maybe a lot less, like 200%.
+
+363
+00:27:27,480 --> 00:27:30,920
+And Koa is saying we should try and find all of these. Yeah, Koa,
+
+364
+00:27:30,980 --> 00:27:33,880
+you should start researching this, man. When we have time,
+
+365
+00:27:33,940 --> 00:27:35,180
+we'll be looking into it a lot as well.
+
+366
+00:27:35,800 --> 00:27:41,300
+But obviously time is of the essence for a lot of other things right now.
+
+367
+00:27:41,640 --> 00:27:42,840
+But guys, let me ask you a question, right?
+
+368
+00:27:45,350 --> 00:27:48,630
+Who the hell would want this payoff? At one point it was trading for two bucks.
+
+369
+00:27:50,110 --> 00:27:55,620
+Who would want this payoff here, right? This is wild.
+
+370
+00:27:55,720 --> 00:27:58,510
+This is a wild payoff to me, right?
+
+371
+00:28:00,800 --> 00:28:01,620
+Stock trading here.
+
+372
+00:28:03,640 --> 00:28:06,540
+I mean, hey, it could happen. You know, they could get paid off.
+
+373
+00:28:06,660 --> 00:28:09,700
+Your risk is like, it's like one-to-one risk reward for like,
+
+374
+00:28:09,880 --> 00:28:13,180
+for you betting on bankruptcy. Like in what world does this make sense?
+
+375
+00:28:16,640 --> 00:28:19,040
+Would it make sense to like structure a vertical here if you bet on it going down?
+
+376
+00:28:20,020 --> 00:28:32,820
+Yeah, it'd be a lot better. Right, like sell, you know. Even then, right?
+
+377
+00:28:32,880 --> 00:28:36,180
+It's still not good. It's brutal. It's absolutely brutal.
+
+378
+00:28:36,520 --> 00:28:40,540
+At least you're making money a little before. Yeah,
+
+379
+00:28:40,560 --> 00:28:43,740
+at least you're making money a little bit down here. But these, you know,
+
+380
+00:28:43,780 --> 00:28:45,940
+if we can't look at the world through implied vol,
+
+381
+00:28:46,520 --> 00:28:48,720
+we're never going to be able to see these opportunities.
+
+382
+00:28:53,010 --> 00:28:58,520
+Okay. Right. You know, I'll use the example I use for statistics and trading,
+
+383
+00:28:58,560 --> 00:29:02,360
+right? So any of the new members here who's been through the first week,
+
+384
+00:29:02,380 --> 00:29:04,920
+it's what I say to you guys when we talk about basic stats.
+
+385
+00:29:05,980 --> 00:29:08,080
+Implied volatility is the language of options.
+
+386
+00:29:08,750 --> 00:29:12,280
+You need to be able to speak the language to make money, right?
+
+387
+00:29:12,280 --> 00:29:14,680
+Like you wouldn't move to a foreign country where, you know,
+
+388
+00:29:14,680 --> 00:29:18,590
+the first language is different and not learn the language. You know,
+
+389
+00:29:18,590 --> 00:29:20,800
+good luck getting a job, right?
+
+390
+00:29:20,820 --> 00:29:24,200
+You need to learn the language of the game you're in to be competitive.
+
+391
+00:29:26,160 --> 00:29:27,240
+And that's what this is.
+
+392
+00:29:29,430 --> 00:29:31,190
+Yeah, like look at this structure, man.
+
+393
+00:29:31,530 --> 00:29:37,860
+You can't lose money on the downside and you're good all the way up until 30 bucks.
+
+394
+00:29:39,820 --> 00:29:43,820
+It's free money. Until they say we found the cure for coronavirus.
+
+395
+00:29:44,280 --> 00:29:46,560
+And it goes all the way. And they're like a mining company.
+
+396
+00:29:46,660 --> 00:29:49,600
+They're not even a... Yeah, I imagine they're a gold mining company. Come out,
+
+397
+00:29:49,720 --> 00:29:52,940
+guys, we found the cure. Deep down near the core of the earth.
+
+398
+00:29:53,680 --> 00:29:57,300
+It was sitting there in a vial for us. Yeah, I think it is a biotech stock.
+
+399
+00:29:57,360 --> 00:30:00,000
+So you always got to be careful of these, right? Yeah, brainstorm,
+
+400
+00:30:00,400 --> 00:30:03,700
+sell therapeutics. But it looks like the bet is it to go into zero. It's not,
+
+401
+00:30:03,880 --> 00:30:06,360
+no one's betting on this thing going to the moon. Look at the implied vol here,
+
+402
+00:30:06,400 --> 00:30:06,600
+right?
+
+403
+00:30:07,000 --> 00:30:11,060
+It might be worth financing a way out of the money call with our free money we're
+
+404
+00:30:11,060 --> 00:30:14,330
+gathering on the downside. Right? And like you guys know as well.
+
+405
+00:30:14,350 --> 00:30:16,870
+What are the odds these people are right? And you know, it's actually really,
+
+406
+00:30:16,930 --> 00:30:18,490
+actually really interesting about this trade,
+
+407
+00:30:18,770 --> 00:30:20,650
+which is why I think it's like a phenomenal trade.
+
+408
+00:30:20,650 --> 00:30:21,910
+And this is also how you guys can,
+
+409
+00:30:22,090 --> 00:30:23,750
+how we can look at the world through implied vol.
+
+410
+00:30:24,540 --> 00:30:27,340
+The implied volatility is actually higher to the downside.
+
+411
+00:30:28,100 --> 00:30:30,200
+So what do we know about skew? This is, you know, for the,
+
+412
+00:30:30,320 --> 00:30:31,900
+we're going to talk about this maybe tomorrow or Wednesday,
+
+413
+00:30:31,960 --> 00:30:36,840
+but what do we know about skew? Well, if implied vol is higher on the downside,
+
+414
+00:30:37,780 --> 00:30:38,040
+right?
+
+415
+00:30:38,160 --> 00:30:43,120
+That means that the market actually thinks the most likely scenario is to the upside,
+
+416
+00:30:45,240 --> 00:30:47,960
+but the volatility is to the downside. Now,
+
+417
+00:30:48,040 --> 00:30:52,060
+does that make sense for a biopharma stock that the volatility is to the downside
+
+418
+00:30:52,060 --> 00:30:59,390
+and the most likely scenario is to the upside? No. Right. It don't. It doesn't.
+
+419
+00:30:59,850 --> 00:31:02,830
+The scenario we should see is volatility to the upside.
+
+420
+00:31:03,870 --> 00:31:06,510
+And a trickle down if nothing happens. Right. Right. It's,
+
+421
+00:31:06,510 --> 00:31:11,660
+it's burning cashflow, burning cashflow, spike. But right, right now,
+
+422
+00:31:11,720 --> 00:31:17,300
+what the market's saying is making money, making money, smash down. It's like,
+
+423
+00:31:17,320 --> 00:31:18,560
+wait a minute. It's like, this isn't Apple.
+
+424
+00:31:18,660 --> 00:31:22,420
+That's not how these companies work. Yeah. So, you know,
+
+425
+00:31:22,440 --> 00:31:24,060
+I think this is a great trade overall.
+
+426
+00:31:26,980 --> 00:31:30,060
+And it's, it's, it's gonna be really exciting to see it play out.
+
+427
+00:31:30,640 --> 00:31:33,780
+I know a couple of guys are saying he bought a cheap November call to cover his
+
+428
+00:31:33,780 --> 00:31:37,100
+upside risk. Yeah. Yeah. So I think we're not, we're not going to strangle.
+
+429
+00:31:37,380 --> 00:31:41,870
+Yeah. He's actually in this position here. So we're not, Renato is in this,
+
+430
+00:31:41,930 --> 00:31:45,810
+right? So, and then he took some of the money and bought a,
+
+431
+00:31:45,890 --> 00:31:50,780
+I believe it was a November 35, right? So here we go.
+
+432
+00:31:50,820 --> 00:31:52,220
+So you guys are going to like this trade, right?
+
+433
+00:31:54,360 --> 00:31:59,880
+So Renato bought the Novembers. So this is him right here. Okay.
+
+434
+00:32:01,430 --> 00:32:05,550
+So right now he spent, so here's his, here's his core position. Okay.
+
+435
+00:32:07,280 --> 00:32:12,010
+Here's his core position. Now this company could release something huge.
+
+436
+00:32:12,290 --> 00:32:12,790
+We don't know.
+
+437
+00:32:13,660 --> 00:32:16,760
+Markets saying that there is going to be some type of big move coming up.
+
+438
+00:32:17,550 --> 00:32:19,790
+So let's say it does jump to 50 bucks, right?
+
+439
+00:32:20,070 --> 00:32:21,330
+Renato doesn't want that exposure.
+
+440
+00:32:21,490 --> 00:32:26,230
+So what he did was he spent 35 cents or 25 cents to buy some out of money calls
+
+441
+00:32:26,230 --> 00:32:30,960
+just to remove that blow up risk. Okay. Just to remove that blow up risk.
+
+442
+00:32:31,000 --> 00:32:33,120
+And that's actually very, very important in this game.
+
+443
+00:32:36,300 --> 00:32:40,140
+Okay. So do you guys have any questions about implied volatility?
+
+444
+00:32:40,800 --> 00:32:46,040
+A general idea of why we use implied volatility and we're getting into more advanced
+
+445
+00:32:46,040 --> 00:32:48,000
+stuff throughout the, throughout the week.
+
+446
+00:32:51,720 --> 00:32:55,000
+And then we'll just chat about implied correlation towards the end there.
+
+447
+00:32:55,160 --> 00:32:57,840
+Cause I know some of the guys would like that.
+
+448
+00:33:06,080 --> 00:33:07,920
+Actually, Kyle and Neil, let me know if you guys are still here.
+
+449
+00:33:08,000 --> 00:33:10,120
+Otherwise I will, or Steve, let me know if you guys are still here.
+
+450
+00:33:10,200 --> 00:33:12,680
+Otherwise I will skip out on an implied correlation.
+
+451
+00:33:15,530 --> 00:33:16,870
+I think they're still here. Okay.
+
+452
+00:33:19,270 --> 00:33:25,000
+Oh, Raph. Raph, what's going on man? And Lawrence is here. Lawrence. Hey,
+
+453
+00:33:25,000 --> 00:33:27,700
+Lawrence. I know you've been dodging me about those trade breakdowns, man.
+
+454
+00:33:28,140 --> 00:33:32,520
+I'm following up with you this week. He has, eh? He's been dodging me. Okay,
+
+455
+00:33:32,540 --> 00:33:36,900
+guys. So no questions about implied volatility. That's it.
+
+456
+00:33:40,070 --> 00:33:43,150
+All right. Let's move on. Okay. So I'm gonna stop the live. Yep.
+
+457
+00:33:43,210 --> 00:33:44,110
+Let's stop the live. Okay.

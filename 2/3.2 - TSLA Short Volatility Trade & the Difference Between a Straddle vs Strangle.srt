@@ -1,0 +1,2303 @@
+1
+00:00:00,820 --> 00:00:04,360
+Okay, guys, so in this video, in this lecture, in this workshop,
+
+2
+00:00:04,360 --> 00:00:08,790
+we're going to be talking about our Tesla trade, why we shorted vol today,
+
+3
+00:00:09,370 --> 00:00:15,970
+and why we shorted a strangle over a straddle. Okay, so those,
+
+4
+00:00:16,090 --> 00:00:19,530
+that's what we're really gonna be talking about breaking down this trade in depth.
+
+5
+00:00:20,550 --> 00:00:23,230
+And also all the other nuances that come with it.
+
+6
+00:00:23,410 --> 00:00:24,910
+And then going really deep into like,
+
+7
+00:00:25,270 --> 00:00:28,570
+why strangle versus straddle and like the differences between the two and why we
+
+8
+00:00:28,570 --> 00:00:32,130
+picked one over the other. Especially because a lot of the time, guys,
+
+9
+00:00:32,490 --> 00:00:36,430
+we're gonna hear in this space, like a strangle is safer than a straddle,
+
+10
+00:00:36,570 --> 00:00:41,230
+right? How many times I think we got John on here, right? John, perfect.
+
+11
+00:00:41,310 --> 00:00:44,670
+We got John here. You know, how many times tasty trade tells us right,
+
+12
+00:00:45,050 --> 00:00:47,230
+a strangle is the safer straddle, right?
+
+13
+00:00:47,290 --> 00:00:52,190
+A delta 16 strangle is a much better and safer trade than say doing it at the money
+
+14
+00:00:52,190 --> 00:00:55,840
+straddle. And so this is actually not the case,
+
+15
+00:00:55,860 --> 00:00:58,700
+it's actually the complete opposite. And so in this in this video,
+
+16
+00:00:58,700 --> 00:01:01,600
+we're gonna be chatting about that, right? Why is it the complete opposite?
+
+17
+00:01:02,040 --> 00:01:05,380
+And you know, when I first found this out as well,
+
+18
+00:01:05,500 --> 00:01:09,100
+it was brought a lot of insight insight to me. And, you know,
+
+19
+00:01:09,120 --> 00:01:10,780
+I hope you guys find that insightful as well.
+
+20
+00:01:13,570 --> 00:01:14,750
+So share my screen.
+
+21
+00:01:18,090 --> 00:01:18,450
+Alright.
+
+22
+00:01:21,160 --> 00:01:24,920
+So first off, why Tesla, right? Why are we shorting vol on Tesla?
+
+23
+00:01:25,980 --> 00:01:30,170
+So let's see what's going on here. And by the way, guys,
+
+24
+00:01:30,590 --> 00:01:36,150
+the terminal should be good to go from now on. No more. No kinks. Yeah,
+
+25
+00:01:36,210 --> 00:01:41,240
+no more bet. No more messy bugs. But you know, as soon as we say that,
+
+26
+00:01:41,660 --> 00:01:43,020
+there's a there's a bug, there's a bug.
+
+27
+00:01:46,460 --> 00:01:53,320
+Okay, so pull this up. So guys, look at the implied vol 30, okay?
+
+28
+00:01:53,800 --> 00:01:56,400
+It's actually it caught a bid today. So as you guys know,
+
+29
+00:01:56,500 --> 00:02:00,500
+I'm been short vol right around here. And today it caught a huge bid. Okay.
+
+30
+00:02:03,720 --> 00:02:10,570
+Now, Tesla, Tesla has been recently, you know, put into the S&P index.
+
+31
+00:02:10,730 --> 00:02:16,300
+And it seems like if we go to the if we look at the implied volatility and spot
+
+32
+00:02:16,300 --> 00:02:16,820
+correlation,
+
+33
+00:02:16,820 --> 00:02:21,020
+we can see that every like there's a slight correlation right between when,
+
+34
+00:02:21,120 --> 00:02:24,800
+when the spot change, okay, when when Tesla goes up,
+
+35
+00:02:25,080 --> 00:02:28,360
+implied volatility increases. Okay,
+
+36
+00:02:28,360 --> 00:02:31,480
+you guys can see that this is very interesting by the slope of the line, right?
+
+37
+00:02:31,480 --> 00:02:36,060
+Usually, let's say if we're looking at the S&P, okay, we're looking at the S&P,
+
+38
+00:02:38,460 --> 00:02:44,440
+when when the S&P goes down, I vol drops, or I vol increases.
+
+39
+00:02:44,680 --> 00:02:48,220
+And when the S&P increases, I vol drops. But for Tesla,
+
+40
+00:02:48,400 --> 00:02:52,860
+we're seeing the totally, we're seeing something totally different. Okay.
+
+41
+00:02:52,960 --> 00:02:55,820
+And that's what's happening. The last two days, Tesla has been rallying,
+
+42
+00:02:55,860 --> 00:03:00,830
+it's gone from 600 to 650, and it's rallying overnight. Okay,
+
+43
+00:03:00,910 --> 00:03:05,970
+so for that reason, right? We're seeing this increase in implied volatility,
+
+44
+00:03:06,110 --> 00:03:08,070
+we're seeing this increase in the option prices.
+
+45
+00:03:10,130 --> 00:03:13,510
+Now, we need to come to a conclusion. Is this overpriced?
+
+46
+00:03:13,590 --> 00:03:15,710
+Or is this underpriced? Okay.
+
+47
+00:03:16,170 --> 00:03:22,270
+And one thing that is driving this news is that Tesla is going into the S&P 500.
+
+48
+00:03:22,630 --> 00:03:25,110
+Now we need to think about this as from a trader's perspective,
+
+49
+00:03:25,370 --> 00:03:27,350
+is this changing the overall business?
+
+50
+00:03:27,430 --> 00:03:31,490
+Should this change the volatility of the overall company? Right? And you know,
+
+51
+00:03:31,510 --> 00:03:34,700
+Sean, I think the answer is no. Right? In fact,
+
+52
+00:03:34,740 --> 00:03:36,320
+we think this is going to drop vol.
+
+53
+00:03:36,820 --> 00:03:39,500
+There's extra liquidity coming into the market now, right?
+
+54
+00:03:41,720 --> 00:03:46,260
+It's a bigger company, right? As the company grows in size, vol needs to drop.
+
+55
+00:03:47,110 --> 00:03:50,350
+Right? It's harder to go from 100 trillion,
+
+56
+00:03:50,630 --> 00:03:54,830
+or let's say half a billion to a trillion, than it is to go from, let's say,
+
+57
+00:03:55,270 --> 00:03:59,560
+500,000 to a million. Right? So as this company grows in size,
+
+58
+00:03:59,880 --> 00:04:02,840
+vol needs to drop. And so what we're seeing is the complete opposite.
+
+59
+00:04:04,300 --> 00:04:06,920
+Vol is increasing. Oh, by the way,
+
+60
+00:04:07,100 --> 00:04:09,420
+Tesla's also just announced they're raising 5 billion more.
+
+61
+00:04:09,840 --> 00:04:16,230
+I've heard about this. Yes. So, and they even might be introducing, I think,
+
+62
+00:04:17,330 --> 00:04:21,790
+$100 billion worth of shares. If you want to just confirm that, Cole,
+
+63
+00:04:21,830 --> 00:04:22,730
+I think they're going to be releasing,
+
+64
+00:04:23,070 --> 00:04:27,170
+they're going to be providing a whole bunch of more liquidity into the market,
+
+65
+00:04:27,350 --> 00:04:28,410
+if you can just confirm that.
+
+66
+00:04:30,930 --> 00:04:35,230
+So, you know, some news coming out with this company, and, you know,
+
+67
+00:04:35,270 --> 00:04:38,170
+it's driving iVol, right? It's driving up the price of these premiums.
+
+68
+00:04:38,190 --> 00:04:40,450
+People are saying, oh my God, this thing's unreal. It's going to the moon.
+
+69
+00:04:40,650 --> 00:04:44,010
+Right? And, you know, a couple of people in our chat also believe it,
+
+70
+00:04:44,310 --> 00:04:49,180
+rightly so. Right? They've been right. No, Tico? Congrats.
+
+71
+00:04:49,540 --> 00:04:53,100
+We can't say he's been wrong. He's been absolutely spot on. Right?
+
+72
+00:04:53,180 --> 00:04:58,500
+So all this money coming into Tesla, driving up the price, driving up the vol.
+
+73
+00:04:58,500 --> 00:05:03,300
+We've got shorts who are short the shares, covering with call options. Right?
+
+74
+00:05:03,340 --> 00:05:05,360
+If they're short the shares, how are they going to hedge?
+
+75
+00:05:05,420 --> 00:05:07,970
+They've got to buy some call options. Right? So,
+
+76
+00:05:09,200 --> 00:05:13,140
+and it's been driving up the vol like crazy. So what we can see here now, guys,
+
+77
+00:05:13,160 --> 00:05:16,500
+we're going to start breaking it down in terms of the option prices and the volatility
+
+78
+00:05:16,500 --> 00:05:20,660
+for these option prices. Well, let's take a look, right? Here we have,
+
+79
+00:05:22,180 --> 00:05:24,360
+so remember we were talking about the volatility cone yesterday?
+
+80
+00:05:25,040 --> 00:05:28,680
+We're going to drop, we're going to drop the max, we're going to drop the min,
+
+81
+00:05:29,710 --> 00:05:33,890
+and we're just going to look at the third quantile, the first quantile,
+
+82
+00:05:34,200 --> 00:05:40,020
+the median, and the max, and the current. So remember, most of the time,
+
+83
+00:05:40,530 --> 00:05:47,070
+vol is going to be within this range. Okay? But it's way above right now. Okay?
+
+84
+00:05:47,110 --> 00:05:54,360
+It's at the 20 days at 100, the 30 days at 95, and the 45 days at 92. Okay?
+
+85
+00:05:56,050 --> 00:05:59,980
+So the market's telling us something is off. Right?
+
+86
+00:06:00,360 --> 00:06:02,820
+There should be a ton of vol. And we don't, we actually don't,
+
+87
+00:06:03,180 --> 00:06:04,380
+we actually don't agree with them here.
+
+88
+00:06:04,480 --> 00:06:09,720
+We think vol is going to eventually drop down into this range again. Okay?
+
+89
+00:06:10,420 --> 00:06:15,250
+And here's one of the reasons why. Look at the realized vol, guys.
+
+90
+00:06:17,460 --> 00:06:20,120
+I'm going to head over to Relative Value to look at this.
+
+91
+00:06:28,180 --> 00:06:32,300
+Okay, so we're going to plot the implied vol 30 and the realized vol 30. Okay?
+
+92
+00:06:32,340 --> 00:06:32,920
+And the ratio.
+
+93
+00:06:35,790 --> 00:06:40,070
+So let's take a look here. Right? Let's take a look at this top graph here.
+
+94
+00:06:40,730 --> 00:06:46,320
+Well, look at the realized vol. It's only at 65. The eyeball, the realized vol,
+
+95
+00:06:46,420 --> 00:06:48,640
+how much it's actually moving has only been at 65,
+
+96
+00:06:49,100 --> 00:06:53,370
+yet the implied vol for the 30 days at 95%. Okay?
+
+97
+00:06:53,710 --> 00:06:57,950
+It's extremely big given how much this thing is actually moving. Right?
+
+98
+00:06:57,970 --> 00:07:01,910
+If we look at today, for example, it's only been up 3% or 2%,
+
+99
+00:07:01,910 --> 00:07:09,840
+yet vol has increased drastically. Right? And when we compare those ratios,
+
+100
+00:07:09,940 --> 00:07:15,540
+when we compare the implied volatility relative to the realized volatility,
+
+101
+00:07:15,540 --> 00:07:20,680
+what's actually happening, we can see we're approaching almost all-time highs.
+
+102
+00:07:22,130 --> 00:07:24,470
+Okay? Besides these like little pops here, okay,
+
+103
+00:07:24,510 --> 00:07:25,890
+besides this little pop and this little pop,
+
+104
+00:07:26,850 --> 00:07:29,030
+we're approaching almost all-time highs. Right?
+
+105
+00:07:29,030 --> 00:07:34,020
+We're almost getting back up to this 1.5 ratio. Right?
+
+106
+00:07:34,020 --> 00:07:35,880
+And what does this tell us? Well,
+
+107
+00:07:35,900 --> 00:07:39,130
+it tells us that one of two things are going to happen. One,
+
+108
+00:07:40,400 --> 00:07:46,500
+implied vol is going to drop, or two, realized vol is going to increase. Right?
+
+109
+00:07:46,520 --> 00:07:50,360
+That's the only thing that's going to drop this ratio back down to its mean.
+
+110
+00:07:53,440 --> 00:07:54,540
+And what we're saying is,
+
+111
+00:07:54,960 --> 00:07:57,520
+the realized vol is actually not going to be increasing.
+
+112
+00:07:57,640 --> 00:08:00,580
+There's too many things that, there's too much liquidity in this market.
+
+113
+00:08:01,930 --> 00:08:03,070
+Maybe we'll stop for one second there.
+
+114
+00:08:03,270 --> 00:08:07,310
+Maybe we can talk about why this spread would drop back to its mean.
+
+115
+00:08:07,910 --> 00:08:11,590
+What is the relationship between implied and realized that would make it mean reverting?
+
+116
+00:08:11,590 --> 00:08:14,930
+Really good point. Really good point. So remember,
+
+117
+00:08:15,110 --> 00:08:18,090
+if implied vol is above realized vol, right,
+
+118
+00:08:18,130 --> 00:08:21,090
+if it's too far above realized vol,
+
+119
+00:08:21,370 --> 00:08:23,930
+then people who are selling options are going to earn a ton of money.
+
+120
+00:08:24,570 --> 00:08:27,190
+So they're just going to come in and sell more and more and more.
+
+121
+00:08:27,770 --> 00:08:29,370
+So what's going to happen is, eventually,
+
+122
+00:08:29,610 --> 00:08:33,770
+the spread between implied and realized is going to collapse. Right?
+
+123
+00:08:33,910 --> 00:08:38,590
+Either realized vol needs to increase, or implied needs to decrease. Otherwise,
+
+124
+00:08:38,810 --> 00:08:40,830
+they're just going to keep earning all this money all the way through.
+
+125
+00:08:43,110 --> 00:08:46,570
+So to try and make it simple, it might be too simple,
+
+126
+00:08:46,730 --> 00:08:50,720
+but you could almost think of it as like a cat and mouse game,
+
+127
+00:08:50,760 --> 00:08:53,360
+where they're kind of like always chasing each other, implied and realized.
+
+128
+00:08:53,560 --> 00:08:56,320
+Yes. Right? If the spread gets too big, it comes back together in some way.
+
+129
+00:08:56,640 --> 00:08:59,220
+Because if implied just stays higher than realized,
+
+130
+00:08:59,260 --> 00:09:01,780
+and it's not like insider trading or something, well,
+
+131
+00:09:02,440 --> 00:09:04,980
+sellers are just going to crush. They're just going to make a ton of money.
+
+132
+00:09:05,280 --> 00:09:09,300
+Right? So it's always, the market's always trying to be efficient as possible,
+
+133
+00:09:10,120 --> 00:09:10,360
+right?
+
+134
+00:09:10,360 --> 00:09:15,320
+The implied volatility should be in line with the realized to some degree.
+
+135
+00:09:16,500 --> 00:09:19,560
+Yeah. And then, you know, and we see that here, right? And it's not,
+
+136
+00:09:19,660 --> 00:09:24,060
+this is not just a phenomenon with Tesla, it's a phenomenon with any stock.
+
+137
+00:09:25,180 --> 00:09:29,160
+I need to change it at the top there. Oh, yeah. Okay. It's a phenomenon. Here,
+
+138
+00:09:29,180 --> 00:09:30,940
+you know what? We'll just keep Tesla here, actually, for now.
+
+139
+00:09:42,510 --> 00:09:48,500
+You have to check the box. Right? It's not just a phenomenon with Tesla,
+
+140
+00:09:48,620 --> 00:09:51,480
+this is a phenomenon with any stock. And it makes sense why. Right? Like,
+
+141
+00:09:51,520 --> 00:09:51,960
+we really,
+
+142
+00:09:52,120 --> 00:09:56,780
+the reason we pause here is to understand why this IVRV spread sort of does this
+
+143
+00:09:56,780 --> 00:09:58,960
+thing where one will be higher than the other,
+
+144
+00:09:59,460 --> 00:10:01,300
+then they come back together and then one will be higher than the other and they
+
+145
+00:10:01,300 --> 00:10:04,100
+come back together. Now it's not like they move exactly like that,
+
+146
+00:10:04,160 --> 00:10:09,620
+but as you can see on this graph, it kind of does. Right? So when we, when we,
+
+147
+00:10:09,700 --> 00:10:11,800
+you know, we try to model the volatility, right?
+
+148
+00:10:11,860 --> 00:10:15,460
+And we look at a whole bunch of different models to try to forecast what the volatility
+
+149
+00:10:15,460 --> 00:10:19,540
+of Tesla will be in the future. Right? And if we think,
+
+150
+00:10:19,600 --> 00:10:21,180
+if we really think about this,
+
+151
+00:10:23,000 --> 00:10:29,440
+forecasting volatility is very similar to forecasting the temperature. Okay.
+
+152
+00:10:29,940 --> 00:10:33,800
+Today's temperature is going to be similar to tomorrow's temperature. Okay.
+
+153
+00:10:33,820 --> 00:10:34,360
+And the same,
+
+154
+00:10:34,620 --> 00:10:37,240
+the same thing happens in the volatility space and the option space.
+
+155
+00:10:41,500 --> 00:10:41,940
+Okay.
+
+156
+00:10:45,610 --> 00:10:56,370
+Forecast. So, so when we look at our forecast of vol, right,
+
+157
+00:10:56,390 --> 00:11:01,050
+our forecast for the next 30 days going forward, we think it's going to be 77%.
+
+158
+00:11:01,990 --> 00:11:05,070
+Okay. And, and this forecast is taking into consideration, well,
+
+159
+00:11:05,390 --> 00:11:07,490
+the mean reversion of volatility, right?
+
+160
+00:11:07,710 --> 00:11:11,790
+How up moves are different than down moves in volatility. Right?
+
+161
+00:11:12,030 --> 00:11:16,050
+And so we have a 77% forecast for the next 30 days,
+
+162
+00:11:16,550 --> 00:11:22,490
+yet the options are implying a 95%. Right? So this is too big. Okay. So that,
+
+163
+00:11:22,610 --> 00:11:25,970
+that is our analysis right now with Tesla. Option volatility,
+
+164
+00:11:26,330 --> 00:11:29,030
+options in general are too expensive.
+
+165
+00:11:32,790 --> 00:11:36,570
+Okay. Okay. So, and, and just a, just a quick SKU analysis here for you guys.
+
+166
+00:11:38,140 --> 00:11:41,020
+You can see that the out of the money calls are still crazy bit.
+
+167
+00:11:41,060 --> 00:11:41,680
+And I actually,
+
+168
+00:11:41,900 --> 00:11:49,150
+Steven had a fantastic point about how SKU should actually change. Okay.
+
+169
+00:11:49,250 --> 00:11:53,750
+Think about it like this. You are in the S&P 500 now. When stocks sell off,
+
+170
+00:11:54,620 --> 00:11:57,100
+well, the ETFs have to unload the shares.
+
+171
+00:11:57,540 --> 00:11:59,880
+That's going to drive down the price of the shares.
+
+172
+00:11:59,880 --> 00:12:05,220
+So we should now see put SKU, not call SKU, right?
+
+173
+00:12:05,280 --> 00:12:06,740
+But we're still seeing this call SKU.
+
+174
+00:12:06,820 --> 00:12:10,480
+And what Steve's looking into is selling a risk reversal,
+
+175
+00:12:10,960 --> 00:12:12,180
+selling those out of the money calls,
+
+176
+00:12:12,660 --> 00:12:16,840
+buying an out of the money put and hedging the shares. Okay.
+
+177
+00:12:16,980 --> 00:12:19,400
+So if you guys want to learn more about that, please reach out to Steve.
+
+178
+00:12:19,460 --> 00:12:22,540
+He's got a really good analysis for you. Yeah. So Jared has a good point here.
+
+179
+00:12:22,560 --> 00:12:26,360
+He's like, what about the influx of share purchases from fund managers on 21st?
+
+180
+00:12:26,980 --> 00:12:30,940
+Yes. So that's already going to be priced in, right? If we think about it,
+
+181
+00:12:30,960 --> 00:12:40,040
+Jared, it's like Tesla went from $300 billion to $600 billion on the news,
+
+182
+00:12:40,480 --> 00:12:44,020
+right? Or $350 billion to $600 billion just on the news, right?
+
+183
+00:12:44,620 --> 00:12:48,460
+And we can see this. So one beautiful thing that we have is data, right?
+
+184
+00:12:48,500 --> 00:12:49,680
+So we can actually say, okay, well,
+
+185
+00:12:49,860 --> 00:12:54,820
+what happened when other stocks were included? CRM, Yahoo,
+
+186
+00:12:55,380 --> 00:12:57,880
+what happened when these stocks got included into the index?
+
+187
+00:12:57,880 --> 00:13:01,540
+And you're going to see that on the announcement, right? Well,
+
+188
+00:13:01,580 --> 00:13:03,280
+everyone is going to be like,
+
+189
+00:13:03,430 --> 00:13:06,070
+this thing is going to be included into the market.
+
+190
+00:13:06,250 --> 00:13:09,880
+I should buy it before all these funds have to buy it. Right.
+
+191
+00:13:10,080 --> 00:13:12,600
+And so what happens is we start bidding up the price, bidding up the price,
+
+192
+00:13:12,680 --> 00:13:14,740
+bidding up the price. I'm going to hold Tesla.
+
+193
+00:13:14,860 --> 00:13:19,300
+Think about it from the trader's perspective. I'm going to hold Tesla. Okay.
+
+194
+00:13:20,220 --> 00:13:24,520
+I'm just going to rise. And now Sean comes in and says, I need Tesla.
+
+195
+00:13:24,640 --> 00:13:27,860
+I need Tesla shares. So now I'm going to provide you liquidity.
+
+196
+00:13:27,860 --> 00:13:30,280
+I'm going to sell, I'm going to sell, I'm going to sell, unload,
+
+197
+00:13:30,420 --> 00:13:33,280
+unload everything to Sean. Right. So that's what,
+
+198
+00:13:33,380 --> 00:13:38,380
+that's what it means by being baked in. Okay. Right. Like, uh,
+
+199
+00:13:38,500 --> 00:13:39,640
+and another way you could think of it,
+
+200
+00:13:39,720 --> 00:13:42,680
+it's maybe not as good of an example with where you went with it, but, uh,
+
+201
+00:13:43,180 --> 00:13:45,720
+let's go back to the weather example for a second. Right.
+
+202
+00:13:45,740 --> 00:13:49,500
+So today's weather is a good indicator of tomorrow's weather. Right. You know,
+
+203
+00:13:49,660 --> 00:13:52,500
+it was sunny today. It'd probably be sunny tomorrow, but let's say there,
+
+204
+00:13:52,580 --> 00:13:56,200
+you know, there was a huge hurricane down. We're in Toronto.
+
+205
+00:13:56,200 --> 00:13:57,380
+So let's say in down South,
+
+206
+00:13:57,520 --> 00:14:00,140
+there was like a huge hurricane and it's moving North tends to happen.
+
+207
+00:14:00,280 --> 00:14:02,900
+We usually get the tail end of hurricanes that happen like Florida,
+
+208
+00:14:03,000 --> 00:14:07,080
+for example. Well, if that hurricane, you know, starts arriving tomorrow,
+
+209
+00:14:08,020 --> 00:14:11,270
+the weatherman is going to think that there's rain tomorrow and we're going to be
+
+210
+00:14:11,270 --> 00:14:12,290
+aware of it. Everyone's gonna be aware of it.
+
+211
+00:14:12,350 --> 00:14:15,130
+And the forecast for tomorrow's weather will now incorporate the fact that there's
+
+212
+00:14:15,130 --> 00:14:17,650
+that impending big thing coming.
+
+213
+00:14:20,410 --> 00:14:22,990
+And also I was actually talking with Marcos about this yesterday.
+
+214
+00:14:23,490 --> 00:14:24,690
+I don't know if he wants to keep a secret,
+
+215
+00:14:24,770 --> 00:14:26,410
+so I'm not going to say it on the live,
+
+216
+00:14:26,490 --> 00:14:30,710
+but Marcos has some really good idea about positioning,
+
+217
+00:14:30,990 --> 00:14:35,950
+how funds are going to be basically positioning different positioning their equity
+
+218
+00:14:35,950 --> 00:14:38,850
+book. Now the S&P 500, how that's going to be positioned going forward.
+
+219
+00:14:39,650 --> 00:14:42,090
+And you know, there might be some other trades available.
+
+220
+00:14:42,270 --> 00:14:44,110
+So if you guys want to reach out to Marcos as well,
+
+221
+00:14:44,410 --> 00:14:47,210
+he's got some really cool structuring ideas that he's working on.
+
+222
+00:14:51,120 --> 00:14:52,560
+Let me just make sure we got some of the questions here.
+
+223
+00:15:00,940 --> 00:15:03,540
+So Jared, really good point. I actually don't have an answer for that,
+
+224
+00:15:03,600 --> 00:15:06,560
+but I did see a really good YouTube video on it recently.
+
+225
+00:15:06,560 --> 00:15:11,260
+It's actually on chat with traders. I really like this guy's name.
+
+226
+00:15:14,170 --> 00:15:15,030
+I can't remember his name now.
+
+227
+00:15:17,310 --> 00:15:22,710
+Something Narang. Oh yeah. Yeah. Your buddy. Yeah. I don't know.
+
+228
+00:15:22,710 --> 00:15:25,770
+I can't remember his first name. I actually saw that online. Rishi Narang.
+
+229
+00:15:26,190 --> 00:15:29,850
+It just came out two days ago. Check it out. Okay. It's actually,
+
+230
+00:15:29,930 --> 00:15:32,330
+he talks about this stuff and Marcos,
+
+231
+00:15:32,430 --> 00:15:33,590
+you're actually going to really like that video.
+
+232
+00:15:33,650 --> 00:15:35,990
+He talks exactly about what we were chatting about last night.
+
+233
+00:15:38,080 --> 00:15:42,020
+Okay. So anyways, overall, we want to be selling options.
+
+234
+00:15:42,120 --> 00:15:45,390
+We think they're overpriced now. That's great. Unfortunately,
+
+235
+00:15:45,450 --> 00:15:48,510
+we can't just say, okay, well, we're going to, we're going to sell options.
+
+236
+00:15:48,550 --> 00:15:49,590
+We actually need to go and do it.
+
+237
+00:15:49,590 --> 00:15:54,390
+And how do we structure the trade and express our view? Okay.
+
+238
+00:15:57,330 --> 00:16:04,040
+So let's open up thinkorswim. So just to clarify, guys, we want to sell vol.
+
+239
+00:16:05,840 --> 00:16:07,940
+And what's our view? Like, what do we think is going to happen?
+
+240
+00:16:08,020 --> 00:16:10,460
+Is realized vol going to be low? Is IV going to come down?
+
+241
+00:16:10,540 --> 00:16:11,460
+What do we think is going to happen?
+
+242
+00:16:11,460 --> 00:16:15,060
+We think that implied volatility is going to drop down to our forecast. Okay.
+
+243
+00:16:15,240 --> 00:16:19,380
+It's going to drop down to about 77%, which is also, you know,
+
+244
+00:16:19,640 --> 00:16:23,620
+inside this quantile, right? Somewhere just inside this quantile,
+
+245
+00:16:24,040 --> 00:16:26,780
+we think vol is going to drop. And actually in the long run,
+
+246
+00:16:26,880 --> 00:16:28,840
+I think vol is going to drop quite a bit down to 60,
+
+247
+00:16:28,900 --> 00:16:31,040
+but that's for a different day.
+
+248
+00:16:34,620 --> 00:16:34,740
+Okay.
+
+249
+00:16:41,160 --> 00:16:43,080
+Here's our, here's our GME guys.
+
+250
+00:16:45,370 --> 00:16:48,190
+Yeah. Here's our GME, right? If vol drops, what do I have it stressed to?
+
+251
+00:16:48,190 --> 00:16:56,120
+We have a stress to the negative 30% here, but we'll see tomorrow. Anyways,
+
+252
+00:16:56,220 --> 00:17:01,880
+we should, we should all be good tomorrow. Assuming it hangs above 14, 14, 25.
+
+253
+00:17:01,980 --> 00:17:04,470
+We're good guys. We're good. Too much stress.
+
+254
+00:17:04,570 --> 00:17:05,990
+Too much panic going on in the group.
+
+255
+00:17:08,980 --> 00:17:11,720
+Okay. Jared had a good question. He's saying,
+
+256
+00:17:11,840 --> 00:17:15,020
+I think Tesla could hit 800 by the 21st.
+
+257
+00:17:15,100 --> 00:17:18,960
+I assume you have to Delta hedge to offset that risk. Jared,
+
+258
+00:17:19,120 --> 00:17:21,960
+if it actually moves 800, I don't know what I'm going to do. Okay.
+
+259
+00:17:22,460 --> 00:17:25,800
+If it does go to 800, I'm going to be very upset. That being said,
+
+260
+00:17:25,860 --> 00:17:29,000
+if it does keep moving, I am going to have to keep hedging my shares,
+
+261
+00:17:29,460 --> 00:17:34,740
+but obviously from my position I have on, I wouldn't be, I wouldn't be,
+
+262
+00:17:34,820 --> 00:17:38,080
+I wouldn't be short vol if I thought I was going to 100, 800.
+
+263
+00:17:40,420 --> 00:17:42,800
+I really hope that that's not the case, Jared.
+
+264
+00:17:45,590 --> 00:17:47,890
+Okay. So how do we do this? Well, a couple of things guys,
+
+265
+00:17:47,950 --> 00:17:51,650
+which we actually chatted about this on our live yesterday with GME that if we look
+
+266
+00:17:51,650 --> 00:17:56,110
+at Tesla, okay, actually I sold the February. So let's go back to February.
+
+267
+00:17:57,530 --> 00:18:02,230
+If we look here, we can't sell an at the money option here.
+
+268
+00:18:02,310 --> 00:18:04,470
+We could sell an at the money option here, but it's not neutral.
+
+269
+00:18:04,610 --> 00:18:11,980
+It's not neutral in direction and at the money option here is 60 Delta minus 40
+
+270
+00:18:11,980 --> 00:18:15,660
+Delta, right? So we're actually short, sorry,
+
+271
+00:18:16,240 --> 00:18:18,960
+we're in short 60 Delta and long 40 Delta here.
+
+272
+00:18:19,540 --> 00:18:22,800
+We're actually short 20 Deltas and we can just take a look here guys.
+
+273
+00:18:26,100 --> 00:18:28,620
+And that was, that was a, if you guys weren't on our live last night,
+
+274
+00:18:28,700 --> 00:18:32,300
+that was because of the volatility of the stock.
+
+275
+00:18:33,020 --> 00:18:36,340
+High volatility stocks usually have Deltas above spot price.
+
+276
+00:18:38,130 --> 00:18:41,980
+So we actually want this thing to go down at inception. Okay.
+
+277
+00:18:41,980 --> 00:18:44,840
+So if you're going to sell a straddle here and you want to be neutral in direction,
+
+278
+00:18:45,260 --> 00:18:47,580
+you can't just sell them at the money. Okay.
+
+279
+00:18:47,580 --> 00:18:48,860
+You'd actually have to go up in price,
+
+280
+00:18:54,460 --> 00:19:00,020
+right? Something like, let's say 690. Okay. And now we're,
+
+281
+00:19:00,120 --> 00:19:06,790
+we are a Delta neutral. Okay. Now the beauty of the options is you can do,
+
+282
+00:19:07,210 --> 00:19:11,350
+if you want to be short Vega, you can structure lots of trades, tons of trades.
+
+283
+00:19:12,270 --> 00:19:13,950
+So in this case, right,
+
+284
+00:19:14,210 --> 00:19:16,970
+the way I structured it was actually a Delta 40 strangle.
+
+285
+00:19:19,770 --> 00:19:21,030
+So let's price it out.
+
+286
+00:19:26,060 --> 00:19:27,020
+Oh no.
+
+287
+00:19:31,950 --> 00:19:34,970
+Dude. Why am I? Why is that? It's not even. Good job. Oh,
+
+288
+00:19:34,990 --> 00:19:39,730
+it's this cronium thing. Does anyone know how to get rid of chromium? It's a,
+
+289
+00:19:40,480 --> 00:19:45,740
+it's a, I think it's a virus, eh? Yeah. Yeah. You have a virus. I don't know.
+
+290
+00:19:49,510 --> 00:19:55,250
+Wow. This is the first time. What the fuck? Wow. Guys.
+
+291
+00:19:55,330 --> 00:20:00,790
+I actually can't believe this brand new Mac breaking down live stream.
+
+292
+00:20:03,490 --> 00:20:06,950
+Short Apple. Okay. So we got the new M1 chip now.
+
+293
+00:20:07,090 --> 00:20:08,070
+Tico will tell you all about it.
+
+294
+00:20:15,780 --> 00:20:22,480
+So I decided to put on a Delta 40 strangle. So this is the position I have on,
+
+295
+00:20:22,800 --> 00:20:24,140
+but actually I think in this example,
+
+296
+00:20:24,360 --> 00:20:26,660
+because we're going to be talking about strangles versus straddles,
+
+297
+00:20:26,860 --> 00:20:29,740
+I'm going to go a little bit wider just so you guys can,
+
+298
+00:20:29,740 --> 00:20:33,600
+can really grasp the point. So we're going to do a Delta 25 strangle.
+
+299
+00:20:41,960 --> 00:20:46,380
+Some good questions in there. I think chromium is a virus. Yeah.
+
+300
+00:20:47,040 --> 00:20:50,740
+Koa just looked it up. Come on, Koa. Don't scare me like that mid-live, dude.
+
+301
+00:20:54,030 --> 00:20:55,670
+Okay. So let's look at the strangle here, guys.
+
+302
+00:20:55,670 --> 00:20:57,210
+So here is our Delta neutral strangle.
+
+303
+00:21:00,320 --> 00:21:04,540
+Now we are taught that this is more safe. Okay.
+
+304
+00:21:04,540 --> 00:21:08,740
+This is more safe than a straddle. Now I think really to understand this,
+
+305
+00:21:08,800 --> 00:21:10,620
+we need to actually look at it from the long side.
+
+306
+00:21:14,610 --> 00:21:19,180
+Okay. We need to look at this from the long side. So here's our straddle,
+
+307
+00:21:19,220 --> 00:21:25,580
+right? Now here's our strangle because we're out of the money. Okay.
+
+308
+00:21:25,620 --> 00:21:28,620
+And this is really important guys, because we're over the money on a strangle,
+
+309
+00:21:29,290 --> 00:21:33,300
+you're more sensitive to implied volatility. Okay.
+
+310
+00:21:33,300 --> 00:21:38,720
+So we are a lot more sensitive to implied volatility. And Jared, you probably,
+
+311
+00:21:39,040 --> 00:21:43,260
+you know, maybe thought about this as well, just because, you know,
+
+312
+00:21:43,520 --> 00:21:45,920
+a tasty trade hasn't put, you know, at least in my mind,
+
+313
+00:21:45,960 --> 00:21:49,740
+when I was first starting out, that strangles are safer,
+
+314
+00:21:51,000 --> 00:21:52,460
+but let's really think about this. Okay. Well,
+
+315
+00:21:52,760 --> 00:21:57,680
+what do they reduce your exposure to that makes them say it's safer range,
+
+316
+00:21:57,960 --> 00:22:02,370
+right? The range, right? It's like, okay. Our range is bigger, right?
+
+317
+00:22:02,370 --> 00:22:05,230
+And our break evens are bigger. So therefore it's safer.
+
+318
+00:22:05,670 --> 00:22:07,430
+And that's a really good, really good point there, Sean.
+
+319
+00:22:09,180 --> 00:22:13,040
+But the actual fact guys is that think about it like this. Okay.
+
+320
+00:22:13,060 --> 00:22:14,480
+I want you guys to think about it in terms of Delta.
+
+321
+00:22:15,720 --> 00:22:21,320
+What is going to give you more leverage on a 10% stock move and in the money option
+
+322
+00:22:21,320 --> 00:22:24,880
+or an out of the money option, right? Well,
+
+323
+00:22:24,920 --> 00:22:30,780
+that out of the money option is going to go from 5 cents to 5 bucks, right?
+
+324
+00:22:30,820 --> 00:22:36,580
+And the same goes for implied volatility. If implied volatility increases,
+
+325
+00:22:37,120 --> 00:22:42,040
+we actually add a second derivative, okay? A second order Greek,
+
+326
+00:22:42,660 --> 00:22:47,540
+and that's called, it kills me to say it, VOMA, okay?
+
+327
+00:22:48,800 --> 00:22:52,360
+What it means is as implied volatility increases,
+
+328
+00:22:52,900 --> 00:22:58,320
+the wings actually increase faster. Okay. Just like,
+
+329
+00:22:58,460 --> 00:23:02,620
+you know how our Delta guys for our directional bet, right? The wings.
+
+330
+00:23:02,620 --> 00:23:06,580
+So let's look at one option here just so we can really understand this thoroughly.
+
+331
+00:23:06,760 --> 00:23:07,880
+I think it's so, so important.
+
+332
+00:23:11,460 --> 00:23:14,260
+Yeah. We're going to go for a, we're going to look at this 38 day option.
+
+333
+00:23:26,310 --> 00:23:30,610
+The worst lag this computer has ever experienced. Ever. I can't believe this.
+
+334
+00:23:30,890 --> 00:23:36,120
+It's crazy. Oh my God. Okay. Let's look at this option here guys. Okay.
+
+335
+00:23:38,520 --> 00:23:41,720
+At first. Okay. Let's take a look here.
+
+336
+00:23:43,780 --> 00:23:48,720
+So at first we don't have a lot of Delta exposure. Okay. Look at our Delta,
+
+337
+00:23:48,820 --> 00:23:54,680
+right? It's a hundred. It's a hundred Delta. Look at this exponential increase,
+
+338
+00:23:54,920 --> 00:24:02,300
+right? As we hit, as we hit the curve, it starts increasing rapidly, right?
+
+339
+00:24:02,300 --> 00:24:05,800
+And that's why they say Delta doesn't kill traders, Gamma does.
+
+340
+00:24:06,040 --> 00:24:11,020
+Because you sell this way out of the money option and everything is good until it
+
+341
+00:24:11,020 --> 00:24:11,980
+actually starts picking up, right?
+
+342
+00:24:12,020 --> 00:24:14,100
+You don't care what happens if the stock moves like this,
+
+343
+00:24:14,610 --> 00:24:19,630
+but once the stock gets going, you're in big trouble. Right? Okay.
+
+344
+00:24:19,630 --> 00:24:24,170
+And that's that, that's that, that increase in Delta. As you get to the wings,
+
+345
+00:24:26,630 --> 00:24:29,290
+volatility is going to be exactly the same. Okay. Let's take a look.
+
+346
+00:24:29,370 --> 00:24:31,590
+Let's increase vol here guys. Let's see what happens.
+
+347
+00:24:34,570 --> 00:24:38,400
+Do you hear that? Yeah, it's crazy. I don't know what it is.
+
+348
+00:24:41,310 --> 00:24:48,690
+Don't worry about it. Just keep chugging along. It must be the virus. Okay.
+
+349
+00:24:48,830 --> 00:24:52,660
+So let's increase vol here guys. Okay. Watch what happens here.
+
+350
+00:24:53,880 --> 00:25:01,820
+We're just going to increase vol 10 points. Okay. And look at this. We go from,
+
+351
+00:25:02,670 --> 00:25:05,550
+I guess it tests us so much, but so if we go,
+
+352
+00:25:06,030 --> 00:25:10,760
+let's look at our P&L at 1000 here. Okay. Or you can even add spot.
+
+353
+00:25:14,740 --> 00:25:22,290
+Too far out. Okay. Let's look at our P&L here at, uh, right here at 900. Okay.
+
+354
+00:25:23,750 --> 00:25:27,830
+When we increase vol, let's say 20 points. Okay.
+
+355
+00:25:29,510 --> 00:25:33,470
+We didn't take note of what it was before. Oh, okay. Sorry guys.
+
+356
+00:25:33,550 --> 00:25:36,590
+Give me one second here. We're going to go to add the money.
+
+357
+00:25:36,590 --> 00:25:44,060
+So at the money P&L, when vol increases 20 points is, what is our P&L?
+
+358
+00:25:44,440 --> 00:25:48,800
+Is $8,000. Okay. 8,000 bucks.
+
+359
+00:25:55,350 --> 00:26:01,310
+So by increasing vol 20 points, it's all good. That's the term. Logging out.
+
+360
+00:26:01,430 --> 00:26:01,550
+Okay.
+
+361
+00:26:04,920 --> 00:26:08,310
+By increasing the vol 20 points, this thing,
+
+362
+00:26:08,610 --> 00:26:17,010
+this thing increases 10 grand from an option that only cost us 10,000 to put on,
+
+363
+00:26:18,110 --> 00:26:22,040
+it's going to double up in value. And that's simply because of this,
+
+364
+00:26:22,140 --> 00:26:25,700
+this exposure to the wings, right? This VOMA, right?
+
+365
+00:26:25,780 --> 00:26:29,000
+The wings are gonna get more expensive a lot quicker. Okay.
+
+366
+00:26:29,480 --> 00:26:35,400
+So let's actually go back here and show this in real time. So watch this guys.
+
+367
+00:26:35,520 --> 00:26:41,550
+Okay. I want you guys to take a look at this. So we're gonna do two things.
+
+368
+00:26:41,550 --> 00:26:42,530
+Okay. We're gonna look at one.
+
+369
+00:26:45,550 --> 00:26:49,030
+We are going to look at, um,
+
+370
+00:26:51,390 --> 00:26:54,570
+two different strategies. Okay. Two different strategies.
+
+371
+00:26:54,570 --> 00:26:57,590
+First is the straddle. Okay.
+
+372
+00:26:58,350 --> 00:27:05,210
+And our Vega exposure on the straddle is going to be 1,663.
+
+373
+00:27:05,370 --> 00:27:14,710
+You guys see that 1,663 and we're going to create a strangle with the exact same
+
+374
+00:27:14,710 --> 00:27:15,610
+Vega exposure.
+
+375
+00:27:25,200 --> 00:27:28,720
+So something to clarify, I think is we want exposure to Vega.
+
+376
+00:27:31,950 --> 00:27:33,350
+That's our number one thing, right?
+
+377
+00:27:33,350 --> 00:27:37,370
+Our view is that the level of implied volatility is going to decrease.
+
+378
+00:27:39,880 --> 00:27:41,700
+But I think like to understand the point,
+
+379
+00:27:41,760 --> 00:27:46,550
+we've got to go from the long side first. So here we have two positions.
+
+380
+00:27:47,090 --> 00:27:52,210
+They have the exact same Vega exposure. Okay. Exactly the same.
+
+381
+00:27:52,690 --> 00:27:58,670
+This one has 1,700 and this one has 1,650. So $50 difference.
+
+382
+00:27:59,230 --> 00:28:06,150
+Now let's increase implied volatility by 25 points. Okay.
+
+383
+00:28:06,150 --> 00:28:09,170
+And we're going to go a little bit much here just to, to, to really,
+
+384
+00:28:10,750 --> 00:28:20,000
+to really express the point. Okay. So we paid $16,500 for this position. Okay.
+
+385
+00:28:20,460 --> 00:28:26,860
+$165, 10 lots, 16,000, sorry, $165,000 for this position.
+
+386
+00:28:29,080 --> 00:28:38,500
+And we made 40 grand. So we paid 165 grand and we made $40,000 on 25% increase.
+
+387
+00:28:39,380 --> 00:28:41,740
+Okay. Now let's look at the strata of the strength.
+
+388
+00:28:44,620 --> 00:28:53,060
+We go, we pay a 14 times 52 is 50,020 is 70,
+
+389
+00:28:53,160 --> 00:29:01,820
+we pay $70,000 for this position and we make $43,000. Okay. We pay 70 grand,
+
+390
+00:29:01,940 --> 00:29:08,090
+we make 43. That is more than 50% of our,
+
+391
+00:29:08,330 --> 00:29:13,460
+more than 50% increase when the other one only made 25%. Right.
+
+392
+00:29:13,460 --> 00:29:19,840
+That leverage factor. It's that as, as Vega increases, okay.
+
+393
+00:29:21,050 --> 00:29:25,620
+The wings actually increase quicker. Okay. And that's called,
+
+394
+00:29:25,700 --> 00:29:30,520
+there's a third derivative called VOMA or second derivative called VOMA higher derivative.
+
+395
+00:29:34,110 --> 00:29:35,670
+So let's go back to our position.
+
+396
+00:29:42,720 --> 00:29:46,060
+So why do we want to go and sell the strangle instead? Well,
+
+397
+00:29:47,200 --> 00:29:48,180
+for that exact reason,
+
+398
+00:29:53,170 --> 00:29:56,550
+for that exact reason, if we're right, okay,
+
+399
+00:29:56,550 --> 00:30:01,380
+we are going to get the most exposure. Okay. If we're right,
+
+400
+00:30:01,740 --> 00:30:07,720
+as Vega comes down, the wings are going to come down even quicker, right?
+
+401
+00:30:07,800 --> 00:30:12,420
+And that's what we want the exposure to is that we are taking on more leverage.
+
+402
+00:30:14,640 --> 00:30:15,740
+Okay. We're taking on more leverage.
+
+403
+00:30:15,820 --> 00:30:20,130
+We're taking on more sensitivity to that implied volatility. Okay.
+
+404
+00:30:21,340 --> 00:30:24,600
+So that's why you would choose a strangle over a strata is if,
+
+405
+00:30:24,750 --> 00:30:28,270
+do you want more, do you want more risk? Right.
+
+406
+00:30:28,330 --> 00:30:32,730
+Do you want more exposure to that, to that, that decrease in volatility?
+
+407
+00:30:33,450 --> 00:30:40,290
+And there's actually another reason why as well, is that volatility inside the,
+
+408
+00:30:40,330 --> 00:30:45,710
+the, the wings is going to remain constant Vega inside the, the, the strikes,
+
+409
+00:30:45,910 --> 00:30:47,570
+sorry, is going to remain constant.
+
+410
+00:30:50,110 --> 00:30:54,810
+So those are the reasons why we're taking the short strangle versus the short straddle.
+
+411
+00:30:55,110 --> 00:30:58,310
+Let's say you decide that a strangle is the way to go.
+
+412
+00:30:58,370 --> 00:31:02,850
+You understand why you're taking it. How far, how wide do you make it? Yeah.
+
+413
+00:31:02,870 --> 00:31:04,870
+That's a really good point, right? So think about it like this guys.
+
+414
+00:31:07,010 --> 00:31:11,890
+So a lot of the times we need to think in terms of dollar gain versus implied vol
+
+415
+00:31:11,890 --> 00:31:14,090
+gain, right? Example,
+
+416
+00:31:14,150 --> 00:31:19,820
+you could sell a way out of the money option on Tesla at 120 eyeball for a dollar,
+
+417
+00:31:20,860 --> 00:31:24,880
+right? And if vol drops, you gain a dollar, or you can get more Vega exposure.
+
+418
+00:31:25,180 --> 00:31:27,500
+When vol drops, you make quite a bit of money.
+
+419
+00:31:28,020 --> 00:31:33,860
+So you always have a trade-off between implied vol versus dollar, right?
+
+420
+00:31:33,860 --> 00:31:35,600
+So implied vol gain versus dollar gain.
+
+421
+00:31:36,000 --> 00:31:42,300
+I usually like to go between Delta 40 and Delta 30 just because, well, one,
+
+422
+00:31:42,400 --> 00:31:45,640
+I get a little bit, a little bit sensitivity to that, that third order Greek,
+
+423
+00:31:45,860 --> 00:31:47,020
+right? If I'm right.
+
+424
+00:31:47,420 --> 00:31:50,360
+And then also because as long as the stock stays within that,
+
+425
+00:31:50,540 --> 00:31:54,100
+within those strikes, I'm going to have the same Vega exposure throughout,
+
+426
+00:31:59,350 --> 00:32:01,870
+right? Yeah. Steve. So the Vega doesn't remain constant.
+
+427
+00:32:01,950 --> 00:32:05,890
+It actually changes just like how Delta changes, right? Vega changes as well.
+
+428
+00:32:05,890 --> 00:32:09,670
+And it actually never changes at the money. It only changes in the wings.
+
+429
+00:32:14,690 --> 00:32:17,490
+Yeah. Jerry, I used up all my VP today, man. I couldn't, uh,
+
+430
+00:32:17,490 --> 00:32:20,690
+I couldn't get any more Tesla on. And uh, I'm sure for you in the state,
+
+431
+00:32:20,750 --> 00:32:23,030
+do you guys get portfolio margin in Canada? We don't.
+
+432
+00:32:23,430 --> 00:32:37,280
+So these things per lot cost me 50, 50 K to put on Terrence saying,
+
+433
+00:32:37,380 --> 00:32:42,520
+does making this an IC pose the Vega? Yeah, it does. Right. Unfortunately,
+
+434
+00:32:44,120 --> 00:32:48,510
+you know, you go out and buy the wings here, right? Think of it like this guys,
+
+435
+00:32:48,570 --> 00:32:52,030
+right? If we're looking at the Vega, Theta Vega, right? Here's our Vega.
+
+436
+00:32:52,270 --> 00:32:55,790
+So we're selling, let's say 84 Vega here, or let's say we're selling,
+
+437
+00:32:56,090 --> 00:32:59,210
+let's say 80 Vega on the wings. And then we're going to buy out,
+
+438
+00:32:59,630 --> 00:33:03,730
+they're buying 40 Vega, right? So if you want the same exposure,
+
+439
+00:33:04,670 --> 00:33:06,490
+you just need to increase your position.
+
+440
+00:33:07,860 --> 00:33:12,020
+But now you have the third order Greeks working against you.
+
+441
+00:33:12,450 --> 00:33:14,990
+When implied vol drops, guess what's happening?
+
+442
+00:33:15,170 --> 00:33:16,390
+Your wings are dropping quicker.
+
+443
+00:33:18,660 --> 00:33:23,040
+Your wings are dropping quicker. But if you go really far out, well,
+
+444
+00:33:23,100 --> 00:33:26,320
+now we're talking the dollar terms that it's dropping. Doesn't really matter.
+
+445
+00:33:26,460 --> 00:33:29,800
+Right? Think about it like this. Let's imagine we had,
+
+446
+00:33:29,880 --> 00:33:34,040
+let's say a 3000 strike and you bought those wings. Well, sure.
+
+447
+00:33:34,100 --> 00:33:35,500
+Implied vol is going to drop like crazy,
+
+448
+00:33:35,700 --> 00:33:40,500
+but you're going from 10 cents to zero while you're making $20 at the money,
+
+449
+00:33:41,360 --> 00:33:42,220
+right?
+
+450
+00:33:42,220 --> 00:33:46,900
+So we're always in that trade-off between dollar return and implied vol return.
+
+451
+00:33:51,400 --> 00:33:53,400
+Yeah. Right. Right. And you know,
+
+452
+00:33:53,440 --> 00:33:55,620
+that's why sometimes you look at the skew for example,
+
+453
+00:33:55,620 --> 00:34:00,100
+and you'll see like way out of the money calls are so bid and it's like,
+
+454
+00:34:00,120 --> 00:34:05,440
+it's not worth our time to go, you know? It's like your commissions slippage,
+
+455
+00:34:05,600 --> 00:34:09,240
+how much are you going to make here? 10 cents? Yeah. You know,
+
+456
+00:34:09,260 --> 00:34:12,820
+we could always sell those way out of the money Delta two options for 300% implied
+
+457
+00:34:12,820 --> 00:34:16,950
+vol to make two cents. It's not worth it. Not worth it.
+
+458
+00:34:20,880 --> 00:34:25,360
+So wow, that was a, I didn't realize I ranted that hard. Wow.
+
+459
+00:34:26,160 --> 00:34:29,730
+Any questions guys? Yeah. Jared saying,
+
+460
+00:34:29,990 --> 00:34:34,570
+how does the vol drop effect of vertical? Depends where you place it. Right?
+
+461
+00:34:34,630 --> 00:34:35,310
+Check this out. Jared.
+
+462
+00:34:38,370 --> 00:34:40,870
+Let's say we're looking at Tesla. We'll do the 38 day.
+
+463
+00:34:45,820 --> 00:34:50,000
+If I'm buying a digital, right? If I'm buying a digital here, let's say one,
+
+464
+00:34:50,180 --> 00:34:55,460
+a little bit of lag today. Okay. So here's my digital.
+
+465
+00:35:01,440 --> 00:35:07,280
+Okay. Well changing the vol is not going to do anything.
+
+466
+00:35:07,280 --> 00:35:17,850
+It's not really going to do anything because I got no Vega. I got no Vega.
+
+467
+00:35:19,040 --> 00:35:22,130
+My Vega is eight bucks, but watch this. Let's see what we do.
+
+468
+00:35:22,230 --> 00:35:25,760
+This at the money wide vertical,
+
+469
+00:35:31,550 --> 00:35:35,750
+but all of a sudden I got a ton of Vega now, right? Well,
+
+470
+00:35:35,750 --> 00:35:39,510
+I got six times more Vega. Okay.
+
+471
+00:35:39,530 --> 00:35:43,550
+So depending on where the option is placed is really going to depend.
+
+472
+00:35:46,470 --> 00:35:50,810
+So Coa says, why not sell the December 24th vol should drop.
+
+473
+00:35:50,810 --> 00:35:54,680
+So basically how'd you pick your expiry? Yep. That's a really good point. Cool.
+
+474
+00:35:54,760 --> 00:35:55,660
+Let's go back to the term.
+
+475
+00:35:59,830 --> 00:36:03,270
+Marcos really upset right now because he doesn't like the, uh,
+
+476
+00:36:03,310 --> 00:36:07,530
+I actually think it might be less than 30 minutes. Yeah. Double check it.
+
+477
+00:36:09,160 --> 00:36:13,740
+And he's like, I told you, I told you guys, I told you guys.
+
+478
+00:36:14,450 --> 00:36:18,090
+And then we have one last question for Marcos there that I think is really good
+
+479
+00:36:18,090 --> 00:36:23,740
+as well. Okay. So, um, so,
+
+480
+00:36:27,610 --> 00:36:35,530
+um, I wanted exposure to Vega. Okay. I wanted exposure to if implied vol drops,
+
+481
+00:36:35,730 --> 00:36:39,830
+I don't really have gamma. The stock moves up 10% stock moves down 20%.
+
+482
+00:36:39,830 --> 00:36:44,710
+It doesn't really matter too much. What matters is the level of implied vol,
+
+483
+00:36:45,090 --> 00:36:48,030
+especially for a long graded option. And that's what I really cared about.
+
+484
+00:36:48,540 --> 00:36:57,180
+Okay. Okay. So what we have is, uh, what we have is what we have is the width.
+
+485
+00:36:59,770 --> 00:37:00,250
+Okay.
+
+486
+00:37:00,270 --> 00:37:02,930
+I'm going to show you this and I'm going to break it down for you in more in depth.
+
+487
+00:37:02,970 --> 00:37:03,190
+Okay.
+
+488
+00:37:05,370 --> 00:37:05,970
+It's not testing.
+
+489
+00:37:12,800 --> 00:37:15,840
+Yes. So longer dated. Okay.
+
+490
+00:37:16,100 --> 00:37:20,770
+Longer dated means more sensitive to the implied volatility level. Okay.
+
+491
+00:37:21,370 --> 00:37:26,220
+When shorter dated means more sensitive to the realized vol. So check this out.
+
+492
+00:37:27,860 --> 00:37:34,560
+I think that this option is going to drop 15 handles. Well,
+
+493
+00:37:34,640 --> 00:37:37,720
+let's take a look at our Vega. Let's just go to the option calculator, right?
+
+494
+00:37:40,990 --> 00:37:46,830
+Okay. Let's price an option at TECO where let's say we're looking at the, uh,
+
+495
+00:37:46,830 --> 00:37:49,720
+at the February options. Okay.
+
+496
+00:37:51,290 --> 00:37:57,950
+And let's look at our Vega or watch this TECO as we get closer to expiration,
+
+497
+00:37:58,370 --> 00:38:03,430
+right? So here we are now, as we get closer to expiration, our Vega drops.
+
+498
+00:38:04,660 --> 00:38:09,520
+So our sensitivity to implied vol drops, but look at the opposite,
+
+499
+00:38:09,700 --> 00:38:12,570
+look what happens on the opposite side. Okay.
+
+500
+00:38:16,290 --> 00:38:24,020
+Our sensitivity to the actual movement of the stock increases. So we have this,
+
+501
+00:38:24,020 --> 00:38:26,900
+uh, we have this trade off here and I was just talking to Ned about it.
+
+502
+00:38:28,730 --> 00:38:29,550
+Near dated stuff.
+
+503
+00:38:29,970 --> 00:38:35,180
+We are concerned about that sensitivity to the underlying stock.
+
+504
+00:38:36,760 --> 00:38:40,410
+Is it going to move or is it not going to move? If it doesn't move,
+
+505
+00:38:40,510 --> 00:38:42,590
+we don't care about implied vol as long as it doesn't move.
+
+506
+00:38:43,870 --> 00:38:45,110
+But for the longer dated stuff,
+
+507
+00:38:45,370 --> 00:38:51,420
+it can move all at once as long as implied vol drops or it increases from the long
+
+508
+00:38:51,420 --> 00:38:56,670
+side. Okay. So that's your trade off there, right? There's no better,
+
+509
+00:38:57,170 --> 00:39:00,030
+there's no better here. It's what do you think is going to happen?
+
+510
+00:39:04,830 --> 00:39:05,470
+Yeah. Yeah. Thanks Jared.
+
+511
+00:39:08,210 --> 00:39:14,460
+We should make a PA terminal keyboard. We should. That'd be cool. Okay. Uh,
+
+512
+00:39:14,460 --> 00:39:16,680
+just answer Marco's question here. That was really good as well.
+
+513
+00:39:18,440 --> 00:39:23,580
+Where are we wrong? So, uh, Marcos, are you saying,
+
+514
+00:39:23,760 --> 00:39:29,610
+when do we say we're wrong or how can this be a bad trade? I guess,
+
+515
+00:39:29,670 --> 00:39:31,330
+I guess they're both, they're both one in the same.
+
+516
+00:39:34,160 --> 00:39:36,840
+So, um, this is really tough, right?
+
+517
+00:39:36,840 --> 00:39:39,420
+This is really tough because as implied vol increases,
+
+518
+00:39:39,720 --> 00:39:42,110
+I'm going to be more and more, you know,
+
+519
+00:39:42,150 --> 00:39:43,270
+thinking this thing is going to be great.
+
+520
+00:39:43,350 --> 00:39:45,770
+This thing I should be selling more and more just like today, right?
+
+521
+00:39:45,790 --> 00:39:51,920
+I was already in a position implied vol increased and I sold some more. Um,
+
+522
+00:39:52,280 --> 00:39:58,560
+so where I'm going to be wrong is if the stock blows out, if it moves,
+
+523
+00:39:58,640 --> 00:40:03,160
+let's say 15%, I'm wrong. I have to close out the position.
+
+524
+00:40:03,220 --> 00:40:05,840
+I have to keep hedging. My, my, my Vegas is going to dry up.
+
+525
+00:40:06,460 --> 00:40:08,080
+So if we go back to the analyze tab,
+
+526
+00:40:18,500 --> 00:40:22,060
+I'm just going to do a, not when it hits 800, if it hits 800,
+
+527
+00:40:22,420 --> 00:40:25,760
+we can't be wishing that into existence, man, you Tico, you,
+
+528
+00:40:25,840 --> 00:40:28,960
+you basically influenced Jared to think this thing's going to 800.
+
+529
+00:40:29,200 --> 00:40:30,740
+Now what's going on here, guys,
+
+530
+00:40:30,760 --> 00:40:33,820
+you guys can hold off seeing 800 for a couple of months. Come on, guys.
+
+531
+00:40:33,820 --> 00:40:37,120
+Let us make our money. Then you make your money. Exactly. Come on, guys.
+
+532
+00:40:38,620 --> 00:40:41,820
+We're Tesla bros. Now, by the way, Jared, you're typing to all panelists.
+
+533
+00:40:41,860 --> 00:40:43,460
+So if you want everyone else to see your message,
+
+534
+00:40:43,500 --> 00:40:44,700
+you do all panelists and attendees.
+
+535
+00:40:56,220 --> 00:40:59,740
+Um, Marcos. So one thing, one thing that we, uh,
+
+536
+00:40:59,940 --> 00:41:03,700
+that we note is that realized vol and implied vol are correlated. Remember how,
+
+537
+00:41:03,780 --> 00:41:05,540
+like we say to implied vols up,
+
+538
+00:41:05,680 --> 00:41:09,400
+realized vol comes or from realized vol down implied vol comes down with one of
+
+539
+00:41:09,400 --> 00:41:14,420
+the two, they, the spread closes. So I'm going to be wrong, right?
+
+540
+00:41:14,720 --> 00:41:19,110
+If this thing, let's say moves a lot closer to my break.
+
+541
+00:41:19,130 --> 00:41:23,310
+Even I got basically my Vega starts to run dry, right? My,
+
+542
+00:41:23,530 --> 00:41:27,690
+I start to lose a ton of Vega out here, right. Versus when it was over here.
+
+543
+00:41:30,500 --> 00:41:35,640
+Right. I lose a thousand Vegas down here. And at that point, I got to say,
+
+544
+00:41:35,700 --> 00:41:38,900
+okay, I'm wrong, right? I don't have a position on anymore.
+
+545
+00:41:39,040 --> 00:41:43,530
+That really expresses my view, right? Sure. I'm short Vega, but I'm,
+
+546
+00:41:43,730 --> 00:41:47,090
+I have a ton of risk on, and so I'm going to have to close out the position.
+
+547
+00:41:48,170 --> 00:41:53,070
+Okay. I was saying, so if all does not drop in time goes by, well,
+
+548
+00:41:53,110 --> 00:41:55,610
+if all doesn't drop in time goes, okay. I see what you're saying.
+
+549
+00:41:55,610 --> 00:41:59,760
+So that's going to be a really hard one because like,
+
+550
+00:41:59,860 --> 00:42:01,560
+if we look at our silver position, right.
+
+551
+00:42:02,940 --> 00:42:06,900
+We had the position on for like two months and then it took two months for it to
+
+552
+00:42:06,900 --> 00:42:08,780
+pay off. Right. And sure. It was a great return,
+
+553
+00:42:08,780 --> 00:42:11,240
+but was it the best use of our capital?
+
+554
+00:42:11,300 --> 00:42:13,820
+Because it took two months to take to really come through.
+
+555
+00:42:15,200 --> 00:42:20,380
+And that's a really good, that's a really good point, Marcos.
+
+556
+00:42:21,020 --> 00:42:22,600
+And although I should have thought about this,
+
+557
+00:42:22,800 --> 00:42:24,280
+shouldn't have thought about that entering this trade.
+
+558
+00:42:26,170 --> 00:42:28,850
+I'm going to actually think a lot more about that after you mentioned it,
+
+559
+00:42:32,250 --> 00:42:33,430
+but that's a very good point, Marcos.
+
+560
+00:42:33,650 --> 00:42:39,760
+I hope everyone understood what Marco is saying is that if we do sell ball and what
+
+561
+00:42:39,760 --> 00:42:43,500
+if just nothing happens? Well, okay. Well, first off, right. First off,
+
+562
+00:42:43,560 --> 00:42:47,090
+if nothing happens, we're going to make a little bit of money,
+
+563
+00:42:47,130 --> 00:42:49,730
+but because our Vega, our theta is so low,
+
+564
+00:42:49,870 --> 00:42:52,770
+we're not going to make a lot of money and it could be a really bad use of capital.
+
+565
+00:42:53,150 --> 00:42:56,410
+Yeah. Unless it stays pinned at the current price and we hold it to expiration.
+
+566
+00:42:56,410 --> 00:42:59,090
+It'd be a huge winner. It'd be a huge winner. But it's also like,
+
+567
+00:42:59,570 --> 00:43:03,920
+it's also like our capital could have been somewhere else for so much that.
+
+568
+00:43:07,050 --> 00:43:07,410
+Okay.
+
+569
+00:43:09,660 --> 00:43:13,260
+So no more questions. If anyone has, sorry, if anyone has any more questions,
+
+570
+00:43:13,280 --> 00:43:16,640
+if not, there's no more questions. We will end the live here. By the way,
+
+571
+00:43:16,640 --> 00:43:20,880
+we had a great turnout tonight, everyone. Dave, good to see you. Joe.
+
+572
+00:43:23,000 --> 00:43:27,920
+Awesome. Awesome. Awesome. Really good. Leon. Leon and Lawrence. Lawrence, man.
+
+573
+00:43:29,560 --> 00:43:31,680
+And Mark. Hey, what's going on, Mark? Awesome.
+
+574
+00:43:34,040 --> 00:43:38,680
+Awesome. If I knew Mark was here, I would have, I would have really,
+
+575
+00:43:38,900 --> 00:43:40,160
+I would have done a whole PowerPoint.
+
+576
+00:43:42,880 --> 00:43:45,660
+Okay. So that will be the live for tonight, everyone.

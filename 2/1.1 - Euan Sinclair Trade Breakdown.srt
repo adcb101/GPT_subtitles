@@ -1,0 +1,2467 @@
+1
+00:00:00,000 --> 00:00:03,700
+Yeah, if we actually start breaking it down here step by step marks,
+
+2
+00:00:03,780 --> 00:00:08,060
+like somebody got a haircut It's so funny man. Sean Sean did it for me.
+
+3
+00:00:08,220 --> 00:00:10,520
+I Do a good job.
+
+4
+00:00:10,600 --> 00:00:14,340
+It's all right I think if if trading doesn't work out and if predicting alpha falls
+
+5
+00:00:14,340 --> 00:00:18,240
+through I've always got a backup career as a barber Yeah, you know what? Yeah.
+
+6
+00:00:18,680 --> 00:00:22,960
+Hey, but if you look at Sean's head, you know who did this this guy this guy.
+
+7
+00:00:23,260 --> 00:00:25,260
+Yeah Who did a better job?
+
+8
+00:00:26,120 --> 00:00:31,820
+Yeah It's like it's kind of it's kind of insulting if they would say That I did
+
+9
+00:00:31,820 --> 00:00:37,950
+the better job. Well, because I mean my hair my hair. Oh, yeah That's funny,
+
+10
+00:00:38,070 --> 00:00:43,540
+okay, maybe stick with options Thanks, Dan. Okay guys,
+
+11
+00:00:43,660 --> 00:00:52,040
+so we're gonna jump right into this Let me Make sure we're all good here Okay,
+
+12
+00:00:52,560 --> 00:00:56,040
+so I'm gonna share my screen and we are gonna get started here.
+
+13
+00:00:59,160 --> 00:01:02,660
+We'll give it We'll give it one more minute here just for the guys to trickle in
+
+14
+00:01:05,500 --> 00:01:11,040
+No, we make sure we get the chat open and stuff. Yeah Okay,
+
+15
+00:01:11,040 --> 00:01:18,550
+let me just grab my charger super quick man, okay Yeah,
+
+16
+00:01:18,570 --> 00:01:21,390
+we're gonna get started in one second here just give some time for people to trickle
+
+17
+00:01:21,390 --> 00:01:25,270
+in Jordan's got to grab his charger and Then we're gonna get started Really cool
+
+18
+00:01:25,270 --> 00:01:27,690
+trade breakdown. I think it'll be really insightful.
+
+19
+00:01:27,790 --> 00:01:34,260
+We're really excited to go through this with you Okay,
+
+20
+00:01:34,260 --> 00:01:40,670
+sit down wrap bring this around I Will get this all plugged in okay,
+
+21
+00:01:40,750 --> 00:01:49,160
+so I'm actually gonna start out by Going through going to show you who you and Sinclair
+
+22
+00:01:49,160 --> 00:01:54,440
+is just so we can So we can all be on the same page. Yeah,
+
+23
+00:01:54,460 --> 00:01:56,040
+why like sure it's not our trade,
+
+24
+00:01:56,120 --> 00:02:05,210
+but why the hell should we listen to this guy? so Okay,
+
+25
+00:02:07,100 --> 00:02:10,440
+so you and Sinclair is waiting for his picture to load So you guys can you guys
+
+26
+00:02:10,440 --> 00:02:11,760
+can see who we're gonna be chatting about.
+
+27
+00:02:12,100 --> 00:02:15,400
+So he's a funny-looking dude a It's kind of a funny-looking guy.
+
+28
+00:02:15,480 --> 00:02:19,790
+He's actually Australian and Really smart guy.
+
+29
+00:02:20,150 --> 00:02:22,430
+He's partner at the firm Talton Capital.
+
+30
+00:02:22,790 --> 00:02:29,290
+He used to work as a serious trader for Bluefin Before going out on his own to become
+
+31
+00:02:29,290 --> 00:02:35,650
+a professional to be a partner in the firm So he went from trader to partner in
+
+32
+00:02:35,650 --> 00:02:38,710
+the firm and he's been trading options for you know,
+
+33
+00:02:38,830 --> 00:02:45,110
+probably over 25 years really smart guy has his PhD and Absolutely dominated the
+
+34
+00:02:45,110 --> 00:02:46,170
+the option space.
+
+35
+00:02:46,630 --> 00:02:50,230
+He's decided to give a lot back to the the options community and he's written a
+
+36
+00:02:50,230 --> 00:02:52,230
+few Really good bucks.
+
+37
+00:02:52,330 --> 00:02:57,150
+You really good book really good books so we're gonna go through one of his trade
+
+38
+00:02:57,150 --> 00:03:02,910
+breakdowns and You know how it played out how he managed his risk and the whole
+
+39
+00:03:02,910 --> 00:03:09,720
+the whole play-by-play so you guys can see What an eight-figure trader does and
+
+40
+00:03:09,720 --> 00:03:12,280
+when I mean eight-figure trader I don't mean he's making a hundred and fifty percent
+
+41
+00:03:12,280 --> 00:03:13,620
+a year on you know,
+
+42
+00:03:13,680 --> 00:03:18,600
+a million dollars or five hundred thousand bucks What I'm saying is he manages a
+
+43
+00:03:18,600 --> 00:03:20,860
+lot of money And so he might make you know,
+
+44
+00:03:20,900 --> 00:03:28,980
+25 35 40 percent a year on his on his capital So with that said let's jump right
+
+45
+00:03:28,980 --> 00:03:31,660
+into it. So guys pay really good attention here. Okay,
+
+46
+00:03:31,680 --> 00:03:33,120
+this is very important You know,
+
+47
+00:03:33,140 --> 00:03:46,860
+it's it's it's really critical to learn from an in-depth Example so I recommended
+
+48
+00:03:46,860 --> 00:03:51,800
+this book to almost everyone in this in this group here It's called volatility trading.
+
+49
+00:03:51,880 --> 00:03:54,100
+It is a little bit Difficult,
+
+50
+00:03:54,100 --> 00:03:59,280
+it's pretty math intensive is a little math intensive For that reason we're gonna
+
+51
+00:03:59,280 --> 00:04:00,360
+we're gonna break it down here.
+
+52
+00:04:02,820 --> 00:04:12,140
+Are we all good guys? Looks good Maddie saying great book. Okay, perfect.
+
+53
+00:04:12,220 --> 00:04:15,020
+Thanks mark. Hey mark. Hey, great to see you here, man. Okay,
+
+54
+00:04:15,860 --> 00:04:20,510
+so This is gonna take me about I'd say 30 minutes to get through 20 minutes to get
+
+55
+00:04:20,510 --> 00:04:25,540
+through but this is a real-world example so in this chapter,
+
+56
+00:04:25,700 --> 00:04:29,720
+we are going to Break down a volatility trade that you and Sinclair did.
+
+57
+00:04:31,610 --> 00:04:37,850
+Okay from you know a predetermined plan to Consistently re-evaluating the position
+
+58
+00:04:37,850 --> 00:04:42,990
+so that our exposure is a reflection of our current thoughts Okay,
+
+59
+00:04:43,490 --> 00:04:46,490
+and we always say if we don't want to be in a position we get out of that position
+
+60
+00:04:46,490 --> 00:04:50,990
+And then finally they exit the trade and they go through an in-depth analysis of
+
+61
+00:04:50,990 --> 00:04:58,720
+what happened pre-trade analysis So the pre-trade planning analysis is usually the
+
+62
+00:04:58,720 --> 00:05:03,300
+most important part of any trade this is especially true for volatility trading
+
+63
+00:05:03,300 --> 00:05:11,040
+aka option trading as Our edge will only be accumulated slowly and noisily Without
+
+64
+00:05:11,040 --> 00:05:12,160
+a good plan in place.
+
+65
+00:05:12,240 --> 00:05:18,480
+It is very easy to second-guess ourselves during the trade So we're gonna have a
+
+66
+00:05:18,480 --> 00:05:19,100
+strict plan.
+
+67
+00:05:19,160 --> 00:05:24,470
+We have to understand the plan So Apple was a darling of the markets.
+
+68
+00:05:24,610 --> 00:05:25,750
+This is June 25th,
+
+69
+00:05:25,770 --> 00:05:31,690
+2007 Apple was a darling of the market positioned at the confluence of the fashion
+
+70
+00:05:31,690 --> 00:05:37,320
+and technology industries It could seemingly do no wrong and its share price increased
+
+71
+00:05:37,320 --> 00:05:41,780
+more than a hundred and twenty five dollars per share Over the previous five years.
+
+72
+00:05:41,860 --> 00:05:46,160
+It had rallied on a split adjusted basis from eight dollars and fifty seven Which
+
+73
+00:05:46,160 --> 00:05:51,810
+was an increase of over one thousand percent Compared to the market where it only
+
+74
+00:05:51,810 --> 00:05:56,490
+moved fifty four percent So what he's saying is this stock was in the news people
+
+75
+00:05:56,490 --> 00:06:03,160
+were loving this stock Everyone was buying it and I don't know if you guys remember
+
+76
+00:06:03,160 --> 00:06:06,640
+he was talking about the Mac versus PC commercials Those were fantastic.
+
+77
+00:06:06,880 --> 00:06:14,080
+I don't you guys remember those but the iPhone was scheduled for launch Okay,
+
+78
+00:06:14,080 --> 00:06:17,200
+and this is you know, obviously a brand new product comes in market.
+
+79
+00:06:17,300 --> 00:06:22,200
+There was a lot of hype around there So June 29 was expected to be the catalyst
+
+80
+00:06:22,200 --> 00:06:30,190
+for another explosive burst right June 29th was the launch of the iPhone Apple was
+
+81
+00:06:30,190 --> 00:06:35,360
+a perfect example of the stock that people that many people expected to rally and
+
+82
+00:06:35,360 --> 00:06:37,320
+rally big Conversely,
+
+83
+00:06:37,440 --> 00:06:41,500
+the hype was attracting the standard number of contrarian types who were predicting
+
+84
+00:06:41,500 --> 00:06:47,490
+a huge flop This is the sort of situation that can easily result in overpriced options
+
+85
+00:06:47,490 --> 00:06:52,330
+as directional traders bet on large moves Bidding up the value of both the puts
+
+86
+00:06:52,330 --> 00:06:57,190
+and the calls Remember we said guys that 99% of option traders use options to buy
+
+87
+00:06:57,190 --> 00:07:01,930
+calls and puts to take directional views Though so that is what was happening here
+
+88
+00:07:02,090 --> 00:07:06,930
+People were buying and selling buying calls and puts to take directional views on
+
+89
+00:07:06,930 --> 00:07:12,510
+Apple and by doing that It was there was no one selling everyone was buying so it's
+
+90
+00:07:12,510 --> 00:07:20,670
+increasing the demand and there was no not enough supply So July implied volatility
+
+91
+00:07:20,670 --> 00:07:25,250
+has been going had been going progressively morbid for several weeks meaning it
+
+92
+00:07:25,250 --> 00:07:37,370
+was increasing rallying from the mid 20s to the high 30s After some discussion and
+
+93
+00:07:37,370 --> 00:07:42,690
+eyeballing the data We'd arrived at a consensus that the forecast of realized volatility
+
+94
+00:07:42,690 --> 00:07:52,680
+over the next three weeks Would be 29% and the July implied volatility was 41% So
+
+95
+00:07:52,680 --> 00:08:03,170
+if we go back to our graphs here, let's see if he posted the Okay,
+
+96
+00:08:03,210 --> 00:08:08,530
+so he's saying that the forecast of realized volatility is gonna be 29% That's what
+
+97
+00:08:08,530 --> 00:08:15,290
+he's forecasting. But the implied volatility was 41% Okay,
+
+98
+00:08:15,330 --> 00:08:19,930
+so this gave an edge of 41% Right in the way.
+
+99
+00:08:19,970 --> 00:08:33,780
+He calculated that was just simply it's this 41 minus 29 Right,
+
+100
+00:08:33,960 --> 00:08:37,480
+which is giving us 12 and we take 12 and divide it by 29.
+
+101
+00:08:39,860 --> 00:08:45,880
+Okay, so we've got 41% He thinks the realize is gonna be 29 implied is 41.
+
+102
+00:08:48,680 --> 00:08:55,340
+The normal spread for Apple was around 20 to 25 percent Meaning usually there is
+
+103
+00:08:55,340 --> 00:09:04,360
+a bias of 20 to 25 percent. But in this case, it was 41 percent Okay,
+
+104
+00:09:04,380 --> 00:09:09,740
+and then to put it in the overall context the S&P 500 Basically the vault the VIX
+
+105
+00:09:09,740 --> 00:09:14,920
+index right the volatility of the S&P 500 was only 31 percent higher than the forecast
+
+106
+00:09:14,920 --> 00:09:24,840
+volatility So here he shows a few of the volatility measures of Apple So the realized
+
+107
+00:09:24,840 --> 00:09:29,860
+volatility remember in the predicting alpha terminal we have the time series graph
+
+108
+00:09:29,860 --> 00:09:34,000
+of the realized volatility Here, maybe should I show that right now or just?
+
+109
+00:09:34,000 --> 00:09:34,460
+Yeah,
+
+110
+00:09:35,360 --> 00:09:40,710
+so here are all the different types of volatility models He's looking at so the
+
+111
+00:09:40,710 --> 00:09:45,690
+Garmin cloths volatility the Parkinson the close to close This is what he's looking
+
+112
+00:09:45,690 --> 00:09:48,890
+at right and we don't need to understand what these are We actually take care of
+
+113
+00:09:48,890 --> 00:09:57,460
+this in the terminal So he has all his different types of volatility here And so
+
+114
+00:09:57,460 --> 00:10:02,500
+what he did was he had all this these different models these different types of
+
+115
+00:10:02,500 --> 00:10:08,320
+volatility estimates So for example The yangzang was 31 the close to close was 28
+
+116
+00:10:08,320 --> 00:10:13,230
+and what he did was he took the average of all of these different estimates Which
+
+117
+00:10:13,230 --> 00:10:15,490
+gave him an estimate of 29 percent?
+
+118
+00:10:16,290 --> 00:10:23,420
+So that was his forecast of realized volatility at this point We were reasonably
+
+119
+00:10:23,420 --> 00:10:27,120
+confident that we had an edge in the spread between implied and realized volatility
+
+120
+00:10:27,120 --> 00:10:34,200
+both on absolute and relative levels We also had a clear catalyst that has caused
+
+121
+00:10:34,200 --> 00:10:39,540
+the spread and which and which we thought was being overplayed by the popular media
+
+122
+00:10:39,890 --> 00:10:45,590
+We decided to go short Apple implied volatility Now this is exactly I don't know
+
+123
+00:10:45,590 --> 00:10:50,350
+if you guys already seen this. This is exactly what you guys do right,
+
+124
+00:10:50,430 --> 00:10:56,820
+we We forecast volatility then we understand why volatility is there and then if
+
+125
+00:10:56,820 --> 00:11:03,050
+it makes sense we take a trade So during the so before we continue guys because
+
+126
+00:11:03,050 --> 00:11:05,470
+we're gonna go into Placing the trade.
+
+127
+00:11:05,770 --> 00:11:08,510
+So do you guys have any questions about what he's doing here?
+
+128
+00:11:12,890 --> 00:11:19,400
+Because then we're gonna jump into The actual actual the actual trade you have 30
+
+129
+00:11:19,400 --> 00:11:20,380
+seconds any questions?
+
+130
+00:11:25,520 --> 00:11:27,600
+How did he develop his forecast? Yeah,
+
+131
+00:11:27,780 --> 00:11:34,430
+so What he did was he basically took How much the stock moves so different models?
+
+132
+00:11:34,430 --> 00:11:37,890
+So let's say for example the yangzang actually We'll look at the close to close
+
+133
+00:11:37,890 --> 00:11:41,910
+because this is gonna make a lot of sense to you It's what's in think or swim the
+
+134
+00:11:41,910 --> 00:11:46,220
+close to close is basically how much the stock moves Every single day.
+
+135
+00:11:46,840 --> 00:11:51,300
+So let's say he looked at the last 20 days and he said well on average the stock
+
+136
+00:11:51,300 --> 00:11:53,920
+moves 10% Right,
+
+137
+00:11:54,000 --> 00:12:01,950
+that would be a volatility of 160 right 16 times the average daily move That's gonna
+
+138
+00:12:01,950 --> 00:12:06,220
+be your close to close volatility. So in this case Dan Daniel,
+
+139
+00:12:06,720 --> 00:12:13,090
+we got 28 Divided by 16 is about 1.5 1.7 percent.
+
+140
+00:12:13,520 --> 00:12:20,000
+So over the last let's say 20 days The stock Apple was only moving one point seven
+
+141
+00:12:20,000 --> 00:12:26,180
+percent a day So which we had a close to close volatility of 28 So this is just
+
+142
+00:12:26,180 --> 00:12:31,450
+one input then he would do something like the yangzang model the Parkinson,
+
+143
+00:12:31,890 --> 00:12:34,430
+right? We have the garch just like in the terminal.
+
+144
+00:12:37,540 --> 00:12:44,140
+So that's how he came up with these forecasts and then he averaged them all then
+
+145
+00:12:44,140 --> 00:12:47,680
+he averaged them all because each one has a little bit of a different view on the
+
+146
+00:12:47,680 --> 00:12:50,000
+market and if you take the Average of you know,
+
+147
+00:12:50,160 --> 00:12:52,600
+the crowd usually get a good estimate of the future.
+
+148
+00:12:58,320 --> 00:13:00,860
+Is there any questions about that? We're gonna we're gonna move on here.
+
+149
+00:13:02,410 --> 00:13:03,250
+Looks like we're good.
+
+150
+00:13:06,640 --> 00:13:11,340
+So here we go. Here's the trade starts During the afternoon of June 25th.
+
+151
+00:13:11,340 --> 00:13:18,300
+We started to sell we sold a 12 lot of July 125 calls at five dollars and ten cents
+
+152
+00:13:18,300 --> 00:13:27,500
+and bought five hundred shares at 124 so we basically sold it at 41 percent forty
+
+153
+00:13:27,500 --> 00:13:33,420
+one point two percent implied volatility So remember we talked about Selling an
+
+154
+00:13:33,420 --> 00:13:37,920
+option and then buying the shares selling a call like we did on I know for example
+
+155
+00:13:37,920 --> 00:13:42,740
+Where we sold the call we bought some shares against it and that's gonna create
+
+156
+00:13:42,740 --> 00:13:53,310
+something that looks like a straddle later How did he okay and then Daniels asking?
+
+157
+00:13:53,910 --> 00:13:57,210
+Hedging deltas. Yes. So let me just quickly show you guys here.
+
+158
+00:13:59,030 --> 00:14:02,680
+I gotta load it up Shouldn't be that bad. Okay,
+
+159
+00:14:02,740 --> 00:14:07,520
+well while that's loading we're gonna continue So later as the market broke we sold
+
+160
+00:14:07,520 --> 00:14:12,200
+50 of the July 125 straddles so you guys are familiar with this.
+
+161
+00:14:12,300 --> 00:14:19,820
+He sold the 125 straddles for $10 and 70 cents and then he also hedged his deltas
+
+162
+00:14:19,820 --> 00:14:25,890
+and Sold some shares against it at the end of the day.
+
+163
+00:14:25,970 --> 00:14:33,370
+We were short $1,450 worth of Vega now, this is a silver concept.
+
+164
+00:14:33,630 --> 00:14:37,190
+So I'm not gonna go too much in depth on this But what this basically means is that
+
+165
+00:14:37,220 --> 00:14:43,600
+if the stock the implied volatility went down one one point he would make $1,450
+
+166
+00:14:43,600 --> 00:14:53,490
+so this was giving an expected profit of roughly $16,000 so we had his expected
+
+167
+00:14:53,490 --> 00:14:59,370
+value already pre-planned Before he entered the trade or as he entered the trade,
+
+168
+00:14:59,470 --> 00:15:05,250
+but this number I'm telling you right now was already pre-planned Okay,
+
+169
+00:15:05,610 --> 00:15:07,970
+our hedging band don't worry about this.
+
+170
+00:15:08,050 --> 00:15:12,610
+We don't need to worry about this He hedged is he was figuring out his hedging his
+
+171
+00:15:12,610 --> 00:15:20,350
+risk management strategy here So we calculated it you know his all his Greeks his
+
+172
+00:15:20,350 --> 00:15:24,170
+haircut on the position meaning his margin on the position how much he has to post
+
+173
+00:15:24,170 --> 00:15:30,200
+up and His daily P&L now right away when he's making these trades he has transaction
+
+174
+00:15:30,200 --> 00:15:32,800
+costs He has a you know trade the cross the bid-ask spread.
+
+175
+00:15:33,040 --> 00:15:34,200
+So right off the bat.
+
+176
+00:15:34,320 --> 00:15:39,120
+He's down $121 just like you guys saw in the live when I was trading as soon as
+
+177
+00:15:39,120 --> 00:15:47,510
+I entered a position I'm already down a bit the next day Apple opened up slightly
+
+178
+00:15:47,510 --> 00:15:55,580
+higher at 123.97 in line with a slight rally in the overall market and the stock
+
+179
+00:15:55,580 --> 00:16:00,360
+dropped later in the morning We sold 50 more shares, I'm sorry,
+
+180
+00:16:00,440 --> 00:16:06,090
+we sold 50 more 125 calls and Under hedged them slightly to stay within our Delta
+
+181
+00:16:06,090 --> 00:16:06,390
+band.
+
+182
+00:16:06,530 --> 00:16:14,490
+Don't worry about that Our total expected P&L was now $20,000 and our hedging band
+
+183
+00:16:14,490 --> 00:16:17,390
+widened to 1,000 shares again.
+
+184
+00:16:17,430 --> 00:16:25,100
+Let's not worry about that that that silver concept So this was a very quiet day
+
+185
+00:16:25,100 --> 00:16:31,510
+in the market No hedging required and when he says hedging he means no Delta hedging
+
+186
+00:16:32,700 --> 00:16:36,680
+No hedging with the shares. No buying and selling the shares.
+
+187
+00:16:38,280 --> 00:16:39,900
+You can see his P&L now Yeah,
+
+188
+00:16:40,120 --> 00:16:43,740
+so his P&L for the day was five thousand three hundred thirty-eight.
+
+189
+00:16:44,160 --> 00:16:50,440
+His total P&L was three hundred and eighty-five So because there was a quiet day
+
+190
+00:16:50,440 --> 00:16:54,900
+right and we're short volatility Then if there's nothing happening today,
+
+191
+00:16:54,980 --> 00:16:58,100
+we are gonna collect our theta and not pay anything out.
+
+192
+00:17:00,160 --> 00:17:00,600
+Okay,
+
+193
+00:17:00,620 --> 00:17:05,000
+so he made five thousand three hundred thirty-eight on the day which put him up
+
+194
+00:17:05,000 --> 00:17:13,280
+to three hundred eighty-five So June 28th the next day another very quiet day Amazing.
+
+195
+00:17:13,420 --> 00:17:18,110
+He's short volatility. He's just collecting the premium here.
+
+196
+00:17:18,170 --> 00:17:26,550
+Let's see if this is up Just so you guys can see maybe see what's actually happening
+
+197
+00:17:26,550 --> 00:17:36,670
+here June 29 2007 There was a slight rally in the stock and some general choppiness
+
+198
+00:17:36,670 --> 00:17:42,760
+as iPhone related chatter seemed to be having some effect We had to buy 400 shares
+
+199
+00:17:42,760 --> 00:17:52,050
+on the rally Okay, so stock went up he had to buy 400 shares Yes, so Dan,
+
+200
+00:17:52,330 --> 00:17:59,800
+these are unrealized P&L because he still has the position It becomes realized P
+
+201
+00:17:59,800 --> 00:18:01,220
+&L once he closes out the position.
+
+202
+00:18:03,840 --> 00:18:04,320
+Okay,
+
+203
+00:18:04,560 --> 00:18:11,920
+so on this day he lost $823 and so his total P&L so far is six thousand and the
+
+204
+00:18:11,920 --> 00:18:18,120
+margin required for this position eighty four thousand So so far for example,
+
+205
+00:18:18,340 --> 00:18:24,960
+he's up about eight percent on his position in two days in three days There was
+
+206
+00:18:24,960 --> 00:18:27,340
+practically no movement at all. So July 2nd,
+
+207
+00:18:27,440 --> 00:18:32,590
+there was practically no movement at all in the stock Volatility softened considerably
+
+208
+00:18:32,590 --> 00:18:41,340
+to 34 and we tried to buy some back at the bid We were not filled so implied volatility
+
+209
+00:18:41,340 --> 00:18:45,230
+came down Right, and he's betting on it coming down.
+
+210
+00:18:45,270 --> 00:18:49,990
+So that's amazing for him So what he tried to do was he tried to buy back those
+
+211
+00:18:49,990 --> 00:18:56,690
+shares for a good price meaning at the bid right at the lowest price and Why is
+
+212
+00:18:56,690 --> 00:19:03,400
+he doing this guys well remember when our implied versus realized spread Collapses
+
+213
+00:19:03,400 --> 00:19:10,480
+we want to get out of the position so originally He had a forecast of 29% and an
+
+214
+00:19:10,480 --> 00:19:17,750
+implied of 41 huge edge But now it started to shrink So because you don't have that
+
+215
+00:19:17,750 --> 00:19:20,350
+big edge anymore. You want to take some risk off the table?
+
+216
+00:19:20,650 --> 00:19:25,470
+So he that's what he tried to do but in the market We don't just get filled at the
+
+217
+00:19:25,470 --> 00:19:31,090
+price. We want we get filled at the price the market wants Well,
+
+218
+00:19:31,170 --> 00:19:33,290
+look at our little our little buddies here.
+
+219
+00:19:37,180 --> 00:19:41,990
+You're like a little chipmunk that comes and hangs it. Oh, wow Okay,
+
+220
+00:19:42,230 --> 00:19:51,020
+so So we try to buy back he couldn't because the market didn't want it and so what
+
+221
+00:19:51,020 --> 00:19:54,840
+happened was his P&L now is now 7,500 bucks.
+
+222
+00:19:54,880 --> 00:19:57,080
+He's almost up 10% on the position,
+
+223
+00:19:57,220 --> 00:20:04,040
+but he still holds it July 3rd this morning We decided to liquidate the position
+
+224
+00:20:04,040 --> 00:20:09,750
+if at all possible Implied volatility at softened we had realized a good portion
+
+225
+00:20:09,750 --> 00:20:16,410
+of our expected P&L and we had a few other positions in our book This case this
+
+226
+00:20:16,410 --> 00:20:18,530
+gave us an issue with lack of diversification.
+
+227
+00:20:18,690 --> 00:20:25,750
+We had to be more risk averse particularly with the July 4 holiday coming up Further
+
+228
+00:20:25,750 --> 00:20:29,770
+we expected volatility to soften before the holiday which would make our liquidation
+
+229
+00:20:29,770 --> 00:20:35,720
+easy Even if we had to lift the offer We bought back our shorts at the average implied
+
+230
+00:20:35,720 --> 00:20:37,100
+volatility of 29.
+
+231
+00:20:37,700 --> 00:20:43,160
+So you see what happened here guys his edge completely disappeared now forecast
+
+232
+00:20:43,160 --> 00:20:48,930
+29 implied volatility 29 No more edge. Why are you in a position?
+
+233
+00:20:49,780 --> 00:20:54,880
+There's no more edge here. So we decided let me close it out Okay,
+
+234
+00:20:54,960 --> 00:20:57,180
+and what's happened? What else is going on here?
+
+235
+00:20:57,440 --> 00:21:00,820
+Is that in his book right in his portfolio?
+
+236
+00:21:00,820 --> 00:21:03,420
+He has more short volatility positions,
+
+237
+00:21:03,560 --> 00:21:08,180
+so maybe he had let's say short Amazon Volatility. Well,
+
+238
+00:21:08,280 --> 00:21:13,440
+he doesn't just want exposure now To short like by having short Apple in short Amazon.
+
+239
+00:21:13,640 --> 00:21:16,760
+That's a correlated position So he's saying you know what?
+
+240
+00:21:16,780 --> 00:21:21,040
+I gotta take some off the table now and my edge is gone So I'm liquidating at any
+
+241
+00:21:21,040 --> 00:21:26,560
+price even if I have to lift the offer Meaning even if I have to cross the spread
+
+242
+00:21:26,560 --> 00:21:36,010
+I'm taking it off Because the edge is gone there's too much risk now so total P
+
+243
+00:21:36,010 --> 00:21:41,480
+&L for this trade $18,000 his expected value is 20,000.
+
+244
+00:21:41,560 --> 00:21:53,040
+He made 18,000 almost his full expected value that was a profit of 20% in a week
+
+245
+00:21:55,010 --> 00:21:56,330
+20% in one week.
+
+246
+00:22:00,220 --> 00:22:07,170
+Okay, so he made 23% So do you guys have questions about that?
+
+247
+00:22:07,190 --> 00:22:11,350
+Because now we're gonna do the post trade analysis So that was the during that was
+
+248
+00:22:11,350 --> 00:22:15,410
+the that was the during the trade now, we're gonna do post trade So,
+
+249
+00:22:15,920 --> 00:22:20,280
+let me just quickly Open up thinkorswim here so you guys can see what he actually
+
+250
+00:22:20,280 --> 00:22:20,720
+has on.
+
+251
+00:22:35,680 --> 00:22:40,920
+So this is a position that you had on Okay, it's an iron condor,
+
+252
+00:22:41,000 --> 00:22:47,850
+but he's naked So it's a straddle and when he was hedging his deltas what that means
+
+253
+00:22:47,850 --> 00:22:57,040
+is the stock went from 362 to let's say 350 all of a sudden now he has a Directional
+
+254
+00:22:57,040 --> 00:23:00,310
+bias, right? Just move this up.
+
+255
+00:23:03,030 --> 00:23:04,110
+He has a directional bias now.
+
+256
+00:23:04,270 --> 00:23:08,650
+He wants the stock to come up Not go down and he starts losing money if the stock
+
+257
+00:23:08,650 --> 00:23:15,980
+goes down. So what he did was he shorted some shares Right.
+
+258
+00:23:16,020 --> 00:23:17,580
+Let me just show you what that looks like super quick.
+
+259
+00:23:29,180 --> 00:23:29,540
+Okay,
+
+260
+00:23:29,540 --> 00:23:35,170
+so you can see now Over here right without the shares Without the shares we want
+
+261
+00:23:35,170 --> 00:23:38,800
+the stock to go up, right? We don't want it to go down Right,
+
+262
+00:23:38,860 --> 00:23:44,370
+we make $5,000 at 361 and we lose $6,000 at 333.
+
+263
+00:23:44,730 --> 00:23:52,360
+So we want the stock to go from 350 So we hedge our deltas and now look we don't
+
+264
+00:23:52,360 --> 00:23:56,060
+we don't care if the stock goes down or up as long as it stays Here,
+
+265
+00:23:56,320 --> 00:24:06,650
+so we remove that directional bias and that's what he was doing Firefox there.
+
+266
+00:24:06,750 --> 00:24:07,890
+Yeah. Oh, yeah, there it is.
+
+267
+00:24:08,430 --> 00:24:16,620
+So let me just answer some questions here Okay How much capital would he have needed
+
+268
+00:24:16,620 --> 00:24:20,640
+for this play So in this case,
+
+269
+00:24:20,700 --> 00:24:27,120
+he needed 84,000 to make the 20 $20,000 but you for example might only need $8,000
+
+270
+00:24:27,120 --> 00:24:31,190
+to make the $2,000. Okay,
+
+271
+00:24:31,210 --> 00:24:38,860
+so it's it's it's all relative When you say a profit of X percent in options is
+
+272
+00:24:38,860 --> 00:24:43,580
+that on the total equity of the option of individual trade So Dan this in this case
+
+273
+00:24:43,580 --> 00:24:47,620
+scenario it was on his Margin requirement.
+
+274
+00:24:48,140 --> 00:24:52,940
+So if it costs you $10,000 to Make this trade.
+
+275
+00:24:53,020 --> 00:24:59,270
+Let's say it's cost you $10,000 to buy Apple and then Apple goes up a thousand bucks
+
+276
+00:24:59,270 --> 00:25:03,660
+You would make 10% so it's on the margin required.
+
+277
+00:25:03,780 --> 00:25:09,870
+So let's say you buy a butterfly for 20 bucks and the butterfly goes to $25 Well,
+
+278
+00:25:09,910 --> 00:25:16,370
+that's 20% gain or sorry 25% gain 5 divided by the amount you have to put up which
+
+279
+00:25:16,370 --> 00:25:24,320
+is 20 That's gonna be 25% Okay So, okay. Let's see. What else we got here.
+
+280
+00:25:26,000 --> 00:25:27,880
+Okay, when you say okay, yeah,
+
+281
+00:25:28,000 --> 00:25:31,460
+Danny Daniel's asking What could have what could he have done if the stock started
+
+282
+00:25:31,460 --> 00:25:35,040
+to move to the upside with the stock still work as a hedge?
+
+283
+00:25:35,340 --> 00:25:40,420
+Yes So Danny see how we have to short some shares and you guys were seeing me do
+
+284
+00:25:40,420 --> 00:25:44,330
+this all the time last week See how we had to short some shares when the stock went
+
+285
+00:25:44,330 --> 00:25:53,230
+down Well, what if the stock went up right? What if the stock went up here now?
+
+286
+00:25:53,250 --> 00:25:55,850
+We want the stock to go down instead of up.
+
+287
+00:25:56,290 --> 00:26:02,140
+So what we need to do is buy the shares And now look right now.
+
+288
+00:26:02,180 --> 00:26:07,740
+We don't care where the stock goes Okay, so he's just removing his Deltas.
+
+289
+00:26:07,820 --> 00:26:20,960
+That's all and What was the approximate entire portfolio risk I'm Not a hundred
+
+290
+00:26:20,960 --> 00:26:23,240
+percent. I'm not a hundred percent sure here mark.
+
+291
+00:26:23,500 --> 00:26:27,220
+He doesn't really he doesn't really talk about the the whole portfolio He just talks
+
+292
+00:26:27,220 --> 00:26:28,880
+about the margin on the position.
+
+293
+00:26:30,180 --> 00:26:37,610
+So I'm not too sure about that Doesn't this also happen when holding an iron condor
+
+294
+00:26:37,610 --> 00:26:42,090
+if the stock moves down too much? Yep, exactly So with an iron condor,
+
+295
+00:26:42,090 --> 00:26:43,590
+so let me show you super quick.
+
+296
+00:26:58,740 --> 00:27:03,390
+How you doing Sean being fantastic. Yeah. Yeah, it's good Okay,
+
+297
+00:27:04,200 --> 00:27:13,080
+so here's our iron condor We still have that if the stock goes down here if the
+
+298
+00:27:13,080 --> 00:27:16,080
+stock goes up to here We want the stock to go up or sorry.
+
+299
+00:27:16,160 --> 00:27:22,320
+We want the stock to go down Not up so we can hedge our Deltas here by buying some
+
+300
+00:27:22,320 --> 00:27:27,760
+stock and there you go Right now we now we are directionless Again,
+
+301
+00:27:28,100 --> 00:27:31,900
+so same thing happens Okay,
+
+302
+00:27:31,900 --> 00:27:38,070
+so And that'll be talked about more in silver Yeah And and just so you guys know
+
+303
+00:27:38,070 --> 00:27:41,110
+like it can get costly though to hedge so you don't be hedging all the time you
+
+304
+00:27:41,110 --> 00:27:50,820
+Want to be hedging is as infrequent as possible How do we calculate how many more
+
+305
+00:27:50,820 --> 00:27:54,900
+stonks to buy to hedge again So you would look at your Deltas and that'll be calculated
+
+306
+00:27:54,900 --> 00:27:58,070
+for you on on your brokerage Okay,
+
+307
+00:27:58,130 --> 00:28:03,690
+but we're gonna move on to post trade analysis Okay. So in seven days,
+
+308
+00:28:03,790 --> 00:28:11,280
+we made 18,000 on average haircut of 76 K thus giving us a return of 24% We lost
+
+309
+00:28:11,280 --> 00:28:15,260
+money on three days But on the first of these we were incurring cost by actively
+
+310
+00:28:15,260 --> 00:28:18,760
+crossing the bid-ask spread in the options And on the second day,
+
+311
+00:28:18,940 --> 00:28:23,040
+we were happy enough to sell more on the offer at the as the implied volatility
+
+312
+00:28:23,040 --> 00:28:27,420
+slightly went more bid So this is what you guys saw in my portfolio when I was trading
+
+313
+00:28:27,960 --> 00:28:29,080
+Live for you guys, right?
+
+314
+00:28:29,300 --> 00:28:33,640
+You saw me incurring a lot of costs at the beginning to put on these positions and
+
+315
+00:28:33,640 --> 00:28:38,290
+then you usually have to hold these positions For a few days Right.
+
+316
+00:28:38,350 --> 00:28:44,150
+So for example, I know is finally starting to come in So this is you know,
+
+317
+00:28:44,150 --> 00:28:46,890
+we always have to keep in mind of our transaction cost we can't forget about them
+
+318
+00:28:46,890 --> 00:28:49,410
+They're so important. We don't want to be trading frequently,
+
+319
+00:28:49,410 --> 00:28:54,870
+especially in the option space when the bid-ask is not one penny If you look at
+
+320
+00:28:54,870 --> 00:28:56,910
+the stock market or the Forex or whatever,
+
+321
+00:28:57,050 --> 00:29:01,030
+it's gonna have a very very tight bid-ask spread But in options,
+
+322
+00:29:01,150 --> 00:29:06,410
+it gets a little bit thicker Okay.
+
+323
+00:29:08,000 --> 00:29:12,860
+So what next he says this trade was unreasonably successful meaning most of the
+
+324
+00:29:12,860 --> 00:29:16,260
+time It's not gonna work out where almost every single day.
+
+325
+00:29:16,460 --> 00:29:20,620
+He didn't have to hedge It was just it was a really good trade, right?
+
+326
+00:29:20,840 --> 00:29:22,160
+Usually it's not gonna work like that.
+
+327
+00:29:22,400 --> 00:29:25,620
+If every trade was like that everyone would be rich, right?
+
+328
+00:29:25,640 --> 00:29:29,600
+But this is an example of a good trade a good breakdown, right?
+
+329
+00:29:29,620 --> 00:29:35,520
+We made almost exactly what we hoped for and did it in seven days Instead of holding
+
+330
+00:29:35,520 --> 00:29:46,160
+that and so instead of holding the position until expiration Okay Having to hold
+
+331
+00:29:46,160 --> 00:29:48,960
+until expiration is gonna expose us to more risks, right?
+
+332
+00:29:49,020 --> 00:29:52,120
+Our gamma is gonna start to increase We're not just looking at implied volatility
+
+333
+00:29:52,120 --> 00:29:56,590
+anymore. Our gamma is increasing Okay,
+
+334
+00:29:59,850 --> 00:30:04,890
+so our decision to exit was perfectly timed as 9 a.m.
+
+335
+00:30:05,070 --> 00:30:10,530
+Eastern the next day the stock began a strong rally to close out 127 This would
+
+336
+00:30:10,530 --> 00:30:14,790
+have not worked out well for us implied volatility rose to 43 and we would have
+
+337
+00:30:14,790 --> 00:30:19,540
+lost money hedging our short gamma This would be inevitable regardless of our specific
+
+338
+00:30:19,540 --> 00:30:27,250
+hedging policy as a daily range of the size would imply volatility about 110% Okay.
+
+339
+00:30:27,390 --> 00:30:31,170
+So what he's saying is we would have lost on implied volatility and the stock movement
+
+340
+00:30:33,370 --> 00:30:34,230
+okay, however,
+
+341
+00:30:34,250 --> 00:30:39,700
+if we did hold to expiration we still would have had remained profitable and Here
+
+342
+00:30:39,700 --> 00:30:42,040
+he breaks down the trade. So on this day,
+
+343
+00:30:42,060 --> 00:30:47,220
+he lost 120 then he lost 5,000 then he made 385 7,000 etc.
+
+344
+00:30:48,260 --> 00:30:50,740
+And you can see how his P&L looked through time.
+
+345
+00:30:51,610 --> 00:30:55,710
+So he entered the position here He went up luckily. He exited right here.
+
+346
+00:30:55,710 --> 00:31:00,720
+But the next day he got smoked and then he came back up Okay,
+
+347
+00:31:00,720 --> 00:31:06,650
+so this is what it would look like So here he's gonna talk a little bit about what
+
+348
+00:31:06,650 --> 00:31:09,290
+actually was was really what was he really thinking?
+
+349
+00:31:10,250 --> 00:31:15,470
+We do these trades on the premises that implied volatility is incorrect over the
+
+350
+00:31:15,470 --> 00:31:20,510
+lifetime of the option It's the average volatility that's important or the realized
+
+351
+00:31:20,510 --> 00:31:26,370
+volatility We can afford to have a few bad days The actual close to close realized
+
+352
+00:31:26,370 --> 00:31:28,530
+volatility was 30% over the life cycle,
+
+353
+00:31:28,610 --> 00:31:36,240
+which was very close to his 29% forecast Okay,
+
+354
+00:31:45,570 --> 00:31:50,010
+so we were unlucky because we had a large move that took us away from our short
+
+355
+00:31:50,010 --> 00:31:50,350
+strike.
+
+356
+00:31:50,450 --> 00:32:01,200
+So meaning Here's his short strike Okay right here the 362 he had a large move That
+
+357
+00:32:01,200 --> 00:32:03,110
+took him down here Right.
+
+358
+00:32:03,190 --> 00:32:07,510
+So we had to hedge the position if he stayed right in here and time for the past
+
+359
+00:32:07,510 --> 00:32:12,250
+right as time passes He makes money, right?
+
+360
+00:32:12,270 --> 00:32:15,970
+So that's why guys when he said there was no there was no hedging the stock didn't
+
+361
+00:32:15,970 --> 00:32:29,090
+move All he did was Collect data the purple line moved up a bit Okay,
+
+362
+00:32:29,490 --> 00:32:38,910
+then he talks about this We should never get stopped out of a trade just because
+
+363
+00:32:38,910 --> 00:32:39,730
+we have lost money.
+
+364
+00:32:39,990 --> 00:32:46,480
+We exit trades if we no longer like them Losing money while deeply unpleasant should
+
+365
+00:32:46,480 --> 00:32:53,900
+never be the sole React should never be the the criterion for exiting Right just
+
+366
+00:32:53,900 --> 00:32:57,300
+because you're losing money doesn't mean you exit the trade the stock the trade
+
+367
+00:32:57,300 --> 00:33:02,090
+could keep going against you but if your initial idea is still intact keep the trade
+
+368
+00:33:02,090 --> 00:33:09,470
+on right a Basic cliche is always have a stop but this is overly simplistic and
+
+369
+00:33:09,470 --> 00:33:13,580
+it doesn't take into account the dynamics of the trade This is one thing I don't
+
+370
+00:33:13,580 --> 00:33:17,640
+agree with you is that I think we should have a ultimate stop where we say we are
+
+371
+00:33:17,640 --> 00:33:20,560
+We are wrong Okay,
+
+372
+00:33:21,720 --> 00:33:27,180
+we expect high volatility be transient So stopping ourselves out after every high
+
+373
+00:33:27,180 --> 00:33:30,840
+volatility burst is not a good idea Right if we think implied volatility is high
+
+374
+00:33:30,840 --> 00:33:36,500
+at 40 and it goes up to 43. Well, it still looks good to us Right.
+
+375
+00:33:36,560 --> 00:33:45,700
+So we need to we do understand that so instead of a stop based purely on P&L Which
+
+376
+00:33:45,700 --> 00:33:50,460
+I agree with we have a plan based on our edge evaluation and our initial trade size
+
+377
+00:33:50,620 --> 00:33:56,870
+Trades going bad shouldn't be too painful if they are kept small enough Okay,
+
+378
+00:33:56,890 --> 00:34:01,390
+so just quickly summary an old trading adage is to plan the trade trade the plan
+
+379
+00:34:01,420 --> 00:34:06,940
+Look for situations where implied volatility differs significantly from your forecast
+
+380
+00:34:08,060 --> 00:34:14,220
+both for Pacific stock and in context of the market Evaluate the fundamentals that
+
+381
+00:34:14,220 --> 00:34:18,530
+causing this this spread Do your research? Yeah, do your research?
+
+382
+00:34:19,330 --> 00:34:24,000
+execute the trade appropriate size and hedge it properly and then hold until your
+
+383
+00:34:24,000 --> 00:34:30,820
+your edge is either realized or your volatility forecast changes and Then continually
+
+384
+00:34:30,820 --> 00:34:35,620
+evaluate risk in context of your overall portfolio If you sell Apple and you sell
+
+385
+00:34:35,620 --> 00:34:37,480
+Amazon and you sell Microsoft,
+
+386
+00:34:37,740 --> 00:34:41,440
+you probably all you have one big trade You don't have three different trades.
+
+387
+00:34:42,880 --> 00:34:47,840
+So that is the breakdown Okay,
+
+388
+00:34:47,840 --> 00:34:51,520
+so what we're gonna do is we're gonna actually ask you guys questions now to see
+
+389
+00:34:51,520 --> 00:34:56,270
+how much you absorbed So you want you want to send that out?
+
+390
+00:34:56,630 --> 00:35:03,930
+Yeah so That's a question from while ago We actually instead koa if you if you still
+
+391
+00:35:03,930 --> 00:35:08,090
+have a question about how we forecasted the vol Just ask it again because we answered
+
+392
+00:35:08,090 --> 00:35:10,990
+that when Danny asked it Yeah,
+
+393
+00:35:11,010 --> 00:35:13,730
+so let us know if you have any more questions about that But for now,
+
+394
+00:35:13,750 --> 00:35:16,890
+we're gonna hop right into our little test here.
+
+395
+00:35:16,930 --> 00:35:24,870
+So just we have three questions Question one run for one minute. Good luck.
+
+396
+00:35:50,890 --> 00:35:52,690
+Okay. Let me see how many guys we haven't alive today.
+
+397
+00:35:52,690 --> 00:35:57,160
+We'll give another 30 seconds Okay,
+
+398
+00:35:57,160 --> 00:36:04,010
+15 we got 15 so I'm gonna wait for for you guys to get in here Wait for a couple
+
+399
+00:36:04,010 --> 00:36:08,050
+more Come on guys get him in.
+
+400
+00:36:08,250 --> 00:36:11,090
+I mean we got we got you got test your knowledge here.
+
+401
+00:36:14,620 --> 00:36:15,740
+Give that one more second.
+
+402
+00:36:18,730 --> 00:36:19,090
+Okay?
+
+403
+00:36:22,180 --> 00:36:30,040
+I press and pull right Okay Okay, so most of you guys got it, right?
+
+404
+00:36:30,480 --> 00:36:34,000
+Fantastic IV was greater than forecast, right?
+
+405
+00:36:34,020 --> 00:36:35,920
+He said the implied volatility was 41.
+
+406
+00:36:36,240 --> 00:36:43,080
+The forecast was 29 And he understood why the trade why it was bid Because everyone
+
+407
+00:36:43,080 --> 00:36:47,760
+was looking at the stock it had a catalyst coming up and everyone was being directional
+
+408
+00:36:47,760 --> 00:36:49,080
+It was pushed on the news.
+
+409
+00:36:49,080 --> 00:36:54,660
+He said right and that this was in 2007 So nowadays we are gonna say, you know,
+
+410
+00:36:54,660 --> 00:36:59,660
+it's pushed on the stock boards Cool raise his hand Yeah,
+
+411
+00:36:59,680 --> 00:37:00,960
+he said where's the test?
+
+412
+00:37:01,400 --> 00:37:04,580
+So it should be popping up on your screen as a part of the zoom Are you are you
+
+413
+00:37:04,580 --> 00:37:10,450
+on mobile? Maybe it may not pop up on mobile Okay. Yeah,
+
+414
+00:37:10,470 --> 00:37:15,530
+so it's it's showing up for desktop users I'm not a hundred percent sure where you
+
+415
+00:37:15,530 --> 00:37:19,250
+would find the pole on mobile Try clicking around the screen.
+
+416
+00:37:19,570 --> 00:37:24,400
+It's a it's a pole that we've launched Okay, okay.
+
+417
+00:37:24,440 --> 00:37:25,440
+There's only a couple questions call.
+
+418
+00:37:25,500 --> 00:37:28,540
+I wouldn't worry about it for this one It's only three questions for the next round
+
+419
+00:37:28,540 --> 00:37:31,260
+do it for the for the next life. Okay, stop sharing, right?
+
+420
+00:37:31,560 --> 00:37:43,050
+Yeah All right pole number two Another 60 seconds and meet this for a second.
+
+421
+00:37:57,710 --> 00:37:59,050
+See if our little buddy will come.
+
+422
+00:38:05,970 --> 00:38:13,460
+Oh, we can't see that So what the full question? That's okay Okay,
+
+423
+00:38:13,480 --> 00:38:17,020
+we got eight answers waiting for a few more guys nine ten eleven. Okay,
+
+424
+00:38:17,220 --> 00:38:23,900
+twelve perfect Okay, sweet. So Almost all of you guys got it, right?
+
+425
+00:38:26,590 --> 00:38:30,090
+Share results. Okay, so pretty straightforward, right?
+
+426
+00:38:30,470 --> 00:38:35,700
+He understood why why ball was expensive He planned his risk management and he estimated
+
+427
+00:38:35,700 --> 00:38:36,500
+expected value.
+
+428
+00:38:37,480 --> 00:38:42,950
+So there there's nothing really to be There's nothing really to be you know Shaken
+
+429
+00:38:42,950 --> 00:38:47,470
+up about what now we enter remember we want to take psychology out of trading as
+
+430
+00:38:47,470 --> 00:38:50,310
+much as we can because we're not good At psychology. No one is right.
+
+431
+00:38:50,370 --> 00:38:55,340
+Maybe maybe some people are I wouldn't I shouldn't say that Why go the hard route?
+
+432
+00:38:56,360 --> 00:39:01,620
+Plan everything out before you enter the position If something wild happens you
+
+433
+00:39:01,620 --> 00:39:04,920
+are you knew that this could this could happen if it does happen.
+
+434
+00:39:04,960 --> 00:39:07,450
+I'm out Right,
+
+435
+00:39:07,490 --> 00:39:11,110
+so you come in here knowing everything about how you think this trade is gonna break
+
+436
+00:39:11,110 --> 00:39:16,410
+down all possible scenarios The stock gapping up 30% What do you do then?
+
+437
+00:39:17,910 --> 00:39:23,580
+Right? You need to think about these things before you enter the trade Okay,
+
+438
+00:39:23,600 --> 00:39:28,580
+and because of that he was confident going into the trade and now all of a sudden
+
+439
+00:39:28,580 --> 00:39:34,180
+psychology is nothing It's something but all of a sudden it's removed a lot.
+
+440
+00:39:34,940 --> 00:39:37,120
+You're not you're not you're not guessing. Oh, maybe it's gonna come back Oh,
+
+441
+00:39:37,260 --> 00:39:38,480
+you know, maybe it's not gonna come back.
+
+442
+00:39:38,520 --> 00:39:42,440
+It's like no I pre-planned this am I being greedy if I stay in? Yeah,
+
+443
+00:39:42,460 --> 00:39:45,400
+you know am I being fearful if I get out you don't have questions like that anymore
+
+444
+00:39:45,400 --> 00:39:50,450
+exact next question Okay,
+
+445
+00:39:50,910 --> 00:39:54,790
+or last question and then I'm gonna go in the terminal super quick and show you
+
+446
+00:39:54,790 --> 00:39:56,770
+guys some of the features that we just Looked at here.
+
+447
+00:40:00,480 --> 00:40:03,590
+All right. Good luck guys. I think this one's let's see Okay, yeah,
+
+448
+00:40:03,670 --> 00:40:04,770
+this is this is a good one,
+
+449
+00:40:28,870 --> 00:40:39,230
+okay a few more of you guys to come in waiting on two more,
+
+450
+00:40:49,960 --> 00:40:50,800
+all right,
+
+451
+00:40:51,100 --> 00:41:00,330
+and We're gonna end the poll right there So it wasn't that he had a directional
+
+452
+00:41:00,330 --> 00:41:04,510
+view on Apple instead It was that he didn't have a directional view on Apple.
+
+453
+00:41:04,650 --> 00:41:08,510
+So we wanted to remove that exposure Right when we're looking here,
+
+454
+00:41:08,550 --> 00:41:09,010
+for example,
+
+455
+00:41:09,510 --> 00:41:19,320
+I'm think or swim the stock went down here Let's say to 349 all of a sudden he has
+
+456
+00:41:19,320 --> 00:41:25,980
+directional exposure He wants the stock to go back up and he didn't want that So
+
+457
+00:41:25,980 --> 00:41:31,700
+he decided to trade the shares to get rid of that exposure So I'm glad I'm glad
+
+458
+00:41:32,360 --> 00:41:33,380
+Almost all of you got it,
+
+459
+00:41:33,420 --> 00:41:39,470
+right but keep that in mind With options we have the beauty of or in trading not
+
+460
+00:41:39,470 --> 00:41:44,350
+just an option with the beauty of Getting exposure to the risk we want and removing
+
+461
+00:41:44,350 --> 00:41:44,890
+the exposure.
+
+462
+00:41:45,010 --> 00:41:49,810
+We don't want and that's what he did He didn't want directional exposure.
+
+463
+00:41:49,810 --> 00:41:57,670
+So he removed it Okay So now I'm just gonna quickly jump into the predicting alpha
+
+464
+00:41:57,670 --> 00:42:03,770
+terminal if you guys have any questions raise your hand Or drop them in the comment
+
+465
+00:42:03,770 --> 00:42:05,330
+box drop them in the comment box.
+
+466
+00:42:05,390 --> 00:42:11,980
+We're gonna quickly go over this What info did he need to calculate that 20k expected
+
+467
+00:42:11,980 --> 00:42:12,980
+profit? Yep.
+
+468
+00:42:13,390 --> 00:42:22,940
+So all he needed was his implied volatility and His forecast of volatility once
+
+469
+00:42:22,940 --> 00:42:32,670
+you do that all you do is so it's right here so Here's his implied Okay,
+
+470
+00:42:32,870 --> 00:42:39,400
+his forecast was 29 and then he has to multiply it by this is something in silver
+
+471
+00:42:39,400 --> 00:42:41,860
+So if you're you know, if you're bronze, don't worry too much about this.
+
+472
+00:42:41,980 --> 00:42:46,570
+He multiplies it by his Vega exposure Okay,
+
+473
+00:42:46,610 --> 00:42:48,050
+so how much exposure he has to Vega?
+
+474
+00:42:48,130 --> 00:42:50,870
+So for example on this trade right on this Apple trade,
+
+475
+00:42:50,950 --> 00:43:05,320
+let's go back to To today on this Apple trade we have $850 of short Vega exposure.
+
+476
+00:43:06,340 --> 00:43:06,480
+Okay,
+
+477
+00:43:06,520 --> 00:43:14,350
+so in our in that case we would do 850 times the difference So that's how he came
+
+478
+00:43:14,350 --> 00:43:23,490
+up with that It's like I noticed yeah,
+
+479
+00:43:23,530 --> 00:43:37,340
+I got it after we changed that password I sat there for so long trying to remember
+
+480
+00:43:37,340 --> 00:43:41,140
+what it was Really? Yeah, I couldn't remember it, but he figured it out. Yeah.
+
+481
+00:43:41,240 --> 00:43:42,480
+Yeah. Okay,
+
+482
+00:43:42,560 --> 00:43:50,490
+so a couple things here guys first thing is for the forecast of volatility We do
+
+483
+00:43:50,490 --> 00:43:54,510
+something very similar to what you did where we take a bunch of different factors
+
+484
+00:43:54,510 --> 00:43:57,010
+different models We add them up.
+
+485
+00:43:57,110 --> 00:44:01,910
+We take the average of them and then that comes out right over here so for Apple,
+
+486
+00:44:01,990 --> 00:44:02,410
+for example,
+
+487
+00:44:02,490 --> 00:44:07,860
+our forecast is thirty two point five eight and The implied is thirty three if this
+
+488
+00:44:07,860 --> 00:44:12,650
+was let's say 42 we could be selling volatility Okay,
+
+489
+00:44:12,650 --> 00:44:20,020
+then the other thing is you can see Historically how much Volatility Apple's hadn't
+
+490
+00:44:20,020 --> 00:44:27,550
+passed just like you did right where he showed He showed the volatility of one year.
+
+491
+00:44:29,900 --> 00:44:30,420
+Well,
+
+492
+00:44:30,440 --> 00:44:34,960
+we did the we have something very similar on the on the terminal What has the historical
+
+493
+00:44:34,960 --> 00:44:39,180
+volatility been a year from now a year ago, right?
+
+494
+00:44:39,300 --> 00:44:45,620
+So You know if so right now you can see implied volatility as high as 86 Imagine
+
+495
+00:44:45,620 --> 00:44:51,900
+or sorry realized volatility is 86 Imagine implied volatility was 300 would that
+
+496
+00:44:51,900 --> 00:44:58,030
+make sense? No, so we would sell options there. So this is the historical Okay,
+
+497
+00:44:58,050 --> 00:45:00,210
+so these are the few features that you know,
+
+498
+00:45:00,350 --> 00:45:03,090
+you used in his analysis that we actually have in the terminal.
+
+499
+00:45:09,730 --> 00:45:15,520
+Okay, so Daniel said if we wanted to do a quick forecast from the TOS platform,
+
+500
+00:45:15,640 --> 00:45:19,300
+how could we do that? Do you mean forecast of volatility? Yeah,
+
+501
+00:45:19,360 --> 00:45:20,460
+I think that's what he's talking about. Okay,
+
+502
+00:45:20,540 --> 00:45:35,730
+so In that case you would use Yeah In that case you would use
+
+503
+00:45:35,730 --> 00:45:44,880
+this Okay, historical volatility right there. Now, that's the close to close,
+
+504
+00:45:45,080 --> 00:45:49,400
+right? That's one of the forecasts the issue with this is it's not great Right.
+
+505
+00:45:49,440 --> 00:45:52,940
+This is not the greatest model ever. And in fact, it's it's very naive.
+
+506
+00:45:53,040 --> 00:45:58,420
+So you would say for example The implied vault the historical volatility of Apple
+
+507
+00:45:58,420 --> 00:46:03,560
+has been 33% in the past Meaning it's probably gonna be 33% in the future.
+
+508
+00:46:04,240 --> 00:46:15,210
+Now that is very naive So I wouldn't be too keen on using Just this alone You got
+
+509
+00:46:15,210 --> 00:46:16,290
+a good question from Chegg's.
+
+510
+00:46:16,490 --> 00:46:20,130
+So he said why doesn't the market calculate volatility like we do?
+
+511
+00:46:20,550 --> 00:46:23,070
+What do they do differently that causes the mispricing? Okay,
+
+512
+00:46:23,470 --> 00:46:27,530
+so first off Chiggs There are people that do exactly what we do right you did it
+
+513
+00:46:27,530 --> 00:46:29,300
+for example Right.
+
+514
+00:46:29,340 --> 00:46:31,800
+There are other guys that I've learned from that do the same thing that we do as
+
+515
+00:46:31,800 --> 00:46:38,570
+well The problem is and also what you mentioned is that a lot of option traders
+
+516
+00:46:38,570 --> 00:46:42,310
+don't price volatility They don't trade volatility Right.
+
+517
+00:46:42,410 --> 00:46:45,830
+How many times do you see people say I own Apple?
+
+518
+00:46:46,070 --> 00:46:50,590
+So I'm gonna buy some puts to hedge They don't care what the price is or I own Apple
+
+519
+00:46:50,590 --> 00:46:54,790
+So I'm gonna sell some calls to get a covered call and get some income They don't
+
+520
+00:46:54,790 --> 00:46:56,960
+care about the price of those calls Right,
+
+521
+00:46:57,000 --> 00:47:02,960
+or I'm gonna buy an Apple call pre earnings because I think Apple is going up After
+
+522
+00:47:02,960 --> 00:47:06,590
+earnings they don't care about the price of the call again, right?
+
+523
+00:47:06,650 --> 00:47:10,870
+So for that reason the market is not looking at the world through implied volatility
+
+524
+00:47:12,120 --> 00:47:14,400
+But we are looking at the world through implied volatility.
+
+525
+00:47:14,400 --> 00:47:18,380
+That's all that's only that's the only difference most of the world is looking at
+
+526
+00:47:18,380 --> 00:47:24,230
+the is looking at the market through a directional bias and For that reason we can
+
+527
+00:47:24,230 --> 00:47:29,890
+find edge in Volatility because there are the world of volatility is much smaller
+
+528
+00:47:33,200 --> 00:47:38,700
+So I hope that answers that question there What they do people do price it like
+
+529
+00:47:38,700 --> 00:47:45,800
+we do and they some people even use more advanced techniques Can we do any other
+
+530
+00:47:45,800 --> 00:47:48,880
+questions? I think that was a good little walkthrough. I you know,
+
+531
+00:47:48,900 --> 00:47:53,700
+I hope you guys There was I think it was a Q&A or was that that was it?
+
+532
+00:47:53,740 --> 00:47:56,900
+We finished it wasn't there I think there's one up here. Let me see.
+
+533
+00:47:57,590 --> 00:47:59,070
+I think that's the old one. Okay.
+
+534
+00:47:59,230 --> 00:48:04,490
+Yeah Mark says I was away for a bit But what are your thoughts on not Delta hedging
+
+535
+00:48:04,490 --> 00:48:07,410
+but instead using the parameters of the risk profile to define your risk?
+
+536
+00:48:12,430 --> 00:48:16,990
+Instead of Delta hedging. Yep. Yep, Mark. I Think that's you know,
+
+537
+00:48:17,270 --> 00:48:22,990
+because Delta hedging is expensive and obviously you know that So if you're not
+
+538
+00:48:22,990 --> 00:48:27,810
+going to Delta hedge Then you would you'd probably have a hard stop somewhere,
+
+539
+00:48:28,100 --> 00:48:33,280
+right? Like if the stock goes, you know, the stock goes Ten percent down.
+
+540
+00:48:33,400 --> 00:48:37,530
+I have to close out my position But yeah,
+
+541
+00:48:37,590 --> 00:48:42,010
+I mean There's nothing wrong with not Delta hedging as like I said,
+
+542
+00:48:42,090 --> 00:48:48,460
+it is pretty expensive So you would say for example Then you also have a directional
+
+543
+00:48:48,460 --> 00:48:49,220
+view though, right Mark.
+
+544
+00:48:49,280 --> 00:48:55,460
+So like let's say stock goes down to 380 all of a sudden You are long you you you
+
+545
+00:48:55,460 --> 00:48:59,450
+are You are short shares So,
+
+546
+00:48:59,730 --> 00:49:03,310
+you know you at that point you have to say well if I'm not if I'm if I'm bullish
+
+547
+00:49:03,310 --> 00:49:06,820
+on Apple You probably don't want to be in this position anymore.
+
+548
+00:49:09,820 --> 00:49:13,400
+So I Know I'm not sure. Did I answer that question mark?
+
+549
+00:49:25,960 --> 00:49:32,110
+Yeah Okay, so the only time Honestly mark, I actually I probably don't do it.
+
+550
+00:49:32,190 --> 00:49:37,400
+I like I'm probably the worst directional trader you're ever gonna meet Like for
+
+551
+00:49:37,400 --> 00:49:42,150
+example our Spotify trade I Close it out. Literally.
+
+552
+00:49:42,150 --> 00:49:45,750
+I bought it at the top close it at the bottom and it rallied all the way back up
+
+553
+00:49:45,750 --> 00:49:48,250
+We would have made 15,000 bucks just on that butterfly.
+
+554
+00:49:48,370 --> 00:49:51,110
+It pinned to our short strike a day later a day later.
+
+555
+00:49:51,450 --> 00:49:54,830
+Unbelievable So I'm honestly I'll be straight up with you.
+
+556
+00:49:54,850 --> 00:50:00,370
+I'm not the grace Directional trader so as soon as I get too much Delta,
+
+557
+00:50:00,570 --> 00:50:05,760
+I'm gonna close it out But I know there are definitely people that do right but
+
+558
+00:50:05,760 --> 00:50:08,760
+then but then what you're really trading is instead of the implied versus realized
+
+559
+00:50:08,760 --> 00:50:11,640
+Spread you're you're trading the terminal distribution.
+
+560
+00:50:11,880 --> 00:50:14,740
+What is what is the stock today versus where it's gonna be in the future,
+
+561
+00:50:16,840 --> 00:50:17,740
+right?
+
+562
+00:50:17,780 --> 00:50:22,500
+You're at you're trading the end point So if you think for example Apple is gonna
+
+563
+00:50:22,500 --> 00:50:25,440
+is in support and resistance right now Do you think it's gonna stay within that
+
+564
+00:50:25,440 --> 00:50:25,740
+range?
+
+565
+00:50:25,740 --> 00:50:33,180
+Then you probably swing Delta hedge you just hold this position But you know,
+
+566
+00:50:33,240 --> 00:50:36,820
+I'm sure you're probably much better directional trader than I am mark So I wouldn't
+
+567
+00:50:36,820 --> 00:50:38,900
+I wouldn't be taking advice from me in that sense.
+
+568
+00:50:44,590 --> 00:50:45,910
+So if there's no more questions,
+
+569
+00:50:45,910 --> 00:50:49,070
+we're gonna wrap this up We're gonna go into the after dark for 15 minutes.
+
+570
+00:50:49,170 --> 00:50:50,170
+Yeah, we'll go hang out Yeah,
+
+571
+00:50:50,570 --> 00:50:53,650
+see if you guys want a couple new guys tune in here really happy to see you here
+
+572
+00:50:54,050 --> 00:50:57,570
+If you look in the discord, we have a category called after dark.
+
+573
+00:50:57,590 --> 00:51:01,530
+It has a text channel and a voice channel We're just gonna pop in there hang out
+
+574
+00:51:01,530 --> 00:51:05,860
+for a bit if you guys have any more questions for us Marco said do you ever trade
+
+575
+00:51:05,860 --> 00:51:12,800
+direction? I do trade direction, but it's not in the sense of Outright Delta.
+
+576
+00:51:12,980 --> 00:51:16,860
+So Delta just means direction and we're gonna cover all this in I think we're doing
+
+577
+00:51:16,860 --> 00:51:17,580
+a bronzer. No,
+
+578
+00:51:17,620 --> 00:51:26,310
+it's in silver Yeah So I don't usually take outright directional bets Because like
+
+579
+00:51:26,310 --> 00:51:26,690
+I said,
+
+580
+00:51:27,820 --> 00:51:31,000
+I don't have an edge in it and it's not that I don't have it like an edge in it
+
+581
+00:51:31,000 --> 00:51:34,920
+It's also the fact that I haven't spent the time I've seen what it takes to be a
+
+582
+00:51:34,920 --> 00:51:40,900
+profitable directional trader and It's pretty mind-blowing I've seen some of the
+
+583
+00:51:40,900 --> 00:51:43,960
+guys who work at some big funds that are doing some very cool data science stuff
+
+584
+00:51:43,960 --> 00:51:48,090
+with direction and It's definitely not an easy game.
+
+585
+00:51:48,170 --> 00:51:52,850
+I think there's a lot more money to be made in the vol space And so for that reason
+
+586
+00:51:52,850 --> 00:51:56,040
+I tried to remain directionless However,
+
+587
+00:51:56,080 --> 00:52:00,960
+there are some times where I do pack on some Delta Yeah,
+
+588
+00:52:01,000 --> 00:52:07,390
+so for example in the unbalanced flies on unbalanced fly exactly Danny had a question
+
+589
+00:52:07,390 --> 00:52:09,470
+that we should address Yeah, Mark,
+
+590
+00:52:09,510 --> 00:52:13,530
+so you like you like we know each other pretty well now and like, you know,
+
+591
+00:52:13,550 --> 00:52:17,270
+I do trade one three two flies they are they do have direction,
+
+592
+00:52:17,510 --> 00:52:25,410
+but They're also very sensitive to The skew right so we get like these really nice
+
+593
+00:52:25,410 --> 00:52:28,130
+risk reward trades and they're usually more of a risk reward trade than a directional
+
+594
+00:52:28,130 --> 00:52:35,480
+trade Yeah, I do. I do trade directional. Sometimes I try to find a small edge,
+
+595
+00:52:35,560 --> 00:52:40,560
+especially around earnings events But even then it's I'm definitely not the best
+
+596
+00:52:40,560 --> 00:52:45,800
+directional trader Danny had a question about the what did we mean by the risk parameter
+
+597
+00:52:45,800 --> 00:52:51,570
+in the brokerage? So like we're talking about this Okay, right.
+
+598
+00:52:51,630 --> 00:52:55,030
+So you just want to say like, what do you mean by risk brokerage? Okay.
+
+599
+00:52:55,090 --> 00:53:01,180
+So so what Mark was saying is Do you ever just put on this trade and then don't
+
+600
+00:53:01,180 --> 00:53:05,040
+Delta hedge and instead have like a risk parameter where you know If the stock goes
+
+601
+00:53:05,040 --> 00:53:07,340
+below a certain threshold, you're out of the position, right?
+
+602
+00:53:07,360 --> 00:53:09,200
+Just like what we do in iron condors,
+
+603
+00:53:09,300 --> 00:53:17,300
+right when you guys are trading iron condors for bronze so Yeah,
+
+604
+00:53:17,300 --> 00:53:19,380
+that's exactly what he's talking about. But for me,
+
+605
+00:53:19,420 --> 00:53:23,110
+I usually like to hedge my deltas And yeah,
+
+606
+00:53:23,170 --> 00:53:25,890
+so that'll be in silver by the way for all this is a bronze live. Yeah,
+
+607
+00:53:25,890 --> 00:53:30,630
+we got into some silver concepts Yeah, we did. I think it was good. Yeah Yeah,
+
+608
+00:53:30,730 --> 00:53:37,200
+so You can have a hard stop right where if it touches the wing we're out So I will
+
+609
+00:53:37,200 --> 00:53:41,440
+do that I will do that sometimes Because Delta hedging is pretty expensive.
+
+610
+00:53:41,600 --> 00:53:50,840
+But most of the time I do like to hedge my deltas Okay, guys,
+
+611
+00:53:50,940 --> 00:53:54,540
+so that's the life that's the life we're gonna end it there and we'll see you in
+
+612
+00:53:54,540 --> 00:54:01,470
+the after dark for a bit Awesome. Peace out Yeah,
+
+613
+00:54:01,470 --> 00:54:05,690
+exactly It's funny because like because you didn't sinclair just basically said
+
+614
+00:54:05,690 --> 00:54:10,940
+like, you know, don't don't don't do But I think they're I think you know,
+
+615
+00:54:11,000 --> 00:54:14,800
+it's good to have a hard stop When you're wrong,
+
+616
+00:54:15,160 --> 00:54:20,730
+right know when you're wrong and and put it put it in there. Okay guys,
+
+617
+00:54:20,890 --> 00:54:29,330
+I'll talk to you in a bit Thanks mark Yeah,

@@ -1,0 +1,1819 @@
+1
+00:00:00,820 --> 00:00:02,460
+Alright guys, so in this live,
+
+2
+00:00:02,640 --> 00:00:07,000
+we are going to be talking about filtering for put spreads in the Predicting the
+
+3
+00:00:07,000 --> 00:00:09,480
+Alpha Terminal. We're also going to be briefly talking about put spreads,
+
+4
+00:00:09,560 --> 00:00:11,040
+when to use them, when not to use them,
+
+5
+00:00:11,180 --> 00:00:13,160
+how to be able to quickly find them in the terminal,
+
+6
+00:00:13,460 --> 00:00:17,880
+and then going into execution. The reason why this live is so important,
+
+7
+00:00:18,060 --> 00:00:19,520
+and I'm happy to see,
+
+8
+00:00:19,940 --> 00:00:23,600
+especially the members that came into PA using put spreads here,
+
+9
+00:00:23,800 --> 00:00:27,140
+is that the terminal has a lot of power,
+
+10
+00:00:27,300 --> 00:00:29,280
+and there's a million different things that you can do with it.
+
+11
+00:00:29,280 --> 00:00:35,580
+But the easiest way to get started using the terminal is to use it to start applying
+
+12
+00:00:35,580 --> 00:00:38,600
+data to the decisions you're already trying to make.
+
+13
+00:00:38,820 --> 00:00:42,620
+If you're out there trading put spreads right now,
+
+14
+00:00:43,430 --> 00:00:49,830
+you can improve upon what you already do simply by adding this new layer of filtering
+
+15
+00:00:49,830 --> 00:00:52,430
+to the trades that you're looking at.
+
+16
+00:00:52,770 --> 00:00:54,270
+So what we're going to be going through is,
+
+17
+00:00:54,410 --> 00:00:58,630
+there's going to be really two sections to this live. The first section,
+
+18
+00:00:58,750 --> 00:01:00,650
+we're going to keep it really straightforward.
+
+19
+00:01:01,290 --> 00:01:06,430
+How do you use the terminal to find trades where you can be systematically looking
+
+20
+00:01:06,430 --> 00:01:10,830
+at using put spreads? If put spreads are your go-to tool,
+
+21
+00:01:12,440 --> 00:01:16,860
+here's how you can find trades to be trading put spreads on that are optimal.
+
+22
+00:01:18,200 --> 00:01:19,000
+Like the perfect,
+
+23
+00:01:19,220 --> 00:01:22,820
+a few filters you can apply that create sort of like the perfect storm for put spreads.
+
+24
+00:01:24,860 --> 00:01:27,200
+Sorry, go on. At least from the volatility standpoint. Yeah,
+
+25
+00:01:27,220 --> 00:01:28,280
+from the vol standpoint. We obviously,
+
+26
+00:01:28,930 --> 00:01:31,050
+you got to have a directional view as well,
+
+27
+00:01:31,130 --> 00:01:35,310
+which the terminal doesn't forecast direction, it forecast volatility.
+
+28
+00:01:35,890 --> 00:01:38,850
+But from that standpoint, that's usually the component that's missing.
+
+29
+00:01:38,970 --> 00:01:42,590
+Usually you have your directional bias without the view on volatility.
+
+30
+00:01:43,190 --> 00:01:46,170
+Now you can add that second piece to the puzzle.
+
+31
+00:01:46,780 --> 00:01:52,220
+The second half of the live is we're going to go into the components of our filter.
+
+32
+00:01:53,120 --> 00:01:54,800
+Why did we care about skew?
+
+33
+00:01:55,300 --> 00:01:58,580
+Why did we care about the level of implied volatility, for example?
+
+34
+00:01:59,320 --> 00:02:00,620
+Why do we care about these things?
+
+35
+00:02:01,700 --> 00:02:05,020
+So that is what this live is going to look like. And then maybe we'll finally,
+
+36
+00:02:05,220 --> 00:02:10,210
+at the end, structure out a bunch of them. Exactly. Yeah. Okay.
+
+37
+00:02:10,270 --> 00:02:13,590
+So as we go along, make sure to leave your questions in the chat there.
+
+38
+00:02:15,090 --> 00:02:16,450
+I'll be keeping an eye on the chat.
+
+39
+00:02:16,630 --> 00:02:18,850
+If it's extremely pertinent to what we're talking about at the time,
+
+40
+00:02:18,970 --> 00:02:20,330
+we'll answer it. But if not,
+
+41
+00:02:20,430 --> 00:02:22,910
+you can expect it to be answered at the end of the live,
+
+42
+00:02:23,030 --> 00:02:25,270
+or maybe at the little break between sessions.
+
+43
+00:02:25,490 --> 00:02:30,080
+And maybe even before we share a screen, I thought I'd give a little story.
+
+44
+00:02:30,520 --> 00:02:36,180
+When I was first starting into trading and how put spreads were really the ideal
+
+45
+00:02:36,180 --> 00:02:40,120
+thing for me, right? So it was around the election time, 2016,
+
+46
+00:02:41,580 --> 00:02:44,500
+and implied volatility was very high going into the elections.
+
+47
+00:02:44,820 --> 00:02:46,080
+And I was also bullish on the market.
+
+48
+00:02:47,800 --> 00:02:54,860
+And so the trade that I did was I sold an out-of-the-money put spread, okay?
+
+49
+00:02:54,860 --> 00:02:56,240
+I sold an out-of-the-money put spread.
+
+50
+00:02:56,820 --> 00:03:02,580
+I sold about the Delta 30 and bought the Delta 16 about 20 days out.
+
+51
+00:03:03,180 --> 00:03:07,140
+And I collected a premium and the vol dropped, stock rallied.
+
+52
+00:03:07,360 --> 00:03:10,860
+And I thought this was the trade, right? It makes a lot of sense.
+
+53
+00:03:11,280 --> 00:03:12,960
+I think the stock is going to go up,
+
+54
+00:03:13,260 --> 00:03:16,860
+and if at least it doesn't come below this price, I'm going to make money.
+
+55
+00:03:17,900 --> 00:03:21,240
+Right? And so it's really like the perfect storm for a retail trader.
+
+56
+00:03:21,500 --> 00:03:24,640
+And we always got to remember where we came from, right?
+
+57
+00:03:24,640 --> 00:03:28,140
+And try to put ourselves in those shoes to really understand what other people are
+
+58
+00:03:28,140 --> 00:03:32,180
+thinking of when we're talking about these put spreads, okay?
+
+59
+00:03:32,560 --> 00:03:38,620
+So just to make sure everyone's on the same page, if the stock, or here,
+
+60
+00:03:38,720 --> 00:03:46,620
+why don't we just put one on just so everyone knows that we're all on the same page,
+
+61
+00:03:47,300 --> 00:03:51,340
+okay? So Boeing, I was just talking to Pranav about this,
+
+62
+00:03:52,960 --> 00:03:56,980
+we think Boeing is going to go up. So we might come in and sell, for example,
+
+63
+00:03:57,140 --> 00:04:09,630
+it's trading at 207. We might come in and sell a 195, 185 put spread, okay?
+
+64
+00:04:09,810 --> 00:04:21,530
+Pretty typical from a trader standpoint, right? Here we are. Okay?
+
+65
+00:04:21,730 --> 00:04:25,420
+Boeing is trading right over here right now. And if Boeing continues to go up,
+
+66
+00:04:25,480 --> 00:04:26,060
+we're going to make some money.
+
+67
+00:04:26,300 --> 00:04:29,540
+And if Boeing doesn't go below a certain threshold, right,
+
+68
+00:04:29,560 --> 00:04:32,080
+we're still going to make some money. Which would be right here,
+
+69
+00:04:32,140 --> 00:04:37,030
+which would be over there. This is a pretty standard approach for a put spread.
+
+70
+00:04:37,410 --> 00:04:42,010
+Now, the thing about a put spread is it's actually very versatile, okay?
+
+71
+00:04:43,080 --> 00:04:48,340
+Depending on how wide we make the strikes, where we put the strikes, okay,
+
+72
+00:04:48,400 --> 00:04:53,280
+how far out in time we put the strikes, we will have different exposures,
+
+73
+00:04:53,360 --> 00:04:53,520
+right?
+
+74
+00:04:53,600 --> 00:04:58,940
+The beauty about spread trading is you can customize it to have a ton of different
+
+75
+00:04:58,940 --> 00:04:59,480
+exposures.
+
+76
+00:05:01,700 --> 00:05:05,940
+So let us take a look at this very particular one here, super quick,
+
+77
+00:05:06,300 --> 00:05:09,420
+just we'll take a look at a basic risk profile before we start to,
+
+78
+00:05:10,080 --> 00:05:13,660
+just so we can get a sense of what they're really expressing before we go and scan
+
+79
+00:05:13,660 --> 00:05:18,740
+for it, okay? So if we look right here, okay, we look down here,
+
+80
+00:05:18,740 --> 00:05:21,060
+we can see a couple of things, okay? We're long delta,
+
+81
+00:05:21,300 --> 00:05:24,350
+meaning we think the stock, we want the stock to go up, okay?
+
+82
+00:05:24,750 --> 00:05:29,410
+We're also long theta, meaning we want time to pass, right?
+
+83
+00:05:29,410 --> 00:05:31,650
+If time passes and nothing happens, we're going to make money,
+
+84
+00:05:32,200 --> 00:05:36,940
+and we're short vega. So if volatility drops, we're also going to make money,
+
+85
+00:05:37,920 --> 00:05:42,500
+okay? And that is the characteristic of this particular short credit spread.
+
+86
+00:05:44,740 --> 00:05:48,920
+So why don't we go in and start scanning for these, okay? And in the comments,
+
+87
+00:05:49,100 --> 00:05:50,820
+as we're going over to the PA terminal,
+
+88
+00:05:51,060 --> 00:05:55,630
+I want to ask you guys the question of what do you think we might scan for,
+
+89
+00:05:56,050 --> 00:05:59,390
+okay? What do you think we might scan for given this vertical spread, okay?
+
+90
+00:05:59,390 --> 00:06:01,870
+And we're going to, as you guys write down your comments there,
+
+91
+00:06:01,950 --> 00:06:05,390
+we're going to head over to the terminal and figure it out.
+
+92
+00:06:08,700 --> 00:06:11,500
+So we're going to head over to volatility insights tab. And this tab,
+
+93
+00:06:12,300 --> 00:06:14,500
+as you guys know, it has all the volatility characteristics.
+
+94
+00:06:14,940 --> 00:06:18,780
+All we're going to focus on right now is this top section up here, right?
+
+95
+00:06:20,290 --> 00:06:24,560
+This right here is what we're going to be using. This is the area,
+
+96
+00:06:24,680 --> 00:06:26,540
+it's basically just our scanner.
+
+97
+00:06:26,820 --> 00:06:31,460
+It allows us to filter all the opportunities out there to find ones that meet a
+
+98
+00:06:31,460 --> 00:06:33,020
+particular criteria for us.
+
+99
+00:06:33,360 --> 00:06:36,800
+So for the purposes of finding the trades to put spreads on,
+
+100
+00:06:37,260 --> 00:06:43,070
+this is where you're going to look, okay? So you just come to the terminal,
+
+101
+00:06:43,230 --> 00:06:49,510
+you go to volatility insights. Okay. And honestly,
+
+102
+00:06:49,630 --> 00:06:52,170
+this is Sean's bread and butter, I thought he was going to take it away here.
+
+103
+00:06:56,770 --> 00:07:00,290
+So we showed what our risk profile was, right? What we benefit from,
+
+104
+00:07:00,310 --> 00:07:04,990
+from time passing, from volatility dropping, from stock increasing.
+
+105
+00:07:05,710 --> 00:07:07,430
+So right off the bat,
+
+106
+00:07:07,470 --> 00:07:10,930
+we're going to need the most important thing of this put spread right now.
+
+107
+00:07:12,290 --> 00:07:15,010
+And as we can see quickly here from this put spread,
+
+108
+00:07:15,430 --> 00:07:18,190
+that our biggest risk is this Delta factor.
+
+109
+00:07:20,330 --> 00:07:24,670
+Meaning we need the stock to go up and we need the stock to go up.
+
+110
+00:07:24,670 --> 00:07:26,330
+So before we even put on this put spread,
+
+111
+00:07:27,360 --> 00:07:31,200
+our view needs to be that the stock is going to go up.
+
+112
+00:07:31,560 --> 00:07:36,310
+Whatever fundamental reason we have, it's got to be there. Okay.
+
+113
+00:07:36,330 --> 00:07:38,390
+And that should be sound. Now,
+
+114
+00:07:38,470 --> 00:07:42,310
+we're not really going to talk about the Delta view, but briefly,
+
+115
+00:07:42,550 --> 00:07:46,430
+that view of Delta needs to be sound. Okay.
+
+116
+00:07:46,430 --> 00:07:48,990
+You can't just say the stock is going to be breaking out,
+
+117
+00:07:49,070 --> 00:07:51,210
+so I'm going to buy this, sell this vertical spread.
+
+118
+00:07:51,210 --> 00:07:56,010
+You need something more sound, something more reasonable. Okay.
+
+119
+00:07:56,370 --> 00:07:58,250
+Something that might actually have an edge, right?
+
+120
+00:07:58,350 --> 00:08:02,080
+You need to have an edge in Delta. Okay. If you don't have that,
+
+121
+00:08:02,540 --> 00:08:09,580
+this trade is not the best trade to place. Okay. So that's the first thing.
+
+122
+00:08:09,680 --> 00:08:12,780
+Now obviously, you might be able to use this,
+
+123
+00:08:12,900 --> 00:08:15,520
+the scanner for your own Delta view. For example,
+
+124
+00:08:15,520 --> 00:08:17,220
+if you want to scan for call put ratio,
+
+125
+00:08:17,600 --> 00:08:21,360
+maybe you think that the more calls than puts being bought,
+
+126
+00:08:21,580 --> 00:08:25,360
+that the stock is going to continue to go up. Okay. So you might use that,
+
+127
+00:08:25,520 --> 00:08:25,860
+for example.
+
+128
+00:08:28,010 --> 00:08:32,590
+Another thing you could use is the skew, right? Which is basically,
+
+129
+00:08:32,890 --> 00:08:35,990
+this is a different topic for a different lecture,
+
+130
+00:08:36,150 --> 00:08:39,590
+but this kind of tells you where the market thinks the stock is going to go.
+
+131
+00:08:40,170 --> 00:08:47,030
+Okay. Most likely. But what we're really going to focus on first is volatility.
+
+132
+00:08:47,690 --> 00:08:50,830
+Okay. So we are going to make money if volatility drops.
+
+133
+00:08:50,910 --> 00:08:55,530
+So the first thing we want to see is that IV is greater than our forecast.
+
+134
+00:08:55,930 --> 00:09:00,040
+Right. So we might scan for this being greater than one. Okay.
+
+135
+00:09:00,160 --> 00:09:02,990
+Maybe we'll do like 1.5. Okay. Right off the bat,
+
+136
+00:09:03,070 --> 00:09:08,280
+we narrow it down to 400 stocks. Okay. So IV greater than our forecast.
+
+137
+00:09:09,750 --> 00:09:14,240
+What we also might want to see is that there's some implied volatility. Right.
+
+138
+00:09:14,760 --> 00:09:16,800
+So we might say, let's go over 35. Right.
+
+139
+00:09:16,800 --> 00:09:18,120
+There's got to be some juice in this thing.
+
+140
+00:09:20,150 --> 00:09:25,050
+And then the last thing that I like to scan for is IV rank above 50. Okay.
+
+141
+00:09:25,090 --> 00:09:28,710
+This at least tells us that it's above the median. Right.
+
+142
+00:09:28,790 --> 00:09:34,460
+That this thing probably could come down. Right. Oh, I'm sorry. That was... No.
+
+143
+00:09:34,920 --> 00:09:37,380
+You want this as well? Yeah. Yeah. In a second.
+
+144
+00:09:38,080 --> 00:09:42,300
+We'll first talk about the vols here. So actually, maybe we'll go above 60.
+
+145
+00:09:42,540 --> 00:09:44,460
+Okay. So now we have...
+
+146
+00:09:44,460 --> 00:09:49,380
+Right now we filtered for basically Sean's bread and butter daily live. Right.
+
+147
+00:09:49,380 --> 00:09:56,200
+It's the IV greater than forecast and implied volatility pretty high.
+
+148
+00:09:56,460 --> 00:09:59,420
+And there is some, at least some volatility. Okay.
+
+149
+00:09:59,840 --> 00:10:02,420
+So that's from the IV 30 that we just scanned for here.
+
+150
+00:10:03,790 --> 00:10:07,970
+The other thing I like to do, like, you know, you don't really need to,
+
+151
+00:10:08,780 --> 00:10:11,680
+you know, you don't have to do this, but I usually like to,
+
+152
+00:10:11,760 --> 00:10:16,460
+because it's a spread, right, we want to see some type of volume, right.
+
+153
+00:10:16,500 --> 00:10:22,090
+Some type of liquidity. If there's no liquidity, right. The more,
+
+154
+00:10:22,130 --> 00:10:24,990
+the more legs you have on a trade and the less liquid,
+
+155
+00:10:25,290 --> 00:10:29,600
+the more edge you're giving away. Okay. There's no two corners around that.
+
+156
+00:10:29,780 --> 00:10:34,060
+The less liquid, the more legs, the more you're paying commission, slippage,
+
+157
+00:10:34,240 --> 00:10:34,520
+et cetera.
+
+158
+00:10:37,450 --> 00:10:40,290
+So we want to have some type of liquidity there,
+
+159
+00:10:40,310 --> 00:10:45,130
+and you can just scan for that in average option volume. Now, so far, okay,
+
+160
+00:10:45,130 --> 00:10:47,430
+we've scanned for high volume and high volatility.
+
+161
+00:10:48,100 --> 00:10:51,640
+We've narrowed it down to 30 stocks. Okay.
+
+162
+00:10:51,640 --> 00:10:53,320
+So all of these are potential candidates.
+
+163
+00:10:53,660 --> 00:10:59,160
+Now something else that's a little bit more on the complex side about these vertical
+
+164
+00:10:59,160 --> 00:11:03,560
+spreads is that they're different strikes. Okay. They're not the same strike.
+
+165
+00:11:03,660 --> 00:11:06,280
+They're different strikes. And so because of that, right,
+
+166
+00:11:06,320 --> 00:11:09,580
+we go back to think or swim here because we have different strikes,
+
+167
+00:11:09,580 --> 00:11:14,640
+we are buying and selling at different implied volatilities. Okay.
+
+168
+00:11:14,640 --> 00:11:17,680
+And just so you guys, you know, just so you know, I'm not going crazy here.
+
+169
+00:11:18,220 --> 00:11:23,080
+You can see that we're selling this at 48.2%, right?
+
+170
+00:11:23,140 --> 00:11:31,360
+We're selling this with this 195 and we're buying this one at 49.65, okay?
+
+171
+00:11:32,790 --> 00:11:36,870
+So we're selling at 48 and a half and buying at 49 and a half. Now,
+
+172
+00:11:38,220 --> 00:11:43,490
+we can actually scan for, okay, those volatilities, right?
+
+173
+00:11:43,850 --> 00:11:51,430
+We can actually scan for something where the out of the money put that we're buying
+
+174
+00:11:51,430 --> 00:11:56,010
+is cheaper than the at the money put we're selling. Okay.
+
+175
+00:11:56,170 --> 00:12:01,300
+And that is going to be in our skew factor. That's going to come down to this.
+
+176
+00:12:02,020 --> 00:12:07,160
+Yeah. Oh, you know, I'm probably going to scan for, I'm going to scan for,
+
+177
+00:12:07,580 --> 00:12:11,240
+I'm going to use skew rank here. I'm going to use skew rank.
+
+178
+00:12:12,720 --> 00:12:16,620
+And what I'm going to scan for is it's below 50. Okay.
+
+179
+00:12:16,640 --> 00:12:22,080
+So that means that the skew is less than the median. Okay.
+
+180
+00:12:23,530 --> 00:12:27,660
+So we're going to take a look at an example here. Okay. So right off the bat,
+
+181
+00:12:27,760 --> 00:12:31,110
+we have Pinterest. Okay. We got Pinterest right off the bat.
+
+182
+00:12:31,490 --> 00:12:32,650
+So let's take a look here.
+
+183
+00:12:34,960 --> 00:12:37,740
+And just before I actually move into thinkorswim, does everyone see Pinterest?
+
+184
+00:12:37,940 --> 00:12:42,620
+Is everyone okay with us using Pinterest here? So this is our scan.
+
+185
+00:12:42,840 --> 00:12:44,520
+This is our scan, right? So before we move on,
+
+186
+00:12:44,780 --> 00:12:47,800
+let's maybe do a little checklist here. Yeah. A little recap.
+
+187
+00:12:48,440 --> 00:12:50,940
+We'll do a recap and a checklist. I'll show you what I mean.
+
+188
+00:12:52,180 --> 00:12:56,660
+So let's look at what we did here. Firstly,
+
+189
+00:12:56,660 --> 00:13:00,000
+first thing we do is we apply our filter that we, you know,
+
+190
+00:13:00,300 --> 00:13:04,340
+pretty much do every time. Liquidity. Right. Price and liquidity.
+
+191
+00:13:05,080 --> 00:13:06,400
+And we didn't do price this time, but you know,
+
+192
+00:13:06,580 --> 00:13:09,180
+see it over 15 bucks and make sure it's liquid.
+
+193
+00:13:10,740 --> 00:13:13,020
+That's filter one is to make sure we have, you know,
+
+194
+00:13:13,020 --> 00:13:16,100
+it's within the realm of something we should be trading.
+
+195
+00:13:17,060 --> 00:13:20,920
+The second filter is our vol filter where we put,
+
+196
+00:13:21,100 --> 00:13:23,240
+we want to see the IV versus forecast high.
+
+197
+00:13:23,560 --> 00:13:27,860
+We want to see some implied volatility and we want to see the IV rank up.
+
+198
+00:13:28,040 --> 00:13:29,800
+Right? So then once we've applied those,
+
+199
+00:13:30,280 --> 00:13:35,800
+we are looking at ones that fit our volatility criteria only from there.
+
+200
+00:13:36,100 --> 00:13:41,080
+We know that we want to make sure that that out of the money put that we're buying
+
+201
+00:13:41,110 --> 00:13:46,990
+is not extremely expensive relative to the closer to at the money put that we're
+
+202
+00:13:46,990 --> 00:13:51,730
+selling. What we need to look for that is we need to filter for skew. Right?
+
+203
+00:13:51,890 --> 00:13:57,110
+So what we'll do is this quick, right?
+
+204
+00:13:57,130 --> 00:13:59,210
+You guys can take a little screenshot of this if you want.
+
+205
+00:14:09,430 --> 00:14:14,060
+Number one is the liquidity and price filters.
+
+206
+00:14:14,800 --> 00:14:17,120
+Number two is volatility filters,
+
+207
+00:14:19,160 --> 00:14:32,070
+which would be IV versus forecast greater than one. IV greater than 35.
+
+208
+00:14:32,750 --> 00:14:35,560
+And IV rank greater than 50. All right.
+
+209
+00:14:35,700 --> 00:14:39,480
+And then the last one here we're going to put is IV rank greater than 50.
+
+210
+00:14:41,130 --> 00:14:51,700
+There now we have skew filter, which would be skew rank above or below 50.
+
+211
+00:14:54,970 --> 00:14:57,510
+If we just come back up here quick. For liquidity filters,
+
+212
+00:14:58,050 --> 00:15:06,160
+option volume above 6,000, let's say, and price above $15.
+
+213
+00:15:07,900 --> 00:15:19,060
+Any questions about these? This would be the PA vertical scan. Put spread scan.
+
+214
+00:15:19,200 --> 00:15:23,460
+Put spread scan. Yeah. Sorry. Short put spread scan. Jared's asking,
+
+215
+00:15:23,580 --> 00:15:25,620
+when are we getting the put spreads button? Jared,
+
+216
+00:15:25,680 --> 00:15:27,960
+we were keeping that a secret. It was a surprise coming this week.
+
+217
+00:15:28,500 --> 00:15:30,960
+You ruined it, man. You're letting the cat out of the bag here.
+
+218
+00:15:33,070 --> 00:15:35,170
+Soon enough, you'll be able to do this with the click of a button.
+
+219
+00:15:37,880 --> 00:15:40,320
+Or not. Or not. Jared doesn't know what he's talking about.
+
+220
+00:15:41,480 --> 00:15:44,120
+Jared's drinking again. Yeah. Jared's drinking again.
+
+221
+00:15:46,700 --> 00:15:46,980
+Okay.
+
+222
+00:15:51,970 --> 00:15:54,910
+So will you be able to alter the scan? So Mark,
+
+223
+00:15:54,930 --> 00:15:57,350
+the way we're going to be doing it is we're going to have a homepage button or a
+
+224
+00:15:57,350 --> 00:16:00,430
+homepage tab that's going to have a bunch of different strategies with preset filters,
+
+225
+00:16:00,490 --> 00:16:02,290
+and it'll pull up the top 10 for it, let's say.
+
+226
+00:16:03,460 --> 00:16:07,400
+So whether it's like put spreads or covered calls or whatever you might want to
+
+227
+00:16:07,400 --> 00:16:12,600
+be doing. But then you'll be able to see what those are,
+
+228
+00:16:12,800 --> 00:16:16,740
+and you'll be able to adjust your own filters in the vol insights page.
+
+229
+00:16:19,800 --> 00:16:24,220
+Actually, guys, just a quick thing from Mark. For the more advanced guys,
+
+230
+00:16:24,320 --> 00:16:25,680
+I'm not going to be talking about too much,
+
+231
+00:16:25,680 --> 00:16:30,840
+but reach out to Mark about trading long debit vertical spreads.
+
+232
+00:16:30,920 --> 00:16:34,860
+I learned something from him in the summertime where you can place these trades
+
+233
+00:16:34,860 --> 00:16:38,460
+where you think volatility is insanely high and they're skewed in one direction.
+
+234
+00:16:39,760 --> 00:16:42,240
+Because as long as you get some type of movement, you know,
+
+235
+00:16:42,320 --> 00:16:44,180
+imagine a stock's random, right?
+
+236
+00:16:44,240 --> 00:16:48,300
+As long as we get some type of movement in that direction, it usually pays off.
+
+237
+00:16:48,440 --> 00:16:52,080
+So reach out to Mark for anyone who wants to trade long debit spreads,
+
+238
+00:16:52,120 --> 00:16:54,140
+or we'll do another live on it down the road.
+
+239
+00:16:54,140 --> 00:16:58,780
+But he's got some good ideas for those. Okay.
+
+240
+00:16:58,780 --> 00:17:01,800
+So I'm assuming everyone has their screenshot of this. Actually,
+
+241
+00:17:01,880 --> 00:17:06,180
+I'll just save it, and we'll throw it up in the group after.
+
+242
+00:17:10,890 --> 00:17:13,710
+Blessing's asking, do we have any concerns about days to expiration?
+
+243
+00:17:15,870 --> 00:17:22,640
+So Blessing, remember, the vertical spread, which towards the end,
+
+244
+00:17:22,680 --> 00:17:25,560
+we're going to put a whole bunch on, they can have different exposures, right?
+
+245
+00:17:25,560 --> 00:17:27,120
+They can have different risk factors.
+
+246
+00:17:27,120 --> 00:17:33,080
+So if you're putting a vertical spread further out in time, right,
+
+247
+00:17:34,940 --> 00:17:38,500
+you're going to be very sensitive to a drop in implied volatility, okay?
+
+248
+00:17:38,540 --> 00:17:42,040
+But that also depends on how close you're putting the strikes.
+
+249
+00:17:42,520 --> 00:17:45,600
+So it's not that we're concerned about days to expiration,
+
+250
+00:17:45,640 --> 00:17:52,910
+it's that do we want to put something on that expresses a certain view? Okay,
+
+251
+00:17:52,930 --> 00:17:58,970
+so there's never a time where it's like, I'm worried about this, right?
+
+252
+00:17:58,970 --> 00:18:00,070
+Because at the end of the day,
+
+253
+00:18:00,290 --> 00:18:06,170
+you can just – It's just a knob we can adjust to tweak what our view is.
+
+254
+00:18:06,510 --> 00:18:07,370
+Exactly. Right?
+
+255
+00:18:10,190 --> 00:18:12,730
+We're not going to focus on that too much for this live, to be honest,
+
+256
+00:18:12,790 --> 00:18:13,010
+Blessing,
+
+257
+00:18:13,070 --> 00:18:19,210
+because this is really tailored for – if you look out in the educational space for
+
+258
+00:18:19,210 --> 00:18:21,450
+options right now, a lot of people talk about put spreads.
+
+259
+00:18:21,870 --> 00:18:25,110
+So a lot of people are coming in here doing put spreads right off the bat anyways.
+
+260
+00:18:25,330 --> 00:18:26,870
+As they're learning, they're doing put spreads,
+
+261
+00:18:26,870 --> 00:18:31,550
+and we feel an obligation to make sure that people who are trading something that
+
+262
+00:18:31,550 --> 00:18:35,210
+maybe isn't in the Bronze education are still making the best decision possible
+
+263
+00:18:35,210 --> 00:18:39,400
+for what they're trying to do. And this is really for that person. And,
+
+264
+00:18:39,440 --> 00:18:41,680
+you know, if you learn about put spreads,
+
+265
+00:18:41,880 --> 00:18:43,800
+we'll do more talks about them in the future, et cetera.
+
+266
+00:18:45,300 --> 00:18:50,260
+This will help you fit whatever you choose to end up doing. And don't forget,
+
+267
+00:18:50,360 --> 00:18:55,170
+guys, from that screen that Sean showed, the scanner, most importantly,
+
+268
+00:18:55,370 --> 00:18:59,440
+is you need to have a long delta bias. Okay?
+
+269
+00:18:59,560 --> 00:19:00,640
+You need to have some type of long delta bias.
+
+270
+00:19:00,640 --> 00:19:02,220
+And we're not going to chat too much about, like,
+
+271
+00:19:02,600 --> 00:19:07,140
+what would make something a good or bad long delta bias.
+
+272
+00:19:07,240 --> 00:19:08,120
+Everyone has their different reasons,
+
+273
+00:19:08,120 --> 00:19:09,900
+and we're not necessarily the best delta traders either.
+
+274
+00:19:20,530 --> 00:19:24,590
+So, Mark, do you mind maybe elaborating a little bit about that, Mark?
+
+275
+00:19:25,530 --> 00:19:27,850
+Are you saying because, like, an iron condor is basically just, like,
+
+276
+00:19:28,750 --> 00:19:34,340
+two different spreads combined? I'm not 100% sure what you mean there, Mark.
+
+277
+00:19:34,380 --> 00:19:38,320
+If you can just maybe elaborate a little bit, then I'll mention it. Okay.
+
+278
+00:19:38,620 --> 00:19:42,540
+So now that we have that spread, we have Pinterest that came out on the list.
+
+279
+00:19:42,960 --> 00:19:46,280
+Okay? Now, this isn't on the top of the list. We could, let's say, filter.
+
+280
+00:19:46,560 --> 00:19:49,500
+So we're filtering for IV versus forecast right now.
+
+281
+00:19:51,920 --> 00:19:55,980
+And you can just turn the knobs there, whatever you guys are looking for.
+
+282
+00:19:56,060 --> 00:19:58,800
+So we're going to use Pinterest right now. I feel like it's a good one to use.
+
+283
+00:20:01,230 --> 00:20:03,860
+And let's say we have a bullish bias on Pinterest, right?
+
+284
+00:20:03,900 --> 00:20:06,260
+We think Pinterest is going to go up. Well, what we could do here,
+
+285
+00:20:06,580 --> 00:20:10,620
+we're going to structure out a couple here. We could come here 37 days out,
+
+286
+00:20:10,680 --> 00:20:15,120
+let's say, and sell an at-the-money, right?
+
+287
+00:20:16,920 --> 00:20:19,840
+Sell an at-the-money vertical strike.
+
+288
+00:20:20,380 --> 00:20:24,640
+And then let's say buy a little bit further out, maybe, let's say, 55. Okay?
+
+289
+00:20:27,980 --> 00:20:29,280
+Or why don't we say 60?
+
+290
+00:20:32,040 --> 00:20:33,680
+Okay, so here is this put spread.
+
+291
+00:20:38,660 --> 00:20:48,910
+All right? And also remember, guys, depending on this, you might, let's say,
+
+292
+00:20:48,990 --> 00:20:54,210
+do between a 55 and a 60 put, right, is going to give you more delta exposure.
+
+293
+00:20:54,510 --> 00:20:56,590
+It's also going to increase your rega exposure. Okay,
+
+294
+00:20:56,590 --> 00:21:00,390
+so we're going to do a couple here. So we're going to do the 70-60,
+
+295
+00:21:00,530 --> 00:21:05,570
+and we're also going to do the 70-50. Okay?
+
+296
+00:21:11,670 --> 00:21:15,070
+So let's look at the 70-50 first, right? Someone might come and say, hey,
+
+297
+00:21:15,130 --> 00:21:17,670
+you know, this is terrible risk-reward trade. Well,
+
+298
+00:21:17,690 --> 00:21:18,810
+it's not terrible risk-reward trade.
+
+299
+00:21:18,870 --> 00:21:22,800
+It's just expressing something maybe a little bit different. So in this case,
+
+300
+00:21:22,840 --> 00:21:26,740
+right, you're going to see here that our delta is 316.
+
+301
+00:21:27,320 --> 00:21:29,920
+Let's store it to one lot. Oh, yeah, okay, let's do one lot.
+
+302
+00:21:35,290 --> 00:21:43,020
+Okay, so this delta is 31. So it's like you own 31 shares. And this one, okay,
+
+303
+00:21:43,080 --> 00:21:47,350
+is 18. So right off the bat, the difference between these two, first off,
+
+304
+00:21:47,350 --> 00:21:55,810
+is that you're more bullish. Right, so how bullish are you on Pinterest? Now,
+
+305
+00:21:55,910 --> 00:22:00,010
+what else is a little different here? Well, look at our theta and vega, okay?
+
+306
+00:22:00,450 --> 00:22:06,480
+Theta is 7 here, and it's only 3 here. Okay,
+
+307
+00:22:06,500 --> 00:22:11,780
+so we're not as sensitive to time with this one. And lastly, look at our vega.
+
+308
+00:22:11,860 --> 00:22:15,380
+It's negative 3 when the other one was negative 7. So this one,
+
+309
+00:22:15,460 --> 00:22:21,440
+we're more sensitive, okay, to volatility collapsing. Now,
+
+310
+00:22:21,620 --> 00:22:24,580
+one mistake I see a lot of the time that traders do,
+
+311
+00:22:24,660 --> 00:22:28,540
+and I wouldn't say it's a mistake, but I think they put it on unknowing,
+
+312
+00:22:28,580 --> 00:22:34,500
+is they do these extremely, extremely tight spreads way out of the money, okay,
+
+313
+00:22:34,500 --> 00:22:37,490
+or even at the money. I guess at the money is not bad,
+
+314
+00:22:37,570 --> 00:22:42,120
+but I'll see sometimes traders do something like this, okay,
+
+315
+00:22:42,160 --> 00:22:48,950
+because they don't want to lose, so they'll sell way out of the money,
+
+316
+00:22:48,950 --> 00:22:53,110
+and they're going to do it super tight, okay? And they're going to say, okay,
+
+317
+00:22:53,230 --> 00:22:58,620
+well, as long as that thing goes up, right?
+
+318
+00:22:58,920 --> 00:23:01,900
+And this is really what we want to be thinking with these spreads, okay?
+
+319
+00:23:02,020 --> 00:23:07,560
+Look at our exposures here, right? Our exposures are almost nothing, right?
+
+320
+00:23:08,410 --> 00:23:11,230
+Go to a 1 lot here. Sorry, we're at a 10 lot, okay?
+
+321
+00:23:14,150 --> 00:23:15,650
+Our exposures are really nothing.
+
+322
+00:23:16,190 --> 00:23:18,530
+There's nothing really exciting going to be happening with this spread,
+
+323
+00:23:18,690 --> 00:23:20,250
+win or lose, right?
+
+324
+00:23:20,250 --> 00:23:22,950
+And so I think it's important that when we do these spreads,
+
+325
+00:23:23,150 --> 00:23:24,350
+we do them with conviction.
+
+326
+00:23:24,510 --> 00:23:30,000
+We do them with a real desire to want to put this trade on, right?
+
+327
+00:23:30,040 --> 00:23:34,300
+It's got to be meaningful, right? So doing something like this,
+
+328
+00:23:35,850 --> 00:23:38,750
+I don't know how to say it,
+
+329
+00:23:38,790 --> 00:23:42,330
+but it's like I would never do this in a million years.
+
+330
+00:23:43,380 --> 00:23:45,520
+I guess that's the best way that I can explain it.
+
+331
+00:23:47,480 --> 00:23:52,570
+Do you have anything to say about this one? I think you summed it up. So,
+
+332
+00:23:52,790 --> 00:23:54,630
+you know, depending on the different put spreads, right?
+
+333
+00:23:54,730 --> 00:23:58,630
+But let's also take a look here, guys. Remember how we scanned for that skew,
+
+334
+00:23:58,710 --> 00:24:00,540
+right? Let's take a look.
+
+335
+00:24:01,000 --> 00:24:05,720
+We're selling here at 88 and buying at 87 on this one, okay? Now,
+
+336
+00:24:05,740 --> 00:24:10,060
+that's not a huge deal. And, you know, because we're buying further out, right,
+
+337
+00:24:10,180 --> 00:24:14,120
+it's, you know, a couple points difference is not big. Sometimes we'll see,
+
+338
+00:24:14,200 --> 00:24:17,590
+though, people do this on the S&P 500, okay?
+
+339
+00:24:17,810 --> 00:24:20,110
+And look what happens when we do this on the S&P 500.
+
+340
+00:24:24,370 --> 00:24:28,260
+Look what happens here. You end up selling at, let's say,
+
+341
+00:24:28,320 --> 00:24:33,600
+a 17 vol and buying at a 22 vol, right?
+
+342
+00:24:33,660 --> 00:24:36,680
+So this put spread is not going to give you a great risk to reward.
+
+343
+00:24:39,060 --> 00:24:41,000
+So that's why we scanned for that skew.
+
+344
+00:24:41,040 --> 00:24:45,980
+And there's actually a little bit more in-depth reason for it,
+
+345
+00:24:46,000 --> 00:24:48,020
+but we're actually not going to talk about it on this live.
+
+346
+00:24:50,360 --> 00:24:55,020
+So do you guys have any questions about this? And key thing to know, guys,
+
+347
+00:24:55,080 --> 00:24:56,940
+like when it comes to developing a directional view,
+
+348
+00:24:56,940 --> 00:24:58,840
+there's a lot of different ways you can go about doing it, right?
+
+349
+00:25:01,720 --> 00:25:04,620
+Like, you know, one thing you can maybe think,
+
+350
+00:25:04,700 --> 00:25:06,180
+if you're selling something a little bit longer dated,
+
+351
+00:25:06,240 --> 00:25:09,520
+you think the macro environment is good. Well,
+
+352
+00:25:09,520 --> 00:25:14,190
+if you're trading something that's correlated with the S&P, well, there you go,
+
+353
+00:25:14,630 --> 00:25:15,690
+right? You know,
+
+354
+00:25:15,690 --> 00:25:19,370
+you don't need to have a directional edge that you think this thing's going to go
+
+355
+00:25:19,370 --> 00:25:19,890
+to the moon.
+
+356
+00:25:20,690 --> 00:25:23,210
+You need to be more confident that this thing's going to move up and down.
+
+357
+00:25:28,480 --> 00:25:30,140
+So Mark has a really good point here, right?
+
+358
+00:25:32,510 --> 00:25:37,550
+A lot of time we need to really just understand these structures, right?
+
+359
+00:25:37,550 --> 00:25:41,290
+Because sometimes let's say you might sell a put, right?
+
+360
+00:25:41,310 --> 00:25:43,990
+And then next thing you know, you're, you know,
+
+361
+00:25:44,030 --> 00:25:48,110
+you're buying it out of the money put to offset that down the road, right?
+
+362
+00:25:48,130 --> 00:25:50,230
+Let's say the stock's going down and you say, okay, you know what?
+
+363
+00:25:50,230 --> 00:25:52,970
+I got to hedge something here. Maybe I'm going to buy an out of the money put,
+
+364
+00:25:53,450 --> 00:25:55,470
+right? If we look at, let's say a market maker's book,
+
+365
+00:25:56,300 --> 00:25:58,940
+he's going to have a ton of different spreads on, right?
+
+366
+00:25:58,940 --> 00:26:02,500
+And he's going to try to look at it through one lens. Mark,
+
+367
+00:26:02,560 --> 00:26:06,940
+I think that's what you're trying to get at. I'm not 100% sure. If not,
+
+368
+00:26:07,080 --> 00:26:10,620
+maybe you can make a little post about it. You know, try to read.
+
+369
+00:26:11,060 --> 00:26:13,320
+Definitely in depth for this slide, but yeah,
+
+370
+00:26:14,480 --> 00:26:15,880
+definitely too deep for this slide,
+
+371
+00:26:15,940 --> 00:26:17,480
+but that would be a whole live in and of itself.
+
+372
+00:26:18,160 --> 00:26:20,980
+And that's actually one probably worth talking about. Yeah. And I actually,
+
+373
+00:26:21,160 --> 00:26:24,340
+I actually recommend it. You do reach out to Mark for these types,
+
+374
+00:26:24,520 --> 00:26:25,380
+these types of spreads.
+
+375
+00:26:25,380 --> 00:26:29,680
+I've learned some stuff from him over the summer regarding it. And Mark,
+
+376
+00:26:29,720 --> 00:26:34,500
+thank you in advance for your generous donation of time to everyone who will DM
+
+377
+00:26:34,500 --> 00:26:35,060
+you.
+
+378
+00:26:39,300 --> 00:26:43,440
+So, but is everyone understanding when to use a put spread,
+
+379
+00:26:43,500 --> 00:26:45,670
+when not to use a put spread, right?
+
+380
+00:26:45,690 --> 00:26:47,730
+We would use a put spread when we have high,
+
+381
+00:26:47,850 --> 00:26:49,410
+when we think implied volatility is too expensive.
+
+382
+00:26:49,710 --> 00:26:52,190
+We think the stock is going to go up and we think,
+
+383
+00:26:52,190 --> 00:26:57,190
+And we're not paying too much for those out of the money wings that we sold for
+
+384
+00:26:57,190 --> 00:26:59,810
+at the money, right? That is the skew.
+
+385
+00:27:00,230 --> 00:27:04,110
+The difference involves between the strikes. Okay. Now,
+
+386
+00:27:04,150 --> 00:27:06,630
+once we have that view on, we can make a solid trade.
+
+387
+00:27:07,090 --> 00:27:08,530
+And just given the time that we're at now,
+
+388
+00:27:08,890 --> 00:27:11,430
+I think it actually makes sense to do a part two tomorrow where we talk about the
+
+389
+00:27:11,430 --> 00:27:14,380
+components. Yes. Okay. So,
+
+390
+00:27:14,640 --> 00:27:18,780
+and let me just show you guys super quick what the skew does. Okay.
+
+391
+00:27:18,880 --> 00:27:21,060
+How the skew affects it. So let's say for example,
+
+392
+00:27:21,380 --> 00:27:26,200
+we're going to do two trades here. We're going to do a three 80. Okay.
+
+393
+00:27:26,200 --> 00:27:30,590
+We're going to sell them at the money call spread. Okay.
+
+394
+00:27:31,210 --> 00:27:34,300
+So S and P has a ton of skew. Okay.
+
+395
+00:27:35,260 --> 00:27:40,750
+So we're going to sell an at the money call spread here. Okay. So here it is.
+
+396
+00:27:41,030 --> 00:27:44,560
+And we're going to get $5 and 12 cents for it.
+
+397
+00:27:45,450 --> 00:27:51,770
+Now what we're going to do is do the exact same thing on the put side,
+
+398
+00:27:54,110 --> 00:27:58,440
+$10 wide, exactly the same. Okay. And look at the difference.
+
+399
+00:27:59,670 --> 00:28:05,270
+One is going for $5 and 12 cents and the other is going for $2 and 84 cents,
+
+400
+00:28:05,760 --> 00:28:11,040
+right? Here is the exact same thing. We're going to three 80, $10 out.
+
+401
+00:28:11,620 --> 00:28:16,220
+We'll look at that difference. Okay. Look at that difference.
+
+402
+00:28:16,320 --> 00:28:21,030
+And the reason is on this call spread that we're looking at here,
+
+403
+00:28:21,090 --> 00:28:26,660
+we're selling at 17 and buying at 14 on the put spread.
+
+404
+00:28:28,590 --> 00:28:33,040
+We're selling at 17 and buying at 20. Okay.
+
+405
+00:28:33,160 --> 00:28:37,690
+And that is going to make all the difference. So this is the,
+
+406
+00:28:37,950 --> 00:28:40,750
+this is how we want to look for these spreads. Okay.
+
+407
+00:28:41,070 --> 00:28:43,250
+Does that make sense to everyone? What do you guys think opinions?
+
+408
+00:28:55,720 --> 00:28:58,060
+Okay. Mark, I might have to actually learn this one from you.
+
+409
+00:28:58,100 --> 00:29:02,100
+So if you don't mind maybe in traders chat, if you can write a little,
+
+410
+00:29:03,540 --> 00:29:06,780
+if you can write a little message about it in traders chat,
+
+411
+00:29:06,960 --> 00:29:10,800
+I would love to read it afterwards. Yeah. And, and yeah,
+
+412
+00:29:10,800 --> 00:29:13,720
+that's exactly what we're saying, right?
+
+413
+00:29:16,340 --> 00:29:20,040
+Like and tomorrow's live, we will go in depth on that. Okay.
+
+414
+00:29:20,320 --> 00:29:22,040
+Cause that we like, we really, you know,
+
+415
+00:29:22,040 --> 00:29:25,160
+I don't want to give you a one liner and then make it confusing.
+
+416
+00:29:25,440 --> 00:29:29,000
+We'll just go in depth on that on tomorrow's life. Last thing is asking,
+
+417
+00:29:29,140 --> 00:29:34,190
+can you please repeat the criteria? So let's do this. Here it is again.
+
+418
+00:29:34,270 --> 00:29:35,410
+These are the filters we're going to use.
+
+419
+00:29:36,130 --> 00:29:38,270
+We want to make sure it's liquid and have a good price.
+
+420
+00:29:39,280 --> 00:29:43,300
+We need our vol filter and we need our skew filter down the road.
+
+421
+00:29:43,540 --> 00:29:47,420
+Hopefully not too far down the road. This is going to be available to you.
+
+422
+00:29:47,440 --> 00:29:50,380
+Boom. Like preset done. You just look at it and be like, here's the top five.
+
+423
+00:29:50,440 --> 00:29:52,720
+If I wanted, if any of these fit my bullish view,
+
+424
+00:29:52,880 --> 00:29:54,300
+these are the best ones to be doing it on.
+
+425
+00:29:56,600 --> 00:29:58,620
+And I think blessing also asked, you know,
+
+426
+00:29:58,700 --> 00:30:00,560
+the probably the most important question, right?
+
+427
+00:30:00,560 --> 00:30:02,980
+The most important question is, you know, Sean touched on as well,
+
+428
+00:30:03,240 --> 00:30:05,480
+is how do you build a directional bias or how do you,
+
+429
+00:30:05,480 --> 00:30:08,520
+how do you build that directional edge? And you know what guys,
+
+430
+00:30:08,520 --> 00:30:11,640
+it is a directional edge. You can make a ton of money with,
+
+431
+00:30:11,740 --> 00:30:15,640
+with a directional edge. So we really, it's, it's difficult to build one out.
+
+432
+00:30:17,980 --> 00:30:18,720
+It's there.
+
+433
+00:30:20,990 --> 00:30:24,970
+It will be a whole, a whole lecture on building out directional edge.
+
+434
+00:30:26,570 --> 00:30:29,530
+Personally, Sean and I, we don't look at charts. Okay.
+
+435
+00:30:29,530 --> 00:30:31,730
+But rarely are we trading a Delta,
+
+436
+00:30:33,780 --> 00:30:36,100
+but there's nothing wrong with trading Delta. Okay.
+
+437
+00:30:36,220 --> 00:30:40,490
+It's it's just something that Sean and I are not, let's say the best app.
+
+438
+00:30:42,060 --> 00:30:43,040
+All right.
+
+439
+00:30:46,020 --> 00:30:46,440
+Okay.
+
+440
+00:30:46,900 --> 00:30:52,780
+So we are going to continue this tomorrow on tomorrow's live where we actually are
+
+441
+00:30:52,780 --> 00:30:54,720
+going to go into each of those filters and really explain them.
+
+442
+00:30:54,780 --> 00:30:58,340
+The main one we're going to be focusing on is that skew element. All right.
+
+443
+00:30:58,380 --> 00:31:02,220
+Because at first glance, you're going to be like, wait, I don't get it.
+
+444
+00:31:02,840 --> 00:31:06,040
+Something tricky here. We're really, really dig into it.
+
+445
+00:31:06,720 --> 00:31:10,400
+And I literally picked this topic for you. I'm so happy that you liked it.
+
+446
+00:31:10,600 --> 00:31:17,080
+And on our next call, I, I hope to see how you're using it to, to, you know,
+
+447
+00:31:17,320 --> 00:31:19,900
+make great trades. And, and make sure to bring Alan.
+
+448
+00:31:20,120 --> 00:31:23,140
+I don't know where he is today. Oh, I'm sure. Come on. I don't know.
+
+449
+00:31:23,240 --> 00:31:25,580
+He's got to be there. It's one of his favorite topics too.
+
+450
+00:31:31,170 --> 00:31:32,750
+Oh, he was with the boys. Okay.
+
+451
+00:31:33,070 --> 00:31:36,470
+Make sure you make sure he's out here tomorrow and I'll upload the recording tonight
+
+452
+00:31:36,470 --> 00:31:37,450
+so that he can watch it.
+
+453
+00:31:38,800 --> 00:31:41,540
+He's definitely gonna be watching it tomorrow night tonight, but you know,
+
+454
+00:31:41,600 --> 00:31:44,140
+when it, when it wakes up tomorrow afternoon, he can give it a watch.
+
+455
+00:31:46,540 --> 00:31:50,760
+All right. Have a great night, everyone. See you guys. See you around.
