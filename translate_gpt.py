@@ -643,9 +643,12 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-               '/kaggle/working/GPT_subtitles/1/3.1 - Taking a  View on Volatility.srt',
-               '/kaggle/working/GPT_subtitles/1/4.7 - Gamma Scalping (The Best  way to learn about Volatility  Small Account Strategy).srt',
-               '/kaggle/working/GPT_subtitles/1/4.8 - Bankroll Management_ How  Much to Bet on Each Trade.srt'
+                 '/kaggle/working/GPT_subtitles/1/1.7 - The Ultimate Lecture on Expected Value.srt',
+                 '/kaggle/working/GPT_subtitles/2/1.1 - Euan Sinclair Trade Breakdown.srt', 
+                 '/kaggle/working/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
+                 '/kaggle/working/GPT_subtitles/2/2.4 - Butterflys.srt',
+                 '/kaggle/working/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
+                 '/kaggle/working/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
     ]
 
     for item in str_list:
