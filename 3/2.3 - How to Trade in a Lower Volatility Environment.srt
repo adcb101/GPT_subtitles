@@ -1,0 +1,1619 @@
+1
+00:00:01,070 --> 00:00:03,030
+All right, guys, so in this live,
+
+2
+00:00:03,110 --> 00:00:07,190
+we're going to be talking about how to value vol in this type of environment.
+
+3
+00:00:07,570 --> 00:00:09,210
+And when I say this type of environment,
+
+4
+00:00:09,210 --> 00:00:18,300
+I'm talking about a not as high vol environment as what we were just in. Okay,
+
+5
+00:00:18,340 --> 00:00:25,280
+so for example, VIX at 16 seems low, but if you look at the VIX over the last,
+
+6
+00:00:25,380 --> 00:00:28,160
+let's say, five years, it's extremely high.
+
+7
+00:00:28,560 --> 00:00:32,680
+It's just because in the last one year, we've had VIX 25.
+
+8
+00:00:33,580 --> 00:00:37,080
+And so it's like we're coming off the freeway. And all of a sudden,
+
+9
+00:00:37,180 --> 00:00:39,580
+we feel like we're going extremely fast, or no,
+
+10
+00:00:39,640 --> 00:00:41,100
+we feel like we're going really slow,
+
+11
+00:00:41,870 --> 00:00:45,310
+even though we're actually going extremely fast. Okay,
+
+12
+00:00:45,330 --> 00:00:47,750
+so that's what it kind of feels like. And this live,
+
+13
+00:00:47,850 --> 00:00:50,910
+I just wanted to basically talk about how do we price vol? How do we say,
+
+14
+00:00:51,070 --> 00:00:53,870
+you know, is volatility still expensive? Is it still cheap?
+
+15
+00:00:55,510 --> 00:00:59,510
+And we can go from there. It's funny, Jordan, remember,
+
+16
+00:00:59,690 --> 00:01:05,020
+so my birthday was a couple weeks ago, and I rented out like a, like a Mustang,
+
+17
+00:01:05,520 --> 00:01:10,100
+just to rip around. And I got it up to pretty good speeds,
+
+18
+00:01:10,220 --> 00:01:14,380
+having a great time with it. And then exactly said, like, you know,
+
+19
+00:01:14,380 --> 00:01:16,300
+I was back in like the neighborhood and I was going slow,
+
+20
+00:01:16,540 --> 00:01:20,580
+or it felt like I was going slow, but I was going like 60 or 70.
+
+21
+00:01:22,730 --> 00:01:25,490
+You know what I mean? And I literally felt like I was crawling,
+
+22
+00:01:25,870 --> 00:01:29,910
+but I'm still driving at a speed where like, if I crashed, I might die.
+
+23
+00:01:29,990 --> 00:01:31,630
+You know what I mean? But it felt like I was crawling,
+
+24
+00:01:31,870 --> 00:01:33,810
+like the car wasn't neutral. Right.
+
+25
+00:01:33,990 --> 00:01:38,170
+And that's sort of what you're alluding to is how the vol environment currently
+
+26
+00:01:38,170 --> 00:01:43,430
+feels, where there is still implied vol, there's still realized vol,
+
+27
+00:01:43,830 --> 00:01:50,480
+but it's not, it's not, we're not in a, in pandemic territory anymore. Exactly.
+
+28
+00:01:50,560 --> 00:01:54,400
+I saw someone on Twitter say like, VIX seems like value right now,
+
+29
+00:01:54,440 --> 00:02:01,000
+but in actual fact, it's like a GME, you know, went from $4 to $350.
+
+30
+00:02:01,320 --> 00:02:06,320
+And now that it's at $200 or $150, it seems like value,
+
+31
+00:02:06,320 --> 00:02:11,750
+but in the grand scheme of things, it's still not. So I think that's, you know,
+
+32
+00:02:11,790 --> 00:02:16,310
+a lot of people, they thought the VIX floor was at 20 and we just saw it just,
+
+33
+00:02:16,310 --> 00:02:22,730
+you know, capitulate and implode and go down to 15.
+
+34
+00:02:23,250 --> 00:02:27,310
+So why don't we chat about it? And, you know, even some of the PA guys here,
+
+35
+00:02:27,410 --> 00:02:30,430
+members are going to be getting tripped up because things like the volcon,
+
+36
+00:02:31,360 --> 00:02:33,900
+right? Everything on the volcon right now is under the median,
+
+37
+00:02:35,440 --> 00:02:39,300
+but that's because of the look back window that that median is taking into consideration
+
+38
+00:02:40,590 --> 00:02:48,200
+is what is it? Is it 18 months, Jordan? Yes. 18, right? Right.
+
+39
+00:02:48,200 --> 00:02:55,280
+So it's a 18 month look back. And of those 18 months, 15 of them are, you know,
+
+40
+00:02:55,480 --> 00:02:57,880
+chaos, right?
+
+41
+00:02:57,900 --> 00:03:04,490
+So this live will help you navigate the current landscape a lot better.
+
+42
+00:03:04,610 --> 00:03:07,290
+That's the goal. So make sure you ask questions along the way.
+
+43
+00:03:07,350 --> 00:03:11,950
+I'll be monitoring the chat, Jordan. Yep. Let's get into it. Okay.
+
+44
+00:03:12,350 --> 00:03:14,790
+Let me just pull this here. One second. All right.
+
+45
+00:03:16,940 --> 00:03:17,820
+Let me share my screen.
+
+46
+00:03:20,710 --> 00:03:27,380
+And guys ask questions along the way. All right. Very important. Yeah.
+
+47
+00:03:27,400 --> 00:03:28,860
+I'll keep my eye on the chat here, Jordan. Don't worry.
+
+48
+00:03:35,740 --> 00:03:37,940
+Right. Everyone can see my screen.
+
+49
+00:03:39,060 --> 00:03:42,840
+So right now I'm just looking at the S&P and what we notice, right?
+
+50
+00:03:42,880 --> 00:03:46,340
+Let me just take off the max here is the vols are at the lows, right?
+
+51
+00:03:46,340 --> 00:03:47,980
+And we're not just seeing this with the S&P.
+
+52
+00:03:48,140 --> 00:03:50,660
+So when we're looking at the volatility cone, let me just,
+
+53
+00:03:50,740 --> 00:03:54,850
+I'm going to take out a couple here. I'm going to take out the median.
+
+54
+00:03:55,440 --> 00:03:59,640
+Actually I'll take out the first quantile and the third quantile there.
+
+55
+00:03:59,980 --> 00:04:04,380
+So what we're seeing here is that vols are at the lows, right?
+
+56
+00:04:05,080 --> 00:04:09,360
+16 months ago or 14 months ago, COVID started or, you know,
+
+57
+00:04:09,420 --> 00:04:13,500
+vols started picking up. And so we're almost at just, you know,
+
+58
+00:04:13,540 --> 00:04:19,380
+just before the COVID lows. And a lot of people are saying, Hey, this is value.
+
+59
+00:04:19,460 --> 00:04:22,760
+This is looking like value. And we're seeing this across the board, right?
+
+60
+00:04:22,780 --> 00:04:27,920
+Every single equity, we saw Pfizer back down to pre COVID lows, right?
+
+61
+00:04:27,920 --> 00:04:31,220
+In terms of vol. And it's,
+
+62
+00:04:31,340 --> 00:04:34,560
+it seems like it's getting harder and harder to find short vol opportunities.
+
+63
+00:04:34,740 --> 00:04:40,640
+Yet we're seeing the VIX go from 20 to 15, right?
+
+64
+00:04:40,980 --> 00:04:45,300
+And this should go much lower, right?
+
+65
+00:04:45,360 --> 00:04:49,500
+VIX should all the way back down to remember those days when it was nine,
+
+66
+00:04:50,590 --> 00:04:52,550
+right? Not saying it's going there anytime soon,
+
+67
+00:04:52,550 --> 00:04:54,610
+but it could be making its way back down there.
+
+68
+00:04:55,570 --> 00:04:59,370
+And so even though we're looking at 15 VIX, it actually may not be real value.
+
+69
+00:05:00,840 --> 00:05:08,720
+And so a good way to compare if something is over or under priced,
+
+70
+00:05:09,080 --> 00:05:15,390
+we need something to compare it to. And as you guys know, we don't, we don't,
+
+71
+00:05:15,510 --> 00:05:19,650
+I don't think we've ever talked about macro vol. Do we talk about that, Sean?
+
+72
+00:05:20,830 --> 00:05:23,410
+Three circles, man. That's it. Yeah. Right.
+
+73
+00:05:23,430 --> 00:05:26,350
+It's we don't talk about what the S&P is doing tomorrow.
+
+74
+00:05:26,430 --> 00:05:30,300
+And the reason we don't do that is because it's too competitive, right? It's,
+
+75
+00:05:30,360 --> 00:05:32,500
+it's too many players are trying to play this game.
+
+76
+00:05:32,740 --> 00:05:37,720
+And I'm not too sure why I would want to participate in this, right?
+
+77
+00:05:38,800 --> 00:05:43,380
+Which is way too, it's way too sophisticated. There's so many parts happening.
+
+78
+00:05:44,040 --> 00:05:46,920
+There's so many good players happening, you know, trading in that space.
+
+79
+00:05:47,220 --> 00:05:50,860
+I don't know why I would want to want to be in there. So breaking the alpha,
+
+80
+00:05:50,940 --> 00:05:52,280
+you're rarely going to hear me saying, hey,
+
+81
+00:05:52,320 --> 00:06:02,580
+I'm selling as an offset of something, but it's never going to be my alpha leg.
+
+82
+00:06:02,800 --> 00:06:07,940
+I'm never going to be taking a view just strictly on S&P vol. Rarely,
+
+83
+00:06:08,180 --> 00:06:14,800
+very rare. But what the S&P does do is it serves as a benchmark.
+
+84
+00:06:16,160 --> 00:06:20,520
+S&P vol is extremely, extremely efficient. It's the most liquid market.
+
+85
+00:06:21,520 --> 00:06:24,700
+It's got the biggest players. It's got the most eyes. Okay.
+
+86
+00:06:25,180 --> 00:06:27,720
+It is going to be priced the most efficiently.
+
+87
+00:06:28,780 --> 00:06:32,920
+And so the way that we use it is a benchmark, right? Where is this?
+
+88
+00:06:32,980 --> 00:06:35,520
+Where is volatility right now? What, what is fair value?
+
+89
+00:06:35,900 --> 00:06:40,690
+And then we go out and we say, okay, well, this is fair value. What's this at?
+
+90
+00:06:41,030 --> 00:06:43,210
+Is this cheap or expensive given we know this?
+
+91
+00:06:44,200 --> 00:06:47,180
+And so that's what we're going to be talking about today is using the S&P,
+
+92
+00:06:47,460 --> 00:06:53,200
+NASDAQ vol can be used the same as a benchmark, as the fair value, right?
+
+93
+00:06:53,220 --> 00:06:56,000
+And then you trade the inefficiencies that are happening around it.
+
+94
+00:06:58,420 --> 00:07:02,820
+So how do we do that? How do we do that? Well, we know that basically,
+
+95
+00:07:02,880 --> 00:07:06,200
+Ivy rank is low for everything right now. So we can't just go, you know,
+
+96
+00:07:06,420 --> 00:07:09,260
+if we're using that as our signal,
+
+97
+00:07:09,400 --> 00:07:12,530
+we're always going to be long vol over the next year, right?
+
+98
+00:07:12,530 --> 00:07:15,450
+And that could be devastating. So we need another way to figure this out.
+
+99
+00:07:16,040 --> 00:07:22,830
+So I'm going to go over to relative value tab here and for the relative value tab.
+
+100
+00:07:26,630 --> 00:07:29,920
+Okay. There we go. For relative value tab,
+
+101
+00:07:30,120 --> 00:07:35,190
+what I'm going to do is I'm going to plot S&P vol, my apologies.
+
+102
+00:07:37,210 --> 00:07:40,470
+I realized that there's some few tiny bugs on this,
+
+103
+00:07:42,070 --> 00:07:43,010
+but I think we're going to be good here.
+
+104
+00:07:47,370 --> 00:07:47,630
+Okay.
+
+105
+00:07:47,770 --> 00:07:52,610
+So we're going to plot the S&P and what I'm plotting is the implied volatility 30
+
+106
+00:07:52,610 --> 00:07:56,730
+day over divided by the realized volatility 30 day.
+
+107
+00:07:56,810 --> 00:07:59,130
+And that the divide by is coming from the ratio here.
+
+108
+00:08:01,050 --> 00:08:03,250
+And so what we can see is that right now,
+
+109
+00:08:03,290 --> 00:08:07,710
+implied volatility is 1.3 times the realized vol. Okay.
+
+110
+00:08:07,710 --> 00:08:10,530
+We can see the realized vol right here, right?
+
+111
+00:08:10,570 --> 00:08:16,970
+Realized vols at 10 and implied vol right now is 1.3 times the realized vol.
+
+112
+00:08:17,250 --> 00:08:19,850
+So this is going to be our benchmark. Okay.
+
+113
+00:08:20,410 --> 00:08:25,790
+We know that implied vol and realized vol are correlated. Okay. We know that.
+
+114
+00:08:26,370 --> 00:08:28,110
+So instead of what we need to do is say, okay, well,
+
+115
+00:08:28,290 --> 00:08:32,110
+this asset is trading at 1.3 times the realized vol. Now,
+
+116
+00:08:32,150 --> 00:08:34,250
+anything that's trading above that should be expensive.
+
+117
+00:08:34,290 --> 00:08:36,830
+Anything trading below that should be cheap. So to do that,
+
+118
+00:08:36,890 --> 00:08:38,750
+I'm going to plot Apple.
+
+119
+00:08:48,480 --> 00:08:50,280
+For some reason, you have to run this twice.
+
+120
+00:08:51,060 --> 00:08:54,900
+I don't know what the deal is here, but so what do we know?
+
+121
+00:08:55,000 --> 00:08:59,160
+So let's focus on this graph right here. Okay. We have two graphs.
+
+122
+00:08:59,420 --> 00:09:01,160
+I'm going to go step-by-step very slow.
+
+123
+00:09:01,220 --> 00:09:04,020
+So we'd make sure we all understand this. We have two graphs here.
+
+124
+00:09:04,220 --> 00:09:10,760
+One graph in green is Apple's implied vol 30 divided by Apple's realized vol 30.
+
+125
+00:09:11,670 --> 00:09:17,310
+In blue is the S&P vol 30 divided by the realized vol 30.
+
+126
+00:09:19,790 --> 00:09:26,440
+And what we see here, okay, is that they move together, right?
+
+127
+00:09:27,200 --> 00:09:29,300
+They usually don't get too far out of line.
+
+128
+00:09:31,460 --> 00:09:39,520
+And so this is what we can use to compare the rest of the assets, right?
+
+129
+00:09:39,920 --> 00:09:40,900
+Implied vol right now,
+
+130
+00:09:40,960 --> 00:09:50,830
+it should be about 1.3 to 1.4 times the realized volatility. All right.
+
+131
+00:09:50,870 --> 00:09:53,270
+And when we see something that's way out of line,
+
+132
+00:09:53,940 --> 00:09:57,300
+that could be a good indication if something's cheap or expensive.
+
+133
+00:09:58,110 --> 00:10:01,810
+So I'm going to do, I'm going to do,
+
+134
+00:10:01,950 --> 00:10:04,330
+so does anyone have any questions about that before I continue?
+
+135
+00:10:05,950 --> 00:10:10,780
+I'm not seeing any. Okay. You guys, sure. We're using, we're saying, okay,
+
+136
+00:10:10,880 --> 00:10:13,260
+what is the implied vol of this asset over realized vol?
+
+137
+00:10:13,640 --> 00:10:16,680
+Because that's how we have to compare it, right? Sure. Implied vol is cheap,
+
+138
+00:10:17,670 --> 00:10:22,320
+but realized vol is even less. So we can, we need, we, you know,
+
+139
+00:10:22,960 --> 00:10:29,080
+we can't say S&P VIX should be, let's say 20 or 30, right?
+
+140
+00:10:29,080 --> 00:10:34,180
+We can't say that because it's only realizing 10, right? That's, that's,
+
+141
+00:10:34,240 --> 00:10:36,680
+you know, everyone would be a seller at 20 VIX.
+
+142
+00:10:36,920 --> 00:10:40,840
+Everyone would be a seller at 25 VIX, right? And so it's going to come down.
+
+143
+00:10:41,040 --> 00:10:43,540
+We need to compare it to what's happening right now, which is the realized vol.
+
+144
+00:10:46,200 --> 00:10:49,240
+And so that, like that is our benchmark. Okay. 1.3,
+
+145
+00:10:49,420 --> 00:10:53,800
+that's the efficient benchmark. Implied vol should be 1.3 times realized vol.
+
+146
+00:10:54,840 --> 00:10:55,120
+Okay.
+
+147
+00:10:58,380 --> 00:11:01,660
+So I was talking to Margin. I don't know if he's on the call.
+
+148
+00:11:03,720 --> 00:11:09,260
+No margin. Okay. Talking to Margin about SMBR. And we were just looking,
+
+149
+00:11:09,720 --> 00:11:13,540
+you know, he was looking for earnings trade today and he said, look,
+
+150
+00:11:15,260 --> 00:11:22,520
+implied vols, there's no way implied volatility is going to go down to 49.
+
+151
+00:11:22,660 --> 00:11:25,360
+This is the lows he said, right? 49 is the lows.
+
+152
+00:11:25,460 --> 00:11:28,080
+There's no way the day after the event, it's going down to 49.
+
+153
+00:11:28,720 --> 00:11:34,640
+So maybe it's going to go to 55, right? But let's take a look at S&P.
+
+154
+00:11:45,850 --> 00:11:49,030
+Okay. The S&P, unfortunately, like these are the lows here, 16.
+
+155
+00:11:49,290 --> 00:11:55,300
+The S&P has dropped below that, right? It's now 14. It was 13, right?
+
+156
+00:11:55,320 --> 00:11:59,060
+So it can go lower and it will go lower. And the way we need to, you know,
+
+157
+00:11:59,060 --> 00:12:02,240
+figure out, well, how much, how much lower is it going to go? Right.
+
+158
+00:12:02,500 --> 00:12:03,620
+We need that comparison.
+
+159
+00:12:10,010 --> 00:12:11,690
+We need to take a guess, right? Well,
+
+160
+00:12:11,710 --> 00:12:13,430
+what does implied vol going to go to after the event?
+
+161
+00:12:15,220 --> 00:12:18,460
+And does anyone have an idea of how we would compare this? Does anyone,
+
+162
+00:12:18,780 --> 00:12:21,740
+does anyone have an idea on how we would figure out where this is going to go given
+
+163
+00:12:21,740 --> 00:12:22,500
+what we just noticed?
+
+164
+00:12:26,630 --> 00:12:32,790
+Does anyone want to take a guess? Last earnings. Last earnings. Okay.
+
+165
+00:12:32,910 --> 00:12:41,540
+So you think it's going to go down to 57 currently trading at 68.
+
+166
+00:12:41,760 --> 00:12:43,560
+You think it's going to go down to 57. What do you guys think?
+
+167
+00:12:44,040 --> 00:12:45,820
+Where's implied vol going to go after the event?
+
+168
+00:12:48,220 --> 00:12:51,740
+You're saying, can't you just run the same ratio of IB to RV? Thank you.
+
+169
+00:12:51,860 --> 00:12:58,360
+Who said that one? Adam. Adam. Thank you. So let's take a look at RV. Okay.
+
+170
+00:12:58,740 --> 00:13:02,800
+Okay. We're going to go over to the, uh, to relative value.
+
+171
+00:13:04,840 --> 00:13:05,240
+Um,
+
+172
+00:13:10,050 --> 00:13:20,930
+and I gotta, I gotta figure out why I have to run this twice to get it.
+
+173
+00:13:21,600 --> 00:13:22,520
+It's very strange.
+
+174
+00:13:29,200 --> 00:13:33,240
+Hmm. You know what guys? Eric's saying change your top left ticker. Ah,
+
+175
+00:13:33,240 --> 00:13:35,200
+that's why. That's it. Thank you.
+
+176
+00:13:40,950 --> 00:13:42,430
+There we go. Thank you.
+
+177
+00:13:44,720 --> 00:13:49,080
+Uh, so we should see a 1.3 times after the event. And now, um,
+
+178
+00:13:49,120 --> 00:13:54,200
+so something else to keep in mind here, guys is for SNBR. Um,
+
+179
+00:13:55,360 --> 00:13:56,740
+I don't know why I have these on here.
+
+180
+00:14:01,880 --> 00:14:04,520
+Okay. Uh, for SNBR, uh,
+
+181
+00:14:04,620 --> 00:14:10,020
+I know realized right now for the last 30 days of 64 in the last 10 days,
+
+182
+00:14:10,040 --> 00:14:14,640
+it's only been 30. Okay. In the last 10 days, there was some, uh,
+
+183
+00:14:14,640 --> 00:14:18,500
+some ball to that happened here recently. Um, and that's, that's going to be,
+
+184
+00:14:18,500 --> 00:14:18,780
+you know,
+
+185
+00:14:18,780 --> 00:14:23,280
+a little bit of a nuance and single names because you could have like one day of
+
+186
+00:14:23,280 --> 00:14:27,900
+a big event. Right. And that changes the whole vault, the realized volatility.
+
+187
+00:14:28,160 --> 00:14:31,560
+So you gotta be very mindful of that. Um, for these, uh,
+
+188
+00:14:31,560 --> 00:14:36,710
+for these single names, which is different than in the index. So if we had to,
+
+189
+00:14:36,730 --> 00:14:39,910
+if we knew, let's say realized volatility was at 30. Okay.
+
+190
+00:14:40,170 --> 00:14:48,090
+We would say that implied vault should be 30 times 1.3 or 40. Right.
+
+191
+00:14:48,270 --> 00:14:51,510
+And that's what, you know, that's what I would be guessing. Um,
+
+192
+00:14:51,530 --> 00:14:54,310
+I think actually realized vol is like 35, uh,
+
+193
+00:14:54,310 --> 00:15:02,140
+the last 10 days I was looking up on, uh, uh, on my, on my data feed. Um,
+
+194
+00:15:03,390 --> 00:15:08,740
+so in this case, right, we see realized vols at 64. Uh, we would say, okay,
+
+195
+00:15:08,760 --> 00:15:12,340
+64 times 1.3 should be the implied vault. However,
+
+196
+00:15:12,640 --> 00:15:14,980
+realized vault last 10 days has been very, very low.
+
+197
+00:15:14,980 --> 00:15:19,700
+We could actually see that in the volatility analyzer here. Uh,
+
+198
+00:15:19,700 --> 00:15:24,200
+here's the realized vol, right. It's been, it's basically nothing. Oh, here,
+
+199
+00:15:24,360 --> 00:15:26,000
+right.
+
+200
+00:15:30,050 --> 00:15:33,470
+Realized vol realized vol is at 41. Okay.
+
+201
+00:15:33,470 --> 00:15:37,770
+Realized vol the last 10 days is at 41. And so 41 times 1.3,
+
+202
+00:15:37,930 --> 00:15:44,040
+it's going to give us something like 50 vol. Okay. 53 vol.
+
+203
+00:15:44,380 --> 00:15:46,380
+And so that's what we think, uh,
+
+204
+00:15:46,720 --> 00:15:52,090
+the implied volatility is going to come to after the event, but, you know,
+
+205
+00:15:52,450 --> 00:15:56,330
+looking at, looking at the, um, you know, if we don't look at it like that,
+
+206
+00:15:56,370 --> 00:16:00,010
+right. Well, implied vol doesn't seem so high.
+
+207
+00:16:00,110 --> 00:16:02,760
+It doesn't seem too high right now. Right.
+
+208
+00:16:02,780 --> 00:16:06,480
+And how are we going to sell an earnings event when implied vol is not even in the
+
+209
+00:16:06,480 --> 00:16:12,640
+third quantile. And the reason for that is because, um, we're coming off,
+
+210
+00:16:12,760 --> 00:16:18,180
+you know, extreme volatility. Do you guys have any questions about that?
+
+211
+00:16:20,210 --> 00:16:24,650
+We just turn on the light here. One second, guys. I guess it's getting dark,
+
+212
+00:16:24,710 --> 00:16:27,530
+starting to look shadow of vol again. Exactly.
+
+213
+00:16:32,770 --> 00:16:37,760
+So Ram just wants you to confirm, uh, how you got 1.3. I used the S&P vol.
+
+214
+00:16:37,940 --> 00:16:39,380
+And the actual fact is,
+
+215
+00:16:39,480 --> 00:16:41,860
+so when you guys get more skilled and you get better and better at this,
+
+216
+00:16:41,880 --> 00:16:42,680
+you do this over and over.
+
+217
+00:16:45,770 --> 00:16:48,370
+Um, 1.3 is going to be high.
+
+218
+00:16:49,360 --> 00:16:53,740
+1.3 is going to be high because does anyone know why that 1.3 is going to be high?
+
+219
+00:16:53,980 --> 00:16:58,180
+So 1.3 is what S&P is. S&P implied vol to realize vol.
+
+220
+00:16:58,440 --> 00:17:00,140
+Why is 1.3 going to be high?
+
+221
+00:17:04,300 --> 00:17:08,490
+Eric's saying because the market overstates vol. Exactly. Right.
+
+222
+00:17:08,610 --> 00:17:16,460
+The S&P it's well-known and well-documented that index vol, uh, is, is,
+
+223
+00:17:16,540 --> 00:17:21,880
+has a lot higher risk premia than single name vol. A lot higher risk premia.
+
+224
+00:17:22,290 --> 00:17:27,610
+So you're, it's going to overstate slightly more than, um,
+
+225
+00:17:27,910 --> 00:17:28,870
+a single name equity.
+
+226
+00:17:30,120 --> 00:17:33,020
+So we might have 1.25 and we're going to look at similar ones.
+
+227
+00:17:33,080 --> 00:17:36,240
+We're gonna look at similar companies, right? Um, we're going to, you know,
+
+228
+00:17:36,240 --> 00:17:38,280
+try to find, we're going to do as much research.
+
+229
+00:17:38,280 --> 00:17:40,860
+And we did a relative value on the other day where we did DISCA.
+
+230
+00:17:40,960 --> 00:17:46,350
+We talked about, uh, you know, relative value, um, and, and valuing assets.
+
+231
+00:17:46,830 --> 00:17:48,950
+You're going to have to spend some time and value the vol.
+
+232
+00:17:51,270 --> 00:17:57,370
+Okay. And the way we use it is S&P is benchmark. Get S&P, try to get,
+
+233
+00:17:57,430 --> 00:18:00,070
+get a basket of stocks that is similar to the one you're looking at,
+
+234
+00:18:00,130 --> 00:18:03,080
+see what they're doing. And then, you know, rank them, right?
+
+235
+00:18:03,100 --> 00:18:08,550
+You can rank them in the scanner here, right? IV versus forecast, right?
+
+236
+00:18:08,570 --> 00:18:15,390
+Or whatever you're looking for. Red's asking is realized volatility, uh,
+
+237
+00:18:15,830 --> 00:18:19,470
+being used interchangeably with historical volatility here? Yeah, same thing.
+
+238
+00:18:19,630 --> 00:18:23,580
+Just what happened in the past. And then Crawford's asking,
+
+239
+00:18:23,580 --> 00:18:29,960
+would the stocks beta be a consideration? Yes. I think that's very good. Right.
+
+240
+00:18:30,040 --> 00:18:37,660
+So who said that one Crawford, man, our new members really, uh, stepping it up.
+
+241
+00:18:37,860 --> 00:18:42,220
+Yeah, really stepping it up. No pressure, no pressure. Uh, old members,
+
+242
+00:18:42,420 --> 00:18:45,620
+no pressure, all members. You guys suck.
+
+243
+00:18:47,800 --> 00:18:53,360
+Uh, just kidding guys. Just kidding. Um, yes, Crawford. So you could use,
+
+244
+00:18:53,360 --> 00:18:57,120
+you know, uh, you can use the correlation here to, to figure that out. Right.
+
+245
+00:18:57,140 --> 00:19:00,260
+But the issue is sometimes, um,
+
+246
+00:19:02,510 --> 00:19:02,910
+uh,
+
+247
+00:19:02,910 --> 00:19:06,690
+sometimes the stock is not going to have a high beta to the S&P because it's not
+
+248
+00:19:06,690 --> 00:19:12,210
+correlated. Right. And if it's, if it's not correlated, um, then it's,
+
+249
+00:19:12,210 --> 00:19:15,530
+you know, if the beta is not really going to matter here, we're going to put,
+
+250
+00:19:15,810 --> 00:19:18,670
+uh, we're going to put S&P on the Y on the X axis instead.
+
+251
+00:19:22,220 --> 00:19:26,640
+Right. So it's like, because there's no real correlation between, uh,
+
+252
+00:19:27,160 --> 00:19:32,860
+the sleep stock and S the S&P it's not really going to, uh,
+
+253
+00:19:33,420 --> 00:19:34,860
+the beta is not really going to matter here.
+
+254
+00:19:45,870 --> 00:19:50,530
+Okay. So I gotta fix something here, but anyways, um,
+
+255
+00:19:50,970 --> 00:19:55,470
+if the stock is going to be correlated, let's say Microsoft Apple, then yes,
+
+256
+00:19:55,470 --> 00:19:58,530
+you'd want to use a beta, right. To also get that, you know,
+
+257
+00:19:58,590 --> 00:20:01,070
+how correlated is this thing? Uh,
+
+258
+00:20:01,070 --> 00:20:05,030
+and then you would multiply the beta times the vol. So the vol,
+
+259
+00:20:05,230 --> 00:20:10,700
+let's say the beta was two and S&P vol was 30, then fair value would be 60.
+
+260
+00:20:16,620 --> 00:20:19,720
+And you can see here, like the rolling correlation between the two, you know,
+
+261
+00:20:19,760 --> 00:20:23,420
+it's, uh, it's 17%. Like it's nothing, you know,
+
+262
+00:20:23,440 --> 00:20:25,040
+it's definitely not high correlation.
+
+263
+00:20:27,520 --> 00:20:30,180
+So you can't, you wouldn't, you wouldn't use the S&P beta here.
+
+264
+00:20:37,400 --> 00:20:42,520
+The other questions. Nope. That's it for now. We'll keep it moving. Okay. So,
+
+265
+00:20:42,820 --> 00:20:45,740
+well, I mean, that that's, that's really it, right? Like I, right guys,
+
+266
+00:20:45,800 --> 00:20:46,440
+we're coming in, we're,
+
+267
+00:20:46,520 --> 00:20:51,080
+we're in a new environment now and we can't be just looking at IV rank, right.
+
+268
+00:20:51,120 --> 00:20:53,380
+We need to be able to find another way to value this.
+
+269
+00:20:55,560 --> 00:20:58,540
+So let's, uh, let's talk about this then Jordan. Uh,
+
+270
+00:20:58,880 --> 00:21:04,340
+is this the same methodology you would apply when looking at like a, uh, uh,
+
+271
+00:21:04,340 --> 00:21:10,400
+a play on realized volatility versus implied volatility and on a current implied
+
+272
+00:21:10,400 --> 00:21:13,100
+vol versus future implied vol level, would you use the same thing?
+
+273
+00:21:13,140 --> 00:21:18,660
+So short dated options, long dated options. Yeah. Yeah. You can,
+
+274
+00:21:18,800 --> 00:21:20,680
+in the relative value tab, you can do, um,
+
+275
+00:21:21,300 --> 00:21:25,120
+because it's still correlated at the 90 day, uh, on, on 90 tenors.
+
+276
+00:21:25,930 --> 00:21:31,250
+So instead of IV30, you would maybe do IV90 day, right? You're just,
+
+277
+00:21:31,330 --> 00:21:34,290
+you're trying to value this thing as much as possible. Um,
+
+278
+00:21:34,370 --> 00:21:37,530
+but one thing that you shouldn't be doing, and I honestly would say it's a,
+
+279
+00:21:38,760 --> 00:21:43,460
+it would be a naive way to think about it is because is if, because VIX is low,
+
+280
+00:21:43,460 --> 00:21:49,750
+that means it should go back up, right? That's almost never the case. Um,
+
+281
+00:21:49,850 --> 00:21:54,720
+the best time to sell vol is when vol is low, right? That's,
+
+282
+00:21:54,760 --> 00:21:57,180
+that's the same people. You say best time to sell vol is when it's high,
+
+283
+00:21:57,540 --> 00:22:00,840
+best time to sell vol in terms of implied versus realized.
+
+284
+00:22:01,400 --> 00:22:02,720
+So shorter dated options,
+
+285
+00:22:02,780 --> 00:22:06,840
+let's say 30 day options and less is going to be when the VIX is low and the vol
+
+286
+00:22:06,840 --> 00:22:08,460
+is low. And it can just keep bleeding out.
+
+287
+00:22:14,720 --> 00:22:17,460
+Exactly. Right. And like, if you think about it conceptually,
+
+288
+00:22:17,460 --> 00:22:24,050
+it kind of makes sense why that's the case. Um, you know, when, when,
+
+289
+00:22:24,050 --> 00:22:29,980
+when things are stable, you know, it's, uh, you know, easier to price things.
+
+290
+00:22:30,520 --> 00:22:37,190
+Uh, you know, it's risk premiums more clear when things are wild, you know,
+
+291
+00:22:37,190 --> 00:22:38,830
+it's pretty easy to miss the mark.
+
+292
+00:22:39,390 --> 00:22:43,150
+So the easiest way to think about it is the market has that, uh,
+
+293
+00:22:43,150 --> 00:22:47,940
+an embedded risk premium that it's easier to collect when in low realized vol environments
+
+294
+00:22:47,940 --> 00:22:50,420
+than in high realized vol environments,
+
+295
+00:22:50,420 --> 00:22:55,400
+because the things is so hard to price because it's moving so much.
+
+296
+00:22:58,740 --> 00:23:02,580
+And people are also more likely to buy vol when things are low,
+
+297
+00:23:02,660 --> 00:23:06,050
+when vol is low. True. Right. Which is going to get,
+
+298
+00:23:06,150 --> 00:23:08,350
+which is always going to give that embedded risk premium.
+
+299
+00:23:11,260 --> 00:23:17,300
+Why? Uh, so, um, let's see, uh, Adam's asking,
+
+300
+00:23:17,700 --> 00:23:24,720
+could you compare the IVE ratio of a specific stock during a previous period to
+
+301
+00:23:24,720 --> 00:23:28,700
+the ratio of spy at that time? IVR.
+
+302
+00:23:28,740 --> 00:23:35,390
+I'm assuming IVR of a stock previously to a stock. No. Yeah. A hundred percent.
+
+303
+00:23:35,530 --> 00:23:37,630
+Right. Uh, well, let's look at Apple.
+
+304
+00:23:44,000 --> 00:23:47,100
+You don't have the ratio clicks for a spy, but,
+
+305
+00:23:48,300 --> 00:23:52,420
+or you don't have spy on at all. I thought you, okay.
+
+306
+00:23:52,460 --> 00:23:56,190
+You don't need to do anything. Yeah. I didn't. I didn't. Sorry. Okay.
+
+307
+00:23:56,190 --> 00:23:58,470
+I got a song. Someone's a little buggy here. I got to fix it. But anyways,
+
+308
+00:23:58,590 --> 00:24:03,310
+you can take a look here, right? Like Apple and spy have all,
+
+309
+00:24:03,370 --> 00:24:06,450
+you can see that the market is actually using this factor, right?
+
+310
+00:24:06,450 --> 00:24:09,010
+If the market wasn't using this factor, these things wouldn't be correlated.
+
+311
+00:24:09,190 --> 00:24:13,770
+So you can see like market makers and other traders use this as one metric.
+
+312
+00:24:13,790 --> 00:24:20,120
+Right. And that's why you see them in the RV, the IVR V they move together. Um,
+
+313
+00:24:22,280 --> 00:24:28,190
+um, I guess does that answer your question? Uh, Adam,
+
+314
+00:24:28,290 --> 00:24:30,090
+I think you just said like, you wanted me to plot it, right?
+
+315
+00:24:31,400 --> 00:24:35,460
+You meant for something like SNBR, if it isn't that correlated to spy,
+
+316
+00:24:36,600 --> 00:24:39,950
+can you do that? Yes. Yes.
+
+317
+00:24:39,950 --> 00:24:42,750
+You can still do that because you were looking at the, uh,
+
+318
+00:24:42,750 --> 00:24:47,250
+at the risk premium that the pricing in relative to what's actually happening right
+
+319
+00:24:47,250 --> 00:24:51,670
+now. So our corn is asking, uh,
+
+320
+00:24:52,640 --> 00:24:57,760
+why do this versus the non-event term structure, non-event vol term structure.
+
+321
+00:24:59,540 --> 00:25:05,380
+So I guess for, uh, for your SN DL trade or whichever company you're in,
+
+322
+00:25:07,460 --> 00:25:07,760
+right.
+
+323
+00:25:09,770 --> 00:25:14,850
+So in this case, um, we were, we were chatting about it. Let's go to SMBR.
+
+324
+00:25:15,790 --> 00:25:18,290
+You basically also think non-event vol is expensive,
+
+325
+00:25:20,430 --> 00:25:25,270
+right? So yeah, exactly. Right. So, um, let me just get rid of this.
+
+326
+00:25:27,410 --> 00:25:31,130
+Okay. So when we look at this, a quarter mile, we see, okay, well front month,
+
+327
+00:25:31,190 --> 00:25:34,190
+first off there's, there wasn't a lot of data points with SMBR. It was,
+
+328
+00:25:34,230 --> 00:25:39,340
+it was a monthly contract. Um, and so what we can see here is like, okay,
+
+329
+00:25:39,340 --> 00:25:41,100
+well sure. Implied vault, you know,
+
+330
+00:25:41,420 --> 00:25:44,340
+30 days is going to be 68 and non-event falls going to be 60,
+
+331
+00:25:44,340 --> 00:25:46,380
+but look at the realized vol, right.
+
+332
+00:25:49,130 --> 00:25:52,910
+It was high, just like the whole market. If I plotted the S and P 500,
+
+333
+00:25:53,110 --> 00:26:00,320
+30 day vol is high across the board, but over the last 20 days or last 10,
+
+334
+00:26:00,440 --> 00:26:07,310
+15 days, we've seen vol completely drop off across the, across all assets.
+
+335
+00:26:07,870 --> 00:26:12,830
+Vol has shrunk. And what do we know about volatility? It clusters, right?
+
+336
+00:26:12,850 --> 00:26:13,510
+That's probably one of the,
+
+337
+00:26:13,530 --> 00:26:17,470
+that's probably the strongest factor is that it clusters before being reversion.
+
+338
+00:26:19,410 --> 00:26:24,130
+Um, and so when, when we're seeing, when we're seeing vol at this low level,
+
+339
+00:26:24,130 --> 00:26:30,240
+you know, at these levels here, uh, and we're seeing non-event vol at 60,
+
+340
+00:26:31,710 --> 00:26:34,570
+it's going to be hard for it to stay up here, right?
+
+341
+00:26:34,590 --> 00:26:36,690
+One of two things are going to happen, right? Like, well, like,
+
+342
+00:26:36,750 --> 00:26:41,590
+what do we notice about this relative value graph, right? What, like, what,
+
+343
+00:26:41,610 --> 00:26:46,430
+what do we notice about this thing? When we divide IV by RV, it mean reverts,
+
+344
+00:26:47,220 --> 00:26:50,300
+right? And that's a pretty common factor. It's a pretty strong factor.
+
+345
+00:26:52,150 --> 00:26:58,200
+So if we're all the way up here, right. On IV versus, let's say 60, um, uh,
+
+346
+00:26:58,200 --> 00:27:00,330
+on IV versus RV, right.
+
+347
+00:27:00,350 --> 00:27:03,810
+If we're all the way up here and it's actually a lot higher right now that we're
+
+348
+00:27:03,810 --> 00:27:11,320
+looking at the 30 day. If this was the, uh, if this was like,
+
+349
+00:27:11,340 --> 00:27:15,400
+let's say a 10 day, right. This would be extremely, extremely high. And so,
+
+350
+00:27:15,420 --> 00:27:17,320
+you know, one of two things are going to happen.
+
+351
+00:27:17,760 --> 00:27:20,700
+Implied vol is going to increase or, uh, sorry,
+
+352
+00:27:21,040 --> 00:27:24,200
+implied vol is going to decrease or realize vol is going to increase.
+
+353
+00:27:25,390 --> 00:27:31,370
+So we need to make that decision. And, um, in my opinion, uh,
+
+354
+00:27:31,370 --> 00:27:35,050
+usually implied vol is the one that eventually matches with realized vol.
+
+355
+00:27:35,250 --> 00:27:36,290
+It's usually a lot less stable.
+
+356
+00:27:42,890 --> 00:27:48,130
+Cool. Um, let's see. How about if the asset is not in the SMP?
+
+357
+00:27:48,290 --> 00:27:52,270
+What if it's in something like IWN? Do you use that instead? Yeah,
+
+358
+00:27:52,270 --> 00:27:55,890
+you can do that instead. As long as the, what you're using is efficient, right?
+
+359
+00:27:55,890 --> 00:27:57,710
+You're trying to, you're trying to benchmark it to something.
+
+360
+00:27:57,750 --> 00:28:01,270
+You're trying to say, Hey, look, this is, this is fair value, right?
+
+361
+00:28:01,270 --> 00:28:02,990
+This is what I think fair value is given this.
+
+362
+00:28:03,630 --> 00:28:07,190
+And so the thing you're using is not efficient. You know, it's,
+
+363
+00:28:07,290 --> 00:28:09,670
+it's going to be tough, right? I remember when we were,
+
+364
+00:28:09,810 --> 00:28:12,130
+we were doing the oil trade. Uh,
+
+365
+00:28:13,760 --> 00:28:17,680
+I can't remember how long ago this was maybe like 18 months ago or two years ago.
+
+366
+00:28:17,680 --> 00:28:18,880
+And there was a big, uh,
+
+367
+00:28:19,400 --> 00:28:23,200
+a whole bunch of oil companies where vols were just through the roof and I had to
+
+368
+00:28:23,200 --> 00:28:24,900
+compare it to something that was liquid.
+
+369
+00:28:28,000 --> 00:28:32,060
+And I said, okay, well, given USO vol, what should the, what should the,
+
+370
+00:28:32,080 --> 00:28:34,980
+you know, similar assets be worth? And then, you know,
+
+371
+00:28:34,980 --> 00:28:38,660
+you try to find relative value trades or just one leg and trade that.
+
+372
+00:28:44,640 --> 00:28:49,170
+We have a comment from, uh, our buddy, Mike, I hear he says,
+
+373
+00:28:49,230 --> 00:28:52,950
+when markets are calm, you collect your VRP. When markets are volatile,
+
+374
+00:28:53,110 --> 00:28:54,430
+you pay out. It's like insurance.
+
+375
+00:28:56,500 --> 00:28:58,560
+Yeah. It's, uh, you know,
+
+376
+00:28:58,580 --> 00:29:01,580
+there's a few guys have done lots of studies on this and it's, uh,
+
+377
+00:29:01,580 --> 00:29:05,750
+there's a lot of people who've done a lot of studies on this, um,
+
+378
+00:29:06,570 --> 00:29:10,730
+selling vol during low vol environments pays out the most.
+
+379
+00:29:11,980 --> 00:29:13,820
+Then when you sell high vol environments,
+
+380
+00:29:18,390 --> 00:29:27,240
+but the thing is we were rarely selling S and P vol, you know, the,
+
+381
+00:29:27,320 --> 00:29:29,420
+some of the smartest guys, I know trade S and P vol.
+
+382
+00:29:31,720 --> 00:29:34,520
+I don't know why I'd want to participate there. I just use them as a benchmark.
+
+383
+00:29:34,580 --> 00:29:37,040
+I say, okay, you guys do your job. You guys are good at your job.
+
+384
+00:29:37,060 --> 00:29:39,720
+You price this as efficiently as possible. And I'll,
+
+385
+00:29:39,860 --> 00:29:43,660
+I'm going to use this as my benchmark, or if I need liquidity, I will,
+
+386
+00:29:43,740 --> 00:29:45,300
+I'll use this because it's very liquid,
+
+387
+00:29:46,940 --> 00:29:53,120
+but I wouldn't try to outprice them for sure. Yeah. You know, I hope, uh,
+
+388
+00:29:53,340 --> 00:29:56,760
+I hope you guys have some good ideas, uh, uh, flow flowing,
+
+389
+00:29:56,960 --> 00:30:00,710
+flowing through your minds right now. Cause you know, there's a,
+
+390
+00:30:01,230 --> 00:30:04,290
+I feel like this, this is a really good library and opened up a lot of, uh,
+
+391
+00:30:04,980 --> 00:30:10,720
+a lot of potential. Nice. And we'll see, we'll see guys, SMBR,
+
+392
+00:30:11,640 --> 00:30:13,360
+or we're going to see what vol goes to tomorrow.
+
+393
+00:30:13,680 --> 00:30:17,700
+Remember it's hard for someone to sell vaults to keep vol at 60 when it's only realizing
+
+394
+00:30:17,700 --> 00:30:24,710
+40. Right. It's very hard. Eventually, uh, eventually it's going to go back.
+
+395
+00:30:33,550 --> 00:30:36,490
+So any other questions there? Or we'll, we'll, we'll wrap it up.
+
+396
+00:30:41,790 --> 00:30:45,910
+I think you put everyone to sleep. Yeah, I normally, I normally do that.
+
+397
+00:30:46,740 --> 00:30:51,940
+I got started doing a strip tease or something mid, mid, uh, mid-session. Uh,
+
+398
+00:30:52,120 --> 00:30:55,400
+yeah, that'll, that'll definitely wake people up.
+
+399
+00:30:55,960 --> 00:30:57,580
+I'll definitely make people up.
+
+400
+00:31:05,960 --> 00:31:10,130
+Right. But read the, uh, the risk,
+
+401
+00:31:10,310 --> 00:31:14,600
+the risk characteristics are exactly the same, right? You're short vol,
+
+402
+00:31:14,820 --> 00:31:18,220
+you're short gamma, you're long theta, whether it's a strangle,
+
+403
+00:31:18,300 --> 00:31:20,720
+whether it's a straddle, the risk profile is not going to be that different.
+
+404
+00:31:22,600 --> 00:31:24,640
+Right. How could it be?
+
+405
+00:31:29,860 --> 00:31:31,760
+Okay. I'm going to stop the recording there, Jordan.

@@ -1,0 +1,2207 @@
+1
+00:00:00,000 --> 00:00:00,280
+Go ahead.
+
+2
+00:00:03,360 --> 00:00:06,320
+OK, guys, so in this lab, we're going to be talking about synthetics.
+
+3
+00:00:06,540 --> 00:00:08,900
+We're going to be talking about different types of strategies.
+
+4
+00:00:09,860 --> 00:00:14,500
+It's going to be a very interesting live and a deep thinking live,
+
+5
+00:00:14,660 --> 00:00:15,220
+in my opinion.
+
+6
+00:00:18,200 --> 00:00:21,540
+It's it's actually probably one of the fundamental lives.
+
+7
+00:00:23,160 --> 00:00:25,100
+Let's say if you were to get onto a trading desk,
+
+8
+00:00:25,120 --> 00:00:28,600
+this would be one of the lives that that they would chat with you about or one of
+
+9
+00:00:28,600 --> 00:00:29,680
+the lectures they would give you.
+
+10
+00:00:29,680 --> 00:00:33,000
+So I think it's a really good one for you guys to be involved in.
+
+11
+00:00:35,600 --> 00:00:40,060
+OK, so let's get started. We can pull this up and share my screen.
+
+12
+00:00:42,800 --> 00:00:44,140
+Sean, do you want to make me host there?
+
+13
+00:00:46,360 --> 00:00:48,200
+So we're going to use Tesla for this example here.
+
+14
+00:00:55,860 --> 00:01:04,260
+All right. So there was two strategies. OK,
+
+15
+00:01:04,280 --> 00:01:08,240
+I'm going to give four strategies here, four bullish strategies.
+
+16
+00:01:08,580 --> 00:01:13,040
+And I want us to rank them from the best to the worst.
+
+17
+00:01:14,000 --> 00:01:15,840
+If you actually do know the answer,
+
+18
+00:01:16,080 --> 00:01:21,530
+please don't please don't write it just so everyone can really start to think about
+
+19
+00:01:21,530 --> 00:01:24,350
+it. So that's what we're going to be doing. OK,
+
+20
+00:01:24,350 --> 00:01:26,590
+so four bullish strategies as a group.
+
+21
+00:01:26,590 --> 00:01:31,420
+We're going to rank them from best to worst and the reason why. OK,
+
+22
+00:01:31,740 --> 00:01:35,200
+and like again, like I said, I didn't see Steve B on the live.
+
+23
+00:01:35,660 --> 00:01:37,640
+But for anyone else who actually knows the answers,
+
+24
+00:01:38,100 --> 00:01:44,000
+please don't please don't give it away. OK, so here we are.
+
+25
+00:01:44,180 --> 00:01:49,780
+We are bullish on Tesla. OK, and I've seen a couple of these strategies,
+
+26
+00:01:49,780 --> 00:01:52,240
+so I just want to get your guys opinion on it and we'll rank them.
+
+27
+00:01:52,770 --> 00:01:59,920
+So one of the famous ones that I've seen is the wheel. OK, the wheels,
+
+28
+00:02:00,000 --> 00:02:03,180
+a bullish strategy. And you guys can correct me if I'm wrong.
+
+29
+00:02:03,380 --> 00:02:09,230
+But the idea is you buy the shares, you sell a call. OK,
+
+30
+00:02:09,230 --> 00:02:10,770
+and if the stock goes up,
+
+31
+00:02:11,460 --> 00:02:14,560
+you're going to your shares are going to get called away and you're going to sell
+
+32
+00:02:14,560 --> 00:02:18,770
+a put. OK, and then you're just going to keep doing that over and over again.
+
+33
+00:02:18,830 --> 00:02:20,630
+So if the stock comes down, you're going to buy that.
+
+34
+00:02:20,690 --> 00:02:23,170
+You're going to get called on shares, you buy the shares,
+
+35
+00:02:23,270 --> 00:02:24,210
+and then you sell a covered call.
+
+36
+00:02:24,470 --> 00:02:31,440
+So you're rotating between selling a covered call and selling a short put. OK,
+
+37
+00:02:31,440 --> 00:02:36,320
+everyone knows the wheel, right? Let's open up the chat here.
+
+38
+00:02:36,600 --> 00:02:39,040
+It's going to be a little bit of more interactive, interactive live.
+
+39
+00:02:39,040 --> 00:02:40,500
+So let's really chat about this.
+
+40
+00:02:43,930 --> 00:02:47,410
+Now, they're just roasting us for having ads all over our browsers.
+
+41
+00:02:49,320 --> 00:02:51,000
+Or everyone understands the wheel, though.
+
+42
+00:02:53,870 --> 00:02:58,130
+OK, Trent, saying the wheel was my main thing. Yeah, it makes sense, right?
+
+43
+00:02:58,230 --> 00:03:01,150
+You buy the shares, you sell a call. If the call gets called away,
+
+44
+00:03:01,230 --> 00:03:03,370
+you're going to sell the puts. And if the stock goes down,
+
+45
+00:03:03,590 --> 00:03:05,290
+you're going to buy the shares, sell a call.
+
+46
+00:03:05,390 --> 00:03:08,690
+Or if the stock continues to go up, you collect the premium, right?
+
+47
+00:03:09,450 --> 00:03:10,710
+Everyone knows this, the wheel.
+
+48
+00:03:14,590 --> 00:03:15,950
+So that's the first strategy.
+
+49
+00:03:15,950 --> 00:03:21,720
+The second strategy I saw is hanging around somewhere is you sell an in the money
+
+50
+00:03:21,720 --> 00:03:22,020
+put.
+
+51
+00:03:24,190 --> 00:03:27,850
+OK, the share goes up. You're going to sell an out of the money put.
+
+52
+00:03:29,040 --> 00:03:32,570
+And if the share comes down, you're going to buy that,
+
+53
+00:03:32,650 --> 00:03:36,800
+buy that put back and sell them in the money put. OK, so let me just,
+
+54
+00:03:36,840 --> 00:03:38,700
+I'm actually going to draw these out. So we're all,
+
+55
+00:03:38,900 --> 00:03:43,160
+everyone's on the same page here. OK, so first off, we had the wheel.
+
+56
+00:03:47,620 --> 00:03:54,150
+And the wheel is, you sell a call, sell a covered call. OK, Jordan,
+
+57
+00:03:54,270 --> 00:04:00,920
+don't do it this way. Use the text, just you can write it out. Got it, got it,
+
+58
+00:04:00,920 --> 00:04:07,580
+got it, got it. Yeah, good point, good point. OK, so wheel. OK,
+
+59
+00:04:08,420 --> 00:04:09,020
+sell a covered call.
+
+60
+00:04:11,600 --> 00:04:15,950
+OK, you can do it as a list. Yeah, you can do it as a list,
+
+61
+00:04:16,070 --> 00:04:19,630
+like you can have key points. Right, so if you just hit enter,
+
+62
+00:04:19,750 --> 00:04:24,130
+it'll just drop it down. You have a text box. Got it, got it. Perfect. OK,
+
+63
+00:04:24,170 --> 00:04:27,010
+so sell a covered call. And once you sell a covered call,
+
+64
+00:04:27,130 --> 00:04:32,850
+two things can happen. So scenario one, our shares, our shares get called away,
+
+65
+00:04:32,990 --> 00:04:37,320
+in which case we will sell put. Scenario two,
+
+66
+00:04:37,640 --> 00:04:42,460
+the shares go down and we collect the covered call.
+
+67
+00:04:44,770 --> 00:04:47,920
+OK, that's strategy one. Wheel,
+
+68
+00:04:48,220 --> 00:04:50,840
+I just want to make sure everyone's OK with this. Can everyone just say,
+
+69
+00:04:50,980 --> 00:04:53,620
+I understand the wheel or Jordan, I don't understand the wheel.
+
+70
+00:05:01,220 --> 00:05:06,640
+OK, perfect engagement, guys. Thanks, guys. OK. OK, strategy two.
+
+71
+00:05:09,960 --> 00:05:11,560
+I think I saw this on Reddit somewhere.
+
+72
+00:05:13,980 --> 00:05:17,810
+You start off by selling an in the money put.
+
+73
+00:05:19,130 --> 00:05:22,030
+And it kind of sound a little weird to me, to be honest,
+
+74
+00:05:22,070 --> 00:05:27,280
+when I saw this selling it in the money put to start. Then if the shares go up,
+
+75
+00:05:27,740 --> 00:05:29,520
+OK, scenario one, you keep the premium.
+
+76
+00:05:31,860 --> 00:05:35,650
+OK, if the shares go down,
+
+77
+00:05:38,350 --> 00:05:43,560
+then you you sell it out of the money put.
+
+78
+00:05:47,800 --> 00:05:51,020
+So shares go up, you get to collect the premium, shares go down,
+
+79
+00:05:51,060 --> 00:05:51,860
+you sell out of the money put.
+
+80
+00:05:54,490 --> 00:05:57,290
+OK, what do you guys what do you guys think about these two strategies so far?
+
+81
+00:05:58,360 --> 00:05:59,240
+What do you guys think about them?
+
+82
+00:06:01,280 --> 00:06:04,460
+Steve, I actually said I think you weren't here for it,
+
+83
+00:06:04,460 --> 00:06:05,460
+but if you actually know the answer,
+
+84
+00:06:05,500 --> 00:06:08,220
+we're going to be ranking a couple strategies. And if you know the answer,
+
+85
+00:06:08,440 --> 00:06:13,080
+please don't please don't say the answer. OK.
+
+86
+00:06:15,780 --> 00:06:18,180
+So strategy two, let me just make sure that everyone's clear with it.
+
+87
+00:06:18,180 --> 00:06:20,680
+You sell an in the money put stock goes down.
+
+88
+00:06:20,860 --> 00:06:24,620
+You sell an out of the money put the stock continues to go back up.
+
+89
+00:06:24,760 --> 00:06:28,130
+You sell it out of the money put. OK,
+
+90
+00:06:33,410 --> 00:06:38,840
+what do you guys think? Thanks to you. Appreciate it. Yeah, I Jordan,
+
+91
+00:06:39,040 --> 00:06:44,420
+I think there's a little confusion about strategy to here. OK. OK,
+
+92
+00:06:44,440 --> 00:06:51,450
+let's I'll break it down. For example. OK. OK, so in this case, we buy.
+
+93
+00:06:51,610 --> 00:06:56,880
+So in this case, strategy number two, we would sell an in the money put.
+
+94
+00:06:57,540 --> 00:07:06,490
+Let's say we sell a 700 dollar strike put now Tesla for Tesla.
+
+95
+00:07:07,370 --> 00:07:10,750
+So what do we want to happen there, guys? Just so we can go step by step.
+
+96
+00:07:10,810 --> 00:07:11,970
+We sell it in the money put.
+
+97
+00:07:14,940 --> 00:07:18,380
+What do we want to happen? We want it to go up. Thanks, Brian. Go up.
+
+98
+00:07:19,550 --> 00:07:24,190
+If it does go up, OK, if it does go up,
+
+99
+00:07:24,370 --> 00:07:27,660
+we're going to sell an out of the money put.
+
+100
+00:07:32,220 --> 00:07:35,140
+If it goes up, we're going to sell an out of the money put.
+
+101
+00:07:35,300 --> 00:07:40,150
+Maybe we're going to sell. Let's say if it goes like, let's say it goes to 700.
+
+102
+00:07:40,210 --> 00:07:41,890
+We're going to sell a 680 put.
+
+103
+00:07:44,420 --> 00:07:51,840
+OK. If it goes down. OK, let's say it goes down. Let's say it goes down to 600.
+
+104
+00:07:53,340 --> 00:07:57,540
+Well, we're going to buy back that put that we sold in the money at expiration,
+
+105
+00:07:57,620 --> 00:08:03,030
+and we're going to sell another in the money put. OK, so let's say it goes.
+
+106
+00:08:03,390 --> 00:08:06,810
+Let's say it goes down to 600. We're going to sell a 650 put.
+
+107
+00:08:09,700 --> 00:08:15,120
+OK, so it's a little fishy, right? But what do you guys think about that?
+
+108
+00:08:15,200 --> 00:08:16,700
+What's your what's your opinion on that so far?
+
+109
+00:08:21,720 --> 00:08:26,460
+Did I explain it there good, Sean? Ryan saying it seems like a bad idea.
+
+110
+00:08:27,480 --> 00:08:29,400
+Eric saying not a fan. Like a bad idea, not a.
+
+111
+00:08:31,710 --> 00:08:35,490
+Yeah. OK. Yeah. But what do you guys think about the wheel?
+
+112
+00:08:35,570 --> 00:08:37,030
+Did the wheel make sense to you guys or no?
+
+113
+00:08:43,030 --> 00:08:45,710
+Yeah. Writing in the money put sounds indefensible, right?
+
+114
+00:08:45,850 --> 00:08:50,160
+It just it's not making sense. Well, what do you guys think about the wheel?
+
+115
+00:08:55,290 --> 00:08:57,150
+Do you guys like the wheel? Do you not like the wheel?
+
+116
+00:09:06,040 --> 00:09:09,680
+Yeah. So Red made a couple of comments as well. What do you say?
+
+117
+00:09:13,000 --> 00:09:17,140
+It seems he said it seems risky to write a put right after the underlying increase
+
+118
+00:09:17,140 --> 00:09:19,520
+enough for the shares to get called away. Right.
+
+119
+00:09:21,610 --> 00:09:25,890
+So the thing here, guys, and this actually dawned on me.
+
+120
+00:09:25,930 --> 00:09:28,990
+So you guys know I'm not a big fan of the wheel, right? And Eric,
+
+121
+00:09:29,030 --> 00:09:31,710
+I saw your comment there. I ignored it for for a specific reason.
+
+122
+00:09:33,090 --> 00:09:38,280
+You guys know that I'm not a huge fan of the wheel, but a lot of people are.
+
+123
+00:09:39,630 --> 00:09:42,550
+However, a lot of people would hate strategy number two,
+
+124
+00:09:44,030 --> 00:09:45,910
+but they are the exact same thing.
+
+125
+00:09:46,590 --> 00:09:51,550
+Strategy number one and strategy number two are identical. Zero difference.
+
+126
+00:09:52,500 --> 00:09:57,920
+So we're going to go and we're going to we are going to we're going to we're going
+
+127
+00:09:57,920 --> 00:10:00,400
+to chat about it. So let's go with Tesla.
+
+128
+00:10:00,520 --> 00:10:03,990
+We're going to price this out so you guys can see exactly. OK.
+
+129
+00:10:03,990 --> 00:10:09,840
+And this is going to be our introduction into synthetics.
+
+130
+00:10:13,540 --> 00:10:17,310
+So let's say we're going to do the wheel on Tesla. All right.
+
+131
+00:10:17,310 --> 00:10:18,690
+So we're going to buy a covered call.
+
+132
+00:10:26,710 --> 00:10:28,350
+OK, so let's take a look.
+
+133
+00:10:31,810 --> 00:10:34,670
+So here it is. And you're still sharing your wife. Oh,
+
+134
+00:10:35,050 --> 00:10:37,070
+you're sharing your whiteboard, Jordan. Yeah, yeah, yeah.
+
+135
+00:10:40,940 --> 00:10:46,280
+OK, so they are the exact same exact same trade. So here's our covered call.
+
+136
+00:10:48,000 --> 00:10:54,320
+And what is a covered call? It's an in the money put. They're the same thing.
+
+137
+00:10:54,320 --> 00:10:59,960
+OK, so let's say, for example, we do a covered call with strike 700.
+
+138
+00:11:00,140 --> 00:11:03,960
+So Tesla's trading at 680 and we'll do the 700 covered call.
+
+139
+00:11:06,210 --> 00:11:13,780
+This is exactly the same as selling the 700 in the money put.
+
+140
+00:11:19,990 --> 00:11:22,980
+Exactly the same trade. No difference.
+
+141
+00:11:25,040 --> 00:11:30,070
+There was a difference arbitrage. So we're selling it in the money put.
+
+142
+00:11:31,360 --> 00:11:36,200
+If the stock goes down, what do we do with the covered call? What we see,
+
+143
+00:11:36,280 --> 00:11:42,310
+we sell a new call, aka we sell a new in the money put. OK,
+
+144
+00:11:42,370 --> 00:11:45,570
+we still own the shares and we're just bringing down our strike.
+
+145
+00:11:47,150 --> 00:11:52,960
+So the wheel is, in fact, selling an in the money put. If the stock goes up,
+
+146
+00:11:53,100 --> 00:11:56,620
+you're going to sell an out of the money put. If the stock goes down,
+
+147
+00:11:56,780 --> 00:12:02,160
+you're going to sell another in the money put. OK, same thing.
+
+148
+00:12:02,560 --> 00:12:09,840
+And this is a synthetic covered call equals short put. Right.
+
+149
+00:12:10,100 --> 00:12:13,700
+What's the difference between a call and a put? Who remembers?
+
+150
+00:12:14,240 --> 00:12:16,120
+What's the difference between a call and a put?
+
+151
+00:12:23,300 --> 00:12:26,220
+Shares. Right. The difference. Good job, Trent.
+
+152
+00:12:26,500 --> 00:12:30,670
+The difference between a call and a put is shares. Right.
+
+153
+00:12:31,270 --> 00:12:40,330
+We can create this put with a call and shares. OK,
+
+154
+00:12:40,330 --> 00:12:46,270
+it's the only difference now. Which is basically the covered. Exactly.
+
+155
+00:12:46,390 --> 00:12:49,370
+And I see Red was saying it's easier to get trapped because of IV.
+
+156
+00:12:49,590 --> 00:12:54,970
+They're the exact same thing. The risk profile is identical. So check this out.
+
+157
+00:12:55,690 --> 00:12:58,290
+Implied vol, let's let's look at our Vega profile.
+
+158
+00:12:59,980 --> 00:13:02,780
+So you want to show the price slices on it? Yeah.
+
+159
+00:13:02,960 --> 00:13:05,300
+So let's look at our covered call here. OK.
+
+160
+00:13:06,030 --> 00:13:09,990
+Our Vega exposure on this is one thousand negative one thousand.
+
+161
+00:13:12,550 --> 00:13:15,610
+Our Vega exposure on the short put is negative one thousand.
+
+162
+00:13:16,250 --> 00:13:22,770
+So a ten point drop in implied volatility is going to be the same effect on the
+
+163
+00:13:22,770 --> 00:13:25,390
+call and the put. If there was a difference,
+
+164
+00:13:25,910 --> 00:13:30,230
+let's say there was a difference aside from dividends and interest rates.
+
+165
+00:13:30,960 --> 00:13:35,590
+If there was a difference, you could arbitrage. OK.
+
+166
+00:13:36,270 --> 00:13:38,050
+And this is synthetics one on one.
+
+167
+00:13:38,290 --> 00:13:40,010
+So we're going to do a whole bunch of synthetics today.
+
+168
+00:13:40,230 --> 00:13:41,930
+And I think you guys will find this very insightful.
+
+169
+00:13:45,200 --> 00:13:48,560
+So Danny's asking a question here. Are you saying if they are the same,
+
+170
+00:13:48,680 --> 00:13:52,500
+why the hell do people sell calls? Puts generally have more skew, right?
+
+171
+00:13:53,880 --> 00:14:00,700
+So they're the same thing. It's it's people. So I remember I saw on Facebook.
+
+172
+00:14:00,700 --> 00:14:03,680
+So this is like a this is why when you go to a trade firm,
+
+173
+00:14:03,700 --> 00:14:07,640
+this will be like the first thing, right? The synthetics trade one on one.
+
+174
+00:14:08,700 --> 00:14:11,320
+A lot of people say I like buying the dividend.
+
+175
+00:14:11,400 --> 00:14:15,270
+I like buying dividend stocks and selling covered calls on them or doing the wheels
+
+176
+00:14:15,270 --> 00:14:17,800
+on them. We've all heard it. Well,
+
+177
+00:14:18,600 --> 00:14:21,880
+and then I remember I had I had a talk with some guy on Facebook. I said, well,
+
+178
+00:14:21,920 --> 00:14:25,060
+why don't you sell the put? You're going to get more you get better financing.
+
+179
+00:14:26,170 --> 00:14:31,570
+And he said to me, I want the dividend. OK, now,
+
+180
+00:14:32,050 --> 00:14:39,500
+why doesn't that why does that not make sense? Or why could that not be?
+
+181
+00:14:39,840 --> 00:14:43,900
+Why would I be able to sell a covered call and capture the dividend,
+
+182
+00:14:44,260 --> 00:14:47,580
+but sell a put same strike and not capture that dividend?
+
+183
+00:14:48,280 --> 00:14:49,840
+What would you do in that case?
+
+184
+00:14:57,820 --> 00:15:03,040
+Right. The dividend is in the options price. It's baked into that option price.
+
+185
+00:15:04,340 --> 00:15:07,340
+OK, you can actually do dividend arbitrages with options.
+
+186
+00:15:08,690 --> 00:15:12,050
+That dividend is going to be baked into the option price.
+
+187
+00:15:12,880 --> 00:15:15,640
+Who's got a big high dividend paying stock that's having a dividend coming soon?
+
+188
+00:15:17,580 --> 00:15:20,420
+IBM, let's do IBM. I don't know if they're coming soon, but let's take a look,
+
+189
+00:15:20,480 --> 00:15:20,660
+guys.
+
+190
+00:15:22,920 --> 00:15:29,120
+Let's take a look at a three year option. OK, or sorry, a six month option.
+
+191
+00:15:30,590 --> 00:15:35,070
+So we're going to do we know we are going to come back to covered calls in a second.
+
+192
+00:15:35,570 --> 00:15:37,710
+We're going to do another one. We're going to do another synthetic.
+
+193
+00:15:38,150 --> 00:15:39,890
+We're going to do create synthetic shares.
+
+194
+00:15:42,710 --> 00:15:48,110
+So I'm going to sell a call. Sorry, I'm going to sell a put and buy a call.
+
+195
+00:15:49,740 --> 00:15:50,460
+Same strike.
+
+196
+00:15:56,990 --> 00:16:04,060
+OK, there it is. Here is our our shares exactly the same. Now,
+
+197
+00:16:04,240 --> 00:16:07,380
+some of you guys might say, well, look at this.
+
+198
+00:16:09,270 --> 00:16:11,510
+If the stock let's let's let's take a look at this, guys.
+
+199
+00:16:11,570 --> 00:16:14,430
+I know this might be a little bit tricky and I'll slow down if you guys need to,
+
+200
+00:16:14,570 --> 00:16:17,150
+but this is very important, right? This is this option is one on one.
+
+201
+00:16:19,980 --> 00:16:20,340
+Look at this, guys.
+
+202
+00:16:20,360 --> 00:16:27,820
+We can put this trade on where our break even is 131 and the stock's trading at
+
+203
+00:16:27,820 --> 00:16:33,320
+133. Why would I why would I buy shares when I could buy this?
+
+204
+00:16:35,420 --> 00:16:39,360
+Who's got the answer? OK, why is that my break even on this trade?
+
+205
+00:16:40,800 --> 00:16:43,300
+131 when the stock's trading at 133.
+
+206
+00:16:46,660 --> 00:16:49,160
+I basically get a free two dollars to put this on.
+
+207
+00:16:53,270 --> 00:16:57,430
+That's the dividend being priced into these options.
+
+208
+00:16:59,430 --> 00:17:05,060
+Right now. Question for you guys. Deep thinking question.
+
+209
+00:17:06,980 --> 00:17:12,050
+What would you do if IBM had no dividend and you saw this?
+
+210
+00:17:14,300 --> 00:17:14,880
+What would you do?
+
+211
+00:17:17,340 --> 00:17:19,380
+IBM had no dividend and you saw this.
+
+212
+00:17:25,230 --> 00:17:30,040
+Thank you, Harry. Our short the shares,
+
+213
+00:17:34,110 --> 00:17:38,830
+short the shares. Look at this, guys. Risk free profit coming in.
+
+214
+00:17:39,120 --> 00:17:45,690
+So I buy 10 of those combos and I sell a thousand shares.
+
+215
+00:17:45,870 --> 00:17:51,860
+I just walked in two thousand three hundred and thirty dollars risk free. OK,
+
+216
+00:17:51,960 --> 00:17:55,920
+the answer is there's a dividend by me showing those shares.
+
+217
+00:17:55,920 --> 00:17:57,060
+I have to pay that dividend.
+
+218
+00:17:58,890 --> 00:18:00,570
+And this is where a little bit of an arbitrage should come in,
+
+219
+00:18:00,570 --> 00:18:06,680
+because sometimes these options aren't pricing in the dividend arbitrage.
+
+220
+00:18:07,850 --> 00:18:09,530
+Or sometimes, for example,
+
+221
+00:18:09,850 --> 00:18:16,790
+a company grows its dividend over time and there's a risk, right?
+
+222
+00:18:16,930 --> 00:18:21,070
+A risk of the company not having the dividend or not growing the dividend.
+
+223
+00:18:21,430 --> 00:18:25,380
+And so that's not going to be priced into the option arbitrage.
+
+224
+00:18:28,700 --> 00:18:30,720
+So let's go back to our covered call.
+
+225
+00:18:36,460 --> 00:18:40,560
+And guys, make sure you slow me down. We really need to understand this.
+
+226
+00:18:40,720 --> 00:18:46,430
+So important. Oh, shoot. Oh, that's why.
+
+227
+00:18:49,920 --> 00:18:56,990
+So short put covered call. No difference. It makes people feel better that,
+
+228
+00:18:57,950 --> 00:19:02,070
+hey, I'm going to collect this premium if the stock goes down. Right.
+
+229
+00:19:02,330 --> 00:19:05,550
+I can sell a call. The stock goes down. I'm going to collect my premium.
+
+230
+00:19:06,110 --> 00:19:07,230
+I'll tell you a funny story, guys.
+
+231
+00:19:08,270 --> 00:19:11,250
+When I was first starting trading out and I found out about the covered calls,
+
+232
+00:19:11,510 --> 00:19:15,620
+I thought it was awesome. Right. I get to buy the shares, sell a call.
+
+233
+00:19:16,640 --> 00:19:21,620
+Worst case scenario, my shares get called away. And I called the guy at RBC.
+
+234
+00:19:22,760 --> 00:19:25,960
+And I was young. I was maybe 18 years old. I said, hey, listen,
+
+235
+00:19:26,060 --> 00:19:29,680
+I'm learning all these covered calls. What's my risk here? You know,
+
+236
+00:19:29,740 --> 00:19:32,260
+I just seem so good to be true. What's like what's going on?
+
+237
+00:19:33,780 --> 00:19:38,290
+And the guy said to me, he said something like, yeah, there is no risk.
+
+238
+00:19:40,890 --> 00:19:43,950
+If the stock goes down, you collect the shares. The stock goes up.
+
+239
+00:19:44,050 --> 00:19:46,930
+You risk your things get taken away. No, he did say to me,
+
+240
+00:19:47,130 --> 00:19:51,680
+the worst case scenario for you is if the stock blows through the roof and your
+
+241
+00:19:51,680 --> 00:19:52,440
+shares get called away.
+
+242
+00:19:54,550 --> 00:19:56,990
+People people will look at a covered call and say, this is great.
+
+243
+00:19:57,370 --> 00:20:01,460
+But they will look at a naked short put. And they will say, holy cow,
+
+244
+00:20:01,540 --> 00:20:06,140
+unlimited loss. Right, Sean, you've seen it so many times.
+
+245
+00:20:08,550 --> 00:20:11,410
+Yeah, well, they'll argue to the ends of the earth,
+
+246
+00:20:11,550 --> 00:20:16,800
+but it's the exact same risk profile, like in terms of your exposures you have,
+
+247
+00:20:16,880 --> 00:20:17,300
+they're identical.
+
+248
+00:20:18,170 --> 00:20:22,370
+And if you stop and like really think about how the covered call sort of works.
+
+249
+00:20:22,980 --> 00:20:27,280
+It's like if the thing rips to the downside, you're going to lose. Right.
+
+250
+00:20:27,280 --> 00:20:29,100
+We can all see it. You know, you're like,
+
+251
+00:20:29,140 --> 00:20:33,200
+let's say you're holding a stock that's worth $100. And then you collect,
+
+252
+00:20:33,360 --> 00:20:36,660
+you sell a $5 call. It's like, well,
+
+253
+00:20:36,680 --> 00:20:40,040
+if the stock goes below $95 all the way down, you're losing money.
+
+254
+00:20:40,060 --> 00:20:41,700
+You can almost visualize it looks identical.
+
+255
+00:20:41,900 --> 00:20:43,180
+And if you think about that in your head,
+
+256
+00:20:43,220 --> 00:20:49,450
+it almost looks it look it's a short put. It looks like it, you know?
+
+257
+00:20:52,000 --> 00:20:52,720
+Yeah, exactly.
+
+258
+00:20:52,860 --> 00:20:57,100
+And I always find it funny when people say they're different because if they were
+
+259
+00:20:57,100 --> 00:21:00,880
+different, you would just arm them all day. Right. You make a fortune.
+
+260
+00:21:03,830 --> 00:21:07,290
+So that is that's what a synthetic is. OK,
+
+261
+00:21:07,370 --> 00:21:11,670
+so it's the creating something with something else.
+
+262
+00:21:12,150 --> 00:21:16,760
+So we're going to do a whole bunch today, guys. And before I even show them,
+
+263
+00:21:16,800 --> 00:21:21,520
+let's chat about them. Let's see who can get them. Besides Trent and Steve B,
+
+264
+00:21:21,540 --> 00:21:22,600
+because I know you guys will get them all.
+
+265
+00:21:26,180 --> 00:21:31,510
+A call spread. OK, a call spread. I'm going to price it out here.
+
+266
+00:21:31,610 --> 00:21:34,370
+And we're going to think of there's a few ways we can do it. OK.
+
+267
+00:21:35,900 --> 00:21:39,190
+I'm going to price this one out here. And I see this all the time, guys.
+
+268
+00:21:39,290 --> 00:21:41,130
+I see this all the time. It drives me up the walls.
+
+269
+00:21:42,240 --> 00:21:46,340
+So I apologize in advance if I get a little emotional during this live. OK,
+
+270
+00:21:46,340 --> 00:21:51,520
+I've had it. I've had it out with too many people. All right. So here we go.
+
+271
+00:21:52,370 --> 00:21:54,530
+Six fifty seven hundred call spread.
+
+272
+00:21:55,500 --> 00:22:01,020
+Let's see who can replicate this the most times. OK. Yeah, exactly, Parker.
+
+273
+00:22:02,590 --> 00:22:06,820
+How can we replicate this? How can we replicate this?
+
+274
+00:22:06,980 --> 00:22:09,180
+This is actually on the gold exam.
+
+275
+00:22:10,120 --> 00:22:15,150
+This is one of the questions on the gold exam. Coasting put spread. Love it.
+
+276
+00:22:15,210 --> 00:22:20,960
+What else? What are other ways we can we can create this? I love it. Love it.
+
+277
+00:22:21,160 --> 00:22:21,600
+Put spread.
+
+278
+00:22:21,800 --> 00:22:23,540
+We're going to we're going to we're going to price them all out here.
+
+279
+00:22:27,350 --> 00:22:29,690
+How else can we replicate this? Who's got it?
+
+280
+00:22:32,460 --> 00:22:36,370
+Fifty shares and covered call. No, no.
+
+281
+00:22:36,430 --> 00:22:37,990
+Because you're still going to have all that downside risk.
+
+282
+00:22:39,340 --> 00:22:44,600
+But you're getting there. You're getting there. Sell shares and buy calls.
+
+283
+00:22:45,040 --> 00:22:48,720
+So if we sell shares and buy a call, what does that replicate?
+
+284
+00:22:50,400 --> 00:22:54,760
+Mark was saying sell, share, buy calls. What does that replicate? Who's got it?
+
+285
+00:23:01,000 --> 00:23:03,020
+OK, here we got the answer for this one. We're going to get there in a second.
+
+286
+00:23:05,160 --> 00:23:10,930
+Really good one. Beautiful, Chris. Sell shares, buy call equals call option.
+
+287
+00:23:11,440 --> 00:23:13,940
+Sorry, put option. Right. Let's just do that super quick.
+
+288
+00:23:16,290 --> 00:23:21,600
+Buy shares or sorry, sell shares.
+
+289
+00:23:25,010 --> 00:23:25,730
+So shares.
+
+290
+00:23:28,040 --> 00:23:29,660
+There it is. Let's buy a call.
+
+291
+00:23:43,910 --> 00:23:47,000
+Voila. We have a put option. OK,
+
+292
+00:23:47,360 --> 00:23:49,140
+what's the difference between a call and a put?
+
+293
+00:23:51,310 --> 00:23:57,070
+Shares. Synthetics. OK, so Harry, Harry hit it on the head here.
+
+294
+00:23:57,530 --> 00:24:02,030
+How can we replicate this? Well, let's look at it, guys. What is this?
+
+295
+00:24:03,640 --> 00:24:06,300
+What is that right there? That's a call option.
+
+296
+00:24:08,930 --> 00:24:09,730
+What's this right here?
+
+297
+00:24:12,560 --> 00:24:18,140
+That's a put option. OK, so how do we replicate this? We buy shares,
+
+298
+00:24:18,740 --> 00:24:26,100
+sell a call, buy a put. OK, let's do it. Right. So market makers, right.
+
+299
+00:24:26,260 --> 00:24:28,680
+How market makers will do it is you'll come in with an order.
+
+300
+00:24:28,800 --> 00:24:32,260
+Let's say you buy a vertical spread and the market maker will see that vertical
+
+301
+00:24:32,260 --> 00:24:35,720
+spread and he's going to try to replicate it somehow some other way.
+
+302
+00:24:36,360 --> 00:24:39,220
+And he's going to try to replicate it cheaper, create cheaper,
+
+303
+00:24:39,520 --> 00:24:40,280
+sell to you for more.
+
+304
+00:24:43,170 --> 00:24:46,460
+Let's take a look here by the shares.
+
+305
+00:24:50,270 --> 00:24:52,010
+OK, there we go. We're going to sell a call.
+
+306
+00:25:05,000 --> 00:25:08,890
+All right. There we go. And we're going to buy a put.
+
+307
+00:25:25,130 --> 00:25:26,530
+And there we go, guys. Look at that.
+
+308
+00:25:28,740 --> 00:25:30,550
+Our vertical spread.
+
+309
+00:25:32,680 --> 00:25:40,380
+And Koa had the other one. He said, brilliant. You sell the put spread. OK,
+
+310
+00:25:40,380 --> 00:25:42,940
+I've seen this so many times where people say, hey,
+
+311
+00:25:42,940 --> 00:25:49,130
+I'm going to sell a put spread because I collect a credit. OK,
+
+312
+00:25:49,250 --> 00:25:52,010
+I'm going to sell a put spread because I get to collect the credit.
+
+313
+00:25:53,120 --> 00:25:55,360
+And I say to them, well, would you buy the debit spread?
+
+314
+00:25:57,670 --> 00:26:01,040
+It's the same thing. So I got the strikes a little messed up there,
+
+315
+00:26:01,060 --> 00:26:04,260
+but same thing. And I asked them, I said, hey, well, why not?
+
+316
+00:26:04,260 --> 00:26:08,310
+Why not buy the why not buy the debit spread? And they say,
+
+317
+00:26:08,370 --> 00:26:13,590
+I like collecting the credit. Right. I saw this on GME. OK,
+
+318
+00:26:13,590 --> 00:26:18,710
+there was a guy on Twitter. Not going to mention any names. Pretty popular.
+
+319
+00:26:20,110 --> 00:26:23,690
+And he said, Jimmy, his name is Darren, by the way.
+
+320
+00:26:26,130 --> 00:26:31,840
+He said, listen, he said, listen, Jimmy, borrow rate is insane.
+
+321
+00:26:32,770 --> 00:26:34,190
+So to collect that borrow rate,
+
+322
+00:26:34,330 --> 00:26:40,330
+I'm going to sell a put in the money put spread because I'm bullish on Delta and
+
+323
+00:26:40,330 --> 00:26:45,210
+they want to collect that borrow rate. And someone asked him, like, hey,
+
+324
+00:26:45,250 --> 00:26:46,810
+why don't you just buy the call spread? And he said,
+
+325
+00:26:46,890 --> 00:26:49,970
+I want to collect the borrow rate, is what he said.
+
+326
+00:26:52,000 --> 00:26:57,720
+That borrow rate is going to be baked into that call option just because it's a
+
+327
+00:26:57,720 --> 00:27:01,150
+debit outlay. Right. The trade is identical.
+
+328
+00:27:02,320 --> 00:27:08,660
+And that debit outlay makes people queasy. It gets them a little excited.
+
+329
+00:27:08,760 --> 00:27:11,920
+They don't they don't like paying that debit. However, it is identical.
+
+330
+00:27:13,280 --> 00:27:16,260
+Always remember that, guys. What's the difference between a call and a put?
+
+331
+00:27:17,160 --> 00:27:17,520
+Shares.
+
+332
+00:27:22,400 --> 00:27:22,880
+Right. So of course,
+
+333
+00:27:22,940 --> 00:27:25,620
+saying I like I like the put spread because I can get assigned the shares.
+
+334
+00:27:26,260 --> 00:27:27,460
+And I think, you know,
+
+335
+00:27:27,460 --> 00:27:33,440
+selling selling an out of the money put is going to be better than buying a covered
+
+336
+00:27:33,440 --> 00:27:36,480
+call in the money. Right. So and that's, I guess,
+
+337
+00:27:36,520 --> 00:27:40,040
+for some microstructure reasons. It's not a huge difference.
+
+338
+00:27:40,140 --> 00:27:44,220
+It might cost you five cents because the market maker is not quoting it in the money
+
+339
+00:27:44,220 --> 00:27:45,060
+option.
+
+340
+00:27:47,580 --> 00:27:50,940
+But, you know, or if you don't like the hassle of, let's say,
+
+341
+00:27:51,020 --> 00:27:54,500
+moving the positions around and you just wanted to get exercise, you know,
+
+342
+00:27:54,520 --> 00:27:56,720
+that's another reason why Coalmite is saying here.
+
+343
+00:27:56,920 --> 00:28:01,200
+I like those out of the money put options because if I get assigned,
+
+344
+00:28:01,280 --> 00:28:04,800
+I get the shares. I don't have to worry about doing anything else.
+
+345
+00:28:06,300 --> 00:28:08,820
+But they are the same thing. No difference.
+
+346
+00:28:13,920 --> 00:28:19,120
+Yeah. You know, is that margin seeing SPX is a margin. Are you SPX 4000?
+
+347
+00:28:20,580 --> 00:28:21,780
+Who's SPX 4000?
+
+348
+00:28:25,680 --> 00:28:26,360
+Chig's. OK.
+
+349
+00:28:32,180 --> 00:28:35,280
+I'm not I'm not going to I'm not going to hate on these people on Twitter.
+
+350
+00:28:36,600 --> 00:28:38,040
+I'm not going to do that on a live Chig's.
+
+351
+00:28:38,060 --> 00:28:40,640
+If you want to you want to message me in private, we can have a little talk.
+
+352
+00:28:45,420 --> 00:28:47,740
+So are you guys understanding what a synthetic is?
+
+353
+00:28:52,180 --> 00:29:00,640
+Any questions about the synthetics with respect to everything?
+
+354
+00:29:03,820 --> 00:29:07,660
+So, Marcos, so it's it's not. So you use them actually in a lot of places,
+
+355
+00:29:07,920 --> 00:29:08,180
+right?
+
+356
+00:29:10,360 --> 00:29:12,340
+And I'm going to break them all down for you, Marcos.
+
+357
+00:29:13,890 --> 00:29:15,890
+But there was something I wanted to say about that.
+
+358
+00:29:18,380 --> 00:29:24,460
+One that I'd like to chat about is one that would be good to chat about is for short
+
+359
+00:29:24,460 --> 00:29:30,700
+shares, you know, if you're doing like the deltas. OK,
+
+360
+00:29:30,780 --> 00:29:33,060
+so that's what we're going to say quickly before I get to their show.
+
+361
+00:29:34,080 --> 00:29:36,260
+Harry is saying, so they're the same respect to Delta.
+
+362
+00:29:36,360 --> 00:29:41,620
+They're the same in respect to everything identical. If they're not identical,
+
+363
+00:29:42,280 --> 00:29:42,880
+arbitrage,
+
+364
+00:29:45,300 --> 00:29:51,440
+excluding dividends and interest rate and borrow cost arbitrage. OK.
+
+365
+00:29:53,440 --> 00:29:57,940
+That has a question here saying it seems like with covered calls and callers,
+
+366
+00:29:58,020 --> 00:30:01,760
+you can take profits on dips and let them run much more flexibility.
+
+367
+00:30:04,520 --> 00:30:08,080
+So so they're identical, right?
+
+368
+00:30:08,900 --> 00:30:12,200
+The one thing that you might get from the covered call, let's say,
+
+369
+00:30:12,440 --> 00:30:15,780
+is the liquidity of the shares. So, you know,
+
+370
+00:30:15,800 --> 00:30:21,140
+you sell the call and then the stock dips and you sell another call and you're only
+
+371
+00:30:21,140 --> 00:30:23,700
+trading that call. And if you're going to trade the shares,
+
+372
+00:30:23,760 --> 00:30:26,540
+they're more liquid. But if you're doing this on, let's say,
+
+373
+00:30:26,560 --> 00:30:30,580
+NASDAQ or S&P or like any liquid names, there's going to be zero difference.
+
+374
+00:30:31,750 --> 00:30:38,150
+And if there wasn't arbitrage. OK, if there wasn't a difference,
+
+375
+00:30:38,630 --> 00:30:44,160
+you could arbit. So liquidity aside, they are the same.
+
+376
+00:30:45,260 --> 00:30:48,100
+And for for liquid names, they're going to be the same.
+
+377
+00:30:51,380 --> 00:30:53,100
+So, yeah, something like ARK or Buzz,
+
+378
+00:30:53,180 --> 00:30:57,160
+you can get extra liquidity by buying the shares and then selling, let's say,
+
+379
+00:30:57,180 --> 00:31:00,060
+an out of the money call instead of selling it in the money put.
+
+380
+00:31:00,660 --> 00:31:05,080
+So that's a good point, right? OK, so let's get back to Marcos here.
+
+381
+00:31:05,640 --> 00:31:08,440
+So where would you use them? OK, so a few places, Marcos.
+
+382
+00:31:08,840 --> 00:31:12,120
+Let's say you want to short shares. You want to short Hertz,
+
+383
+00:31:12,840 --> 00:31:13,940
+but you can't short Hertz.
+
+384
+00:31:14,080 --> 00:31:17,960
+You can't short Jimmy because your brokerage won't give them to you. Well,
+
+385
+00:31:18,140 --> 00:31:21,720
+you can come into the option market and create those short shares. Right.
+
+386
+00:31:21,820 --> 00:31:28,540
+I'm going to I'm going to buy a put and I'm going to sell a call. Same strike.
+
+387
+00:31:29,800 --> 00:31:33,520
+OK, so now I don't need to worry about there being no short shares available.
+
+388
+00:31:34,040 --> 00:31:36,860
+I can just create it. I can just create it myself.
+
+389
+00:31:39,110 --> 00:31:40,390
+Now, usually, Marcos,
+
+390
+00:31:40,450 --> 00:31:44,890
+what you're going to find is the borrower rates are extremely high on stocks that
+
+391
+00:31:44,890 --> 00:31:46,550
+have are hard to borrow.
+
+392
+00:31:47,300 --> 00:31:51,820
+And so usually this you're going to be paying a debit for these trades.
+
+393
+00:31:52,460 --> 00:31:58,300
+But it's exactly the same. Sometimes you can are the borrower rate, right?
+
+394
+00:31:58,360 --> 00:32:00,220
+If the borrower rate in the shares is, let's say,
+
+395
+00:32:00,700 --> 00:32:07,840
+X and the borrower rate implied in the in the option is why we can make the arbitrage.
+
+396
+00:32:08,080 --> 00:32:09,660
+Just like if the dividend is going to be a dollar,
+
+397
+00:32:09,660 --> 00:32:14,030
+but the implied dividend from the options is five dollars arbitrage.
+
+398
+00:32:16,150 --> 00:32:18,910
+Let's see how many times I can say arbitrage. Tonight's five, guys.
+
+399
+00:32:21,290 --> 00:32:24,730
+All right. So that is the that's one way you would use them.
+
+400
+00:32:25,670 --> 00:32:29,390
+Another way you would use the Marcos is let's say you want to take an earnings trade,
+
+401
+00:32:29,490 --> 00:32:33,510
+but the trade's too big, right? You're doing an Amazon or Tesla earnings trade.
+
+402
+00:32:33,710 --> 00:32:35,730
+It's too big. You can't even do a one lot.
+
+403
+00:32:38,020 --> 00:32:41,200
+You can't even do the one lot, Marcos. It's too it's too big, let's say.
+
+404
+00:32:41,400 --> 00:32:43,940
+Let's say I remember when I was doing Amazon one time. It's too big.
+
+405
+00:32:44,080 --> 00:32:48,210
+I couldn't do it. So I said, OK, this is too much for me.
+
+406
+00:32:48,750 --> 00:32:51,560
+I'm going to do a half lot. Well, how do you do a half lot?
+
+407
+00:32:53,160 --> 00:32:54,260
+You're going to buy a call.
+
+408
+00:32:57,770 --> 00:32:58,690
+You're going to buy a call.
+
+409
+00:33:01,510 --> 00:33:05,400
+Analyze that trade. And you're going to short 50 shares.
+
+410
+00:33:11,430 --> 00:33:15,290
+So now we have a position on that's a straddle,
+
+411
+00:33:16,090 --> 00:33:19,970
+but it's half because it's a half lot. It's half the position of a one lot.
+
+412
+00:33:21,950 --> 00:33:23,610
+So that's another place you would use them.
+
+413
+00:33:26,890 --> 00:33:31,210
+You would also use them if they're a market maker would use them if they're he's
+
+414
+00:33:31,210 --> 00:33:33,950
+trying to replicate something. So you come in, for example, Marcos,
+
+415
+00:33:34,190 --> 00:33:39,310
+with a vertical spread. The market maker says, OK, well,
+
+416
+00:33:39,330 --> 00:33:45,560
+I can actually create that exact same spread through shares and calls and puts for
+
+417
+00:33:45,560 --> 00:33:49,310
+10 cents less. So I'm going to create it.
+
+418
+00:33:49,670 --> 00:33:51,350
+I'm going to sell you this for 10 cents more.
+
+419
+00:33:52,110 --> 00:33:53,630
+So that's where market maker would use it, right?
+
+420
+00:33:53,650 --> 00:33:57,270
+They're using it all the time, creating synthetics all the time.
+
+421
+00:33:57,270 --> 00:33:59,430
+Trying to get a few pennies here, a few pennies there,
+
+422
+00:33:59,830 --> 00:34:04,280
+thousands of times a day. OK, so that's where he's going to do it.
+
+423
+00:34:05,740 --> 00:34:07,240
+Let me think where else you would use it.
+
+424
+00:34:07,320 --> 00:34:08,700
+A lot of people use it for covered calls.
+
+425
+00:34:10,510 --> 00:34:13,110
+Let me think where else people would use these.
+
+426
+00:34:18,900 --> 00:34:21,240
+OK, here's a good one. We use it all the time, guys.
+
+427
+00:34:21,740 --> 00:34:28,200
+We use this one all the time for liquidity reasons. Who knows which one it is?
+
+428
+00:34:30,540 --> 00:34:32,720
+Who knows which one it is? This is a really thinking one.
+
+429
+00:34:34,990 --> 00:34:37,720
+Who is saying reversal? No.
+
+430
+00:34:38,340 --> 00:34:44,490
+What's the synthetic you guys use at PA all the time? Synthetic option callers?
+
+431
+00:34:44,970 --> 00:34:45,410
+Nope.
+
+432
+00:34:53,030 --> 00:35:01,630
+What is it? OK, it is a iron condor or we call it an iron condor,
+
+433
+00:35:01,670 --> 00:35:05,490
+even though it's an iron fly. Right. That's a synthetic. So here I go.
+
+434
+00:35:05,510 --> 00:35:07,710
+I'm going to create this iron condor.
+
+435
+00:35:10,440 --> 00:35:12,860
+So 665, 665.
+
+436
+00:35:12,860 --> 00:35:16,740
+And then I want someone else to tell me how I can create this another way.
+
+437
+00:35:28,190 --> 00:35:31,830
+So here is the standard PA IC iron condor.
+
+438
+00:35:31,950 --> 00:35:38,080
+But what this is a synthetic what it's a synthetic butterfly. Exactly.
+
+439
+00:35:39,080 --> 00:35:44,130
+I can recreate this exact same structure by buying a butterfly.
+
+440
+00:35:51,510 --> 00:35:56,920
+Now, the reason why I like to do the IC is because we're not in the money.
+
+441
+00:35:57,880 --> 00:36:05,470
+So sometimes liquidity can be terrible and the market maker might want an extra
+
+442
+00:36:05,470 --> 00:36:10,620
+few, few more cents for you going in the money. Same trade.
+
+443
+00:36:13,760 --> 00:36:17,280
+Yeah, exactly. There's like you can create two vertical spreads.
+
+444
+00:36:17,580 --> 00:36:19,420
+You can create just so many ways.
+
+445
+00:36:21,520 --> 00:36:25,710
+But this is a iron condor that we talk about.
+
+446
+00:36:25,770 --> 00:36:28,370
+PA iron fly is the same as a butterfly.
+
+447
+00:36:30,860 --> 00:36:34,140
+OK. So that's one way.
+
+448
+00:36:34,240 --> 00:36:38,480
+Another way that we use the Marcos is to get a little bit extra liquidity on the
+
+449
+00:36:38,480 --> 00:36:40,680
+out of the money options instead of going in the money.
+
+450
+00:36:43,510 --> 00:36:49,450
+Yeah. So usually Marcos in the money options are slightly less illiquid. OK,
+
+451
+00:36:49,670 --> 00:36:54,930
+that being said, you should honestly be getting the same price, you know,
+
+452
+00:36:55,010 --> 00:36:59,070
+but sometimes you can get, you know, you can get a couple of cents.
+
+453
+00:36:59,170 --> 00:37:02,250
+The market maker wants an extra five cents in the money there.
+
+454
+00:37:03,210 --> 00:37:06,310
+The other issue is, especially when we're creating PA,
+
+455
+00:37:08,290 --> 00:37:14,780
+is having beginners trade in the money legs is probably not a great idea,
+
+456
+00:37:16,050 --> 00:37:17,960
+right? You know,
+
+457
+00:37:18,000 --> 00:37:23,220
+you don't need to get a little fishy when a little strange when it comes into expiration.
+
+458
+00:37:23,660 --> 00:37:29,220
+So, you know, that's another reason why we stayed away with those.
+
+459
+00:37:29,280 --> 00:37:31,780
+But they're really the same thing, Marcos. There's no real big difference.
+
+460
+00:37:33,100 --> 00:37:35,180
+There's no efficiency in terms of buying power.
+
+461
+00:37:41,100 --> 00:37:44,660
+OK, so that is the live on synthetics.
+
+462
+00:37:47,320 --> 00:37:50,100
+What's the difference between call and put? Shares.
+
+463
+00:37:55,700 --> 00:37:59,000
+And the difference between a covered call and an in the money short put?
+
+464
+00:37:59,640 --> 00:38:01,620
+Nothing. Nothing.
+
+465
+00:38:02,060 --> 00:38:06,320
+And the difference between the wheel and selling it in the money put and out of
+
+466
+00:38:06,320 --> 00:38:11,460
+the money put and in the money put is nothing. So, you know,
+
+467
+00:38:11,860 --> 00:38:14,300
+always be aware of that, guys. Whenever you see someone say,
+
+468
+00:38:14,380 --> 00:38:18,390
+I like some covered calls and you say, well,
+
+469
+00:38:18,570 --> 00:38:21,190
+what do you think about selling short put for margin efficiency?
+
+470
+00:38:22,440 --> 00:38:26,800
+And they say because of the dividends or because of max risk,
+
+471
+00:38:27,310 --> 00:38:28,630
+you can write them off right away.
+
+472
+00:38:31,270 --> 00:38:34,330
+Is there a way to synthetically replicate a caller?
+
+473
+00:38:38,070 --> 00:38:41,740
+Yes. So the caller is the vertical spread, right? Buy the shares,
+
+474
+00:38:41,840 --> 00:38:42,720
+sell the call, buy the put.
+
+475
+00:38:43,320 --> 00:38:48,970
+Same thing as a vertical spread or call spread or a short put spread.
+
+476
+00:38:49,130 --> 00:38:53,700
+And then same things. Harry had a question here. He's saying,
+
+477
+00:38:53,840 --> 00:38:58,700
+can you walk me through why you're only shorting 50 shares to replicate the straddle?
+
+478
+00:38:58,900 --> 00:39:03,290
+Is it because the delta of an at the money call? Yes.
+
+479
+00:39:05,130 --> 00:39:07,370
+But you're going to delta neutral. You're going to do neutral.
+
+480
+00:39:09,350 --> 00:39:11,450
+Just like you're just like a straddle itself.
+
+481
+00:39:13,540 --> 00:39:19,940
+And Marco's saying, so is there a Marco's? Yeah, go ahead. Yeah. OK, OK.
+
+482
+00:39:19,980 --> 00:39:20,820
+Is there is there an argument?
+
+483
+00:39:23,450 --> 00:39:24,830
+He asked it earlier as well,
+
+484
+00:39:24,850 --> 00:39:30,660
+because a lot of companies were suspending their dividend this year. Yeah. So,
+
+485
+00:39:30,740 --> 00:39:32,300
+Marco, what do you.
+
+486
+00:39:34,940 --> 00:39:39,800
+Yeah. So there could be. Right. You have Sean. No,
+
+487
+00:39:39,840 --> 00:39:41,880
+it's funny when you're talking to Mike. I don't know if it's on my end,
+
+488
+00:39:41,960 --> 00:39:45,480
+but you cut off. You break up like you'll be like,
+
+489
+00:39:45,780 --> 00:39:48,720
+I'll hear like five words and then three words gone and then five words come back
+
+490
+00:39:48,720 --> 00:39:52,810
+in later. Yeah. Or do you guys do that as well? Yeah, that's only me.
+
+491
+00:39:58,870 --> 00:40:05,330
+Oh, it's me, maybe. And OK. Interesting. You always end. No, no.
+
+492
+00:40:05,350 --> 00:40:09,030
+They're saying they break off. Sounds like, ha, ha, ha, ha.
+
+493
+00:40:12,060 --> 00:40:15,860
+OK. I mean, Ryan. OK, Marcos.
+
+494
+00:40:16,870 --> 00:40:21,470
+So it's all about what's implied in the options market and versus what happens.
+
+495
+00:40:21,710 --> 00:40:23,610
+So here's an example.
+
+496
+00:40:24,410 --> 00:40:30,740
+Imagine you you remember when when General Electric was given like a four percent
+
+497
+00:40:30,740 --> 00:40:35,440
+dividend and they cut all their dividends. I don't know if you remember that.
+
+498
+00:40:35,950 --> 00:40:42,050
+Well, the two year options were implying dividends for two years.
+
+499
+00:40:44,490 --> 00:40:46,370
+OK, because G is so stable.
+
+500
+00:40:46,750 --> 00:40:49,730
+Who would not think that they're going to cut their who think they cut their dividends?
+
+501
+00:40:49,810 --> 00:40:54,420
+They've been paying them for 50 years. So what you could imagine you knew that,
+
+502
+00:40:54,600 --> 00:40:57,770
+Marcos, imagine you knew that G was going to cut their dividend. Well,
+
+503
+00:40:57,770 --> 00:41:01,890
+you could buy General Electric and short that synthetic.
+
+504
+00:41:04,570 --> 00:41:06,690
+And then once General Electric cuts its dividend,
+
+505
+00:41:07,210 --> 00:41:09,890
+you're going to make all that money in that dividend.
+
+506
+00:41:10,430 --> 00:41:12,350
+In that from that from those options,
+
+507
+00:41:12,690 --> 00:41:19,670
+from those implied dividends being taken away from the options. OK, no,
+
+508
+00:41:19,730 --> 00:41:24,920
+it would be instant. Right. If if G says, hey, I'm cutting my dividends. Well,
+
+509
+00:41:25,280 --> 00:41:29,510
+there's no more dividends. So they're gone. It's instant.
+
+510
+00:41:29,650 --> 00:41:31,950
+It's instant right away. Now, that being said,
+
+511
+00:41:32,670 --> 00:41:38,250
+sometimes we're not instant inefficiency arbitrage, right?
+
+512
+00:41:38,670 --> 00:41:43,540
+You'd want to price the synthetic pre you know,
+
+513
+00:41:43,780 --> 00:41:47,320
+pre announcement of cutting dividends and then post announcement and see what happened.
+
+514
+00:41:47,380 --> 00:41:51,310
+Is it still implying a dividend? If it is, make it happen, right?
+
+515
+00:41:55,920 --> 00:41:59,200
+How would you structure it, Tico? You would just sell,
+
+516
+00:41:59,360 --> 00:42:05,640
+sell it in the money call. Sorry. So same strike call and a put and buy a put.
+
+517
+00:42:06,560 --> 00:42:08,120
+Right. You just create the synthetic shares.
+
+518
+00:42:17,150 --> 00:42:21,030
+So here you're saying realistically, why would there be an ARB in that case?
+
+519
+00:42:21,090 --> 00:42:24,690
+You're not going to find out about the dividend before the price is in. No.
+
+520
+00:42:25,930 --> 00:42:26,690
+And yes, yes.
+
+521
+00:42:26,810 --> 00:42:31,030
+The market is almost always almost always is usually very efficient. So,
+
+522
+00:42:31,190 --> 00:42:36,510
+of course, you're going to be pricing it. But there's a dividend risk premium.
+
+523
+00:42:37,080 --> 00:42:37,560
+Right.
+
+524
+00:42:37,620 --> 00:42:44,920
+Imagine how could a five year option imply five years of dividend from IBM?
+
+525
+00:42:46,540 --> 00:42:51,510
+Isn't there a risk that IBM stopped paying dividends? Of course.
+
+526
+00:42:52,150 --> 00:42:57,390
+So for that reason, the dividends are not fully going to be priced in, right?
+
+527
+00:42:57,410 --> 00:43:00,780
+Because of that, because of the risk that, you know,
+
+528
+00:43:01,680 --> 00:43:05,600
+IBM doesn't give their dividends or doesn't increase their dividends.
+
+529
+00:43:06,290 --> 00:43:09,450
+So that's just a risk premium. It's not an inefficiency.
+
+530
+00:43:18,600 --> 00:43:20,980
+What do you guys think? If that's no more questions,
+
+531
+00:43:21,080 --> 00:43:23,170
+we'll we will leave it there.
+
+532
+00:43:31,320 --> 00:43:32,280
+Looks like that's it.
+
+533
+00:43:34,710 --> 00:43:35,190
+OK.
+
+534
+00:43:38,690 --> 00:43:40,450
+Marcos, great seeing you out here. We've got one more.
+
+535
+00:43:42,980 --> 00:43:48,070
+Marcos is down in Mexico still, I wonder. OK, where's Red? Oh, for sure he is.
+
+536
+00:43:48,660 --> 00:43:53,670
+He'll come back. I guess we'll already come back. Red's saying, he's saying,
+
+537
+00:43:53,810 --> 00:43:57,370
+can't the top of that put credit spread get called away from being in the money?
+
+538
+00:43:59,520 --> 00:44:06,070
+For sure. But if it does get called away, how amazing would that be? Right.
+
+539
+00:44:06,090 --> 00:44:08,570
+It's another thing I see a lot of the time. People say, like,
+
+540
+00:44:08,650 --> 00:44:11,840
+I'm worried about assignment. I'm worried about assignment.
+
+541
+00:44:12,810 --> 00:44:17,700
+If you short a call or short a short put and it gets assigned.
+
+542
+00:44:18,420 --> 00:44:23,280
+All that extrinsic value is yours straight to straight to the bank. Right.
+
+543
+00:44:23,340 --> 00:44:29,900
+So if I ever got called away on on anything short with extrinsic value in it,
+
+544
+00:44:30,070 --> 00:44:37,000
+I mean, it's a it's a great day. It's a great day. Red,
+
+545
+00:44:37,040 --> 00:44:38,280
+if you want to look a little more into that,
+
+546
+00:44:38,320 --> 00:44:40,540
+you can check out the live archive. We have a video on it.
+
+547
+00:44:40,580 --> 00:44:43,900
+Just look up early assignment. Like just control go to the archive.
+
+548
+00:44:44,040 --> 00:44:46,020
+Control F early assignment should come up.
+
+549
+00:44:49,700 --> 00:44:51,940
+Yeah, right. Great questions, man. Keep them coming.
+
+550
+00:44:52,810 --> 00:44:55,150
+I'd love to see you on the live man. Good stuff. You know,
+
+551
+00:44:55,190 --> 00:44:58,770
+you're keeping the keeping the lives fun to come out, too. So keep it up, man.
+
+552
+00:45:06,390 --> 00:45:07,950
+OK, we'll see you guys on the next one.
