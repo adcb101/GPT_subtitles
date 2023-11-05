@@ -287,18 +287,6 @@ class Translator:
             print(line)
             i = 0
             while i < len(lines):
-                print(i)
-                if lines[i].strip() == "":
-                    i += 1
-                    continue
-                
-                if i+1 >= len(lines) or not lines[i+1].startswith("translation"):
-                    # Add missing translation line
-                    lines.insert(i+1, "   \"translation\": \"\"")
-                
-                i += 3  # Move to next subtitle
-            i = 0
-            while i < len(lines):
                 # Skip empty lines
                 if lines[i].strip() == "":
                     i += 1
@@ -311,19 +299,17 @@ class Translator:
                 # Validate and convert number
                 try:
                     number = int(number_str)
+                    print(number_str)
                 except ValueError:
                     # Handle invalid number string
-                    print(f"Invalid number string: {number_str}")
+                    #print(f"Invalid number string: {number_str}")
                     continue
-                # Ensure the line index is valid
-                if i >= len(lines):
-                    # Handle incomplete subtitle entry
-                    print("Incomplete subtitle entry")
-                    break
+
 
                 #number = int(lines[i])
                 
                 original_text = lines[i]
+                print(original_text)
                 
                 # Add to subtitles list
                 subtitles.append({"index": number, "original_text": original_text})
