@@ -418,7 +418,7 @@ Guidelines:
                 for obj in data["current_batch_subtitles_translation"]:
                     if 'translation' not in obj:
                        obj['translation'] = obj['original_text']
-                print(data["current_batch_subtitles_translation"])
+                #print(data["current_batch_subtitles_translation"])
                 for subtitle in data["current_batch_subtitles_translation"]:
                     index = subtitle["index"]
                     translation = subtitle["translation"]
