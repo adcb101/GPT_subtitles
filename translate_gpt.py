@@ -284,7 +284,7 @@ class Translator:
     def process_line(self, line):
             subtitles = []
             lines = line.split("\n")
-            print(line)
+            #print(line)
             i = 0
             while i < len(lines):
                 # Skip empty lines
@@ -299,9 +299,9 @@ class Translator:
                 # Validate and convert number
                 try:
                     number = int(number_str)
-                    print(number_str)
+                    #print(number_str)
                 except ValueError:
-                    # Handle invalid number string
+                    #Handle invalid number string
                     #print(f"Invalid number string: {number_str}")
                     continue
 
@@ -309,7 +309,7 @@ class Translator:
                 #number = int(lines[i])
                 
                 original_text = lines[i]
-                print(original_text)
+                #print(original_text)
                 
                 # Add to subtitles list
                 subtitles.append({"index": number, "original_text": original_text})
@@ -429,6 +429,7 @@ Guidelines:
         
                 # Extract translations and construct the output string
                 output_string = ""
+                print(data["current_batch_subtitles_translation"])
                 for subtitle in data["current_batch_subtitles_translation"]:
                     index = subtitle["index"]
                     translation = subtitle["translation"]
