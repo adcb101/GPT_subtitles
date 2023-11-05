@@ -291,23 +291,9 @@ class Translator:
                 if lines[i].strip() == "":
                     i += 1
                     continue
-                
-                # Extract number and text
-                number_str = lines[i]
+                    
+                number = int(lines[i])
                 i += 1
-
-                # Validate and convert number
-                try:
-                    number = int(number_str)
-                    #print(number_str)
-                except ValueError:
-                    #Handle invalid number string
-                    #print(f"Invalid number string: {number_str}")
-                    continue
-
-
-                #number = int(lines[i])
-                
                 original_text = lines[i]
                 #print(original_text)
                 
@@ -429,6 +415,9 @@ Guidelines:
         
                 # Extract translations and construct the output string
                 output_string = ""
+                for obj in data["current_batch_subtitles_translation"]:
+                    if 'translation' not in obj:
+                       obj['translation'] = obj['original_text']
                 print(data["current_batch_subtitles_translation"])
                 for subtitle in data["current_batch_subtitles_translation"]:
                     index = subtitle["index"]
