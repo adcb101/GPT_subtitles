@@ -103,39 +103,6 @@
                         "Diablo 2": "暗黑破坏神2"
                     }
                 }
-            },
-            
-            {
-                "input": {
-                    "current_batch_subtitles": [
-                        {
-                            "index": 102,
-                            "original_text": "You may find a chest piece for example that has like three different resistances"
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "with like 50% or something like that and you think wow this is a lot of damage reduction"
-                        }
-                    ]
-                },
-                "output": {
-                    "current_batch_subtitles_translation": [
-                        {
-                            "index": 102,
-                            "original_text": "You may find a chest piece for example that has like three different resistances",
-                            "translation": "你可能会找到一个胸甲有3个50%左右的抗性，"
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "with like 50% or something like that and you think wow this is a lot of damage reduction",
-                            "translation": "然后你会觉得哇，这是很多的伤害减免，"
-                        }
-                    ],
-                    "translation_mapping": {
-                        "resistances": "抗性",
-                        "damage reduction": "伤害减免"
-                    }
-                }
             }
         ]
     },
@@ -240,35 +207,7 @@
                         "디아블로 2": "暗黑破坏神"
                     }
                 }
-            },
-            {
-                "input": {
-                    "current_batch_subtitles": [
-                        {
-                            "index": 102,
-                            "original_text": "예를 들어, 세 가지 다른 저항력이 있는 가슴피스를 찾을 수 있습니다."
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "50% 정도의 것과 같은 것들이며, 당신은 와우 이것은 많은 피해 감소라고 생각합니다."
-                        }
-                    ]
-                },
-                "output": {
-                    "current_batch_subtitles_translation": [
-                        {
-                            "index": 102,
-                            "original_text": "예를 들어, 세 가지 다른 저항력이 있는 가슴피스를 찾을 수 있습니다.",
-                            "translation":"你可能会看到一个胸甲有3个50%左右的抗性，"
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "50% 정도의 것과 같은 것들이며, 당신은 와우 이것은 많은 피해 감소라고 생각합니다.",
-                            "translation": "然后你会觉得哇，这是很大的伤害减免，"
-                        }
-                    ]
-                }
-            }
+            }           
         ]
     }
 }
