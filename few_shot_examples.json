@@ -103,39 +103,6 @@
                         "Diablo 2": "暗黑破坏神2"
                     }
                 }
-            },
-            
-            {
-                "input": {
-                    "current_batch_subtitles": [
-                        {
-                            "index": 102,
-                            "original_text": "You may find a chest piece for example that has like three different resistances"
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "with like 50% or something like that and you think wow this is a lot of damage reduction"
-                        }
-                    ]
-                },
-                "output": {
-                    "current_batch_subtitles_translation": [
-                        {
-                            "index": 102,
-                            "original_text": "You may find a chest piece for example that has like three different resistances",
-                            "translation": "你可能会找到一个胸甲有3个50%左右的抗性，"
-                        },
-                        {
-                            "index": 103,
-                            "original_text": "with like 50% or something like that and you think wow this is a lot of damage reduction",
-                            "translation": "然后你会觉得哇，这是很多的伤害减免，"
-                        }
-                    ],
-                    "translation_mapping": {
-                        "resistances": "抗性",
-                        "damage reduction": "伤害减免"
-                    }
-                }
             }
         ]
     },
