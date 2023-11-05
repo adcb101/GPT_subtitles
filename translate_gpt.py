@@ -642,11 +642,11 @@ Guidelines:
 
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
-    str_list = [
-                 '/kaggle/working/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
-                 '/kaggle/working/GPT_subtitles/2/2.4 - Butterflys.srt',
-                 '/kaggle/working/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
-                 '/kaggle/working/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
+    str_list = [ 
+                 '/content/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
+                 '/content/GPT_subtitles/2/2.4 - Butterflys.srt',
+                 '/content/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
+                 '/content/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
     ]
 
     for item in str_list:
