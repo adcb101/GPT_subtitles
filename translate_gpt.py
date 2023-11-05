@@ -284,7 +284,17 @@ class Translator:
     def process_line(self, line):
             subtitles = []
             lines = line.split("\n")
-            
+            i = 0
+            while i < len(lines):
+                if lines[i].strip() == "":
+                    i += 1
+                    continue
+                
+                if i+1 >= len(lines) or not lines[i+1].startswith("translation"):
+                    # Add missing translation line
+                    lines.insert(i+1, "   \"translation\": \"\"")
+                
+                i += 3  # Move to next subtitle
             i = 0
             while i < len(lines):
                 # Skip empty lines
