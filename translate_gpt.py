@@ -646,10 +646,18 @@ Guidelines:
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
     str_list = [
-                 '/content/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
-                 '/content/GPT_subtitles/2/2.4 - Butterflys.srt',
-                 '/content/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
-                 '/content/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
+                 '/kaggle/working/GPT_subtitles/3/1.1 - Euan Sinclair Interview - PA EXCLUSIVE.srt',
+                 '/kaggle/working/GPT_subtitles/3/1.3 - Understanding Forward Volatility.srt',    
+                 '/kaggle/working/GPT_subtitles/3/1.4 - Term Structure and Forward Volatility.srt',
+                 '/kaggle/working/GPT_subtitles/3/1.9 - Introduction to Synthetics.srt',  
+                 '/kaggle/working/GPT_subtitles/3/2.12 - Managing Relative Value Positions.srt', 
+                 '/kaggle/working/GPT_subtitles/3/2.3 - How to Trade in a Lower Volatility Environment.srt', 
+                 '/kaggle/working/GPT_subtitles/3/2.5 - How to Trade Forward Volatility.srt',            
+                 '/kaggle/working/GPT_subtitles/3/2.6 - Interview with a Profitable Earnings Trader.srt',  
+                 '/kaggle/working/GPT_subtitles/3/2.9 - Earnings Pre Releases and How to Trade Them.srt',   
+                 '/kaggle/working/GPT_subtitles/4/1.7 - Building a Sports Betting Model with Aaron Brown.srt',  
+                 '/kaggle/working/GPT_subtitles/4/1.8 - How Risk Neutral Densities Work.srt',       
+                 '/kaggle/working/GPT_subtitles/4/2.4 - Coding for Traders - Running A Regression Analysis - Lesson 4.srt' 
     ]
 
     for item in str_list:
