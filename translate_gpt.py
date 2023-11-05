@@ -642,19 +642,19 @@ Guidelines:
 
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
-    str_list = [
-                 '/kaggle/working/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
-                 '/kaggle/working/GPT_subtitles/2/2.4 - Butterflys.srt',
-                 '/kaggle/working/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
-                 '/kaggle/working/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
+    # str_list = [
+    #              '/kaggle/working/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
+    #              '/kaggle/working/GPT_subtitles/2/2.4 - Butterflys.srt',
+    #              '/kaggle/working/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
+    #              '/kaggle/working/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
     ]
 
-    for item in str_list:
-        file_name = os.path.splitext(os.path.basename(item))[0]
+   #  for item in str_list:
+        file_name = os.path.splitext(os.path.basename(input_file))[0]
     
-        subtitle = Subtitle(item)
+        subtitle = Subtitle(input_file)
         translator = Translator(model=model, batch_size=batch_size, target_language=target_language, source_language=source_language,
-                                titles=file_name, video_info=video_info, input_path=item, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
+                                titles=file_name, video_info=video_info, input_path=input_file, no_translation_mapping=no_translation_mapping, load_from_tmp=load_from_tmp)
     
         subtitle_batches, timestamps_batches = subtitle.get_processed_batches_and_timestamps(
             batch_size)
@@ -662,11 +662,11 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
             subtitle_batches, timestamps_batches)
     
         output_file = os.path.join(os.path.dirname(
-            item), f"{os.path.splitext(os.path.basename(item))[0]}_{target_language}_gpt.srt")
+            input_file), f"{os.path.splitext(os.path.basename(input_file))[0]}_{target_language}_gpt.srt")
         #
         subtitle.save_subtitles(output_file, translated_subtitles)
         
-        print(item+'已完成')
+        # print(item+'已完成')
 
         # print(translated_transcript)
         # subtitle.add_dual_subtitles(input_file,translated_subtitles)
