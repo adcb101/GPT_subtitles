@@ -284,7 +284,17 @@ class Translator:
     def process_line(self, line):
             subtitles = []
             lines = line.split("\n")
-            
+            i = 0
+            while i < len(lines):
+                if lines[i].strip() == "":
+                    i += 1
+                    continue
+                
+                if i+1 >= len(lines) or not lines[i+1].startswith("translation"):
+                    # Add missing translation line
+                    lines.insert(i+1, "   \"translation\": \"\"")
+                
+                i += 3  # Move to next subtitle
             i = 0
             while i < len(lines):
                 # Skip empty lines
@@ -293,8 +303,24 @@ class Translator:
                     continue
                 
                 # Extract number and text
-                number = int(lines[i])
+                number_str = lines[i]
                 i += 1
+
+                # Validate and convert number
+                try:
+                    number = int(number_str)
+                except ValueError:
+                    # Handle invalid number string
+                    print(f"Invalid number string: {number_str}")
+                    continue
+                # Ensure the line index is valid
+                if i >= len(lines):
+                    # Handle incomplete subtitle entry
+                    print("Incomplete subtitle entry")
+                    break
+
+                #number = int(lines[i])
+                
                 original_text = lines[i]
                 
                 # Add to subtitles list
@@ -642,8 +668,7 @@ Guidelines:
 
 def translate_with_gpt(input_file, target_language='zh', source_language='en', batch_size=40, model='gpt-3.5-turbo-16k', video_info=None, no_translation_mapping=False, load_from_tmp=False):
     # Extract the file name without the extension
-    str_list = [ 
-                 '/content/GPT_subtitles/2/1.4 - Implied Volatility In Depth Discussion.srt',
+    str_list = [
                  '/content/GPT_subtitles/2/2.4 - Butterflys.srt',
                  '/content/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
                  '/content/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
