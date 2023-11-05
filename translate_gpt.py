@@ -293,8 +293,24 @@ class Translator:
                     continue
                 
                 # Extract number and text
-                number = int(lines[i])
+                number_str = lines[i]
                 i += 1
+
+                # Validate and convert number
+                try:
+                    number = int(number_str)
+                except ValueError:
+                    # Handle invalid number string
+                    print(f"Invalid number string: {number_str}")
+                    continue
+                # Ensure the line index is valid
+                if i >= len(lines):
+                    # Handle incomplete subtitle entry
+                    print("Incomplete subtitle entry")
+                    break
+
+                #number = int(lines[i])
+                
                 original_text = lines[i]
                 
                 # Add to subtitles list
