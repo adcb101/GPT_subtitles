@@ -647,9 +647,9 @@ def translate_with_gpt(input_file, target_language='zh', source_language='en', b
     #              '/kaggle/working/GPT_subtitles/2/2.4 - Butterflys.srt',
     #              '/kaggle/working/GPT_subtitles/2/3.2 - TSLA Short Volatility Trade & the Difference Between a Straddle vs Strangle.srt',
     #              '/kaggle/working/GPT_subtitles/2/3.6 - Short Put Spread Strategy Part 1.srt'
-    ]
+    #]
 
-   #  for item in str_list:
+    # for item in str_list:
         file_name = os.path.splitext(os.path.basename(input_file))[0]
     
         subtitle = Subtitle(input_file)
