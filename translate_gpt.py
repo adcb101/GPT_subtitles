@@ -284,6 +284,7 @@ class Translator:
     def process_line(self, line):
             subtitles = []
             lines = line.split("\n")
+            print(lines)
             i = 0
             while i < len(lines):
                 if lines[i].strip() == "":
